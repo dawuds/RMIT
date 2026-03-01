@@ -1,0 +1,314 @@
+[
+  {
+    "id": "8",
+    "name": "Governance",
+    "subsections": [
+      {
+        "name": "Board of Directors",
+        "clauses": [
+          "8.1",
+          "8.2",
+          "8.3",
+          "8.4",
+          "8.5"
+        ]
+      },
+      {
+        "name": "Senior Management",
+        "clauses": [
+          "8.6",
+          "8.7"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Technology Risk Management",
+    "subsections": [
+      {
+        "name": "Risk Management Framework",
+        "clauses": [
+          "9.1",
+          "9.2",
+          "9.3",
+          "9.4",
+          "9.5"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Technology Operations Management",
+    "subsections": [
+      {
+        "name": "Project Management",
+        "clauses": [
+          "10.1",
+          "10.2",
+          "10.3"
+        ]
+      },
+      {
+        "name": "System Development",
+        "clauses": [
+          "10.4",
+          "10.5",
+          "10.6",
+          "10.7",
+          "10.8",
+          "10.9",
+          "10.10",
+          "10.11",
+          "10.12",
+          "10.13",
+          "10.14",
+          "10.15",
+          "10.16"
+        ]
+      },
+      {
+        "name": "Patch & End-of-Life",
+        "clauses": [
+          "10.17",
+          "10.18",
+          "10.19"
+        ]
+      },
+      {
+        "name": "Cryptography",
+        "clauses": [
+          "10.20",
+          "10.21",
+          "10.22",
+          "10.23"
+        ]
+      },
+      {
+        "name": "Data Centre & Facilities",
+        "clauses": [
+          "10.24",
+          "10.25",
+          "10.26",
+          "10.27",
+          "10.28"
+        ]
+      },
+      {
+        "name": "Service Availability",
+        "clauses": [
+          "10.29",
+          "10.30",
+          "10.31",
+          "10.32",
+          "10.33",
+          "10.34",
+          "10.35"
+        ]
+      },
+      {
+        "name": "Network Security",
+        "clauses": [
+          "10.36",
+          "10.37",
+          "10.38",
+          "10.39",
+          "10.40",
+          "10.41",
+          "10.42",
+          "10.43"
+        ]
+      },
+      {
+        "name": "Backup & Recovery",
+        "clauses": [
+          "10.44",
+          "10.45"
+        ]
+      },
+      {
+        "name": "Third-Party Management",
+        "clauses": [
+          "10.46",
+          "10.47",
+          "10.48",
+          "10.49"
+        ]
+      },
+      {
+        "name": "Cloud Services",
+        "clauses": [
+          "10.50",
+          "10.51",
+          "10.52"
+        ]
+      },
+      {
+        "name": "Access Control",
+        "clauses": [
+          "10.53",
+          "10.54",
+          "10.55",
+          "10.56",
+          "10.57"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Cybersecurity Management",
+    "subsections": [
+      {
+        "name": "Cybersecurity Framework",
+        "clauses": [
+          "11.1",
+          "11.2",
+          "11.3",
+          "11.4",
+          "11.5"
+        ]
+      },
+      {
+        "name": "Security Operations",
+        "clauses": [
+          "11.6",
+          "11.7",
+          "11.8",
+          "11.9",
+          "11.10"
+        ]
+      },
+      {
+        "name": "Vulnerability Management",
+        "clauses": [
+          "11.11",
+          "11.12",
+          "11.13",
+          "11.14",
+          "11.15"
+        ]
+      },
+      {
+        "name": "Threat Intelligence",
+        "clauses": [
+          "11.16",
+          "11.17",
+          "11.18",
+          "11.19",
+          "11.20"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Digital Services",
+    "subsections": [
+      {
+        "name": "Digital Channels",
+        "clauses": [
+          "12.1",
+          "12.2",
+          "12.3",
+          "12.4",
+          "12.5",
+          "12.6",
+          "12.7",
+          "12.8",
+          "12.9"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Technology Audits",
+    "subsections": [
+      {
+        "name": "Audit Framework",
+        "clauses": [
+          "13.1",
+          "13.2",
+          "13.3",
+          "13.4"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "name": "External Party Assurance",
+    "subsections": [
+      {
+        "name": "Third-Party Assurance",
+        "clauses": [
+          "14.1",
+          "14.2"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Security Awareness & Education",
+    "subsections": [
+      {
+        "name": "Training & Awareness",
+        "clauses": [
+          "15.1",
+          "15.2",
+          "15.3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "name": "Regulatory Notifications",
+    "subsections": [
+      {
+        "name": "BNM Notifications",
+        "clauses": [
+          "16.1",
+          "16.2",
+          "16.3",
+          "16.4",
+          "16.5",
+          "16.6",
+          "16.7"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "name": "Cloud & Emerging Technology",
+    "subsections": [
+      {
+        "name": "Cloud & Innovation",
+        "clauses": [
+          "17.1",
+          "17.2",
+          "17.3",
+          "17.4",
+          "17.5"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "name": "Assessment & Gap Analysis",
+    "subsections": [
+      {
+        "name": "Self-Assessment",
+        "clauses": [
+          "18.1",
+          "18.2"
+        ]
+      }
+    ]
+  }
+]

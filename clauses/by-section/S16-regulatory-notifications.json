@@ -1,0 +1,275 @@
+[
+  {
+    "id": "16.1",
+    "section": "Regulatory Notifications",
+    "subsection": "BNM Notifications",
+    "title": "Material Incident Notification",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "verbatim": "Financial institutions shall notify Bank Negara Malaysia of all material technology and cybersecurity incidents within four hours of detection. The notification shall include the nature of the incident, systems affected, estimated impact, and initial response actions. A detailed follow-up report shall be submitted within fourteen days.",
+    "translation": "Notify BNM within 4 hours of detecting any material technology or cybersecurity incident. Include what happened, what systems are affected, estimated impact, and what you are doing about it. Submit a detailed follow-up report within 14 days.",
+    "evidence": [
+      "BNM incident notification procedure",
+      "Incident notification template",
+      "Sample incident notification records",
+      "Follow-up report records"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "BNM Incident Notification Procedure",
+        "description": "Procedure for notifying BNM of material incidents within four hours",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Notification Templates",
+        "description": "Templates for initial notification and 14-day follow-up report to BNM",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "Notification Records",
+        "description": "Records of all BNM incident notifications and follow-up reports",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "16.2",
+    "section": "Regulatory Notifications",
+    "subsection": "BNM Notifications",
+    "title": "Technology Project Notification",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "verbatim": "Financial institutions shall notify Bank Negara Malaysia of major technology projects that may have a significant impact on the institution's operations or customers. Notification shall be made at least three months prior to the planned implementation and shall include project scope, risk assessment, and implementation timeline.",
+    "translation": "Notify BNM about major technology projects at least three months before implementation. Include the project scope, risk assessment, and implementation timeline. This applies to projects that could significantly affect operations or customers.",
+    "evidence": [
+      "Technology project notification procedure",
+      "Project notification records to BNM",
+      "Major project risk assessments",
+      "Three-month advance notification evidence"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Technology Project Notification Procedure",
+        "description": "Procedure for notifying BNM of major technology projects",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Project Notification Records",
+        "description": "Records of technology project notifications submitted to BNM",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Major Project Risk Assessments",
+        "description": "Risk assessments for major projects submitted as part of BNM notification",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "16.3",
+    "section": "Regulatory Notifications",
+    "subsection": "BNM Notifications",
+    "title": "Outsourcing Notification",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "verbatim": "Financial institutions shall notify Bank Negara Malaysia of material outsourcing arrangements involving technology services. Notification shall be made prior to entering into the outsourcing arrangement and shall include the scope of outsourced services, risk assessment, and oversight mechanisms.",
+    "translation": "Before entering into any material technology outsourcing arrangement, notify BNM. Include the scope of services being outsourced, the risk assessment, and how you will oversee the arrangement.",
+    "evidence": [
+      "Outsourcing notification procedure",
+      "BNM outsourcing notifications records",
+      "Outsourcing risk assessments",
+      "Oversight mechanism documentation"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Outsourcing Notification Procedure",
+        "description": "Procedure for notifying BNM of material technology outsourcing arrangements",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Outsourcing Notification Records",
+        "description": "Records of outsourcing notifications submitted to BNM",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Outsourcing Risk Assessment",
+        "description": "Risk assessment for material outsourcing arrangements submitted to BNM",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "16.4",
+    "section": "Regulatory Notifications",
+    "subsection": "BNM Notifications",
+    "title": "Cloud Adoption Notification",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "verbatim": "Financial institutions shall notify Bank Negara Malaysia prior to the adoption of cloud services for critical systems or systems that process, store, or transmit customer data. The notification shall include the cloud risk assessment, data residency arrangements, and the shared responsibility model with the cloud service provider.",
+    "translation": "Before using cloud services for critical systems or customer data, notify BNM. Include your cloud risk assessment, data residency arrangements, and the shared responsibility model with your cloud provider.",
+    "evidence": [
+      "Cloud adoption notification procedure",
+      "BNM cloud adoption notification records",
+      "Cloud risk assessments submitted to BNM",
+      "Data residency and shared responsibility documentation"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Cloud Adoption Notification Procedure",
+        "description": "Procedure for notifying BNM prior to cloud service adoption",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Cloud Notification Records",
+        "description": "Records of cloud adoption notifications submitted to BNM",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Cloud Risk Assessment for BNM",
+        "description": "Cloud risk assessments submitted as part of BNM notification",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "16.5",
+    "section": "Regulatory Notifications",
+    "subsection": "BNM Notifications",
+    "title": "Technology Audit Findings",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "verbatim": "Financial institutions shall report significant technology audit findings to Bank Negara Malaysia in a timely manner. Findings that indicate material weaknesses in technology risk management, cybersecurity controls, or regulatory compliance shall be reported within thirty days of the audit report being finalised.",
+    "translation": "Report significant IT audit findings to BNM within 30 days of the audit report being finalised. This applies to findings that indicate material weaknesses in technology risk management, cybersecurity, or regulatory compliance.",
+    "evidence": [
+      "Audit finding reporting procedure for BNM",
+      "Significant finding identification criteria",
+      "BNM audit finding notification records",
+      "Thirty-day reporting compliance records"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Audit Finding Reporting Procedure",
+        "description": "Procedure for reporting significant technology audit findings to BNM",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Audit Finding Notifications",
+        "description": "Records of significant audit findings reported to BNM within 30 days",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "governance",
+        "name": "Significant Finding Criteria",
+        "description": "Criteria for determining which audit findings require BNM notification",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "16.6",
+    "section": "Regulatory Notifications",
+    "subsection": "BNM Notifications",
+    "title": "Regulatory Examination Response",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "verbatim": "Financial institutions shall respond to Bank Negara Malaysia regulatory examination findings within the timeframes specified by the Bank. Action plans shall be developed for all findings and progress shall be reported to the board and to the Bank as required. The institution shall cooperate fully with regulatory examinations.",
+    "translation": "Respond to BNM examination findings within the required timeframes. Develop action plans for every finding and report progress to both the board and BNM. Full cooperation with regulatory examinations is mandatory.",
+    "evidence": [
+      "Regulatory examination response procedure",
+      "Examination finding action plans",
+      "Progress reports to BNM and board",
+      "Cooperation and access provision records"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Regulatory Examination Response Procedure",
+        "description": "Procedure for responding to BNM examination findings within required timeframes",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Examination Finding Action Plans",
+        "description": "Action plans for all regulatory examination findings with timelines",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Progress Reports to BNM",
+        "description": "Progress reports on examination finding remediation submitted to BNM",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "16.7",
+    "section": "Regulatory Notifications",
+    "subsection": "BNM Notifications",
+    "title": "Annual Technology Risk Report",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "verbatim": "Financial institutions shall submit an annual technology risk report to Bank Negara Malaysia. The report shall include an assessment of the institution's technology risk posture, significant incidents during the reporting period, key risk indicators, and planned technology risk management initiatives for the coming year.",
+    "translation": "Submit an annual technology risk report to BNM covering your current risk posture, significant incidents from the past year, key risk metrics, and your plans for improving technology risk management in the coming year.",
+    "evidence": [
+      "Annual technology risk report submitted to BNM",
+      "Technology risk posture assessment",
+      "Annual incident summary",
+      "Planned initiatives for the coming year"
+    ],
+    "artifacts": [
+      {
+        "category": "reports",
+        "name": "Annual Technology Risk Report",
+        "description": "Comprehensive annual technology risk report submitted to BNM",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Technology Risk Posture Assessment",
+        "description": "Assessment of current technology risk posture included in annual report",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "governance",
+        "name": "Planned Risk Initiatives",
+        "description": "Documented plans for technology risk management initiatives in the coming year",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  }
+]

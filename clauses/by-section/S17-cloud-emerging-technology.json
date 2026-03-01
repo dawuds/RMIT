@@ -1,0 +1,197 @@
+[
+  {
+    "id": "17.1",
+    "section": "Cloud & Emerging Technology",
+    "subsection": "Cloud & Innovation",
+    "title": "Cloud Strategy & Governance",
+    "clauseType": "governance",
+    "marker": "S",
+    "verbatim": "Financial institutions shall establish a cloud strategy and governance framework that defines the institution's approach to cloud adoption, approved cloud service models, and governance structures for cloud-related decisions. The strategy shall be aligned with the institution's overall technology strategy and risk appetite.",
+    "translation": "Develop a board-approved cloud strategy that defines your approach to cloud adoption, which service models are approved, and how cloud decisions are governed. Align it with your overall technology strategy and risk appetite.",
+    "evidence": [
+      "Cloud strategy document",
+      "Cloud governance framework",
+      "Approved cloud service models and providers",
+      "Strategy alignment with technology strategy"
+    ],
+    "artifacts": [
+      {
+        "category": "governance",
+        "name": "Cloud Strategy",
+        "description": "Board-approved cloud strategy defining approach to cloud adoption",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "governance",
+        "name": "Cloud Governance Framework",
+        "description": "Framework defining governance structures for cloud-related decisions",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Strategy Alignment Documentation",
+        "description": "Documentation showing alignment between cloud and overall technology strategy",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "17.2",
+    "section": "Cloud & Emerging Technology",
+    "subsection": "Cloud & Innovation",
+    "title": "Cloud Security Controls",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement security controls for cloud environments that address identity and access management, data protection, network security, logging and monitoring, and configuration management. Controls shall be aligned with the shared responsibility model and validated through regular assessments.",
+    "translation": "Implement cloud-specific security controls for IAM, data protection, network security, logging, and configuration management. These controls must align with the shared responsibility model and be regularly tested to ensure they work.",
+    "evidence": [
+      "Cloud security control framework",
+      "Shared responsibility model mapping",
+      "Cloud security configuration evidence",
+      "Cloud security assessment reports"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Cloud Security Control Framework",
+        "description": "Framework defining security controls for cloud environments",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Cloud Security Configuration",
+        "description": "Configuration evidence for cloud IAM, data protection, and network security",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Cloud Security Assessment Report",
+        "description": "Regular assessment reports validating cloud security control effectiveness",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "17.3",
+    "section": "Cloud & Emerging Technology",
+    "subsection": "Cloud & Innovation",
+    "title": "Cloud Portability & Exit",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "verbatim": "Financial institutions shall ensure that cloud architectures support portability and avoid excessive dependency on a single cloud service provider. Exit strategies shall be maintained for all cloud services and shall include data extraction procedures, transition timelines, and contingency arrangements.",
+    "translation": "Design cloud architectures for portability to avoid vendor lock-in. Maintain exit strategies for every cloud service covering data extraction, transition timelines, and contingency plans in case you need to move away from a provider.",
+    "evidence": [
+      "Cloud portability architecture documentation",
+      "Cloud exit strategy documents",
+      "Data extraction procedures",
+      "Vendor lock-in risk assessments"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Cloud Exit Strategy",
+        "description": "Exit strategies for all cloud services with data extraction and transition plans",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Cloud Portability Architecture",
+        "description": "Architecture documentation demonstrating cloud portability and reduced vendor lock-in",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Vendor Lock-In Risk Assessment",
+        "description": "Risk assessment of vendor lock-in for each cloud service",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "17.4",
+    "section": "Cloud & Emerging Technology",
+    "subsection": "Cloud & Innovation",
+    "title": "AI & Machine Learning Governance",
+    "clauseType": "governance",
+    "marker": "G",
+    "verbatim": "Financial institutions should establish governance frameworks for the use of artificial intelligence and machine learning in decision-making processes. The framework should address model risk management, data quality, bias detection, explainability, and accountability. AI models used for customer-facing decisions should be subject to regular validation.",
+    "translation": "If you use AI or ML for decision-making, establish a governance framework covering model risk, data quality, bias, explainability, and accountability. AI models that affect customers should be regularly validated to ensure fairness and accuracy.",
+    "evidence": [
+      "AI and ML governance framework",
+      "Model risk management procedures",
+      "Bias detection and explainability documentation",
+      "Model validation reports"
+    ],
+    "artifacts": [
+      {
+        "category": "governance",
+        "name": "AI/ML Governance Framework",
+        "description": "Framework governing AI and ML use including model risk, bias, and explainability",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      },
+      {
+        "category": "procedures",
+        "name": "Model Risk Management Procedures",
+        "description": "Procedures for managing risks associated with AI and ML models",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      },
+      {
+        "category": "reports",
+        "name": "AI Model Validation Reports",
+        "description": "Validation reports for AI models used in customer-facing decisions",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      }
+    ]
+  },
+  {
+    "id": "17.5",
+    "section": "Cloud & Emerging Technology",
+    "subsection": "Cloud & Innovation",
+    "title": "Emerging Technology Risk Assessment",
+    "clauseType": "regulatory",
+    "marker": "G",
+    "verbatim": "Financial institutions should conduct risk assessments for the adoption of emerging technologies including distributed ledger technology, quantum computing preparedness, and Internet of Things deployments. Risk assessments should consider security, privacy, regulatory, and operational implications prior to adoption.",
+    "translation": "Before adopting emerging technologies like blockchain, IoT, or preparing for quantum computing impacts, conduct risk assessments covering security, privacy, regulatory, and operational implications. Understand the risks before committing.",
+    "evidence": [
+      "Emerging technology risk assessment framework",
+      "Completed risk assessments for adopted emerging technologies",
+      "Quantum computing readiness assessment",
+      "Emerging technology risk register"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Emerging Technology Risk Assessment Framework",
+        "description": "Framework for assessing risks of emerging technology adoption",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      },
+      {
+        "category": "reports",
+        "name": "Emerging Technology Risk Assessments",
+        "description": "Risk assessment reports for emerging technologies under consideration or adopted",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      },
+      {
+        "category": "evidence",
+        "name": "Quantum Readiness Assessment",
+        "description": "Assessment of preparedness for quantum computing impacts on cryptography",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      }
+    ]
+  }
+]

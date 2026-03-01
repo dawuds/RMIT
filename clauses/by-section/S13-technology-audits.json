@@ -1,0 +1,158 @@
+[
+  {
+    "id": "13.1",
+    "section": "Technology Audits",
+    "subsection": "Audit Framework",
+    "title": "IT Audit Plan",
+    "clauseType": "governance",
+    "marker": "S",
+    "verbatim": "Financial institutions shall establish a risk-based IT audit plan that covers all critical technology domains including cybersecurity, IT operations, change management, access control, and business continuity. The audit plan shall be approved by the audit committee and shall be executed by qualified IT auditors.",
+    "translation": "Create a risk-based IT audit plan covering all key technology areas. The plan must be approved by the audit committee and executed by qualified IT auditors who understand the technology being audited.",
+    "evidence": [
+      "IT audit plan document (annual)",
+      "Audit committee approval records",
+      "Risk-based audit scoping methodology",
+      "Audit plan coverage analysis"
+    ],
+    "artifacts": [
+      {
+        "category": "governance",
+        "name": "Annual IT Audit Plan",
+        "description": "Risk-based IT audit plan covering all critical technology domains",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Audit Committee Approval",
+        "description": "Audit committee approval records for the IT audit plan",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "procedures",
+        "name": "Audit Scoping Methodology",
+        "description": "Risk-based methodology for scoping and prioritising IT audits",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "13.2",
+    "section": "Technology Audits",
+    "subsection": "Audit Framework",
+    "title": "IT Audit Independence",
+    "clauseType": "governance",
+    "marker": "S",
+    "verbatim": "Financial institutions shall ensure that IT audit functions maintain independence from the activities they audit. IT auditors shall have unrestricted access to all systems, records, and personnel necessary for audit activities. The internal audit function shall report directly to the audit committee.",
+    "translation": "IT auditors must be independent from the teams and systems they audit. They need unrestricted access to all systems, data, and people for their work. The audit function must report directly to the audit committee, not to IT management.",
+    "evidence": [
+      "Audit independence policy",
+      "Audit function reporting line documentation",
+      "Audit access rights documentation",
+      "Audit committee charter covering IT audit"
+    ],
+    "artifacts": [
+      {
+        "category": "governance",
+        "name": "Audit Independence Policy",
+        "description": "Policy ensuring independence of IT audit from audited activities",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Audit Reporting Line Documentation",
+        "description": "Documentation showing audit function reporting directly to audit committee",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Audit Access Rights",
+        "description": "Documentation of unrestricted audit access to systems and records",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "13.3",
+    "section": "Technology Audits",
+    "subsection": "Audit Framework",
+    "title": "IT Audit Competency",
+    "clauseType": "governance",
+    "marker": "G",
+    "verbatim": "Financial institutions should ensure that IT auditors possess relevant professional certifications and maintain current knowledge of technology risks, cybersecurity threats, and auditing standards. Continuous professional development should be provided and tracked for all IT audit personnel.",
+    "translation": "IT auditors should hold relevant certifications (such as CISA, CISSP) and stay current on technology risks and audit standards. Provide and track continuous professional development for all IT audit staff.",
+    "evidence": [
+      "IT auditor certification and qualification records",
+      "Continuous professional development records",
+      "Auditor competency assessment results",
+      "Training plan for IT audit personnel"
+    ],
+    "artifacts": [
+      {
+        "category": "evidence",
+        "name": "Auditor Certification Records",
+        "description": "Professional certification and qualification records for IT auditors",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "CPD Records",
+        "description": "Continuous professional development records for IT audit personnel",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      },
+      {
+        "category": "governance",
+        "name": "Auditor Training Plan",
+        "description": "Annual training and development plan for IT audit team",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      }
+    ]
+  },
+  {
+    "id": "13.4",
+    "section": "Technology Audits",
+    "subsection": "Audit Framework",
+    "title": "IT Audit Follow-Up",
+    "clauseType": "governance",
+    "marker": "S",
+    "verbatim": "Financial institutions shall establish a process for tracking and following up on IT audit findings until remediation is complete. Management shall provide action plans with target dates for all audit findings. Overdue findings shall be escalated to senior management and the audit committee.",
+    "translation": "Track all IT audit findings through to completion. Management must provide action plans with target dates for each finding. If findings become overdue, escalate them to senior management and the audit committee.",
+    "evidence": [
+      "Audit finding tracking process documentation",
+      "Audit finding register with action plans and target dates",
+      "Overdue finding escalation records",
+      "Audit finding closure evidence"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Audit Follow-Up Procedure",
+        "description": "Procedure for tracking IT audit findings to remediation completion",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Audit Finding Register",
+        "description": "Register of all IT audit findings with action plans, owners, and status",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Finding Escalation Records",
+        "description": "Records of overdue finding escalation to senior management and audit committee",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  }
+]

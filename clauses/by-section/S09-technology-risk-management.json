@@ -1,0 +1,197 @@
+[
+  {
+    "id": "9.1",
+    "section": "Technology Risk Management",
+    "subsection": "Risk Management Framework",
+    "title": "Technology Risk Framework",
+    "clauseType": "governance",
+    "marker": "S",
+    "verbatim": "Financial institutions shall establish and maintain a comprehensive technology risk management framework that is commensurate with the nature, size, and complexity of the institution's operations. The framework shall define risk governance structures, risk appetite, risk assessment methodologies, and risk reporting mechanisms.",
+    "translation": "You must create and maintain a technology risk management framework that fits your institution's size and complexity. It should cover governance structures, risk appetite, how you assess risks, and how you report on them.",
+    "evidence": [
+      "Technology risk management framework document",
+      "Board approval of the framework",
+      "Annual framework review records",
+      "Framework alignment with enterprise risk management"
+    ],
+    "artifacts": [
+      {
+        "category": "governance",
+        "name": "Technology Risk Management Framework",
+        "description": "Comprehensive framework document covering governance, assessment, and reporting",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Board Approval Record",
+        "description": "Evidence of board approval of the technology risk management framework",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Framework Review Report",
+        "description": "Annual review report on the effectiveness and currency of the framework",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "9.2",
+    "section": "Technology Risk Management",
+    "subsection": "Risk Management Framework",
+    "title": "Risk Identification & Assessment",
+    "clauseType": "governance",
+    "marker": "S",
+    "verbatim": "Financial institutions shall conduct regular and systematic identification and assessment of technology risks. Risk assessments shall consider threats, vulnerabilities, likelihood, and potential impact across all critical technology assets and services. Assessments shall be performed at least annually and upon significant changes.",
+    "translation": "You must regularly and systematically identify and assess technology risks by looking at threats, vulnerabilities, how likely they are, and what impact they could have. This applies to all critical technology assets and must happen at least yearly or whenever there are major changes.",
+    "evidence": [
+      "Technology risk assessment methodology document",
+      "Completed risk assessment reports",
+      "Risk assessment schedule and completion records",
+      "Evidence of assessment upon significant change events"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Risk Assessment Methodology",
+        "description": "Documented methodology for identifying and assessing technology risks",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Technology Risk Assessment Report",
+        "description": "Completed risk assessment report covering all critical assets",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Risk Assessment Schedule",
+        "description": "Schedule showing planned and completed risk assessments",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "9.3",
+    "section": "Technology Risk Management",
+    "subsection": "Risk Management Framework",
+    "title": "Risk Treatment & Mitigation",
+    "clauseType": "governance",
+    "marker": "S",
+    "verbatim": "Financial institutions shall develop and implement risk treatment plans for identified technology risks. Risk treatment options shall include avoidance, mitigation, transfer, or acceptance, with formal approval for risk acceptance by the appropriate authority level. Treatment plans shall include timelines and accountable owners.",
+    "translation": "For every identified technology risk, you need a treatment plan: avoid it, mitigate it, transfer it, or accept it. Risk acceptance requires formal sign-off by someone with appropriate authority. Each plan must have deadlines and a named person responsible.",
+    "evidence": [
+      "Risk treatment plans with assigned owners",
+      "Risk acceptance approvals at appropriate authority level",
+      "Treatment plan progress tracking records",
+      "Risk mitigation implementation evidence"
+    ],
+    "artifacts": [
+      {
+        "category": "governance",
+        "name": "Risk Treatment Policy",
+        "description": "Policy defining risk treatment options and approval authorities",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Risk Treatment Plan Register",
+        "description": "Register of all risk treatment plans with owners, timelines, and status",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Risk Acceptance Records",
+        "description": "Formal risk acceptance approvals signed by appropriate authority",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "9.4",
+    "section": "Technology Risk Management",
+    "subsection": "Risk Management Framework",
+    "title": "Risk Monitoring & Reporting",
+    "clauseType": "governance",
+    "marker": "G",
+    "verbatim": "Financial institutions should establish mechanisms for continuous monitoring and periodic reporting of technology risks. Key risk indicators should be defined, measured, and reported to senior management and the board. Breaches of risk appetite thresholds should trigger escalation procedures.",
+    "translation": "You should set up ongoing monitoring and regular reporting of technology risks. Define KRIs that are tracked and reported to management and the board. When risk thresholds are breached, there should be automatic escalation processes.",
+    "evidence": [
+      "Key risk indicator definitions and thresholds",
+      "Risk monitoring dashboard or reports",
+      "Escalation procedure documentation",
+      "Evidence of threshold breach escalations"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Risk Monitoring Procedures",
+        "description": "Procedures for continuous monitoring and reporting of technology risks",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "KRI Monitoring Dashboard",
+        "description": "Dashboard or report showing key risk indicators and their status",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "procedures",
+        "name": "Escalation Procedures",
+        "description": "Documented escalation procedures for risk appetite threshold breaches",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      }
+    ]
+  },
+  {
+    "id": "9.5",
+    "section": "Technology Risk Management",
+    "subsection": "Risk Management Framework",
+    "title": "Technology Risk Register",
+    "clauseType": "governance",
+    "marker": "S",
+    "verbatim": "Financial institutions shall maintain a comprehensive and up-to-date technology risk register. The register shall document all identified technology risks, their assessed likelihood and impact, risk owners, treatment plans, and current status. The register shall be reviewed at least quarterly.",
+    "translation": "You must keep a complete, current register of all technology risks. Each entry needs the risk description, likelihood, impact, owner, treatment plan, and status. This register must be reviewed at least every quarter to ensure it reflects reality.",
+    "evidence": [
+      "Technology risk register with all required fields",
+      "Quarterly review records of the risk register",
+      "Risk owner acknowledgement records",
+      "Risk register change history"
+    ],
+    "artifacts": [
+      {
+        "category": "governance",
+        "name": "Technology Risk Register",
+        "description": "Comprehensive register of all identified technology risks with assessments and treatment plans",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Quarterly Review Records",
+        "description": "Evidence of quarterly review and update of the risk register",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Risk Owner Sign-off Records",
+        "description": "Records of risk owners acknowledging their assigned risks",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  }
+]

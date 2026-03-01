@@ -1,0 +1,80 @@
+[
+  {
+    "id": "14.1",
+    "section": "External Party Assurance",
+    "subsection": "Third-Party Assurance",
+    "title": "Third-Party Security Assessment",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "verbatim": "Financial institutions shall obtain independent security assessments of critical third-party service providers at least annually. Assessments shall evaluate the service provider's security controls, data protection practices, and compliance with contractual security requirements. Assessment results shall be reviewed by the institution's risk management function.",
+    "translation": "Get independent security assessments of your critical third-party providers at least yearly. Evaluate their security controls, data protection, and compliance with your contractual requirements. Your risk management team must review the results.",
+    "evidence": [
+      "Third-party assessment policy and schedule",
+      "Independent security assessment reports for critical vendors",
+      "Risk management review records of assessments",
+      "Contractual security requirement compliance evidence"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Third-Party Assessment Policy",
+        "description": "Policy for conducting independent security assessments of critical service providers",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Third-Party Assessment Reports",
+        "description": "Independent security assessment reports for critical third-party providers",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Risk Management Review Records",
+        "description": "Records of risk management review of third-party assessment results",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "14.2",
+    "section": "External Party Assurance",
+    "subsection": "Third-Party Assurance",
+    "title": "Third-Party Certification Requirements",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "verbatim": "Financial institutions shall require critical third-party service providers to maintain recognised security certifications such as ISO 27001, SOC 2, or equivalent. Certification status shall be monitored on an ongoing basis and lapses in certification shall trigger a reassessment of the service provider's risk profile.",
+    "translation": "Require critical vendors to hold recognised security certifications like ISO 27001 or SOC 2. Monitor their certification status continuously. If a vendor's certification lapses, trigger a risk reassessment immediately.",
+    "evidence": [
+      "Third-party certification requirements in contracts",
+      "Vendor certification tracking register",
+      "Certification lapse monitoring evidence",
+      "Risk reassessment records for certification lapses"
+    ],
+    "artifacts": [
+      {
+        "category": "policies",
+        "name": "Third-Party Certification Policy",
+        "description": "Policy requiring critical vendors to maintain recognised security certifications",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Vendor Certification Register",
+        "description": "Register tracking certification status of all critical third-party providers",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Certification Lapse Assessment Reports",
+        "description": "Risk reassessment reports triggered by vendor certification lapses",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,353 @@
+[
+  {
+    "id": "12.1",
+    "section": "Digital Services",
+    "subsection": "Digital Channels",
+    "title": "Digital Channel Security",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement security controls for all digital channels including internet banking, mobile banking, and electronic payment systems. Security controls shall address authentication, authorisation, encryption, session management, and protection against common web application vulnerabilities.",
+    "translation": "All digital channels — internet banking, mobile banking, and payment systems — must have comprehensive security controls covering authentication, authorisation, encryption, session management, and protection against web application attacks.",
+    "evidence": [
+      "Digital channel security architecture",
+      "Security control implementation evidence per channel",
+      "Web application vulnerability assessment results",
+      "Digital channel security standards"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Digital Channel Security Standards",
+        "description": "Standards defining security requirements for all digital channels",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Security Architecture Documentation",
+        "description": "Security architecture documentation for digital banking channels",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Digital Channel Assessment Reports",
+        "description": "Security assessment reports for digital channels",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "12.2",
+    "section": "Digital Services",
+    "subsection": "Digital Channels",
+    "title": "Mobile Application Security",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement security controls for mobile banking applications including code obfuscation, root and jailbreak detection, certificate pinning, secure local storage, and protection against reverse engineering. Mobile applications shall undergo security testing prior to each release.",
+    "translation": "Mobile banking apps must include security features like code obfuscation, root/jailbreak detection, certificate pinning, and secure local storage. Test the security of each release before publishing to app stores.",
+    "evidence": [
+      "Mobile application security standards",
+      "Security feature implementation evidence",
+      "Mobile application security test reports",
+      "App store release security sign-off records"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Mobile App Security Standards",
+        "description": "Standards for mobile application security including required security features",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Mobile App Security Test Reports",
+        "description": "Security testing reports for mobile application releases",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Mobile Security Feature Evidence",
+        "description": "Evidence of implementation of required mobile security features",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "12.3",
+    "section": "Digital Services",
+    "subsection": "Digital Channels",
+    "title": "API Security",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement security controls for all application programming interfaces (APIs) including authentication, authorisation, rate limiting, input validation, and encryption. APIs shall be inventoried, documented, and subject to regular security assessments. Deprecated APIs shall be decommissioned in a timely manner.",
+    "translation": "Secure all APIs with authentication, authorisation, rate limiting, input validation, and encryption. Maintain an inventory of all APIs, document them, and test their security regularly. Shut down deprecated APIs promptly.",
+    "evidence": [
+      "API security standards and policy",
+      "API inventory and documentation",
+      "API security assessment results",
+      "Deprecated API decommissioning records"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "API Security Standards",
+        "description": "Standards for API security including authentication, rate limiting, and input validation",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "API Inventory",
+        "description": "Complete inventory of all APIs with security classification and documentation",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "API Security Assessment Reports",
+        "description": "Regular security assessment reports for APIs",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "12.4",
+    "section": "Digital Services",
+    "subsection": "Digital Channels",
+    "title": "Customer Authentication",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement robust customer authentication mechanisms for digital services that are commensurate with the risk profile of the transaction or service. Multi-factor authentication shall be required for high-risk transactions. Authentication mechanisms shall be regularly assessed for effectiveness.",
+    "translation": "Customer authentication for digital services must match the risk level of the activity. High-risk transactions require MFA. Regularly assess whether your authentication mechanisms are still effective against current threats.",
+    "evidence": [
+      "Customer authentication policy",
+      "Risk-based authentication configuration",
+      "MFA implementation for high-risk transactions",
+      "Authentication effectiveness assessment records"
+    ],
+    "artifacts": [
+      {
+        "category": "policies",
+        "name": "Customer Authentication Policy",
+        "description": "Policy defining authentication requirements based on transaction risk",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Authentication Configuration",
+        "description": "Configuration evidence for risk-based and multi-factor customer authentication",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Authentication Assessment Report",
+        "description": "Assessment report on effectiveness of customer authentication mechanisms",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "12.5",
+    "section": "Digital Services",
+    "subsection": "Digital Channels",
+    "title": "Transaction Verification",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement transaction verification mechanisms for high-value and high-risk digital transactions. Verification shall be performed through an independent channel from the transaction initiation channel. Customers shall be provided with transaction details for verification prior to final authorisation.",
+    "translation": "High-value and high-risk digital transactions need out-of-band verification — confirming the transaction through a separate channel from the one used to initiate it. Show customers the full transaction details for confirmation before final authorisation.",
+    "evidence": [
+      "Transaction verification policy and procedures",
+      "Out-of-band verification mechanism configuration",
+      "Transaction verification flow documentation",
+      "Customer notification evidence"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Transaction Verification Procedure",
+        "description": "Procedure for out-of-band verification of high-value and high-risk transactions",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Verification Mechanism Configuration",
+        "description": "Configuration of independent channel transaction verification mechanisms",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Transaction Flow Documentation",
+        "description": "Documentation of transaction verification flow showing independent channel",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "12.6",
+    "section": "Digital Services",
+    "subsection": "Digital Channels",
+    "title": "Session Management",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement secure session management for all digital services including automatic session timeout, secure session token generation, session fixation prevention, and concurrent session controls. Session tokens shall not be transmitted in URLs and shall be invalidated upon logout.",
+    "translation": "Implement secure session management for digital services: automatic timeouts, securely generated session tokens, protection against session fixation attacks, and controls on concurrent sessions. Never put session tokens in URLs and always invalidate them on logout.",
+    "evidence": [
+      "Session management policy and standards",
+      "Session timeout configuration evidence",
+      "Session security testing results",
+      "Secure token implementation evidence"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Session Management Standards",
+        "description": "Standards for secure session management in digital services",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Session Configuration Evidence",
+        "description": "Configuration evidence for session timeouts, tokens, and concurrent session controls",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Session Security Test Results",
+        "description": "Security testing results for session management controls",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "12.7",
+    "section": "Digital Services",
+    "subsection": "Digital Channels",
+    "title": "Fraud Detection",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement real-time fraud detection and monitoring systems for digital banking transactions. The systems shall employ behavioural analytics, transaction pattern analysis, and anomaly detection to identify potentially fraudulent activities. Suspicious transactions shall be flagged for review and potential blocking.",
+    "translation": "Deploy real-time fraud detection for digital transactions using behavioural analytics, pattern analysis, and anomaly detection. Flag suspicious transactions for review and be able to block them in real time when necessary.",
+    "evidence": [
+      "Fraud detection system architecture and configuration",
+      "Fraud detection rules and models documentation",
+      "Fraud alert monitoring and investigation records",
+      "Fraud detection effectiveness metrics"
+    ],
+    "artifacts": [
+      {
+        "category": "evidence",
+        "name": "Fraud Detection Architecture",
+        "description": "Architecture and configuration of real-time fraud detection systems",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "procedures",
+        "name": "Fraud Investigation Procedures",
+        "description": "Procedures for investigating flagged transactions and suspected fraud",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Fraud Detection Metrics Report",
+        "description": "Report on fraud detection rates, false positive rates, and effectiveness metrics",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "12.8",
+    "section": "Digital Services",
+    "subsection": "Digital Channels",
+    "title": "Digital Onboarding Security",
+    "clauseType": "technical",
+    "marker": "G",
+    "verbatim": "Financial institutions should implement security controls for digital customer onboarding processes including identity verification, liveness detection, document verification, and fraud screening. Digital onboarding controls should be commensurate with the risk level of the products and services being offered.",
+    "translation": "When onboarding customers digitally, use security controls like identity verification, liveness detection, document checks, and fraud screening. The level of controls should match the risk of the products being offered.",
+    "evidence": [
+      "Digital onboarding security standards",
+      "Identity verification process documentation",
+      "Liveness detection and document verification evidence",
+      "Fraud screening integration evidence"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Digital Onboarding Security Standards",
+        "description": "Standards for security controls in digital customer onboarding",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      },
+      {
+        "category": "evidence",
+        "name": "Identity Verification Evidence",
+        "description": "Evidence of identity verification, liveness detection, and document checks",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      },
+      {
+        "category": "reports",
+        "name": "Onboarding Security Assessment",
+        "description": "Assessment of digital onboarding security controls and effectiveness",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      }
+    ]
+  },
+  {
+    "id": "12.9",
+    "section": "Digital Services",
+    "subsection": "Digital Channels",
+    "title": "QR Code & E-Wallet Security",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement security controls for QR code-based payments and e-wallet services including QR code validation, transaction encryption, and protection against QR code tampering and overlay attacks. Security controls shall ensure the integrity and authenticity of QR code transactions.",
+    "translation": "Secure QR code payments and e-wallet services against tampering, overlay attacks, and forgery. Ensure QR codes are validated, transactions are encrypted, and the integrity and authenticity of every QR-based transaction is verified.",
+    "evidence": [
+      "QR code and e-wallet security standards",
+      "QR code validation implementation evidence",
+      "Transaction encryption and integrity controls",
+      "Security testing results for QR and e-wallet features"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "QR Code and E-Wallet Security Standards",
+        "description": "Standards for securing QR code payments and e-wallet services",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "QR Security Implementation",
+        "description": "Evidence of QR code validation, encryption, and anti-tampering controls",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "QR/E-Wallet Security Test Report",
+        "description": "Security testing results for QR code and e-wallet features",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,789 @@
+[
+  {
+    "id": "11.1",
+    "section": "Cybersecurity Management",
+    "subsection": "Cybersecurity Framework",
+    "title": "Incident Response Plan",
+    "clauseType": "governance",
+    "marker": "S",
+    "verbatim": "Financial institutions shall develop, maintain, and test an incident response plan (IRP) that addresses the identification, containment, eradication, recovery, and post-incident activities for cybersecurity incidents. The IRP shall be reviewed at least annually and after every major incident.",
+    "translation": "You must have a written plan covering exactly what to do when a cyber incident happens — how to detect it, contain it, remove the threat, recover systems, and review what happened. The plan must be tested, reviewed every year, and updated after any significant incident.",
+    "evidence": [
+      "Incident Response Plan document (version + date)",
+      "IRP testing records (tabletop or simulation)",
+      "Post-incident review reports",
+      "Annual review sign-off"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Incident Response Plan",
+        "description": "Comprehensive IRP covering identification, containment, eradication, recovery, and post-incident activities",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "IRP Testing Records",
+        "description": "Records of IRP testing through tabletop exercises or simulations",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Post-Incident Review Reports",
+        "description": "Reports from post-incident reviews with lessons learned and improvements",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "11.2",
+    "section": "Cybersecurity Management",
+    "subsection": "Cybersecurity Framework",
+    "title": "Cybersecurity Strategy",
+    "clauseType": "governance",
+    "marker": "S",
+    "verbatim": "Financial institutions shall develop a cybersecurity strategy that is aligned with the institution's business strategy and risk appetite. The strategy shall define the institution's cybersecurity vision, objectives, and roadmap for strengthening cyber resilience. The strategy shall be approved by the board and reviewed at least annually.",
+    "translation": "You need a board-approved cybersecurity strategy that aligns with your business goals and risk appetite. It should lay out your cybersecurity vision, specific objectives, and a roadmap for improving cyber resilience over time. Review it at least yearly.",
+    "evidence": [
+      "Cybersecurity strategy document",
+      "Board approval records",
+      "Strategy alignment with business strategy",
+      "Annual strategy review records"
+    ],
+    "artifacts": [
+      {
+        "category": "governance",
+        "name": "Cybersecurity Strategy",
+        "description": "Board-approved cybersecurity strategy with vision, objectives, and roadmap",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Board Strategy Approval",
+        "description": "Board approval records for the cybersecurity strategy",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Strategy Review Report",
+        "description": "Annual review report on cybersecurity strategy effectiveness and updates",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "11.3",
+    "section": "Cybersecurity Management",
+    "subsection": "Cybersecurity Framework",
+    "title": "Cybersecurity Governance",
+    "clauseType": "governance",
+    "marker": "S",
+    "verbatim": "Financial institutions shall establish a cybersecurity governance structure that clearly defines roles, responsibilities, and accountability for cybersecurity across the three lines of defence. The governance structure shall ensure adequate segregation of duties between cybersecurity operations, risk management, and audit functions.",
+    "translation": "Your cybersecurity governance must have clear roles and accountability across all three lines of defence. Ensure proper segregation between people who run security operations, those who manage risk, and those who audit — they should not be the same people.",
+    "evidence": [
+      "Cybersecurity governance framework document",
+      "Three lines of defence model documentation",
+      "Roles and responsibilities matrix",
+      "Segregation of duties evidence"
+    ],
+    "artifacts": [
+      {
+        "category": "governance",
+        "name": "Cybersecurity Governance Framework",
+        "description": "Framework defining cybersecurity governance across three lines of defence",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "governance",
+        "name": "Cybersecurity RACI Matrix",
+        "description": "RACI matrix defining cybersecurity roles and responsibilities",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Segregation of Duties Evidence",
+        "description": "Evidence of segregation between security operations, risk, and audit",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "11.4",
+    "section": "Cybersecurity Management",
+    "subsection": "Cybersecurity Framework",
+    "title": "Incident Detection and Reporting",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement mechanisms to detect, analyse, and report cybersecurity incidents. Material incidents shall be reported to Bank Negara Malaysia within four hours of detection. Financial institutions shall maintain a documented incident classification framework to determine materiality.",
+    "translation": "You need technical tools and processes to detect security incidents quickly. Any significant (material) incident must be reported to BNM within 4 hours of detection — not 4 hours after confirmation. You also need a written classification framework so staff know what counts as material.",
+    "evidence": [
+      "Incident classification framework",
+      "SIEM or detection tool evidence",
+      "BNM reporting procedure",
+      "Sample incident report / notification record"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Incident Classification Framework",
+        "description": "Framework for classifying incidents and determining materiality for BNM reporting",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "procedures",
+        "name": "BNM Incident Reporting Procedure",
+        "description": "Procedure for reporting material incidents to BNM within four hours",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Detection Tool Configuration",
+        "description": "Configuration evidence for SIEM and incident detection mechanisms",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Sample Incident Notification",
+        "description": "Sample incident report or BNM notification record",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "11.5",
+    "section": "Cybersecurity Management",
+    "subsection": "Cybersecurity Framework",
+    "title": "Cyber Crisis Management",
+    "clauseType": "governance",
+    "marker": "S",
+    "verbatim": "Financial institutions shall establish a cyber crisis management plan that defines the governance, escalation, and decision-making processes during a significant cybersecurity event. The plan shall include roles for executive management, legal, communications, and technology teams. Crisis simulations shall be conducted at least annually.",
+    "translation": "You need a cyber crisis management plan for major incidents. It must define who makes decisions, how escalation works, and the roles of executive management, legal, communications, and technical teams. Run crisis simulations at least once a year.",
+    "evidence": [
+      "Cyber crisis management plan",
+      "Crisis governance and escalation procedures",
+      "Annual crisis simulation records",
+      "Crisis team roles and contact information"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Cyber Crisis Management Plan",
+        "description": "Plan defining governance, escalation, and decision-making during cyber crises",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Crisis Simulation Records",
+        "description": "Records of annual cyber crisis simulations and outcomes",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "governance",
+        "name": "Crisis Team Roster",
+        "description": "Documented crisis team roles, responsibilities, and contact information",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "11.6",
+    "section": "Cybersecurity Management",
+    "subsection": "Security Operations",
+    "title": "SOC Operations",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall establish or procure a security operations centre (SOC) capable of providing twenty-four by seven monitoring of the institution's technology environment. The SOC shall be staffed with qualified security analysts and shall operate documented processes for alert triage, investigation, and escalation.",
+    "translation": "You must have a SOC providing 24/7 monitoring of your technology environment. It needs qualified security analysts and documented processes for triaging, investigating, and escalating alerts. This can be in-house or outsourced.",
+    "evidence": [
+      "SOC operational procedures",
+      "24/7 staffing schedule and analyst qualifications",
+      "Alert triage and escalation procedures",
+      "SOC performance metrics and reports"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "SOC Operational Procedures",
+        "description": "Documented procedures for SOC operations, alert triage, and escalation",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "SOC Staffing Evidence",
+        "description": "24/7 staffing schedule and analyst qualification records",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "SOC Performance Reports",
+        "description": "Regular reports on SOC performance metrics and effectiveness",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "11.7",
+    "section": "Cybersecurity Management",
+    "subsection": "Security Operations",
+    "title": "SIEM Implementation",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement a security information and event management (SIEM) system to collect, correlate, and analyse security events from all critical systems. SIEM rules and use cases shall be regularly tuned and updated to address evolving threats. Log sources shall be validated for completeness.",
+    "translation": "Deploy a SIEM system that collects and correlates security logs from all critical systems. Regularly tune the detection rules and use cases to keep up with evolving threats. Make sure all critical log sources are actually feeding into the SIEM.",
+    "evidence": [
+      "SIEM architecture and deployment documentation",
+      "Log source inventory and coverage analysis",
+      "SIEM rule tuning records",
+      "SIEM alert and correlation reports"
+    ],
+    "artifacts": [
+      {
+        "category": "evidence",
+        "name": "SIEM Architecture Documentation",
+        "description": "Architecture and deployment documentation for the SIEM system",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Log Source Inventory",
+        "description": "Inventory of all log sources feeding into the SIEM with coverage analysis",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "SIEM Rule Tuning Records",
+        "description": "Records of SIEM rule tuning and use case updates",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "11.8",
+    "section": "Cybersecurity Management",
+    "subsection": "Security Operations",
+    "title": "Endpoint Protection",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall deploy endpoint detection and response (EDR) solutions on all endpoints including servers, workstations, and mobile devices. EDR solutions shall provide real-time threat detection, automated response capabilities, and centralised management. Signature updates shall occur at least daily.",
+    "translation": "Deploy EDR on all endpoints — servers, workstations, and mobile devices. The EDR solution must provide real-time detection, automated response, and centralised management. Keep signatures updated at least daily.",
+    "evidence": [
+      "EDR deployment documentation and coverage",
+      "EDR configuration and policy settings",
+      "Signature update schedule and compliance records",
+      "EDR alert and response records"
+    ],
+    "artifacts": [
+      {
+        "category": "evidence",
+        "name": "EDR Deployment Documentation",
+        "description": "Documentation of EDR deployment coverage across all endpoints",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "EDR Configuration Evidence",
+        "description": "Configuration and policy settings for EDR solution",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "EDR Coverage and Compliance Report",
+        "description": "Report on EDR coverage, signature update compliance, and detection metrics",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "11.9",
+    "section": "Cybersecurity Management",
+    "subsection": "Security Operations",
+    "title": "Email Security",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement email security controls including spam filtering, malware scanning, phishing detection, and data loss prevention. Email authentication protocols such as SPF, DKIM, and DMARC shall be implemented for all organisational domains to prevent email spoofing.",
+    "translation": "Implement comprehensive email security: spam filters, malware scanning, phishing detection, and DLP. Deploy SPF, DKIM, and DMARC on all your domains to prevent attackers from spoofing your email addresses.",
+    "evidence": [
+      "Email security architecture documentation",
+      "SPF, DKIM, and DMARC configuration records",
+      "Email filtering and scanning configuration",
+      "Phishing detection and response records"
+    ],
+    "artifacts": [
+      {
+        "category": "evidence",
+        "name": "Email Security Configuration",
+        "description": "Configuration documentation for email security controls and filtering",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Email Authentication Records",
+        "description": "SPF, DKIM, and DMARC configuration records for all organisational domains",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Email Security Metrics Report",
+        "description": "Report on email security metrics including phishing detection rates",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "11.10",
+    "section": "Cybersecurity Management",
+    "subsection": "Security Operations",
+    "title": "DLP Controls",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement data loss prevention controls to detect and prevent unauthorised transmission or exfiltration of sensitive data. DLP policies shall be aligned with the institution's data classification framework and shall cover email, web, endpoint, and cloud channels.",
+    "translation": "Deploy DLP tools to detect and block unauthorised transfer of sensitive data. DLP policies must align with your data classification and cover all major channels: email, web browsing, endpoints, and cloud services.",
+    "evidence": [
+      "DLP policy and configuration documentation",
+      "Data classification framework alignment evidence",
+      "DLP rule configuration across channels",
+      "DLP incident and alert records"
+    ],
+    "artifacts": [
+      {
+        "category": "policies",
+        "name": "DLP Policy",
+        "description": "Policy defining data loss prevention requirements aligned with data classification",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "DLP Configuration Evidence",
+        "description": "Configuration evidence for DLP controls across email, web, endpoint, and cloud",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "DLP Incident Records",
+        "description": "Records of DLP alerts and incidents with investigation outcomes",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "11.11",
+    "section": "Cybersecurity Management",
+    "subsection": "Vulnerability Management",
+    "title": "Vulnerability Assessment",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall conduct vulnerability assessments of all internet-facing systems at least monthly and internal systems at least quarterly. Assessments shall use industry-recognised tools and databases. Identified vulnerabilities shall be risk-rated, prioritised, and remediated within defined timeframes.",
+    "translation": "Scan internet-facing systems for vulnerabilities at least monthly and internal systems at least quarterly. Use industry-standard tools, rate the severity of what you find, and fix vulnerabilities within defined timeframes based on their risk level.",
+    "evidence": [
+      "Vulnerability assessment schedule and policy",
+      "Monthly scan results for internet-facing systems",
+      "Quarterly scan results for internal systems",
+      "Vulnerability remediation tracking records"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Vulnerability Assessment Procedure",
+        "description": "Procedure for conducting regular vulnerability assessments with defined schedules",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Vulnerability Assessment Reports",
+        "description": "Monthly and quarterly vulnerability scan results with risk ratings",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "Vulnerability Remediation Tracking",
+        "description": "Tracking log of vulnerability remediation against defined timeframes",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "11.12",
+    "section": "Cybersecurity Management",
+    "subsection": "Vulnerability Management",
+    "title": "Penetration Testing",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall conduct penetration testing of critical systems and applications at least annually and prior to major releases. Testing shall be performed by qualified and independent testers. Findings shall be risk-rated, reported to management, and remediated within agreed timeframes.",
+    "translation": "Conduct penetration testing on critical systems at least once a year and before major releases. Use qualified, independent testers. Risk-rate the findings, report them to management, and fix them within agreed timelines.",
+    "evidence": [
+      "Penetration testing policy and schedule",
+      "Penetration test reports from qualified testers",
+      "Tester independence and qualification evidence",
+      "Remediation plans and tracking records"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Penetration Testing Policy",
+        "description": "Policy defining penetration testing scope, frequency, and qualification requirements",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Penetration Test Reports",
+        "description": "Annual penetration test reports from qualified independent testers",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Remediation Tracking Records",
+        "description": "Records of penetration test finding remediation against agreed timeframes",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "11.13",
+    "section": "Cybersecurity Management",
+    "subsection": "Vulnerability Management",
+    "title": "Red Team Exercises",
+    "clauseType": "technical",
+    "marker": "G",
+    "verbatim": "Financial institutions should conduct red team exercises to test the effectiveness of their security controls and incident response capabilities against realistic attack scenarios. Red team exercises should simulate advanced persistent threats and should be conducted by experienced professionals with appropriate rules of engagement.",
+    "translation": "Consider conducting red team exercises that simulate real-world advanced attacks to test your defences and incident response. Use experienced red team professionals and define clear rules of engagement before starting.",
+    "evidence": [
+      "Red team exercise plan and rules of engagement",
+      "Red team exercise reports",
+      "Lessons learned and improvement plans",
+      "Red team provider qualifications"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Red Team Rules of Engagement",
+        "description": "Documented rules of engagement for red team exercises",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      },
+      {
+        "category": "reports",
+        "name": "Red Team Exercise Reports",
+        "description": "Reports from red team exercises with findings and recommendations",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      },
+      {
+        "category": "reports",
+        "name": "Red Team Improvement Plan",
+        "description": "Improvement plan addressing findings from red team exercises",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      }
+    ]
+  },
+  {
+    "id": "11.14",
+    "section": "Cybersecurity Management",
+    "subsection": "Vulnerability Management",
+    "title": "Vulnerability Remediation",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall establish a vulnerability remediation process with defined service level targets based on risk severity. Critical vulnerabilities shall be remediated within seven days, high vulnerabilities within thirty days, and medium vulnerabilities within ninety days. Exceptions shall require documented risk acceptance.",
+    "translation": "Define clear remediation timelines by severity: critical vulnerabilities within 7 days, high within 30 days, medium within 90 days. If you cannot meet these timelines, you need formal risk acceptance documentation.",
+    "evidence": [
+      "Vulnerability remediation policy and SLTs",
+      "Remediation tracking dashboard or reports",
+      "SLT compliance metrics",
+      "Risk acceptance records for exceptions"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Vulnerability Remediation Procedure",
+        "description": "Procedure defining remediation timelines and processes by risk severity",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Remediation Compliance Report",
+        "description": "Report on vulnerability remediation compliance against defined SLTs",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Remediation Exception Records",
+        "description": "Risk acceptance records for vulnerabilities not remediated within SLTs",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "11.15",
+    "section": "Cybersecurity Management",
+    "subsection": "Vulnerability Management",
+    "title": "Bug Bounty & Disclosure",
+    "clauseType": "technical",
+    "marker": "G",
+    "verbatim": "Financial institutions should consider establishing a coordinated vulnerability disclosure program or bug bounty program to leverage external security researchers in identifying vulnerabilities. Such programs should define clear scope, rules of engagement, and safe harbour provisions for participating researchers.",
+    "translation": "Consider running a bug bounty or coordinated vulnerability disclosure program so external security researchers can report vulnerabilities they find. Define clear scope, rules, and safe harbour provisions to encourage responsible disclosure.",
+    "evidence": [
+      "Vulnerability disclosure policy or bug bounty program documentation",
+      "Program scope and rules of engagement",
+      "Reported vulnerability records and remediation",
+      "Researcher acknowledgement records"
+    ],
+    "artifacts": [
+      {
+        "category": "policies",
+        "name": "Vulnerability Disclosure Policy",
+        "description": "Policy for coordinated vulnerability disclosure or bug bounty program",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      },
+      {
+        "category": "procedures",
+        "name": "Bug Bounty Program Rules",
+        "description": "Rules of engagement and scope for bug bounty participants",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      },
+      {
+        "category": "logs",
+        "name": "Disclosure Program Records",
+        "description": "Records of reported vulnerabilities and remediation through the disclosure program",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      }
+    ]
+  },
+  {
+    "id": "11.16",
+    "section": "Cybersecurity Management",
+    "subsection": "Threat Intelligence",
+    "title": "Threat Intelligence Program",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall establish a cyber threat intelligence program to collect, analyse, and act upon threat intelligence relevant to the financial sector. The program shall incorporate multiple intelligence sources and shall produce actionable intelligence for security operations and risk management decisions.",
+    "translation": "You need a formal threat intelligence program that gathers, analyses, and acts on cyber threat information relevant to banking. Use multiple intelligence sources and produce actionable intelligence that drives security operations and risk decisions.",
+    "evidence": [
+      "Threat intelligence program documentation",
+      "Intelligence source inventory",
+      "Threat intelligence reports and analysis",
+      "Evidence of intelligence-driven security actions"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Threat Intelligence Program",
+        "description": "Documented threat intelligence program covering collection, analysis, and dissemination",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Threat Intelligence Reports",
+        "description": "Periodic threat intelligence reports with actionable findings",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Intelligence Source Inventory",
+        "description": "Inventory of threat intelligence sources used by the program",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "11.17",
+    "section": "Cybersecurity Management",
+    "subsection": "Threat Intelligence",
+    "title": "Threat Information Sharing",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall participate in threat information sharing arrangements with industry peers, government agencies, and relevant information sharing and analysis centres. Shared information shall be handled in accordance with traffic light protocol or equivalent classification to protect source confidentiality.",
+    "translation": "Participate in threat information sharing with industry peers, government agencies, and ISACs. Use the Traffic Light Protocol (TLP) or equivalent to handle shared information appropriately and protect the confidentiality of sources.",
+    "evidence": [
+      "Threat sharing agreements and memberships",
+      "TLP or equivalent handling procedures",
+      "Records of information shared and received",
+      "ISAC participation evidence"
+    ],
+    "artifacts": [
+      {
+        "category": "evidence",
+        "name": "Threat Sharing Agreements",
+        "description": "Agreements and memberships for threat information sharing arrangements",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "procedures",
+        "name": "TLP Handling Procedures",
+        "description": "Procedures for handling shared threat intelligence per Traffic Light Protocol",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "Information Sharing Records",
+        "description": "Records of threat information shared and received through sharing arrangements",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "11.18",
+    "section": "Cybersecurity Management",
+    "subsection": "Threat Intelligence",
+    "title": "Threat Hunting",
+    "clauseType": "technical",
+    "marker": "G",
+    "verbatim": "Financial institutions should establish proactive threat hunting capabilities to identify threats that may have evaded automated detection mechanisms. Threat hunting activities should be informed by threat intelligence and should follow structured hypotheses-driven or intelligence-driven methodologies.",
+    "translation": "Go beyond automated detection by proactively hunting for threats that may have slipped through. Use structured methodologies driven by threat intelligence or specific hypotheses about potential attack vectors in your environment.",
+    "evidence": [
+      "Threat hunting program documentation",
+      "Threat hunting methodology and playbooks",
+      "Threat hunting reports and findings",
+      "Hunting-to-detection pipeline records"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Threat Hunting Program",
+        "description": "Documented threat hunting program with methodologies and playbooks",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      },
+      {
+        "category": "reports",
+        "name": "Threat Hunting Reports",
+        "description": "Reports from threat hunting activities with findings and improvements",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      },
+      {
+        "category": "evidence",
+        "name": "Hunt-to-Detection Records",
+        "description": "Records of threat hunting findings converted to automated detection rules",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      }
+    ]
+  },
+  {
+    "id": "11.19",
+    "section": "Cybersecurity Management",
+    "subsection": "Threat Intelligence",
+    "title": "IoC Management",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall establish processes for managing indicators of compromise (IoCs) including collection, validation, enrichment, and integration with security monitoring tools. IoCs shall be maintained in a threat intelligence platform and regularly updated to reflect the current threat landscape.",
+    "translation": "Manage IoCs through a structured process: collect them, validate them, enrich them with context, and feed them into your security tools for automated detection. Keep IoCs current and maintained in a threat intelligence platform.",
+    "evidence": [
+      "IoC management procedure",
+      "Threat intelligence platform configuration",
+      "IoC feed integration evidence",
+      "IoC lifecycle management records"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "IoC Management Procedure",
+        "description": "Procedure for collecting, validating, enriching, and operationalising indicators of compromise",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "TIP Configuration",
+        "description": "Configuration of threat intelligence platform for IoC management",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "IoC Integration Evidence",
+        "description": "Evidence of IoC integration with security monitoring and detection tools",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "11.20",
+    "section": "Cybersecurity Management",
+    "subsection": "Threat Intelligence",
+    "title": "Cyber Situational Awareness",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall maintain cyber situational awareness through continuous monitoring of the external threat landscape, the institution's attack surface, and emerging threats targeting the financial sector. Situational awareness reports shall be provided to senior management and security operations on a regular basis.",
+    "translation": "Stay aware of the cyber threat landscape by continuously monitoring external threats, your own attack surface, and emerging threats to the financial sector. Provide regular situational awareness reports to senior management and the security team.",
+    "evidence": [
+      "Cyber situational awareness program documentation",
+      "Attack surface monitoring evidence",
+      "External threat landscape reports",
+      "Situational awareness reports to management"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Situational Awareness Program",
+        "description": "Program for maintaining cyber situational awareness and attack surface monitoring",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Situational Awareness Reports",
+        "description": "Regular reports on cyber threat landscape and institutional exposure",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Attack Surface Monitoring",
+        "description": "Evidence of continuous monitoring of the institution's external attack surface",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  }
+]

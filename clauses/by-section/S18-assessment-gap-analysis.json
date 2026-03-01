@@ -1,0 +1,80 @@
+[
+  {
+    "id": "18.1",
+    "section": "Assessment & Gap Analysis",
+    "subsection": "Self-Assessment",
+    "title": "Annual RMiT Self-Assessment",
+    "clauseType": "governance",
+    "marker": "S",
+    "verbatim": "Financial institutions shall conduct an annual self-assessment of their compliance with the Risk Management in Technology policy document. The self-assessment shall cover all applicable policy requirements and shall identify areas of non-compliance, partial compliance, and full compliance with supporting evidence.",
+    "translation": "Conduct a formal annual self-assessment of your compliance with the full RMiT policy. For each requirement, determine whether you are fully compliant, partially compliant, or non-compliant, and provide supporting evidence for your assessment.",
+    "evidence": [
+      "Annual RMiT self-assessment report",
+      "Compliance status for each RMiT clause",
+      "Supporting evidence for compliance ratings",
+      "Board or senior management review of assessment results"
+    ],
+    "artifacts": [
+      {
+        "category": "reports",
+        "name": "Annual RMiT Self-Assessment Report",
+        "description": "Comprehensive self-assessment of compliance with all RMiT requirements",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Compliance Evidence Package",
+        "description": "Supporting evidence for compliance ratings across all clauses",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "governance",
+        "name": "Board Review of Self-Assessment",
+        "description": "Board or senior management review and sign-off of self-assessment results",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "18.2",
+    "section": "Assessment & Gap Analysis",
+    "subsection": "Self-Assessment",
+    "title": "Gap Remediation Planning",
+    "clauseType": "governance",
+    "marker": "S",
+    "verbatim": "Financial institutions shall develop remediation plans for all identified gaps in compliance with the Risk Management in Technology policy. Remediation plans shall include specific actions, accountable owners, target completion dates, and required resources. Progress on remediation shall be reported to the board at least quarterly.",
+    "translation": "For every compliance gap found in the self-assessment, create a remediation plan with specific actions, assigned owners, target dates, and resource requirements. Report remediation progress to the board at least quarterly.",
+    "evidence": [
+      "Gap remediation plan with actions and owners",
+      "Target completion dates and resource requirements",
+      "Quarterly progress reports to the board",
+      "Remediation completion evidence"
+    ],
+    "artifacts": [
+      {
+        "category": "reports",
+        "name": "Gap Remediation Plan",
+        "description": "Detailed remediation plan for all identified RMiT compliance gaps",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Quarterly Remediation Progress Report",
+        "description": "Quarterly report on remediation progress presented to the board",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Remediation Completion Evidence",
+        "description": "Evidence of completed remediation actions for closed gaps",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  }
+]

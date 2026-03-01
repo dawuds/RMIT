@@ -1,0 +1,2248 @@
+[
+  {
+    "id": "10.1",
+    "section": "Technology Operations Management",
+    "subsection": "Project Management",
+    "title": "IT Project Governance",
+    "clauseType": "governance",
+    "marker": "S",
+    "verbatim": "Financial institutions shall establish a governance framework for all technology projects that includes defined roles and responsibilities, approval gates, and oversight mechanisms. Major technology projects shall be subject to independent risk assessment and board or senior management approval prior to commencement.",
+    "translation": "You need a formal governance framework for IT projects with clear roles, stage-gate approvals, and oversight. Major projects must undergo an independent risk assessment and get board or senior management approval before they start.",
+    "evidence": [
+      "IT project governance framework document",
+      "Project approval records with stage-gate sign-offs",
+      "Independent risk assessment reports for major projects",
+      "Board or senior management approval records"
+    ],
+    "artifacts": [
+      {
+        "category": "governance",
+        "name": "IT Project Governance Framework",
+        "description": "Framework defining project governance structures, roles, and approval gates",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Project Approval Records",
+        "description": "Records of project approvals and stage-gate sign-offs",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Project Risk Assessment Reports",
+        "description": "Independent risk assessment reports for major technology projects",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.2",
+    "section": "Technology Operations Management",
+    "subsection": "Project Management",
+    "title": "Project Risk Assessment",
+    "clauseType": "governance",
+    "marker": "S",
+    "verbatim": "Financial institutions shall conduct risk assessments for all technology projects to identify potential risks to security, availability, and data integrity. The assessment shall consider interdependencies with existing systems and the potential impact on customers and business operations.",
+    "translation": "Every IT project must have a risk assessment covering security, availability, and data integrity. You also need to consider how the project interacts with existing systems and what impact it could have on customers and day-to-day operations.",
+    "evidence": [
+      "Project risk assessment template and methodology",
+      "Completed project risk assessment reports",
+      "Interdependency analysis records",
+      "Risk mitigation plans for identified project risks"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Project Risk Assessment Methodology",
+        "description": "Standard methodology and template for assessing technology project risks",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Project Risk Assessment Reports",
+        "description": "Completed risk assessments for technology projects",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Interdependency Analysis",
+        "description": "Analysis of project interdependencies with existing systems",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.3",
+    "section": "Technology Operations Management",
+    "subsection": "Project Management",
+    "title": "Post-Implementation Review",
+    "clauseType": "governance",
+    "marker": "G",
+    "verbatim": "Financial institutions should conduct post-implementation reviews for all significant technology projects to assess whether project objectives were achieved, identify lessons learned, and evaluate the effectiveness of risk mitigation measures. Reviews should be completed within three months of project go-live.",
+    "translation": "After major IT projects go live, you should conduct a formal review within three months to check if objectives were met, capture lessons learned, and evaluate whether risk controls are working as intended.",
+    "evidence": [
+      "Post-implementation review reports",
+      "Lessons learned documentation",
+      "Risk mitigation effectiveness assessments",
+      "Review completion tracking records"
+    ],
+    "artifacts": [
+      {
+        "category": "reports",
+        "name": "Post-Implementation Review Report",
+        "description": "Review report assessing project outcomes and lessons learned",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Lessons Learned Register",
+        "description": "Register of lessons learned from completed technology projects",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      },
+      {
+        "category": "reports",
+        "name": "Risk Control Effectiveness Assessment",
+        "description": "Assessment of whether implemented risk controls are operating effectively",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      }
+    ]
+  },
+  {
+    "id": "10.4",
+    "section": "Technology Operations Management",
+    "subsection": "System Development",
+    "title": "SDLC Framework",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall adopt a formal software development life cycle (SDLC) framework that integrates security at every phase. The framework shall include requirements gathering, design, development, testing, deployment, and maintenance phases with defined security checkpoints and quality gates.",
+    "translation": "You must use a formal SDLC framework where security is built into every phase from requirements through to maintenance. Each phase must have defined security checkpoints and quality gates that must be passed before proceeding.",
+    "evidence": [
+      "SDLC framework document",
+      "Security checkpoint definitions per phase",
+      "Quality gate criteria and sign-off records",
+      "Evidence of framework adherence in recent projects"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "SDLC Framework Document",
+        "description": "Formal SDLC framework with security integrated at every phase",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Quality Gate Records",
+        "description": "Records of quality gate assessments and sign-offs for projects",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Security Checkpoint Evidence",
+        "description": "Evidence of security reviews conducted at each SDLC phase",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.5",
+    "section": "Technology Operations Management",
+    "subsection": "System Development",
+    "title": "Requirements Management",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall ensure that security and compliance requirements are explicitly defined and documented during the requirements phase of system development. Requirements shall be traceable throughout the development lifecycle and validated prior to deployment.",
+    "translation": "Security and compliance requirements must be clearly documented at the start of every development project. These requirements must be traceable through design, build, and test so you can prove each one was implemented and validated before go-live.",
+    "evidence": [
+      "Security requirements specification documents",
+      "Requirements traceability matrix",
+      "Requirements validation records",
+      "Compliance requirements mapping"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Requirements Management Procedure",
+        "description": "Procedure for capturing, tracing, and validating security requirements",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Requirements Traceability Matrix",
+        "description": "Matrix tracing security requirements through development phases to validation",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Requirements Validation Records",
+        "description": "Records demonstrating validation of security requirements prior to deployment",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.6",
+    "section": "Technology Operations Management",
+    "subsection": "System Development",
+    "title": "Secure Development Standards",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall adopt and enforce secure coding standards based on recognised industry practices such as OWASP. Developers shall be trained on secure coding practices and compliance with these standards shall be verified through code reviews and automated scanning tools.",
+    "translation": "You must have secure coding standards based on industry best practices like OWASP. All developers must be trained on them, and you must verify compliance through both manual code reviews and automated scanning tools.",
+    "evidence": [
+      "Secure coding standards document",
+      "Developer training records on secure coding",
+      "Code review records referencing coding standards",
+      "Automated scanning tool configuration and results"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Secure Coding Standards",
+        "description": "Coding standards based on OWASP and industry best practices",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Developer Training Records",
+        "description": "Records of developer training on secure coding practices",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "Code Review Logs",
+        "description": "Logs of code reviews conducted against secure coding standards",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.7",
+    "section": "Technology Operations Management",
+    "subsection": "System Development",
+    "title": "Code Review & Static Analysis",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement mandatory code review processes and static application security testing (SAST) for all application code prior to deployment to production. Critical and high-severity findings shall be remediated before release, and exceptions shall require formal risk acceptance.",
+    "translation": "All code must go through both peer code reviews and automated static analysis (SAST) before it reaches production. Any critical or high-severity issues found must be fixed before release. If you cannot fix them, you need formal documented risk acceptance.",
+    "evidence": [
+      "Code review policy and procedures",
+      "SAST tool configuration and scan results",
+      "Remediation records for critical and high findings",
+      "Risk acceptance records for exceptions"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Code Review Procedure",
+        "description": "Mandatory procedure for peer code reviews and SAST scanning",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "SAST Scan Results",
+        "description": "Static analysis scan results for application releases",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Remediation Records",
+        "description": "Records of remediation of critical and high findings before release",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.8",
+    "section": "Technology Operations Management",
+    "subsection": "System Development",
+    "title": "Testing Standards",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall establish comprehensive testing standards that include functional testing, integration testing, performance testing, and security testing. Test plans shall be documented and test results shall be formally reviewed and approved prior to production deployment.",
+    "translation": "You must have formal testing standards covering functional, integration, performance, and security testing. Test plans must be documented upfront, and test results must be reviewed and approved before anything goes to production.",
+    "evidence": [
+      "Testing standards document",
+      "Test plan templates and completed test plans",
+      "Test execution results and defect reports",
+      "Test result approval records"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Testing Standards Document",
+        "description": "Comprehensive standards for functional, integration, performance, and security testing",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Test Plans and Results",
+        "description": "Documented test plans and formally reviewed test execution results",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Test Summary Reports",
+        "description": "Summary reports of testing outcomes and approval decisions",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.9",
+    "section": "Technology Operations Management",
+    "subsection": "System Development",
+    "title": "UAT & Acceptance",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall ensure that user acceptance testing (UAT) is conducted by business users in an environment that mirrors production. UAT results shall be formally documented and signed off by business owners prior to production deployment. UAT environments shall not contain production data unless appropriately masked.",
+    "translation": "Business users must conduct UAT in an environment that closely resembles production. Results must be formally documented and signed off by business owners before go-live. If production data is used in UAT, it must be properly masked or anonymised.",
+    "evidence": [
+      "UAT procedures and sign-off requirements",
+      "UAT environment specification and comparison to production",
+      "UAT sign-off records from business owners",
+      "Data masking procedures for UAT environments"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "UAT Procedure",
+        "description": "Procedure defining UAT requirements, environment standards, and sign-off process",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "UAT Sign-off Records",
+        "description": "Formal sign-off records from business owners for UAT completion",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "procedures",
+        "name": "Data Masking Procedure",
+        "description": "Procedure for masking production data used in non-production environments",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.10",
+    "section": "Technology Operations Management",
+    "subsection": "System Development",
+    "title": "Change Management Policy",
+    "clauseType": "governance",
+    "marker": "S",
+    "verbatim": "Financial institutions shall establish a formal change management policy that governs all changes to production systems, including applications, infrastructure, and configurations. All changes shall be assessed for risk, tested, approved by authorised personnel, and documented in a change log.",
+    "translation": "Every change to production systems — applications, infrastructure, or configurations — must go through a formal change management process. Each change needs a risk assessment, testing, authorised approval, and must be logged in a change register.",
+    "evidence": [
+      "Change management policy document",
+      "Change advisory board terms of reference",
+      "Sample change records with risk assessment and approvals",
+      "Change log or register"
+    ],
+    "artifacts": [
+      {
+        "category": "policies",
+        "name": "Change Management Policy",
+        "description": "Formal policy governing all changes to production systems",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "governance",
+        "name": "Change Advisory Board Terms of Reference",
+        "description": "Terms of reference for the change advisory board",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "Change Log",
+        "description": "Complete log of all production changes with risk assessments and approvals",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.11",
+    "section": "Technology Operations Management",
+    "subsection": "System Development",
+    "title": "Emergency Change Procedures",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall define procedures for emergency changes that bypass normal change management processes. Emergency changes shall be subject to retrospective review and approval within a defined timeframe. The use of emergency change procedures shall be monitored and reported to management.",
+    "translation": "You need specific procedures for handling urgent changes that cannot wait for the normal process. Emergency changes must be retrospectively reviewed and approved within a set timeframe, and management must receive reports on how often emergency changes are used.",
+    "evidence": [
+      "Emergency change procedure document",
+      "Emergency change records with retrospective approvals",
+      "Management reports on emergency change frequency",
+      "Retrospective review records"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Emergency Change Procedure",
+        "description": "Procedure for handling emergency changes including retrospective review requirements",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "Emergency Change Records",
+        "description": "Records of all emergency changes with retrospective review and approval",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Emergency Change Usage Report",
+        "description": "Report on frequency and nature of emergency changes for management review",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.12",
+    "section": "Technology Operations Management",
+    "subsection": "System Development",
+    "title": "Release Management",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall establish a release management process that ensures controlled and orderly deployment of changes to production environments. Release plans shall include rollback procedures, deployment verification steps, and defined success criteria.",
+    "translation": "You must have a structured release management process for deploying changes to production. Every release plan needs rollback procedures in case something goes wrong, verification steps to confirm the deployment worked, and clear criteria for what constitutes a successful release.",
+    "evidence": [
+      "Release management procedure document",
+      "Sample release plans with rollback procedures",
+      "Deployment verification records",
+      "Release success criteria documentation"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Release Management Procedure",
+        "description": "Procedure for controlled deployment of changes to production environments",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Release Plans",
+        "description": "Release plans including rollback procedures and success criteria",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "Deployment Verification Records",
+        "description": "Records of post-deployment verification checks",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.13",
+    "section": "Technology Operations Management",
+    "subsection": "System Development",
+    "title": "Environment Separation",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall maintain strict separation between development, testing, staging, and production environments. Access to production environments shall be restricted and controlled. Migration of code between environments shall follow a defined and auditable process.",
+    "translation": "Development, testing, staging, and production must be clearly separated environments. Access to production must be tightly restricted, and moving code between environments must follow a formal, auditable process with proper controls.",
+    "evidence": [
+      "Environment separation architecture documentation",
+      "Access control lists per environment",
+      "Code migration procedures and audit trail",
+      "Network segmentation evidence between environments"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Environment Separation Policy",
+        "description": "Policy defining separation requirements between development, test, and production environments",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Environment Architecture Diagram",
+        "description": "Architecture diagram showing separation between environments",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "Code Migration Audit Trail",
+        "description": "Audit trail of code migrations between environments",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.14",
+    "section": "Technology Operations Management",
+    "subsection": "System Development",
+    "title": "Source Code Protection",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement adequate controls to protect source code from unauthorised access, modification, and loss. Source code repositories shall be access-controlled and changes shall be tracked through version control systems. Source code shall not be stored in production environments.",
+    "translation": "Source code must be protected from unauthorised access and changes. Use version-controlled repositories with proper access controls, track all changes, and ensure source code is never stored directly on production servers.",
+    "evidence": [
+      "Source code management policy",
+      "Repository access control configurations",
+      "Version control system logs",
+      "Evidence that source code is not in production environments"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Source Code Protection Policy",
+        "description": "Policy for protecting source code from unauthorised access, modification, and loss",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Repository Access Controls",
+        "description": "Configuration evidence showing access controls on source code repositories",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "Version Control Logs",
+        "description": "Logs from version control system showing change tracking and audit trail",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.15",
+    "section": "Technology Operations Management",
+    "subsection": "System Development",
+    "title": "Configuration Management",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall establish configuration management processes to maintain an accurate and complete inventory of all technology assets, their configurations, and interdependencies. Configuration baselines shall be established and deviations shall be detected, assessed, and remediated.",
+    "translation": "You must manage configurations formally — keeping an accurate inventory of all technology assets and their settings. Establish approved configuration baselines and have processes to detect, assess, and fix any deviations from those baselines.",
+    "evidence": [
+      "Configuration management policy and procedures",
+      "Configuration management database or inventory",
+      "Configuration baseline documents",
+      "Deviation detection and remediation records"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Configuration Management Procedure",
+        "description": "Procedure for maintaining configuration baselines and managing changes",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Configuration Management Database",
+        "description": "Inventory of technology assets with their configurations and interdependencies",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Configuration Compliance Report",
+        "description": "Report on configuration baseline compliance and deviation remediation",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.16",
+    "section": "Technology Operations Management",
+    "subsection": "System Development",
+    "title": "Capacity Planning",
+    "clauseType": "technical",
+    "marker": "G",
+    "verbatim": "Financial institutions should establish capacity planning processes to ensure that technology resources are sufficient to meet current and projected business requirements. Capacity thresholds should be defined and monitored, with timely scaling or procurement actions taken when thresholds are approached.",
+    "translation": "You should plan technology capacity to ensure systems can handle current and future demand. Define capacity thresholds, monitor them continuously, and take action to scale up or procure more resources before limits are reached.",
+    "evidence": [
+      "Capacity planning policy or procedure",
+      "Capacity monitoring reports and dashboards",
+      "Capacity threshold definitions",
+      "Evidence of capacity scaling actions"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Capacity Planning Procedure",
+        "description": "Procedure for planning, monitoring, and managing technology capacity",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Capacity Monitoring Reports",
+        "description": "Regular reports on capacity utilisation against defined thresholds",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      },
+      {
+        "category": "evidence",
+        "name": "Capacity Scaling Records",
+        "description": "Records of capacity scaling actions taken in response to threshold alerts",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      }
+    ]
+  },
+  {
+    "id": "10.17",
+    "section": "Technology Operations Management",
+    "subsection": "Patch & End-of-Life",
+    "title": "Patch Management Policy",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall establish a formal patch management policy that defines the processes for identifying, evaluating, testing, and deploying patches across all technology assets. The policy shall define patch classification criteria and maximum timeframes for deployment based on severity.",
+    "translation": "You must have a written patch management policy covering how patches are identified, evaluated, tested, and deployed. The policy must classify patches by severity and set maximum timeframes for each — for example, critical patches within 14 days, high within 30 days.",
+    "evidence": [
+      "Patch management policy document",
+      "Patch classification criteria and timelines",
+      "Patch deployment records and compliance metrics",
+      "Patch testing procedures"
+    ],
+    "artifacts": [
+      {
+        "category": "policies",
+        "name": "Patch Management Policy",
+        "description": "Formal policy defining patch identification, evaluation, testing, and deployment processes",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "procedures",
+        "name": "Patch Testing Procedure",
+        "description": "Procedure for testing patches before deployment to production",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Patch Compliance Report",
+        "description": "Report on patch deployment compliance against defined timelines",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.18",
+    "section": "Technology Operations Management",
+    "subsection": "Patch & End-of-Life",
+    "title": "Patch Deployment Timeline",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall deploy critical security patches within fourteen days of release and high-severity patches within thirty days. Where immediate patching is not feasible, compensating controls shall be implemented and documented, with formal risk acceptance by the appropriate authority.",
+    "translation": "Critical patches must be applied within 14 days and high-severity patches within 30 days. If you truly cannot patch in time, you must implement compensating controls, document them, and get formal risk acceptance from the appropriate authority level.",
+    "evidence": [
+      "Patch deployment timeline standards",
+      "Patch deployment tracking records",
+      "Compensating control documentation for delayed patches",
+      "Risk acceptance records for patch exceptions"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Patch Deployment Timeline Standards",
+        "description": "Defined timelines for patch deployment by severity level",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "Patch Deployment Tracking Log",
+        "description": "Tracking log of all patch deployments against timeline requirements",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Patch Exception Records",
+        "description": "Documented compensating controls and risk acceptance for delayed patches",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.19",
+    "section": "Technology Operations Management",
+    "subsection": "Patch & End-of-Life",
+    "title": "End-of-Life Management",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall maintain an inventory of all technology assets approaching or past end-of-life and end-of-support status. A migration or replacement plan shall be established for all end-of-life systems. Where end-of-life systems remain in use, compensating controls and formal risk acceptance shall be documented.",
+    "translation": "You must track all systems approaching or past end-of-life or end-of-support dates. Each one needs a migration or replacement plan. If an EOL system cannot be replaced yet, you need documented compensating controls and formal risk acceptance.",
+    "evidence": [
+      "End-of-life inventory and tracking register",
+      "Migration or replacement plans for EOL systems",
+      "Compensating control documentation for legacy systems",
+      "Risk acceptance records for continued EOL system use"
+    ],
+    "artifacts": [
+      {
+        "category": "evidence",
+        "name": "End-of-Life Asset Register",
+        "description": "Inventory of all assets approaching or past end-of-life or end-of-support",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "EOL Migration Plans",
+        "description": "Migration or replacement plans for end-of-life systems",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "EOL Risk Acceptance Records",
+        "description": "Formal risk acceptance and compensating controls for systems remaining past EOL",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.20",
+    "section": "Technology Operations Management",
+    "subsection": "Cryptography",
+    "title": "Cryptographic Policy",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall establish a cryptographic policy that defines the approved cryptographic algorithms, key lengths, and protocols for protecting data at rest and in transit. The policy shall be aligned with recognised international standards and reviewed at least annually to address cryptographic advancements and vulnerabilities.",
+    "translation": "You need a written cryptographic policy specifying which algorithms, key lengths, and protocols are approved for protecting data at rest and in transit. Align it with international standards (like NIST) and review it yearly to stay current with evolving threats.",
+    "evidence": [
+      "Cryptographic policy document",
+      "Approved algorithm and key length specifications",
+      "Annual policy review records",
+      "Alignment mapping to international standards"
+    ],
+    "artifacts": [
+      {
+        "category": "policies",
+        "name": "Cryptographic Policy",
+        "description": "Policy defining approved algorithms, key lengths, and protocols",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Standards Alignment Mapping",
+        "description": "Mapping of cryptographic policy to international standards (NIST, ISO)",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Annual Review Records",
+        "description": "Records of annual cryptographic policy review and updates",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.21",
+    "section": "Technology Operations Management",
+    "subsection": "Cryptography",
+    "title": "Key Management",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement a key management framework that governs the entire lifecycle of cryptographic keys, including generation, distribution, storage, rotation, revocation, and destruction. Keys shall be protected using hardware security modules or equivalent mechanisms for critical systems.",
+    "translation": "Manage cryptographic keys through their full lifecycle — generation, distribution, storage, rotation, revocation, and destruction. For critical systems, keys must be stored in hardware security modules (HSMs) or similarly secure mechanisms.",
+    "evidence": [
+      "Key management framework document",
+      "HSM deployment and configuration evidence",
+      "Key rotation schedule and records",
+      "Key destruction procedures and records"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Key Management Framework",
+        "description": "Framework governing the full lifecycle of cryptographic keys",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "HSM Configuration Evidence",
+        "description": "Evidence of HSM deployment and configuration for critical system keys",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "Key Lifecycle Records",
+        "description": "Records of key generation, rotation, revocation, and destruction activities",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.22",
+    "section": "Technology Operations Management",
+    "subsection": "Cryptography",
+    "title": "Encryption Standards",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement encryption for all sensitive data at rest and in transit using approved cryptographic algorithms with a minimum key length of 256 bits for symmetric encryption and 2048 bits for asymmetric encryption. Deprecated or weak algorithms shall be identified and replaced.",
+    "translation": "All sensitive data must be encrypted both at rest and in transit. Use AES-256 or equivalent for symmetric encryption and at least RSA-2048 for asymmetric. Identify and replace any deprecated or weak algorithms still in use.",
+    "evidence": [
+      "Encryption standards document",
+      "Data encryption implementation evidence",
+      "Inventory of encryption algorithms in use",
+      "Deprecated algorithm remediation records"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Encryption Standards",
+        "description": "Standards specifying minimum encryption requirements for data at rest and in transit",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Encryption Implementation Evidence",
+        "description": "Evidence of encryption deployment across systems and data stores",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Cryptographic Algorithm Inventory",
+        "description": "Inventory of all cryptographic algorithms in use with assessment of adequacy",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.23",
+    "section": "Technology Operations Management",
+    "subsection": "Cryptography",
+    "title": "Certificate Management",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall establish processes for managing digital certificates, including issuance, renewal, revocation, and monitoring of certificate expiry. Certificates shall be obtained from trusted certificate authorities and certificate transparency shall be monitored to detect unauthorised issuance.",
+    "translation": "You must manage digital certificates through their lifecycle — issue, renew, revoke, and monitor them for expiry. Use trusted certificate authorities and monitor certificate transparency logs to detect any unauthorised certificates issued for your domains.",
+    "evidence": [
+      "Certificate management procedure",
+      "Certificate inventory with expiry dates",
+      "Certificate transparency monitoring evidence",
+      "Certificate renewal and revocation records"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Certificate Management Procedure",
+        "description": "Procedure for managing the lifecycle of digital certificates",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Certificate Inventory",
+        "description": "Inventory of all digital certificates with issuance and expiry details",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "Certificate Monitoring Logs",
+        "description": "Logs from certificate transparency monitoring and expiry alerts",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.24",
+    "section": "Technology Operations Management",
+    "subsection": "Data Centre & Facilities",
+    "title": "Data Centre Physical Security",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement physical security controls for data centres that include perimeter security, multi-layer access controls, CCTV surveillance with a minimum retention of ninety days, and visitor management procedures. Physical access shall be restricted to authorised personnel only.",
+    "translation": "Data centres must have multiple layers of physical security: perimeter fencing, multi-layer access controls (badges, biometrics), CCTV with at least 90 days of footage retention, and formal visitor management. Only authorised personnel may enter.",
+    "evidence": [
+      "Data centre physical security policy",
+      "CCTV coverage maps and retention configuration",
+      "Access control system configuration",
+      "Visitor management logs",
+      "Physical security assessment reports"
+    ],
+    "artifacts": [
+      {
+        "category": "policies",
+        "name": "Data Centre Physical Security Policy",
+        "description": "Policy defining physical security requirements for data centre facilities",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "CCTV Configuration Evidence",
+        "description": "Evidence of CCTV coverage and 90-day retention configuration",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "Visitor Management Logs",
+        "description": "Logs of all visitor access to data centre facilities",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.25",
+    "section": "Technology Operations Management",
+    "subsection": "Data Centre & Facilities",
+    "title": "Environmental Controls",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement environmental controls in data centres including temperature and humidity monitoring, water leak detection, and air quality management. Environmental conditions shall be continuously monitored with automated alerting when thresholds are breached.",
+    "translation": "Data centres need environmental controls for temperature, humidity, water leaks, and air quality. These must be monitored continuously with automated alerts when any parameter goes outside acceptable thresholds.",
+    "evidence": [
+      "Environmental monitoring system documentation",
+      "Temperature and humidity threshold settings",
+      "Alert configuration and escalation procedures",
+      "Environmental monitoring reports"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Environmental Control Procedures",
+        "description": "Procedures for monitoring and managing data centre environmental conditions",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Environmental Monitoring Configuration",
+        "description": "Configuration of environmental monitoring systems and alert thresholds",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "Environmental Monitoring Logs",
+        "description": "Continuous monitoring logs for temperature, humidity, and other environmental parameters",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.26",
+    "section": "Technology Operations Management",
+    "subsection": "Data Centre & Facilities",
+    "title": "Power & Redundancy",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall ensure that data centres are equipped with redundant power supplies, uninterruptible power supply (UPS) systems, and backup generators. Power redundancy shall be designed to sustain operations during power outages with a minimum runtime of seventy-two hours for backup generators.",
+    "translation": "Data centres must have redundant power including UPS systems and backup generators. Generators must be able to sustain operations for at least 72 hours during a power outage. Regular testing of power failover must be conducted.",
+    "evidence": [
+      "Power redundancy design documentation",
+      "UPS capacity and configuration records",
+      "Generator capacity and fuel supply records",
+      "Power failover test records"
+    ],
+    "artifacts": [
+      {
+        "category": "evidence",
+        "name": "Power Redundancy Architecture",
+        "description": "Documentation of redundant power design including UPS and generator capacity",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "Power Failover Test Records",
+        "description": "Records of regular power failover and generator testing",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Power Capacity Report",
+        "description": "Report on power capacity, redundancy levels, and generator fuel supply",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.27",
+    "section": "Technology Operations Management",
+    "subsection": "Data Centre & Facilities",
+    "title": "Fire Suppression",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall install and maintain fire detection and suppression systems in data centres that are appropriate for the protection of electronic equipment. Fire suppression systems shall be tested at least annually and staff shall be trained on emergency response procedures.",
+    "translation": "Data centres need fire detection and suppression systems suitable for protecting electronic equipment (such as gas-based suppression). Systems must be tested yearly and staff must be trained on what to do in a fire emergency.",
+    "evidence": [
+      "Fire suppression system specifications",
+      "Annual fire suppression testing records",
+      "Staff emergency response training records",
+      "Fire detection system configuration"
+    ],
+    "artifacts": [
+      {
+        "category": "evidence",
+        "name": "Fire Suppression System Documentation",
+        "description": "Specifications and design of fire detection and suppression systems",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "Fire System Test Records",
+        "description": "Annual testing records for fire detection and suppression systems",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Emergency Response Training Records",
+        "description": "Records of staff training on fire emergency response procedures",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.28",
+    "section": "Technology Operations Management",
+    "subsection": "Data Centre & Facilities",
+    "title": "Data Centre Access Control",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement multi-factor physical access controls for data centre facilities, including biometric authentication for sensitive areas. Access rights shall be reviewed at least quarterly and immediately revoked upon termination of employment or change in role.",
+    "translation": "Data centre access must use multi-factor physical authentication, with biometrics for sensitive areas. Access rights must be reviewed quarterly and immediately removed when someone leaves the organisation or changes role.",
+    "evidence": [
+      "Physical access control system configuration",
+      "Biometric system deployment records",
+      "Quarterly access review records",
+      "Access revocation records for terminations and role changes"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Data Centre Access Control Procedure",
+        "description": "Procedure for managing physical access to data centre facilities",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Access Control System Configuration",
+        "description": "Configuration of multi-factor physical access controls and biometric systems",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "Access Review and Revocation Records",
+        "description": "Quarterly access review records and immediate revocation evidence",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.29",
+    "section": "Technology Operations Management",
+    "subsection": "Service Availability",
+    "title": "Service Level Management",
+    "clauseType": "governance",
+    "marker": "S",
+    "verbatim": "Financial institutions shall define and monitor service level agreements for all critical technology services. SLAs shall specify availability targets, performance metrics, and incident response times. Service level performance shall be reported to senior management at least monthly.",
+    "translation": "Define SLAs for all critical technology services covering availability, performance, and incident response times. Monitor them continuously and report performance to senior management at least monthly.",
+    "evidence": [
+      "Service level agreement documents",
+      "SLA monitoring dashboards or reports",
+      "Monthly SLA performance reports to management",
+      "SLA breach records and remediation actions"
+    ],
+    "artifacts": [
+      {
+        "category": "governance",
+        "name": "Service Level Agreements",
+        "description": "Documented SLAs for all critical technology services",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Monthly SLA Performance Reports",
+        "description": "Monthly reports on service level performance presented to management",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "SLA Breach Records",
+        "description": "Records of SLA breaches and corrective actions taken",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.30",
+    "section": "Technology Operations Management",
+    "subsection": "Service Availability",
+    "title": "IT Service Continuity",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall develop and maintain IT service continuity plans that ensure the continued availability of critical technology services during disruptions. Plans shall be aligned with business continuity management and shall address various disruption scenarios including natural disasters, cyber attacks, and technology failures.",
+    "translation": "You must have IT service continuity plans for keeping critical systems running during disruptions. Plans should cover natural disasters, cyber attacks, and technology failures, and must align with broader business continuity planning.",
+    "evidence": [
+      "IT service continuity plan documents",
+      "Alignment mapping with business continuity plans",
+      "Disruption scenario analysis",
+      "Continuity plan testing records"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "IT Service Continuity Plan",
+        "description": "Plans ensuring continued availability of critical services during disruptions",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "BCP Alignment Mapping",
+        "description": "Mapping showing alignment between IT continuity and business continuity plans",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Scenario Analysis Report",
+        "description": "Analysis of disruption scenarios and their impact on critical services",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.31",
+    "section": "Technology Operations Management",
+    "subsection": "Service Availability",
+    "title": "Disaster Recovery Planning",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall establish disaster recovery plans for all critical systems that define recovery procedures, roles and responsibilities, communication plans, and escalation procedures. DR plans shall be documented, maintained, and accessible to relevant personnel during an emergency.",
+    "translation": "Every critical system needs a disaster recovery plan covering how to recover it, who is responsible, how to communicate during the crisis, and when to escalate. Plans must be kept up to date and accessible during emergencies — not locked away on the systems that failed.",
+    "evidence": [
+      "Disaster recovery plan documents for critical systems",
+      "DR roles and responsibilities matrix",
+      "Communication and escalation procedures",
+      "DR plan distribution and accessibility evidence"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Disaster Recovery Plans",
+        "description": "DR plans for all critical systems with recovery procedures and roles",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "governance",
+        "name": "DR Roles and Responsibilities Matrix",
+        "description": "Matrix defining DR roles, responsibilities, and escalation paths",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "procedures",
+        "name": "DR Communication Plan",
+        "description": "Communication plan for use during disaster recovery activation",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.32",
+    "section": "Technology Operations Management",
+    "subsection": "Service Availability",
+    "title": "DR Testing",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall test disaster recovery plans at least annually for all critical systems. Testing shall include full failover tests to the disaster recovery site and shall validate recovery time objectives and recovery point objectives. Test results shall be documented and deficiencies remediated.",
+    "translation": "DR plans for critical systems must be tested at least once a year with full failover to the DR site. Tests must confirm that RTO and RPO targets are met. Document the results, identify any gaps, and fix them.",
+    "evidence": [
+      "DR test schedule and completion records",
+      "Full failover test results",
+      "RTO and RPO validation records",
+      "Deficiency remediation plans and tracking"
+    ],
+    "artifacts": [
+      {
+        "category": "reports",
+        "name": "DR Test Results Report",
+        "description": "Report on disaster recovery testing including RTO/RPO validation",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Failover Test Records",
+        "description": "Records of full failover tests to the disaster recovery site",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "DR Deficiency Remediation Plan",
+        "description": "Plan for remediating deficiencies identified during DR testing",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.33",
+    "section": "Technology Operations Management",
+    "subsection": "Service Availability",
+    "title": "Recovery Time Objectives",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall define recovery time objectives (RTO) and recovery point objectives (RPO) for all critical systems based on business impact analysis. RTOs and RPOs shall be approved by business owners and validated through regular disaster recovery testing.",
+    "translation": "Define RTO and RPO targets for all critical systems based on how important they are to the business. Business owners must approve these targets, and regular DR testing must prove the targets can actually be met.",
+    "evidence": [
+      "RTO and RPO definitions for critical systems",
+      "Business owner approval records",
+      "DR test results validating RTO/RPO compliance",
+      "Business impact analysis supporting RTO/RPO decisions"
+    ],
+    "artifacts": [
+      {
+        "category": "governance",
+        "name": "RTO/RPO Definitions",
+        "description": "Documented RTO and RPO targets for all critical systems with business owner approval",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "RTO/RPO Validation Records",
+        "description": "DR test records validating that RTO and RPO targets are achievable",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "BIA-to-RTO Mapping",
+        "description": "Mapping between business impact analysis results and RTO/RPO targets",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.34",
+    "section": "Technology Operations Management",
+    "subsection": "Service Availability",
+    "title": "Business Impact Analysis",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall conduct a business impact analysis (BIA) at least annually to identify critical business processes, their supporting technology services, and the potential impact of disruptions. The BIA shall inform recovery priorities, resource allocation, and continuity planning decisions.",
+    "translation": "Conduct a BIA at least yearly to identify which business processes are critical, what technology services support them, and what happens if they go down. Use the BIA results to set recovery priorities and allocate continuity resources.",
+    "evidence": [
+      "Business impact analysis report",
+      "Critical business process inventory",
+      "Technology service dependency mapping",
+      "Annual BIA review and update records"
+    ],
+    "artifacts": [
+      {
+        "category": "reports",
+        "name": "Business Impact Analysis Report",
+        "description": "Annual BIA identifying critical processes and their technology dependencies",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Technology Dependency Mapping",
+        "description": "Mapping of critical business processes to supporting technology services",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "BIA Review Records",
+        "description": "Annual review and update records for the business impact analysis",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.35",
+    "section": "Technology Operations Management",
+    "subsection": "Service Availability",
+    "title": "Crisis Communication",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall establish crisis communication plans that define communication protocols, stakeholder notification procedures, and media management strategies during technology incidents and disruptions. Communication plans shall be tested as part of regular continuity exercises.",
+    "translation": "You need a crisis communication plan that covers how to communicate during technology incidents — who gets notified, in what order, through which channels, and how to manage external communications and media. Test these plans during continuity exercises.",
+    "evidence": [
+      "Crisis communication plan document",
+      "Stakeholder notification procedures and contact lists",
+      "Crisis communication testing records",
+      "Media management guidelines"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Crisis Communication Plan",
+        "description": "Plan defining communication protocols during technology incidents and disruptions",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Stakeholder Contact Lists",
+        "description": "Maintained contact lists for crisis notification of stakeholders",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Communication Plan Test Records",
+        "description": "Records of crisis communication testing during continuity exercises",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.36",
+    "section": "Technology Operations Management",
+    "subsection": "Network Security",
+    "title": "Network Architecture",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall design and maintain a secure network architecture that incorporates defence-in-depth principles. The architecture shall be documented, including all network zones, data flows, and interconnections. Architecture reviews shall be conducted at least annually and upon significant changes.",
+    "translation": "Your network must be designed with defence-in-depth — multiple layers of security. Document the full architecture including all zones, data flows, and connections. Review the architecture at least yearly or when significant changes occur.",
+    "evidence": [
+      "Network architecture documentation and diagrams",
+      "Network zone definitions and data flow diagrams",
+      "Annual architecture review records",
+      "Defence-in-depth design principles documentation"
+    ],
+    "artifacts": [
+      {
+        "category": "evidence",
+        "name": "Network Architecture Diagrams",
+        "description": "Complete network architecture diagrams including zones, data flows, and interconnections",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "procedures",
+        "name": "Network Architecture Standards",
+        "description": "Standards for secure network architecture based on defence-in-depth principles",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Annual Architecture Review Report",
+        "description": "Annual review report on network architecture adequacy and security",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.37",
+    "section": "Technology Operations Management",
+    "subsection": "Network Security",
+    "title": "Network Segmentation",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement network segmentation to isolate critical systems, sensitive data environments, and different trust zones. Segmentation controls shall restrict lateral movement and shall be validated through regular penetration testing.",
+    "translation": "Segment your network to isolate critical systems and sensitive data from less secure areas. The segmentation must prevent attackers from moving laterally across network zones, and it should be validated through regular penetration testing.",
+    "evidence": [
+      "Network segmentation design documentation",
+      "VLAN and firewall rule configurations",
+      "Penetration test reports validating segmentation",
+      "Segmentation policy and standards"
+    ],
+    "artifacts": [
+      {
+        "category": "evidence",
+        "name": "Network Segmentation Design",
+        "description": "Documentation of network segmentation design and trust zone definitions",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Segmentation Configuration Evidence",
+        "description": "VLAN and firewall configurations implementing network segmentation",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Segmentation Validation Reports",
+        "description": "Penetration test reports validating effectiveness of network segmentation",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.38",
+    "section": "Technology Operations Management",
+    "subsection": "Network Security",
+    "title": "Firewall Management",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement and maintain firewalls at all network boundaries and between security zones. Firewall rules shall follow the principle of least privilege, be reviewed at least semi-annually, and unused or overly permissive rules shall be identified and remediated.",
+    "translation": "Deploy firewalls at all network boundaries and between security zones. Rules must follow least privilege, be reviewed at least every six months, and any unused or overly permissive rules must be cleaned up.",
+    "evidence": [
+      "Firewall management policy",
+      "Firewall rule review records (semi-annual)",
+      "Firewall rule base audit reports",
+      "Remediation records for overly permissive rules"
+    ],
+    "artifacts": [
+      {
+        "category": "policies",
+        "name": "Firewall Management Policy",
+        "description": "Policy governing firewall deployment, rule management, and review cycles",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "Firewall Rule Review Records",
+        "description": "Semi-annual firewall rule review records with findings and actions",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Firewall Audit Report",
+        "description": "Audit report on firewall rule base identifying unused or permissive rules",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.39",
+    "section": "Technology Operations Management",
+    "subsection": "Network Security",
+    "title": "Intrusion Detection & Prevention",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall deploy intrusion detection and prevention systems (IDS/IPS) at critical network points to detect and block malicious activities. IDS/IPS signatures and rules shall be updated regularly, and alerts shall be monitored and investigated in a timely manner.",
+    "translation": "Deploy IDS/IPS at critical network points to detect and block attacks. Keep signatures and rules updated, and ensure alerts are actively monitored and investigated promptly — not just collected and ignored.",
+    "evidence": [
+      "IDS/IPS deployment architecture",
+      "Signature and rule update records",
+      "Alert monitoring and investigation records",
+      "IDS/IPS policy and configuration standards"
+    ],
+    "artifacts": [
+      {
+        "category": "evidence",
+        "name": "IDS/IPS Deployment Documentation",
+        "description": "Architecture and deployment documentation for IDS/IPS systems",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "Signature Update Records",
+        "description": "Records of IDS/IPS signature and rule updates",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "Alert Investigation Records",
+        "description": "Records of IDS/IPS alert monitoring, triage, and investigation",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.40",
+    "section": "Technology Operations Management",
+    "subsection": "Network Security",
+    "title": "Wireless Security",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement security controls for all wireless networks, including WPA3 or equivalent encryption, network segmentation from the corporate network, rogue access point detection, and regular wireless security assessments. Guest wireless networks shall be isolated from internal networks.",
+    "translation": "Wireless networks must use WPA3 or equivalent encryption and be segmented from the corporate network. Implement rogue access point detection, conduct regular wireless security assessments, and ensure guest Wi-Fi is completely isolated from internal systems.",
+    "evidence": [
+      "Wireless security policy",
+      "Wireless encryption and segmentation configuration",
+      "Rogue AP detection system deployment evidence",
+      "Wireless security assessment reports"
+    ],
+    "artifacts": [
+      {
+        "category": "policies",
+        "name": "Wireless Security Policy",
+        "description": "Policy defining security requirements for wireless network deployment",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Wireless Configuration Evidence",
+        "description": "Configuration evidence for wireless encryption, segmentation, and rogue AP detection",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Wireless Security Assessment Reports",
+        "description": "Regular wireless security assessment and penetration test reports",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.41",
+    "section": "Technology Operations Management",
+    "subsection": "Network Security",
+    "title": "Remote Access Security",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement secure remote access solutions that include multi-factor authentication, encrypted tunnels, and endpoint compliance checks. Remote access sessions shall be logged and monitored. Split tunnelling shall be prohibited for connections to the corporate network.",
+    "translation": "Remote access must use MFA, encrypted VPN tunnels, and endpoint compliance checks (ensuring the device meets security standards before connecting). Log and monitor all remote sessions. Split tunnelling must be disabled to prevent bypassing corporate security controls.",
+    "evidence": [
+      "Remote access security policy",
+      "VPN and MFA configuration evidence",
+      "Endpoint compliance check configuration",
+      "Remote access monitoring and logging evidence"
+    ],
+    "artifacts": [
+      {
+        "category": "policies",
+        "name": "Remote Access Security Policy",
+        "description": "Policy defining security requirements for remote access to corporate resources",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Remote Access Configuration",
+        "description": "Configuration evidence for VPN, MFA, and endpoint compliance checks",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "Remote Access Logs",
+        "description": "Logs of remote access sessions with monitoring and investigation records",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.42",
+    "section": "Technology Operations Management",
+    "subsection": "Network Security",
+    "title": "DNS Security",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement DNS security controls including DNSSEC for authoritative domains, DNS query logging and monitoring, and protection against DNS-based attacks such as cache poisoning and tunnelling. DNS infrastructure shall be designed with redundancy and resilience.",
+    "translation": "Implement DNS security measures including DNSSEC for your domains, DNS query logging, and defences against DNS attacks like cache poisoning and DNS tunnelling. Ensure DNS infrastructure is redundant and resilient.",
+    "evidence": [
+      "DNS security configuration documentation",
+      "DNSSEC implementation evidence",
+      "DNS query logging and monitoring evidence",
+      "DNS infrastructure redundancy design"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "DNS Security Standards",
+        "description": "Standards for DNS security including DNSSEC and attack prevention",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "DNS Security Configuration",
+        "description": "Configuration evidence for DNSSEC, logging, and DNS attack prevention",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "DNS Infrastructure Design",
+        "description": "DNS infrastructure design showing redundancy and resilience measures",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.43",
+    "section": "Technology Operations Management",
+    "subsection": "Network Security",
+    "title": "Network Monitoring",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement comprehensive network monitoring to detect anomalous traffic patterns, unauthorised access attempts, and potential security incidents. Network traffic shall be analysed using flow data and deep packet inspection where appropriate. Monitoring shall operate on a twenty-four by seven basis.",
+    "translation": "Monitor your network 24/7 to detect unusual traffic patterns, unauthorised access attempts, and security incidents. Use network flow analysis and deep packet inspection where appropriate to gain visibility into what is traversing the network.",
+    "evidence": [
+      "Network monitoring architecture and tools",
+      "24/7 monitoring procedures and staffing",
+      "Network traffic analysis reports",
+      "Anomaly detection configuration and alert records"
+    ],
+    "artifacts": [
+      {
+        "category": "evidence",
+        "name": "Network Monitoring Architecture",
+        "description": "Architecture and tooling documentation for comprehensive network monitoring",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "procedures",
+        "name": "Network Monitoring Procedures",
+        "description": "Procedures for 24/7 network monitoring and anomaly investigation",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "Network Monitoring Alerts",
+        "description": "Logs of network monitoring alerts and investigation outcomes",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.44",
+    "section": "Technology Operations Management",
+    "subsection": "Backup & Recovery",
+    "title": "Backup Policy",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall establish a backup policy that defines backup scope, frequency, retention periods, and storage requirements for all critical systems and data. Backups shall be encrypted, stored in geographically separate locations, and protected from unauthorised access and ransomware attacks.",
+    "translation": "You must have a backup policy defining what gets backed up, how often, how long backups are kept, and where they are stored. Backups must be encrypted, stored at a geographically separate site, and protected from both unauthorised access and ransomware.",
+    "evidence": [
+      "Backup policy document",
+      "Backup schedule and scope definitions",
+      "Backup encryption and offsite storage evidence",
+      "Ransomware protection measures for backups"
+    ],
+    "artifacts": [
+      {
+        "category": "policies",
+        "name": "Backup Policy",
+        "description": "Policy defining backup scope, frequency, retention, and storage requirements",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Backup Configuration Evidence",
+        "description": "Evidence of backup encryption, offsite storage, and ransomware protection",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "Backup Execution Logs",
+        "description": "Logs of backup execution showing successful completion",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.45",
+    "section": "Technology Operations Management",
+    "subsection": "Backup & Recovery",
+    "title": "Backup Testing & Restoration",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall conduct regular backup restoration tests to verify the integrity and recoverability of backup data. Restoration tests shall be performed at least quarterly for critical systems and at least annually for non-critical systems. Test results shall be documented and failures remediated.",
+    "translation": "Regularly test that your backups can actually be restored. For critical systems, test quarterly; for non-critical systems, test at least yearly. Document the results and fix any issues found.",
+    "evidence": [
+      "Backup restoration test schedule",
+      "Restoration test results for critical systems (quarterly)",
+      "Restoration test results for non-critical systems (annual)",
+      "Failure remediation records"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Backup Testing Procedure",
+        "description": "Procedure for regular backup restoration testing",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Backup Restoration Test Reports",
+        "description": "Reports on backup restoration test results and data integrity verification",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Test Failure Remediation Records",
+        "description": "Records of remediation actions for backup restoration test failures",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.46",
+    "section": "Technology Operations Management",
+    "subsection": "Third-Party Management",
+    "title": "Vendor Risk Assessment",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "verbatim": "Financial institutions shall conduct comprehensive risk assessments of all technology vendors prior to engagement and on an ongoing basis. Assessments shall evaluate the vendor's security posture, financial stability, regulatory compliance, and business continuity capabilities. Critical vendor assessments shall be reviewed at least annually.",
+    "translation": "Before engaging any technology vendor, and on an ongoing basis, conduct a thorough risk assessment covering their security, financial health, compliance, and continuity capabilities. For critical vendors, repeat this assessment at least yearly.",
+    "evidence": [
+      "Vendor risk assessment framework and methodology",
+      "Completed vendor risk assessments",
+      "Critical vendor annual reassessment records",
+      "Vendor risk rating and classification records"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Vendor Risk Assessment Framework",
+        "description": "Framework and methodology for assessing technology vendor risks",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Vendor Risk Assessment Reports",
+        "description": "Completed risk assessments for all technology vendors",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Annual Vendor Reassessment Records",
+        "description": "Records of annual risk reassessments for critical vendors",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.47",
+    "section": "Technology Operations Management",
+    "subsection": "Third-Party Management",
+    "title": "Outsourcing Governance",
+    "clauseType": "governance",
+    "marker": "S",
+    "verbatim": "Financial institutions shall establish a governance framework for technology outsourcing that defines roles, responsibilities, and oversight mechanisms. The framework shall ensure that outsourced activities are subject to the same risk management and security standards as in-house operations. Board approval shall be obtained for material outsourcing arrangements.",
+    "translation": "You need a formal governance framework for technology outsourcing with clear roles and oversight. Outsourced activities must meet the same security and risk standards as internal operations. Material outsourcing arrangements need board approval.",
+    "evidence": [
+      "Outsourcing governance framework document",
+      "Board approval records for material outsourcing",
+      "Outsourcing risk and security requirements",
+      "Outsourcing oversight and monitoring records"
+    ],
+    "artifacts": [
+      {
+        "category": "governance",
+        "name": "Outsourcing Governance Framework",
+        "description": "Framework defining roles, responsibilities, and oversight for technology outsourcing",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Board Outsourcing Approvals",
+        "description": "Board approval records for material outsourcing arrangements",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Outsourcing Monitoring Reports",
+        "description": "Reports on oversight and monitoring of outsourced technology activities",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.48",
+    "section": "Technology Operations Management",
+    "subsection": "Third-Party Management",
+    "title": "SLA Monitoring",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "verbatim": "Financial institutions shall monitor vendor compliance with service level agreements on an ongoing basis. SLA breaches shall be documented, escalated, and addressed through defined remediation processes. Persistent SLA non-compliance shall trigger vendor review and potential contract renegotiation or termination.",
+    "translation": "Actively monitor whether your vendors are meeting their SLAs. When breaches occur, document them and escalate through defined processes. If a vendor consistently fails to meet SLAs, trigger a formal review that may lead to contract renegotiation or termination.",
+    "evidence": [
+      "Vendor SLA monitoring reports",
+      "SLA breach records and escalation evidence",
+      "Remediation plans for SLA non-compliance",
+      "Vendor performance review records"
+    ],
+    "artifacts": [
+      {
+        "category": "reports",
+        "name": "Vendor SLA Monitoring Reports",
+        "description": "Regular reports on vendor SLA compliance and performance",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "SLA Breach Records",
+        "description": "Records of SLA breaches with escalation and remediation actions",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Vendor Performance Reviews",
+        "description": "Formal vendor performance review records addressing SLA compliance",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.49",
+    "section": "Technology Operations Management",
+    "subsection": "Third-Party Management",
+    "title": "Vendor Exit Strategy",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "verbatim": "Financial institutions shall maintain documented exit strategies for all critical technology vendors. Exit strategies shall address data migration, service transition, continuity of operations, and the secure destruction of data held by the vendor. Exit plans shall be tested or reviewed at least annually.",
+    "translation": "For every critical vendor, you must have a documented exit plan covering how to migrate data, transition services, maintain operations during the switch, and ensure the vendor securely destroys your data. Review or test these plans at least yearly.",
+    "evidence": [
+      "Vendor exit strategy documents",
+      "Data migration and transition plans",
+      "Secure data destruction requirements",
+      "Annual exit plan review or test records"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Vendor Exit Strategy",
+        "description": "Documented exit strategies for all critical technology vendors",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "procedures",
+        "name": "Data Migration Plan",
+        "description": "Plan for migrating data and transitioning services from vendor",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Exit Plan Review Records",
+        "description": "Annual review or testing records for vendor exit strategies",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.50",
+    "section": "Technology Operations Management",
+    "subsection": "Cloud Services",
+    "title": "Cloud Risk Assessment",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall conduct a comprehensive risk assessment prior to adopting any cloud service. The assessment shall evaluate data sovereignty, regulatory compliance, security controls, vendor lock-in risks, and the shared responsibility model. Risk assessments shall be reviewed upon material changes to the cloud arrangement.",
+    "translation": "Before adopting any cloud service, do a thorough risk assessment covering data sovereignty, compliance, security, vendor lock-in, and the shared responsibility model. Reassess whenever there are material changes to the cloud arrangement.",
+    "evidence": [
+      "Cloud risk assessment methodology",
+      "Completed cloud risk assessments",
+      "Shared responsibility model documentation",
+      "Risk assessment review records for material changes"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Cloud Risk Assessment Methodology",
+        "description": "Methodology for assessing risks of cloud service adoption",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Cloud Risk Assessment Reports",
+        "description": "Completed risk assessments for all cloud service adoptions",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Shared Responsibility Documentation",
+        "description": "Documentation of shared responsibility model for each cloud provider",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.51",
+    "section": "Technology Operations Management",
+    "subsection": "Cloud Services",
+    "title": "Access Control Policy",
+    "clauseType": "governance",
+    "marker": "S",
+    "verbatim": "Financial institutions shall establish, document, and maintain a formal access control policy that defines the rules and rights for users and groups with respect to all systems and information assets. The policy shall be reviewed at least annually or upon significant changes to the operating environment.",
+    "translation": "You must have a written policy stating who can access what systems and data, what they are allowed to do, and how access is managed. This policy must be formally reviewed every year — or sooner if your environment changes significantly.",
+    "evidence": [
+      "Access control policy document with version and effective date",
+      "Annual policy review record or sign-off",
+      "List of systems and information assets in scope",
+      "Evidence of communication to staff"
+    ],
+    "artifacts": [
+      {
+        "category": "policies",
+        "name": "Access Control Policy",
+        "description": "Formal access control policy defining rules and rights for all systems and assets",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Annual Policy Review Records",
+        "description": "Records of annual review and approval of the access control policy",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Policy Communication Records",
+        "description": "Evidence of access control policy communication to all staff",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.52",
+    "section": "Technology Operations Management",
+    "subsection": "Cloud Services",
+    "title": "Cloud Data Residency",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall ensure that data stored in cloud environments complies with applicable data residency and sovereignty requirements. Data classification shall determine the permissible locations for data storage and processing. The financial institution shall maintain visibility over the physical location of its data at all times.",
+    "translation": "You must know exactly where your cloud data is stored and ensure it complies with data residency requirements. Data classification should drive decisions about where data can be stored and processed. You need full visibility over physical data locations at all times.",
+    "evidence": [
+      "Cloud data residency policy",
+      "Data classification and location mapping",
+      "Cloud provider data residency agreements",
+      "Data location monitoring evidence"
+    ],
+    "artifacts": [
+      {
+        "category": "policies",
+        "name": "Cloud Data Residency Policy",
+        "description": "Policy defining data residency requirements for cloud-hosted data",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Data Location Mapping",
+        "description": "Mapping of data classifications to permissible storage and processing locations",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Data Residency Agreements",
+        "description": "Agreements with cloud providers confirming data residency commitments",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.53",
+    "section": "Technology Operations Management",
+    "subsection": "Access Control",
+    "title": "User Access Provisioning",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement formal user access provisioning and de-provisioning processes that follow the principle of least privilege. Access shall be granted based on business need and job role, with formal approval from the data or system owner. De-provisioning shall occur within twenty-four hours of employment termination.",
+    "translation": "User access must follow formal provisioning and de-provisioning processes based on least privilege. Access needs formal approval from the relevant system or data owner. When someone leaves, their access must be removed within 24 hours.",
+    "evidence": [
+      "User access provisioning procedure",
+      "Access request and approval records",
+      "De-provisioning procedure and compliance records",
+      "Least privilege configuration evidence"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "User Access Provisioning Procedure",
+        "description": "Procedure for granting, modifying, and revoking user access based on least privilege",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "Access Request and Approval Logs",
+        "description": "Logs of access requests with approvals from system or data owners",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "De-provisioning Compliance Records",
+        "description": "Records showing access removal within 24 hours of termination",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.54",
+    "section": "Technology Operations Management",
+    "subsection": "Access Control",
+    "title": "Multi-Factor Authentication",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement multi-factor authentication (MFA) for all privileged access to critical systems, networks, and applications. The authentication mechanism must be resistant to replay attacks and phishing attempts. SMS one-time passwords (OTP) shall not be used for privileged access.",
+    "translation": "Any administrator or privileged user accessing critical systems must use at least two forms of authentication — a password plus either a hardware token or an authenticator app (TOTP). SMS codes are explicitly not acceptable. The system must also prevent attackers from reusing stolen credentials.",
+    "evidence": [
+      "PAM policy document (version + date)",
+      "Asset register confirming critical system scope",
+      "MFA configuration screenshots or audit logs",
+      "Break-glass procedure with MFA controls",
+      "Last access review report"
+    ],
+    "artifacts": [
+      {
+        "category": "policies",
+        "name": "MFA Policy",
+        "description": "Policy mandating multi-factor authentication for all privileged access to critical systems",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "MFA Configuration Evidence",
+        "description": "Screenshots or audit logs demonstrating MFA configuration and enforcement",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "procedures",
+        "name": "Break-Glass Procedure",
+        "description": "Emergency access procedure with MFA controls for break-glass scenarios",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "MFA Compliance Report",
+        "description": "Report on MFA adoption and compliance across critical systems",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.55",
+    "section": "Technology Operations Management",
+    "subsection": "Access Control",
+    "title": "Password Policy",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement a password policy that enforces minimum complexity requirements, password history, maximum password age, and account lockout thresholds. The policy shall mandate a minimum password length of twelve characters for standard users and sixteen characters for privileged accounts.",
+    "translation": "You must have a password policy enforcing minimum length (12 characters for regular users, 16 for privileged accounts), complexity rules, password history (preventing reuse), maximum age, and account lockout after failed attempts.",
+    "evidence": [
+      "Password policy document",
+      "Password policy technical configuration evidence",
+      "Account lockout configuration",
+      "Compliance monitoring reports"
+    ],
+    "artifacts": [
+      {
+        "category": "policies",
+        "name": "Password Policy",
+        "description": "Policy defining password complexity, history, age, and lockout requirements",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Password Policy Configuration",
+        "description": "Technical configuration evidence showing password policy enforcement",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Password Policy Compliance Report",
+        "description": "Report on password policy compliance across all systems",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.56",
+    "section": "Technology Operations Management",
+    "subsection": "Access Control",
+    "title": "Privileged Access Management",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall implement controls to manage, monitor, and review privileged access rights. All privileged activities shall be logged and the logs retained for a minimum of three years. Shared privileged accounts shall be eliminated except where operationally justified and subject to compensating controls.",
+    "translation": "You need formal controls over who has admin-level access — a PAM system to manage and record privileged sessions, logs kept for at least 3 years, and a clear policy against shared admin accounts. If a shared account cannot be avoided, you need documented approval and compensating controls.",
+    "evidence": [
+      "PAM system configuration evidence",
+      "Log retention policy and configuration",
+      "Shared account exception register",
+      "Periodic access review records"
+    ],
+    "artifacts": [
+      {
+        "category": "evidence",
+        "name": "PAM System Configuration",
+        "description": "Configuration evidence for privileged access management system",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "policies",
+        "name": "Privileged Access Policy",
+        "description": "Policy governing privileged access management, logging, and shared account restrictions",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "Privileged Activity Logs",
+        "description": "Logs of all privileged activities retained for a minimum of three years",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Shared Account Exception Register",
+        "description": "Register of approved shared privileged accounts with compensating controls",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.57",
+    "section": "Technology Operations Management",
+    "subsection": "Access Control",
+    "title": "Access Review & Recertification",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "Financial institutions shall conduct periodic access reviews and recertification for all systems and applications. Reviews shall be conducted at least quarterly for privileged access and at least semi-annually for standard user access. Access that is no longer required shall be promptly revoked.",
+    "translation": "Regularly review and recertify all user access. Privileged access must be reviewed at least quarterly; standard user access at least every six months. Any access that is no longer justified must be revoked promptly.",
+    "evidence": [
+      "Access review schedule and procedure",
+      "Quarterly privileged access review records",
+      "Semi-annual standard access review records",
+      "Access revocation records from reviews"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Access Review Procedure",
+        "description": "Procedure for periodic access reviews and recertification",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "Privileged Access Review Records",
+        "description": "Quarterly review records for all privileged access",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "Standard Access Review Records",
+        "description": "Semi-annual review records for standard user access",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Access Revocation Evidence",
+        "description": "Evidence of access revocation resulting from review findings",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  }
+]
