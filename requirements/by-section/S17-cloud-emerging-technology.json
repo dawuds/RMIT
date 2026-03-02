@@ -1,0 +1,485 @@
+{
+  "17.1": {
+    "clauseId": "17.1",
+    "section": "Cloud & Emerging Technology",
+    "subsection": "Cloud & Innovation",
+    "title": "Cloud Strategy & Governance",
+    "clauseType": "governance",
+    "marker": "S",
+    "business": {
+      "summary": "A board-approved cloud strategy and governance framework ensures that cloud adoption decisions are aligned with the institution's risk appetite, technology strategy, and regulatory obligations.",
+      "requirements": [
+        {
+          "id": "17.1-B1",
+          "requirement": "Establish a board-approved cloud strategy that defines the institution's approach to cloud adoption, including strategic objectives, approved cloud service models (IaaS, PaaS, SaaS), and alignment with overall technology strategy and risk appetite",
+          "rationale": "A clear cloud strategy prevents ad-hoc cloud adoption that may introduce unassessed risks and ensures cloud investments support institutional strategic objectives",
+          "owner": "CTO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "17.1-B2",
+          "requirement": "Define governance structures for cloud-related decisions including a cloud governance committee or equivalent body with authority over cloud adoption, architecture standards, and provider selection",
+          "rationale": "Centralised governance prevents shadow IT cloud adoption and ensures consistent application of security, risk, and compliance requirements across all cloud deployments",
+          "owner": "CTO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "17.1-B3",
+          "requirement": "Align the cloud strategy with the institution's risk appetite framework, defining acceptable risk levels for different categories of workloads and data classifications in cloud environments",
+          "rationale": "Risk appetite alignment ensures cloud deployment decisions are consistent with the institution's overall risk tolerance and prevents critical workloads being placed in cloud environments beyond acceptable risk levels",
+          "owner": "CRO",
+          "frequency": "Annual",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Technology teams must implement the cloud strategy through approved architectures, standardised deployment patterns, and cloud management platforms that enforce governance controls.",
+      "requirements": [
+        {
+          "id": "17.1-T1",
+          "requirement": "Implement a cloud management platform that provides centralised visibility, governance enforcement, and policy compliance monitoring across all cloud environments",
+          "rationale": "A centralised management platform enables consistent governance enforcement and prevents cloud deployments that violate institutional policies or regulatory requirements",
+          "owner": "Cloud Architect",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "17.1-T2",
+          "requirement": "Define and maintain approved cloud architecture patterns and reference architectures for common workload types, ensuring security and compliance requirements are embedded by design",
+          "rationale": "Standardised architectures reduce the risk of misconfiguration and accelerate compliant cloud deployment by providing pre-approved patterns",
+          "owner": "Cloud Architect",
+          "frequency": "Quarterly",
+          "priority": "High"
+        },
+        {
+          "id": "17.1-T3",
+          "requirement": "Maintain an inventory of all approved cloud service providers and services, with documented assessments of each provider's security posture, compliance certifications, and data residency capabilities",
+          "rationale": "An approved provider inventory prevents ad-hoc adoption of unevaluated cloud services and ensures all providers meet institutional and regulatory requirements",
+          "owner": "Cloud Architect",
+          "frequency": "Annual",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Governance frameworks must define clear decision rights, approval processes, and oversight mechanisms for cloud adoption to ensure regulatory compliance and strategic alignment.",
+      "requirements": [
+        {
+          "id": "17.1-G1",
+          "requirement": "Document a cloud governance framework defining decision rights, approval processes, roles and responsibilities, and oversight mechanisms for all cloud adoption and management activities",
+          "rationale": "A documented governance framework ensures accountability and consistency in cloud decisions and provides auditable evidence of governance oversight",
+          "owner": "CTO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "17.1-G2",
+          "requirement": "Require cloud adoption proposals to undergo a formal assessment covering risk, security, compliance, data residency, and cost before approval, with documented sign-off from relevant stakeholders",
+          "rationale": "Formal assessment gates ensure every cloud adoption decision is informed by risk, security, and compliance considerations before commitment",
+          "owner": "Cloud Architect",
+          "frequency": "Per-adoption",
+          "priority": "Critical"
+        },
+        {
+          "id": "17.1-G3",
+          "requirement": "Report cloud adoption status, risk metrics, and governance compliance to the board technology committee at least annually, including cloud spend, provider dependency, and security posture",
+          "rationale": "Board reporting ensures governance visibility over the institution's growing cloud footprint and associated risk exposure",
+          "owner": "CTO",
+          "frequency": "Annual",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "17.2": {
+    "clauseId": "17.2",
+    "section": "Cloud & Emerging Technology",
+    "subsection": "Cloud & Innovation",
+    "title": "Cloud Security Controls",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "business": {
+      "summary": "Implementing robust cloud-specific security controls aligned with the shared responsibility model protects the institution's data and systems in cloud environments against evolving cyber threats.",
+      "requirements": [
+        {
+          "id": "17.2-B1",
+          "requirement": "Implement security controls for all cloud environments covering identity and access management, data protection, network security, logging and monitoring, and configuration management",
+          "rationale": "Cloud environments require specific security controls beyond traditional on-premises controls; gaps in any of these five domains can lead to data breaches or service compromises",
+          "owner": "CISO",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "17.2-B2",
+          "requirement": "Align all cloud security controls with the shared responsibility model, clearly delineating which controls are the institution's responsibility versus the cloud service provider's responsibility",
+          "rationale": "Misunderstanding of shared responsibility boundaries is a leading cause of cloud security incidents; clear delineation ensures no security gaps between provider and institutional controls",
+          "owner": "Cloud Architect",
+          "frequency": "Per-adoption",
+          "priority": "Critical"
+        },
+        {
+          "id": "17.2-B3",
+          "requirement": "Validate cloud security control effectiveness through regular assessments including penetration testing, configuration reviews, and compliance scanning at least annually",
+          "rationale": "Regular validation ensures controls remain effective as cloud environments evolve and new services are adopted, preventing configuration drift and control degradation",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Technical implementation must cover all five security domains with cloud-native and third-party tools, automated compliance monitoring, and continuous configuration validation.",
+      "requirements": [
+        {
+          "id": "17.2-T1",
+          "requirement": "Implement cloud-native and third-party security tools for identity and access management including multi-factor authentication, privileged access management, and least-privilege enforcement across all cloud accounts",
+          "rationale": "IAM is the primary control plane in cloud environments; weak IAM controls are the most common vector for cloud security breaches",
+          "owner": "Cloud Architect",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "17.2-T2",
+          "requirement": "Deploy data protection controls including encryption at rest and in transit, data loss prevention, key management, and data classification enforcement in all cloud environments",
+          "rationale": "Data protection controls ensure customer data confidentiality and integrity in cloud environments where the institution does not control the physical infrastructure",
+          "owner": "Cloud Architect",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "17.2-T3",
+          "requirement": "Implement cloud security posture management (CSPM) tools to continuously monitor cloud configurations against security baselines and detect misconfigurations",
+          "rationale": "CSPM provides continuous visibility into cloud security posture and detects configuration drift before it can be exploited by threat actors",
+          "owner": "Cloud Architect",
+          "frequency": "Continuous",
+          "priority": "High"
+        },
+        {
+          "id": "17.2-T4",
+          "requirement": "Configure comprehensive logging and monitoring across all cloud environments with centralised log aggregation, alerting, and integration with the institutional SIEM",
+          "rationale": "Centralised logging and SIEM integration ensures security events in cloud environments are detected and responded to with the same rigour as on-premises events",
+          "owner": "Head of IT",
+          "frequency": "Continuous",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Governance must define cloud security control standards, mandate regular assessments, and ensure shared responsibility mapping is documented and maintained for every cloud deployment.",
+      "requirements": [
+        {
+          "id": "17.2-G1",
+          "requirement": "Document a cloud security control framework defining minimum security requirements across all five domains (IAM, data protection, network security, logging, configuration management) for each cloud service model",
+          "rationale": "A documented framework ensures consistent security control implementation across all cloud deployments and provides a baseline for assessment and audit",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "17.2-G2",
+          "requirement": "Maintain documented shared responsibility model mappings for each cloud service provider and service model, clearly assigning control ownership for every security domain",
+          "rationale": "Documented mappings prevent assumptions about who is responsible for which controls and ensure no security gaps exist at the boundary",
+          "owner": "Cloud Architect",
+          "frequency": "Per-adoption",
+          "priority": "Critical"
+        },
+        {
+          "id": "17.2-G3",
+          "requirement": "Schedule and conduct annual cloud security assessments including penetration testing of cloud environments, and report results to the board technology committee",
+          "rationale": "Annual assessments validate that documented controls are implemented correctly and functioning as intended, providing assurance to governance bodies",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "17.3": {
+    "clauseId": "17.3",
+    "section": "Cloud & Emerging Technology",
+    "subsection": "Cloud & Innovation",
+    "title": "Cloud Portability & Exit",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "business": {
+      "summary": "Ensuring cloud portability and maintaining exit strategies for all cloud services protects the institution from excessive vendor dependency and guarantees continuity if a cloud provider relationship must be terminated.",
+      "requirements": [
+        {
+          "id": "17.3-B1",
+          "requirement": "Design cloud architectures that support portability and avoid excessive dependency on a single cloud service provider, using open standards and abstraction layers where practicable",
+          "rationale": "Excessive vendor lock-in creates concentration risk and limits the institution's negotiating power and ability to respond to provider failures or regulatory concerns",
+          "owner": "Cloud Architect",
+          "frequency": "Per-adoption",
+          "priority": "Critical"
+        },
+        {
+          "id": "17.3-B2",
+          "requirement": "Maintain documented exit strategies for all cloud services covering data extraction procedures, transition timelines, contingency arrangements, and estimated costs and resource requirements",
+          "rationale": "Exit strategies are mandatory under RMiT; without them, the institution may be unable to migrate away from a cloud provider in a controlled manner if required",
+          "owner": "CTO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "17.3-B3",
+          "requirement": "Conduct periodic vendor lock-in risk assessments for each cloud service evaluating the degree of dependency, availability of alternatives, and feasibility of migration",
+          "rationale": "Regular assessment ensures the institution maintains awareness of its dependency levels and can take proactive steps to reduce lock-in before it becomes critical",
+          "owner": "CRO",
+          "frequency": "Annual",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Technical architecture decisions must prioritise interoperability and portability, with validated data extraction capabilities and tested transition procedures for each cloud service.",
+      "requirements": [
+        {
+          "id": "17.3-T1",
+          "requirement": "Implement containerisation, infrastructure-as-code, and cloud-agnostic tooling where practicable to reduce dependency on provider-specific services and facilitate portability",
+          "rationale": "Cloud-agnostic technologies reduce the technical effort and risk of migrating between providers, making exit strategies practically achievable",
+          "owner": "Cloud Architect",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "17.3-T2",
+          "requirement": "Validate data extraction procedures for each cloud service at least annually, ensuring customer data and institutional data can be fully extracted in standard formats within the exit strategy timeline",
+          "rationale": "Untested data extraction procedures may fail during an actual exit, stranding data with the provider; annual validation ensures procedures remain current and functional",
+          "owner": "Cloud Architect",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "17.3-T3",
+          "requirement": "Maintain documented architecture diagrams showing provider-specific dependencies for each cloud deployment, identifying components that would require re-engineering during a provider transition",
+          "rationale": "Dependency mapping enables accurate exit planning and cost estimation, and highlights areas where portability improvements should be prioritised",
+          "owner": "Cloud Architect",
+          "frequency": "Annual",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Governance must mandate exit strategy documentation for every cloud service, require periodic review and testing, and ensure vendor lock-in risks are reported to the board.",
+      "requirements": [
+        {
+          "id": "17.3-G1",
+          "requirement": "Require documented and board-acknowledged exit strategies as a prerequisite for approving any new cloud service adoption, with mandatory annual review of existing exit strategies",
+          "rationale": "Mandating exit strategies at adoption prevents the common pattern of deploying to the cloud without considering how to leave, which becomes increasingly costly over time",
+          "owner": "CTO",
+          "frequency": "Per-adoption",
+          "priority": "Critical"
+        },
+        {
+          "id": "17.3-G2",
+          "requirement": "Report vendor lock-in risk assessment results and exit strategy status to the board technology committee at least annually, including any identified portability concerns",
+          "rationale": "Board reporting ensures governance visibility over concentration risk and vendor dependency, enabling informed strategic decisions about cloud provider relationships",
+          "owner": "CRO",
+          "frequency": "Annual",
+          "priority": "High"
+        },
+        {
+          "id": "17.3-G3",
+          "requirement": "Include cloud exit provisions in all cloud service contracts covering data return, data destruction, transition support, and minimum notice periods",
+          "rationale": "Contractual exit provisions ensure the institution has legal rights to extract its data and receive provider support during a transition",
+          "owner": "Head of Vendor Management",
+          "frequency": "Per-contract",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "17.4": {
+    "clauseId": "17.4",
+    "section": "Cloud & Emerging Technology",
+    "subsection": "Cloud & Innovation",
+    "title": "AI & Machine Learning Governance",
+    "clauseType": "governance",
+    "marker": "G",
+    "business": {
+      "summary": "Establishing governance for AI and ML use in decision-making protects customers from biased or opaque automated decisions and manages the model risks inherent in deploying these technologies in financial services.",
+      "requirements": [
+        {
+          "id": "17.4-B1",
+          "requirement": "Establish a governance framework for the use of AI and ML in decision-making processes that addresses model risk management, data quality, bias detection, explainability, and accountability",
+          "rationale": "AI and ML models in financial services can affect credit decisions, fraud detection, and customer outcomes; without governance, these models may produce biased, inaccurate, or unexplainable decisions",
+          "owner": "CRO",
+          "frequency": "Annual",
+          "priority": "High"
+        },
+        {
+          "id": "17.4-B2",
+          "requirement": "Subject all AI models used for customer-facing decisions to regular validation including accuracy testing, bias testing, and performance monitoring against defined thresholds",
+          "rationale": "Customer-facing AI decisions have direct regulatory and reputational implications; regular validation ensures models continue to perform fairly and accurately as input data evolves",
+          "owner": "Head of Model Risk",
+          "frequency": "Annual",
+          "priority": "High"
+        },
+        {
+          "id": "17.4-B3",
+          "requirement": "Ensure all AI-driven customer-facing decisions can be explained to affected customers and regulators in understandable terms, with documented explainability approaches for each model",
+          "rationale": "Explainability is essential for regulatory compliance, customer trust, and the ability to challenge or appeal automated decisions",
+          "owner": "Head of Model Risk",
+          "frequency": "Per-model",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Technology platforms must support model lifecycle management, bias detection tooling, explainability capabilities, and continuous performance monitoring for all AI and ML models.",
+      "requirements": [
+        {
+          "id": "17.4-T1",
+          "requirement": "Implement a model lifecycle management platform that tracks AI and ML models from development through deployment, monitoring, and retirement with version control and audit trails",
+          "rationale": "Model lifecycle management ensures traceability and accountability for all model decisions and enables rapid identification and rollback of underperforming models",
+          "owner": "Head of IT",
+          "frequency": "Continuous",
+          "priority": "High"
+        },
+        {
+          "id": "17.4-T2",
+          "requirement": "Deploy bias detection and fairness testing tools that evaluate models against protected characteristics and defined fairness metrics before deployment and during ongoing operation",
+          "rationale": "Automated bias detection identifies discriminatory patterns that may not be apparent through manual review, particularly across intersecting protected characteristics",
+          "owner": "Head of Data Science",
+          "frequency": "Per-model",
+          "priority": "High"
+        },
+        {
+          "id": "17.4-T3",
+          "requirement": "Implement model performance monitoring dashboards that track accuracy, drift, fairness metrics, and anomalous outputs in real-time with automated alerting for threshold breaches",
+          "rationale": "Continuous monitoring detects model degradation and emerging biases before they result in significant customer impact or regulatory exposure",
+          "owner": "Head of Data Science",
+          "frequency": "Continuous",
+          "priority": "Medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Governance processes must define clear accountability for AI decisions, mandate regular model validation, and establish oversight mechanisms ensuring ethical and compliant use of AI in financial services.",
+      "requirements": [
+        {
+          "id": "17.4-G1",
+          "requirement": "Document an AI/ML governance framework defining model risk management requirements, data quality standards, bias testing requirements, explainability standards, and accountability structures",
+          "rationale": "A documented framework provides consistent governance across all AI initiatives and ensures regulatory expectations for responsible AI are embedded in development practices",
+          "owner": "CRO",
+          "frequency": "Annual",
+          "priority": "High"
+        },
+        {
+          "id": "17.4-G2",
+          "requirement": "Establish a model risk committee or equivalent governance body with authority to approve, reject, or require modifications to AI models before deployment, particularly for customer-facing applications",
+          "rationale": "Independent governance review prevents deployment of models that have not been adequately tested for bias, fairness, and accuracy",
+          "owner": "CRO",
+          "frequency": "Per-model",
+          "priority": "High"
+        },
+        {
+          "id": "17.4-G3",
+          "requirement": "Maintain a comprehensive AI model inventory documenting all models in use, their purposes, data inputs, decision impact, validation status, and accountable owners",
+          "rationale": "A centralised inventory provides governance visibility over all AI models and ensures none are deployed without appropriate oversight",
+          "owner": "Head of Model Risk",
+          "frequency": "Continuous",
+          "priority": "Medium"
+        }
+      ]
+    }
+  },
+  "17.5": {
+    "clauseId": "17.5",
+    "section": "Cloud & Emerging Technology",
+    "subsection": "Cloud & Innovation",
+    "title": "Emerging Technology Risk Assessment",
+    "clauseType": "regulatory",
+    "marker": "G",
+    "business": {
+      "summary": "Conducting risk assessments before adopting emerging technologies ensures the institution understands the security, privacy, regulatory, and operational implications of new technologies before committing resources.",
+      "requirements": [
+        {
+          "id": "17.5-B1",
+          "requirement": "Conduct comprehensive risk assessments for the adoption of emerging technologies including distributed ledger technology, quantum computing preparedness, and Internet of Things deployments before committing to adoption",
+          "rationale": "Emerging technologies carry novel and often poorly understood risks; pre-adoption assessment prevents the institution from discovering material risks after significant investment",
+          "owner": "CRO",
+          "frequency": "Per-adoption",
+          "priority": "High"
+        },
+        {
+          "id": "17.5-B2",
+          "requirement": "Ensure emerging technology risk assessments cover security, privacy, regulatory compliance, operational, and strategic risk dimensions specific to the Malaysian financial services regulatory environment",
+          "rationale": "Multi-dimensional risk assessment ensures no risk category is overlooked, particularly Malaysian-specific regulatory requirements that may restrict certain technology deployments",
+          "owner": "CRO",
+          "frequency": "Per-adoption",
+          "priority": "High"
+        },
+        {
+          "id": "17.5-B3",
+          "requirement": "Maintain an emerging technology risk register that tracks all emerging technologies under evaluation or adopted, their risk assessments, and risk mitigation status",
+          "rationale": "A centralised register provides governance visibility over the institution's emerging technology landscape and ensures risk assessments are completed before adoption proceeds",
+          "owner": "CTO",
+          "frequency": "Quarterly",
+          "priority": "Medium"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Technology teams must evaluate emerging technologies through structured proof-of-concept and risk assessment processes, with particular attention to cryptographic quantum readiness.",
+      "requirements": [
+        {
+          "id": "17.5-T1",
+          "requirement": "Establish a structured proof-of-concept and evaluation process for emerging technologies that includes security testing, performance assessment, and integration risk analysis in a controlled environment",
+          "rationale": "Controlled evaluation prevents emerging technologies from being deployed into production without adequate testing and risk understanding",
+          "owner": "CTO",
+          "frequency": "Per-adoption",
+          "priority": "High"
+        },
+        {
+          "id": "17.5-T2",
+          "requirement": "Conduct a quantum computing readiness assessment evaluating the institution's cryptographic dependencies, identifying quantum-vulnerable algorithms, and developing a migration roadmap to quantum-resistant cryptography",
+          "rationale": "Quantum computing threatens current cryptographic standards; early assessment enables a planned transition to quantum-resistant algorithms before quantum threats materialise",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Medium"
+        },
+        {
+          "id": "17.5-T3",
+          "requirement": "Assess IoT security risks for any IoT deployments within the institution's environment, covering device authentication, firmware update mechanisms, network segmentation, and data privacy",
+          "rationale": "IoT devices expand the attack surface significantly and often lack enterprise-grade security controls; specific risk assessment is essential before deployment",
+          "owner": "CISO",
+          "frequency": "Per-adoption",
+          "priority": "Medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Governance frameworks must mandate risk assessments before emerging technology adoption, with clear approval gates and board reporting on the institution's emerging technology risk posture.",
+      "requirements": [
+        {
+          "id": "17.5-G1",
+          "requirement": "Document an emerging technology risk assessment framework defining assessment methodology, required risk dimensions, approval gates, and the process for evaluating and approving emerging technology adoption",
+          "rationale": "A structured framework ensures consistent and comprehensive risk assessment across different emerging technologies and prevents ad-hoc adoption decisions",
+          "owner": "CRO",
+          "frequency": "Annual",
+          "priority": "High"
+        },
+        {
+          "id": "17.5-G2",
+          "requirement": "Require CRO and CISO sign-off on emerging technology risk assessments before adoption can proceed, ensuring risk and security implications are formally accepted",
+          "rationale": "Formal risk acceptance by senior leaders ensures emerging technology risks are understood and accepted at an appropriate governance level",
+          "owner": "CRO",
+          "frequency": "Per-adoption",
+          "priority": "High"
+        },
+        {
+          "id": "17.5-G3",
+          "requirement": "Report the emerging technology risk register and quantum computing readiness status to the board technology committee at least annually",
+          "rationale": "Board reporting ensures governance awareness of emerging technology risks and the institution's preparedness for quantum computing impacts on cryptographic security",
+          "owner": "CTO",
+          "frequency": "Annual",
+          "priority": "Medium"
+        }
+      ]
+    }
+  }
+}

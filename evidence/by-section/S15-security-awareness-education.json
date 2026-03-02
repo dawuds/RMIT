@@ -1,0 +1,332 @@
+{
+  "15.1": {
+    "clauseId": "15.1",
+    "section": "Security Awareness & Education",
+    "subsection": "Training & Awareness",
+    "title": "Security Awareness Program",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that a formal security awareness programme exists covering all personnel categories, that mandatory annual training is completed with high participation rates, and that completion is tracked with evidence of management reporting.",
+    "evidenceItems": [
+      {
+        "id": "15.1-E1",
+        "name": "Security awareness program documentation",
+        "description": "Formal, board-approved security awareness programme document defining scope, objectives, target audience, content areas, delivery methods, and annual training calendar",
+        "whatGoodLooksLike": [
+          "Programme document is version-controlled with clear approval signatures from CISO and board risk committee",
+          "Scope explicitly covers employees, contractors, and third-party personnel with system access",
+          "Content areas include cybersecurity risks, data protection (PDPA), social engineering, and institutional security policies",
+          "Annual review cycle is documented with evidence of content updates based on emerging threats"
+        ],
+        "commonGaps": [
+          "Programme document exists but has not been updated for over two years",
+          "Scope excludes contractors or third-party personnel with system access",
+          "No board or senior management approval documented on the programme"
+        ],
+        "suggestedSources": [
+          "Information Security department programme files",
+          "Board risk committee meeting minutes showing programme approval",
+          "LMS platform (Cornerstone, SAP SuccessFactors, KnowBe4)"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "15.1-E2",
+        "name": "Annual training content and materials",
+        "description": "Actual training modules, slides, videos, and assessment materials used for the annual security awareness training cycle",
+        "whatGoodLooksLike": [
+          "Training content is current and references recent threat trends relevant to Malaysian financial institutions",
+          "Materials include interactive elements and post-training knowledge assessments with minimum passing scores",
+          "Content is available in Bahasa Malaysia and English to ensure accessibility across all staff",
+          "Modules cover all required topics: cyber risks, data protection, security policies, and incident reporting"
+        ],
+        "commonGaps": [
+          "Training content is generic vendor material not tailored to the institution's environment or Malaysian regulatory context",
+          "No post-training assessment to verify knowledge retention",
+          "Content has not been refreshed since initial deployment"
+        ],
+        "suggestedSources": [
+          "LMS platform content repository (KnowBe4, Proofpoint Security Awareness)",
+          "Information Security team training material archives",
+          "HR Learning and Development department"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "15.1-E3",
+        "name": "Training completion tracking records",
+        "description": "Detailed records showing individual completion status for all personnel required to complete security awareness training, including timestamps and assessment scores",
+        "whatGoodLooksLike": [
+          "Individual-level records with name, employee ID, personnel category (employee/contractor/third-party), completion date, and assessment score",
+          "Records reconciled against the full population of personnel with system access to identify non-completions",
+          "Automated tracking via LMS with tamper-evident audit trails",
+          "Non-completion escalation records showing follow-up actions taken"
+        ],
+        "commonGaps": [
+          "Tracking is limited to employees and excludes contractors or third-party personnel",
+          "Manual spreadsheet tracking with no audit trail or reconciliation against HR records",
+          "No mechanism to identify personnel who joined mid-year and missed the training cycle"
+        ],
+        "suggestedSources": [
+          "LMS platform completion reports (Cornerstone, SAP SuccessFactors)",
+          "HR system personnel roster for reconciliation",
+          "Third-party vendor management system for contractor records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "15.1-E4",
+        "name": "Training completion rate reports",
+        "description": "Management reports showing aggregate training completion rates by department, personnel category, and trend over time, presented to senior management or board",
+        "whatGoodLooksLike": [
+          "95%+ completion rate across all personnel categories with clear breakdown by department and staff type",
+          "Trend analysis showing year-over-year improvement in completion rates and assessment scores",
+          "Reports presented to board risk committee with documented discussion and action items for low-performing areas",
+          "Clear identification of non-compliant personnel with documented escalation and remediation actions"
+        ],
+        "commonGaps": [
+          "Completion rate below 90% with no documented escalation or remediation plan",
+          "Reports generated but no evidence of presentation to senior management or board",
+          "No breakdown by personnel category, masking low completion rates among contractors"
+        ],
+        "suggestedSources": [
+          "LMS platform analytics and reporting module",
+          "Board risk committee meeting packs and minutes",
+          "CISO quarterly reporting dashboard"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Prepare a reconciliation between the total number of personnel with system access (from HR and vendor management systems) and the number who completed training to demonstrate full coverage",
+      "Ensure training completion records include contractors and third-party personnel, not just permanent employees, as BNM specifically requires coverage of all personnel with system access",
+      "Have board risk committee meeting minutes readily available showing the most recent presentation of training completion metrics and any resulting action items",
+      "Demonstrate that training content has been reviewed and updated within the past 12 months with evidence of changes reflecting current threat landscape",
+      "Prepare a sample of post-training assessment results to show that knowledge retention is being measured, not just course completion"
+    ]
+  },
+  "15.2": {
+    "clauseId": "15.2",
+    "section": "Security Awareness & Education",
+    "subsection": "Training & Awareness",
+    "title": "Phishing Simulation",
+    "clauseType": "technical",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that phishing simulations are conducted at least quarterly, that personnel who fail receive follow-up training, and that metrics are tracked over time and reported to management demonstrating measurable improvement.",
+    "evidenceItems": [
+      {
+        "id": "15.2-E1",
+        "name": "Phishing simulation program documentation",
+        "description": "Documented phishing simulation procedure defining simulation types, frequency, target population, scenario design approach, follow-up training requirements, and escalation for repeat offenders",
+        "whatGoodLooksLike": [
+          "Procedure is version-controlled and approved by CISO with clear annual review date",
+          "Defines minimum quarterly frequency with provisions for additional simulations targeting high-risk departments",
+          "Specifies scenario categories including email phishing, spear phishing, and business email compromise",
+          "Includes escalation pathway for personnel who fail multiple consecutive simulations"
+        ],
+        "commonGaps": [
+          "Procedure exists but does not specify minimum quarterly frequency as required by BNM",
+          "No defined escalation process for repeat offenders",
+          "Scope limited to head office staff, excluding branch and remote personnel"
+        ],
+        "suggestedSources": [
+          "Information Security department procedure repository",
+          "Phishing simulation platform documentation (KnowBe4, Proofpoint, Cofense)",
+          "CISO office programme files"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "15.2-E2",
+        "name": "Quarterly simulation execution records",
+        "description": "Records of each quarterly phishing simulation execution including date, scenario description, target population, and aggregate results",
+        "whatGoodLooksLike": [
+          "Clear evidence of at least four simulations per year with distinct dates in separate quarters",
+          "Each simulation record includes scenario type, number of targets, click rate, credential submission rate, and reporting rate",
+          "Target population covers all personnel with email access, not just a subset",
+          "Simulation scenarios vary across quarters to test different social engineering techniques"
+        ],
+        "commonGaps": [
+          "Only two or three simulations conducted in the past 12 months, falling short of quarterly requirement",
+          "Simulations target only a random sample rather than the full population",
+          "No variation in scenario types across quarters, reducing effectiveness of the programme"
+        ],
+        "suggestedSources": [
+          "Phishing simulation platform campaign reports (KnowBe4, Proofpoint, Cofense)",
+          "Information Security team simulation execution logs",
+          "Email gateway logs confirming simulation delivery"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "15.2-E3",
+        "name": "Follow-up training records for failed simulations",
+        "description": "Records showing that personnel who failed phishing simulations were assigned and completed follow-up training within the required timeframe",
+        "whatGoodLooksLike": [
+          "Individual records linking specific simulation failures to assigned follow-up training modules",
+          "Completion timestamps showing follow-up training was finished within 10 business days of simulation results",
+          "Follow-up training content is targeted to the specific failure type (e.g., link clicking, credential submission)",
+          "Records of escalation for personnel who failed follow-up training or failed multiple simulations"
+        ],
+        "commonGaps": [
+          "Follow-up training assigned but completion not tracked or enforced",
+          "Significant delay between simulation failure and follow-up training assignment (over 30 days)",
+          "Generic follow-up training not tailored to the specific failure type"
+        ],
+        "suggestedSources": [
+          "LMS platform follow-up training assignment and completion records",
+          "Phishing simulation platform remediation module reports",
+          "HR escalation records for repeat offenders"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "15.2-E4",
+        "name": "Phishing simulation metrics and trend reports",
+        "description": "Management reports showing phishing simulation metrics over time including click rates, reporting rates, repeat failure rates, and trend analysis presented to senior management",
+        "whatGoodLooksLike": [
+          "Quarterly trend showing declining click rates and increasing phishing reporting rates over a 12-month period",
+          "Metrics broken down by department, role, and personnel category to identify high-risk groups",
+          "Benchmarking against industry averages for Malaysian financial services sector",
+          "Evidence of board risk committee presentation with documented discussion and action items"
+        ],
+        "commonGaps": [
+          "Metrics collected but no trend analysis or management reporting",
+          "Reports show persistently high click rates (above 15%) with no documented remediation action plan",
+          "No benchmarking against industry norms to contextualise performance"
+        ],
+        "suggestedSources": [
+          "Phishing simulation platform analytics dashboard (KnowBe4, Proofpoint)",
+          "CISO quarterly reporting pack to board risk committee",
+          "Board risk committee meeting minutes"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Prepare a calendar view showing simulation dates across all four quarters to immediately demonstrate compliance with the quarterly requirement",
+      "Have follow-up training completion records pre-linked to specific simulation failures to show the remediation loop is closed",
+      "Prepare trend charts showing click rate reduction over time as this is a key indicator BNM examiners use to assess programme effectiveness",
+      "Ensure records demonstrate that simulations cover the full email-enabled population, not just a sample or subset of departments",
+      "Document any escalation actions taken for repeat offenders to demonstrate that consequences exist for persistent non-compliance"
+    ]
+  },
+  "15.3": {
+    "clauseId": "15.3",
+    "section": "Security Awareness & Education",
+    "subsection": "Training & Awareness",
+    "title": "Role-Based Security Training",
+    "clauseType": "regulatory",
+    "marker": "G",
+    "auditorFocus": "BNM examiners will assess whether the institution has identified specialised roles requiring tailored training, whether training content is differentiated by role and updated for emerging threats, and whether completion is tracked by role category.",
+    "evidenceItems": [
+      {
+        "id": "15.3-E1",
+        "name": "Role-based training program documentation",
+        "description": "Documented programme identifying specialised roles, mapped security competencies, training requirements per role, and the annual training calendar for role-specific modules",
+        "whatGoodLooksLike": [
+          "Programme clearly identifies IT administrators, developers, security analysts, and senior management as distinct training cohorts",
+          "Each role has mapped security competencies with defined learning objectives and minimum proficiency standards",
+          "Training frequency and delivery method specified for each role category",
+          "Programme is reviewed and updated annually with version control and approval signatures"
+        ],
+        "commonGaps": [
+          "Programme exists only for IT security staff but excludes developers and senior management",
+          "No mapping of specific competencies to roles; all specialised staff receive the same training",
+          "Programme document has not been reviewed or updated in over 18 months"
+        ],
+        "suggestedSources": [
+          "CISO office programme documentation",
+          "HR Learning and Development department training framework",
+          "IT department role classification matrix"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "15.3-E2",
+        "name": "Role-specific training materials and curricula",
+        "description": "Actual training content tailored to each specialised role, including secure coding training for developers, system hardening for administrators, threat hunting for analysts, and cyber risk governance for senior management",
+        "whatGoodLooksLike": [
+          "Distinct training modules for each role category with content relevant to that role's specific responsibilities",
+          "Developer training includes OWASP Top 10, secure coding practices, and code review techniques",
+          "IT administrator training covers system hardening, patch management, and privileged access security",
+          "Senior management training addresses cyber risk governance, incident response decision-making, and regulatory obligations"
+        ],
+        "commonGaps": [
+          "All specialised roles receive identical generic cybersecurity training with no role differentiation",
+          "Developer secure coding training not provided despite in-house software development",
+          "Senior management receives no tailored training on their governance responsibilities"
+        ],
+        "suggestedSources": [
+          "LMS platform course catalogue (Cornerstone, Pluralsight, SANS)",
+          "Secure coding training platform (HackEDU, Secure Code Warrior)",
+          "External training provider certificates and course materials"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "15.3-E3",
+        "name": "Training completion records by role",
+        "description": "Training completion records segmented by role category showing which specialised personnel have completed their required role-specific training modules",
+        "whatGoodLooksLike": [
+          "Completion records grouped by role category with individual-level detail including completion date and assessment score",
+          "High completion rates (90%+) across all specialised role categories",
+          "Records reconciled against the current list of personnel in each specialised role",
+          "Assessment scores demonstrating competency attainment above defined thresholds"
+        ],
+        "commonGaps": [
+          "Completion tracked at aggregate level only, with no breakdown by specialised role",
+          "Several specialised roles show completion rates below 70% with no documented follow-up",
+          "New personnel in specialised roles not assigned training promptly after role assignment"
+        ],
+        "suggestedSources": [
+          "LMS platform role-based completion reports",
+          "HR system role classification records for reconciliation",
+          "Department heads confirming personnel role assignments"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "15.3-E4",
+        "name": "Training content update records",
+        "description": "Records demonstrating that role-based training content has been reviewed and updated to reflect emerging threats, recent incidents, and technology changes",
+        "whatGoodLooksLike": [
+          "Version history showing content updates within the past 12 months for each role-specific module",
+          "Change log referencing specific emerging threats or incidents that prompted content updates",
+          "Evidence of subject matter expert review and sign-off on updated content",
+          "Incorporation of lessons learned from the institution's own security incidents"
+        ],
+        "commonGaps": [
+          "Training content unchanged for over two years despite significant threat landscape evolution",
+          "No formal review process or change log for training material updates",
+          "Content updates driven solely by vendor schedule rather than institutional threat intelligence"
+        ],
+        "suggestedSources": [
+          "LMS platform content version history",
+          "Information Security team training content review records",
+          "Threat intelligence reports used to inform content updates"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Prepare a role-to-training mapping matrix showing which specific training modules are assigned to each specialised role category",
+      "Have sample training content available for each role to demonstrate genuine differentiation, not just relabelled generic material",
+      "Ensure completion records can be filtered by role category so examiners can quickly assess coverage for IT administrators, developers, security analysts, and senior management separately",
+      "Prepare evidence of content update history including the specific threats or incidents that triggered changes",
+      "If senior management training is delivered via briefings rather than formal courses, ensure attendance records and briefing materials are documented"
+    ]
+  }
+}

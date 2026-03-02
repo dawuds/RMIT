@@ -1,0 +1,643 @@
+{
+  "8.1": {
+    "clauseId": "8.1",
+    "section": "Governance",
+    "subsection": "Board of Directors",
+    "title": "Board Oversight of Technology Risk",
+    "clauseType": "governance",
+    "marker": "S",
+    "business": {
+      "summary": "Without active board oversight of technology risk, the institution faces uncontrolled exposure to cyber threats, system failures, and regulatory penalties that can erode customer trust and shareholder value.",
+      "requirements": [
+        {
+          "id": "8.1-B1",
+          "requirement": "Allocate a dedicated annual budget for technology risk management activities, including cybersecurity tools, skilled personnel, and third-party assessments, with board-level approval and quarterly spend tracking",
+          "rationale": "Underfunding technology risk leaves the institution vulnerable to breaches and outages that cost far more than prevention; BNM expects visible resource commitment as evidence of board seriousness",
+          "owner": "Chief Financial Officer",
+          "frequency": "Annual approval, Quarterly tracking",
+          "priority": "Critical"
+        },
+        {
+          "id": "8.1-B2",
+          "requirement": "Integrate technology risk as a standing agenda item in board meetings with dedicated discussion time, not relegated to Any Other Business",
+          "rationale": "Technology risk that is buried under general items receives insufficient board attention, leading to uninformed decision-making on matters that can disrupt the entire institution",
+          "owner": "Board Chairman",
+          "frequency": "Quarterly (minimum)",
+          "priority": "Critical"
+        },
+        {
+          "id": "8.1-B3",
+          "requirement": "Ensure technology risk is formally embedded within the enterprise risk management framework with clear linkages to credit, market, and operational risk categories",
+          "rationale": "Treating technology risk in isolation creates blind spots; interconnected risks such as cyber-enabled fraud or system outages affecting trading platforms require an integrated view for effective board oversight",
+          "owner": "Chief Risk Officer",
+          "frequency": "Annual review",
+          "priority": "Critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "IT teams must provide the board with accurate, timely data on the institution's technology risk posture through dashboards, metrics, and reporting systems that translate technical risks into business impact language.",
+      "requirements": [
+        {
+          "id": "8.1-T1",
+          "requirement": "Implement a technology risk dashboard or reporting platform that aggregates key risk indicators across infrastructure, applications, and cybersecurity domains for board-level consumption",
+          "rationale": "The board cannot exercise effective oversight without consolidated, accurate, and current data on the institution's technology risk landscape presented in business-relevant terms",
+          "owner": "Chief Technology Officer",
+          "frequency": "Continuous operation, Quarterly board reporting",
+          "priority": "Critical"
+        },
+        {
+          "id": "8.1-T2",
+          "requirement": "Maintain a comprehensive technology asset inventory that underpins risk assessments and enables the board to understand the scope and criticality of technology dependencies",
+          "rationale": "You cannot manage risks to assets you do not know exist; an accurate inventory is the foundation for all technology risk reporting to the board",
+          "owner": "Head of IT",
+          "frequency": "Continuous maintenance, Annual validation",
+          "priority": "High"
+        },
+        {
+          "id": "8.1-T3",
+          "requirement": "Establish automated monitoring and alerting for critical technology risk indicators such as system availability, security incidents, and patch compliance rates",
+          "rationale": "Manual monitoring is insufficient for the speed and volume of modern technology threats; automated systems ensure the board receives timely and accurate risk data",
+          "owner": "Chief Information Security Officer",
+          "frequency": "Continuous",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Formal governance structures must ensure the board has clear authority, defined responsibilities, and documented processes for overseeing technology risk across the institution.",
+      "requirements": [
+        {
+          "id": "8.1-G1",
+          "requirement": "Establish and maintain a Board Technology Risk Charter that defines the board's roles, responsibilities, and authority in overseeing technology risk management",
+          "rationale": "Without a formal charter, accountability for technology risk oversight becomes ambiguous, and BNM examiners will question whether the board takes its oversight obligations seriously",
+          "owner": "Board Chairman",
+          "frequency": "Annual review",
+          "priority": "Critical"
+        },
+        {
+          "id": "8.1-G2",
+          "requirement": "Document and enforce a formal escalation framework that ensures material technology risk events are reported to the board within defined timeframes",
+          "rationale": "Delayed escalation of critical technology incidents can result in regulatory breaches and reputational damage; the board must be informed promptly to fulfil its oversight role",
+          "owner": "Chief Risk Officer",
+          "frequency": "Annual review, Per-event execution",
+          "priority": "Critical"
+        },
+        {
+          "id": "8.1-G3",
+          "requirement": "Require board sign-off on the technology risk management framework, risk appetite statement, and any material changes to the institution's technology risk profile",
+          "rationale": "Board approval creates accountability and ensures alignment between strategic direction and technology risk tolerance, which is a core BNM expectation under RMiT",
+          "owner": "Company Secretary",
+          "frequency": "Annual approval, Upon-change",
+          "priority": "Critical"
+        }
+      ]
+    }
+  },
+  "8.2": {
+    "clauseId": "8.2",
+    "section": "Governance",
+    "subsection": "Board of Directors",
+    "title": "Board Technology Risk Committee",
+    "clauseType": "governance",
+    "marker": "S",
+    "business": {
+      "summary": "A dedicated board-level technology risk committee ensures focused oversight of technology threats that could disrupt banking operations, compromise customer data, or trigger regulatory sanctions.",
+      "requirements": [
+        {
+          "id": "8.2-B1",
+          "requirement": "Establish a board-level technology risk committee with a formal charter that defines its scope, authority, and relationship to other board committees such as the Board Risk Committee and Audit Committee",
+          "rationale": "Without a dedicated committee, technology risk competes for attention with credit, market, and other risks, leading to insufficient scrutiny of an area that increasingly drives operational and reputational exposure",
+          "owner": "Board Chairman",
+          "frequency": "Annual charter review",
+          "priority": "Critical"
+        },
+        {
+          "id": "8.2-B2",
+          "requirement": "Ensure the committee meets at least quarterly with documented agendas covering cybersecurity posture, technology incidents, risk appetite adherence, and emerging technology threats",
+          "rationale": "Quarterly meetings are the BNM-mandated minimum; less frequent meetings leave gaps in board awareness during periods when the threat landscape evolves rapidly",
+          "owner": "Committee Chairman",
+          "frequency": "Quarterly (minimum)",
+          "priority": "Critical"
+        },
+        {
+          "id": "8.2-B3",
+          "requirement": "Allocate budget for external technology and cybersecurity advisors to supplement committee expertise where internal knowledge gaps exist",
+          "rationale": "Malaysian banking institutions may not always have board members with deep technical expertise; external advisors ensure the committee can effectively challenge management on complex technology risk matters",
+          "owner": "Chief Financial Officer",
+          "frequency": "Annual budget allocation",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Technology teams must provide the committee with structured reporting, data-driven insights, and access to subject matter experts to enable informed oversight decisions.",
+      "requirements": [
+        {
+          "id": "8.2-T1",
+          "requirement": "Develop standardised committee reporting packs that include technology risk dashboards, incident summaries, vulnerability metrics, and risk treatment progress updates",
+          "rationale": "Consistent, structured reporting enables the committee to track trends over time and identify emerging issues before they escalate into material incidents",
+          "owner": "Chief Information Security Officer",
+          "frequency": "Quarterly preparation",
+          "priority": "Critical"
+        },
+        {
+          "id": "8.2-T2",
+          "requirement": "Provide the committee with access to technology risk management tools and platforms for independent verification of reported metrics when requested",
+          "rationale": "Committee members may need to validate management-reported data; access to source systems supports the independent oversight role expected by BNM",
+          "owner": "Chief Technology Officer",
+          "frequency": "Upon request",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Formal governance arrangements must ensure the committee operates with proper authority, documented processes, and qualified membership to fulfil its RMiT oversight mandate.",
+      "requirements": [
+        {
+          "id": "8.2-G1",
+          "requirement": "Document and maintain committee terms of reference specifying membership composition, quorum requirements, meeting frequency, reporting lines to the full board, and authority to commission independent reviews",
+          "rationale": "Clear terms of reference are the primary document BNM examiners review to assess whether the committee has the mandate and authority to fulfil its oversight role effectively",
+          "owner": "Company Secretary",
+          "frequency": "Annual review",
+          "priority": "Critical"
+        },
+        {
+          "id": "8.2-G2",
+          "requirement": "Maintain documented profiles of all committee members demonstrating relevant technology, cybersecurity, or risk management expertise through qualifications, certifications, or professional experience",
+          "rationale": "BNM explicitly requires committee members to have sufficient knowledge in technology and cybersecurity; inability to demonstrate this competency is a common examination finding",
+          "owner": "Company Secretary",
+          "frequency": "Annual update, Upon membership change",
+          "priority": "Critical"
+        },
+        {
+          "id": "8.2-G3",
+          "requirement": "Maintain complete records of meeting attendance, ensuring quorum is consistently achieved and that attendance rates are reported to the full board annually",
+          "rationale": "Poor attendance undermines the committee's effectiveness and signals to BNM that technology risk oversight is not taken seriously at the board level",
+          "owner": "Company Secretary",
+          "frequency": "Per meeting, Annual summary",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "8.3": {
+    "clauseId": "8.3",
+    "section": "Governance",
+    "subsection": "Board of Directors",
+    "title": "Board Competency in Technology",
+    "clauseType": "governance",
+    "marker": "G",
+    "business": {
+      "summary": "Board members who lack technology and cybersecurity knowledge cannot effectively challenge management or make informed decisions about technology investments, risk appetite, and incident response, exposing the institution to poorly governed technology risk.",
+      "requirements": [
+        {
+          "id": "8.3-B1",
+          "requirement": "Conduct an annual board skills assessment to identify technology and cybersecurity knowledge gaps and develop a targeted training plan to address them",
+          "rationale": "Without understanding their own competency gaps, the board cannot take corrective action; BNM expects the board to proactively invest in its collective technology literacy",
+          "owner": "Board Chairman",
+          "frequency": "Annual assessment",
+          "priority": "High"
+        },
+        {
+          "id": "8.3-B2",
+          "requirement": "Engage qualified external technology and cybersecurity advisors to provide independent counsel to the board on complex technology risk matters",
+          "rationale": "Not every board member will become a technology expert; external advisors bridge competency gaps and provide the independent perspective needed for effective board challenge",
+          "owner": "Board Chairman",
+          "frequency": "Annual engagement review, Ad hoc as needed",
+          "priority": "High"
+        },
+        {
+          "id": "8.3-B3",
+          "requirement": "Include technology and cybersecurity competency as a criterion in the board nomination and selection process for new directors",
+          "rationale": "Proactively recruiting directors with technology expertise is more effective than retroactively training directors without any technology background, and demonstrates forward-looking governance to BNM",
+          "owner": "Board Nomination Committee",
+          "frequency": "Per nomination cycle",
+          "priority": "Medium"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Technology leaders must support board education by delivering accessible briefings, organising hands-on demonstrations, and translating complex technical concepts into business-relevant language.",
+      "requirements": [
+        {
+          "id": "8.3-T1",
+          "requirement": "Develop and deliver at least two board education sessions annually on emerging technology risks, threat landscape updates, and cybersecurity trends relevant to Malaysian financial services",
+          "rationale": "Regular education sessions keep the board informed of evolving threats such as ransomware, supply chain attacks, and AI-driven fraud that require board-level awareness and strategic response",
+          "owner": "Chief Information Security Officer",
+          "frequency": "Semi-annual (minimum)",
+          "priority": "High"
+        },
+        {
+          "id": "8.3-T2",
+          "requirement": "Provide the board with access to curated threat intelligence briefings and industry reports tailored to the Malaysian banking sector",
+          "rationale": "Board members need context-specific information about threats targeting Malaysian financial institutions to make informed risk appetite and investment decisions",
+          "owner": "Chief Information Security Officer",
+          "frequency": "Quarterly",
+          "priority": "Medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Formal governance mechanisms must ensure board technology competency is systematically assessed, developed, and maintained through structured training programmes and documented competency frameworks.",
+      "requirements": [
+        {
+          "id": "8.3-G1",
+          "requirement": "Establish a Board Technology Competency Framework that defines expected knowledge areas, proficiency levels, and assessment criteria for all board members",
+          "rationale": "A structured framework transforms competency development from ad hoc to systematic, providing BNM with clear evidence that the institution takes board technology literacy seriously",
+          "owner": "Company Secretary",
+          "frequency": "Annual review",
+          "priority": "High"
+        },
+        {
+          "id": "8.3-G2",
+          "requirement": "Maintain detailed training records for all board members documenting attendance at technology and cybersecurity education sessions, external conferences, and certification programmes",
+          "rationale": "Training records are primary evidence for BNM examiners assessing compliance with this guideline; without them, the institution cannot demonstrate ongoing board development",
+          "owner": "Company Secretary",
+          "frequency": "Continuous recording, Annual summary",
+          "priority": "High"
+        },
+        {
+          "id": "8.3-G3",
+          "requirement": "Report the results of board competency assessments and training completion rates to the Board Nomination Committee annually for inclusion in the annual governance review",
+          "rationale": "Embedding competency results into the governance review process creates accountability and ensures technology knowledge gaps are addressed through the established board development pipeline",
+          "owner": "Board Nomination Committee",
+          "frequency": "Annual",
+          "priority": "Medium"
+        }
+      ]
+    }
+  },
+  "8.4": {
+    "clauseId": "8.4",
+    "section": "Governance",
+    "subsection": "Board of Directors",
+    "title": "Board Risk Appetite Statement",
+    "clauseType": "governance",
+    "marker": "S",
+    "business": {
+      "summary": "A clearly defined technology risk appetite statement ensures the institution takes calculated technology risks that align with its strategic objectives and regulatory obligations, preventing both excessive risk-taking and overly conservative approaches that hinder digital transformation.",
+      "requirements": [
+        {
+          "id": "8.4-B1",
+          "requirement": "Develop and obtain board approval for a technology risk appetite statement that defines acceptable levels of risk across cybersecurity, system availability, data integrity, and third-party technology dependencies",
+          "rationale": "Without a board-approved risk appetite, management has no authoritative guidance on how much technology risk is acceptable, leading to inconsistent risk decisions across the institution",
+          "owner": "Chief Risk Officer",
+          "frequency": "Annual approval",
+          "priority": "Critical"
+        },
+        {
+          "id": "8.4-B2",
+          "requirement": "Express risk appetite using both quantitative metrics (e.g., maximum acceptable downtime, incident thresholds, recovery time objectives) and qualitative statements (e.g., zero tolerance for data breaches affecting customer records)",
+          "rationale": "BNM explicitly requires both quantitative and qualitative measures; qualitative-only statements are too vague to operationalise, while numbers alone miss important nuances",
+          "owner": "Chief Risk Officer",
+          "frequency": "Annual review",
+          "priority": "Critical"
+        },
+        {
+          "id": "8.4-B3",
+          "requirement": "Cascade the board-approved technology risk appetite into operational risk tolerances and limits for business units, IT, and cybersecurity teams",
+          "rationale": "A risk appetite statement sitting in a boardroom document achieves nothing unless it is translated into operational limits that guide day-to-day decision-making across the institution",
+          "owner": "Chief Risk Officer",
+          "frequency": "Annual cascade, Quarterly monitoring",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Technology teams must implement monitoring systems that continuously measure actual risk levels against approved appetite thresholds and trigger alerts when limits are approached or breached.",
+      "requirements": [
+        {
+          "id": "8.4-T1",
+          "requirement": "Implement automated monitoring dashboards that track actual technology risk levels against approved appetite thresholds in real time or near-real time",
+          "rationale": "Manual tracking of risk appetite adherence is too slow to detect breaches in a rapidly evolving threat environment; automated monitoring enables timely escalation and response",
+          "owner": "Chief Technology Officer",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "8.4-T2",
+          "requirement": "Configure alert mechanisms that notify risk management and senior management when technology risk indicators approach or breach defined appetite thresholds",
+          "rationale": "Proactive alerting when approaching thresholds allows corrective action before a formal breach occurs, demonstrating mature risk management to BNM",
+          "owner": "Chief Information Security Officer",
+          "frequency": "Continuous",
+          "priority": "High"
+        },
+        {
+          "id": "8.4-T3",
+          "requirement": "Maintain historical data on risk appetite adherence to support trend analysis and inform annual risk appetite recalibration",
+          "rationale": "Historical trend data enables the board to make evidence-based decisions when reviewing and adjusting risk appetite, rather than relying on subjective assessments",
+          "owner": "IT Risk Manager",
+          "frequency": "Continuous collection, Annual analysis",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Governance processes must ensure the risk appetite statement is formally approved, regularly reviewed, effectively communicated, and used as the basis for risk decision-making throughout the institution.",
+      "requirements": [
+        {
+          "id": "8.4-G1",
+          "requirement": "Conduct a formal annual review of the technology risk appetite statement to ensure it reflects changes in the operating environment, threat landscape, regulatory requirements, and business strategy",
+          "rationale": "A static risk appetite statement becomes irrelevant as the institution's technology landscape evolves; annual review ensures alignment with current realities and BNM expectations",
+          "owner": "Chief Risk Officer",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "8.4-G2",
+          "requirement": "Document and distribute the approved risk appetite statement to all relevant stakeholders including business unit heads, IT leadership, and risk management teams with formal acknowledgement",
+          "rationale": "Risk appetite is only effective if the people making technology risk decisions are aware of and understand the board-approved boundaries within which they must operate",
+          "owner": "Chief Risk Officer",
+          "frequency": "Annual distribution, Upon-change",
+          "priority": "High"
+        },
+        {
+          "id": "8.4-G3",
+          "requirement": "Establish a formal process for risk appetite threshold breaches that includes root cause analysis, remediation planning, and board notification within defined timeframes",
+          "rationale": "Threshold breaches without a structured response process indicate that the risk appetite framework is not operationally embedded, which is a significant BNM examination finding",
+          "owner": "Chief Risk Officer",
+          "frequency": "Per-event",
+          "priority": "Critical"
+        }
+      ]
+    }
+  },
+  "8.5": {
+    "clauseId": "8.5",
+    "section": "Governance",
+    "subsection": "Board of Directors",
+    "title": "Board Reporting on Technology Risk",
+    "clauseType": "governance",
+    "marker": "S",
+    "business": {
+      "summary": "Without comprehensive and timely technology risk reporting, the board operates blind to cyber threats, system vulnerabilities, and remediation gaps that could result in service disruptions, customer harm, or BNM enforcement actions.",
+      "requirements": [
+        {
+          "id": "8.5-B1",
+          "requirement": "Ensure senior management delivers comprehensive quarterly technology risk reports to the board covering key risk indicators, incident summaries, risk mitigation progress, and forward-looking threat assessments",
+          "rationale": "Quarterly reporting is the BNM-mandated minimum cadence; less frequent reporting creates unacceptable gaps in board awareness of the institution's technology risk posture",
+          "owner": "Chief Risk Officer",
+          "frequency": "Quarterly (minimum)",
+          "priority": "Critical"
+        },
+        {
+          "id": "8.5-B2",
+          "requirement": "Include trend analysis in all board technology risk reports showing directional movement of key risk indicators over at least four quarters",
+          "rationale": "Point-in-time snapshots do not reveal whether the institution's technology risk posture is improving or deteriorating; trend analysis enables the board to assess the effectiveness of risk management investments",
+          "owner": "Chief Risk Officer",
+          "frequency": "Quarterly",
+          "priority": "Critical"
+        },
+        {
+          "id": "8.5-B3",
+          "requirement": "Include forward-looking assessments in board reports covering emerging technology threats, planned technology changes, and their potential impact on the institution's risk profile",
+          "rationale": "BNM expects boards to be proactive, not reactive; forward-looking assessments demonstrate that the institution anticipates and prepares for evolving technology risks rather than only responding to incidents",
+          "owner": "Chief Information Security Officer",
+          "frequency": "Quarterly",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Technology and security teams must build robust data collection, analytics, and reporting capabilities to produce accurate, timely, and board-appropriate technology risk reports.",
+      "requirements": [
+        {
+          "id": "8.5-T1",
+          "requirement": "Implement a centralised key risk indicator dashboard that aggregates data from security, infrastructure, and application monitoring systems into a unified board reporting view",
+          "rationale": "Fragmented data across multiple systems leads to inconsistent and potentially inaccurate board reporting; a centralised dashboard ensures a single source of truth for technology risk metrics",
+          "owner": "Chief Technology Officer",
+          "frequency": "Continuous operation, Quarterly board reporting",
+          "priority": "Critical"
+        },
+        {
+          "id": "8.5-T2",
+          "requirement": "Automate the collection and correlation of technology risk data to minimise manual data gathering and reduce the risk of reporting errors or delays",
+          "rationale": "Manual data collection for board reports is error-prone and time-consuming; automation ensures accuracy and allows the risk team to focus on analysis rather than data aggregation",
+          "owner": "Head of IT",
+          "frequency": "Continuous",
+          "priority": "High"
+        },
+        {
+          "id": "8.5-T3",
+          "requirement": "Develop incident summary reporting capabilities that categorise technology incidents by severity, root cause, business impact, and resolution status for board consumption",
+          "rationale": "The board needs structured incident data to understand patterns, assess the effectiveness of incident response, and make informed decisions about investing in preventive controls",
+          "owner": "Chief Information Security Officer",
+          "frequency": "Quarterly compilation",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Formal governance processes must ensure board reports are standardised, timely, reviewed for accuracy, and result in documented board acknowledgement and action.",
+      "requirements": [
+        {
+          "id": "8.5-G1",
+          "requirement": "Establish a standardised board reporting template for technology risk that covers all mandatory elements: KRIs, incident summaries, risk mitigation status, trend analysis, and forward-looking assessments",
+          "rationale": "A standardised template ensures consistency across reporting periods and prevents omission of critical information elements required by BNM",
+          "owner": "Chief Risk Officer",
+          "frequency": "Annual template review",
+          "priority": "Critical"
+        },
+        {
+          "id": "8.5-G2",
+          "requirement": "Implement a quality assurance process for board technology risk reports including review by the CISO and CRO before submission to ensure accuracy and completeness",
+          "rationale": "Inaccurate or incomplete board reports undermine trust and can lead to poor board decisions; a formal QA process ensures the board receives reliable information",
+          "owner": "Chief Risk Officer",
+          "frequency": "Per reporting cycle",
+          "priority": "High"
+        },
+        {
+          "id": "8.5-G3",
+          "requirement": "Document board acknowledgement and any resulting actions or directives arising from technology risk reports in board meeting minutes",
+          "rationale": "BNM examiners look for evidence that the board not only receives reports but engages with the content and directs action; undocumented acknowledgement is equivalent to no acknowledgement",
+          "owner": "Company Secretary",
+          "frequency": "Per board meeting",
+          "priority": "Critical"
+        }
+      ]
+    }
+  },
+  "8.6": {
+    "clauseId": "8.6",
+    "section": "Governance",
+    "subsection": "Senior Management",
+    "title": "Senior Management Accountability",
+    "clauseType": "governance",
+    "marker": "S",
+    "business": {
+      "summary": "Clear senior management accountability for technology risk ensures that the board-approved framework is operationally implemented, with a designated CISO providing independent cybersecurity leadership and direct board access.",
+      "requirements": [
+        {
+          "id": "8.6-B1",
+          "requirement": "Define and document a senior management accountability matrix that assigns specific technology risk responsibilities to named C-suite executives with clear ownership boundaries",
+          "rationale": "Ambiguous accountability leads to gaps in technology risk management where critical activities fall between roles; BNM expects named individuals accountable for specific risk domains",
+          "owner": "Chief Executive Officer",
+          "frequency": "Annual review, Upon organisational change",
+          "priority": "Critical"
+        },
+        {
+          "id": "8.6-B2",
+          "requirement": "Formally appoint a Chief Information Security Officer or equivalent role with a mandate covering cybersecurity strategy, incident response oversight, and security architecture governance",
+          "rationale": "The CISO role is explicitly required by BNM RMiT; absence of a formally appointed CISO with a clear mandate is a direct compliance gap and a common examination finding",
+          "owner": "Chief Executive Officer",
+          "frequency": "Upon appointment, Annual mandate review",
+          "priority": "Critical"
+        },
+        {
+          "id": "8.6-B3",
+          "requirement": "Ensure the CISO has a direct reporting line to the board or board technology risk committee for cybersecurity matters, independent of the CTO or Head of IT reporting structure",
+          "rationale": "If the CISO reports only through the CTO, there is an inherent conflict of interest as the technology delivery function controls the security oversight function; BNM requires independent access to the board",
+          "owner": "Chief Executive Officer",
+          "frequency": "Annual review",
+          "priority": "Critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Technology leadership must implement the operational structures, reporting mechanisms, and performance management systems that translate senior management accountability into effective day-to-day technology risk management.",
+      "requirements": [
+        {
+          "id": "8.6-T1",
+          "requirement": "Implement a technology risk management reporting system that provides the CISO with real-time visibility across all technology risk domains to support board and committee reporting obligations",
+          "rationale": "The CISO cannot fulfil board reporting responsibilities without comprehensive visibility into the institution's technology risk posture across all domains including infrastructure, applications, and third parties",
+          "owner": "Chief Technology Officer",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "8.6-T2",
+          "requirement": "Ensure the CISO has administrative and audit access to all security tools, SIEM platforms, and vulnerability management systems to independently verify the institution's security posture",
+          "rationale": "A CISO who cannot independently verify security data reported by operational teams cannot provide credible assurance to the board; tool access supports the independence requirement",
+          "owner": "Chief Technology Officer",
+          "frequency": "Continuous, Annual access review",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Governance structures must formalise senior management accountability through documented roles, reporting lines, and performance frameworks that demonstrate compliance with BNM's expectations for technology risk leadership.",
+      "requirements": [
+        {
+          "id": "8.6-G1",
+          "requirement": "Document the CISO's appointment, reporting lines, mandate, and authority in a formal board-approved mandate document that is reviewed annually",
+          "rationale": "A formal mandate document is the primary evidence BNM examiners seek to verify that the CISO role has been established with appropriate authority and independence as required by RMiT",
+          "owner": "Company Secretary",
+          "frequency": "Annual review",
+          "priority": "Critical"
+        },
+        {
+          "id": "8.6-G2",
+          "requirement": "Include technology risk management performance objectives in senior management KPIs and performance assessments to reinforce accountability",
+          "rationale": "Accountability without performance consequences is hollow; embedding technology risk objectives in KPIs ensures senior leaders are personally invested in effective risk management",
+          "owner": "Chief Executive Officer",
+          "frequency": "Annual KPI setting",
+          "priority": "High"
+        },
+        {
+          "id": "8.6-G3",
+          "requirement": "Maintain records of CISO presentations and reports to the board or board committee, demonstrating that the direct reporting line is exercised in practice, not just on paper",
+          "rationale": "BNM examiners will verify that the CISO's board reporting line is actively used; a reporting line that exists in the organisation chart but is never exercised fails to meet the intent of the requirement",
+          "owner": "Company Secretary",
+          "frequency": "Per board/committee meeting",
+          "priority": "Critical"
+        }
+      ]
+    }
+  },
+  "8.7": {
+    "clauseId": "8.7",
+    "section": "Governance",
+    "subsection": "Senior Management",
+    "title": "Technology Risk Management Function",
+    "clauseType": "governance",
+    "marker": "S",
+    "business": {
+      "summary": "An independent technology risk management function acts as the institution's second line of defence, providing objective risk identification, assessment, and reporting that is free from the conflicts inherent in technology operations teams managing their own risks.",
+      "requirements": [
+        {
+          "id": "8.7-B1",
+          "requirement": "Establish and fund a dedicated technology risk management function that is organisationally independent from IT operations, with its own budget, staffing, and reporting line",
+          "rationale": "If technology risk management reports to the same leader who manages IT operations, there is an inherent conflict of interest; independence ensures objective risk assessment and reporting",
+          "owner": "Chief Executive Officer",
+          "frequency": "Annual budget and structure review",
+          "priority": "Critical"
+        },
+        {
+          "id": "8.7-B2",
+          "requirement": "Staff the technology risk management function with personnel who possess relevant risk management, cybersecurity, and technology audit competencies proportionate to the institution's technology footprint",
+          "rationale": "An understaffed or underqualified function cannot effectively identify and assess technology risks across the institution's growing technology estate, creating blind spots that BNM will identify during examinations",
+          "owner": "Chief Risk Officer",
+          "frequency": "Annual staffing review",
+          "priority": "Critical"
+        },
+        {
+          "id": "8.7-B3",
+          "requirement": "Ensure the function has unrestricted access to all technology systems, data, documentation, and personnel necessary to perform its risk identification and assessment activities",
+          "rationale": "A risk function that cannot access the systems and information it needs to assess risk is functionally ineffective; BNM expects demonstrated access authority, not just a paper mandate",
+          "owner": "Chief Risk Officer",
+          "frequency": "Continuous, Annual access review",
+          "priority": "Critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "The technology risk management function requires dedicated tools, platforms, and system access to independently identify, assess, monitor, and report technology risks across the institution.",
+      "requirements": [
+        {
+          "id": "8.7-T1",
+          "requirement": "Provide the technology risk management function with a dedicated GRC platform or risk management toolset for documenting risk assessments, tracking treatment plans, and generating risk reports",
+          "rationale": "Spreadsheet-based risk management is error-prone and does not scale; a dedicated platform enables consistent methodology application, audit trails, and efficient reporting to the board",
+          "owner": "Chief Technology Officer",
+          "frequency": "Continuous operation, Annual tool review",
+          "priority": "High"
+        },
+        {
+          "id": "8.7-T2",
+          "requirement": "Grant the function read-only access to technology monitoring systems including SIEM, vulnerability scanners, and configuration management databases for independent risk verification",
+          "rationale": "Independent access to operational monitoring data enables the risk function to verify claims made by IT operations and identify risks that operational teams may not self-report",
+          "owner": "Chief Technology Officer",
+          "frequency": "Continuous, Annual access review",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Formal governance arrangements must establish the function's mandate, authority, independence, and reporting obligations through documented charters and organisational structures approved by the board.",
+      "requirements": [
+        {
+          "id": "8.7-G1",
+          "requirement": "Establish a formal charter for the technology risk management function that defines its mandate, authority, independence, scope, and reporting obligations, approved by the board or board committee",
+          "rationale": "The charter is the foundational document that BNM examiners review to assess whether the function has the authority and independence required by RMiT; without it, the function's legitimacy is questionable",
+          "owner": "Chief Risk Officer",
+          "frequency": "Annual review",
+          "priority": "Critical"
+        },
+        {
+          "id": "8.7-G2",
+          "requirement": "Ensure the function's organisational placement demonstrates clear independence from IT operations through separate reporting lines, as evidenced in the organisation chart",
+          "rationale": "Independence is not just about the charter; BNM examiners will verify the actual organisation structure to confirm the function does not report to IT operations leadership",
+          "owner": "Chief Risk Officer",
+          "frequency": "Annual review, Upon organisational change",
+          "priority": "Critical"
+        },
+        {
+          "id": "8.7-G3",
+          "requirement": "Maintain a staffing plan and competency matrix for the function that maps required competencies against current staff capabilities and identifies development needs",
+          "rationale": "BNM expects the function to have adequate expertise; a competency matrix demonstrates systematic capability management and highlights any gaps that need to be addressed through hiring or training",
+          "owner": "Head of Technology Risk",
+          "frequency": "Annual update",
+          "priority": "High"
+        },
+        {
+          "id": "8.7-G4",
+          "requirement": "Define and implement regular reporting from the technology risk function to the CRO, senior management, and the board committee covering risk assessments, emerging risks, and function performance metrics",
+          "rationale": "Regular reporting demonstrates that the function is active and producing value; BNM will question a function that exists on paper but produces no visible output or reporting",
+          "owner": "Head of Technology Risk",
+          "frequency": "Quarterly",
+          "priority": "High"
+        }
+      ]
+    }
+  }
+}

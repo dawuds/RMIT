@@ -1,0 +1,1712 @@
+{
+  "clauseToArtifacts": {
+    "8.1": [
+      "board-technology-risk-charter",
+      "board-meeting-minutes",
+      "technology-risk-dashboard-for-board"
+    ],
+    "8.2": [
+      "technology-risk-committee-terms-of-reference",
+      "committee-meeting-minutes",
+      "member-competency-profiles"
+    ],
+    "8.3": [
+      "board-training-records",
+      "board-competency-framework",
+      "board-competency-assessment-report"
+    ],
+    "8.4": [
+      "technology-risk-appetite-statement",
+      "risk-appetite-review-records",
+      "risk-appetite-monitoring-report"
+    ],
+    "8.5": [
+      "quarterly-board-risk-report",
+      "kri-dashboard",
+      "board-acknowledgement-records"
+    ],
+    "8.6": [
+      "senior-management-accountability-matrix",
+      "ciso-appointment-and-mandate",
+      "ciso-board-reporting-records"
+    ],
+    "8.7": [
+      "technology-risk-function-charter",
+      "organisation-structure-chart",
+      "staffing-and-competency-records"
+    ],
+    "9.1": [
+      "technology-risk-management-framework",
+      "board-approval-record",
+      "framework-review-report"
+    ],
+    "9.2": [
+      "risk-assessment-methodology",
+      "technology-risk-assessment-report",
+      "risk-assessment-schedule"
+    ],
+    "9.3": [
+      "risk-treatment-policy",
+      "risk-treatment-plan-register",
+      "risk-acceptance-records"
+    ],
+    "9.4": [
+      "risk-monitoring-procedures",
+      "kri-monitoring-dashboard",
+      "escalation-procedures"
+    ],
+    "9.5": [
+      "technology-risk-register",
+      "quarterly-review-records",
+      "risk-owner-sign-off-records"
+    ],
+    "10.1": [
+      "it-project-governance-framework",
+      "project-approval-records",
+      "project-risk-assessment-reports"
+    ],
+    "10.2": [
+      "project-risk-assessment-methodology",
+      "project-risk-assessment-reports",
+      "interdependency-analysis"
+    ],
+    "10.3": [
+      "post-implementation-review-report",
+      "lessons-learned-register",
+      "risk-control-effectiveness-assessment"
+    ],
+    "10.4": [
+      "sdlc-framework-document",
+      "quality-gate-records",
+      "security-checkpoint-evidence"
+    ],
+    "10.5": [
+      "requirements-management-procedure",
+      "requirements-traceability-matrix",
+      "requirements-validation-records"
+    ],
+    "10.6": [
+      "secure-coding-standards",
+      "developer-training-records",
+      "code-review-logs"
+    ],
+    "10.7": [
+      "code-review-procedure",
+      "sast-scan-results",
+      "remediation-records"
+    ],
+    "10.8": [
+      "testing-standards-document",
+      "test-plans-and-results",
+      "test-summary-reports"
+    ],
+    "10.9": [
+      "uat-procedure",
+      "uat-sign-off-records",
+      "data-masking-procedure"
+    ],
+    "10.10": [
+      "change-management-policy",
+      "change-advisory-board-terms-of-reference",
+      "change-log"
+    ],
+    "10.11": [
+      "emergency-change-procedure",
+      "emergency-change-records",
+      "emergency-change-usage-report"
+    ],
+    "10.12": [
+      "release-management-procedure",
+      "release-plans",
+      "deployment-verification-records"
+    ],
+    "10.13": [
+      "environment-separation-policy",
+      "environment-architecture-diagram",
+      "code-migration-audit-trail"
+    ],
+    "10.14": [
+      "source-code-protection-policy",
+      "repository-access-controls",
+      "version-control-logs"
+    ],
+    "10.15": [
+      "configuration-management-procedure",
+      "configuration-management-database",
+      "configuration-compliance-report"
+    ],
+    "10.16": [
+      "capacity-planning-procedure",
+      "capacity-monitoring-reports",
+      "capacity-scaling-records"
+    ],
+    "10.17": [
+      "patch-management-policy",
+      "patch-testing-procedure",
+      "patch-compliance-report"
+    ],
+    "10.18": [
+      "patch-deployment-timeline-standards",
+      "patch-deployment-tracking-log",
+      "patch-exception-records"
+    ],
+    "10.19": [
+      "end-of-life-asset-register",
+      "eol-migration-plans",
+      "eol-risk-acceptance-records"
+    ],
+    "10.20": [
+      "cryptographic-policy",
+      "standards-alignment-mapping",
+      "annual-review-records"
+    ],
+    "10.21": [
+      "key-management-framework",
+      "hsm-configuration-evidence",
+      "key-lifecycle-records"
+    ],
+    "10.22": [
+      "encryption-standards",
+      "encryption-implementation-evidence",
+      "cryptographic-algorithm-inventory"
+    ],
+    "10.23": [
+      "certificate-management-procedure",
+      "certificate-inventory",
+      "certificate-monitoring-logs"
+    ],
+    "10.24": [
+      "data-centre-physical-security-policy",
+      "cctv-configuration-evidence",
+      "visitor-management-logs"
+    ],
+    "10.25": [
+      "environmental-control-procedures",
+      "environmental-monitoring-configuration",
+      "environmental-monitoring-logs"
+    ],
+    "10.26": [
+      "power-redundancy-architecture",
+      "power-failover-test-records",
+      "power-capacity-report"
+    ],
+    "10.27": [
+      "fire-suppression-system-documentation",
+      "fire-system-test-records",
+      "emergency-response-training-records"
+    ],
+    "10.28": [
+      "data-centre-access-control-procedure",
+      "access-control-system-configuration",
+      "access-review-and-revocation-records"
+    ],
+    "10.29": [
+      "service-level-agreements",
+      "monthly-sla-performance-reports",
+      "sla-breach-records"
+    ],
+    "10.30": [
+      "it-service-continuity-plan",
+      "bcp-alignment-mapping",
+      "scenario-analysis-report"
+    ],
+    "10.31": [
+      "disaster-recovery-plans",
+      "dr-roles-and-responsibilities-matrix",
+      "dr-communication-plan"
+    ],
+    "10.32": [
+      "dr-test-results-report",
+      "failover-test-records",
+      "dr-deficiency-remediation-plan"
+    ],
+    "10.33": [
+      "rto-rpo-definitions",
+      "rto-rpo-validation-records",
+      "bia-to-rto-mapping"
+    ],
+    "10.34": [
+      "business-impact-analysis-report",
+      "technology-dependency-mapping",
+      "bia-review-records"
+    ],
+    "10.35": [
+      "crisis-communication-plan",
+      "stakeholder-contact-lists",
+      "communication-plan-test-records"
+    ],
+    "10.36": [
+      "network-architecture-diagrams",
+      "network-architecture-standards",
+      "annual-architecture-review-report"
+    ],
+    "10.37": [
+      "network-segmentation-design",
+      "segmentation-configuration-evidence",
+      "segmentation-validation-reports"
+    ],
+    "10.38": [
+      "firewall-management-policy",
+      "firewall-rule-review-records",
+      "firewall-audit-report"
+    ],
+    "10.39": [
+      "ids-ips-deployment-documentation",
+      "signature-update-records",
+      "alert-investigation-records"
+    ],
+    "10.40": [
+      "wireless-security-policy",
+      "wireless-configuration-evidence",
+      "wireless-security-assessment-reports"
+    ],
+    "10.41": [
+      "remote-access-security-policy",
+      "remote-access-configuration",
+      "remote-access-logs"
+    ],
+    "10.42": [
+      "dns-security-standards",
+      "dns-security-configuration",
+      "dns-infrastructure-design"
+    ],
+    "10.43": [
+      "network-monitoring-architecture",
+      "network-monitoring-procedures",
+      "network-monitoring-alerts"
+    ],
+    "10.44": [
+      "backup-policy",
+      "backup-configuration-evidence",
+      "backup-execution-logs"
+    ],
+    "10.45": [
+      "backup-testing-procedure",
+      "backup-restoration-test-reports",
+      "test-failure-remediation-records"
+    ],
+    "10.46": [
+      "vendor-risk-assessment-framework",
+      "vendor-risk-assessment-reports",
+      "annual-vendor-reassessment-records"
+    ],
+    "10.47": [
+      "outsourcing-governance-framework",
+      "board-outsourcing-approvals",
+      "outsourcing-monitoring-reports"
+    ],
+    "10.48": [
+      "vendor-sla-monitoring-reports",
+      "sla-breach-records",
+      "vendor-performance-reviews"
+    ],
+    "10.49": [
+      "vendor-exit-strategy",
+      "data-migration-plan",
+      "exit-plan-review-records"
+    ],
+    "10.50": [
+      "cloud-risk-assessment-methodology",
+      "cloud-risk-assessment-reports",
+      "shared-responsibility-documentation"
+    ],
+    "10.51": [
+      "access-control-policy",
+      "annual-policy-review-records",
+      "policy-communication-records"
+    ],
+    "10.52": [
+      "cloud-data-residency-policy",
+      "data-location-mapping",
+      "data-residency-agreements"
+    ],
+    "10.53": [
+      "user-access-provisioning-procedure",
+      "access-request-and-approval-logs",
+      "de-provisioning-compliance-records"
+    ],
+    "10.54": [
+      "mfa-policy",
+      "mfa-configuration-evidence",
+      "break-glass-procedure",
+      "mfa-compliance-report"
+    ],
+    "10.55": [
+      "password-policy",
+      "password-policy-configuration",
+      "password-policy-compliance-report"
+    ],
+    "10.56": [
+      "pam-system-configuration",
+      "privileged-access-policy",
+      "privileged-activity-logs",
+      "shared-account-exception-register"
+    ],
+    "10.57": [
+      "access-review-procedure",
+      "privileged-access-review-records",
+      "standard-access-review-records",
+      "access-revocation-evidence"
+    ],
+    "11.1": [
+      "incident-response-plan",
+      "irp-testing-records",
+      "post-incident-review-reports"
+    ],
+    "11.2": [
+      "cybersecurity-strategy",
+      "board-strategy-approval",
+      "strategy-review-report"
+    ],
+    "11.3": [
+      "cybersecurity-governance-framework",
+      "cybersecurity-raci-matrix",
+      "segregation-of-duties-evidence"
+    ],
+    "11.4": [
+      "incident-classification-framework",
+      "bnm-incident-reporting-procedure",
+      "detection-tool-configuration",
+      "sample-incident-notification"
+    ],
+    "11.5": [
+      "cyber-crisis-management-plan",
+      "crisis-simulation-records",
+      "crisis-team-roster"
+    ],
+    "11.6": [
+      "soc-operational-procedures",
+      "soc-staffing-evidence",
+      "soc-performance-reports"
+    ],
+    "11.7": [
+      "siem-architecture-documentation",
+      "log-source-inventory",
+      "siem-rule-tuning-records"
+    ],
+    "11.8": [
+      "edr-deployment-documentation",
+      "edr-configuration-evidence",
+      "edr-coverage-and-compliance-report"
+    ],
+    "11.9": [
+      "email-security-configuration",
+      "email-authentication-records",
+      "email-security-metrics-report"
+    ],
+    "11.10": [
+      "dlp-policy",
+      "dlp-configuration-evidence",
+      "dlp-incident-records"
+    ],
+    "11.11": [
+      "vulnerability-assessment-procedure",
+      "vulnerability-assessment-reports",
+      "vulnerability-remediation-tracking"
+    ],
+    "11.12": [
+      "penetration-testing-policy",
+      "penetration-test-reports",
+      "remediation-tracking-records"
+    ],
+    "11.13": [
+      "red-team-rules-of-engagement",
+      "red-team-exercise-reports",
+      "red-team-improvement-plan"
+    ],
+    "11.14": [
+      "vulnerability-remediation-procedure",
+      "remediation-compliance-report",
+      "remediation-exception-records"
+    ],
+    "11.15": [
+      "vulnerability-disclosure-policy",
+      "bug-bounty-program-rules",
+      "disclosure-program-records"
+    ],
+    "11.16": [
+      "threat-intelligence-program",
+      "threat-intelligence-reports",
+      "intelligence-source-inventory"
+    ],
+    "11.17": [
+      "threat-sharing-agreements",
+      "tlp-handling-procedures",
+      "information-sharing-records"
+    ],
+    "11.18": [
+      "threat-hunting-program",
+      "threat-hunting-reports",
+      "hunt-to-detection-records"
+    ],
+    "11.19": [
+      "ioc-management-procedure",
+      "tip-configuration",
+      "ioc-integration-evidence"
+    ],
+    "11.20": [
+      "situational-awareness-program",
+      "situational-awareness-reports",
+      "attack-surface-monitoring"
+    ],
+    "12.1": [
+      "digital-channel-security-standards",
+      "security-architecture-documentation",
+      "digital-channel-assessment-reports"
+    ],
+    "12.2": [
+      "mobile-app-security-standards",
+      "mobile-app-security-test-reports",
+      "mobile-security-feature-evidence"
+    ],
+    "12.3": [
+      "api-security-standards",
+      "api-inventory",
+      "api-security-assessment-reports"
+    ],
+    "12.4": [
+      "customer-authentication-policy",
+      "authentication-configuration",
+      "authentication-assessment-report"
+    ],
+    "12.5": [
+      "transaction-verification-procedure",
+      "verification-mechanism-configuration",
+      "transaction-flow-documentation"
+    ],
+    "12.6": [
+      "session-management-standards",
+      "session-configuration-evidence",
+      "session-security-test-results"
+    ],
+    "12.7": [
+      "fraud-detection-architecture",
+      "fraud-investigation-procedures",
+      "fraud-detection-metrics-report"
+    ],
+    "12.8": [
+      "digital-onboarding-security-standards",
+      "identity-verification-evidence",
+      "onboarding-security-assessment"
+    ],
+    "12.9": [
+      "qr-code-and-e-wallet-security-standards",
+      "qr-security-implementation",
+      "qr-e-wallet-security-test-report"
+    ],
+    "13.1": [
+      "annual-it-audit-plan",
+      "audit-committee-approval",
+      "audit-scoping-methodology"
+    ],
+    "13.2": [
+      "audit-independence-policy",
+      "audit-reporting-line-documentation",
+      "audit-access-rights"
+    ],
+    "13.3": [
+      "auditor-certification-records",
+      "cpd-records",
+      "auditor-training-plan"
+    ],
+    "13.4": [
+      "audit-follow-up-procedure",
+      "audit-finding-register",
+      "finding-escalation-records"
+    ],
+    "14.1": [
+      "third-party-assessment-policy",
+      "third-party-assessment-reports",
+      "risk-management-review-records"
+    ],
+    "14.2": [
+      "third-party-certification-policy",
+      "vendor-certification-register",
+      "certification-lapse-assessment-reports"
+    ],
+    "15.1": [
+      "security-awareness-program",
+      "training-materials",
+      "training-completion-report"
+    ],
+    "15.2": [
+      "phishing-simulation-procedure",
+      "phishing-simulation-reports",
+      "follow-up-training-records"
+    ],
+    "15.3": [
+      "role-based-training-program",
+      "role-specific-training-materials",
+      "role-based-training-completion-report"
+    ],
+    "16.1": [
+      "bnm-incident-notification-procedure",
+      "notification-templates",
+      "notification-records"
+    ],
+    "16.2": [
+      "technology-project-notification-procedure",
+      "project-notification-records",
+      "major-project-risk-assessments"
+    ],
+    "16.3": [
+      "outsourcing-notification-procedure",
+      "outsourcing-notification-records",
+      "outsourcing-risk-assessment"
+    ],
+    "16.4": [
+      "cloud-adoption-notification-procedure",
+      "cloud-notification-records",
+      "cloud-risk-assessment-for-bnm"
+    ],
+    "16.5": [
+      "audit-finding-reporting-procedure",
+      "audit-finding-notifications",
+      "significant-finding-criteria"
+    ],
+    "16.6": [
+      "regulatory-examination-response-procedure",
+      "examination-finding-action-plans",
+      "progress-reports-to-bnm"
+    ],
+    "16.7": [
+      "annual-technology-risk-report",
+      "technology-risk-posture-assessment",
+      "planned-risk-initiatives"
+    ],
+    "17.1": [
+      "cloud-strategy",
+      "cloud-governance-framework",
+      "strategy-alignment-documentation"
+    ],
+    "17.2": [
+      "cloud-security-control-framework",
+      "cloud-security-configuration",
+      "cloud-security-assessment-report"
+    ],
+    "17.3": [
+      "cloud-exit-strategy",
+      "cloud-portability-architecture",
+      "vendor-lock-in-risk-assessment"
+    ],
+    "17.4": [
+      "ai-ml-governance-framework",
+      "model-risk-management-procedures",
+      "ai-model-validation-reports"
+    ],
+    "17.5": [
+      "emerging-technology-risk-assessment-framework",
+      "emerging-technology-risk-assessments",
+      "quantum-readiness-assessment"
+    ],
+    "18.1": [
+      "annual-rmit-self-assessment-report",
+      "compliance-evidence-package",
+      "board-review-of-self-assessment"
+    ],
+    "18.2": [
+      "gap-remediation-plan",
+      "quarterly-remediation-progress-report",
+      "remediation-completion-evidence"
+    ]
+  },
+  "artifactToClauses": {
+    "board-technology-risk-charter": [
+      "8.1"
+    ],
+    "board-meeting-minutes": [
+      "8.1"
+    ],
+    "technology-risk-dashboard-for-board": [
+      "8.1"
+    ],
+    "technology-risk-committee-terms-of-reference": [
+      "8.2"
+    ],
+    "committee-meeting-minutes": [
+      "8.2"
+    ],
+    "member-competency-profiles": [
+      "8.2"
+    ],
+    "board-training-records": [
+      "8.3"
+    ],
+    "board-competency-framework": [
+      "8.3"
+    ],
+    "board-competency-assessment-report": [
+      "8.3"
+    ],
+    "technology-risk-appetite-statement": [
+      "8.4"
+    ],
+    "risk-appetite-review-records": [
+      "8.4"
+    ],
+    "risk-appetite-monitoring-report": [
+      "8.4"
+    ],
+    "quarterly-board-risk-report": [
+      "8.5"
+    ],
+    "kri-dashboard": [
+      "8.5"
+    ],
+    "board-acknowledgement-records": [
+      "8.5"
+    ],
+    "senior-management-accountability-matrix": [
+      "8.6"
+    ],
+    "ciso-appointment-and-mandate": [
+      "8.6"
+    ],
+    "ciso-board-reporting-records": [
+      "8.6"
+    ],
+    "technology-risk-function-charter": [
+      "8.7"
+    ],
+    "organisation-structure-chart": [
+      "8.7"
+    ],
+    "staffing-and-competency-records": [
+      "8.7"
+    ],
+    "technology-risk-management-framework": [
+      "9.1"
+    ],
+    "board-approval-record": [
+      "9.1"
+    ],
+    "framework-review-report": [
+      "9.1"
+    ],
+    "risk-assessment-methodology": [
+      "9.2"
+    ],
+    "technology-risk-assessment-report": [
+      "9.2"
+    ],
+    "risk-assessment-schedule": [
+      "9.2"
+    ],
+    "risk-treatment-policy": [
+      "9.3"
+    ],
+    "risk-treatment-plan-register": [
+      "9.3"
+    ],
+    "risk-acceptance-records": [
+      "9.3"
+    ],
+    "risk-monitoring-procedures": [
+      "9.4"
+    ],
+    "kri-monitoring-dashboard": [
+      "9.4"
+    ],
+    "escalation-procedures": [
+      "9.4"
+    ],
+    "technology-risk-register": [
+      "9.5"
+    ],
+    "quarterly-review-records": [
+      "9.5"
+    ],
+    "risk-owner-sign-off-records": [
+      "9.5"
+    ],
+    "it-project-governance-framework": [
+      "10.1"
+    ],
+    "project-approval-records": [
+      "10.1"
+    ],
+    "project-risk-assessment-reports": [
+      "10.1",
+      "10.2"
+    ],
+    "project-risk-assessment-methodology": [
+      "10.2"
+    ],
+    "interdependency-analysis": [
+      "10.2"
+    ],
+    "post-implementation-review-report": [
+      "10.3"
+    ],
+    "lessons-learned-register": [
+      "10.3"
+    ],
+    "risk-control-effectiveness-assessment": [
+      "10.3"
+    ],
+    "sdlc-framework-document": [
+      "10.4"
+    ],
+    "quality-gate-records": [
+      "10.4"
+    ],
+    "security-checkpoint-evidence": [
+      "10.4"
+    ],
+    "requirements-management-procedure": [
+      "10.5"
+    ],
+    "requirements-traceability-matrix": [
+      "10.5"
+    ],
+    "requirements-validation-records": [
+      "10.5"
+    ],
+    "secure-coding-standards": [
+      "10.6"
+    ],
+    "developer-training-records": [
+      "10.6"
+    ],
+    "code-review-logs": [
+      "10.6"
+    ],
+    "code-review-procedure": [
+      "10.7"
+    ],
+    "sast-scan-results": [
+      "10.7"
+    ],
+    "remediation-records": [
+      "10.7"
+    ],
+    "testing-standards-document": [
+      "10.8"
+    ],
+    "test-plans-and-results": [
+      "10.8"
+    ],
+    "test-summary-reports": [
+      "10.8"
+    ],
+    "uat-procedure": [
+      "10.9"
+    ],
+    "uat-sign-off-records": [
+      "10.9"
+    ],
+    "data-masking-procedure": [
+      "10.9"
+    ],
+    "change-management-policy": [
+      "10.10"
+    ],
+    "change-advisory-board-terms-of-reference": [
+      "10.10"
+    ],
+    "change-log": [
+      "10.10"
+    ],
+    "emergency-change-procedure": [
+      "10.11"
+    ],
+    "emergency-change-records": [
+      "10.11"
+    ],
+    "emergency-change-usage-report": [
+      "10.11"
+    ],
+    "release-management-procedure": [
+      "10.12"
+    ],
+    "release-plans": [
+      "10.12"
+    ],
+    "deployment-verification-records": [
+      "10.12"
+    ],
+    "environment-separation-policy": [
+      "10.13"
+    ],
+    "environment-architecture-diagram": [
+      "10.13"
+    ],
+    "code-migration-audit-trail": [
+      "10.13"
+    ],
+    "source-code-protection-policy": [
+      "10.14"
+    ],
+    "repository-access-controls": [
+      "10.14"
+    ],
+    "version-control-logs": [
+      "10.14"
+    ],
+    "configuration-management-procedure": [
+      "10.15"
+    ],
+    "configuration-management-database": [
+      "10.15"
+    ],
+    "configuration-compliance-report": [
+      "10.15"
+    ],
+    "capacity-planning-procedure": [
+      "10.16"
+    ],
+    "capacity-monitoring-reports": [
+      "10.16"
+    ],
+    "capacity-scaling-records": [
+      "10.16"
+    ],
+    "patch-management-policy": [
+      "10.17"
+    ],
+    "patch-testing-procedure": [
+      "10.17"
+    ],
+    "patch-compliance-report": [
+      "10.17"
+    ],
+    "patch-deployment-timeline-standards": [
+      "10.18"
+    ],
+    "patch-deployment-tracking-log": [
+      "10.18"
+    ],
+    "patch-exception-records": [
+      "10.18"
+    ],
+    "end-of-life-asset-register": [
+      "10.19"
+    ],
+    "eol-migration-plans": [
+      "10.19"
+    ],
+    "eol-risk-acceptance-records": [
+      "10.19"
+    ],
+    "cryptographic-policy": [
+      "10.20"
+    ],
+    "standards-alignment-mapping": [
+      "10.20"
+    ],
+    "annual-review-records": [
+      "10.20"
+    ],
+    "key-management-framework": [
+      "10.21"
+    ],
+    "hsm-configuration-evidence": [
+      "10.21"
+    ],
+    "key-lifecycle-records": [
+      "10.21"
+    ],
+    "encryption-standards": [
+      "10.22"
+    ],
+    "encryption-implementation-evidence": [
+      "10.22"
+    ],
+    "cryptographic-algorithm-inventory": [
+      "10.22"
+    ],
+    "certificate-management-procedure": [
+      "10.23"
+    ],
+    "certificate-inventory": [
+      "10.23"
+    ],
+    "certificate-monitoring-logs": [
+      "10.23"
+    ],
+    "data-centre-physical-security-policy": [
+      "10.24"
+    ],
+    "cctv-configuration-evidence": [
+      "10.24"
+    ],
+    "visitor-management-logs": [
+      "10.24"
+    ],
+    "environmental-control-procedures": [
+      "10.25"
+    ],
+    "environmental-monitoring-configuration": [
+      "10.25"
+    ],
+    "environmental-monitoring-logs": [
+      "10.25"
+    ],
+    "power-redundancy-architecture": [
+      "10.26"
+    ],
+    "power-failover-test-records": [
+      "10.26"
+    ],
+    "power-capacity-report": [
+      "10.26"
+    ],
+    "fire-suppression-system-documentation": [
+      "10.27"
+    ],
+    "fire-system-test-records": [
+      "10.27"
+    ],
+    "emergency-response-training-records": [
+      "10.27"
+    ],
+    "data-centre-access-control-procedure": [
+      "10.28"
+    ],
+    "access-control-system-configuration": [
+      "10.28"
+    ],
+    "access-review-and-revocation-records": [
+      "10.28"
+    ],
+    "service-level-agreements": [
+      "10.29"
+    ],
+    "monthly-sla-performance-reports": [
+      "10.29"
+    ],
+    "sla-breach-records": [
+      "10.29",
+      "10.48"
+    ],
+    "it-service-continuity-plan": [
+      "10.30"
+    ],
+    "bcp-alignment-mapping": [
+      "10.30"
+    ],
+    "scenario-analysis-report": [
+      "10.30"
+    ],
+    "disaster-recovery-plans": [
+      "10.31"
+    ],
+    "dr-roles-and-responsibilities-matrix": [
+      "10.31"
+    ],
+    "dr-communication-plan": [
+      "10.31"
+    ],
+    "dr-test-results-report": [
+      "10.32"
+    ],
+    "failover-test-records": [
+      "10.32"
+    ],
+    "dr-deficiency-remediation-plan": [
+      "10.32"
+    ],
+    "rto-rpo-definitions": [
+      "10.33"
+    ],
+    "rto-rpo-validation-records": [
+      "10.33"
+    ],
+    "bia-to-rto-mapping": [
+      "10.33"
+    ],
+    "business-impact-analysis-report": [
+      "10.34"
+    ],
+    "technology-dependency-mapping": [
+      "10.34"
+    ],
+    "bia-review-records": [
+      "10.34"
+    ],
+    "crisis-communication-plan": [
+      "10.35"
+    ],
+    "stakeholder-contact-lists": [
+      "10.35"
+    ],
+    "communication-plan-test-records": [
+      "10.35"
+    ],
+    "network-architecture-diagrams": [
+      "10.36"
+    ],
+    "network-architecture-standards": [
+      "10.36"
+    ],
+    "annual-architecture-review-report": [
+      "10.36"
+    ],
+    "network-segmentation-design": [
+      "10.37"
+    ],
+    "segmentation-configuration-evidence": [
+      "10.37"
+    ],
+    "segmentation-validation-reports": [
+      "10.37"
+    ],
+    "firewall-management-policy": [
+      "10.38"
+    ],
+    "firewall-rule-review-records": [
+      "10.38"
+    ],
+    "firewall-audit-report": [
+      "10.38"
+    ],
+    "ids-ips-deployment-documentation": [
+      "10.39"
+    ],
+    "signature-update-records": [
+      "10.39"
+    ],
+    "alert-investigation-records": [
+      "10.39"
+    ],
+    "wireless-security-policy": [
+      "10.40"
+    ],
+    "wireless-configuration-evidence": [
+      "10.40"
+    ],
+    "wireless-security-assessment-reports": [
+      "10.40"
+    ],
+    "remote-access-security-policy": [
+      "10.41"
+    ],
+    "remote-access-configuration": [
+      "10.41"
+    ],
+    "remote-access-logs": [
+      "10.41"
+    ],
+    "dns-security-standards": [
+      "10.42"
+    ],
+    "dns-security-configuration": [
+      "10.42"
+    ],
+    "dns-infrastructure-design": [
+      "10.42"
+    ],
+    "network-monitoring-architecture": [
+      "10.43"
+    ],
+    "network-monitoring-procedures": [
+      "10.43"
+    ],
+    "network-monitoring-alerts": [
+      "10.43"
+    ],
+    "backup-policy": [
+      "10.44"
+    ],
+    "backup-configuration-evidence": [
+      "10.44"
+    ],
+    "backup-execution-logs": [
+      "10.44"
+    ],
+    "backup-testing-procedure": [
+      "10.45"
+    ],
+    "backup-restoration-test-reports": [
+      "10.45"
+    ],
+    "test-failure-remediation-records": [
+      "10.45"
+    ],
+    "vendor-risk-assessment-framework": [
+      "10.46"
+    ],
+    "vendor-risk-assessment-reports": [
+      "10.46"
+    ],
+    "annual-vendor-reassessment-records": [
+      "10.46"
+    ],
+    "outsourcing-governance-framework": [
+      "10.47"
+    ],
+    "board-outsourcing-approvals": [
+      "10.47"
+    ],
+    "outsourcing-monitoring-reports": [
+      "10.47"
+    ],
+    "vendor-sla-monitoring-reports": [
+      "10.48"
+    ],
+    "vendor-performance-reviews": [
+      "10.48"
+    ],
+    "vendor-exit-strategy": [
+      "10.49"
+    ],
+    "data-migration-plan": [
+      "10.49"
+    ],
+    "exit-plan-review-records": [
+      "10.49"
+    ],
+    "cloud-risk-assessment-methodology": [
+      "10.50"
+    ],
+    "cloud-risk-assessment-reports": [
+      "10.50"
+    ],
+    "shared-responsibility-documentation": [
+      "10.50"
+    ],
+    "access-control-policy": [
+      "10.51"
+    ],
+    "annual-policy-review-records": [
+      "10.51"
+    ],
+    "policy-communication-records": [
+      "10.51"
+    ],
+    "cloud-data-residency-policy": [
+      "10.52"
+    ],
+    "data-location-mapping": [
+      "10.52"
+    ],
+    "data-residency-agreements": [
+      "10.52"
+    ],
+    "user-access-provisioning-procedure": [
+      "10.53"
+    ],
+    "access-request-and-approval-logs": [
+      "10.53"
+    ],
+    "de-provisioning-compliance-records": [
+      "10.53"
+    ],
+    "mfa-policy": [
+      "10.54"
+    ],
+    "mfa-configuration-evidence": [
+      "10.54"
+    ],
+    "break-glass-procedure": [
+      "10.54"
+    ],
+    "mfa-compliance-report": [
+      "10.54"
+    ],
+    "password-policy": [
+      "10.55"
+    ],
+    "password-policy-configuration": [
+      "10.55"
+    ],
+    "password-policy-compliance-report": [
+      "10.55"
+    ],
+    "pam-system-configuration": [
+      "10.56"
+    ],
+    "privileged-access-policy": [
+      "10.56"
+    ],
+    "privileged-activity-logs": [
+      "10.56"
+    ],
+    "shared-account-exception-register": [
+      "10.56"
+    ],
+    "access-review-procedure": [
+      "10.57"
+    ],
+    "privileged-access-review-records": [
+      "10.57"
+    ],
+    "standard-access-review-records": [
+      "10.57"
+    ],
+    "access-revocation-evidence": [
+      "10.57"
+    ],
+    "incident-response-plan": [
+      "11.1"
+    ],
+    "irp-testing-records": [
+      "11.1"
+    ],
+    "post-incident-review-reports": [
+      "11.1"
+    ],
+    "cybersecurity-strategy": [
+      "11.2"
+    ],
+    "board-strategy-approval": [
+      "11.2"
+    ],
+    "strategy-review-report": [
+      "11.2"
+    ],
+    "cybersecurity-governance-framework": [
+      "11.3"
+    ],
+    "cybersecurity-raci-matrix": [
+      "11.3"
+    ],
+    "segregation-of-duties-evidence": [
+      "11.3"
+    ],
+    "incident-classification-framework": [
+      "11.4"
+    ],
+    "bnm-incident-reporting-procedure": [
+      "11.4"
+    ],
+    "detection-tool-configuration": [
+      "11.4"
+    ],
+    "sample-incident-notification": [
+      "11.4"
+    ],
+    "cyber-crisis-management-plan": [
+      "11.5"
+    ],
+    "crisis-simulation-records": [
+      "11.5"
+    ],
+    "crisis-team-roster": [
+      "11.5"
+    ],
+    "soc-operational-procedures": [
+      "11.6"
+    ],
+    "soc-staffing-evidence": [
+      "11.6"
+    ],
+    "soc-performance-reports": [
+      "11.6"
+    ],
+    "siem-architecture-documentation": [
+      "11.7"
+    ],
+    "log-source-inventory": [
+      "11.7"
+    ],
+    "siem-rule-tuning-records": [
+      "11.7"
+    ],
+    "edr-deployment-documentation": [
+      "11.8"
+    ],
+    "edr-configuration-evidence": [
+      "11.8"
+    ],
+    "edr-coverage-and-compliance-report": [
+      "11.8"
+    ],
+    "email-security-configuration": [
+      "11.9"
+    ],
+    "email-authentication-records": [
+      "11.9"
+    ],
+    "email-security-metrics-report": [
+      "11.9"
+    ],
+    "dlp-policy": [
+      "11.10"
+    ],
+    "dlp-configuration-evidence": [
+      "11.10"
+    ],
+    "dlp-incident-records": [
+      "11.10"
+    ],
+    "vulnerability-assessment-procedure": [
+      "11.11"
+    ],
+    "vulnerability-assessment-reports": [
+      "11.11"
+    ],
+    "vulnerability-remediation-tracking": [
+      "11.11"
+    ],
+    "penetration-testing-policy": [
+      "11.12"
+    ],
+    "penetration-test-reports": [
+      "11.12"
+    ],
+    "remediation-tracking-records": [
+      "11.12"
+    ],
+    "red-team-rules-of-engagement": [
+      "11.13"
+    ],
+    "red-team-exercise-reports": [
+      "11.13"
+    ],
+    "red-team-improvement-plan": [
+      "11.13"
+    ],
+    "vulnerability-remediation-procedure": [
+      "11.14"
+    ],
+    "remediation-compliance-report": [
+      "11.14"
+    ],
+    "remediation-exception-records": [
+      "11.14"
+    ],
+    "vulnerability-disclosure-policy": [
+      "11.15"
+    ],
+    "bug-bounty-program-rules": [
+      "11.15"
+    ],
+    "disclosure-program-records": [
+      "11.15"
+    ],
+    "threat-intelligence-program": [
+      "11.16"
+    ],
+    "threat-intelligence-reports": [
+      "11.16"
+    ],
+    "intelligence-source-inventory": [
+      "11.16"
+    ],
+    "threat-sharing-agreements": [
+      "11.17"
+    ],
+    "tlp-handling-procedures": [
+      "11.17"
+    ],
+    "information-sharing-records": [
+      "11.17"
+    ],
+    "threat-hunting-program": [
+      "11.18"
+    ],
+    "threat-hunting-reports": [
+      "11.18"
+    ],
+    "hunt-to-detection-records": [
+      "11.18"
+    ],
+    "ioc-management-procedure": [
+      "11.19"
+    ],
+    "tip-configuration": [
+      "11.19"
+    ],
+    "ioc-integration-evidence": [
+      "11.19"
+    ],
+    "situational-awareness-program": [
+      "11.20"
+    ],
+    "situational-awareness-reports": [
+      "11.20"
+    ],
+    "attack-surface-monitoring": [
+      "11.20"
+    ],
+    "digital-channel-security-standards": [
+      "12.1"
+    ],
+    "security-architecture-documentation": [
+      "12.1"
+    ],
+    "digital-channel-assessment-reports": [
+      "12.1"
+    ],
+    "mobile-app-security-standards": [
+      "12.2"
+    ],
+    "mobile-app-security-test-reports": [
+      "12.2"
+    ],
+    "mobile-security-feature-evidence": [
+      "12.2"
+    ],
+    "api-security-standards": [
+      "12.3"
+    ],
+    "api-inventory": [
+      "12.3"
+    ],
+    "api-security-assessment-reports": [
+      "12.3"
+    ],
+    "customer-authentication-policy": [
+      "12.4"
+    ],
+    "authentication-configuration": [
+      "12.4"
+    ],
+    "authentication-assessment-report": [
+      "12.4"
+    ],
+    "transaction-verification-procedure": [
+      "12.5"
+    ],
+    "verification-mechanism-configuration": [
+      "12.5"
+    ],
+    "transaction-flow-documentation": [
+      "12.5"
+    ],
+    "session-management-standards": [
+      "12.6"
+    ],
+    "session-configuration-evidence": [
+      "12.6"
+    ],
+    "session-security-test-results": [
+      "12.6"
+    ],
+    "fraud-detection-architecture": [
+      "12.7"
+    ],
+    "fraud-investigation-procedures": [
+      "12.7"
+    ],
+    "fraud-detection-metrics-report": [
+      "12.7"
+    ],
+    "digital-onboarding-security-standards": [
+      "12.8"
+    ],
+    "identity-verification-evidence": [
+      "12.8"
+    ],
+    "onboarding-security-assessment": [
+      "12.8"
+    ],
+    "qr-code-and-e-wallet-security-standards": [
+      "12.9"
+    ],
+    "qr-security-implementation": [
+      "12.9"
+    ],
+    "qr-e-wallet-security-test-report": [
+      "12.9"
+    ],
+    "annual-it-audit-plan": [
+      "13.1"
+    ],
+    "audit-committee-approval": [
+      "13.1"
+    ],
+    "audit-scoping-methodology": [
+      "13.1"
+    ],
+    "audit-independence-policy": [
+      "13.2"
+    ],
+    "audit-reporting-line-documentation": [
+      "13.2"
+    ],
+    "audit-access-rights": [
+      "13.2"
+    ],
+    "auditor-certification-records": [
+      "13.3"
+    ],
+    "cpd-records": [
+      "13.3"
+    ],
+    "auditor-training-plan": [
+      "13.3"
+    ],
+    "audit-follow-up-procedure": [
+      "13.4"
+    ],
+    "audit-finding-register": [
+      "13.4"
+    ],
+    "finding-escalation-records": [
+      "13.4"
+    ],
+    "third-party-assessment-policy": [
+      "14.1"
+    ],
+    "third-party-assessment-reports": [
+      "14.1"
+    ],
+    "risk-management-review-records": [
+      "14.1"
+    ],
+    "third-party-certification-policy": [
+      "14.2"
+    ],
+    "vendor-certification-register": [
+      "14.2"
+    ],
+    "certification-lapse-assessment-reports": [
+      "14.2"
+    ],
+    "security-awareness-program": [
+      "15.1"
+    ],
+    "training-materials": [
+      "15.1"
+    ],
+    "training-completion-report": [
+      "15.1"
+    ],
+    "phishing-simulation-procedure": [
+      "15.2"
+    ],
+    "phishing-simulation-reports": [
+      "15.2"
+    ],
+    "follow-up-training-records": [
+      "15.2"
+    ],
+    "role-based-training-program": [
+      "15.3"
+    ],
+    "role-specific-training-materials": [
+      "15.3"
+    ],
+    "role-based-training-completion-report": [
+      "15.3"
+    ],
+    "bnm-incident-notification-procedure": [
+      "16.1"
+    ],
+    "notification-templates": [
+      "16.1"
+    ],
+    "notification-records": [
+      "16.1"
+    ],
+    "technology-project-notification-procedure": [
+      "16.2"
+    ],
+    "project-notification-records": [
+      "16.2"
+    ],
+    "major-project-risk-assessments": [
+      "16.2"
+    ],
+    "outsourcing-notification-procedure": [
+      "16.3"
+    ],
+    "outsourcing-notification-records": [
+      "16.3"
+    ],
+    "outsourcing-risk-assessment": [
+      "16.3"
+    ],
+    "cloud-adoption-notification-procedure": [
+      "16.4"
+    ],
+    "cloud-notification-records": [
+      "16.4"
+    ],
+    "cloud-risk-assessment-for-bnm": [
+      "16.4"
+    ],
+    "audit-finding-reporting-procedure": [
+      "16.5"
+    ],
+    "audit-finding-notifications": [
+      "16.5"
+    ],
+    "significant-finding-criteria": [
+      "16.5"
+    ],
+    "regulatory-examination-response-procedure": [
+      "16.6"
+    ],
+    "examination-finding-action-plans": [
+      "16.6"
+    ],
+    "progress-reports-to-bnm": [
+      "16.6"
+    ],
+    "annual-technology-risk-report": [
+      "16.7"
+    ],
+    "technology-risk-posture-assessment": [
+      "16.7"
+    ],
+    "planned-risk-initiatives": [
+      "16.7"
+    ],
+    "cloud-strategy": [
+      "17.1"
+    ],
+    "cloud-governance-framework": [
+      "17.1"
+    ],
+    "strategy-alignment-documentation": [
+      "17.1"
+    ],
+    "cloud-security-control-framework": [
+      "17.2"
+    ],
+    "cloud-security-configuration": [
+      "17.2"
+    ],
+    "cloud-security-assessment-report": [
+      "17.2"
+    ],
+    "cloud-exit-strategy": [
+      "17.3"
+    ],
+    "cloud-portability-architecture": [
+      "17.3"
+    ],
+    "vendor-lock-in-risk-assessment": [
+      "17.3"
+    ],
+    "ai-ml-governance-framework": [
+      "17.4"
+    ],
+    "model-risk-management-procedures": [
+      "17.4"
+    ],
+    "ai-model-validation-reports": [
+      "17.4"
+    ],
+    "emerging-technology-risk-assessment-framework": [
+      "17.5"
+    ],
+    "emerging-technology-risk-assessments": [
+      "17.5"
+    ],
+    "quantum-readiness-assessment": [
+      "17.5"
+    ],
+    "annual-rmit-self-assessment-report": [
+      "18.1"
+    ],
+    "compliance-evidence-package": [
+      "18.1"
+    ],
+    "board-review-of-self-assessment": [
+      "18.1"
+    ],
+    "gap-remediation-plan": [
+      "18.2"
+    ],
+    "quarterly-remediation-progress-report": [
+      "18.2"
+    ],
+    "remediation-completion-evidence": [
+      "18.2"
+    ]
+  }
+}

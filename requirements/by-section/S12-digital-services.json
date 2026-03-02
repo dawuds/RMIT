@@ -1,0 +1,889 @@
+{
+  "12.1": {
+    "clauseId": "12.1",
+    "section": "Digital Services",
+    "subsection": "Digital Channels",
+    "title": "Digital Channel Security",
+    "clauseType": "technical",
+    "marker": "S",
+    "business": {
+      "summary": "Inadequate digital channel security directly exposes customers to fraud and data theft, risking significant financial losses and erosion of trust in the institution's digital banking services.",
+      "requirements": [
+        {
+          "id": "12.1-B1",
+          "requirement": "Ensure all digital banking channels (internet banking, mobile banking, electronic payment systems) maintain 99.9%+ secure availability with documented incident response for any security-related downtime",
+          "rationale": "Customers depend on always-available and secure digital channels; any compromise undermines confidence and may trigger regulatory scrutiny from BNM",
+          "owner": "Head of Digital Banking",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.1-B2",
+          "requirement": "Conduct risk assessments for each digital channel to classify and prioritise security controls based on transaction volume, customer exposure, and data sensitivity",
+          "rationale": "Risk-proportionate controls ensure resources are allocated to the channels presenting the greatest business impact",
+          "owner": "Head of Digital Banking",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.1-B3",
+          "requirement": "Establish a customer communication plan for promptly notifying affected users of any digital channel security incidents or vulnerabilities",
+          "rationale": "Timely customer communication is both a regulatory expectation and essential for maintaining trust during security events",
+          "owner": "Head of Digital Banking",
+          "frequency": "Per-incident",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "All digital channels must implement layered security controls covering authentication, authorisation, encryption, session management, and protection against OWASP Top 10 web application vulnerabilities.",
+      "requirements": [
+        {
+          "id": "12.1-T1",
+          "requirement": "Implement TLS 1.2 or higher for all digital channel communications, enforce HSTS headers, and deploy certificate pinning where applicable",
+          "rationale": "Encryption in transit is the foundational defence against eavesdropping and man-in-the-middle attacks on digital banking traffic",
+          "owner": "CISO",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.1-T2",
+          "requirement": "Deploy web application firewalls (WAF) and conduct quarterly vulnerability assessments and annual penetration tests against all internet-facing digital channels",
+          "rationale": "Proactive vulnerability identification and WAF protection address the RMiT requirement to protect against common web application vulnerabilities",
+          "owner": "CISO",
+          "frequency": "Quarterly",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.1-T3",
+          "requirement": "Implement input validation, output encoding, and parameterised queries across all digital channel applications to prevent injection and cross-site scripting attacks",
+          "rationale": "Secure coding practices are essential to address OWASP Top 10 risks that directly threaten customer data and transactions",
+          "owner": "CTO",
+          "frequency": "Per-release",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.1-T4",
+          "requirement": "Maintain centralised logging and real-time monitoring of all authentication attempts, session events, and transaction anomalies across digital channels",
+          "rationale": "Comprehensive monitoring enables rapid detection of security incidents and supports forensic investigation requirements",
+          "owner": "CISO",
+          "frequency": "Continuous",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Formal digital channel security standards must be established, approved by senior management, and reviewed annually to ensure alignment with evolving threats and BNM expectations.",
+      "requirements": [
+        {
+          "id": "12.1-G1",
+          "requirement": "Develop and maintain a Digital Channel Security Standards document covering authentication, authorisation, encryption, session management, and vulnerability management for each channel type",
+          "rationale": "A formal standards document provides the policy baseline against which all digital channel implementations are measured and audited",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.1-G2",
+          "requirement": "Establish a digital channel security governance committee with representation from IT Security, Digital Banking, Risk Management, and Compliance to review security posture quarterly",
+          "rationale": "Cross-functional governance ensures security decisions consider business, technology, and regulatory perspectives",
+          "owner": "CISO",
+          "frequency": "Quarterly",
+          "priority": "High"
+        },
+        {
+          "id": "12.1-G3",
+          "requirement": "Mandate security sign-off as a gate in the digital channel release process, requiring documented approval from IT Security before any production deployment",
+          "rationale": "Pre-release security approval prevents deployment of digital services with unresolved vulnerabilities",
+          "owner": "Head of Digital Banking",
+          "frequency": "Per-release",
+          "priority": "Critical"
+        }
+      ]
+    }
+  },
+  "12.2": {
+    "clauseId": "12.2",
+    "section": "Digital Services",
+    "subsection": "Digital Channels",
+    "title": "Mobile Application Security",
+    "clauseType": "technical",
+    "marker": "S",
+    "business": {
+      "summary": "Mobile banking applications are the primary customer touchpoint and a compromise would result in direct financial loss, reputational damage, and potential BNM enforcement action.",
+      "requirements": [
+        {
+          "id": "12.2-B1",
+          "requirement": "Ensure every mobile banking application release undergoes security testing and obtains formal security sign-off before publication to Apple App Store and Google Play Store",
+          "rationale": "Publishing an insecure mobile app exposes the entire customer base to exploitation; pre-release security validation is mandated by RMiT",
+          "owner": "Head of Digital Banking",
+          "frequency": "Per-release",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.2-B2",
+          "requirement": "Monitor app store reviews and customer complaints for security-related issues and feed findings into the mobile security improvement backlog",
+          "rationale": "Customer-reported issues can surface real vulnerabilities that internal testing may miss",
+          "owner": "Head of Digital Banking",
+          "frequency": "Continuous",
+          "priority": "High"
+        },
+        {
+          "id": "12.2-B3",
+          "requirement": "Establish a forced-upgrade mechanism to retire vulnerable mobile app versions within a defined timeline after a critical security patch is released",
+          "rationale": "Allowing outdated app versions to remain in use extends the window of exploitation for known vulnerabilities",
+          "owner": "Head of Digital Banking",
+          "frequency": "Per-release",
+          "priority": "Critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Mobile applications must implement code obfuscation, root/jailbreak detection, certificate pinning, secure local storage, and anti-reverse-engineering protections as mandated by RMiT.",
+      "requirements": [
+        {
+          "id": "12.2-T1",
+          "requirement": "Implement code obfuscation (ProGuard/R8 for Android, bitcode/Swift obfuscation for iOS) and anti-tampering controls to resist reverse engineering of mobile banking applications",
+          "rationale": "Reverse engineering allows attackers to discover API keys, authentication logic, and encryption implementations",
+          "owner": "CTO",
+          "frequency": "Per-release",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.2-T2",
+          "requirement": "Deploy runtime root/jailbreak detection that restricts high-risk operations on compromised devices and logs detection events for security monitoring",
+          "rationale": "Rooted/jailbroken devices bypass OS-level security controls that mobile banking apps depend on for data protection",
+          "owner": "CISO",
+          "frequency": "Per-release",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.2-T3",
+          "requirement": "Implement certificate pinning for all API communications from the mobile app, with a secure pin update mechanism to handle certificate rotation",
+          "rationale": "Certificate pinning prevents man-in-the-middle attacks even when device trust stores are compromised",
+          "owner": "CTO",
+          "frequency": "Per-release",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.2-T4",
+          "requirement": "Use platform-provided secure storage (Android Keystore, iOS Keychain) for all sensitive data including tokens, credentials, and cryptographic keys; prohibit storage of sensitive data in shared preferences or plain files",
+          "rationale": "Secure local storage is explicitly required by RMiT to protect customer data on the device",
+          "owner": "CTO",
+          "frequency": "Per-release",
+          "priority": "Critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Mobile application security standards must be formally documented, mandating specific security features and pre-release testing requirements aligned with RMiT expectations.",
+      "requirements": [
+        {
+          "id": "12.2-G1",
+          "requirement": "Maintain a Mobile Application Security Standards document specifying required security features (obfuscation, root detection, certificate pinning, secure storage) with implementation guidance for development teams",
+          "rationale": "A formal standards document ensures consistent security implementation across mobile app development teams and releases",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.2-G2",
+          "requirement": "Require independent mobile application security testing (MAST) by qualified security assessors using OWASP MASVS as the testing baseline before each production release",
+          "rationale": "Independent testing provides objective assurance that the app meets security standards before customer exposure",
+          "owner": "CISO",
+          "frequency": "Per-release",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.2-G3",
+          "requirement": "Maintain a mobile app security release checklist that must be completed and signed off by IT Security, QA, and the app release manager before app store submission",
+          "rationale": "A formal checklist ensures no required security control is overlooked during the release process",
+          "owner": "QA Lead",
+          "frequency": "Per-release",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "12.3": {
+    "clauseId": "12.3",
+    "section": "Digital Services",
+    "subsection": "Digital Channels",
+    "title": "API Security",
+    "clauseType": "technical",
+    "marker": "S",
+    "business": {
+      "summary": "APIs are the backbone of digital banking integration and open banking initiatives; unsecured APIs can expose customer data and financial systems to unauthorised access at scale.",
+      "requirements": [
+        {
+          "id": "12.3-B1",
+          "requirement": "Maintain a complete inventory of all APIs (internal, partner, and public-facing) with classification by data sensitivity and business criticality",
+          "rationale": "You cannot secure what you do not know exists; an API inventory is the foundation for risk-proportionate security controls",
+          "owner": "CTO",
+          "frequency": "Quarterly",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.3-B2",
+          "requirement": "Define and enforce API lifecycle management procedures including versioning, deprecation notices, and timely decommissioning of end-of-life APIs",
+          "rationale": "Deprecated APIs that remain active are common attack vectors as they often lack current security patches and monitoring",
+          "owner": "CTO",
+          "frequency": "Quarterly",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.3-B3",
+          "requirement": "Establish SLAs for API availability and security incident response with all third-party API consumers and providers",
+          "rationale": "API dependencies on third parties introduce business continuity and security risks that must be contractually managed",
+          "owner": "Head of Digital Banking",
+          "frequency": "Annual",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "All APIs must implement authentication, authorisation, rate limiting, input validation, and encryption, with regular security assessments to identify and remediate vulnerabilities.",
+      "requirements": [
+        {
+          "id": "12.3-T1",
+          "requirement": "Implement OAuth 2.0 with short-lived access tokens and refresh token rotation for all API authentication; enforce mutual TLS for server-to-server API communications",
+          "rationale": "Strong API authentication prevents unauthorised access to banking data and services exposed through APIs",
+          "owner": "CTO",
+          "frequency": "Per-release",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.3-T2",
+          "requirement": "Deploy API gateway with rate limiting, throttling, and quota management to prevent abuse, denial-of-service attacks, and data exfiltration through excessive API calls",
+          "rationale": "Rate limiting is explicitly required by RMiT and is essential to protect backend systems from API abuse",
+          "owner": "CTO",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.3-T3",
+          "requirement": "Implement strict input validation, schema enforcement, and output filtering on all API endpoints to prevent injection attacks and data leakage",
+          "rationale": "Input validation at the API layer is the first line of defence against injection attacks targeting backend systems",
+          "owner": "CTO",
+          "frequency": "Per-release",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.3-T4",
+          "requirement": "Conduct automated API security scanning in CI/CD pipelines and quarterly manual API penetration testing by qualified security assessors",
+          "rationale": "Regular security assessments of APIs are mandated by RMiT to identify vulnerabilities before they are exploited",
+          "owner": "CISO",
+          "frequency": "Quarterly",
+          "priority": "Critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Formal API security standards and governance processes must ensure APIs are documented, inventoried, and subject to consistent security controls throughout their lifecycle.",
+      "requirements": [
+        {
+          "id": "12.3-G1",
+          "requirement": "Develop and maintain API Security Standards aligned with OWASP API Security Top 10, covering authentication, authorisation, rate limiting, input validation, and encryption requirements",
+          "rationale": "A formal API security standard ensures consistent protection across all APIs regardless of which team develops them",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.3-G2",
+          "requirement": "Enforce mandatory API documentation (OpenAPI/Swagger specifications) and security review as prerequisites for API deployment to production",
+          "rationale": "Documented APIs enable effective security assessment and ensure deprecated endpoints are properly identified",
+          "owner": "CTO",
+          "frequency": "Per-release",
+          "priority": "High"
+        },
+        {
+          "id": "12.3-G3",
+          "requirement": "Implement an API decommissioning procedure requiring documented impact analysis, consumer notification, and confirmed migration before deprecated APIs are retired",
+          "rationale": "RMiT requires timely decommissioning of deprecated APIs; a formal procedure prevents both premature and delayed retirement",
+          "owner": "CTO",
+          "frequency": "Quarterly",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "12.4": {
+    "clauseId": "12.4",
+    "section": "Digital Services",
+    "subsection": "Digital Channels",
+    "title": "Customer Authentication",
+    "clauseType": "technical",
+    "marker": "S",
+    "business": {
+      "summary": "Weak customer authentication is the most direct path to account takeover and financial fraud, making risk-proportionate authentication essential for customer protection and regulatory compliance.",
+      "requirements": [
+        {
+          "id": "12.4-B1",
+          "requirement": "Define transaction risk tiers (low, medium, high, critical) with corresponding authentication requirements, ensuring multi-factor authentication for all high-risk and critical transactions",
+          "rationale": "RMiT mandates that authentication strength must be commensurate with transaction risk; a tiered approach ensures proportionate protection",
+          "owner": "Head of Digital Banking",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.4-B2",
+          "requirement": "Monitor authentication failure rates, account lockout events, and successful fraud cases to continuously assess authentication effectiveness and identify emerging attack patterns",
+          "rationale": "Ongoing effectiveness monitoring is required by RMiT and enables early detection of credential-based attacks",
+          "owner": "Head of Digital Banking",
+          "frequency": "Monthly",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.4-B3",
+          "requirement": "Ensure customer authentication mechanisms balance security with usability, conducting periodic customer experience reviews to minimise authentication-related service abandonment",
+          "rationale": "Overly complex authentication can drive customers to less secure channels or competitors, undermining both business goals and security outcomes",
+          "owner": "Head of Digital Banking",
+          "frequency": "Quarterly",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Authentication systems must support multi-factor authentication for high-risk transactions, risk-based adaptive authentication, and regular effectiveness assessments against current threat vectors.",
+      "requirements": [
+        {
+          "id": "12.4-T1",
+          "requirement": "Implement multi-factor authentication combining at least two of: knowledge (password/PIN), possession (hardware token/registered device), and inherence (biometric) for high-risk transactions",
+          "rationale": "MFA for high-risk transactions is an explicit mandatory requirement under RMiT clause 12.4",
+          "owner": "CTO",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.4-T2",
+          "requirement": "Deploy risk-based adaptive authentication that evaluates device fingerprint, geolocation, transaction behaviour, and time-of-day patterns to dynamically adjust authentication requirements",
+          "rationale": "Adaptive authentication enables stronger security for anomalous activities while maintaining a smooth experience for normal transactions",
+          "owner": "CTO",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.4-T3",
+          "requirement": "Implement credential protection measures including secure password hashing (bcrypt/Argon2), account lockout after failed attempts, and brute-force detection with automated blocking",
+          "rationale": "Credential protection mechanisms prevent the most common authentication attack vectors targeting digital banking customers",
+          "owner": "CISO",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "A formal customer authentication policy must define risk-based authentication requirements, mandate periodic effectiveness reviews, and align with BNM's expectations for digital service security.",
+      "requirements": [
+        {
+          "id": "12.4-G1",
+          "requirement": "Establish and maintain a Customer Authentication Policy that defines risk-based authentication tiers, MFA requirements for high-risk transactions, and acceptable authentication methods",
+          "rationale": "A formal policy provides the governance framework required by RMiT for customer authentication across all digital services",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.4-G2",
+          "requirement": "Conduct formal authentication effectiveness assessments at least annually, evaluating authentication mechanisms against current threats including credential stuffing, SIM swapping, and phishing",
+          "rationale": "RMiT requires regular assessment of authentication effectiveness; the threat landscape evolves and authentication must keep pace",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.4-G3",
+          "requirement": "Maintain a register of all authentication mechanisms deployed across digital channels with their risk classification, last assessment date, and any identified weaknesses",
+          "rationale": "A centralised authentication register enables oversight and ensures no channel is overlooked in security reviews",
+          "owner": "CISO",
+          "frequency": "Quarterly",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "12.5": {
+    "clauseId": "12.5",
+    "section": "Digital Services",
+    "subsection": "Digital Channels",
+    "title": "Transaction Verification",
+    "clauseType": "technical",
+    "marker": "S",
+    "business": {
+      "summary": "Out-of-band transaction verification for high-value and high-risk transactions is a critical control to prevent unauthorised fund transfers and protect customers from fraud.",
+      "requirements": [
+        {
+          "id": "12.5-B1",
+          "requirement": "Define monetary and risk thresholds that trigger out-of-band transaction verification, covering fund transfers, payee additions, limit changes, and other high-risk operations",
+          "rationale": "Clear thresholds ensure consistent application of verification requirements and enable customers to understand when additional verification will be required",
+          "owner": "Head of Digital Banking",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.5-B2",
+          "requirement": "Ensure transaction verification messages display full transaction details (amount, payee, account number) to the customer through the independent verification channel before final authorisation",
+          "rationale": "RMiT explicitly requires customers to see transaction details for verification; partial information display defeats the purpose of out-of-band verification",
+          "owner": "Head of Digital Banking",
+          "frequency": "Per-release",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.5-B3",
+          "requirement": "Monitor transaction verification completion rates and investigate any anomalies such as unusually high bypass rates or verification timeout patterns",
+          "rationale": "Anomalous verification patterns can indicate social engineering attacks or system weaknesses that need to be addressed",
+          "owner": "Head of Digital Banking",
+          "frequency": "Monthly",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Transaction verification must be performed through an independent channel from the transaction initiation channel, with full transaction details presented for customer confirmation.",
+      "requirements": [
+        {
+          "id": "12.5-T1",
+          "requirement": "Implement out-of-band transaction verification using a channel independent from the transaction initiation channel (e.g., SMS OTP, push notification, or hardware token for internet banking transactions)",
+          "rationale": "Channel independence is explicitly mandated by RMiT to prevent a single compromised channel from enabling fraudulent transaction authorisation",
+          "owner": "CTO",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.5-T2",
+          "requirement": "Include cryptographically bound transaction details (amount, payee, timestamp) in verification messages to prevent transaction modification attacks between verification and execution",
+          "rationale": "Transaction binding ensures that the verified transaction is the same one that is executed, preventing man-in-the-middle modification",
+          "owner": "CTO",
+          "frequency": "Per-release",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.5-T3",
+          "requirement": "Enforce time-limited verification codes (maximum 5 minutes validity) with single-use enforcement and automatic transaction cancellation upon expiry",
+          "rationale": "Time-limited and single-use codes reduce the window for interception and replay attacks on verification messages",
+          "owner": "CTO",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Transaction verification policies must define clear thresholds, channel independence requirements, and customer notification standards for high-value and high-risk digital transactions.",
+      "requirements": [
+        {
+          "id": "12.5-G1",
+          "requirement": "Establish a Transaction Verification Policy defining which transactions require out-of-band verification, acceptable verification channels, and the transaction details that must be displayed to customers",
+          "rationale": "A formal policy ensures consistent application of verification requirements across all digital channels and transaction types",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.5-G2",
+          "requirement": "Document and maintain transaction verification flow diagrams for each digital channel, clearly showing channel independence between transaction initiation and verification",
+          "rationale": "Flow documentation provides auditable evidence of channel independence and supports security reviews and BNM examinations",
+          "owner": "CTO",
+          "frequency": "Annual",
+          "priority": "High"
+        },
+        {
+          "id": "12.5-G3",
+          "requirement": "Review and update transaction verification thresholds at least annually based on fraud trend analysis, customer transaction patterns, and regulatory guidance",
+          "rationale": "Static thresholds become outdated as fraud patterns and transaction values evolve; regular review ensures continued effectiveness",
+          "owner": "Head of Digital Banking",
+          "frequency": "Annual",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "12.6": {
+    "clauseId": "12.6",
+    "section": "Digital Services",
+    "subsection": "Digital Channels",
+    "title": "Session Management",
+    "clauseType": "technical",
+    "marker": "S",
+    "business": {
+      "summary": "Weak session management can enable session hijacking and unauthorised account access, directly threatening customer funds and the institution's reputation.",
+      "requirements": [
+        {
+          "id": "12.6-B1",
+          "requirement": "Define session timeout values appropriate to each digital channel and risk context, balancing security with customer usability across internet banking, mobile banking, and payment portals",
+          "rationale": "Overly long sessions increase the risk of hijacking while overly short sessions frustrate customers; channel-appropriate timeouts balance both concerns",
+          "owner": "Head of Digital Banking",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.6-B2",
+          "requirement": "Provide customers with visibility of active sessions and the ability to terminate sessions remotely across all digital channels",
+          "rationale": "Customer self-service session management reduces reliance on call centres and empowers customers to respond immediately to suspected compromise",
+          "owner": "Head of Digital Banking",
+          "frequency": "Per-release",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Session management must enforce automatic timeouts, secure token generation, session fixation prevention, concurrent session controls, and proper token invalidation on logout.",
+      "requirements": [
+        {
+          "id": "12.6-T1",
+          "requirement": "Generate session tokens using cryptographically secure random number generators with sufficient entropy (minimum 128 bits) and transmit tokens only via secure HTTP-only cookies, never in URLs",
+          "rationale": "RMiT explicitly prohibits session tokens in URLs; cryptographically strong tokens prevent prediction and brute-force attacks",
+          "owner": "CTO",
+          "frequency": "Per-release",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.6-T2",
+          "requirement": "Implement session fixation prevention by regenerating session identifiers upon authentication, privilege escalation, and any change in security context",
+          "rationale": "Session fixation is a well-known attack vector where pre-set session IDs are used to hijack authenticated sessions",
+          "owner": "CTO",
+          "frequency": "Per-release",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.6-T3",
+          "requirement": "Enforce concurrent session controls limiting the number of simultaneous active sessions per user, with configurable policies for session displacement or blocking",
+          "rationale": "Concurrent session controls prevent simultaneous exploitation from multiple locations if credentials are compromised",
+          "owner": "CTO",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.6-T4",
+          "requirement": "Implement server-side session invalidation on logout, idle timeout, and absolute timeout, ensuring all session state and associated tokens are completely destroyed",
+          "rationale": "RMiT requires session invalidation upon logout; server-side enforcement prevents client-side bypass of session termination",
+          "owner": "CTO",
+          "frequency": "Per-release",
+          "priority": "Critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Session management standards must formalise timeout values, token handling requirements, and concurrent session policies across all digital banking channels.",
+      "requirements": [
+        {
+          "id": "12.6-G1",
+          "requirement": "Develop and maintain Session Management Standards specifying timeout values, token generation requirements, session fixation mitigations, and concurrent session policies for each digital channel",
+          "rationale": "Formal standards ensure consistent session security across all digital channels and provide the auditable baseline required by RMiT",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.6-G2",
+          "requirement": "Include session management security testing in the scope of all digital channel penetration tests, specifically verifying token security, timeout enforcement, and session fixation resistance",
+          "rationale": "Targeted testing validates that session management controls work as designed and meet the standards specified in governance documents",
+          "owner": "CISO",
+          "frequency": "Quarterly",
+          "priority": "High"
+        },
+        {
+          "id": "12.6-G3",
+          "requirement": "Maintain configuration evidence showing current session timeout settings and concurrent session limits for all production digital channel environments",
+          "rationale": "Configuration evidence demonstrates ongoing compliance and enables rapid validation during BNM examinations",
+          "owner": "CTO",
+          "frequency": "Quarterly",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "12.7": {
+    "clauseId": "12.7",
+    "section": "Digital Services",
+    "subsection": "Digital Channels",
+    "title": "Fraud Detection",
+    "clauseType": "technical",
+    "marker": "S",
+    "business": {
+      "summary": "Real-time fraud detection is essential to protect customers and the institution from financial losses arising from increasingly sophisticated digital banking fraud schemes.",
+      "requirements": [
+        {
+          "id": "12.7-B1",
+          "requirement": "Establish fraud detection KPIs including detection rate, false positive rate, mean time to detect, and mean time to block, with quarterly reporting to senior management",
+          "rationale": "Without measurable KPIs, the institution cannot demonstrate fraud detection effectiveness or identify degradation in system performance",
+          "owner": "Head of Digital Banking",
+          "frequency": "Quarterly",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.7-B2",
+          "requirement": "Define and maintain fraud investigation and response procedures with clear escalation paths, customer notification requirements, and regulatory reporting obligations under BNM guidelines",
+          "rationale": "Timely fraud response minimises customer losses and meets BNM's expectations for incident handling in digital banking services",
+          "owner": "Head of Digital Banking",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.7-B3",
+          "requirement": "Conduct quarterly fraud trend analysis using transaction data, customer complaints, and industry threat intelligence to inform rule and model updates",
+          "rationale": "Fraud patterns evolve rapidly; regular trend analysis ensures detection systems remain effective against current attack methods",
+          "owner": "Head of Digital Banking",
+          "frequency": "Quarterly",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Real-time fraud detection systems must employ behavioural analytics, transaction pattern analysis, and anomaly detection with the capability to flag and block suspicious transactions.",
+      "requirements": [
+        {
+          "id": "12.7-T1",
+          "requirement": "Deploy a real-time fraud detection engine capable of evaluating transactions against rule-based and machine learning models within the transaction processing timeframe (sub-second latency)",
+          "rationale": "RMiT requires real-time fraud detection; post-transaction analysis alone is insufficient to prevent fraudulent transfers",
+          "owner": "CTO",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.7-T2",
+          "requirement": "Implement behavioural analytics that profile customer transaction patterns, device usage, login times, and geographic locations to identify anomalous activities",
+          "rationale": "Behavioural analytics is explicitly required by RMiT and provides context-aware detection that static rules cannot achieve",
+          "owner": "CTO",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.7-T3",
+          "requirement": "Configure automated transaction blocking or holding for transactions exceeding defined risk thresholds, with real-time alerts to the fraud operations team for review",
+          "rationale": "The ability to block suspicious transactions in real time is the ultimate control preventing actual financial loss from fraud",
+          "owner": "CISO",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.7-T4",
+          "requirement": "Integrate fraud detection systems with transaction monitoring, anti-money laundering, and security event management platforms for comprehensive risk visibility",
+          "rationale": "Integrated systems provide holistic fraud detection by correlating signals across multiple data sources and risk domains",
+          "owner": "CTO",
+          "frequency": "Annual",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Fraud detection governance must ensure detection rules and models are regularly reviewed, investigation procedures are formalised, and effectiveness metrics are reported to senior management.",
+      "requirements": [
+        {
+          "id": "12.7-G1",
+          "requirement": "Establish a Fraud Detection and Investigation Procedure covering alert triage, investigation workflows, customer communication, transaction reversal, and regulatory reporting",
+          "rationale": "Formalised procedures ensure consistent and timely fraud response that meets both customer protection and regulatory requirements",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.7-G2",
+          "requirement": "Conduct quarterly reviews of fraud detection rules and models to assess effectiveness, tune thresholds, and incorporate new fraud patterns identified through trend analysis",
+          "rationale": "Static rules degrade over time as fraudsters adapt; regular model review maintains detection effectiveness",
+          "owner": "CISO",
+          "frequency": "Quarterly",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.7-G3",
+          "requirement": "Produce quarterly fraud detection effectiveness reports covering detection rates, false positive rates, blocked amounts, and comparison against industry benchmarks",
+          "rationale": "Effectiveness reporting provides senior management and BNM examiners with evidence that fraud detection systems are performing as required",
+          "owner": "Head of Digital Banking",
+          "frequency": "Quarterly",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "12.8": {
+    "clauseId": "12.8",
+    "section": "Digital Services",
+    "subsection": "Digital Channels",
+    "title": "Digital Onboarding Security",
+    "clauseType": "technical",
+    "marker": "G",
+    "business": {
+      "summary": "Digital customer onboarding introduces fraud and identity theft risks that must be managed through proportionate security controls without creating excessive friction for legitimate customers.",
+      "requirements": [
+        {
+          "id": "12.8-B1",
+          "requirement": "Ensure digital onboarding security controls are proportionate to the risk level of the products and services offered, with enhanced verification for higher-risk products such as credit facilities",
+          "rationale": "RMiT requires controls commensurate with product risk; a savings account opening may warrant lighter controls than a credit card application",
+          "owner": "Head of Digital Banking",
+          "frequency": "Annual",
+          "priority": "High"
+        },
+        {
+          "id": "12.8-B2",
+          "requirement": "Track and report digital onboarding fraud rates, identity verification failure rates, and false rejection rates to assess the balance between security and customer experience",
+          "rationale": "Monitoring onboarding metrics enables data-driven decisions about control calibration and identifies emerging fraud vectors",
+          "owner": "Head of Digital Banking",
+          "frequency": "Monthly",
+          "priority": "High"
+        },
+        {
+          "id": "12.8-B3",
+          "requirement": "Maintain alignment with BNM e-KYC guidelines and Securities Commission requirements for digital onboarding of financial products",
+          "rationale": "Digital onboarding must comply with multiple Malaysian regulatory frameworks beyond RMiT, including anti-money laundering requirements",
+          "owner": "Head of Compliance",
+          "frequency": "Annual",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Digital onboarding must implement identity verification, liveness detection, document verification, and fraud screening controls appropriate to the risk profile of the product being offered.",
+      "requirements": [
+        {
+          "id": "12.8-T1",
+          "requirement": "Implement automated identity verification integrating with MyKad/MyKAS validation, facial recognition comparison against identity document photos, and sanctions/PEP screening databases",
+          "rationale": "Automated identity verification provides scalable and consistent checking that manual processes cannot achieve for digital onboarding",
+          "owner": "CTO",
+          "frequency": "Continuous",
+          "priority": "High"
+        },
+        {
+          "id": "12.8-T2",
+          "requirement": "Deploy liveness detection technology that resists photo, video, and mask-based spoofing attacks during the facial verification step of digital onboarding",
+          "rationale": "Liveness detection is explicitly mentioned in RMiT as a required control to prevent identity spoofing during digital onboarding",
+          "owner": "CTO",
+          "frequency": "Per-release",
+          "priority": "High"
+        },
+        {
+          "id": "12.8-T3",
+          "requirement": "Implement document verification with OCR extraction, authenticity checks (watermarks, holograms, microprint patterns), and cross-referencing against submitted personal details",
+          "rationale": "Document verification catches forged or tampered identity documents that could bypass facial recognition alone",
+          "owner": "CTO",
+          "frequency": "Per-release",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Digital onboarding security standards should define verification requirements by product risk tier, establish fraud screening integration requirements, and ensure alignment with BNM e-KYC guidelines.",
+      "requirements": [
+        {
+          "id": "12.8-G1",
+          "requirement": "Develop and maintain Digital Onboarding Security Standards specifying identity verification, liveness detection, document verification, and fraud screening requirements by product risk tier",
+          "rationale": "Formal standards ensure consistent onboarding security across all digital products and provide the governance framework expected by BNM",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "High"
+        },
+        {
+          "id": "12.8-G2",
+          "requirement": "Conduct periodic assessments of digital onboarding security controls including testing of liveness detection bypass resistance and document forgery detection effectiveness",
+          "rationale": "Regular testing validates that onboarding controls remain effective against evolving spoofing and forgery techniques",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "High"
+        },
+        {
+          "id": "12.8-G3",
+          "requirement": "Maintain records of all digital onboarding verification steps and outcomes for each customer, supporting audit trail and regulatory examination requirements",
+          "rationale": "Complete audit trails of verification decisions are essential for both fraud investigation and regulatory compliance demonstration",
+          "owner": "Head of Compliance",
+          "frequency": "Continuous",
+          "priority": "Medium"
+        }
+      ]
+    }
+  },
+  "12.9": {
+    "clauseId": "12.9",
+    "section": "Digital Services",
+    "subsection": "Digital Channels",
+    "title": "QR Code & E-Wallet Security",
+    "clauseType": "technical",
+    "marker": "S",
+    "business": {
+      "summary": "QR code payments and e-wallet services are rapidly growing in Malaysia and are vulnerable to tampering, overlay attacks, and forgery that can directly cause customer financial losses.",
+      "requirements": [
+        {
+          "id": "12.9-B1",
+          "requirement": "Ensure QR code payment flows display complete transaction details (merchant name, amount, reference) to the customer for confirmation before payment authorisation",
+          "rationale": "Customer visibility of transaction details is essential to prevent QR code substitution and overlay attacks from succeeding",
+          "owner": "Head of Digital Banking",
+          "frequency": "Per-release",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.9-B2",
+          "requirement": "Establish merchant QR code registration and validation processes to prevent unauthorised or fraudulent QR codes from being used in the payment ecosystem",
+          "rationale": "Merchant-side controls are essential because QR code attacks frequently target the generation and display of codes at merchant premises",
+          "owner": "Head of Digital Banking",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.9-B3",
+          "requirement": "Monitor QR payment transaction patterns for anomalies including unusual merchant volumes, geographic inconsistencies, and duplicate QR code usage indicative of tampering",
+          "rationale": "Pattern-based monitoring catches QR fraud that individual transaction validation cannot detect",
+          "owner": "Head of Digital Banking",
+          "frequency": "Continuous",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "QR code and e-wallet systems must implement QR validation, transaction encryption, anti-tampering controls, and protection against overlay attacks to ensure transaction integrity and authenticity.",
+      "requirements": [
+        {
+          "id": "12.9-T1",
+          "requirement": "Implement cryptographic QR code validation that verifies the authenticity and integrity of QR codes before processing payment transactions, detecting any modification or substitution",
+          "rationale": "QR code validation is explicitly required by RMiT to protect against tampering and forgery of payment QR codes",
+          "owner": "CTO",
+          "frequency": "Per-release",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.9-T2",
+          "requirement": "Encrypt all QR code transaction data end-to-end from the customer device to the payment processing backend using TLS 1.2+ and application-layer encryption",
+          "rationale": "Transaction encryption is mandated by RMiT and prevents interception or modification of payment data in transit",
+          "owner": "CTO",
+          "frequency": "Per-release",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.9-T3",
+          "requirement": "Implement anti-overlay and anti-screen-capture protections in the e-wallet application to prevent malicious apps from intercepting QR code display or transaction confirmation screens",
+          "rationale": "Overlay attacks are a specific threat called out in RMiT where malicious apps superimpose fake interfaces over legitimate payment screens",
+          "owner": "CTO",
+          "frequency": "Per-release",
+          "priority": "Critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Formal QR code and e-wallet security standards must define validation requirements, encryption standards, and anti-tampering controls aligned with BNM and PayNet guidelines.",
+      "requirements": [
+        {
+          "id": "12.9-G1",
+          "requirement": "Develop and maintain QR Code and E-Wallet Security Standards covering QR validation, transaction encryption, anti-tampering controls, and alignment with PayNet DuitNow QR specifications",
+          "rationale": "Formal standards ensure security requirements are clearly defined and consistently implemented across QR payment and e-wallet features",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.9-G2",
+          "requirement": "Conduct security testing of QR code payment and e-wallet features before each major release, including QR code tampering tests, overlay attack simulations, and encryption validation",
+          "rationale": "Pre-release security testing validates that anti-tampering and encryption controls work as designed in real-world scenarios",
+          "owner": "CISO",
+          "frequency": "Per-release",
+          "priority": "Critical"
+        },
+        {
+          "id": "12.9-G3",
+          "requirement": "Maintain alignment with DuitNow QR security specifications, PayNet guidelines, and Malaysian Payment Systems Act requirements for all QR-based payment implementations",
+          "rationale": "QR payment security must meet multiple Malaysian regulatory and industry standards beyond RMiT alone",
+          "owner": "Head of Compliance",
+          "frequency": "Annual",
+          "priority": "High"
+        }
+      ]
+    }
+  }
+}

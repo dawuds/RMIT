@@ -1,0 +1,1878 @@
+{
+  "11.1": {
+    "clauseId": "11.1",
+    "section": "Cybersecurity Management",
+    "subsection": "Cybersecurity Framework",
+    "title": "Incident Response Plan",
+    "clauseType": "governance",
+    "marker": "S",
+    "business": {
+      "summary": "Without a tested incident response plan, the institution faces prolonged cyber incidents that amplify financial losses, regulatory penalties, and reputational damage to customer trust.",
+      "requirements": [
+        {
+          "id": "11.1-B1",
+          "requirement": "Quantify the business impact of cyber incidents by maintaining a cost-of-breach model that accounts for operational downtime, regulatory fines, legal liabilities, and customer attrition",
+          "rationale": "Understanding the financial exposure from cyber incidents drives appropriate investment in response capabilities and ensures executive sponsorship",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.1-B2",
+          "requirement": "Ensure the IRP includes communication protocols for customers, regulators, media, and business partners to protect institutional reputation during incidents",
+          "rationale": "Poor stakeholder communication during a cyber incident can cause greater reputational damage than the incident itself, particularly in Malaysian banking where customer trust is paramount",
+          "owner": "Incident Response Lead",
+          "frequency": "Per-incident",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.1-B3",
+          "requirement": "Define maximum tolerable downtime for critical banking services and align IRP recovery objectives with business continuity requirements",
+          "rationale": "Misalignment between incident response and business continuity targets leads to extended service outages affecting customers and transaction processing",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "The IRP must be supported by technical tools and automation to ensure rapid detection, containment, and recovery across the institution's technology environment.",
+      "requirements": [
+        {
+          "id": "11.1-T1",
+          "requirement": "Deploy and maintain incident response tooling including SIEM integration, forensic analysis capabilities, network isolation mechanisms, and automated containment playbooks",
+          "rationale": "Manual incident response is too slow for modern cyber threats; tooling ensures consistent, rapid execution of containment and eradication steps",
+          "owner": "SOC Manager",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.1-T2",
+          "requirement": "Maintain a forensic readiness environment with pre-configured forensic workstations, evidence collection scripts, and chain-of-custody procedures",
+          "rationale": "Forensic evidence must be collected and preserved immediately during an incident to support root cause analysis and potential legal proceedings",
+          "owner": "Incident Response Lead",
+          "frequency": "Quarterly",
+          "priority": "High"
+        },
+        {
+          "id": "11.1-T3",
+          "requirement": "Implement automated alerting and notification workflows that trigger the IRP activation process when predefined incident thresholds are met",
+          "rationale": "Delays in IRP activation due to manual notification processes increase dwell time and extend the blast radius of cyber incidents",
+          "owner": "SOC Manager",
+          "frequency": "Continuous",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "The IRP must be formally documented, regularly tested, and subject to post-incident review to ensure it remains effective and aligned with BNM expectations.",
+      "requirements": [
+        {
+          "id": "11.1-G1",
+          "requirement": "Maintain a version-controlled IRP that covers all five phases (identification, containment, eradication, recovery, post-incident) with clearly assigned roles and escalation paths",
+          "rationale": "BNM explicitly requires all five incident response phases to be documented; missing phases indicate an incomplete response capability",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.1-G2",
+          "requirement": "Conduct at least one tabletop exercise and one technical simulation annually, involving cross-functional teams including IT, legal, communications, and business units",
+          "rationale": "Regular testing validates that staff can execute the IRP under pressure and identifies gaps before a real incident occurs",
+          "owner": "Incident Response Lead",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.1-G3",
+          "requirement": "Perform a formal post-incident review within 14 days of every major incident, documenting root cause, timeline, lessons learned, and improvement actions with assigned owners and deadlines",
+          "rationale": "Post-incident reviews are mandatory under RMiT and drive continuous improvement of the institution's incident response capability",
+          "owner": "Incident Response Lead",
+          "frequency": "Per-incident",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.1-G4",
+          "requirement": "Review and update the IRP at least annually and after every major incident, with sign-off from the CISO and relevant senior management",
+          "rationale": "The threat landscape evolves continuously; an outdated IRP may not address current attack vectors or regulatory requirements",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "11.2": {
+    "clauseId": "11.2",
+    "section": "Cybersecurity Management",
+    "subsection": "Cybersecurity Framework",
+    "title": "Cybersecurity Strategy",
+    "clauseType": "governance",
+    "marker": "S",
+    "business": {
+      "summary": "A board-approved cybersecurity strategy aligned with business objectives ensures that cyber resilience investments are proportionate to the institution's risk appetite and protect core banking services.",
+      "requirements": [
+        {
+          "id": "11.2-B1",
+          "requirement": "Align the cybersecurity strategy with the institution's business strategy, ensuring cyber resilience initiatives directly support strategic priorities such as digital banking expansion, open banking, and mobile-first customer engagement",
+          "rationale": "Misaligned cybersecurity and business strategies create blind spots where new digital services outpace security controls, exposing the institution to preventable cyber risk",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.2-B2",
+          "requirement": "Define measurable cybersecurity objectives with key performance indicators that demonstrate return on security investment to the board and senior management",
+          "rationale": "Without measurable objectives, the board cannot assess whether cybersecurity spending is effective or whether the institution's cyber risk posture is improving over time",
+          "owner": "CISO",
+          "frequency": "Quarterly",
+          "priority": "High"
+        },
+        {
+          "id": "11.2-B3",
+          "requirement": "Include a multi-year cybersecurity roadmap with phased initiatives, resource requirements, and budget projections that reflect the institution's risk appetite",
+          "rationale": "A roadmap provides the board with visibility into the planned maturity trajectory and ensures sustained investment rather than reactive spending",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "The cybersecurity strategy must define the target technology architecture and capability roadmap needed to achieve the institution's cyber resilience objectives.",
+      "requirements": [
+        {
+          "id": "11.2-T1",
+          "requirement": "Define the target cybersecurity technology architecture covering detection, prevention, response, and recovery capabilities mapped to the NIST Cybersecurity Framework or equivalent",
+          "rationale": "A structured technology architecture ensures comprehensive coverage across all security domains and avoids gaps caused by ad hoc tool procurement",
+          "owner": "Security Architect",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.2-T2",
+          "requirement": "Conduct an annual cybersecurity maturity assessment against the strategy's target state, identifying gaps and prioritising technology investments accordingly",
+          "rationale": "Maturity assessments provide an objective measure of progress against the strategy and highlight areas requiring accelerated investment",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "High"
+        },
+        {
+          "id": "11.2-T3",
+          "requirement": "Ensure the strategy addresses emerging technology risks including cloud security, API security, artificial intelligence threats, and supply chain cyber risks",
+          "rationale": "Malaysian banks are rapidly adopting cloud and API-based architectures; the strategy must address security implications of these technology shifts",
+          "owner": "Security Architect",
+          "frequency": "Annual",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "The cybersecurity strategy must be formally approved by the board, reviewed annually, and supported by governance mechanisms that ensure execution accountability.",
+      "requirements": [
+        {
+          "id": "11.2-G1",
+          "requirement": "Obtain formal board approval for the cybersecurity strategy and present strategy progress updates to the board or Board Risk Committee at least quarterly",
+          "rationale": "BNM explicitly requires board approval; quarterly reporting ensures the board maintains oversight of cyber resilience progress and emerging risks",
+          "owner": "CISO",
+          "frequency": "Quarterly",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.2-G2",
+          "requirement": "Review the cybersecurity strategy at least annually, incorporating changes to the threat landscape, business strategy, regulatory requirements, and lessons from incidents",
+          "rationale": "Annual review is mandated by RMiT and ensures the strategy remains relevant as business priorities and the threat environment evolve",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.2-G3",
+          "requirement": "Establish a cybersecurity steering committee with representation from business, technology, risk, and compliance functions to oversee strategy execution",
+          "rationale": "Cross-functional governance ensures the cybersecurity strategy is not executed in isolation but considers business impact and risk management perspectives",
+          "owner": "CISO",
+          "frequency": "Quarterly",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "11.3": {
+    "clauseId": "11.3",
+    "section": "Cybersecurity Management",
+    "subsection": "Cybersecurity Framework",
+    "title": "Cybersecurity Governance",
+    "clauseType": "governance",
+    "marker": "S",
+    "business": {
+      "summary": "Clear cybersecurity governance with defined accountability across the three lines of defence ensures that cyber risks are managed effectively without conflicts of interest that could compromise the institution's security posture.",
+      "requirements": [
+        {
+          "id": "11.3-B1",
+          "requirement": "Establish clear executive accountability for cybersecurity with the CISO reporting to a level that ensures independence from technology operations and direct access to the board or Board Risk Committee",
+          "rationale": "CISO reporting lines that are too low in the organisation or embedded within IT operations can result in cybersecurity concerns being subordinated to delivery timelines and cost pressures",
+          "owner": "Board of Directors",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.3-B2",
+          "requirement": "Allocate adequate resources — budget, headcount, and tooling — commensurate with the institution's size, complexity, and cyber risk exposure to support the cybersecurity governance structure",
+          "rationale": "Governance structures without adequate resourcing are ineffective; BNM expects the institution's cybersecurity investment to be proportionate to its risk profile",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "High"
+        },
+        {
+          "id": "11.3-B3",
+          "requirement": "Ensure cybersecurity governance reporting provides the board with a clear and accurate picture of the institution's cyber risk posture, including risk metrics, incident trends, and control effectiveness",
+          "rationale": "The board needs timely and accurate information to fulfil its oversight responsibilities and make informed decisions on cybersecurity risk acceptance",
+          "owner": "CISO",
+          "frequency": "Quarterly",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Technology controls must enforce segregation of duties and provide audit trails that support the three lines of defence model in cybersecurity governance.",
+      "requirements": [
+        {
+          "id": "11.3-T1",
+          "requirement": "Implement role-based access controls in security tools and platforms that enforce segregation between first-line security operations, second-line risk oversight, and third-line audit functions",
+          "rationale": "Technical enforcement of segregation of duties prevents circumvention and provides auditable evidence of separation between operational, risk, and audit roles",
+          "owner": "Security Architect",
+          "frequency": "Quarterly",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.3-T2",
+          "requirement": "Deploy a GRC platform or equivalent tooling to support cybersecurity governance processes including risk assessments, control monitoring, issue tracking, and compliance reporting",
+          "rationale": "Manual governance processes are error-prone and do not scale; tooling provides consistency, traceability, and real-time visibility into the cyber risk posture",
+          "owner": "CISO",
+          "frequency": "Continuous",
+          "priority": "High"
+        },
+        {
+          "id": "11.3-T3",
+          "requirement": "Maintain comprehensive audit trails for all cybersecurity governance decisions, risk acceptances, and control changes with tamper-proof logging",
+          "rationale": "Audit trails provide evidence of governance effectiveness and support regulatory examinations by demonstrating that decisions were properly authorised",
+          "owner": "Security Architect",
+          "frequency": "Continuous",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "The cybersecurity governance structure must clearly define roles and responsibilities across the three lines of defence with adequate segregation of duties.",
+      "requirements": [
+        {
+          "id": "11.3-G1",
+          "requirement": "Document a cybersecurity governance framework that maps roles, responsibilities, and accountability across the three lines of defence: first-line operations, second-line risk management, and third-line internal audit",
+          "rationale": "BNM explicitly requires governance across three lines of defence; unclear or undocumented responsibilities create accountability gaps during incidents",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.3-G2",
+          "requirement": "Develop and maintain a RACI matrix for all cybersecurity functions including operations, risk assessment, policy development, compliance monitoring, and audit, ensuring no single individual or team holds conflicting roles",
+          "rationale": "A RACI matrix provides clear assignment of responsibilities and makes segregation of duties visible and verifiable",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.3-G3",
+          "requirement": "Ensure internal audit independently assesses the effectiveness of cybersecurity controls and governance at least annually, with findings reported to the Audit Committee",
+          "rationale": "Independent audit is the third line of defence and provides assurance to the board that cybersecurity controls are operating as intended",
+          "owner": "Head of Internal Audit",
+          "frequency": "Annual",
+          "priority": "High"
+        },
+        {
+          "id": "11.3-G4",
+          "requirement": "Conduct an annual review of the cybersecurity governance structure to ensure it remains appropriate for the institution's size, complexity, and evolving risk landscape",
+          "rationale": "Governance structures must adapt as the institution grows, adopts new technologies, or faces new regulatory requirements",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "11.4": {
+    "clauseId": "11.4",
+    "section": "Cybersecurity Management",
+    "subsection": "Cybersecurity Framework",
+    "title": "Incident Detection and Reporting",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "business": {
+      "summary": "Failure to detect and report material cyber incidents to BNM within the mandated four-hour window exposes the institution to regulatory enforcement action, financial penalties, and loss of regulatory trust.",
+      "requirements": [
+        {
+          "id": "11.4-B1",
+          "requirement": "Ensure the institution can detect material cybersecurity incidents and initiate BNM notification within four hours of detection, with a documented decision chain that does not require multiple layers of approval",
+          "rationale": "BNM's four-hour reporting requirement is non-negotiable; institutions that miss this deadline face regulatory scrutiny and potential enforcement action",
+          "owner": "CISO",
+          "frequency": "Per-incident",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.4-B2",
+          "requirement": "Maintain a pre-approved incident notification template and designated BNM contact procedures to eliminate delays during material incidents",
+          "rationale": "Having pre-prepared templates and contact procedures removes administrative bottlenecks during high-pressure incidents when time is critical",
+          "owner": "Incident Response Lead",
+          "frequency": "Quarterly",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.4-B3",
+          "requirement": "Track and report incident detection metrics including mean-time-to-detect and mean-time-to-report to senior management to demonstrate detection capability effectiveness",
+          "rationale": "Tracking detection metrics enables the institution to identify deterioration in detection capabilities before a material incident is missed",
+          "owner": "SOC Manager",
+          "frequency": "Monthly",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Technical detection mechanisms must provide comprehensive monitoring coverage with the speed and accuracy needed to identify material incidents within the four-hour BNM reporting window.",
+      "requirements": [
+        {
+          "id": "11.4-T1",
+          "requirement": "Deploy SIEM, EDR, network detection, and other monitoring tools providing continuous detection coverage across all critical systems, with automated correlation and alerting for material incident indicators",
+          "rationale": "Multi-layered detection reduces the risk of material incidents going undetected and provides the early warning needed to meet the four-hour reporting timeline",
+          "owner": "SOC Manager",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.4-T2",
+          "requirement": "Implement automated incident classification and severity scoring based on predefined criteria to accelerate materiality determination and trigger appropriate escalation workflows",
+          "rationale": "Manual classification introduces delays and inconsistency; automated scoring ensures material incidents are flagged immediately for BNM reporting consideration",
+          "owner": "SOC Manager",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.4-T3",
+          "requirement": "Maintain automated notification mechanisms that alert the CISO, Incident Response Lead, and BNM reporting officer immediately when a potentially material incident is detected",
+          "rationale": "Automated notifications eliminate the risk of human delay in the escalation chain and ensure the four-hour clock is managed from the moment of detection",
+          "owner": "SOC Manager",
+          "frequency": "Continuous",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "A documented incident classification framework and BNM reporting procedure must be in place to ensure consistent materiality determination and timely regulatory notification.",
+      "requirements": [
+        {
+          "id": "11.4-G1",
+          "requirement": "Maintain a documented incident classification framework with clear criteria for determining materiality, including thresholds for customer impact, financial loss, data compromise, and service disruption",
+          "rationale": "BNM requires a documented classification framework; without clear materiality criteria, the institution may over-report or under-report incidents, both of which attract regulatory concern",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.4-G2",
+          "requirement": "Document a BNM incident reporting procedure that specifies the four-hour timeline, required information, reporting format, designated reporting officer, and follow-up reporting requirements",
+          "rationale": "A clear, documented procedure ensures consistent and timely BNM notification regardless of which staff are handling the incident",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.4-G3",
+          "requirement": "Maintain a comprehensive incident register logging all cybersecurity incidents with classification, detection time, response actions, and BNM notification status where applicable",
+          "rationale": "A complete incident register provides audit trail evidence of detection and reporting compliance and enables trend analysis for improving detection capabilities",
+          "owner": "Incident Response Lead",
+          "frequency": "Per-incident",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "11.5": {
+    "clauseId": "11.5",
+    "section": "Cybersecurity Management",
+    "subsection": "Cybersecurity Framework",
+    "title": "Cyber Crisis Management",
+    "clauseType": "governance",
+    "marker": "S",
+    "business": {
+      "summary": "A cyber crisis management plan ensures the institution can maintain critical banking services, protect customer assets, and manage stakeholder communications during a significant cybersecurity event that escalates beyond routine incident response.",
+      "requirements": [
+        {
+          "id": "11.5-B1",
+          "requirement": "Define crisis escalation triggers that differentiate a cyber crisis from a routine incident, with clear criteria for activating the crisis management plan and mobilising the crisis management team",
+          "rationale": "Without clear escalation triggers, incidents may escalate to crisis level before the appropriate governance and decision-making structures are activated",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.5-B2",
+          "requirement": "Establish crisis communication protocols covering internal staff, customers, media, regulators (BNM), business partners, and law enforcement with pre-approved message templates and designated spokespersons",
+          "rationale": "Uncoordinated or delayed communications during a cyber crisis amplify reputational damage and can cause customer panic, particularly in the Malaysian banking sector where social media scrutiny is intense",
+          "owner": "Head of Corporate Communications",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.5-B3",
+          "requirement": "Ensure the crisis management plan includes business continuity provisions for maintaining critical banking services during extended cyber incidents such as ransomware or destructive attacks",
+          "rationale": "Major cyber events can disrupt banking services for days or weeks; without integrated business continuity provisions, customer transactions and institutional operations are severely impacted",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Technical capabilities must support crisis management with resilient communication channels, forensic investigation tools, and the ability to isolate and recover systems rapidly during a major cyber event.",
+      "requirements": [
+        {
+          "id": "11.5-T1",
+          "requirement": "Maintain out-of-band communication channels (e.g., separate mobile devices, satellite phones, encrypted messaging) that remain operational if the primary corporate network is compromised",
+          "rationale": "During a cyber crisis, the corporate network including email and messaging systems may be compromised; crisis teams need a reliable communication channel that is independent of the affected infrastructure",
+          "owner": "SOC Manager",
+          "frequency": "Quarterly",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.5-T2",
+          "requirement": "Ensure crisis response technical capabilities include network segmentation and isolation, system rebuild from verified clean backups, and forensic investigation without disrupting evidence preservation",
+          "rationale": "Technical crisis response must balance the need for rapid service restoration against evidence preservation requirements for root cause analysis and potential legal proceedings",
+          "owner": "Incident Response Lead",
+          "frequency": "Annual",
+          "priority": "High"
+        },
+        {
+          "id": "11.5-T3",
+          "requirement": "Maintain a pre-engaged relationship with external incident response and digital forensics providers who can be mobilised within four hours during a crisis",
+          "rationale": "Major cyber crises often exceed internal team capabilities; pre-engaged external expertise ensures rapid augmentation without procurement delays during an active crisis",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "The cyber crisis management plan must define governance structures, decision-making authority, and be validated through annual simulations involving executive management and cross-functional teams.",
+      "requirements": [
+        {
+          "id": "11.5-G1",
+          "requirement": "Document a cyber crisis management plan that defines the crisis governance structure, decision-making authority, escalation procedures, and roles for executive management, legal, communications, technology, and business continuity teams",
+          "rationale": "BNM requires defined governance and decision-making processes during significant cyber events; ambiguity in authority delays critical decisions during a crisis",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.5-G2",
+          "requirement": "Conduct at least one cyber crisis simulation annually involving executive management, the crisis management team, and relevant business unit leaders, with documented outcomes and improvement actions",
+          "rationale": "BNM mandates annual crisis simulations; these exercises validate that the plan works in practice and that executives understand their roles during a cyber crisis",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.5-G3",
+          "requirement": "Maintain a current crisis team roster with 24/7 contact details, defined alternates for all key roles, and documented activation procedures",
+          "rationale": "Crises do not occur during business hours; an up-to-date contact roster with alternates ensures the crisis team can be mobilised at any time",
+          "owner": "Incident Response Lead",
+          "frequency": "Quarterly",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "11.6": {
+    "clauseId": "11.6",
+    "section": "Cybersecurity Management",
+    "subsection": "Security Operations",
+    "title": "SOC Operations",
+    "clauseType": "technical",
+    "marker": "S",
+    "business": {
+      "summary": "A fully operational SOC with 24/7 monitoring capability is essential to detect and respond to cyber threats in real time, protecting the institution's customers, assets, and reputation from the financial and operational impact of undetected breaches.",
+      "requirements": [
+        {
+          "id": "11.6-B1",
+          "requirement": "Ensure the SOC provides uninterrupted 24/7 monitoring coverage of the institution's entire technology environment, including core banking, internet banking, mobile banking, ATM networks, and cloud infrastructure",
+          "rationale": "Cyber attacks frequently occur outside business hours; gaps in monitoring coverage leave the institution exposed to threats that could result in significant financial losses and service disruptions",
+          "owner": "SOC Manager",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.6-B2",
+          "requirement": "Define and track SOC performance metrics including mean-time-to-detect, mean-time-to-respond, alert-to-incident ratio, and false positive rate, with monthly reporting to the CISO",
+          "rationale": "Performance metrics provide visibility into SOC effectiveness and enable early identification of capability degradation before it results in missed threats",
+          "owner": "SOC Manager",
+          "frequency": "Monthly",
+          "priority": "High"
+        },
+        {
+          "id": "11.6-B3",
+          "requirement": "Establish service level targets for SOC operations including maximum alert triage time, investigation initiation time, and escalation time for different severity levels",
+          "rationale": "Without defined SLTs, alert response times vary based on analyst workload and judgement, increasing the risk of delayed response to genuine threats",
+          "owner": "SOC Manager",
+          "frequency": "Quarterly",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "The SOC must be equipped with integrated security monitoring tools, automated triage capabilities, and a robust technology stack that enables rapid detection, investigation, and escalation of threats.",
+      "requirements": [
+        {
+          "id": "11.6-T1",
+          "requirement": "Deploy an integrated SOC technology stack comprising SIEM, SOAR, EDR, network detection and response, and threat intelligence platform with automated alert correlation and enrichment",
+          "rationale": "An integrated technology stack reduces analyst fatigue from manual correlation and enables faster, more accurate threat detection across the entire attack surface",
+          "owner": "SOC Manager",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.6-T2",
+          "requirement": "Implement automated alert triage and enrichment workflows using SOAR to reduce analyst workload on repetitive tasks and accelerate investigation of genuine threats",
+          "rationale": "SOC analysts are overwhelmed by alert volume; automation of routine triage enables them to focus on complex threats that require human analysis and judgement",
+          "owner": "SOC Manager",
+          "frequency": "Continuous",
+          "priority": "High"
+        },
+        {
+          "id": "11.6-T3",
+          "requirement": "Maintain documented SOC runbooks and playbooks for common alert types and attack scenarios, ensuring consistent investigation and response procedures across all shifts",
+          "rationale": "Consistent procedures across shifts prevent quality degradation during off-peak hours and ensure institutional knowledge is captured in actionable documentation",
+          "owner": "SOC Manager",
+          "frequency": "Quarterly",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "SOC operations must be governed by documented procedures, staffed with qualified personnel, and subject to regular performance review to ensure sustained effectiveness.",
+      "requirements": [
+        {
+          "id": "11.6-G1",
+          "requirement": "Maintain documented SOC operational procedures covering alert triage, investigation workflows, escalation criteria, shift handover, and quality assurance processes",
+          "rationale": "BNM requires documented processes for alert triage, investigation, and escalation; undocumented procedures create inconsistency and knowledge loss during staff turnover",
+          "owner": "SOC Manager",
+          "frequency": "Quarterly",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.6-G2",
+          "requirement": "Staff the SOC with qualified security analysts holding relevant certifications (e.g., GCIA, GCIH, CEH, CompTIA CySA+) and provide ongoing training on emerging threats and new detection tools",
+          "rationale": "BNM requires qualified analysts; under-skilled staff miss sophisticated threats and cannot effectively use advanced detection and investigation tools",
+          "owner": "SOC Manager",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.6-G3",
+          "requirement": "Conduct regular quality reviews of SOC alert handling including retrospective analysis of missed detections, false negatives, and escalation accuracy",
+          "rationale": "Quality reviews identify systemic weaknesses in detection and triage processes and drive continuous improvement in SOC effectiveness",
+          "owner": "SOC Manager",
+          "frequency": "Monthly",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "11.7": {
+    "clauseId": "11.7",
+    "section": "Cybersecurity Management",
+    "subsection": "Security Operations",
+    "title": "SIEM Implementation",
+    "clauseType": "technical",
+    "marker": "S",
+    "business": {
+      "summary": "A properly implemented SIEM provides the institution with the centralised visibility needed to detect cyber threats across all critical systems, reducing the financial and operational impact of undetected breaches.",
+      "requirements": [
+        {
+          "id": "11.7-B1",
+          "requirement": "Ensure SIEM coverage encompasses all critical banking systems including core banking, internet banking, mobile banking, payment gateways, ATM switching, and treasury systems",
+          "rationale": "Incomplete SIEM coverage creates blind spots where attacks against critical banking systems go undetected, potentially resulting in significant financial losses and customer impact",
+          "owner": "SOC Manager",
+          "frequency": "Quarterly",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.7-B2",
+          "requirement": "Establish SIEM operational KPIs including log ingestion completeness, event correlation effectiveness, mean-time-to-alert, and detection coverage against MITRE ATT&CK techniques relevant to the financial sector",
+          "rationale": "KPIs provide assurance that the SIEM investment is delivering effective detection capability and enable early identification of coverage or performance degradation",
+          "owner": "SOC Manager",
+          "frequency": "Monthly",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "The SIEM must collect, normalise, correlate, and analyse security events from all critical systems with regularly tuned detection rules that address the current threat landscape.",
+      "requirements": [
+        {
+          "id": "11.7-T1",
+          "requirement": "Deploy a SIEM platform capable of ingesting, normalising, and correlating security events from all critical log sources including servers, network devices, applications, databases, cloud services, and identity systems",
+          "rationale": "BNM requires SIEM to collect and correlate events from all critical systems; a SIEM that cannot handle the institution's log volume or variety fails to deliver the required detection capability",
+          "owner": "Security Architect",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.7-T2",
+          "requirement": "Maintain a comprehensive log source inventory mapped to the institution's critical asset register, with automated monitoring for log source health to detect ingestion failures within one hour",
+          "rationale": "Silent log source failures create undetected coverage gaps; automated health monitoring ensures the SOC is immediately aware when critical log sources stop sending data",
+          "owner": "SOC Manager",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.7-T3",
+          "requirement": "Develop and maintain SIEM detection rules and use cases aligned with MITRE ATT&CK framework, with regular tuning to reduce false positives and improve detection accuracy for threats targeting the financial sector",
+          "rationale": "BNM requires regular tuning to address evolving threats; stale detection rules miss new attack techniques while generating noise from false positives that overwhelm analysts",
+          "owner": "SOC Manager",
+          "frequency": "Monthly",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.7-T4",
+          "requirement": "Validate log source completeness quarterly by cross-referencing the SIEM log source inventory against the critical asset register and network discovery scans",
+          "rationale": "New systems deployed without SIEM integration create coverage gaps; regular validation ensures the SIEM maintains comprehensive visibility as the environment changes",
+          "owner": "SOC Manager",
+          "frequency": "Quarterly",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "SIEM governance must ensure comprehensive log source coverage is maintained, detection rules are regularly reviewed and tuned, and SIEM effectiveness is reported to management.",
+      "requirements": [
+        {
+          "id": "11.7-G1",
+          "requirement": "Maintain a documented SIEM architecture and deployment specification including log source inventory, data flow diagrams, retention policies, and high-availability configuration",
+          "rationale": "Documented architecture provides the baseline for coverage analysis and ensures the SIEM deployment meets operational and regulatory requirements",
+          "owner": "Security Architect",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.7-G2",
+          "requirement": "Establish a formal SIEM rule lifecycle management process covering rule creation, testing, deployment, tuning, and retirement, with change management controls and documentation",
+          "rationale": "Unmanaged rule changes can introduce detection gaps or excessive false positives; a formal lifecycle ensures rules are tested, documented, and maintained systematically",
+          "owner": "SOC Manager",
+          "frequency": "Monthly",
+          "priority": "High"
+        },
+        {
+          "id": "11.7-G3",
+          "requirement": "Report SIEM effectiveness metrics to the CISO quarterly, including log source coverage percentage, detection rule coverage against MITRE ATT&CK, and alert quality trends",
+          "rationale": "Regular reporting ensures senior management has visibility into SIEM effectiveness and can make informed decisions about detection capability investments",
+          "owner": "SOC Manager",
+          "frequency": "Quarterly",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "11.8": {
+    "clauseId": "11.8",
+    "section": "Cybersecurity Management",
+    "subsection": "Security Operations",
+    "title": "Endpoint Protection",
+    "clauseType": "technical",
+    "marker": "S",
+    "business": {
+      "summary": "Comprehensive endpoint detection and response across all devices protects the institution from malware, ransomware, and advanced persistent threats that target endpoints as the primary attack vector in banking environments.",
+      "requirements": [
+        {
+          "id": "11.8-B1",
+          "requirement": "Achieve and maintain 100% EDR deployment coverage across all endpoints including servers, workstations, laptops, and mobile devices with no exceptions unless formally risk-accepted",
+          "rationale": "Any endpoint without EDR is a potential entry point for attackers; incomplete deployment undermines the entire endpoint security programme and creates exploitable gaps",
+          "owner": "CISO",
+          "frequency": "Monthly",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.8-B2",
+          "requirement": "Track and report endpoint protection KPIs including deployment coverage percentage, signature currency rate, detection and response metrics, and malware incident trends to the CISO monthly",
+          "rationale": "KPIs provide assurance that endpoint protection is functioning as intended and enable the institution to demonstrate compliance with BNM's endpoint protection requirements",
+          "owner": "SOC Manager",
+          "frequency": "Monthly",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "EDR solutions must provide real-time behavioural detection, automated containment, and centralised management across all endpoint types with daily signature updates at minimum.",
+      "requirements": [
+        {
+          "id": "11.8-T1",
+          "requirement": "Deploy EDR with real-time behavioural detection and automated response capabilities including process isolation, file quarantine, and network containment actions triggered by detection rules",
+          "rationale": "BNM requires real-time detection and automated response; signature-only antivirus is insufficient against modern threats including fileless malware, living-off-the-land techniques, and zero-day exploits",
+          "owner": "SOC Manager",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.8-T2",
+          "requirement": "Configure automated signature and detection content updates at least daily with monitoring to verify successful deployment across all managed endpoints within 24 hours",
+          "rationale": "BNM mandates at least daily signature updates; delayed updates leave endpoints vulnerable to newly identified threats during the gap period",
+          "owner": "SOC Manager",
+          "frequency": "Daily",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.8-T3",
+          "requirement": "Centralise EDR management through a single console providing visibility into all endpoint health, detection events, and response actions with role-based access controls",
+          "rationale": "Centralised management is required by BNM and ensures consistent policy enforcement, complete visibility, and efficient incident investigation across all endpoints",
+          "owner": "SOC Manager",
+          "frequency": "Continuous",
+          "priority": "High"
+        },
+        {
+          "id": "11.8-T4",
+          "requirement": "Integrate EDR telemetry with the SIEM and SOAR platforms to enable cross-source correlation and automated response workflows for endpoint-related security events",
+          "rationale": "Isolated EDR alerts without SIEM correlation miss attack patterns that span multiple systems; integration enables comprehensive threat detection and coordinated response",
+          "owner": "Security Architect",
+          "frequency": "Continuous",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Endpoint protection governance must ensure complete deployment coverage, timely signature updates, and documented policies that define the institution's endpoint security standards.",
+      "requirements": [
+        {
+          "id": "11.8-G1",
+          "requirement": "Maintain an endpoint protection policy defining EDR deployment requirements, approved product standards, configuration baselines, exception handling procedures, and compliance monitoring processes",
+          "rationale": "A formal policy provides the mandate for universal EDR deployment and establishes the standards against which compliance is measured",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.8-G2",
+          "requirement": "Conduct monthly EDR coverage audits comparing deployed agents against the endpoint asset inventory, investigating and resolving any discrepancies within 48 hours",
+          "rationale": "Coverage drift occurs naturally as new endpoints are provisioned or existing ones are rebuilt; regular audits ensure no endpoint goes unprotected",
+          "owner": "SOC Manager",
+          "frequency": "Monthly",
+          "priority": "High"
+        },
+        {
+          "id": "11.8-G3",
+          "requirement": "Document and review all EDR exceptions and exclusions quarterly, ensuring each has a valid business justification, compensating controls, and formal risk acceptance",
+          "rationale": "EDR exclusions can create security blind spots; regular review ensures exclusions remain necessary and compensating controls are effective",
+          "owner": "CISO",
+          "frequency": "Quarterly",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "11.9": {
+    "clauseId": "11.9",
+    "section": "Cybersecurity Management",
+    "subsection": "Security Operations",
+    "title": "Email Security",
+    "clauseType": "technical",
+    "marker": "S",
+    "business": {
+      "summary": "Comprehensive email security controls protect the institution from phishing, business email compromise, and malware delivery through email, which remain the primary attack vectors targeting Malaysian financial institutions and their customers.",
+      "requirements": [
+        {
+          "id": "11.9-B1",
+          "requirement": "Implement multi-layered email security controls that protect both the institution and its customers from phishing, business email compromise, and impersonation attacks targeting banking transactions",
+          "rationale": "Email-based attacks are the leading cause of cyber incidents in Malaysian banking; a single successful phishing attack can result in fraudulent transactions, credential theft, or ransomware deployment",
+          "owner": "CISO",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.9-B2",
+          "requirement": "Deploy email authentication protocols (SPF, DKIM, DMARC) on all organisational domains with DMARC enforcement set to reject or quarantine to prevent domain spoofing attacks targeting customers",
+          "rationale": "Without email authentication, attackers can spoof the institution's domain to send convincing phishing emails to customers, damaging trust and potentially resulting in fraud losses",
+          "owner": "Security Architect",
+          "frequency": "Quarterly",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.9-B3",
+          "requirement": "Track and report email security metrics including phishing detection rate, user-reported phishing attempts, and business email compromise attempts to the CISO monthly",
+          "rationale": "Email threat metrics inform the institution's security awareness programme and demonstrate the effectiveness of email security controls to regulators",
+          "owner": "SOC Manager",
+          "frequency": "Monthly",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Email security must combine gateway-level filtering, advanced threat protection, email authentication, and data loss prevention to provide defence in depth against email-borne threats.",
+      "requirements": [
+        {
+          "id": "11.9-T1",
+          "requirement": "Deploy a secure email gateway with spam filtering, malware scanning, URL rewriting and sandboxing, attachment detonation, and advanced phishing detection using machine learning or behavioural analysis",
+          "rationale": "Multi-layered gateway controls are required to catch the full spectrum of email threats from commodity spam to sophisticated spear-phishing and zero-day malware delivery",
+          "owner": "Security Architect",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.9-T2",
+          "requirement": "Configure SPF, DKIM, and DMARC records for all organisational domains, with DMARC policy set to reject or quarantine, aggregate reporting enabled, and regular monitoring of DMARC reports for authentication failures",
+          "rationale": "BNM specifically requires SPF, DKIM, and DMARC on all domains; a DMARC policy of 'none' provides monitoring only and does not prevent spoofing",
+          "owner": "Security Architect",
+          "frequency": "Quarterly",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.9-T3",
+          "requirement": "Implement email DLP controls to detect and prevent sensitive data exfiltration through email, including content inspection for customer data, financial records, and internal confidential information",
+          "rationale": "Email is a common data exfiltration channel; DLP controls aligned with the data classification framework prevent unauthorised transmission of sensitive banking data",
+          "owner": "SOC Manager",
+          "frequency": "Continuous",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Email security governance must ensure all organisational domains are protected, email authentication is properly configured and monitored, and phishing response procedures are documented and tested.",
+      "requirements": [
+        {
+          "id": "11.9-G1",
+          "requirement": "Maintain a documented email security policy covering acceptable use, email authentication requirements for all domains, anti-phishing controls, DLP integration, and user reporting procedures",
+          "rationale": "A formal policy establishes the email security standards and provides the mandate for implementing and maintaining technical controls across all organisational domains",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.9-G2",
+          "requirement": "Maintain an inventory of all organisational domains and verify that SPF, DKIM, and DMARC are correctly configured on each domain, including parked and inactive domains, at least quarterly",
+          "rationale": "Organisations often have legacy or parked domains without email authentication that attackers can spoof; all domains must be protected regardless of whether they actively send email",
+          "owner": "Security Architect",
+          "frequency": "Quarterly",
+          "priority": "High"
+        },
+        {
+          "id": "11.9-G3",
+          "requirement": "Establish a phishing response procedure including user reporting mechanisms, SOC investigation workflows, and containment actions such as mailbox purge and credential reset for affected users",
+          "rationale": "Fast response to reported phishing reduces the impact of successful attacks and demonstrates a mature phishing defence capability to regulators",
+          "owner": "SOC Manager",
+          "frequency": "Per-incident",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "11.10": {
+    "clauseId": "11.10",
+    "section": "Cybersecurity Management",
+    "subsection": "Security Operations",
+    "title": "DLP Controls",
+    "clauseType": "technical",
+    "marker": "S",
+    "business": {
+      "summary": "Data loss prevention controls protect the institution from unauthorised exfiltration of sensitive customer data, financial records, and intellectual property, reducing the risk of regulatory penalties under PDPA and BNM requirements, and preserving customer trust.",
+      "requirements": [
+        {
+          "id": "11.10-B1",
+          "requirement": "Align DLP policies with the institution's data classification framework to ensure appropriate controls are applied to all categories of sensitive data including customer PII, financial records, and internal confidential information",
+          "rationale": "DLP controls that are not aligned with data classification cannot effectively distinguish between legitimate data transfers and unauthorised exfiltration attempts",
+          "owner": "CISO",
+          "frequency": "Quarterly",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.10-B2",
+          "requirement": "Ensure DLP coverage spans all major data exfiltration channels including email, web uploads, removable media, cloud storage, endpoint file transfers, and printing",
+          "rationale": "BNM requires DLP across email, web, endpoint, and cloud channels; single-channel DLP is easily bypassed by using an unmonitored channel",
+          "owner": "CISO",
+          "frequency": "Quarterly",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.10-B3",
+          "requirement": "Track and report DLP incidents to the CISO monthly, including incident volumes, data types involved, channels used, and investigation outcomes to identify trends and policy gaps",
+          "rationale": "DLP incident analysis reveals data handling weaknesses and user behaviour patterns that inform both policy refinement and targeted awareness training",
+          "owner": "SOC Manager",
+          "frequency": "Monthly",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "DLP technology must provide content-aware inspection across all data channels with the ability to detect, alert, and block unauthorised data transfers based on the institution's data classification policies.",
+      "requirements": [
+        {
+          "id": "11.10-T1",
+          "requirement": "Deploy DLP technology with content-aware inspection capabilities that can identify sensitive data through pattern matching, keyword detection, data fingerprinting, and machine learning classification",
+          "rationale": "Content-aware DLP goes beyond simple pattern matching to detect sensitive data in varied formats and contexts, significantly reducing both false positives and false negatives",
+          "owner": "Security Architect",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.10-T2",
+          "requirement": "Configure DLP policies to monitor and control data movement across email (including attachments), web uploads, cloud storage (sanctioned and unsanctioned), USB and removable media, and endpoint file sharing",
+          "rationale": "Multi-channel DLP is explicitly required by BNM; attackers and negligent insiders use whichever channel is unmonitored to exfiltrate data",
+          "owner": "SOC Manager",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.10-T3",
+          "requirement": "Implement DLP response actions that escalate based on risk level, from monitoring and user notification for low-risk transfers to automatic blocking for high-risk exfiltration attempts",
+          "rationale": "A purely monitoring approach allows data loss to occur before investigation; risk-based blocking prevents high-risk exfiltration while avoiding unnecessary business disruption for legitimate transfers",
+          "owner": "SOC Manager",
+          "frequency": "Continuous",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "DLP governance must ensure policies are aligned with data classification, incidents are investigated and resolved, and DLP effectiveness is regularly reviewed and reported to senior management.",
+      "requirements": [
+        {
+          "id": "11.10-G1",
+          "requirement": "Maintain a documented DLP policy that defines the scope of data types to be protected, channels to be monitored, response actions by severity level, and exception handling procedures",
+          "rationale": "A formal DLP policy provides the operational framework for DLP deployment and ensures consistent application of data protection controls across all channels",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.10-G2",
+          "requirement": "Establish a DLP incident investigation and resolution process with defined triage criteria, investigation procedures, and escalation paths for confirmed data loss events",
+          "rationale": "DLP alerts without investigation are meaningless; a structured process ensures that potential data loss events are assessed and resolved in a timely manner",
+          "owner": "SOC Manager",
+          "frequency": "Per-incident",
+          "priority": "High"
+        },
+        {
+          "id": "11.10-G3",
+          "requirement": "Conduct quarterly DLP policy effectiveness reviews analysing detection accuracy, false positive rates, policy exceptions, and coverage gaps, with adjustments implemented based on findings",
+          "rationale": "DLP policies require continuous refinement to balance security effectiveness against business productivity; without regular review, policies become either too restrictive or too permissive",
+          "owner": "CISO",
+          "frequency": "Quarterly",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "11.11": {
+    "clauseId": "11.11",
+    "section": "Cybersecurity Management",
+    "subsection": "Vulnerability Management",
+    "title": "Vulnerability Assessment",
+    "clauseType": "technical",
+    "marker": "S",
+    "business": {
+      "summary": "Regular vulnerability assessments of internet-facing and internal systems identify exploitable weaknesses before attackers do, reducing the institution's exposure to data breaches, service disruptions, and regulatory penalties.",
+      "requirements": [
+        {
+          "id": "11.11-B1",
+          "requirement": "Maintain a vulnerability assessment programme that scans internet-facing systems at least monthly and internal systems at least quarterly, with results risk-rated and prioritised for remediation",
+          "rationale": "BNM mandates monthly scans for internet-facing and quarterly for internal systems; failing to meet these frequencies leaves exploitable vulnerabilities undiscovered for extended periods",
+          "owner": "Vulnerability Manager",
+          "frequency": "Monthly",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.11-B2",
+          "requirement": "Report vulnerability assessment results and remediation progress to the CISO and IT Risk Committee monthly, including risk exposure trends, overdue remediations, and emerging vulnerability categories",
+          "rationale": "Management visibility into vulnerability exposure enables informed risk decisions and ensures remediation resources are appropriately prioritised",
+          "owner": "Vulnerability Manager",
+          "frequency": "Monthly",
+          "priority": "High"
+        },
+        {
+          "id": "11.11-B3",
+          "requirement": "Include all internet-facing systems in the scanning scope without exception, including web applications, APIs, payment gateways, internet banking portals, and mobile banking backend services",
+          "rationale": "Internet-facing systems are the primary target for external attackers; any system excluded from scanning represents an unknown and unmanaged risk to the institution",
+          "owner": "Vulnerability Manager",
+          "frequency": "Monthly",
+          "priority": "Critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Vulnerability scanning must use industry-recognised tools and databases, provide comprehensive coverage of the technology environment, and produce risk-rated results for prioritised remediation.",
+      "requirements": [
+        {
+          "id": "11.11-T1",
+          "requirement": "Deploy industry-recognised vulnerability scanning tools with regularly updated vulnerability databases (e.g., CVE, NVD) for both network-level and application-level vulnerability detection",
+          "rationale": "BNM requires industry-recognised tools; scanner databases must be current to detect newly disclosed vulnerabilities that may affect the institution's systems",
+          "owner": "Vulnerability Manager",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.11-T2",
+          "requirement": "Perform authenticated vulnerability scans with service account credentials to identify vulnerabilities that are not visible through unauthenticated external scanning",
+          "rationale": "Authenticated scans detect significantly more vulnerabilities including missing patches, misconfigurations, and privilege escalation paths that unauthenticated scans miss",
+          "owner": "Vulnerability Manager",
+          "frequency": "Monthly",
+          "priority": "High"
+        },
+        {
+          "id": "11.11-T3",
+          "requirement": "Implement automated vulnerability risk scoring using CVSS base scores enriched with contextual factors including asset criticality, exploit availability, and compensating controls",
+          "rationale": "Raw CVSS scores alone do not reflect the actual risk to the institution; contextual scoring enables accurate prioritisation of remediation efforts",
+          "owner": "Vulnerability Manager",
+          "frequency": "Continuous",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Vulnerability assessment governance must define scanning schedules, scope, risk-rating methodology, and remediation tracking processes to ensure systematic identification and treatment of vulnerabilities.",
+      "requirements": [
+        {
+          "id": "11.11-G1",
+          "requirement": "Maintain a documented vulnerability assessment policy defining scanning scope, frequency (monthly for internet-facing, quarterly for internal), approved tools, risk-rating methodology, and remediation requirements",
+          "rationale": "A formal policy ensures consistent application of vulnerability assessment practices and provides the mandate for the scanning programme",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.11-G2",
+          "requirement": "Maintain a vulnerability remediation tracking register that records all identified vulnerabilities with risk ratings, assigned owners, remediation deadlines, and current status",
+          "rationale": "Without a tracking register, vulnerabilities identified through scanning are not systematically followed through to remediation, leaving known risks unaddressed",
+          "owner": "Vulnerability Manager",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.11-G3",
+          "requirement": "Conduct a quarterly review of the vulnerability assessment scope to ensure it remains aligned with the current asset inventory and includes newly deployed systems",
+          "rationale": "Scope drift occurs as new systems are deployed without being added to the scanning scope; quarterly review ensures comprehensive coverage is maintained",
+          "owner": "Vulnerability Manager",
+          "frequency": "Quarterly",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "11.12": {
+    "clauseId": "11.12",
+    "section": "Cybersecurity Management",
+    "subsection": "Vulnerability Management",
+    "title": "Penetration Testing",
+    "clauseType": "technical",
+    "marker": "S",
+    "business": {
+      "summary": "Annual penetration testing by qualified independent testers validates that security controls are effective against real-world attack techniques, providing assurance to the board and BNM that the institution's critical systems are resilient to exploitation.",
+      "requirements": [
+        {
+          "id": "11.12-B1",
+          "requirement": "Conduct penetration testing of all critical systems and applications at least annually and prior to major releases, with scope covering internet-facing systems, core banking applications, and high-value transaction systems",
+          "rationale": "BNM mandates annual penetration testing; testing before major releases prevents the introduction of exploitable vulnerabilities into production that could be exploited before the next annual test",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.12-B2",
+          "requirement": "Present penetration test findings and remediation progress to the Board Risk Committee or equivalent, ensuring senior management has visibility into exploitable weaknesses in critical banking systems",
+          "rationale": "Board-level reporting on penetration test findings ensures senior management understands the institution's actual security posture and can make informed decisions on risk remediation investment",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Penetration testing must simulate realistic attack scenarios against critical systems, using qualified independent testers who employ current adversary techniques to identify exploitable vulnerabilities.",
+      "requirements": [
+        {
+          "id": "11.12-T1",
+          "requirement": "Ensure penetration tests include both network-layer and application-layer testing, covering OWASP Top 10 for web applications, API security testing, and infrastructure vulnerability exploitation",
+          "rationale": "Multi-layer testing ensures comprehensive coverage; application-layer vulnerabilities such as injection attacks and broken authentication are frequently missed by infrastructure-only testing",
+          "owner": "Vulnerability Manager",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.12-T2",
+          "requirement": "Include social engineering testing vectors such as phishing simulations as part of the penetration testing programme to validate human-layer controls",
+          "rationale": "Social engineering is the primary initial access vector for attacks on financial institutions; testing only technical controls without testing human defences gives an incomplete picture of resilience",
+          "owner": "Vulnerability Manager",
+          "frequency": "Annual",
+          "priority": "High"
+        },
+        {
+          "id": "11.12-T3",
+          "requirement": "Conduct penetration testing of mobile banking applications and APIs separately, covering authentication, session management, data storage, and inter-process communication vulnerabilities",
+          "rationale": "Mobile banking is a high-risk attack surface for Malaysian banks; mobile applications have unique vulnerability classes that require specialised testing methodologies",
+          "owner": "Vulnerability Manager",
+          "frequency": "Annual",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Penetration testing governance must ensure tester independence and qualification, findings are risk-rated and reported to management, and remediation is tracked within agreed timeframes.",
+      "requirements": [
+        {
+          "id": "11.12-G1",
+          "requirement": "Engage qualified and independent penetration testers who are not involved in the development or administration of the systems being tested, with documented qualifications (e.g., OSCP, CREST, GPEN)",
+          "rationale": "BNM requires qualified and independent testers; testers who are involved in system development or operations may have implicit biases or blind spots that compromise the test's effectiveness",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.12-G2",
+          "requirement": "Ensure all penetration test findings are risk-rated using a consistent methodology, reported to management within 14 days of test completion, and tracked in the vulnerability remediation register",
+          "rationale": "BNM requires risk-rated findings reported to management; delayed reporting and untracked findings result in exploitable vulnerabilities remaining open beyond acceptable timeframes",
+          "owner": "Vulnerability Manager",
+          "frequency": "Per-incident",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.12-G3",
+          "requirement": "Establish agreed remediation timeframes for penetration test findings based on risk severity and conduct re-testing to verify that critical and high findings have been effectively remediated",
+          "rationale": "Without re-testing, the institution cannot confirm that remediation efforts have actually addressed the vulnerabilities; incomplete fixes may leave the vulnerability partially exploitable",
+          "owner": "Vulnerability Manager",
+          "frequency": "Annual",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "11.13": {
+    "clauseId": "11.13",
+    "section": "Cybersecurity Management",
+    "subsection": "Vulnerability Management",
+    "title": "Red Team Exercises",
+    "clauseType": "technical",
+    "marker": "G",
+    "business": {
+      "summary": "Red team exercises simulate advanced persistent threat scenarios to test the institution's security controls and incident response effectiveness against realistic adversary behaviour, providing a higher level of assurance than standard penetration testing.",
+      "requirements": [
+        {
+          "id": "11.13-B1",
+          "requirement": "Conduct red team exercises periodically to validate the effectiveness of security controls and incident response capabilities against realistic advanced persistent threat scenarios relevant to the Malaysian financial sector",
+          "rationale": "Standard penetration testing validates individual controls; red team exercises test the entire defence ecosystem including detection, response, and resilience against sophisticated adversary campaigns",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "High"
+        },
+        {
+          "id": "11.13-B2",
+          "requirement": "Present red team exercise outcomes to the Board Risk Committee, including gaps identified in detection and response capabilities and the improvement plan to address them",
+          "rationale": "Board visibility into red team results ensures senior management understands the institution's resilience against advanced threats and can support remediation investment",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Medium"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Red team exercises must employ realistic attack techniques including advanced persistent threat tactics to test detection, prevention, and response capabilities across the institution's technology environment.",
+      "requirements": [
+        {
+          "id": "11.13-T1",
+          "requirement": "Ensure red team exercises simulate realistic attack scenarios using TTPs mapped to MITRE ATT&CK framework, including initial access, persistence, lateral movement, privilege escalation, and data exfiltration techniques",
+          "rationale": "Realistic simulation ensures the exercise tests actual defence capabilities against techniques used by threat actors targeting financial institutions, not just known vulnerability exploitation",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "High"
+        },
+        {
+          "id": "11.13-T2",
+          "requirement": "Measure the SOC's detection and response performance during red team exercises, tracking which attack phases were detected, detection latency, and response effectiveness for each phase",
+          "rationale": "Measuring detection and response performance identifies specific gaps in the SOC's capabilities that can be addressed through tuning, tooling, or training improvements",
+          "owner": "SOC Manager",
+          "frequency": "Annual",
+          "priority": "High"
+        },
+        {
+          "id": "11.13-T3",
+          "requirement": "Convert red team exercise findings into improved detection rules, updated playbooks, and enhanced security controls through a structured improvement pipeline",
+          "rationale": "Red team exercises are only valuable if findings are operationalised; converting attack techniques into new detection rules closes the gaps identified during the exercise",
+          "owner": "SOC Manager",
+          "frequency": "Per-incident",
+          "priority": "Medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Red team exercises must be governed by clear rules of engagement, conducted by experienced professionals, and result in documented improvement plans that enhance the institution's security posture.",
+      "requirements": [
+        {
+          "id": "11.13-G1",
+          "requirement": "Define and document rules of engagement before each red team exercise, specifying scope, boundaries, excluded systems, safety mechanisms, and communication protocols between the red team and exercise coordinators",
+          "rationale": "Clearly defined rules of engagement prevent unintended disruption to production systems and ensure the exercise remains within acceptable risk parameters",
+          "owner": "CISO",
+          "frequency": "Per-incident",
+          "priority": "High"
+        },
+        {
+          "id": "11.13-G2",
+          "requirement": "Engage experienced red team professionals with demonstrated expertise in financial sector threat simulation and documented qualifications in offensive security (e.g., OSCP, OSCE, GXPN, CREST)",
+          "rationale": "Red team exercises require advanced offensive security skills beyond standard penetration testing; unqualified testers may not accurately simulate sophisticated adversary behaviour",
+          "owner": "CISO",
+          "frequency": "Per-incident",
+          "priority": "High"
+        },
+        {
+          "id": "11.13-G3",
+          "requirement": "Document lessons learned from each red team exercise and develop a prioritised improvement plan with assigned owners, deadlines, and tracking to closure",
+          "rationale": "Without a structured improvement plan, red team findings become a report on a shelf rather than driving tangible improvements in the institution's security posture",
+          "owner": "CISO",
+          "frequency": "Per-incident",
+          "priority": "Medium"
+        }
+      ]
+    }
+  },
+  "11.14": {
+    "clauseId": "11.14",
+    "section": "Cybersecurity Management",
+    "subsection": "Vulnerability Management",
+    "title": "Vulnerability Remediation",
+    "clauseType": "technical",
+    "marker": "S",
+    "business": {
+      "summary": "Defined vulnerability remediation timelines ensure that known security weaknesses are addressed before they can be exploited, reducing the institution's exposure window to cyber attacks and demonstrating disciplined risk management to BNM.",
+      "requirements": [
+        {
+          "id": "11.14-B1",
+          "requirement": "Enforce vulnerability remediation service level targets aligned with BNM expectations: critical vulnerabilities within 7 days, high within 30 days, and medium within 90 days, with escalation for overdue items",
+          "rationale": "BNM specifies these remediation timelines; consistent SLT adherence demonstrates mature vulnerability management and reduces the window of exposure to known vulnerabilities",
+          "owner": "CISO",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.14-B2",
+          "requirement": "Report remediation SLT compliance to the CISO and IT Risk Committee monthly, including ageing analysis, overdue items, and risk acceptance exceptions",
+          "rationale": "Management visibility into remediation compliance enables proactive resource allocation and escalation of systemic remediation challenges",
+          "owner": "Vulnerability Manager",
+          "frequency": "Monthly",
+          "priority": "High"
+        },
+        {
+          "id": "11.14-B3",
+          "requirement": "Ensure a formal risk acceptance process exists for vulnerabilities that cannot be remediated within SLTs, requiring sign-off from the system owner and CISO with documented compensating controls and an expiry date",
+          "rationale": "BNM requires documented risk acceptance for exceptions; risk acceptances without compensating controls or expiry dates indicate inadequate risk management",
+          "owner": "CISO",
+          "frequency": "Per-incident",
+          "priority": "Critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Technology systems must support rapid vulnerability remediation through automated patching, configuration management, and integration between vulnerability scanning and remediation tracking platforms.",
+      "requirements": [
+        {
+          "id": "11.14-T1",
+          "requirement": "Implement automated patch management for operating systems and standard applications to enable rapid remediation of critical vulnerabilities within the 7-day SLT",
+          "rationale": "Manual patching processes cannot consistently achieve 7-day remediation timelines across large endpoint and server estates; automation is essential for SLT compliance",
+          "owner": "Vulnerability Manager",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.14-T2",
+          "requirement": "Integrate the vulnerability scanning platform with the remediation tracking system to automatically create remediation tickets, assign owners, and set deadlines based on vulnerability severity",
+          "rationale": "Manual ticket creation introduces delays and inconsistency; automated integration ensures every identified vulnerability is immediately tracked with appropriate ownership and deadlines",
+          "owner": "Vulnerability Manager",
+          "frequency": "Continuous",
+          "priority": "High"
+        },
+        {
+          "id": "11.14-T3",
+          "requirement": "Deploy compensating controls such as virtual patching through WAF or IPS rules for critical vulnerabilities that cannot be immediately patched due to system constraints or change management requirements",
+          "rationale": "Virtual patching provides immediate risk reduction for critical vulnerabilities while permanent remediation is planned, preventing exploitation during the remediation window",
+          "owner": "Security Architect",
+          "frequency": "Per-incident",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Vulnerability remediation governance must define clear SLTs, exception handling processes, and accountability mechanisms to ensure systematic and timely treatment of identified vulnerabilities.",
+      "requirements": [
+        {
+          "id": "11.14-G1",
+          "requirement": "Maintain a documented vulnerability remediation policy defining SLTs by severity (critical: 7 days, high: 30 days, medium: 90 days), remediation workflow, exception process, and escalation procedures",
+          "rationale": "A formal policy establishes the remediation standards mandated by BNM and provides clear expectations for system owners responsible for applying fixes",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.14-G2",
+          "requirement": "Maintain a risk acceptance register for all vulnerability remediation exceptions, with each acceptance signed by the system owner and CISO, documented compensating controls, and a defined expiry date not exceeding 90 days",
+          "rationale": "BNM requires documented risk acceptance for exceptions; a register ensures all exceptions are visible, time-bound, and subject to regular review",
+          "owner": "CISO",
+          "frequency": "Quarterly",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.14-G3",
+          "requirement": "Establish a vulnerability remediation escalation process that automatically escalates overdue critical vulnerabilities to the CISO after 7 days and to the CTO or CRO after 14 days",
+          "rationale": "Escalation ensures that remediation delays are visible to senior management and receive the attention and resources needed to resolve them",
+          "owner": "Vulnerability Manager",
+          "frequency": "Continuous",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "11.15": {
+    "clauseId": "11.15",
+    "section": "Cybersecurity Management",
+    "subsection": "Vulnerability Management",
+    "title": "Bug Bounty & Disclosure",
+    "clauseType": "technical",
+    "marker": "G",
+    "business": {
+      "summary": "A coordinated vulnerability disclosure or bug bounty programme leverages the global security research community to identify vulnerabilities that internal testing may miss, providing an additional layer of assurance for internet-facing banking systems.",
+      "requirements": [
+        {
+          "id": "11.15-B1",
+          "requirement": "Establish a coordinated vulnerability disclosure policy or bug bounty programme for internet-facing banking systems, with defined scope, reward structure (if applicable), and clear communication channels for external security researchers",
+          "rationale": "External researchers may discover vulnerabilities that internal teams and contracted testers miss; a structured programme channels these discoveries into the remediation pipeline rather than public disclosure or exploitation",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Medium"
+        },
+        {
+          "id": "11.15-B2",
+          "requirement": "Obtain legal review and approval of the vulnerability disclosure programme including safe harbour provisions that protect participating researchers from legal action when they comply with programme rules",
+          "rationale": "Without safe harbour provisions, researchers may avoid reporting vulnerabilities to the institution or may disclose publicly instead, increasing the risk of exploitation before remediation",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Medium"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "The technical implementation of a vulnerability disclosure programme requires a secure submission platform, integration with the vulnerability management pipeline, and processes for validating and triaging externally reported findings.",
+      "requirements": [
+        {
+          "id": "11.15-T1",
+          "requirement": "Implement a secure vulnerability submission platform (e.g., dedicated email address, web form, or managed bug bounty platform such as HackerOne or Bugcrowd) with encryption for sensitive submissions and automated acknowledgement",
+          "rationale": "Researchers need a clearly identifiable and secure channel to submit findings; without one, vulnerabilities may be reported through insecure channels or not reported at all",
+          "owner": "Vulnerability Manager",
+          "frequency": "Continuous",
+          "priority": "Medium"
+        },
+        {
+          "id": "11.15-T2",
+          "requirement": "Integrate externally reported vulnerabilities into the standard vulnerability management pipeline with the same triage, risk-rating, SLT, and remediation tracking processes applied to internally discovered findings",
+          "rationale": "External reports must receive the same rigour as internal findings; treating them as ad hoc reports outside the standard pipeline risks delayed or incomplete remediation",
+          "owner": "Vulnerability Manager",
+          "frequency": "Per-incident",
+          "priority": "Medium"
+        },
+        {
+          "id": "11.15-T3",
+          "requirement": "Establish a validation and triage process for externally submitted vulnerability reports, including reproduction testing, deduplication against known vulnerabilities, and severity assessment within defined response timeframes",
+          "rationale": "External submissions vary widely in quality; a structured triage process ensures genuine findings are acted upon promptly while filtering out duplicates, false positives, and out-of-scope reports",
+          "owner": "Vulnerability Manager",
+          "frequency": "Per-incident",
+          "priority": "Medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Governance of the vulnerability disclosure programme requires clear rules of engagement, researcher communication protocols, programme performance tracking, and alignment with the institution's broader vulnerability management framework.",
+      "requirements": [
+        {
+          "id": "11.15-G1",
+          "requirement": "Define and publish clear rules of engagement specifying in-scope and out-of-scope systems, prohibited testing techniques, expected researcher conduct, and the institution's commitment to response timelines",
+          "rationale": "Clear rules prevent researchers from inadvertently causing harm to production systems or customer data while ensuring both parties understand their obligations and expectations",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Medium"
+        },
+        {
+          "id": "11.15-G2",
+          "requirement": "Track and report programme metrics including the number of submissions received, valid findings identified, average triage and remediation times, and rewards paid, with annual review of programme effectiveness",
+          "rationale": "Programme metrics demonstrate value to management and identify whether the programme is attracting quality research or needs adjustment to scope, rewards, or visibility",
+          "owner": "Vulnerability Manager",
+          "frequency": "Annual",
+          "priority": "Medium"
+        },
+        {
+          "id": "11.15-G3",
+          "requirement": "Maintain a researcher acknowledgement process that provides timely updates on submission status and appropriately recognises valid contributions through public acknowledgement or financial reward",
+          "rationale": "Responsive communication and recognition encourage continued participation and build the institution's reputation as a good partner for security researchers, attracting higher-quality submissions",
+          "owner": "Vulnerability Manager",
+          "frequency": "Per-incident",
+          "priority": "Medium"
+        }
+      ]
+    }
+  },
+  "11.16": {
+    "clauseId": "11.16",
+    "section": "Cybersecurity Management",
+    "subsection": "Threat Intelligence",
+    "title": "Threat Intelligence Program",
+    "clauseType": "technical",
+    "marker": "S",
+    "business": {
+      "summary": "A formal cyber threat intelligence programme enables the institution to anticipate, detect, and respond to threats targeting the Malaysian financial sector by collecting, analysing, and operationalising intelligence from multiple sources to inform security decisions.",
+      "requirements": [
+        {
+          "id": "11.16-B1",
+          "requirement": "Establish a formal cyber threat intelligence programme with defined objectives, scope, and resources, aligned with the institution's risk appetite and focused on threats relevant to the Malaysian financial sector",
+          "rationale": "BNM mandates a threat intelligence programme; without a formalised programme, threat intelligence activities are ad hoc and reactive, failing to provide the proactive threat awareness needed to defend against sophisticated adversaries",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.16-B2",
+          "requirement": "Produce regular threat intelligence briefings for senior management and the Board Risk Committee, covering the current threat landscape, emerging risks to the institution, and recommended defensive actions",
+          "rationale": "Senior management needs actionable threat context to make informed decisions on security investment and risk acceptance; technical intelligence must be translated into business-relevant language",
+          "owner": "Threat Intel Lead",
+          "frequency": "Quarterly",
+          "priority": "High"
+        },
+        {
+          "id": "11.16-B3",
+          "requirement": "Allocate dedicated personnel and budget to the threat intelligence function, ensuring the team has the skills, tools, and access needed to collect, analyse, and disseminate actionable intelligence",
+          "rationale": "Threat intelligence requires specialised analytical skills and tooling that cannot be effectively performed as a secondary duty; under-resourcing leads to intelligence that is neither timely nor actionable",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "The technical foundation of the threat intelligence programme requires multiple intelligence sources, analytical tooling, and integration with security operations to translate raw threat data into actionable detection and response capabilities.",
+      "requirements": [
+        {
+          "id": "11.16-T1",
+          "requirement": "Subscribe to and ingest multiple threat intelligence sources including commercial feeds, open-source intelligence (OSINT), government advisories (e.g., MyCERT, BNM circulars), industry-specific feeds, and dark web monitoring relevant to the Malaysian financial sector",
+          "rationale": "BNM requires multiple intelligence sources; relying on a single source creates blind spots, as no single provider has complete visibility into the entire threat landscape targeting Malaysian banks",
+          "owner": "Threat Intel Lead",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.16-T2",
+          "requirement": "Deploy a threat intelligence platform (TIP) to aggregate, correlate, and enrich intelligence from multiple sources, enabling analysts to produce contextualised and actionable intelligence products",
+          "rationale": "Without a centralised platform, intelligence from disparate sources remains siloed and cannot be correlated to identify trends, campaigns, or threat actors targeting the institution",
+          "owner": "Threat Intel Lead",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.16-T3",
+          "requirement": "Integrate threat intelligence outputs with security operations tools including SIEM, SOAR, EDR, and network detection systems to enable automated or analyst-assisted threat detection based on current intelligence",
+          "rationale": "Intelligence that is not operationalised into detection capabilities remains academic; integration with security tools ensures intelligence directly enhances the institution's ability to detect and respond to threats",
+          "owner": "SOC Manager",
+          "frequency": "Continuous",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Governance of the threat intelligence programme ensures intelligence activities are structured, measured, and continuously improved, with clear processes for prioritising collection, validating analysis, and disseminating intelligence to stakeholders.",
+      "requirements": [
+        {
+          "id": "11.16-G1",
+          "requirement": "Define and maintain priority intelligence requirements (PIRs) that guide intelligence collection and analysis activities, reviewed quarterly in alignment with the evolving threat landscape and the institution's risk profile",
+          "rationale": "Without prioritised intelligence requirements, collection efforts are unfocused and produce intelligence that may not address the institution's most pressing threats and decision-making needs",
+          "owner": "Threat Intel Lead",
+          "frequency": "Quarterly",
+          "priority": "High"
+        },
+        {
+          "id": "11.16-G2",
+          "requirement": "Establish a structured intelligence analysis methodology that ensures assessments are evidence-based, peer-reviewed, and clearly distinguish between confirmed facts, analytical assessments, and assumptions",
+          "rationale": "Rigorous analytical methodology prevents intelligence products from being driven by bias or speculation, ensuring that defensive actions taken based on intelligence are proportionate and well-founded",
+          "owner": "Threat Intel Lead",
+          "frequency": "Continuous",
+          "priority": "High"
+        },
+        {
+          "id": "11.16-G3",
+          "requirement": "Conduct annual reviews of the threat intelligence programme's effectiveness, assessing source quality, intelligence accuracy, operational impact, and alignment with the institution's security strategy",
+          "rationale": "Regular programme review ensures intelligence activities remain relevant and effective, identifying sources that no longer provide value and capability gaps that need to be addressed",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Medium"
+        }
+      ]
+    }
+  },
+  "11.17": {
+    "clauseId": "11.17",
+    "section": "Cybersecurity Management",
+    "subsection": "Threat Intelligence",
+    "title": "Threat Information Sharing",
+    "clauseType": "technical",
+    "marker": "S",
+    "business": {
+      "summary": "Participation in threat information sharing arrangements with industry peers, government agencies, and ISACs strengthens the collective defence of the Malaysian financial sector by enabling institutions to benefit from shared visibility into threats and attack campaigns.",
+      "requirements": [
+        {
+          "id": "11.17-B1",
+          "requirement": "Participate actively in threat information sharing arrangements with Malaysian financial sector peers, BNM, MyCERT, and relevant regional or international information sharing and analysis centres (ISACs)",
+          "rationale": "BNM mandates participation in threat sharing; the Malaysian financial sector faces common threat actors and campaigns, and shared intelligence enables earlier detection and coordinated response across institutions",
+          "owner": "CISO",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.17-B2",
+          "requirement": "Establish formal agreements or memoranda of understanding with information sharing partners that define the scope of sharing, handling obligations, liability protections, and escalation procedures",
+          "rationale": "Formal agreements protect the institution from liability and ensure that shared intelligence is handled appropriately; without them, ad hoc sharing creates legal and reputational risk",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "High"
+        },
+        {
+          "id": "11.17-B3",
+          "requirement": "Report threat information sharing activities and outcomes to the Board Risk Committee as part of the broader threat intelligence programme reporting, demonstrating the value derived from sharing arrangements",
+          "rationale": "Board visibility into sharing activities ensures continued support and investment, and demonstrates to BNM that the institution is actively contributing to the sector's collective defence",
+          "owner": "Threat Intel Lead",
+          "frequency": "Quarterly",
+          "priority": "Medium"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Technical implementation of threat information sharing requires secure exchange mechanisms, standardised formats for machine-readable intelligence, and integration with the institution's threat intelligence platform and security operations tools.",
+      "requirements": [
+        {
+          "id": "11.17-T1",
+          "requirement": "Implement secure mechanisms for exchanging threat intelligence with sharing partners, using standardised formats (STIX/TAXII) and encrypted communication channels to ensure confidentiality and integrity of shared information",
+          "rationale": "Standardised formats enable automated ingestion and operationalisation of shared intelligence; manual exchange of unstructured information creates delays and increases the risk of handling errors",
+          "owner": "Threat Intel Lead",
+          "frequency": "Continuous",
+          "priority": "High"
+        },
+        {
+          "id": "11.17-T2",
+          "requirement": "Integrate shared threat intelligence into the institution's threat intelligence platform and security monitoring tools, enabling automated correlation and detection of threats reported by sharing partners",
+          "rationale": "Shared intelligence is only valuable if it reaches the institution's detection systems; manual processing of shared indicators delays response and reduces the effectiveness of shared intelligence",
+          "owner": "SOC Manager",
+          "frequency": "Continuous",
+          "priority": "High"
+        },
+        {
+          "id": "11.17-T3",
+          "requirement": "Implement Traffic Light Protocol (TLP) or equivalent classification handling within the threat intelligence platform and communication systems, with automated enforcement of sharing restrictions based on TLP designations",
+          "rationale": "BNM requires TLP-compliant handling; incorrect handling of TLP-restricted intelligence can compromise source confidentiality and damage sharing relationships, potentially cutting off valuable intelligence sources",
+          "owner": "Threat Intel Lead",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Governance of threat information sharing ensures that sharing activities comply with TLP handling requirements, protect source confidentiality, and are conducted within the boundaries of formal agreements and regulatory expectations.",
+      "requirements": [
+        {
+          "id": "11.17-G1",
+          "requirement": "Develop and enforce TLP handling procedures that define how intelligence at each TLP level (RED, AMBER+STRICT, AMBER, GREEN, CLEAR) may be stored, shared, and operationalised within the institution",
+          "rationale": "BNM requires TLP-compliant handling; staff must understand and consistently apply TLP restrictions to prevent inadvertent disclosure that could compromise sources or damage sharing relationships",
+          "owner": "Threat Intel Lead",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.17-G2",
+          "requirement": "Maintain an auditable record of all threat intelligence shared and received through sharing arrangements, including the source, TLP designation, date, summary of content, and any actions taken as a result",
+          "rationale": "Audit records demonstrate to BNM that the institution actively participates in sharing and handles received intelligence in compliance with TLP and sharing agreement requirements",
+          "owner": "Threat Intel Lead",
+          "frequency": "Continuous",
+          "priority": "High"
+        },
+        {
+          "id": "11.17-G3",
+          "requirement": "Train all staff involved in threat intelligence sharing on TLP handling requirements, information sharing protocols, and the institution's obligations under sharing agreements",
+          "rationale": "Human error in handling shared intelligence is the most common cause of TLP violations; training ensures staff understand the consequences of mishandling and follow established procedures",
+          "owner": "Threat Intel Lead",
+          "frequency": "Annual",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "11.18": {
+    "clauseId": "11.18",
+    "section": "Cybersecurity Management",
+    "subsection": "Threat Intelligence",
+    "title": "Threat Hunting",
+    "clauseType": "technical",
+    "marker": "G",
+    "business": {
+      "summary": "Proactive threat hunting complements automated detection by actively searching for threats that may have evaded security controls, using intelligence-driven and hypothesis-driven methodologies to identify advanced persistent threats within the institution's environment.",
+      "requirements": [
+        {
+          "id": "11.18-B1",
+          "requirement": "Establish a proactive threat hunting capability with dedicated or designated personnel, defined objectives, and a structured programme that complements the institution's automated detection capabilities",
+          "rationale": "Automated detection mechanisms cannot identify all threats, particularly sophisticated adversaries using novel techniques; proactive hunting fills the detection gap for advanced threats targeting Malaysian financial institutions",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "High"
+        },
+        {
+          "id": "11.18-B2",
+          "requirement": "Report threat hunting outcomes to the CISO and Board Risk Committee, including threats discovered, detection gaps identified, and improvements made to the institution's overall detection posture",
+          "rationale": "Hunting outcomes provide unique visibility into the institution's actual exposure to advanced threats and the effectiveness of existing detection controls, informing strategic security investment decisions",
+          "owner": "Threat Intel Lead",
+          "frequency": "Quarterly",
+          "priority": "Medium"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Threat hunting requires access to comprehensive telemetry data, analytical tools, and structured methodologies that enable hunters to formulate and test hypotheses about adversary activity within the institution's environment.",
+      "requirements": [
+        {
+          "id": "11.18-T1",
+          "requirement": "Ensure threat hunters have access to comprehensive telemetry data including endpoint detection logs, network flow data, authentication logs, DNS queries, and proxy logs with sufficient retention to support retrospective analysis",
+          "rationale": "Effective hunting requires rich telemetry across multiple data sources; gaps in log coverage create blind spots where adversary activity cannot be detected regardless of hunter skill",
+          "owner": "SOC Manager",
+          "frequency": "Continuous",
+          "priority": "High"
+        },
+        {
+          "id": "11.18-T2",
+          "requirement": "Employ structured threat hunting methodologies including hypothesis-driven hunting (based on MITRE ATT&CK techniques), intelligence-driven hunting (based on current threat intelligence), and anomaly-based hunting (based on baseline deviation)",
+          "rationale": "Structured methodologies ensure hunting is systematic and repeatable rather than ad hoc; hypothesis-driven approaches aligned with ATT&CK provide coverage against known adversary techniques",
+          "owner": "Threat Intel Lead",
+          "frequency": "Continuous",
+          "priority": "High"
+        },
+        {
+          "id": "11.18-T3",
+          "requirement": "Establish a hunt-to-detection pipeline that converts successful hunting queries and discovered adversary techniques into automated detection rules deployed in the SIEM and EDR platforms",
+          "rationale": "Without operationalising hunting findings into automated detection, the same threat must be hunted repeatedly; the pipeline ensures that discovered techniques are detected automatically in future",
+          "owner": "SOC Manager",
+          "frequency": "Per-incident",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Governance of threat hunting ensures hunting activities are planned, documented, and measured, with findings systematically improving the institution's detection capabilities through a structured feedback loop.",
+      "requirements": [
+        {
+          "id": "11.18-G1",
+          "requirement": "Develop and maintain threat hunting playbooks that document specific hunting hypotheses, data sources required, analytical techniques, expected indicators, and escalation procedures for confirmed findings",
+          "rationale": "Documented playbooks ensure hunting activities are consistent, repeatable, and can be executed by different team members; they also serve as evidence of a structured programme for BNM examination",
+          "owner": "Threat Intel Lead",
+          "frequency": "Quarterly",
+          "priority": "High"
+        },
+        {
+          "id": "11.18-G2",
+          "requirement": "Track and report threat hunting metrics including hunts conducted, hypotheses tested, threats discovered, detection rules created, and mean time from hunt finding to automated detection deployment",
+          "rationale": "Metrics demonstrate programme maturity and value, identify whether hunting is producing actionable results, and quantify the improvement in detection capability over time",
+          "owner": "Threat Intel Lead",
+          "frequency": "Monthly",
+          "priority": "Medium"
+        },
+        {
+          "id": "11.18-G3",
+          "requirement": "Conduct post-hunt reviews for each completed hunting engagement, documenting findings, analytical techniques that proved effective, data quality issues encountered, and recommendations for future hunts",
+          "rationale": "Systematic post-hunt reviews create an institutional knowledge base that improves future hunting effectiveness and identifies telemetry gaps that need to be addressed",
+          "owner": "Threat Intel Lead",
+          "frequency": "Per-incident",
+          "priority": "Medium"
+        }
+      ]
+    }
+  },
+  "11.19": {
+    "clauseId": "11.19",
+    "section": "Cybersecurity Management",
+    "subsection": "Threat Intelligence",
+    "title": "IoC Management",
+    "clauseType": "technical",
+    "marker": "S",
+    "business": {
+      "summary": "Structured management of indicators of compromise (IoCs) ensures the institution can rapidly detect, validate, and respond to threats by maintaining current and enriched indicators integrated with security monitoring tools through a dedicated threat intelligence platform.",
+      "requirements": [
+        {
+          "id": "11.19-B1",
+          "requirement": "Establish a formal IoC management programme with defined processes for collection, validation, enrichment, operationalisation, and lifecycle management of indicators of compromise",
+          "rationale": "BNM mandates structured IoC management; without a formal programme, indicators are collected ad hoc, become stale, and fail to provide the timely detection capability needed to defend against active threats",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.19-B2",
+          "requirement": "Ensure the IoC management programme is resourced with appropriately skilled analysts and tooling, with clear accountability for maintaining indicator currency and quality",
+          "rationale": "IoC management requires continuous effort to maintain indicator relevance; under-resourced programmes accumulate stale indicators that generate false positives and erode analyst confidence in detection alerts",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Technical IoC management requires a threat intelligence platform for centralised indicator storage, automated enrichment and scoring, and real-time integration with security monitoring and detection tools across the institution's environment.",
+      "requirements": [
+        {
+          "id": "11.19-T1",
+          "requirement": "Deploy and maintain a threat intelligence platform (TIP) as the centralised repository for all IoCs, supporting automated ingestion from multiple feeds, deduplication, enrichment with contextual metadata, and confidence scoring",
+          "rationale": "BNM requires IoCs to be maintained in a TIP; a centralised platform prevents indicator fragmentation across disparate tools and enables consistent enrichment and scoring for prioritised detection",
+          "owner": "Threat Intel Lead",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.19-T2",
+          "requirement": "Integrate the TIP with all security monitoring and detection tools including SIEM, EDR, firewall, proxy, DNS security, and email security gateways, enabling automated blocking or alerting on matched indicators",
+          "rationale": "BNM requires IoC integration with security monitoring tools; indicators that remain only in the TIP without reaching detection systems provide no defensive value against active threats",
+          "owner": "SOC Manager",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.19-T3",
+          "requirement": "Implement IoC lifecycle management with automated expiry, confidence decay, and periodic review of aged indicators, ensuring the active indicator set reflects the current threat landscape rather than historical noise",
+          "rationale": "BNM requires IoCs to be regularly updated; stale indicators consume detection capacity and generate false positives that overwhelm analysts, degrading the overall effectiveness of security monitoring",
+          "owner": "Threat Intel Lead",
+          "frequency": "Continuous",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Governance of IoC management ensures indicator quality, operational effectiveness, and continuous improvement through defined processes for validation, source assessment, and performance measurement.",
+      "requirements": [
+        {
+          "id": "11.19-G1",
+          "requirement": "Define and enforce an IoC validation process that assesses indicator accuracy, relevance, and confidence before operationalisation, including false positive assessment and source reliability scoring",
+          "rationale": "Operationalising unvalidated indicators leads to false positives that erode analyst trust and consume SOC resources; validation ensures only high-confidence, relevant indicators reach detection systems",
+          "owner": "Threat Intel Lead",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.19-G2",
+          "requirement": "Maintain documentation of all IoC sources including commercial feeds, open-source feeds, government advisories, and sharing partner contributions, with regular assessment of source quality and relevance",
+          "rationale": "Source documentation demonstrates to BNM that the institution uses multiple intelligence sources and actively manages their quality; it also supports decisions on source renewal or replacement",
+          "owner": "Threat Intel Lead",
+          "frequency": "Quarterly",
+          "priority": "High"
+        },
+        {
+          "id": "11.19-G3",
+          "requirement": "Track and report IoC management metrics including total active indicators, source distribution, match rates, false positive rates, and mean time from indicator receipt to operational deployment",
+          "rationale": "Metrics provide visibility into programme effectiveness and highlight issues such as low match rates (indicating irrelevant feeds) or high false positive rates (indicating poor validation processes)",
+          "owner": "Threat Intel Lead",
+          "frequency": "Monthly",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "11.20": {
+    "clauseId": "11.20",
+    "section": "Cybersecurity Management",
+    "subsection": "Threat Intelligence",
+    "title": "Cyber Situational Awareness",
+    "clauseType": "technical",
+    "marker": "S",
+    "business": {
+      "summary": "Maintaining cyber situational awareness through continuous monitoring of the external threat landscape and the institution's attack surface enables informed decision-making and proactive defence against emerging threats targeting the Malaysian financial sector.",
+      "requirements": [
+        {
+          "id": "11.20-B1",
+          "requirement": "Establish a cyber situational awareness programme that continuously monitors the external threat landscape, the institution's attack surface, and emerging threats targeting the Malaysian financial sector",
+          "rationale": "BNM mandates continuous situational awareness; institutions that lack visibility into the evolving threat landscape and their own exposure cannot proactively defend against emerging threats or make informed risk decisions",
+          "owner": "CISO",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.20-B2",
+          "requirement": "Provide regular cyber situational awareness reports to senior management and the Board Risk Committee, covering the current threat landscape, the institution's exposure, and recommended defensive actions",
+          "rationale": "BNM requires situational awareness reports to senior management; board-level reporting ensures that strategic decisions on security investment and risk acceptance are informed by current threat intelligence",
+          "owner": "CISO",
+          "frequency": "Monthly",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.20-B3",
+          "requirement": "Integrate situational awareness outputs into the institution's strategic risk management processes, ensuring that emerging cyber threats are assessed alongside other operational risks in the enterprise risk framework",
+          "rationale": "Cyber threats do not exist in isolation; integrating situational awareness into enterprise risk management ensures that cyber risk is appropriately weighted against other business risks in capital and resource allocation decisions",
+          "owner": "CISO",
+          "frequency": "Quarterly",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Technical capabilities for cyber situational awareness require continuous external attack surface monitoring, dark web surveillance, threat landscape tracking, and consolidated dashboards that provide real-time visibility into the institution's exposure.",
+      "requirements": [
+        {
+          "id": "11.20-T1",
+          "requirement": "Deploy continuous external attack surface management (EASM) tooling to discover, inventory, and monitor all internet-facing assets, shadow IT, and third-party hosted services associated with the institution",
+          "rationale": "BNM requires monitoring of the institution's attack surface; unknown or unmanaged internet-facing assets are a primary entry point for attackers and cannot be defended if they are not discovered and monitored",
+          "owner": "Vulnerability Manager",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.20-T2",
+          "requirement": "Implement dark web and underground forum monitoring to detect credential leaks, data breaches, fraud toolkits, and planned attacks targeting the institution, its customers, or the broader Malaysian banking sector",
+          "rationale": "Compromised credentials and planned attacks are often visible on dark web forums before exploitation; early detection enables proactive credential resets and defensive measures",
+          "owner": "Threat Intel Lead",
+          "frequency": "Continuous",
+          "priority": "High"
+        },
+        {
+          "id": "11.20-T3",
+          "requirement": "Consolidate situational awareness data into a unified dashboard that provides real-time visibility across external threats, attack surface changes, active campaigns, and the institution's current defensive posture",
+          "rationale": "Situational awareness data from disparate tools creates an incomplete picture; a unified dashboard enables the SOC and management to quickly assess the institution's current threat exposure and make timely decisions",
+          "owner": "SOC Manager",
+          "frequency": "Continuous",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Governance of cyber situational awareness ensures that monitoring activities are comprehensive, reporting is structured and timely, and situational awareness outputs drive tangible improvements in the institution's security posture.",
+      "requirements": [
+        {
+          "id": "11.20-G1",
+          "requirement": "Define the scope and cadence of situational awareness reporting, including weekly operational reports for security teams, monthly executive summaries for senior management, and ad hoc flash reports for critical emerging threats",
+          "rationale": "Different stakeholders require different levels of detail and urgency; a tiered reporting structure ensures that operational teams receive actionable detail whilst senior management receives strategic context",
+          "owner": "Threat Intel Lead",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "11.20-G2",
+          "requirement": "Establish processes to translate situational awareness findings into defensive actions, including attack surface remediation, detection rule updates, threat hunting hypotheses, and security awareness communications",
+          "rationale": "Situational awareness is only valuable if it drives action; without a structured process to operationalise findings, awareness reports become informational documents that do not improve the institution's security posture",
+          "owner": "SOC Manager",
+          "frequency": "Continuous",
+          "priority": "High"
+        },
+        {
+          "id": "11.20-G3",
+          "requirement": "Conduct quarterly reviews of the situational awareness programme's coverage and effectiveness, assessing whether monitoring covers all relevant threat vectors and whether reports have resulted in measurable defensive improvements",
+          "rationale": "Regular programme reviews identify monitoring blind spots and ensure that situational awareness activities remain aligned with the evolving threat landscape and the institution's changing risk profile",
+          "owner": "CISO",
+          "frequency": "Quarterly",
+          "priority": "Medium"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,472 @@
+{
+  "13.1": {
+    "clauseId": "13.1",
+    "section": "Technology Audits",
+    "subsection": "Audit Framework",
+    "title": "IT Audit Plan",
+    "clauseType": "governance",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that a risk-based IT audit plan exists covering all critical technology domains, that it has been formally approved by the audit committee, and that it is executed by qualified IT auditors. They will check the risk assessment methodology underpinning audit priorities and the completeness of coverage across cybersecurity, IT operations, change management, access control, and business continuity.",
+    "evidenceItems": [
+      {
+        "id": "13.1-E1",
+        "name": "IT audit plan document (annual)",
+        "description": "The approved annual IT audit plan showing planned audits, scope, timeline, resource allocation, and risk-based prioritisation across all critical technology domains",
+        "whatGoodLooksLike": [
+          "Annual plan covers all critical technology domains mandated by RMiT: cybersecurity, IT operations, change management, access control, and business continuity",
+          "Each planned audit has defined scope, objectives, methodology, timeline, and assigned qualified auditors",
+          "Risk-based prioritisation is clearly evidenced with higher-risk domains receiving more frequent or deeper coverage",
+          "Plan includes coverage of digital banking channels, cloud services, and third-party technology providers",
+          "Plan document shows version control, preparation date, and formal audit committee approval"
+        ],
+        "commonGaps": [
+          "Audit plan covers traditional IT domains but omits digital banking, cloud, or third-party technology assessments",
+          "No evidence of risk-based prioritisation; all domains receive identical audit frequency and depth",
+          "Plan lacks resource allocation details making it unclear whether sufficient qualified auditors are assigned",
+          "Audit plan has not been updated to reflect new technology deployments or emerging risk areas"
+        ],
+        "suggestedSources": [
+          "Internal audit department annual planning documentation",
+          "Audit management system (TeamMate, AuditBoard, Galvanize)",
+          "Head of Internal Audit planning files"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "13.1-E2",
+        "name": "Audit committee approval records",
+        "description": "Records demonstrating formal audit committee review and approval of the annual IT audit plan",
+        "whatGoodLooksLike": [
+          "Audit committee meeting minutes showing discussion and formal approval of the IT audit plan with resolution number and date",
+          "Presentation materials submitted to the audit committee showing the plan, risk rationale, and resource requirements",
+          "Evidence of audit committee challenge and input on the plan scope and priorities",
+          "Approval records for any mid-year amendments to the audit plan with rationale for changes"
+        ],
+        "commonGaps": [
+          "Audit plan presented to audit committee for information only without formal approval resolution",
+          "Meeting minutes do not specifically record discussion or approval of the IT audit plan as a separate agenda item",
+          "No evidence of audit committee input or challenge on IT audit plan priorities and coverage",
+          "Mid-year changes to the audit plan made without audit committee approval"
+        ],
+        "suggestedSources": [
+          "Board secretariat records and committee meeting minutes",
+          "Audit committee meeting papers and presentations",
+          "Internal audit department records of committee submissions"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "13.1-E3",
+        "name": "Risk-based audit scoping methodology",
+        "description": "Documented methodology explaining how technology risk assessments are used to determine IT audit priorities, scope, and frequency",
+        "whatGoodLooksLike": [
+          "Methodology document describes how technology risk factors (inherent risk, control effectiveness, regulatory impact) are scored and weighted",
+          "Risk assessment results for the current audit cycle clearly showing how scores translate into audit priorities",
+          "Methodology references the institution's enterprise risk framework and aligns with IPPF (IIA) standards",
+          "Evidence of annual methodology review and update to incorporate new risk factors and technology changes",
+          "Coverage analysis showing percentage of the IT audit universe addressed by the current year plan"
+        ],
+        "commonGaps": [
+          "No documented risk-based methodology; audit plan appears to be based on historical rotation without risk assessment",
+          "Risk assessment performed but the link between risk scores and audit plan priorities is not documented",
+          "Methodology has not been updated to address current technology risks such as cloud, API, and digital banking",
+          "No coverage analysis showing gaps between the total IT audit universe and the current year plan"
+        ],
+        "suggestedSources": [
+          "Internal audit methodology documentation",
+          "IT risk assessment reports and registers",
+          "Internal audit quality assurance documentation"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "13.1-E4",
+        "name": "Audit plan coverage analysis",
+        "description": "Analysis showing the completeness of IT audit plan coverage across all critical technology domains and the IT audit universe",
+        "whatGoodLooksLike": [
+          "Coverage matrix mapping all auditable technology entities in the IT audit universe to planned audit activities and cycle frequencies",
+          "Gap analysis identifying any critical technology domains not covered in the current year plan with risk-based justification",
+          "Multi-year coverage view showing how the full IT audit universe is addressed over a rolling 3-year cycle",
+          "Coverage comparison against RMiT requirements demonstrating all mandated technology domains are addressed"
+        ],
+        "commonGaps": [
+          "No formal IT audit universe defined making coverage analysis impossible",
+          "Coverage analysis limited to the current year without multi-year view of universe coverage",
+          "Critical technology domains such as digital banking or cloud infrastructure not included in the audit universe",
+          "No mapping of audit plan coverage to specific RMiT clause requirements"
+        ],
+        "suggestedSources": [
+          "Internal audit planning documentation and audit universe register",
+          "Audit management system coverage reports",
+          "Risk-based audit planning worksheets"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Prepare the audit committee approval records showing formal approval (not just noting) of the IT audit plan with clear resolution and date",
+      "Have the risk-based scoping methodology ready with a clear linkage between risk scores and audit plan priorities",
+      "Ensure the audit plan coverage analysis maps to all critical technology domains specified in RMiT clause 13.1",
+      "Prepare evidence of quarterly progress reporting to the audit committee showing execution against the approved plan",
+      "Be ready to explain how the audit plan was adjusted for any new technology deployments or emerging risks during the year"
+    ]
+  },
+  "13.2": {
+    "clauseId": "13.2",
+    "section": "Technology Audits",
+    "subsection": "Audit Framework",
+    "title": "IT Audit Independence",
+    "clauseType": "governance",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that the IT audit function is structurally independent from IT management, reports directly to the audit committee, and has unrestricted access to all systems and records. They will scrutinise reporting lines, access rights, and any situations where audit independence may have been compromised.",
+    "evidenceItems": [
+      {
+        "id": "13.2-E1",
+        "name": "Audit independence policy",
+        "description": "Formal policy establishing the independence of the IT audit function from IT management and the activities it audits",
+        "whatGoodLooksLike": [
+          "Policy explicitly states that internal audit function is independent from IT management with no dotted or solid reporting line to CTO/CIO",
+          "Conflict-of-interest provisions prohibit auditors from auditing areas where they previously held operational responsibilities within a defined cooling-off period",
+          "Policy defines the audit function's right to unrestricted access to all systems, records, and personnel",
+          "Policy aligned with IIA International Standards and approved by the audit committee",
+          "Annual independence declaration requirement documented for all IT audit personnel"
+        ],
+        "commonGaps": [
+          "No formal independence policy; independence is assumed but not documented",
+          "Policy exists but does not specifically address IT audit independence from IT management",
+          "No conflict-of-interest provisions or cooling-off period requirements for auditors with previous IT operational roles",
+          "Policy does not explicitly guarantee unrestricted access to systems and records"
+        ],
+        "suggestedSources": [
+          "Internal audit department policy repository",
+          "Audit committee charter and governance documents",
+          "Human resources organisational policies"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "13.2-E2",
+        "name": "Audit function reporting line documentation",
+        "description": "Documentation demonstrating that the internal audit function reports directly to the audit committee, not through IT or operational management",
+        "whatGoodLooksLike": [
+          "Organisation chart showing Head of Internal Audit reporting directly to the Board Audit Committee with a dotted administrative line to CEO only",
+          "Audit committee charter explicitly stating that internal audit reports functionally to the audit committee",
+          "Evidence of direct communication between Head of Internal Audit and audit committee without management filtering",
+          "Performance evaluation of Head of Internal Audit conducted by or with input from the audit committee, not by management",
+          "Evidence of private sessions between internal audit and the audit committee without management present"
+        ],
+        "commonGaps": [
+          "Head of Internal Audit reports to CFO or CRO rather than directly to the audit committee",
+          "Reporting line shown correctly on paper but in practice all audit reports go through management before reaching the committee",
+          "No evidence of private sessions between internal audit and the audit committee",
+          "Performance evaluation of Head of Internal Audit conducted solely by management without audit committee involvement"
+        ],
+        "suggestedSources": [
+          "HR organisational charts and reporting structure documentation",
+          "Audit committee charter and terms of reference",
+          "Board secretariat records of audit committee sessions"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "13.2-E3",
+        "name": "Audit access rights documentation",
+        "description": "Documentation of IT audit personnel's access rights to systems, records, and personnel necessary for audit activities",
+        "whatGoodLooksLike": [
+          "Access rights register showing IT audit personnel have read-only access to all critical technology systems, databases, and log repositories",
+          "Evidence that audit access is provisioned independently from IT operations team approval processes",
+          "Access logs showing audit personnel exercising their access rights during audit engagements",
+          "Documented process for requesting additional access when needed for specific audits without IT management gatekeeping",
+          "No instances of audit access requests being denied or delayed by IT management"
+        ],
+        "commonGaps": [
+          "Audit access requires approval from IT management who may have conflicts of interest in granting access to systems they manage",
+          "Audit personnel lack direct access to critical systems and must request data extracts from IT teams being audited",
+          "Access rights are granted on a per-audit basis rather than maintained as standing rights",
+          "No records of access requests or evidence that access is truly unrestricted as required by RMiT"
+        ],
+        "suggestedSources": [
+          "Identity and access management system (IAM) records",
+          "IT audit access request and provisioning records",
+          "Internal audit department access rights register"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "13.2-E4",
+        "name": "Audit committee charter covering IT audit",
+        "description": "Audit committee charter with specific provisions covering IT audit oversight, independence, and reporting requirements",
+        "whatGoodLooksLike": [
+          "Charter explicitly includes oversight of IT audit within the audit committee's mandate and responsibilities",
+          "IT audit independence provisions embedded in the charter including direct reporting and unrestricted access guarantees",
+          "Charter defines audit committee's role in approving IT audit plan, reviewing IT audit results, and monitoring finding remediation",
+          "Charter reviewed and approved by the board within the last 12 months",
+          "Provisions for the audit committee to engage external IT audit specialists when needed"
+        ],
+        "commonGaps": [
+          "Charter covers financial audit oversight but does not specifically address IT audit responsibilities",
+          "No provisions for IT audit independence or unrestricted access in the charter",
+          "Charter does not define the audit committee's role in IT audit plan approval or finding review",
+          "Charter has not been updated to reflect RMiT requirements for IT audit oversight"
+        ],
+        "suggestedSources": [
+          "Board secretariat governance document repository",
+          "Audit committee charter and terms of reference",
+          "Corporate governance documentation"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Prepare the organisation chart clearly showing the Head of Internal Audit reporting to the audit committee, not through IT management",
+      "Have evidence of private audit committee sessions without management present to demonstrate genuine independence",
+      "Ensure access rights documentation shows standing read-only access to critical systems without requiring IT management approval",
+      "Prepare annual independence declarations from all IT audit personnel demonstrating no conflicts of interest",
+      "Be ready to address any instances where audit independence may have been challenged and how they were resolved"
+    ]
+  },
+  "13.3": {
+    "clauseId": "13.3",
+    "section": "Technology Audits",
+    "subsection": "Audit Framework",
+    "title": "IT Audit Competency",
+    "clauseType": "governance",
+    "marker": "G",
+    "auditorFocus": "BNM examiners will assess whether IT auditors hold relevant professional certifications, maintain current knowledge of technology risks, and participate in continuous professional development. Expect requests for certification records, CPD logs, and training plans for all IT audit personnel.",
+    "evidenceItems": [
+      {
+        "id": "13.3-E1",
+        "name": "IT auditor certification and qualification records",
+        "description": "Records of professional certifications and relevant qualifications held by all IT audit personnel",
+        "whatGoodLooksLike": [
+          "Complete register showing each IT auditor's professional certifications (CISA, CISSP, CRISC, CISM, CIA) with certification dates and expiry status",
+          "100% of senior IT auditors hold at least one relevant professional certification",
+          "Certification verification evidence (e.g., ISACA registry confirmation) for each claimed certification",
+          "Relevant academic qualifications documented for all audit team members",
+          "Gap analysis showing any certification deficiencies and plans to address them"
+        ],
+        "commonGaps": [
+          "No centralised register of IT auditor certifications; records scattered across HR files",
+          "Some IT auditors lack relevant professional certifications with no plan for obtaining them",
+          "Certifications have lapsed due to missed CPD requirements with no monitoring process",
+          "No verification of claimed certifications against issuing body registries"
+        ],
+        "suggestedSources": [
+          "Human resources certification tracking records",
+          "ISACA, ISC2, IIA professional registry confirmations",
+          "Internal audit department personnel records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "13.3-E2",
+        "name": "Continuous professional development records",
+        "description": "Records tracking CPD hours and professional development activities completed by each IT audit team member",
+        "whatGoodLooksLike": [
+          "Individual CPD logs for each IT auditor showing training courses, conferences, self-study, and professional activities completed",
+          "Each IT auditor meets minimum CPD requirements (e.g., 40 hours annually, 20 hours in IT-related topics)",
+          "CPD activities cover current technology risks including cloud security, cybersecurity threats, digital banking, and regulatory developments",
+          "Records maintained in a structured format with dates, topics, providers, and hours for each activity",
+          "CPD completion tracked against certification body requirements (ISACA, ISC2)"
+        ],
+        "commonGaps": [
+          "CPD records are incomplete or not systematically tracked",
+          "CPD activities focus on general audit topics without sufficient coverage of technology-specific subjects",
+          "Some auditors fall short of minimum CPD requirements without documented remediation plans",
+          "No evidence that CPD topics align with the institution's technology risk profile and audit plan requirements"
+        ],
+        "suggestedSources": [
+          "Internal audit department training records",
+          "HR learning management system (LMS) records",
+          "Professional certification body CPD portals (ISACA, ISC2, IIA)"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "13.3-E3",
+        "name": "Auditor competency assessment results",
+        "description": "Results from periodic competency assessments evaluating IT auditors' technical knowledge and audit methodology proficiency",
+        "whatGoodLooksLike": [
+          "Annual competency assessment results for each IT auditor covering technical knowledge, audit methodology, and professional skills",
+          "Assessment framework includes evaluation criteria for cybersecurity knowledge, IT risk assessment, data analytics, and regulatory awareness",
+          "Individual development plans created based on assessment results with specific actions and timelines",
+          "Assessment results reviewed by Head of Internal Audit with sign-off on development plans",
+          "Trend analysis showing competency improvements year over year"
+        ],
+        "commonGaps": [
+          "No formal competency assessment process for IT auditors; reliance on annual performance reviews only",
+          "Assessment criteria are generic and do not evaluate technology-specific competencies",
+          "Assessment results do not lead to targeted development plans for individual skill gaps",
+          "No tracking of competency trends to identify systemic team-wide capability gaps"
+        ],
+        "suggestedSources": [
+          "Internal audit department performance management records",
+          "Competency assessment frameworks and scoring templates",
+          "HR performance management system"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "13.3-E4",
+        "name": "Training plan for IT audit personnel",
+        "description": "Annual training and development plan identifying training needs, planned activities, and certification targets for the IT audit team",
+        "whatGoodLooksLike": [
+          "Annual training plan aligned with competency assessment findings and the technology risk landscape",
+          "Plan covers emerging technology areas relevant to the institution (cloud, digital banking, API security, AI/ML)",
+          "Budget allocation documented for external training, conferences, and certification exam fees",
+          "Mix of training methods including formal courses, on-the-job mentoring, conference attendance, and self-directed learning",
+          "Training plan approved by Head of Internal Audit with execution tracked quarterly"
+        ],
+        "commonGaps": [
+          "No formal training plan; training is ad hoc and reactive rather than planned and proactive",
+          "Training plan does not address emerging technology risks relevant to the institution's current and planned technology deployments",
+          "Insufficient budget allocation leading to cancelled or deferred training activities",
+          "Training plan not linked to competency assessment results, resulting in generic training rather than targeted skill development"
+        ],
+        "suggestedSources": [
+          "Internal audit department annual planning documentation",
+          "HR training and development records",
+          "Internal audit budget documentation"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Prepare a summary table showing each IT auditor, their certifications, CPD hours completed, and competency assessment results for quick examiner review",
+      "Ensure CPD records demonstrate coverage of technology-specific topics, not just general audit methodology training",
+      "Have the annual training plan ready with evidence of execution against plan, including any deviations and reasons",
+      "Be prepared to explain how competency gaps are identified and addressed through targeted development activities",
+      "If external specialists were engaged for technically complex audits, have the engagement records and qualification evidence ready"
+    ]
+  },
+  "13.4": {
+    "clauseId": "13.4",
+    "section": "Technology Audits",
+    "subsection": "Audit Framework",
+    "title": "IT Audit Follow-Up",
+    "clauseType": "governance",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that a systematic process exists for tracking IT audit findings to remediation completion, that management provides action plans with target dates, and that overdue findings are escalated to senior management and the audit committee. They will review the finding register, ageing analysis, and escalation records.",
+    "evidenceItems": [
+      {
+        "id": "13.4-E1",
+        "name": "Audit finding tracking process documentation",
+        "description": "Documented procedure for tracking IT audit findings from issuance through remediation to closure",
+        "whatGoodLooksLike": [
+          "Procedure defines the complete finding lifecycle: issuance, action plan agreement, progress monitoring, closure verification, and reporting",
+          "Finding severity classification criteria defined (critical, high, medium, low) with corresponding remediation timelines",
+          "Escalation triggers and timelines documented for overdue findings at each severity level",
+          "Closure verification requirements specified including independent validation for high-risk findings",
+          "Procedure approved by Head of Internal Audit and reviewed within the last 12 months"
+        ],
+        "commonGaps": [
+          "No formal follow-up procedure; finding tracking is ad hoc and dependent on individual auditor initiative",
+          "Escalation triggers and timelines not defined, leading to inconsistent escalation of overdue findings",
+          "Closure verification criteria not specified, allowing management self-certification without independent validation",
+          "Procedure does not define reporting requirements to the audit committee for finding status"
+        ],
+        "suggestedSources": [
+          "Internal audit department methodology documentation",
+          "Audit management system (TeamMate, AuditBoard) workflow configuration",
+          "Internal audit quality assurance documentation"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "13.4-E2",
+        "name": "Audit finding register with action plans and target dates",
+        "description": "Complete register of all IT audit findings with management action plans, assigned owners, target dates, and current status",
+        "whatGoodLooksLike": [
+          "Register captures all IT audit findings with unique identifiers, severity ratings, descriptions, and root causes",
+          "Each finding has a management action plan with specific remediation steps, assigned owner, and realistic target date",
+          "Current status is maintained with progress notes and evidence of ongoing monitoring",
+          "Ageing analysis available showing findings by age, severity, and technology domain",
+          "Register is accessible to audit committee members and updated at least monthly"
+        ],
+        "commonGaps": [
+          "Finding register exists but action plans are vague (e.g., 'will address') without specific remediation steps or accountable owners",
+          "Target dates are unrealistic or repeatedly extended without documented justification",
+          "Register not consistently updated, with stale status information for many findings",
+          "No ageing analysis or trend reporting available from the register"
+        ],
+        "suggestedSources": [
+          "Audit management system (TeamMate, AuditBoard, Galvanize) finding register",
+          "Internal audit department finding tracking spreadsheets (if no dedicated system)",
+          "Audit committee reporting packs"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "13.4-E3",
+        "name": "Overdue finding escalation records",
+        "description": "Records demonstrating that overdue IT audit findings are escalated to senior management and the audit committee as required",
+        "whatGoodLooksLike": [
+          "Documented escalation records showing overdue findings escalated to senior management within defined timelines",
+          "Audit committee meeting minutes showing discussion of overdue findings with management responses recorded",
+          "Evidence of management action following escalation, such as additional resource allocation or revised remediation plans",
+          "Escalation tracking showing resolution of previously escalated items",
+          "Systematic escalation across all overdue findings, not just selected high-profile items"
+        ],
+        "commonGaps": [
+          "Overdue findings exist but no evidence of formal escalation to senior management or audit committee",
+          "Escalation is informal (verbal or email) without documented records",
+          "Escalation occurs selectively for high-profile findings only, with many overdue items remaining unescalated",
+          "No evidence that escalation results in management action or accelerated remediation"
+        ],
+        "suggestedSources": [
+          "Internal audit escalation records and correspondence",
+          "Audit committee meeting minutes and reporting packs",
+          "Senior management meeting minutes addressing audit findings"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "13.4-E4",
+        "name": "Audit finding closure evidence",
+        "description": "Evidence demonstrating that completed IT audit finding remediation actions have been verified before closure",
+        "whatGoodLooksLike": [
+          "Closure evidence package for each remediated finding including description of actions taken and supporting documentation",
+          "Independent verification by internal audit for all high and critical findings confirming effective remediation",
+          "Before-and-after evidence showing the control gap has been resolved (e.g., configuration changes, policy updates, process improvements)",
+          "Closure sign-off by the auditor who raised the finding or a designated follow-up auditor",
+          "Retesting evidence for findings that require technical validation of remediation effectiveness"
+        ],
+        "commonGaps": [
+          "Findings closed based on management assertion only without independent verification by internal audit",
+          "Closure evidence is perfunctory (e.g., email stating 'done') without substantive proof of remediation",
+          "No retesting performed for technical findings where verification of control effectiveness is necessary",
+          "Closure process inconsistent with some findings closed without any evidence and others requiring extensive documentation"
+        ],
+        "suggestedSources": [
+          "Audit management system closure records",
+          "Internal audit follow-up testing work papers",
+          "Management-provided remediation evidence packages"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Prepare the finding register with current ageing analysis showing findings by severity, age, and technology domain",
+      "Have escalation records ready demonstrating systematic escalation of all overdue findings, not just selected items",
+      "Ensure closure evidence for high-risk findings includes independent verification by internal audit, not just management sign-off",
+      "Prepare trend analysis showing finding volumes, closure rates, and average remediation times across audit cycles",
+      "Be ready to explain any findings that have been open for extended periods with documented justification for delays"
+    ]
+  }
+}

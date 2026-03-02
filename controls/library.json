@@ -1,0 +1,3489 @@
+{
+  "governance-and-oversight": [
+    {
+      "slug": "board-technology-risk-oversight",
+      "name": "Board Technology Risk Oversight",
+      "domain": "governance-and-oversight",
+      "type": "preventive",
+      "layer": "process",
+      "description": "Formal board-level oversight of technology risk through dedicated agenda time, documented challenge of management, and formal acceptance of the institution's technology risk posture.",
+      "clauses": [
+        "8.1",
+        "8.5"
+      ],
+      "keyActivities": [
+        "Establish technology risk as a standing board agenda item with dedicated discussion time",
+        "Require board members to formally challenge management technology risk presentations",
+        "Document board decisions on technology risk matters including budget approvals and risk acceptance",
+        "Maintain board minutes evidencing substantive deliberation on technology risk"
+      ],
+      "maturity": {
+        "basic": "Technology risk is discussed at board level ad-hoc, typically bundled under operational risk with no dedicated agenda time",
+        "mature": "Standing quarterly agenda item with structured reporting template, documented challenge and action tracking, formal risk acceptance records",
+        "advanced": "Real-time technology risk dashboard for board consumption, pre-meeting briefings, formal board technology risk appetite review cycle with quantified risk metrics"
+      },
+      "toolExamples": [
+        "Diligent Boards",
+        "BoardEffect",
+        "NASDAQ Boardvantage"
+      ],
+      "nist": [
+        "GV.OV-01",
+        "GV.OV-02"
+      ],
+      "iso27001": [
+        "A.5.1",
+        "A.5.4"
+      ]
+    },
+    {
+      "slug": "technology-risk-committee",
+      "name": "Technology Risk Committee",
+      "domain": "governance-and-oversight",
+      "type": "preventive",
+      "layer": "process",
+      "description": "Dedicated board-level or senior management committee with defined terms of reference for overseeing technology risk management, meeting at least quarterly with documented minutes and escalation authority.",
+      "clauses": [
+        "8.2"
+      ],
+      "keyActivities": [
+        "Establish committee with formal terms of reference covering technology risk oversight",
+        "Ensure committee membership includes members with technology risk expertise",
+        "Maintain structured meeting cadence with documented minutes and action items",
+        "Define escalation pathways from committee to full board for material technology risk matters"
+      ],
+      "maturity": {
+        "basic": "Technology risk discussed within existing audit or risk committee with no dedicated terms of reference",
+        "mature": "Dedicated technology risk committee with formal TOR, quarterly meetings, competency requirements for members, and documented escalation framework",
+        "advanced": "Committee supported by dedicated secretariat, real-time risk feeds, formal liaison with operational security teams, and annual effectiveness review"
+      },
+      "toolExamples": [
+        "Diligent Boards",
+        "BoardEffect"
+      ],
+      "nist": [
+        "GV.OV-01",
+        "GV.RR-01"
+      ],
+      "iso27001": [
+        "A.5.1"
+      ]
+    },
+    {
+      "slug": "board-technology-competency",
+      "name": "Board Technology Competency Program",
+      "domain": "governance-and-oversight",
+      "type": "preventive",
+      "layer": "process",
+      "description": "Structured program ensuring board members and senior management maintain adequate competency in technology risk matters, including regular briefings, training, and competency assessments.",
+      "clauses": [
+        "8.3"
+      ],
+      "keyActivities": [
+        "Conduct annual technology risk competency assessment for all board members",
+        "Deliver structured briefings on emerging technology risks, cyber threats, and regulatory developments",
+        "Provide targeted training for newly appointed directors on institutional technology risk landscape",
+        "Maintain training records and competency evidence for BNM examination readiness"
+      ],
+      "maturity": {
+        "basic": "Ad-hoc briefings to the board on technology topics with no formal competency assessment",
+        "mature": "Annual competency assessment, structured training calendar, individual development plans for directors, and competency matrix maintained by company secretary",
+        "advanced": "Continuous competency development with external expert sessions, tabletop cyber exercises for the board, and benchmarking against industry best practices"
+      },
+      "toolExamples": [
+        "Diligent",
+        "SANS Board Training",
+        "NACD Cyber-Risk Oversight Program"
+      ],
+      "nist": [
+        "GV.OV-03"
+      ],
+      "iso27001": [
+        "A.5.4",
+        "A.6.3"
+      ]
+    },
+    {
+      "slug": "technology-risk-appetite-framework",
+      "name": "Technology Risk Appetite Framework",
+      "domain": "governance-and-oversight",
+      "type": "preventive",
+      "layer": "policy",
+      "description": "Board-approved risk appetite statement defining acceptable technology risk levels with quantified tolerance thresholds, integrated into enterprise risk management and reviewed annually.",
+      "clauses": [
+        "8.4",
+        "9.1"
+      ],
+      "keyActivities": [
+        "Define quantified risk appetite thresholds for technology risk categories (availability, integrity, confidentiality, cyber)",
+        "Integrate technology risk appetite into the enterprise risk management framework",
+        "Obtain formal board approval and annual review of the technology risk appetite statement",
+        "Monitor actual risk exposure against appetite thresholds with escalation when breached"
+      ],
+      "maturity": {
+        "basic": "Generic qualitative risk appetite statement that mentions technology risk without specific thresholds or measurable tolerance levels",
+        "mature": "Quantified risk appetite with specific KRI thresholds per risk category, board-approved annually, with automated monitoring and breach escalation",
+        "advanced": "Dynamic risk appetite framework linked to real-time risk metrics, scenario-based stress testing of appetite levels, and formal linkage to capital adequacy planning"
+      },
+      "toolExamples": [
+        "RSA Archer",
+        "ServiceNow GRC",
+        "MetricStream"
+      ],
+      "nist": [
+        "GV.RM-01",
+        "GV.RM-02"
+      ],
+      "iso27001": [
+        "A.5.1"
+      ]
+    },
+    {
+      "slug": "senior-management-accountability",
+      "name": "Senior Management Accountability",
+      "domain": "governance-and-oversight",
+      "type": "preventive",
+      "layer": "process",
+      "description": "Clear accountability framework assigning named senior management owners for all technology risk domains, with documented CISO mandate, direct board reporting line, and adequate resourcing.",
+      "clauses": [
+        "8.6"
+      ],
+      "keyActivities": [
+        "Appoint a CISO with formal mandate and direct reporting line to the board or board committee",
+        "Maintain a senior management accountability matrix mapping risk domains to named owners",
+        "Ensure CISO has adequate budget, headcount, and organisational independence",
+        "Document and enforce escalation procedures from CISO to board for material incidents"
+      ],
+      "maturity": {
+        "basic": "CISO role exists but reports through IT department with no direct board access and limited budget autonomy",
+        "mature": "CISO with formal board reporting mandate, dedicated budget, independence from IT operations, and documented accountability matrix for all technology risk domains",
+        "advanced": "CISO as member of senior management committee with strategic input, supported by a fully staffed second-line technology risk function, and annual mandate review by the board"
+      },
+      "toolExamples": [
+        "RSA Archer",
+        "OneTrust"
+      ],
+      "nist": [
+        "GV.RR-01",
+        "GV.RR-02"
+      ],
+      "iso27001": [
+        "A.5.2",
+        "A.5.3"
+      ]
+    },
+    {
+      "slug": "technology-risk-function",
+      "name": "Technology Risk Management Function",
+      "domain": "governance-and-oversight",
+      "type": "preventive",
+      "layer": "process",
+      "description": "Independent second-line technology risk function with adequate staffing, competency, and organisational independence to challenge first-line technology operations.",
+      "clauses": [
+        "8.7"
+      ],
+      "keyActivities": [
+        "Establish a dedicated technology risk function independent from IT operations",
+        "Define and maintain the function charter with clear roles, responsibilities, and reporting lines",
+        "Ensure function staffing meets competency requirements across all technology risk domains",
+        "Conduct independent technology risk assessments and challenge first-line risk decisions"
+      ],
+      "maturity": {
+        "basic": "Technology risk responsibilities distributed across IT and risk functions with no dedicated team or formal charter",
+        "mature": "Dedicated technology risk team with formal charter, defined reporting lines, competency framework, and regular independent assessments across all technology domains",
+        "advanced": "Fully staffed three-lines model with dedicated technology risk specialists per domain, automated risk analytics capabilities, and continuous assurance programme"
+      },
+      "toolExamples": [
+        "ServiceNow GRC",
+        "RSA Archer",
+        "MetricStream",
+        "OneTrust"
+      ],
+      "nist": [
+        "GV.RR-03"
+      ],
+      "iso27001": [
+        "A.5.2"
+      ]
+    }
+  ],
+  "risk-management": [
+    {
+      "slug": "technology-risk-management-framework",
+      "name": "Technology Risk Management Framework",
+      "domain": "risk-management",
+      "type": "preventive",
+      "layer": "policy",
+      "description": "Board-approved overarching framework defining the institution's approach to identifying, assessing, treating, monitoring, and reporting technology risks, aligned with BNM RMiT requirements and integrated with enterprise risk management.",
+      "clauses": [
+        "9.1",
+        "18.1"
+      ],
+      "keyActivities": [
+        "Develop and maintain a comprehensive technology risk management framework aligned with RMiT PD 2025",
+        "Obtain formal board approval and conduct annual framework review",
+        "Integrate technology risk management into the enterprise risk management framework",
+        "Map framework components to specific RMiT clauses for examination readiness",
+        "Define technology risk taxonomy covering all relevant risk categories"
+      ],
+      "maturity": {
+        "basic": "Technology risk framework exists as a standalone document with limited integration to enterprise risk management and infrequent reviews",
+        "mature": "Board-approved framework fully integrated with ERM, annually reviewed, mapped to RMiT clauses, with defined risk taxonomy and clear roles and responsibilities",
+        "advanced": "Living framework with real-time updates based on threat landscape changes, automated compliance mapping, and continuous alignment with international standards (NIST CSF, ISO 27001)"
+      },
+      "toolExamples": [
+        "RSA Archer",
+        "ServiceNow GRC",
+        "MetricStream",
+        "OneTrust"
+      ],
+      "nist": [
+        "GV.RM-01",
+        "GV.PO-01"
+      ],
+      "iso27001": [
+        "A.5.1",
+        "A.5.36"
+      ]
+    },
+    {
+      "slug": "technology-risk-assessment",
+      "name": "Technology Risk Assessment",
+      "domain": "risk-management",
+      "type": "detective",
+      "layer": "process",
+      "description": "Systematic identification and assessment of technology risks across all systems, processes, and third parties, using a standardised methodology with defined frequency and scope covering the full technology estate.",
+      "clauses": [
+        "9.2",
+        "10.2"
+      ],
+      "keyActivities": [
+        "Maintain a standardised risk assessment methodology with defined criteria, scales, and scoring",
+        "Conduct periodic risk assessments covering infrastructure, applications, data, and third parties",
+        "Ensure risk assessments cover both inherent and residual risk with documented control effectiveness",
+        "Integrate risk assessment results into the technology risk register and board reporting"
+      ],
+      "maturity": {
+        "basic": "Annual risk assessments conducted using spreadsheets with inconsistent methodology across teams",
+        "mature": "Standardised risk assessment methodology executed quarterly, GRC tool-supported, covering all critical systems with automated residual risk calculation",
+        "advanced": "Continuous risk assessment with automated asset discovery, real-time threat feeds informing risk scores, and predictive risk analytics"
+      },
+      "toolExamples": [
+        "RSA Archer",
+        "ServiceNow GRC",
+        "RiskLens",
+        "FAIR"
+      ],
+      "nist": [
+        "ID.RA-01",
+        "ID.RA-02",
+        "ID.RA-03"
+      ],
+      "iso27001": [
+        "A.5.12",
+        "A.8.8"
+      ]
+    },
+    {
+      "slug": "risk-treatment-and-acceptance",
+      "name": "Risk Treatment & Acceptance",
+      "domain": "risk-management",
+      "type": "preventive",
+      "layer": "process",
+      "description": "Formal process for selecting and implementing risk treatment options (mitigate, transfer, accept, avoid) with documented treatment plans, formal risk acceptance by authorised management, and tracking of residual risk.",
+      "clauses": [
+        "9.3"
+      ],
+      "keyActivities": [
+        "Document risk treatment decisions with rationale for selected option",
+        "Maintain risk treatment plans with named owners, milestones, and target dates",
+        "Ensure formal risk acceptance is authorised at appropriate management level based on risk magnitude",
+        "Track treatment plan execution and residual risk against defined tolerance thresholds"
+      ],
+      "maturity": {
+        "basic": "Risk treatment decisions documented informally with limited tracking of treatment plan execution",
+        "mature": "Formal risk treatment workflow with defined acceptance authority matrix, treatment plan tracking in GRC tool, and periodic residual risk review",
+        "advanced": "Automated risk treatment workflows with real-time progress tracking, automated escalation for overdue items, and dynamic residual risk recalculation"
+      },
+      "toolExamples": [
+        "RSA Archer",
+        "ServiceNow GRC",
+        "OneTrust"
+      ],
+      "nist": [
+        "ID.RA-06"
+      ],
+      "iso27001": [
+        "A.5.5"
+      ]
+    },
+    {
+      "slug": "risk-monitoring-and-kri",
+      "name": "Risk Monitoring & KRI Dashboard",
+      "domain": "risk-management",
+      "type": "detective",
+      "layer": "process",
+      "description": "Continuous monitoring of technology risk through key risk indicators (KRIs) with defined thresholds, automated alerting, trend analysis, and regular reporting to senior management and the board.",
+      "clauses": [
+        "9.4",
+        "8.5"
+      ],
+      "keyActivities": [
+        "Define KRIs for each technology risk category with green/amber/red threshold levels",
+        "Implement automated KRI data collection and dashboard reporting",
+        "Establish escalation procedures when KRI thresholds are breached",
+        "Report KRI trends to senior management monthly and to the board quarterly"
+      ],
+      "maturity": {
+        "basic": "Limited KRIs tracked manually with quarterly reporting and no automated threshold alerting",
+        "mature": "Comprehensive KRI dashboard with automated data feeds, threshold-based alerting, trend analysis, and structured reporting cadence to management and board",
+        "advanced": "Real-time KRI monitoring with predictive analytics, correlation across risk categories, automated board reporting, and benchmarking against industry peers"
+      },
+      "toolExamples": [
+        "RSA Archer",
+        "ServiceNow GRC",
+        "Power BI",
+        "Tableau"
+      ],
+      "nist": [
+        "GV.OV-03",
+        "ID.IM-01"
+      ],
+      "iso27001": [
+        "A.5.36"
+      ]
+    },
+    {
+      "slug": "technology-risk-register",
+      "name": "Technology Risk Register",
+      "domain": "risk-management",
+      "type": "detective",
+      "layer": "process",
+      "description": "Centralised, maintained register of all identified technology risks with current risk ratings, treatment status, named owners, and linkage to controls and compliance requirements.",
+      "clauses": [
+        "9.5"
+      ],
+      "keyActivities": [
+        "Maintain a centralised technology risk register accessible to all risk stakeholders",
+        "Ensure each risk entry has a named owner, current rating, treatment plan, and target date",
+        "Link registered risks to relevant controls, RMiT clauses, and compliance requirements",
+        "Conduct periodic register reviews to validate risk ratings and treatment plan progress"
+      ],
+      "maturity": {
+        "basic": "Risk register maintained in spreadsheet with infrequent updates and limited stakeholder access",
+        "mature": "GRC tool-based risk register with automated workflows, linkage to controls and compliance requirements, and quarterly review cycle",
+        "advanced": "Dynamic risk register with real-time updates from automated scanning, auto-linkage to threat intelligence, and API integration with ITSM and SIEM for continuous validation"
+      },
+      "toolExamples": [
+        "RSA Archer",
+        "ServiceNow GRC",
+        "MetricStream"
+      ],
+      "nist": [
+        "ID.RA-05"
+      ],
+      "iso27001": [
+        "A.5.12"
+      ]
+    }
+  ],
+  "project-and-development": [
+    {
+      "slug": "it-project-governance",
+      "name": "IT Project Governance",
+      "domain": "project-and-development",
+      "type": "preventive",
+      "layer": "process",
+      "description": "Governance framework for IT projects ensuring formal risk assessment, management oversight, milestone tracking, and post-implementation review for all technology initiatives.",
+      "clauses": [
+        "10.1",
+        "10.2",
+        "10.3"
+      ],
+      "keyActivities": [
+        "Mandate formal technology risk assessment for all IT projects above defined threshold",
+        "Establish project steering committee with senior management representation",
+        "Implement stage-gate reviews at key project milestones with formal go/no-go decisions",
+        "Conduct mandatory post-implementation reviews within defined timeframes",
+        "Maintain project risk register and escalation procedures"
+      ],
+      "maturity": {
+        "basic": "IT projects managed individually with inconsistent governance and no mandatory risk assessment or post-implementation review",
+        "mature": "Standardised project governance framework with mandatory risk assessments, steering committees, stage-gates, and post-implementation reviews for all significant projects",
+        "advanced": "Portfolio-level project governance with integrated risk views, automated milestone tracking, lessons-learned database, and predictive project risk analytics"
+      },
+      "toolExamples": [
+        "Jira",
+        "Microsoft Project",
+        "ServiceNow PPM",
+        "Clarity"
+      ],
+      "nist": [
+        "GV.PO-02"
+      ],
+      "iso27001": [
+        "A.5.8"
+      ]
+    },
+    {
+      "slug": "sdlc-framework",
+      "name": "Systems Development Lifecycle Framework",
+      "domain": "project-and-development",
+      "type": "preventive",
+      "layer": "process",
+      "description": "Standardised SDLC methodology covering requirements management, design, coding, testing, UAT, and deployment with security integrated at every phase.",
+      "clauses": [
+        "10.4",
+        "10.5",
+        "10.8",
+        "10.9"
+      ],
+      "keyActivities": [
+        "Maintain a documented SDLC methodology with security requirements embedded at each phase",
+        "Enforce formal requirements management with traceability to business and regulatory needs",
+        "Mandate comprehensive testing including unit, integration, system, performance, and security testing",
+        "Require formal UAT sign-off with documented acceptance criteria before production deployment"
+      ],
+      "maturity": {
+        "basic": "SDLC exists on paper but inconsistently followed, with limited security integration and informal testing practices",
+        "mature": "Standardised SDLC with embedded security gates, automated testing pipelines, formal UAT processes, and full requirements traceability",
+        "advanced": "DevSecOps pipeline with automated security scanning at every stage, infrastructure-as-code, continuous integration/deployment, and shift-left security practices"
+      },
+      "toolExamples": [
+        "Azure DevOps",
+        "GitLab",
+        "Jenkins",
+        "Jira"
+      ],
+      "nist": [
+        "PR.DS-08"
+      ],
+      "iso27001": [
+        "A.8.25",
+        "A.8.26",
+        "A.8.29"
+      ]
+    },
+    {
+      "slug": "secure-development-practices",
+      "name": "Secure Development Practices",
+      "domain": "project-and-development",
+      "type": "preventive",
+      "layer": "technical",
+      "description": "Secure coding standards, code review processes, and static/dynamic analysis tools ensuring application security is built in rather than bolted on.",
+      "clauses": [
+        "10.6",
+        "10.7"
+      ],
+      "keyActivities": [
+        "Enforce secure coding standards aligned with OWASP and CWE guidelines",
+        "Mandate peer code reviews with security-focused review checklists",
+        "Integrate static application security testing (SAST) into the CI/CD pipeline",
+        "Conduct dynamic application security testing (DAST) before production release"
+      ],
+      "maturity": {
+        "basic": "Secure coding guidelines exist but are not systematically enforced; code reviews are informal",
+        "mature": "Mandatory SAST/DAST in CI/CD pipeline, peer code reviews with security checklists, developer security training programme, and tracked remediation of findings",
+        "advanced": "Full DevSecOps with automated SCA, secrets scanning, container security scanning, runtime application self-protection (RASP), and developer security champions programme"
+      },
+      "toolExamples": [
+        "SonarQube",
+        "Checkmarx",
+        "Veracode",
+        "Snyk",
+        "Fortify"
+      ],
+      "nist": [
+        "PR.DS-08"
+      ],
+      "iso27001": [
+        "A.8.25",
+        "A.8.28"
+      ]
+    },
+    {
+      "slug": "change-management",
+      "name": "Change Management",
+      "domain": "project-and-development",
+      "type": "preventive",
+      "layer": "process",
+      "description": "Formal change management process governing all modifications to production systems, including change classification, CAB review, approval workflows, rollback procedures, and emergency change handling.",
+      "clauses": [
+        "10.10",
+        "10.11",
+        "10.12"
+      ],
+      "keyActivities": [
+        "Classify all changes by risk level with appropriate approval authority at each level",
+        "Operate a Change Advisory Board (CAB) with defined membership and review procedures",
+        "Maintain documented rollback procedures for all production changes",
+        "Define and enforce emergency change procedures with post-implementation review",
+        "Track change success/failure rates as a key operational metric"
+      ],
+      "maturity": {
+        "basic": "Change process exists but is inconsistently followed with limited CAB oversight and no formal emergency change procedure",
+        "mature": "ITSM-based change management with risk classification, CAB governance, mandatory rollback plans, emergency change workflow, and success rate tracking",
+        "advanced": "Automated change risk assessment, integrated with CI/CD pipeline, real-time change collision detection, and predictive change failure analysis"
+      },
+      "toolExamples": [
+        "ServiceNow",
+        "BMC Helix",
+        "Jira Service Management",
+        "Freshservice"
+      ],
+      "nist": [
+        "PR.DS-08",
+        "PR.PS-01"
+      ],
+      "iso27001": [
+        "A.8.32"
+      ]
+    },
+    {
+      "slug": "environment-segregation",
+      "name": "Environment Segregation",
+      "domain": "project-and-development",
+      "type": "preventive",
+      "layer": "technical",
+      "description": "Strict separation of development, testing, staging, and production environments with controls preventing unauthorised data flow and access between environments.",
+      "clauses": [
+        "10.13"
+      ],
+      "keyActivities": [
+        "Maintain physically or logically separated environments for development, testing, and production",
+        "Prohibit use of production data in non-production environments without formal masking or anonymisation",
+        "Restrict production access to authorised operations staff only",
+        "Implement network controls preventing direct connectivity between non-production and production environments"
+      ],
+      "maturity": {
+        "basic": "Environments exist but share infrastructure, production data is used in testing, and access boundaries are not strictly enforced",
+        "mature": "Strictly segregated environments with network controls, automated data masking for non-production use, separate access control policies, and formal promotion processes",
+        "advanced": "Infrastructure-as-code environment provisioning, ephemeral test environments, zero-trust network segmentation, and automated compliance validation of environment boundaries"
+      },
+      "toolExamples": [
+        "VMware",
+        "Kubernetes namespaces",
+        "AWS accounts/VPCs",
+        "Delphix"
+      ],
+      "nist": [
+        "PR.DS-01"
+      ],
+      "iso27001": [
+        "A.8.31"
+      ]
+    },
+    {
+      "slug": "source-code-protection",
+      "name": "Source Code Protection",
+      "domain": "project-and-development",
+      "type": "preventive",
+      "layer": "technical",
+      "description": "Controls protecting source code from unauthorised access, modification, and leakage, including version control, access restrictions, and code repository security.",
+      "clauses": [
+        "10.14"
+      ],
+      "keyActivities": [
+        "Store all source code in access-controlled version control repositories",
+        "Enforce branch protection rules requiring code review before merge to main branches",
+        "Implement secrets scanning to prevent credentials from being committed to repositories",
+        "Restrict repository access based on role and project assignment"
+      ],
+      "maturity": {
+        "basic": "Source code stored in version control but with broad access permissions and no branch protection or secrets scanning",
+        "mature": "Access-controlled repositories with branch protection, mandatory code reviews, secrets scanning, and audit logging of all repository access",
+        "advanced": "Comprehensive code security programme with signed commits, code provenance tracking, software bill of materials (SBOM), and automated supply chain security"
+      },
+      "toolExamples": [
+        "GitHub Enterprise",
+        "GitLab",
+        "Bitbucket",
+        "Azure Repos"
+      ],
+      "nist": [
+        "PR.DS-01",
+        "PR.DS-06"
+      ],
+      "iso27001": [
+        "A.8.4",
+        "A.8.25"
+      ]
+    },
+    {
+      "slug": "configuration-management",
+      "name": "Configuration Management",
+      "domain": "project-and-development",
+      "type": "preventive",
+      "layer": "technical",
+      "description": "Standardised configuration baselines for all systems with change tracking, drift detection, and hardening aligned to CIS benchmarks or equivalent standards.",
+      "clauses": [
+        "10.15"
+      ],
+      "keyActivities": [
+        "Define and maintain hardened configuration baselines for all system types (servers, network devices, databases, endpoints)",
+        "Implement automated configuration drift detection and alerting",
+        "Align baseline configurations with CIS benchmarks or equivalent hardening standards",
+        "Track all configuration changes through the change management process"
+      ],
+      "maturity": {
+        "basic": "Configuration standards exist for some systems but are manually maintained with no drift detection",
+        "mature": "Standardised baselines across all system types with automated drift detection, CIS benchmark alignment, and integration with change management",
+        "advanced": "Infrastructure-as-code with immutable configurations, automated remediation of drift, continuous compliance scanning, and golden image management"
+      },
+      "toolExamples": [
+        "Ansible",
+        "Terraform",
+        "Puppet",
+        "Chef",
+        "CIS-CAT Pro"
+      ],
+      "nist": [
+        "PR.PS-01"
+      ],
+      "iso27001": [
+        "A.8.9"
+      ]
+    }
+  ],
+  "it-operations": [
+    {
+      "slug": "capacity-and-performance-management",
+      "name": "Capacity & Performance Management",
+      "domain": "it-operations",
+      "type": "preventive",
+      "layer": "technical",
+      "description": "Proactive capacity planning and performance monitoring ensuring systems operate within defined thresholds and can scale to meet business demand.",
+      "clauses": [
+        "10.16"
+      ],
+      "keyActivities": [
+        "Maintain capacity plans for all critical systems with growth projections aligned to business forecasts",
+        "Implement real-time performance monitoring with threshold-based alerting",
+        "Conduct periodic capacity reviews and trend analysis to identify potential constraints",
+        "Define and enforce performance SLAs for critical business applications"
+      ],
+      "maturity": {
+        "basic": "Reactive capacity management with monitoring limited to basic utilisation metrics and no formal capacity planning",
+        "mature": "Proactive capacity planning with automated monitoring, trend analysis, growth modelling, and defined performance SLAs for critical systems",
+        "advanced": "Predictive capacity analytics with auto-scaling capabilities, machine learning-based anomaly detection, and integrated capacity-cost optimisation"
+      },
+      "toolExamples": [
+        "Datadog",
+        "Dynatrace",
+        "Grafana",
+        "New Relic"
+      ],
+      "nist": [
+        "PR.IR-04"
+      ],
+      "iso27001": [
+        "A.8.6"
+      ]
+    },
+    {
+      "slug": "patch-management",
+      "name": "Patch Management",
+      "domain": "it-operations",
+      "type": "preventive",
+      "layer": "technical",
+      "description": "Timely identification, prioritisation, testing, and deployment of security and system patches across the entire technology estate with defined SLAs based on severity.",
+      "clauses": [
+        "10.17",
+        "10.18"
+      ],
+      "keyActivities": [
+        "Define patch deployment SLAs based on vulnerability severity (critical within 14 days, high within 30 days)",
+        "Maintain comprehensive patch inventory covering all operating systems, applications, and firmware",
+        "Test patches in non-production environment before production deployment",
+        "Track and report patch compliance rates across the technology estate",
+        "Manage exceptions through formal risk acceptance when patches cannot be applied within SLA"
+      ],
+      "maturity": {
+        "basic": "Manual patching process with inconsistent coverage and no defined SLAs; significant patch backlog common",
+        "mature": "Automated patch scanning and deployment tools, defined SLAs by severity, non-production testing, compliance dashboards, and formal exception management",
+        "advanced": "Fully automated patch pipeline with zero-day response capability, virtual patching for interim mitigation, and integration with vulnerability management for risk-based prioritisation"
+      },
+      "toolExamples": [
+        "WSUS",
+        "SCCM/Intune",
+        "Qualys",
+        "Tanium",
+        "Ivanti"
+      ],
+      "nist": [
+        "PR.PS-02",
+        "ID.RA-01"
+      ],
+      "iso27001": [
+        "A.8.8"
+      ]
+    },
+    {
+      "slug": "end-of-life-management",
+      "name": "End-of-Life Management",
+      "domain": "it-operations",
+      "type": "preventive",
+      "layer": "process",
+      "description": "Proactive identification and management of end-of-life and end-of-support technology components with documented migration plans, compensating controls, and formal risk acceptance where legacy systems remain in use.",
+      "clauses": [
+        "10.19"
+      ],
+      "keyActivities": [
+        "Maintain a technology lifecycle register tracking EoL/EoS dates for all hardware and software",
+        "Develop migration or replacement plans at least 12 months before end-of-support date",
+        "Implement compensating controls for legacy systems that cannot be immediately replaced",
+        "Require formal risk acceptance from senior management for any system operating beyond end-of-support"
+      ],
+      "maturity": {
+        "basic": "EoL tracking is ad-hoc with systems frequently discovered to be unsupported only after vendor notification",
+        "mature": "Comprehensive lifecycle register with proactive 12-month migration planning, compensating controls for legacy systems, and formal risk acceptance process",
+        "advanced": "Automated lifecycle tracking integrated with asset management, predictive replacement budgeting, and zero-tolerance policy for unsupported systems in production"
+      },
+      "toolExamples": [
+        "ServiceNow SAM",
+        "Flexera",
+        "Snow Software"
+      ],
+      "nist": [
+        "PR.PS-02"
+      ],
+      "iso27001": [
+        "A.8.8"
+      ]
+    }
+  ],
+  "cryptography": [
+    {
+      "slug": "cryptographic-controls",
+      "name": "Cryptographic Controls",
+      "domain": "cryptography",
+      "type": "preventive",
+      "layer": "technical",
+      "description": "Formal cryptographic policy defining approved algorithms, key lengths, and use cases for data-at-rest and data-in-transit encryption across the institution.",
+      "clauses": [
+        "10.20",
+        "10.22"
+      ],
+      "keyActivities": [
+        "Maintain a cryptographic policy specifying approved algorithms and minimum key lengths",
+        "Enforce encryption for all data in transit using TLS 1.2+ and data at rest using AES-256 or equivalent",
+        "Conduct periodic cryptographic inventory to identify weak or deprecated algorithms",
+        "Plan migration path for post-quantum cryptography readiness"
+      ],
+      "maturity": {
+        "basic": "Encryption applied inconsistently with no formal policy on approved algorithms or minimum key lengths",
+        "mature": "Formal cryptographic policy with approved algorithm catalogue, mandatory encryption for sensitive data at rest and in transit, and periodic cryptographic assessments",
+        "advanced": "Centralised cryptographic services platform, automated discovery of unencrypted data flows, crypto-agility for algorithm migration, and post-quantum readiness planning"
+      },
+      "toolExamples": [
+        "Thales CipherTrust",
+        "Venafi",
+        "AWS KMS",
+        "Azure Key Vault"
+      ],
+      "nist": [
+        "PR.DS-01",
+        "PR.DS-02"
+      ],
+      "iso27001": [
+        "A.8.24"
+      ]
+    },
+    {
+      "slug": "key-and-certificate-management",
+      "name": "Key & Certificate Management",
+      "domain": "cryptography",
+      "type": "preventive",
+      "layer": "technical",
+      "description": "Full lifecycle management of cryptographic keys and digital certificates including generation, distribution, rotation, revocation, and secure destruction.",
+      "clauses": [
+        "10.21",
+        "10.23"
+      ],
+      "keyActivities": [
+        "Implement centralised key management system with HSM-backed key generation and storage",
+        "Define key rotation schedules and enforce automated rotation where possible",
+        "Maintain certificate inventory with expiry alerting at least 60 days before expiration",
+        "Document key recovery and escrow procedures for business continuity"
+      ],
+      "maturity": {
+        "basic": "Keys and certificates managed by individual teams with no central inventory or rotation schedule; certificate expiry outages are common",
+        "mature": "Centralised KMS with HSM backing, automated certificate lifecycle management, defined rotation schedules, and inventory with expiry alerting",
+        "advanced": "Fully automated certificate lifecycle with zero-touch rotation, API-driven key provisioning, ACME protocol for web certificates, and comprehensive crypto asset inventory"
+      },
+      "toolExamples": [
+        "Venafi",
+        "HashiCorp Vault",
+        "AWS ACM",
+        "DigiCert CertCentral"
+      ],
+      "nist": [
+        "PR.DS-01"
+      ],
+      "iso27001": [
+        "A.8.24"
+      ]
+    }
+  ],
+  "physical-security": [
+    {
+      "slug": "data-centre-physical-security",
+      "name": "Data Centre Physical Security",
+      "domain": "physical-security",
+      "type": "preventive",
+      "layer": "physical",
+      "description": "Multi-layered physical access controls for data centres including biometric access, visitor management, CCTV surveillance, and security guard patrols.",
+      "clauses": [
+        "10.24",
+        "10.28"
+      ],
+      "keyActivities": [
+        "Implement multi-factor physical access control (card + biometric) for all data centre zones",
+        "Maintain visitor management system with escort requirements and access logging",
+        "Deploy CCTV surveillance with minimum 90-day retention at all entry/exit points and critical areas",
+        "Conduct periodic physical security assessments and penetration tests"
+      ],
+      "maturity": {
+        "basic": "Basic card access with limited CCTV coverage and informal visitor management",
+        "mature": "Multi-factor access with zoned security, comprehensive CCTV with 90-day retention, formal visitor management, and regular physical security assessments",
+        "advanced": "AI-powered surveillance analytics, mantrap entries, tailgating detection, real-time access anomaly alerting, and integration with logical access management"
+      },
+      "toolExamples": [
+        "Lenel",
+        "HID",
+        "Genetec",
+        "Milestone"
+      ],
+      "nist": [
+        "PR.AA-06"
+      ],
+      "iso27001": [
+        "A.7.1",
+        "A.7.2",
+        "A.7.4"
+      ]
+    },
+    {
+      "slug": "environmental-controls",
+      "name": "Environmental Controls",
+      "domain": "physical-security",
+      "type": "preventive",
+      "layer": "physical",
+      "description": "Data centre environmental monitoring and protection including temperature/humidity control, water leak detection, and fire suppression systems.",
+      "clauses": [
+        "10.25",
+        "10.27"
+      ],
+      "keyActivities": [
+        "Maintain precision cooling with redundant HVAC systems and temperature/humidity monitoring",
+        "Deploy water leak detection sensors beneath raised floors and near cooling equipment",
+        "Install and maintain gas-based fire suppression systems suitable for IT equipment",
+        "Implement 24/7 environmental monitoring with automated alerting and escalation"
+      ],
+      "maturity": {
+        "basic": "Basic HVAC and fire suppression with manual monitoring and limited alerting",
+        "mature": "Redundant cooling, comprehensive environmental sensors, gas-based fire suppression, 24/7 automated monitoring, and annual system testing",
+        "advanced": "Hot/cold aisle containment, predictive cooling analytics, integrated building management system (BMS), and automated shutdown procedures for environmental emergencies"
+      },
+      "toolExamples": [
+        "Schneider Electric EcoStruxure",
+        "Vertiv Liebert",
+        "Nlyte"
+      ],
+      "nist": [
+        "PR.IR-04"
+      ],
+      "iso27001": [
+        "A.7.5",
+        "A.7.12"
+      ]
+    },
+    {
+      "slug": "power-and-redundancy",
+      "name": "Power & Redundancy",
+      "domain": "physical-security",
+      "type": "preventive",
+      "layer": "physical",
+      "description": "Redundant power supply infrastructure including UPS, generator backup, dual power feeds, and automatic transfer switching ensuring continuous data centre operations.",
+      "clauses": [
+        "10.26"
+      ],
+      "keyActivities": [
+        "Maintain UPS systems sized for minimum 15-minute runtime to cover generator start-up",
+        "Deploy backup generators with automatic transfer switches and minimum 48-hour fuel autonomy",
+        "Implement dual power feeds from independent utility sources where available",
+        "Conduct quarterly power failover tests and annual generator load bank testing"
+      ],
+      "maturity": {
+        "basic": "Single UPS and generator with manual transfer switching and infrequent testing",
+        "mature": "N+1 redundant UPS, automatic transfer switches, dual utility feeds where available, and regular failover testing with documented results",
+        "advanced": "2N power redundancy, concurrent maintainability, real-time power monitoring and analytics, and automated load balancing across power paths"
+      },
+      "toolExamples": [
+        "Eaton",
+        "APC/Schneider",
+        "Vertiv",
+        "Cummins"
+      ],
+      "nist": [
+        "PR.IR-04"
+      ],
+      "iso27001": [
+        "A.7.11"
+      ]
+    }
+  ],
+  "service-continuity": [
+    {
+      "slug": "service-level-management",
+      "name": "Service Level Management",
+      "domain": "service-continuity",
+      "type": "preventive",
+      "layer": "process",
+      "description": "Establish and maintain a comprehensive IT service level management framework that defines, monitors, and reports on service performance metrics aligned with business expectations and BNM regulatory requirements.",
+      "clauses": [
+        "10.29"
+      ],
+      "keyActivities": [
+        "Define SLAs for all critical IT services including core banking, internet banking, mobile banking, RENTAS, FPX, and DuitNow connectivity with measurable KPIs",
+        "Establish service level monitoring dashboards with real-time tracking of availability, response time, throughput, and error rates against agreed thresholds",
+        "Conduct periodic SLA review meetings with business stakeholders and technology teams to assess performance trends and address breaches",
+        "Implement escalation procedures and penalty mechanisms for persistent SLA non-compliance by internal teams or external service providers",
+        "Maintain a service catalogue that maps IT services to business functions with clearly documented ownership, support hours, and recovery commitments"
+      ],
+      "maturity": {
+        "basic": "SLAs are defined for critical systems such as core banking and payment channels but monitoring is largely manual with periodic reporting to management.",
+        "mature": "Automated SLA monitoring is in place across all IT services with real-time dashboards, proactive alerting on threshold breaches, and structured monthly review processes with business units.",
+        "advanced": "Predictive analytics drive SLA management with AI-based forecasting of potential breaches, continuous service optimization, and SLA metrics integrated into enterprise risk appetite reporting to BNM."
+      },
+      "toolExamples": [
+        "ServiceNow ITSM",
+        "BMC Helix",
+        "Dynatrace",
+        "Splunk ITSI"
+      ],
+      "nist": [
+        "ID.BE-5",
+        "PR.IP-7"
+      ],
+      "iso27001": [
+        "A.5.30",
+        "A.8.14"
+      ]
+    },
+    {
+      "slug": "it-service-continuity",
+      "name": "IT Service Continuity",
+      "domain": "service-continuity",
+      "type": "preventive",
+      "layer": "process",
+      "description": "Develop and maintain IT service continuity plans that ensure critical banking technology services can be sustained or rapidly restored during disruptive events, meeting BNM expectations for financial system resilience.",
+      "clauses": [
+        "10.30"
+      ],
+      "keyActivities": [
+        "Develop IT service continuity plans for all critical banking systems including core banking, payment gateways, ATM switching, SWIFT, and regulatory reporting platforms",
+        "Define continuity strategies for each critical service including active-active, active-passive, and warm standby configurations based on business criticality and RTO requirements",
+        "Maintain up-to-date continuity documentation including system dependencies, recovery procedures, contact lists, and vendor escalation paths",
+        "Conduct tabletop exercises and simulation drills at least semi-annually to validate continuity plans and identify gaps in recovery procedures",
+        "Integrate IT service continuity plans with the institution's overall Business Continuity Management framework and BNM crisis management expectations"
+      ],
+      "maturity": {
+        "basic": "IT service continuity plans exist for core banking and key payment systems but are document-based with limited testing beyond annual walkthroughs.",
+        "mature": "Comprehensive continuity plans cover all critical IT services with regular simulation testing, automated failover for key systems, and integration with enterprise BCM processes.",
+        "advanced": "Resilience-by-design architecture ensures continuous availability through multi-site active-active deployments, chaos engineering practices to proactively identify failure modes, and real-time continuity posture dashboards reported to the Board."
+      },
+      "toolExamples": [
+        "Fusion Risk Management",
+        "Castellan BCM",
+        "ServiceNow BCM"
+      ],
+      "nist": [
+        "PR.IP-9",
+        "RC.RP-1"
+      ],
+      "iso27001": [
+        "A.5.29",
+        "A.5.30"
+      ]
+    },
+    {
+      "slug": "disaster-recovery",
+      "name": "Disaster Recovery",
+      "domain": "service-continuity",
+      "type": "corrective",
+      "layer": "process",
+      "description": "Establish and maintain disaster recovery capabilities for critical banking technology infrastructure ensuring that recovery time and recovery point objectives are met, with regular testing validated against BNM operational resilience expectations.",
+      "clauses": [
+        "10.31",
+        "10.32",
+        "10.33"
+      ],
+      "keyActivities": [
+        "Define RTO and RPO for all critical systems with Board-approved targets aligned to BNM requirements — typically RTO of 4 hours or less for Tier-1 payment and core banking systems",
+        "Maintain a disaster recovery site with adequate infrastructure capacity, network connectivity, and data replication to support full recovery of critical banking operations",
+        "Conduct full-scale DR drills at least annually with actual failover to the DR site, validating end-to-end recovery of core banking, RENTAS, FPX, DuitNow, and internet/mobile banking services",
+        "Document and track DR test results, gaps identified, and remediation actions with reporting to the Board Risk Committee and retention for BNM examination",
+        "Ensure DR plans address data centre scenarios including total site loss, partial infrastructure failure, and cyber-attack-induced recovery requiring clean environment rebuild"
+      ],
+      "maturity": {
+        "basic": "A DR site exists with basic replication for core banking and payment systems; DR drills are conducted annually with documented results but recovery times often exceed stated RTOs.",
+        "mature": "Near-real-time replication is in place for all critical systems with semi-annual DR drills achieving target RTOs; automated failover is implemented for key payment infrastructure.",
+        "advanced": "Zero or near-zero RPO achieved through synchronous replication across geographically separated sites, with quarterly DR exercises including cyber recovery scenarios and automated orchestration that consistently meets sub-2-hour RTO for all Tier-1 systems."
+      },
+      "toolExamples": [
+        "Zerto",
+        "Veeam Disaster Recovery Orchestrator",
+        "AWS Elastic Disaster Recovery",
+        "IBM Resiliency Services"
+      ],
+      "nist": [
+        "PR.IP-9",
+        "RC.RP-1",
+        "RC.CO-3"
+      ],
+      "iso27001": [
+        "A.5.29",
+        "A.5.30",
+        "A.8.13",
+        "A.8.14"
+      ]
+    },
+    {
+      "slug": "business-impact-analysis",
+      "name": "Business Impact Analysis",
+      "domain": "service-continuity",
+      "type": "preventive",
+      "layer": "process",
+      "description": "Conduct and maintain business impact analyses for technology services to determine criticality, interdependencies, and acceptable downtime thresholds that inform continuity and disaster recovery planning for Malaysian banking operations.",
+      "clauses": [
+        "10.34"
+      ],
+      "keyActivities": [
+        "Perform BIA for all technology services mapping them to critical banking business functions including retail banking, treasury, payments (RENTAS, FPX, DuitNow), trade finance, and regulatory reporting",
+        "Identify and document upstream and downstream system dependencies including third-party services, shared infrastructure, and inter-bank connectivity",
+        "Determine Maximum Tolerable Downtime, RTO, and RPO for each critical technology service based on financial impact, regulatory obligations, and customer impact assessments",
+        "Review and update BIA at least annually or upon significant changes to technology infrastructure, business processes, or regulatory requirements from BNM"
+      ],
+      "maturity": {
+        "basic": "BIA is conducted for major systems such as core banking and payment channels with basic impact categorisation, reviewed annually as part of BCM planning.",
+        "mature": "Comprehensive BIA covers all technology services with quantified financial and operational impact metrics, documented interdependency maps, and formal linkage to DR and continuity planning.",
+        "advanced": "Dynamic BIA models are maintained with real-time dependency mapping, automated impact recalculation when infrastructure changes occur, and scenario-based analysis that informs strategic resilience investments presented to the Board."
+      },
+      "toolExamples": [
+        "Fusion Risk Management",
+        "Archer BCM",
+        "Castellan Solutions"
+      ],
+      "nist": [
+        "ID.BE-4",
+        "ID.BE-5",
+        "ID.RA-4"
+      ],
+      "iso27001": [
+        "A.5.29",
+        "A.5.30"
+      ]
+    },
+    {
+      "slug": "crisis-communication",
+      "name": "Crisis Communication",
+      "domain": "service-continuity",
+      "type": "corrective",
+      "layer": "process",
+      "description": "Establish crisis communication plans and protocols for technology and cyber incidents ensuring timely, accurate, and coordinated communication with internal stakeholders, BNM, law enforcement, customers, and the public as required under Malaysian regulatory expectations.",
+      "clauses": [
+        "10.35",
+        "11.5"
+      ],
+      "keyActivities": [
+        "Develop and maintain a crisis communication plan that defines roles, responsibilities, communication channels, and escalation paths for technology and cybersecurity incidents",
+        "Establish notification procedures for BNM including timelines for initial notification, interim updates, and final incident reports in accordance with regulatory incident reporting requirements",
+        "Define customer communication templates and channels for service disruptions affecting internet banking, mobile banking, ATM networks, and payment services",
+        "Conduct crisis communication drills at least annually as part of broader DR and incident response exercises to test coordination between IT, risk, legal, compliance, corporate communications, and senior management",
+        "Maintain pre-approved communication templates for common scenarios including data breaches, prolonged service outages, cyber attacks, and fraud incidents to enable rapid response"
+      ],
+      "maturity": {
+        "basic": "Crisis communication procedures exist with defined escalation paths to senior management and BNM but are largely manual with limited pre-prepared templates for common scenarios.",
+        "mature": "Structured crisis communication framework with pre-approved templates, defined SLAs for stakeholder notification, integrated communication tools, and regular drills involving cross-functional teams.",
+        "advanced": "Automated crisis communication orchestration with real-time stakeholder notification, AI-assisted situation assessment for communication prioritisation, integrated media monitoring, and post-crisis sentiment analysis to continuously improve response effectiveness."
+      },
+      "toolExamples": [
+        "Everbridge",
+        "PagerDuty",
+        "Singlewire InformaCast",
+        "OnSolve"
+      ],
+      "nist": [
+        "RS.CO-1",
+        "RS.CO-2",
+        "RS.CO-3",
+        "RS.CO-4",
+        "RS.CO-5"
+      ],
+      "iso27001": [
+        "A.5.24",
+        "A.5.25",
+        "A.5.26"
+      ]
+    }
+  ],
+  "network-security": [
+    {
+      "slug": "network-architecture-and-segmentation",
+      "name": "Network Architecture and Segmentation",
+      "domain": "network-security",
+      "type": "preventive",
+      "layer": "technical",
+      "description": "Design and maintain a secure network architecture with appropriate segmentation to isolate critical banking systems, payment networks, and sensitive data zones, reducing lateral movement risk and containing potential breaches.",
+      "clauses": [
+        "10.36",
+        "10.37"
+      ],
+      "keyActivities": [
+        "Implement network segmentation to isolate critical zones including core banking, payment processing (RENTAS, FPX, DuitNow, SWIFT), internet-facing services, and internal corporate networks",
+        "Maintain up-to-date network architecture diagrams documenting all zones, trust boundaries, traffic flows, and interconnections with third parties and inter-bank networks",
+        "Deploy micro-segmentation for high-value assets and sensitive data repositories to limit blast radius in the event of a compromise",
+        "Enforce strict inter-zone access controls using next-generation firewalls with application-layer filtering and deny-by-default policies between security zones",
+        "Review network architecture at least annually and after significant infrastructure changes to ensure alignment with defence-in-depth principles and BNM expectations"
+      ],
+      "maturity": {
+        "basic": "Network segmentation separates core banking and payment zones from the corporate network using VLANs and firewalls with basic access control lists governing inter-zone traffic.",
+        "mature": "Multi-layered segmentation with DMZs, dedicated payment network zones, and micro-segmentation for critical assets; software-defined networking enables dynamic policy enforcement with centralised visibility.",
+        "advanced": "Zero-trust network architecture with identity-aware micro-segmentation, automated policy enforcement based on workload classification, continuous traffic analysis for anomaly detection, and real-time topology visualisation integrated with SOC operations."
+      },
+      "toolExamples": [
+        "Cisco ACI",
+        "VMware NSX",
+        "Illumio",
+        "Palo Alto Prisma"
+      ],
+      "nist": [
+        "PR.AC-5",
+        "PR.PT-4",
+        "DE.AE-1"
+      ],
+      "iso27001": [
+        "A.8.20",
+        "A.8.21",
+        "A.8.22"
+      ]
+    },
+    {
+      "slug": "firewall-management",
+      "name": "Firewall Management",
+      "domain": "network-security",
+      "type": "preventive",
+      "layer": "technical",
+      "description": "Implement and maintain a robust firewall management programme ensuring that all network perimeter and internal firewalls are configured, reviewed, and managed to protect critical Malaysian banking infrastructure from unauthorised access.",
+      "clauses": [
+        "10.38"
+      ],
+      "keyActivities": [
+        "Establish and enforce a firewall rule change management process requiring risk assessment, business justification, security review, and approval before implementation",
+        "Conduct firewall rule reviews at least quarterly to identify and remove stale, overly permissive, or redundant rules, particularly for rules governing access to payment and core banking zones",
+        "Implement centralised firewall management with consistent policy enforcement, logging, and configuration backup across all firewall appliances",
+        "Deploy next-generation firewall capabilities including application-layer inspection, intrusion prevention, and TLS decryption for traffic entering and leaving sensitive zones"
+      ],
+      "maturity": {
+        "basic": "Firewalls are deployed at network perimeters and between major zones with rule change processes in place; rule reviews are conducted semi-annually with basic documentation.",
+        "mature": "Centralised firewall management platform with automated rule lifecycle tracking, quarterly rule recertification, compliance reporting, and integration with change management workflows.",
+        "advanced": "Intent-based firewall policy management with automated rule optimisation, real-time compliance verification against security baselines, AI-driven anomaly detection in rule changes, and continuous assurance reporting to risk management."
+      },
+      "toolExamples": [
+        "Tufin",
+        "AlgoSec",
+        "FireMon",
+        "Palo Alto Panorama"
+      ],
+      "nist": [
+        "PR.AC-5",
+        "PR.PT-4"
+      ],
+      "iso27001": [
+        "A.8.20",
+        "A.8.21"
+      ]
+    },
+    {
+      "slug": "intrusion-detection-and-prevention",
+      "name": "Intrusion Detection and Prevention",
+      "domain": "network-security",
+      "type": "detective",
+      "layer": "technical",
+      "description": "Deploy and operate intrusion detection and prevention systems across critical network segments to detect, alert on, and block malicious network activity targeting Malaysian banking infrastructure and payment systems.",
+      "clauses": [
+        "10.39",
+        "11.7"
+      ],
+      "keyActivities": [
+        "Deploy IDS/IPS sensors at critical network points including internet gateways, payment network interfaces (RENTAS, FPX, SWIFT), core banking perimeters, and inter-zone boundaries",
+        "Maintain up-to-date IDS/IPS signatures and detection rules with automated feeds supplemented by custom rules developed from threat intelligence relevant to the Malaysian financial sector",
+        "Tune detection rules to minimise false positives while maintaining detection efficacy, with regular review cycles aligned to the evolving threat landscape",
+        "Integrate IDS/IPS alerts with the Security Operations Centre SIEM platform for correlation, triage, and incident response workflow automation",
+        "Conduct periodic detection efficacy testing using network-based attack simulations and red team exercises to validate coverage against known TTPs targeting financial institutions"
+      ],
+      "maturity": {
+        "basic": "IDS/IPS deployed at network perimeters with vendor-supplied signature sets; alerts are forwarded to the SOC for manual review and investigation.",
+        "mature": "IDS/IPS coverage extends to internal segments and payment network zones with tuned rulesets, automated alert correlation in SIEM, and regular detection efficacy testing.",
+        "advanced": "Network detection and response platform combines signature-based and ML-driven behavioural analysis with automated threat containment, full packet capture for forensics, and continuous validation through automated breach and attack simulation."
+      },
+      "toolExamples": [
+        "Suricata",
+        "Palo Alto Threat Prevention",
+        "Cisco Secure IPS",
+        "Darktrace"
+      ],
+      "nist": [
+        "DE.CM-1",
+        "DE.CM-7",
+        "DE.DP-2"
+      ],
+      "iso27001": [
+        "A.8.16",
+        "A.8.20",
+        "A.8.23"
+      ]
+    },
+    {
+      "slug": "wireless-security",
+      "name": "Wireless Security",
+      "domain": "network-security",
+      "type": "preventive",
+      "layer": "technical",
+      "description": "Secure all wireless network infrastructure within banking premises ensuring that Wi-Fi networks cannot be exploited as an attack vector to access critical banking systems or sensitive customer data.",
+      "clauses": [
+        "10.40"
+      ],
+      "keyActivities": [
+        "Implement WPA3-Enterprise or WPA2-Enterprise with 802.1X authentication and certificate-based validation for all corporate wireless networks within banking premises",
+        "Segregate wireless networks from the core banking and payment processing networks using dedicated VLANs and firewall controls with no direct routing to critical zones",
+        "Conduct periodic wireless security assessments including rogue access point detection, signal leakage analysis, and penetration testing of wireless infrastructure",
+        "Deploy a wireless intrusion prevention system to continuously monitor for unauthorised access points, evil twin attacks, and anomalous wireless activity within branch and headquarters premises"
+      ],
+      "maturity": {
+        "basic": "Corporate wireless networks use WPA2-Enterprise authentication and are segregated from the core banking network; periodic manual scans for rogue access points are conducted.",
+        "mature": "Centralised wireless management with automated rogue AP detection, NAC integration for device posture validation before network access, and regular wireless penetration testing.",
+        "advanced": "AI-driven wireless intrusion prevention with real-time anomaly detection, automated containment of rogue devices, dynamic access policies based on user identity and device trust score, and continuous compliance monitoring across all banking premises."
+      },
+      "toolExamples": [
+        "Cisco Meraki",
+        "Aruba Central",
+        "Fortinet FortiAP"
+      ],
+      "nist": [
+        "PR.AC-1",
+        "PR.AC-5",
+        "DE.CM-1"
+      ],
+      "iso27001": [
+        "A.8.20",
+        "A.8.21"
+      ]
+    },
+    {
+      "slug": "remote-access-security",
+      "name": "Remote Access Security",
+      "domain": "network-security",
+      "type": "preventive",
+      "layer": "technical",
+      "description": "Implement secure remote access controls for banking staff and authorised third parties, ensuring that remote connectivity to critical systems is authenticated, encrypted, monitored, and compliant with BNM technology risk management expectations.",
+      "clauses": [
+        "10.41"
+      ],
+      "keyActivities": [
+        "Enforce multi-factor authentication for all remote access connections to the banking network, with additional authentication requirements for access to core banking and payment systems",
+        "Deploy enterprise VPN or zero-trust network access solutions with strong encryption, device posture validation, and split tunnelling restrictions for connections to sensitive environments",
+        "Implement privileged access management for remote administrative sessions to critical infrastructure with session recording, time-limited access, and just-in-time elevation",
+        "Monitor and log all remote access sessions with real-time alerting on anomalous patterns such as unusual login times, geographic anomalies, or concurrent sessions from multiple locations"
+      ],
+      "maturity": {
+        "basic": "VPN-based remote access with MFA is deployed for all staff; remote access to production systems requires additional approval and is logged for audit purposes.",
+        "mature": "Zero-trust network access with continuous device posture assessment, PAM controls for administrative remote sessions, and automated anomaly detection on remote access patterns.",
+        "advanced": "Adaptive remote access with real-time risk scoring that dynamically adjusts access permissions based on user behaviour, device health, threat intelligence, and contextual factors, with full session analytics and automated response to high-risk sessions."
+      },
+      "toolExamples": [
+        "Zscaler Private Access",
+        "CyberArk PAM",
+        "Cisco AnyConnect",
+        "Cloudflare Access"
+      ],
+      "nist": [
+        "PR.AC-1",
+        "PR.AC-3",
+        "PR.AC-7"
+      ],
+      "iso27001": [
+        "A.8.5",
+        "A.8.20",
+        "A.8.21"
+      ]
+    },
+    {
+      "slug": "dns-security",
+      "name": "DNS Security",
+      "domain": "network-security",
+      "type": "preventive",
+      "layer": "technical",
+      "description": "Implement DNS security controls to protect banking infrastructure from DNS-based attacks including cache poisoning, DNS tunnelling, and domain hijacking that could redirect customers or compromise critical transaction flows.",
+      "clauses": [
+        "10.42"
+      ],
+      "keyActivities": [
+        "Deploy DNSSEC for all externally facing banking domains to prevent DNS spoofing and cache poisoning attacks against customer-facing services including internet banking and mobile banking portals",
+        "Implement DNS filtering and threat intelligence-based domain blocking to prevent communication with known malicious domains, command-and-control infrastructure, and phishing sites",
+        "Monitor DNS query logs for indicators of DNS tunnelling, data exfiltration, and domain generation algorithm activity using integration with the SOC SIEM platform",
+        "Maintain redundant DNS infrastructure with DDoS protection for critical banking domain resolution to ensure availability of internet-facing services"
+      ],
+      "maturity": {
+        "basic": "Internal DNS servers are hardened and DNSSEC is implemented for primary banking domains; basic DNS logging is enabled and forwarded to the SIEM for monitoring.",
+        "mature": "DNS security platform provides real-time threat intelligence-based filtering, DNS query analytics for anomaly detection, and automated blocking of newly observed malicious domains.",
+        "advanced": "Advanced DNS security with encrypted DNS protocols, machine learning-based detection of DNS tunnelling and DGA domains, automated threat response integration with SOC playbooks, and comprehensive DNS traffic analytics for threat hunting."
+      },
+      "toolExamples": [
+        "Infoblox BloxOne Threat Defense",
+        "Cisco Umbrella",
+        "Akamai Edge DNS"
+      ],
+      "nist": [
+        "PR.DS-2",
+        "DE.CM-1",
+        "PR.PT-4"
+      ],
+      "iso27001": [
+        "A.8.20",
+        "A.8.21",
+        "A.8.23"
+      ]
+    },
+    {
+      "slug": "network-monitoring",
+      "name": "Network Monitoring",
+      "domain": "network-security",
+      "type": "detective",
+      "layer": "technical",
+      "description": "Establish comprehensive network monitoring capabilities to maintain visibility over all network traffic, detect anomalous behaviour, and support rapid incident detection and response across the banking technology environment.",
+      "clauses": [
+        "10.43",
+        "11.6"
+      ],
+      "keyActivities": [
+        "Deploy network monitoring tools covering all critical segments including core banking, payment processing, internet-facing DMZ, inter-bank connectivity, and branch WAN links",
+        "Implement network traffic analysis with baseline profiling to detect anomalous traffic patterns, unusual data transfers, and lateral movement indicative of compromise",
+        "Maintain real-time network performance monitoring with alerting on degradation, capacity thresholds, and availability issues for critical banking services",
+        "Integrate network monitoring data with the SOC SIEM platform for correlation with security events, endpoint telemetry, and threat intelligence feeds",
+        "Retain network flow data and full packet captures for critical segments in accordance with BNM record retention requirements to support forensic investigation"
+      ],
+      "maturity": {
+        "basic": "Network monitoring covers core infrastructure with SNMP-based availability and performance monitoring; NetFlow data is collected for major network segments and reviewed during incident investigations.",
+        "mature": "Comprehensive network monitoring with traffic analysis, automated anomaly detection, and integration with SIEM for correlated security alerting across all banking network segments.",
+        "advanced": "Network detection and response platform with ML-driven traffic analysis, encrypted traffic inspection, automated threat containment based on network indicators, and real-time network forensics capability integrated with the SOC workflow."
+      },
+      "toolExamples": [
+        "Darktrace",
+        "ExtraHop Reveal(x)",
+        "SolarWinds Network Performance Monitor",
+        "Cisco Stealthwatch"
+      ],
+      "nist": [
+        "DE.CM-1",
+        "DE.AE-1",
+        "DE.AE-3"
+      ],
+      "iso27001": [
+        "A.8.16",
+        "A.8.20"
+      ]
+    }
+  ],
+  "backup-and-recovery": [
+    {
+      "slug": "backup-management",
+      "name": "Backup Management",
+      "domain": "backup-and-recovery",
+      "type": "corrective",
+      "layer": "technical",
+      "description": "Implement and maintain a comprehensive data backup programme for all critical banking systems ensuring that backup data is complete, recoverable, securely stored, and aligned with defined RPO requirements and BNM expectations for data protection.",
+      "clauses": [
+        "10.44",
+        "10.45"
+      ],
+      "keyActivities": [
+        "Define and implement backup schedules for all critical systems including core banking databases, payment transaction logs, customer records, and regulatory reporting data aligned with RPO requirements",
+        "Store backup copies in geographically separated locations with encryption at rest and in transit, ensuring backup media is protected to the same classification level as the source data",
+        "Conduct regular backup restoration testing at least quarterly for critical systems to validate backup integrity, completeness, and the ability to meet stated recovery time objectives",
+        "Implement immutable backup copies for critical data to protect against ransomware encryption and ensure recoverability even in scenarios where primary and secondary storage are compromised",
+        "Monitor backup job completion, success rates, and storage capacity with automated alerting on failures and trending analysis to proactively address backup infrastructure issues"
+      ],
+      "maturity": {
+        "basic": "Scheduled backups run daily for critical banking systems with offsite tape or disk-based copies; backup restoration is tested annually with documented results.",
+        "mature": "Automated backup management with continuous protection for critical databases, immutable backup copies, quarterly restoration testing across all tiers, and integrated monitoring with automated failure remediation.",
+        "advanced": "Intelligent backup orchestration with application-aware continuous data protection, instant recovery capabilities, automated compliance verification against RPO targets, air-gapped immutable copies with cyber vault isolation, and backup analytics driving capacity planning."
+      },
+      "toolExamples": [
+        "Veeam Backup & Replication",
+        "Commvault",
+        "Cohesity DataProtect",
+        "Dell PowerProtect"
+      ],
+      "nist": [
+        "PR.IP-4",
+        "PR.IP-9",
+        "RC.RP-1"
+      ],
+      "iso27001": [
+        "A.8.13",
+        "A.8.14"
+      ]
+    }
+  ],
+  "third-party-management": [
+    {
+      "slug": "vendor-risk-assessment",
+      "name": "Vendor Risk Assessment",
+      "domain": "third-party-management",
+      "type": "preventive",
+      "layer": "process",
+      "description": "Conduct thorough risk assessments of all technology vendors and service providers before engagement and on an ongoing basis, ensuring that third-party risks to critical banking operations are identified, evaluated, and mitigated in line with BNM outsourcing and third-party risk requirements.",
+      "clauses": [
+        "10.46",
+        "14.1"
+      ],
+      "keyActivities": [
+        "Perform pre-engagement due diligence assessments covering information security posture, financial stability, regulatory compliance, business continuity capabilities, and data handling practices of prospective technology vendors",
+        "Classify vendors by criticality based on their access to sensitive data, connectivity to banking systems, and impact on critical operations including payment processing and customer-facing services",
+        "Conduct annual reassessment of critical and high-risk vendors including review of SOC 2 Type II or equivalent audit reports, penetration test results, and incident history",
+        "Maintain a centralised vendor risk register with risk ratings, assessment findings, remediation tracking, and contractual compliance status for all technology service providers",
+        "Ensure vendor risk assessments evaluate data residency and cross-border data transfer implications in compliance with PDPA and BNM requirements for Malaysian banking data"
+      ],
+      "maturity": {
+        "basic": "Vendor risk assessments are conducted for critical technology providers using standardised questionnaires prior to engagement with annual reviews based on self-attestation.",
+        "mature": "Tiered vendor risk assessment programme with differentiated assessment rigour based on vendor criticality, continuous monitoring of critical vendors, and integration with enterprise risk management processes.",
+        "advanced": "Automated continuous vendor risk monitoring combining real-time threat intelligence, financial health indicators, regulatory action tracking, and security rating services, with dynamic risk scoring that triggers reassessment workflows when vendor risk posture deteriorates."
+      },
+      "toolExamples": [
+        "OneTrust Vendorpedia",
+        "BitSight",
+        "SecurityScorecard",
+        "Archer Third Party Governance"
+      ],
+      "nist": [
+        "ID.SC-1",
+        "ID.SC-2",
+        "ID.SC-4"
+      ],
+      "iso27001": [
+        "A.5.19",
+        "A.5.20",
+        "A.5.21"
+      ]
+    },
+    {
+      "slug": "outsourcing-governance",
+      "name": "Outsourcing Governance",
+      "domain": "third-party-management",
+      "type": "preventive",
+      "layer": "policy",
+      "description": "Establish a governance framework for technology outsourcing arrangements that ensures the institution retains effective oversight, control, and accountability over outsourced functions in compliance with BNM outsourcing policy requirements.",
+      "clauses": [
+        "10.47"
+      ],
+      "keyActivities": [
+        "Maintain an outsourcing policy approved by the Board that defines the governance framework, roles and responsibilities, risk appetite, and approval authorities for technology outsourcing arrangements",
+        "Ensure outsourcing contracts include mandatory provisions for audit rights, data protection, business continuity, incident notification, subcontracting controls, and termination assistance in accordance with BNM requirements",
+        "Establish an outsourcing oversight committee with representation from technology, risk, compliance, and business units to govern material outsourcing arrangements and monitor performance",
+        "Notify BNM of material outsourcing arrangements as required and maintain documentation demonstrating that the institution retains the ability to manage and control outsourced activities"
+      ],
+      "maturity": {
+        "basic": "An outsourcing policy is in place with Board approval; material outsourcing arrangements are documented with standard contractual provisions and reported to BNM as required.",
+        "mature": "Structured outsourcing governance with a dedicated oversight committee, standardised contract templates incorporating all BNM-required provisions, regular performance reviews, and a centralised outsourcing register.",
+        "advanced": "Enterprise-wide outsourcing governance platform with automated contract compliance monitoring, real-time vendor performance dashboards, integrated risk and audit workflows, and predictive analytics to identify emerging concentration risks across the outsourcing portfolio."
+      },
+      "toolExamples": [
+        "ServiceNow Vendor Risk",
+        "Coupa Supplier Management",
+        "SAP Ariba"
+      ],
+      "nist": [
+        "ID.SC-1",
+        "ID.SC-3"
+      ],
+      "iso27001": [
+        "A.5.19",
+        "A.5.20",
+        "A.5.22"
+      ]
+    },
+    {
+      "slug": "sla-monitoring",
+      "name": "SLA Monitoring",
+      "domain": "third-party-management",
+      "type": "detective",
+      "layer": "process",
+      "description": "Monitor and enforce service level agreements with technology vendors and service providers to ensure contracted performance levels are met and deficiencies are promptly addressed to protect critical banking operations.",
+      "clauses": [
+        "10.48"
+      ],
+      "keyActivities": [
+        "Define measurable SLA metrics for all critical vendor services including availability, response times, resolution times, and security incident notification timelines",
+        "Implement automated SLA monitoring and reporting for critical vendor services with dashboards tracking performance against contracted thresholds",
+        "Conduct formal periodic vendor performance reviews at least quarterly for critical vendors and semi-annually for material vendors, documenting findings and agreed remediation actions",
+        "Enforce contractual remedies including service credits, escalation mechanisms, and where necessary termination provisions when persistent SLA breaches impact banking operations"
+      ],
+      "maturity": {
+        "basic": "SLA metrics are defined in vendor contracts for critical services; performance is tracked through manual reporting with periodic review meetings to address breaches.",
+        "mature": "Automated SLA monitoring dashboards for all critical vendor services with real-time breach alerting, structured quarterly performance reviews, and formal remediation tracking processes.",
+        "advanced": "Predictive SLA management with trend analysis that forecasts potential breaches before they occur, automated escalation workflows, vendor performance benchmarking across the portfolio, and SLA analytics integrated into vendor risk scoring."
+      },
+      "toolExamples": [
+        "ServiceNow ITSM",
+        "BMC Helix",
+        "Freshservice",
+        "ManageEngine ServiceDesk Plus"
+      ],
+      "nist": [
+        "ID.SC-4",
+        "DE.CM-6"
+      ],
+      "iso27001": [
+        "A.5.20",
+        "A.5.22"
+      ]
+    },
+    {
+      "slug": "vendor-exit-strategy",
+      "name": "Vendor Exit Strategy",
+      "domain": "third-party-management",
+      "type": "preventive",
+      "layer": "process",
+      "description": "Develop and maintain exit strategies for critical technology vendor relationships to ensure that banking operations can be transitioned or brought in-house without unacceptable disruption, data loss, or service degradation.",
+      "clauses": [
+        "10.49"
+      ],
+      "keyActivities": [
+        "Develop documented exit plans for all critical and material vendor relationships covering transition timelines, data migration procedures, knowledge transfer requirements, and alternative provider identification",
+        "Include contractual provisions for vendor exit assistance including data return or destruction obligations, transition support periods, and continued service provision during migration",
+        "Conduct periodic exit plan viability assessments to validate that transition scenarios are realistic, resource requirements are understood, and alternative service options remain available in the Malaysian market",
+        "Ensure exit plans address data sovereignty requirements under PDPA and BNM guidelines including secure data repatriation and certified data destruction by the outgoing vendor"
+      ],
+      "maturity": {
+        "basic": "Exit clauses are included in critical vendor contracts with basic transition provisions; exit plans are documented at a high level but have not been tested.",
+        "mature": "Detailed exit plans exist for all critical vendors with defined transition procedures, resource estimates, and alternative provider shortlists; plans are reviewed annually and validated through tabletop exercises.",
+        "advanced": "Comprehensive vendor exit readiness programme with regular transition simulation exercises, maintained parallel capabilities for critical functions, automated data portability validation, and Board-level reporting on vendor dependency and exit readiness posture."
+      },
+      "toolExamples": [
+        "Archer Third Party Governance",
+        "OneTrust Vendorpedia",
+        "ServiceNow Vendor Risk"
+      ],
+      "nist": [
+        "ID.SC-1",
+        "ID.SC-3"
+      ],
+      "iso27001": [
+        "A.5.19",
+        "A.5.20"
+      ]
+    }
+  ],
+  "cloud-and-emerging-technology": [
+    {
+      "slug": "cloud-risk-assessment",
+      "name": "Cloud Risk Assessment",
+      "domain": "cloud-and-emerging-technology",
+      "type": "preventive",
+      "layer": "process",
+      "description": "Conduct comprehensive risk assessments prior to adopting cloud services and on an ongoing basis, evaluating security, data sovereignty, regulatory compliance, and operational risks specific to Malaysian banking requirements and BNM cloud technology expectations.",
+      "clauses": [
+        "10.50",
+        "17.1"
+      ],
+      "keyActivities": [
+        "Perform pre-adoption cloud risk assessments covering data classification, regulatory compliance with BNM and PDPA requirements, security architecture, data residency, vendor lock-in risks, and concentration risk",
+        "Evaluate cloud service provider security posture through review of SOC 2 Type II reports, ISO 27001 certification, CSA STAR assessment, and penetration testing results relevant to the services being consumed",
+        "Assess data sovereignty implications including data storage locations, cross-border data flows, and the ability to meet BNM requirements for maintaining certain banking data within Malaysia",
+        "Conduct annual reassessment of cloud service risks incorporating changes in provider security posture, regulatory requirements, threat landscape, and the institution's cloud usage profile"
+      ],
+      "maturity": {
+        "basic": "Cloud risk assessments are conducted prior to adopting new cloud services using a standardised questionnaire covering security, compliance, and data residency requirements.",
+        "mature": "Structured cloud risk assessment framework with tiered assessment rigour based on data sensitivity and service criticality, integration with cloud security posture management tools, and annual reassessment cycles.",
+        "advanced": "Continuous cloud risk assessment with real-time monitoring of provider security posture through automated scanning, dynamic risk scoring based on actual usage patterns and data exposure, and integrated reporting to enterprise risk management with automated BNM compliance validation."
+      },
+      "toolExamples": [
+        "Wiz",
+        "Orca Security",
+        "CSA STAR Registry",
+        "OneTrust Cloud Compliance"
+      ],
+      "nist": [
+        "ID.RA-1",
+        "ID.RA-3",
+        "ID.SC-2"
+      ],
+      "iso27001": [
+        "A.5.23",
+        "A.8.25",
+        "A.8.26"
+      ]
+    },
+    {
+      "slug": "cloud-security-controls",
+      "name": "Cloud Security Controls",
+      "domain": "cloud-and-emerging-technology",
+      "type": "preventive",
+      "layer": "technical",
+      "description": "Implement and maintain technical security controls for cloud environments ensuring that banking data and workloads hosted in cloud platforms are protected to the same or higher standard as on-premises systems in compliance with BNM expectations.",
+      "clauses": [
+        "17.2"
+      ],
+      "keyActivities": [
+        "Deploy cloud security posture management tools to continuously assess cloud configurations against CIS benchmarks and banking-specific security baselines across all cloud tenants",
+        "Implement cloud workload protection including runtime security, vulnerability management, and container security for banking applications deployed in cloud environments",
+        "Enforce identity and access management controls including MFA, least privilege, just-in-time access, and privileged session management for all cloud administrative access",
+        "Implement cloud-native encryption for data at rest and in transit with customer-managed encryption keys stored in dedicated HSM or key management services under the institution's control",
+        "Deploy cloud-native logging and monitoring with integration to the on-premises SOC SIEM for unified security monitoring across hybrid banking infrastructure"
+      ],
+      "maturity": {
+        "basic": "Cloud security controls follow provider best practices with MFA for administrative access, encryption enabled for data at rest and in transit, and basic cloud logging forwarded to the SIEM.",
+        "mature": "Cloud security posture management continuously validates configurations, CWPP protects workloads, customer-managed keys are used for sensitive data, and cloud security is fully integrated into SOC monitoring operations.",
+        "advanced": "Unified cloud-native application protection platform combining CSPM, CWPP, CIEM, and DSPM with automated remediation, shift-left security integration in CI/CD pipelines, and AI-driven cloud threat detection with automated response playbooks."
+      },
+      "toolExamples": [
+        "Wiz",
+        "Prisma Cloud",
+        "Microsoft Defender for Cloud",
+        "Lacework"
+      ],
+      "nist": [
+        "PR.AC-4",
+        "PR.DS-1",
+        "PR.DS-2",
+        "DE.CM-7"
+      ],
+      "iso27001": [
+        "A.8.23",
+        "A.8.24",
+        "A.8.25"
+      ]
+    },
+    {
+      "slug": "cloud-data-residency",
+      "name": "Cloud Data Residency",
+      "domain": "cloud-and-emerging-technology",
+      "type": "preventive",
+      "layer": "policy",
+      "description": "Establish and enforce data residency policies for cloud-hosted banking data ensuring compliance with BNM requirements, PDPA obligations, and institutional data sovereignty commitments regarding the storage and processing of Malaysian banking data.",
+      "clauses": [
+        "10.52"
+      ],
+      "keyActivities": [
+        "Define data residency policies specifying which categories of banking data must remain within Malaysia and which may be stored or processed in approved offshore locations subject to risk assessment and regulatory approval",
+        "Implement technical controls to enforce data residency requirements including cloud region restrictions, data loss prevention policies, and geo-fencing of data storage and processing",
+        "Maintain a data residency register documenting where all categories of banking data are stored and processed across cloud services, mapped to regulatory requirements and data classification",
+        "Monitor and audit compliance with data residency policies including periodic verification of data storage locations and cross-border data transfer activities with reporting to compliance and the Board"
+      ],
+      "maturity": {
+        "basic": "Data residency policy requires critical banking data to remain in Malaysia; cloud services are configured to use Malaysian or approved regional data centres with periodic manual verification.",
+        "mature": "Technical controls enforce data residency with cloud region restrictions and DLP policies; a comprehensive data residency register is maintained with automated compliance monitoring and regular reporting to BNM.",
+        "advanced": "Real-time data residency assurance through automated data flow mapping, continuous compliance verification using cloud-native policy engines, instant alerting on residency violations, and integrated reporting across multi-cloud environments with regulatory audit trail."
+      },
+      "toolExamples": [
+        "BigID",
+        "OneTrust Data Mapping",
+        "Wiz Data Security Posture",
+        "Azure Policy / AWS Config"
+      ],
+      "nist": [
+        "PR.DS-1",
+        "PR.DS-5",
+        "ID.AM-5"
+      ],
+      "iso27001": [
+        "A.5.34",
+        "A.5.35",
+        "A.8.11"
+      ]
+    },
+    {
+      "slug": "cloud-portability-and-exit",
+      "name": "Cloud Portability and Exit",
+      "domain": "cloud-and-emerging-technology",
+      "type": "preventive",
+      "layer": "process",
+      "description": "Ensure cloud deployments are designed for portability and that comprehensive exit strategies exist to migrate workloads and data away from cloud service providers without unacceptable disruption to banking operations.",
+      "clauses": [
+        "17.3"
+      ],
+      "keyActivities": [
+        "Design cloud deployments using portable architectures including containerisation, infrastructure-as-code, and abstraction layers to minimise vendor lock-in for critical banking applications",
+        "Develop documented cloud exit plans for each critical cloud service covering data extraction procedures, application migration steps, timeline estimates, and alternative deployment targets",
+        "Include contractual provisions for cloud exit assistance, data return in standard formats, transition support periods, and certified data destruction upon completion of migration",
+        "Conduct periodic cloud exit plan validation through tabletop exercises or partial migration drills to ensure that exit procedures are viable and resource requirements are understood"
+      ],
+      "maturity": {
+        "basic": "Cloud exit clauses are included in contracts for critical cloud services; basic exit plans document data extraction procedures but have not been tested practically.",
+        "mature": "Cloud deployments use containerised and portable architectures where feasible; detailed exit plans exist with defined procedures, resource requirements, and alternative targets, validated through annual tabletop exercises.",
+        "advanced": "Cloud-native portability architecture with multi-cloud deployment capabilities, automated workload migration tooling, regular exit drills with actual data migration testing, and Board-level reporting on cloud dependency and exit readiness across the entire cloud portfolio."
+      },
+      "toolExamples": [
+        "Kubernetes",
+        "Terraform",
+        "HashiCorp Vault",
+        "CloudEndure Migration"
+      ],
+      "nist": [
+        "ID.SC-1",
+        "PR.IP-9"
+      ],
+      "iso27001": [
+        "A.5.23",
+        "A.8.25"
+      ]
+    },
+    {
+      "slug": "ai-and-ml-governance",
+      "name": "AI and ML Governance",
+      "domain": "cloud-and-emerging-technology",
+      "type": "preventive",
+      "layer": "policy",
+      "description": "Establish governance frameworks for the responsible adoption and use of artificial intelligence and machine learning technologies in banking operations, addressing model risk, fairness, transparency, and accountability in line with BNM expectations for emerging technology governance.",
+      "clauses": [
+        "17.4"
+      ],
+      "keyActivities": [
+        "Develop an AI and ML governance policy approved by the Board defining acceptable use cases, risk appetite, ethical principles, and governance responsibilities for AI/ML deployments in banking operations",
+        "Implement a model risk management framework covering model development, validation, deployment, monitoring, and decommissioning with independent validation for models used in credit decisioning, fraud detection, and AML",
+        "Establish fairness and bias monitoring for AI/ML models used in customer-facing decisions ensuring compliance with BNM fair treatment expectations and non-discrimination requirements",
+        "Maintain transparency and explainability standards for AI/ML models with documentation of model logic, training data provenance, performance metrics, and known limitations",
+        "Implement human oversight controls including escalation mechanisms, override capabilities, and periodic human review of AI/ML-driven decisions affecting customers"
+      ],
+      "maturity": {
+        "basic": "AI/ML governance policy is in place with Board awareness; model inventory is maintained for critical AI/ML models with basic validation and documentation requirements.",
+        "mature": "Structured model risk management framework with independent model validation, bias testing, ongoing performance monitoring, and formal governance committee oversight of AI/ML deployments across the institution.",
+        "advanced": "Enterprise AI governance platform with automated model monitoring for drift and bias, real-time explainability dashboards, federated model risk management, regulatory-aligned audit trails, and proactive engagement with BNM on evolving AI governance expectations."
+      },
+      "toolExamples": [
+        "IBM OpenPages Model Risk",
+        "ModelOp",
+        "Fiddler AI",
+        "Arthur AI"
+      ],
+      "nist": [
+        "ID.RA-1",
+        "ID.GV-1",
+        "PR.IP-7"
+      ],
+      "iso27001": [
+        "A.5.1",
+        "A.5.8"
+      ]
+    },
+    {
+      "slug": "emerging-technology-risk-assessment",
+      "name": "Emerging Technology Risk Assessment",
+      "domain": "cloud-and-emerging-technology",
+      "type": "preventive",
+      "layer": "process",
+      "description": "Establish a structured process for evaluating risks associated with adopting emerging technologies such as blockchain, quantum computing, IoT, and decentralised finance, ensuring informed decision-making aligned with the institution's risk appetite and BNM technology risk expectations.",
+      "clauses": [
+        "17.5"
+      ],
+      "keyActivities": [
+        "Develop a technology innovation risk assessment framework that evaluates security, regulatory, operational, and reputational risks before adopting new or emerging technologies for banking use cases",
+        "Conduct horizon scanning to identify emerging technology trends relevant to Malaysian banking including DeFi, central bank digital currencies, quantum computing threats to cryptography, and IoT in branch operations",
+        "Perform proof-of-concept evaluations in isolated sandbox environments before approving emerging technology deployments in production banking infrastructure",
+        "Engage with BNM, industry bodies such as the Association of Banks in Malaysia, and peer institutions to understand regulatory expectations and industry best practices for emerging technology adoption"
+      ],
+      "maturity": {
+        "basic": "Emerging technology proposals are evaluated through the existing risk assessment process with security and compliance review before any deployment to the production environment.",
+        "mature": "Dedicated innovation risk assessment framework with structured evaluation criteria, sandbox environments for proof-of-concept testing, and formal governance approval process involving technology, risk, and compliance stakeholders.",
+        "advanced": "Strategic technology risk intelligence programme with systematic horizon scanning, pre-emptive risk assessment of emerging technologies before industry adoption, active engagement in BNM regulatory sandboxes, and Board-level technology strategy reporting that integrates emerging risk analysis with innovation roadmap planning."
+      },
+      "toolExamples": [
+        "Gartner Emerging Tech Radar",
+        "Archer IT Risk Management",
+        "ServiceNow Technology Portfolio"
+      ],
+      "nist": [
+        "ID.RA-1",
+        "ID.RA-2",
+        "ID.RA-3"
+      ],
+      "iso27001": [
+        "A.5.7",
+        "A.5.8"
+      ]
+    }
+  ],
+  "access-control": [
+    {
+      "slug": "access-control-framework",
+      "name": "Access Control Framework",
+      "domain": "access-control",
+      "type": "preventive",
+      "layer": "policy",
+      "description": "Establish a comprehensive access control policy governing logical and physical access to all technology assets, aligned with BNM RMiT least-privilege and need-to-know principles.",
+      "clauses": [
+        "10.51"
+      ],
+      "keyActivities": [
+        "Define and document an enterprise access control policy covering all technology environments",
+        "Classify information assets and map access rights to job roles and responsibilities",
+        "Enforce segregation of duties across critical banking functions such as treasury, payments, and core banking",
+        "Conduct annual policy reviews incorporating regulatory changes from BNM and industry best practices"
+      ],
+      "maturity": {
+        "basic": "Documented access control policy exists with basic role definitions and annual review cycle.",
+        "mature": "Automated role-based access provisioning integrated with HR lifecycle events and periodic attestation workflows.",
+        "advanced": "Attribute-based access control (ABAC) dynamically enforces context-aware policies with continuous compliance monitoring and analytics."
+      },
+      "toolExamples": [
+        "SailPoint IdentityNow",
+        "Microsoft Entra ID Governance",
+        "CyberArk Identity"
+      ],
+      "nist": [
+        "AC-1",
+        "AC-2",
+        "AC-3"
+      ],
+      "iso27001": [
+        "A.5.15",
+        "A.5.18",
+        "A.8.2"
+      ]
+    },
+    {
+      "slug": "identity-and-access-management",
+      "name": "Identity and Access Management",
+      "domain": "access-control",
+      "type": "preventive",
+      "layer": "technical",
+      "description": "Implement centralised identity and access management controls to authenticate, authorise, and manage user identities across all banking systems and digital channels.",
+      "clauses": [
+        "10.53"
+      ],
+      "keyActivities": [
+        "Deploy a centralised IAM platform with directory integration for all enterprise and customer-facing systems",
+        "Automate user provisioning and de-provisioning tied to joiner-mover-leaver processes",
+        "Implement unique user identification with no shared or generic accounts for production systems",
+        "Maintain comprehensive audit trails of all access grants, modifications, and revocations"
+      ],
+      "maturity": {
+        "basic": "Centralised directory services with manual provisioning workflows and documented account management procedures.",
+        "mature": "Automated identity lifecycle management with self-service access requests, approval workflows, and integration with core banking HR systems.",
+        "advanced": "Identity governance with AI-driven access recommendations, anomaly detection on entitlements, and real-time identity analytics across hybrid environments."
+      },
+      "toolExamples": [
+        "Microsoft Entra ID",
+        "Okta",
+        "ForgeRock",
+        "Ping Identity"
+      ],
+      "nist": [
+        "AC-2",
+        "IA-2",
+        "IA-4",
+        "IA-5"
+      ],
+      "iso27001": [
+        "A.5.16",
+        "A.5.17",
+        "A.5.18"
+      ]
+    },
+    {
+      "slug": "multi-factor-authentication",
+      "name": "Multi-Factor Authentication",
+      "domain": "access-control",
+      "type": "preventive",
+      "layer": "technical",
+      "description": "Enforce multi-factor authentication for all privileged access, remote access, and customer-facing digital banking channels as mandated by BNM RMiT.",
+      "clauses": [
+        "10.54",
+        "12.4"
+      ],
+      "keyActivities": [
+        "Implement MFA for all administrative, privileged, and remote access to technology infrastructure",
+        "Deploy strong customer authentication for internet banking, mobile banking, and high-risk transactions",
+        "Evaluate and adopt phishing-resistant MFA methods such as FIDO2 hardware tokens for critical systems",
+        "Monitor MFA adoption rates and enforce compliance with fallback controls for exceptions"
+      ],
+      "maturity": {
+        "basic": "MFA deployed for privileged and remote access using OTP-based methods with documented exception management.",
+        "mature": "Risk-based adaptive MFA across all access channels with push notification and biometric options for digital banking services.",
+        "advanced": "Passwordless and phishing-resistant authentication (FIDO2/WebAuthn) as the default, with continuous authentication signals and behavioural biometrics."
+      },
+      "toolExamples": [
+        "Microsoft Authenticator",
+        "YubiKey",
+        "Duo Security",
+        "RSA SecurID"
+      ],
+      "nist": [
+        "IA-2(1)",
+        "IA-2(2)",
+        "IA-2(6)"
+      ],
+      "iso27001": [
+        "A.8.5",
+        "A.5.17"
+      ]
+    },
+    {
+      "slug": "password-management",
+      "name": "Password Management",
+      "domain": "access-control",
+      "type": "preventive",
+      "layer": "technical",
+      "description": "Establish and enforce password policies across all systems that meet BNM RMiT complexity, rotation, and storage requirements for financial institution environments.",
+      "clauses": [
+        "10.55"
+      ],
+      "keyActivities": [
+        "Define and enforce password complexity, length, and expiration policies across all enterprise systems",
+        "Implement technical controls to prevent password reuse, dictionary words, and compromised credential usage",
+        "Deploy enterprise password vaulting solutions for service accounts and shared credentials",
+        "Conduct periodic audits of password policy compliance across all platforms including legacy core banking systems"
+      ],
+      "maturity": {
+        "basic": "Password policies enforced via Active Directory GPO with minimum complexity requirements and 90-day rotation.",
+        "mature": "Enterprise password manager deployed with breached-password screening, service account vaulting, and automated rotation for non-human identities.",
+        "advanced": "Transition towards passwordless authentication with password policies serving as a compensating layer, supplemented by credential intelligence feeds and real-time compromise detection."
+      },
+      "toolExamples": [
+        "CyberArk EPV",
+        "HashiCorp Vault",
+        "Azure AD Password Protection",
+        "1Password Business"
+      ],
+      "nist": [
+        "IA-5",
+        "IA-5(1)"
+      ],
+      "iso27001": [
+        "A.5.17",
+        "A.8.5"
+      ]
+    },
+    {
+      "slug": "privileged-access-management",
+      "name": "Privileged Access Management",
+      "domain": "access-control",
+      "type": "preventive",
+      "layer": "technical",
+      "description": "Implement controls to secure, monitor, and audit all privileged access to critical banking technology infrastructure, databases, and applications.",
+      "clauses": [
+        "10.56"
+      ],
+      "keyActivities": [
+        "Deploy a PAM solution with session recording, credential vaulting, and just-in-time access for all privileged accounts",
+        "Implement break-glass procedures with dual-authorisation for emergency privileged access to production systems",
+        "Enforce privileged session isolation through jump servers or secure access workstations for critical environments",
+        "Review and certify all privileged entitlements quarterly with sign-off from system owners and IT risk"
+      ],
+      "maturity": {
+        "basic": "Privileged accounts inventoried with password vaulting and basic session logging for critical systems.",
+        "mature": "Full PAM platform with just-in-time provisioning, session recording, command filtering, and automated credential rotation across all tiers.",
+        "advanced": "Zero standing privileges model with all privileged access granted ephemerally, behaviour analytics on privileged sessions, and automated anomaly response."
+      },
+      "toolExamples": [
+        "CyberArk PAS",
+        "BeyondTrust",
+        "Delinea Secret Server",
+        "HashiCorp Vault"
+      ],
+      "nist": [
+        "AC-6",
+        "AC-6(1)",
+        "AC-6(5)",
+        "AC-2(7)"
+      ],
+      "iso27001": [
+        "A.8.2",
+        "A.8.18",
+        "A.5.18"
+      ]
+    },
+    {
+      "slug": "access-review-and-recertification",
+      "name": "Access Review and Recertification",
+      "domain": "access-control",
+      "type": "detective",
+      "layer": "process",
+      "description": "Conduct periodic reviews and recertification of all user access rights to ensure continued appropriateness and detect access creep or orphaned accounts across banking systems.",
+      "clauses": [
+        "10.57"
+      ],
+      "keyActivities": [
+        "Perform quarterly access recertification for privileged accounts and semi-annual reviews for standard user access",
+        "Automate detection of orphaned accounts, dormant accounts, and segregation-of-duty violations",
+        "Require business owner attestation for all access entitlements with documented evidence of review decisions",
+        "Track and remediate access review findings within defined SLAs with escalation to IT risk for overdue items"
+      ],
+      "maturity": {
+        "basic": "Periodic manual access reviews conducted via spreadsheets with evidence retained for audit purposes.",
+        "mature": "Automated access certification campaigns with workflow-driven approvals, violation detection, and integration with IAM provisioning for revocation.",
+        "advanced": "Continuous access intelligence with machine-learning-driven risk scoring of entitlements, peer-group analysis, and automated micro-certifications triggered by role or system changes."
+      },
+      "toolExamples": [
+        "SailPoint IdentityNow",
+        "Saviynt",
+        "Oracle Identity Governance",
+        "Microsoft Entra Access Reviews"
+      ],
+      "nist": [
+        "AC-2(3)",
+        "AC-6(7)"
+      ],
+      "iso27001": [
+        "A.5.18",
+        "A.8.2"
+      ]
+    }
+  ],
+  "cybersecurity": [
+    {
+      "slug": "incident-response-plan",
+      "name": "Incident Response Plan",
+      "domain": "cybersecurity",
+      "type": "corrective",
+      "layer": "process",
+      "description": "Establish and maintain a cyber incident response plan covering detection, containment, eradication, recovery, and post-incident review, meeting BNM notification timelines.",
+      "clauses": [
+        "11.1",
+        "11.4",
+        "16.1"
+      ],
+      "keyActivities": [
+        "Develop and maintain a cyber incident response plan with clearly defined roles, escalation paths, and communication protocols",
+        "Conduct tabletop exercises and simulated incident drills at least annually with involvement from senior management",
+        "Define incident severity classification aligned with BNM RMiT notification thresholds and reporting timelines",
+        "Perform post-incident reviews with root cause analysis and track remediation actions to closure",
+        "Maintain an incident response playbook library covering ransomware, data breach, DDoS, and insider threat scenarios"
+      ],
+      "maturity": {
+        "basic": "Documented incident response plan with defined roles and annual tabletop exercises covering key scenarios.",
+        "mature": "Integrated incident response with automated orchestration, predefined playbooks, and regular purple-team exercises validating detection and response capabilities.",
+        "advanced": "SOAR-driven automated response with adaptive playbooks, threat-intelligence-enriched triage, and continuous improvement through attack simulation and lessons-learned integration."
+      },
+      "toolExamples": [
+        "Palo Alto XSOAR",
+        "Splunk SOAR",
+        "IBM Resilient",
+        "TheHive"
+      ],
+      "nist": [
+        "IR-1",
+        "IR-4",
+        "IR-5",
+        "IR-6",
+        "IR-8"
+      ],
+      "iso27001": [
+        "A.5.24",
+        "A.5.25",
+        "A.5.26",
+        "A.6.8"
+      ]
+    },
+    {
+      "slug": "cybersecurity-strategy",
+      "name": "Cybersecurity Strategy",
+      "domain": "cybersecurity",
+      "type": "preventive",
+      "layer": "policy",
+      "description": "Define a board-approved cybersecurity strategy that articulates the institution's cyber risk appetite, strategic objectives, and resource allocation for cyber resilience.",
+      "clauses": [
+        "11.2"
+      ],
+      "keyActivities": [
+        "Develop a multi-year cybersecurity strategy aligned with the institution's business strategy and BNM RMiT requirements",
+        "Obtain board approval for the cybersecurity strategy with annual progress reporting to the board risk committee",
+        "Define measurable cybersecurity objectives, key risk indicators, and investment priorities",
+        "Benchmark cybersecurity maturity against industry frameworks and peer institutions in the Malaysian financial sector"
+      ],
+      "maturity": {
+        "basic": "Board-approved cybersecurity strategy document with defined objectives and annual review cycle.",
+        "mature": "Strategy linked to quantified cyber risk metrics with dedicated budget allocation, roadmap tracking, and quarterly board reporting on maturity progression.",
+        "advanced": "Dynamic strategy with continuous risk quantification (e.g., FAIR), scenario-based investment modelling, and real-time alignment with evolving threat landscape and regulatory expectations."
+      },
+      "toolExamples": [
+        "NIST CSF Assessment Tools",
+        "BitSight",
+        "SecurityScorecard"
+      ],
+      "nist": [
+        "PM-1",
+        "PM-9",
+        "RA-3"
+      ],
+      "iso27001": [
+        "A.5.1",
+        "A.5.2",
+        "A.5.4"
+      ]
+    },
+    {
+      "slug": "cybersecurity-governance",
+      "name": "Cybersecurity Governance",
+      "domain": "cybersecurity",
+      "type": "preventive",
+      "layer": "policy",
+      "description": "Establish cybersecurity governance structures with clear accountability, reporting lines, and oversight mechanisms from operational teams through to board level.",
+      "clauses": [
+        "11.3"
+      ],
+      "keyActivities": [
+        "Appoint a CISO or equivalent with direct reporting to senior management and access to the board risk committee",
+        "Establish a cybersecurity steering committee with cross-functional representation from business, risk, and technology",
+        "Define and communicate cybersecurity roles and responsibilities across three lines of defence",
+        "Implement cybersecurity performance metrics and dashboards for management and board reporting"
+      ],
+      "maturity": {
+        "basic": "Designated CISO role with documented governance structure and periodic reporting to management.",
+        "mature": "Formal cybersecurity committee with cross-functional membership, three-lines-of-defence model, and integrated risk reporting to board risk committee.",
+        "advanced": "Cybersecurity governance embedded into enterprise risk management with real-time risk dashboards, automated compliance tracking, and proactive board engagement on emerging threats."
+      },
+      "toolExamples": [
+        "ServiceNow GRC",
+        "RSA Archer",
+        "MetricStream"
+      ],
+      "nist": [
+        "PM-1",
+        "PM-2",
+        "PM-10"
+      ],
+      "iso27001": [
+        "A.5.1",
+        "A.5.2",
+        "A.5.3",
+        "A.5.4"
+      ]
+    },
+    {
+      "slug": "cyber-crisis-management",
+      "name": "Cyber Crisis Management",
+      "domain": "cybersecurity",
+      "type": "corrective",
+      "layer": "process",
+      "description": "Maintain a cyber crisis management framework that enables coordinated response to severe cyber events with clear escalation to senior management and BNM.",
+      "clauses": [
+        "11.5",
+        "10.35"
+      ],
+      "keyActivities": [
+        "Develop a cyber crisis management plan with defined crisis thresholds, command structures, and decision authorities",
+        "Establish communication protocols for internal stakeholders, BNM, law enforcement (PDRM, CyberSecurity Malaysia), and affected customers",
+        "Conduct annual cyber crisis simulation exercises involving senior management and board members",
+        "Maintain pre-approved crisis communication templates and media response strategies",
+        "Define recovery time objectives for crisis scenarios and validate through simulation"
+      ],
+      "maturity": {
+        "basic": "Documented cyber crisis management plan with defined escalation thresholds and annual simulation exercise.",
+        "mature": "Integrated crisis management with cross-functional war room procedures, pre-staged communication templates, and coordinated exercises with industry peers and regulators.",
+        "advanced": "Real-time crisis orchestration platform with automated severity assessment, dynamic stakeholder notification, and post-crisis analytics driving continuous improvement of response capabilities."
+      },
+      "toolExamples": [
+        "Everbridge",
+        "PagerDuty",
+        "Fusion Risk Management",
+        "Noggin"
+      ],
+      "nist": [
+        "IR-4(3)",
+        "IR-7",
+        "CP-2"
+      ],
+      "iso27001": [
+        "A.5.24",
+        "A.5.29",
+        "A.5.30"
+      ]
+    },
+    {
+      "slug": "soc-operations",
+      "name": "SOC Operations",
+      "domain": "cybersecurity",
+      "type": "detective",
+      "layer": "technical",
+      "description": "Operate a Security Operations Centre providing continuous monitoring, detection, and initial response capabilities for cybersecurity events across all banking technology assets.",
+      "clauses": [
+        "11.6",
+        "10.43"
+      ],
+      "keyActivities": [
+        "Establish 24x7 SOC operations with defined monitoring coverage, staffing levels, and skill requirements",
+        "Develop and maintain detection use cases and correlation rules aligned with MITRE ATT&CK and Malaysian banking threat landscape",
+        "Define SOC standard operating procedures for alert triage, investigation, escalation, and handover",
+        "Measure SOC effectiveness through mean-time-to-detect (MTTD), mean-time-to-respond (MTTR), and false-positive rates",
+        "Integrate SOC operations with incident response, threat intelligence, and vulnerability management functions"
+      ],
+      "maturity": {
+        "basic": "SOC established with basic monitoring coverage, defined shift schedules, and documented triage procedures.",
+        "mature": "Mature SOC with MITRE ATT&CK-mapped detection use cases, tiered analyst model, automated enrichment, and integrated threat intelligence feeds.",
+        "advanced": "Next-generation SOC with AI-augmented detection, automated investigation workflows, proactive threat hunting, and continuous detection engineering with purple-team validation."
+      },
+      "toolExamples": [
+        "Splunk Enterprise Security",
+        "Microsoft Sentinel",
+        "IBM QRadar",
+        "Elastic Security",
+        "Wazuh"
+      ],
+      "nist": [
+        "SI-4",
+        "IR-4",
+        "AU-6"
+      ],
+      "iso27001": [
+        "A.8.15",
+        "A.8.16"
+      ]
+    },
+    {
+      "slug": "siem-implementation",
+      "name": "SIEM Implementation",
+      "domain": "cybersecurity",
+      "type": "detective",
+      "layer": "technical",
+      "description": "Deploy and maintain a Security Information and Event Management platform to aggregate, correlate, and analyse security events from all critical banking technology systems.",
+      "clauses": [
+        "11.7",
+        "10.39"
+      ],
+      "keyActivities": [
+        "Deploy SIEM with log ingestion from all critical systems including core banking, internet banking, network infrastructure, and security controls",
+        "Develop correlation rules and detection analytics tuned for Malaysian banking threat scenarios",
+        "Ensure log integrity, retention, and tamper-evidence meeting BNM and Malaysian regulatory requirements",
+        "Integrate SIEM with threat intelligence feeds, vulnerability data, and asset inventory for contextual alerting"
+      ],
+      "maturity": {
+        "basic": "SIEM deployed with log collection from critical systems and baseline correlation rules for common attack patterns.",
+        "mature": "Comprehensive SIEM coverage with behavioural analytics, custom detection rules for banking-specific threats, and automated alert enrichment with contextual data.",
+        "advanced": "Cloud-native or hybrid SIEM with machine-learning-driven anomaly detection, entity behaviour analytics (UEBA), and automated response orchestration via SOAR integration."
+      },
+      "toolExamples": [
+        "Splunk Enterprise Security",
+        "Microsoft Sentinel",
+        "IBM QRadar",
+        "Elastic SIEM",
+        "Wazuh"
+      ],
+      "nist": [
+        "SI-4",
+        "AU-6",
+        "AU-12"
+      ],
+      "iso27001": [
+        "A.8.15",
+        "A.8.16"
+      ]
+    },
+    {
+      "slug": "endpoint-protection",
+      "name": "Endpoint Protection",
+      "domain": "cybersecurity",
+      "type": "preventive",
+      "layer": "technical",
+      "description": "Deploy advanced endpoint detection and response capabilities across all endpoints including workstations, servers, and mobile devices to prevent, detect, and respond to malware and advanced threats.",
+      "clauses": [
+        "11.8"
+      ],
+      "keyActivities": [
+        "Deploy EDR/XDR solutions across all managed endpoints with centralised management and policy enforcement",
+        "Implement application whitelisting on critical servers and high-risk endpoints such as treasury and payment systems",
+        "Maintain endpoint hardening baselines aligned with CIS benchmarks for all operating system types in use",
+        "Monitor endpoint telemetry for indicators of compromise and integrate alerts into SOC workflows"
+      ],
+      "maturity": {
+        "basic": "Enterprise antivirus with centralised management, automatic signature updates, and basic endpoint hardening standards.",
+        "mature": "EDR platform with behavioural detection, automated containment, and integration with SIEM for correlated threat detection across endpoints.",
+        "advanced": "XDR with cross-telemetry correlation across endpoints, network, and cloud, AI-driven threat detection, automated response actions, and proactive threat hunting on endpoint data."
+      },
+      "toolExamples": [
+        "CrowdStrike Falcon",
+        "Microsoft Defender for Endpoint",
+        "SentinelOne",
+        "Carbon Black"
+      ],
+      "nist": [
+        "SI-3",
+        "SI-4",
+        "SC-7"
+      ],
+      "iso27001": [
+        "A.8.7",
+        "A.8.8"
+      ]
+    },
+    {
+      "slug": "email-security",
+      "name": "Email Security",
+      "domain": "cybersecurity",
+      "type": "preventive",
+      "layer": "technical",
+      "description": "Implement multi-layered email security controls to protect against phishing, business email compromise, malware delivery, and data exfiltration via email channels.",
+      "clauses": [
+        "11.9"
+      ],
+      "keyActivities": [
+        "Deploy email gateway security with anti-phishing, anti-malware, sandboxing, and URL rewriting capabilities",
+        "Implement DMARC, DKIM, and SPF records for all institutional email domains to prevent spoofing",
+        "Configure data loss prevention rules on outbound email to detect sensitive banking data leakage",
+        "Enable advanced threat protection for attachment detonation and impersonation detection"
+      ],
+      "maturity": {
+        "basic": "Email gateway with anti-spam, anti-malware filtering, and basic SPF/DKIM/DMARC configuration.",
+        "mature": "Advanced email security with sandboxing, URL rewriting, impersonation protection, and automated phishing response with user-reported email workflows.",
+        "advanced": "AI-powered email security with natural language analysis for BEC detection, automated incident response for confirmed phishing, and continuous simulation-driven policy tuning."
+      },
+      "toolExamples": [
+        "Proofpoint",
+        "Mimecast",
+        "Microsoft Defender for Office 365",
+        "Abnormal Security"
+      ],
+      "nist": [
+        "SI-3",
+        "SI-8",
+        "SC-7"
+      ],
+      "iso27001": [
+        "A.8.7",
+        "A.8.21",
+        "A.8.23"
+      ]
+    },
+    {
+      "slug": "data-loss-prevention",
+      "name": "Data Loss Prevention",
+      "domain": "cybersecurity",
+      "type": "preventive",
+      "layer": "technical",
+      "description": "Implement data loss prevention controls to detect and prevent unauthorised exfiltration of sensitive banking data, customer PII, and regulated information across all channels.",
+      "clauses": [
+        "11.10"
+      ],
+      "keyActivities": [
+        "Classify sensitive data types including customer PII, financial records, and card data per Malaysian PDPA and PCI DSS requirements",
+        "Deploy DLP controls across email, web, endpoint, and cloud storage channels with policy-based enforcement",
+        "Define DLP policies for critical data patterns such as NRIC numbers, bank account numbers, and credit card data",
+        "Monitor and investigate DLP policy violations with documented response procedures and escalation to compliance"
+      ],
+      "maturity": {
+        "basic": "DLP policies deployed on email and web channels for known sensitive data patterns with basic alerting.",
+        "mature": "Comprehensive DLP across all channels with content inspection, contextual analysis, automated blocking for high-severity violations, and integration with data classification.",
+        "advanced": "Intelligent DLP with machine-learning-based content classification, user behaviour analytics for insider threat detection, and adaptive policies that adjust based on risk context."
+      },
+      "toolExamples": [
+        "Microsoft Purview DLP",
+        "Symantec DLP",
+        "Digital Guardian",
+        "Forcepoint DLP"
+      ],
+      "nist": [
+        "SC-7",
+        "AC-4",
+        "SI-4",
+        "MP-5"
+      ],
+      "iso27001": [
+        "A.8.11",
+        "A.8.12",
+        "A.5.33"
+      ]
+    },
+    {
+      "slug": "vulnerability-assessment",
+      "name": "Vulnerability Assessment",
+      "domain": "cybersecurity",
+      "type": "detective",
+      "layer": "technical",
+      "description": "Conduct regular vulnerability assessments across all technology assets to identify, prioritise, and remediate security weaknesses before exploitation.",
+      "clauses": [
+        "11.11",
+        "11.14"
+      ],
+      "keyActivities": [
+        "Perform monthly vulnerability scans across all network segments, servers, endpoints, and applications",
+        "Prioritise vulnerabilities using risk-based scoring that considers asset criticality, exploitability, and threat context",
+        "Define remediation SLAs based on vulnerability severity: critical within 14 days, high within 30 days, medium within 90 days",
+        "Track vulnerability remediation metrics and report trends to IT risk committee",
+        "Conduct vulnerability assessments prior to production deployment and after significant infrastructure changes"
+      ],
+      "maturity": {
+        "basic": "Scheduled vulnerability scans with severity-based remediation SLAs and periodic reporting to management.",
+        "mature": "Continuous vulnerability scanning with risk-based prioritisation, automated ticketing for remediation, and integration with patch management and change control.",
+        "advanced": "Risk-based vulnerability management with threat-intelligence enrichment, attack-path analysis, predictive exploitability scoring, and automated remediation for defined vulnerability classes."
+      },
+      "toolExamples": [
+        "Tenable Nessus",
+        "Qualys VMDR",
+        "Rapid7 InsightVM",
+        "Microsoft Defender Vulnerability Management"
+      ],
+      "nist": [
+        "RA-5",
+        "SI-2",
+        "SI-5"
+      ],
+      "iso27001": [
+        "A.8.8",
+        "A.8.34"
+      ]
+    },
+    {
+      "slug": "penetration-testing",
+      "name": "Penetration Testing",
+      "domain": "cybersecurity",
+      "type": "detective",
+      "layer": "technical",
+      "description": "Conduct periodic penetration testing of critical systems, applications, and network infrastructure to validate the effectiveness of security controls in a Malaysian banking context.",
+      "clauses": [
+        "11.12"
+      ],
+      "keyActivities": [
+        "Perform annual penetration testing of all internet-facing systems, critical applications, and internal network segments",
+        "Engage qualified independent testers with financial services experience for external penetration tests",
+        "Scope penetration tests to cover web applications, APIs, mobile banking apps, network infrastructure, and social engineering",
+        "Track and remediate all penetration testing findings with retesting to confirm effective closure"
+      ],
+      "maturity": {
+        "basic": "Annual penetration testing by qualified external providers with finding remediation tracked to closure.",
+        "mature": "Semi-annual penetration testing with scenario-based testing aligned to banking threat landscape, including social engineering and physical security assessments.",
+        "advanced": "Continuous penetration testing programme with adversary simulation, objective-based testing aligned to crown-jewel assets, and integration with red-team and purple-team exercises."
+      },
+      "toolExamples": [
+        "Cobalt Strike",
+        "Burp Suite Professional",
+        "Metasploit",
+        "Kali Linux"
+      ],
+      "nist": [
+        "CA-8",
+        "RA-5",
+        "SA-11"
+      ],
+      "iso27001": [
+        "A.8.8",
+        "A.8.34"
+      ]
+    },
+    {
+      "slug": "red-team-exercises",
+      "name": "Red Team Exercises",
+      "domain": "cybersecurity",
+      "type": "detective",
+      "layer": "process",
+      "description": "Conduct adversary simulation exercises using red-team methodologies to test the institution's detection and response capabilities against realistic advanced threat scenarios.",
+      "clauses": [
+        "11.13"
+      ],
+      "keyActivities": [
+        "Plan and execute red-team exercises simulating advanced persistent threat actors targeting the Malaysian financial sector",
+        "Define realistic objectives such as accessing core banking data, manipulating payment systems, or exfiltrating customer records",
+        "Conduct purple-team debriefs to identify detection gaps and improve SOC detection capabilities",
+        "Document findings with tactical and strategic recommendations and track remediation through risk register"
+      ],
+      "maturity": {
+        "basic": "Annual red-team exercise with defined scope and objectives, findings documented and tracked for remediation.",
+        "mature": "Regular red-team exercises using threat-intelligence-informed scenarios with purple-team collaboration to improve detection coverage against MITRE ATT&CK techniques.",
+        "advanced": "Continuous adversary emulation programme with automated breach-and-attack simulation, real-time detection gap analysis, and integration into security control validation lifecycle."
+      },
+      "toolExamples": [
+        "Cobalt Strike",
+        "MITRE CALDERA",
+        "AttackIQ",
+        "SafeBreach"
+      ],
+      "nist": [
+        "CA-8(1)",
+        "RA-5",
+        "PM-14"
+      ],
+      "iso27001": [
+        "A.8.8",
+        "A.8.34"
+      ]
+    },
+    {
+      "slug": "bug-bounty-and-disclosure",
+      "name": "Bug Bounty and Responsible Disclosure",
+      "domain": "cybersecurity",
+      "type": "detective",
+      "layer": "process",
+      "description": "Establish a vulnerability disclosure programme or bug bounty initiative to leverage external security researchers in identifying vulnerabilities in customer-facing banking systems.",
+      "clauses": [
+        "11.15"
+      ],
+      "keyActivities": [
+        "Define a responsible disclosure policy with clear scope, rules of engagement, and legal safe harbour provisions",
+        "Establish a vulnerability intake process with triage, validation, and remediation workflows",
+        "Consider a bug bounty programme for internet-facing banking applications and digital channels",
+        "Track disclosed vulnerabilities through remediation and provide timely feedback to researchers"
+      ],
+      "maturity": {
+        "basic": "Published responsible disclosure policy with a dedicated security contact email and documented intake procedures.",
+        "mature": "Managed bug bounty programme on an established platform with defined reward tiers, SLA-driven triage, and integration with vulnerability management.",
+        "advanced": "Mature bug bounty programme with private researcher pools, continuous scope expansion, VIP programmes for top researchers, and analytics-driven programme optimisation."
+      },
+      "toolExamples": [
+        "HackerOne",
+        "Bugcrowd",
+        "Intigriti",
+        "YesWeHack"
+      ],
+      "nist": [
+        "PM-15",
+        "RA-5",
+        "SI-5"
+      ],
+      "iso27001": [
+        "A.8.8",
+        "A.5.7"
+      ]
+    },
+    {
+      "slug": "threat-intelligence-program",
+      "name": "Threat Intelligence Program",
+      "domain": "cybersecurity",
+      "type": "detective",
+      "layer": "process",
+      "description": "Establish a cyber threat intelligence programme that collects, analyses, and operationalises threat intelligence relevant to the Malaysian financial services sector.",
+      "clauses": [
+        "11.16",
+        "11.17"
+      ],
+      "keyActivities": [
+        "Subscribe to threat intelligence feeds relevant to ASEAN and Malaysian financial sector threats including from MyCERT and FS-ISAC",
+        "Develop intelligence analysis capability to produce tactical, operational, and strategic threat assessments",
+        "Operationalise threat intelligence into detection rules, vulnerability prioritisation, and risk assessments",
+        "Participate in industry threat-sharing communities including BNM-facilitated and ASEAN financial sector groups",
+        "Produce periodic threat landscape briefings for senior management and board risk committee"
+      ],
+      "maturity": {
+        "basic": "Subscription to commercial and government threat feeds with manual dissemination to SOC and IT security teams.",
+        "mature": "Dedicated threat intelligence function producing contextualised intelligence products, automated feed integration into SIEM, and active participation in FS-ISAC and local sharing communities.",
+        "advanced": "Intelligence-driven security operations with predictive analysis, custom threat modelling for institutional crown jewels, automated TIP integration, and strategic intelligence informing board-level risk decisions."
+      },
+      "toolExamples": [
+        "Recorded Future",
+        "Mandiant Advantage",
+        "MISP",
+        "Anomali ThreatStream",
+        "OpenCTI"
+      ],
+      "nist": [
+        "PM-16",
+        "RA-3",
+        "SI-5"
+      ],
+      "iso27001": [
+        "A.5.7",
+        "A.8.16"
+      ]
+    },
+    {
+      "slug": "threat-hunting",
+      "name": "Threat Hunting",
+      "domain": "cybersecurity",
+      "type": "detective",
+      "layer": "technical",
+      "description": "Conduct proactive threat hunting activities to identify advanced threats and adversary presence that may evade automated detection controls in banking environments.",
+      "clauses": [
+        "11.18"
+      ],
+      "keyActivities": [
+        "Develop threat hunting hypotheses based on threat intelligence, MITRE ATT&CK techniques, and banking sector attack patterns",
+        "Conduct regular threat hunting campaigns across endpoint, network, and cloud telemetry data",
+        "Document hunting methodologies, findings, and convert successful hunts into automated detection rules",
+        "Train SOC analysts in threat hunting techniques and allocate dedicated hunting time within SOC operations"
+      ],
+      "maturity": {
+        "basic": "Ad-hoc threat hunting conducted in response to threat advisories and intelligence reports using SIEM and EDR tools.",
+        "mature": "Structured threat hunting programme with hypothesis-driven campaigns, dedicated hunters, and a feedback loop converting hunt findings into detection engineering.",
+        "advanced": "Data-science-driven threat hunting with advanced analytics, custom tooling, automated hypothesis generation, and continuous hunting integrated into daily SOC operations."
+      },
+      "toolExamples": [
+        "Elastic Security",
+        "CrowdStrike Falcon OverWatch",
+        "Microsoft Defender Advanced Hunting",
+        "Jupyter Notebooks"
+      ],
+      "nist": [
+        "RA-5",
+        "SI-4",
+        "IR-4"
+      ],
+      "iso27001": [
+        "A.8.16",
+        "A.5.7"
+      ]
+    },
+    {
+      "slug": "ioc-management",
+      "name": "IOC Management",
+      "domain": "cybersecurity",
+      "type": "detective",
+      "layer": "technical",
+      "description": "Manage indicators of compromise through systematic collection, validation, distribution, and operationalisation across security monitoring infrastructure.",
+      "clauses": [
+        "11.19"
+      ],
+      "keyActivities": [
+        "Establish a threat intelligence platform for IOC aggregation, deduplication, and lifecycle management",
+        "Automate IOC distribution to perimeter defences, SIEM, EDR, and email security controls",
+        "Validate and score IOCs for relevance and confidence before operationalisation to reduce false positives",
+        "Define IOC retention and expiry policies to maintain detection accuracy and platform performance"
+      ],
+      "maturity": {
+        "basic": "Manual IOC management with feeds ingested into SIEM and periodic updates to blocking lists on security controls.",
+        "mature": "Automated IOC lifecycle management via TIP with confidence scoring, automated distribution to detection and prevention controls, and feedback loops on detection hits.",
+        "advanced": "Intelligent IOC management with machine-learning-based scoring, automated enrichment and pivoting, STIX/TAXII-based sharing with industry peers, and real-time correlation with internal telemetry."
+      },
+      "toolExamples": [
+        "MISP",
+        "OpenCTI",
+        "Anomali ThreatStream",
+        "ThreatConnect"
+      ],
+      "nist": [
+        "SI-5",
+        "PM-16",
+        "SI-4"
+      ],
+      "iso27001": [
+        "A.5.7",
+        "A.8.16"
+      ]
+    },
+    {
+      "slug": "cyber-situational-awareness",
+      "name": "Cyber Situational Awareness",
+      "domain": "cybersecurity",
+      "type": "detective",
+      "layer": "process",
+      "description": "Maintain continuous awareness of the cyber threat landscape relevant to Malaysian financial services through monitoring, analysis, and information sharing.",
+      "clauses": [
+        "11.20"
+      ],
+      "keyActivities": [
+        "Monitor threat advisories from BNM, MyCERT, CyberSecurity Malaysia, and international financial sector CERTs",
+        "Maintain a cyber threat dashboard providing real-time visibility into external threat landscape and internal security posture",
+        "Produce regular situational awareness briefings for IT security, business stakeholders, and senior management",
+        "Assess emerging threats for potential impact on the institution's technology environment and digital banking services"
+      ],
+      "maturity": {
+        "basic": "Monitoring of regulatory and industry threat advisories with periodic situational reports to IT security management.",
+        "mature": "Integrated cyber situational awareness with real-time dashboards, automated advisory processing, and regular briefings to senior management linked to institutional risk context.",
+        "advanced": "Predictive situational awareness combining external threat intelligence, internal telemetry, dark web monitoring, and geopolitical analysis to anticipate threats to the Malaysian financial sector."
+      },
+      "toolExamples": [
+        "Recorded Future",
+        "Flashpoint",
+        "Digital Shadows",
+        "Silobreaker"
+      ],
+      "nist": [
+        "PM-16",
+        "SI-5",
+        "RA-3"
+      ],
+      "iso27001": [
+        "A.5.7",
+        "A.8.16"
+      ]
+    }
+  ],
+  "digital-services": [
+    {
+      "slug": "digital-channel-security",
+      "name": "Digital Channel Security",
+      "domain": "digital-services",
+      "type": "preventive",
+      "layer": "technical",
+      "description": "Implement security controls across all digital banking channels including internet banking, mobile banking, and open banking to protect customer transactions and data.",
+      "clauses": [
+        "12.1"
+      ],
+      "keyActivities": [
+        "Enforce TLS 1.2 or higher with strong cipher suites across all customer-facing digital banking channels",
+        "Implement certificate pinning for mobile banking applications and validate certificate chains",
+        "Deploy web application firewalls with rulesets tuned for banking application attack patterns",
+        "Conduct security assessments of all digital channels prior to launch and after significant changes"
+      ],
+      "maturity": {
+        "basic": "Baseline security controls on digital channels with TLS enforcement, WAF deployment, and periodic security assessments.",
+        "mature": "Defence-in-depth across all digital channels with runtime application protection, bot management, API security gateways, and continuous security monitoring.",
+        "advanced": "Adaptive digital channel security with real-time risk scoring, behavioural analytics for anomaly detection, automated threat response, and DevSecOps-integrated continuous security validation."
+      },
+      "toolExamples": [
+        "Akamai",
+        "Cloudflare",
+        "F5 Advanced WAF",
+        "Imperva"
+      ],
+      "nist": [
+        "SC-8",
+        "SC-13",
+        "SC-23"
+      ],
+      "iso27001": [
+        "A.8.20",
+        "A.8.24",
+        "A.8.26"
+      ]
+    },
+    {
+      "slug": "mobile-application-security",
+      "name": "Mobile Application Security",
+      "domain": "digital-services",
+      "type": "preventive",
+      "layer": "technical",
+      "description": "Secure mobile banking applications through hardening, integrity protection, and runtime defence mechanisms to protect against reverse engineering, tampering, and overlay attacks.",
+      "clauses": [
+        "12.2"
+      ],
+      "keyActivities": [
+        "Implement mobile application hardening including code obfuscation, anti-tampering, and jailbreak/root detection",
+        "Conduct mobile application security testing (SAST, DAST, IAST) aligned with OWASP MASVS before each release",
+        "Deploy runtime application self-protection (RASP) for mobile banking apps to detect and respond to runtime threats",
+        "Implement secure local storage for sensitive data with platform-appropriate encryption (Keychain/Keystore)"
+      ],
+      "maturity": {
+        "basic": "Mobile app security testing before release with basic hardening and secure storage implementation.",
+        "mature": "Comprehensive mobile security with RASP, device integrity verification, secure communication channels, and automated security testing in CI/CD pipelines.",
+        "advanced": "Advanced mobile protection with behavioural biometrics, device fingerprinting, real-time threat intelligence integration, and continuous security posture assessment of the mobile app ecosystem."
+      },
+      "toolExamples": [
+        "Promon SHIELD",
+        "Guardsquare DexGuard/iXGuard",
+        "Zimperium",
+        "NowSecure"
+      ],
+      "nist": [
+        "SA-15",
+        "SI-7",
+        "SC-28"
+      ],
+      "iso27001": [
+        "A.8.25",
+        "A.8.26",
+        "A.8.28"
+      ]
+    },
+    {
+      "slug": "api-security",
+      "name": "API Security",
+      "domain": "digital-services",
+      "type": "preventive",
+      "layer": "technical",
+      "description": "Secure APIs used for digital banking services, open banking, and third-party integrations with authentication, authorisation, rate limiting, and input validation controls.",
+      "clauses": [
+        "12.3"
+      ],
+      "keyActivities": [
+        "Implement API gateway with OAuth 2.0/OpenID Connect authentication, rate limiting, and request validation",
+        "Enforce API schema validation, input sanitisation, and output encoding to prevent injection attacks",
+        "Maintain an API inventory and classify APIs by risk level with appropriate security controls per classification",
+        "Monitor API usage patterns for anomalies and implement automated blocking of suspicious API consumers",
+        "Conduct API-specific penetration testing covering OWASP API Security Top 10 risks"
+      ],
+      "maturity": {
+        "basic": "API gateway deployed with authentication, basic rate limiting, and input validation for all exposed APIs.",
+        "mature": "Comprehensive API security with schema enforcement, automated threat detection, API-specific WAF rules, and developer security guidelines integrated into API design process.",
+        "advanced": "AI-driven API security with behavioural analysis of API consumers, automated vulnerability detection, API abuse prevention, and continuous compliance validation for open banking standards."
+      },
+      "toolExamples": [
+        "Kong Gateway",
+        "Apigee",
+        "AWS API Gateway",
+        "Salt Security",
+        "42Crunch"
+      ],
+      "nist": [
+        "SC-7",
+        "AC-3",
+        "SI-10",
+        "SC-8"
+      ],
+      "iso27001": [
+        "A.8.24",
+        "A.8.26",
+        "A.8.28"
+      ]
+    },
+    {
+      "slug": "customer-authentication",
+      "name": "Customer Authentication",
+      "domain": "digital-services",
+      "type": "preventive",
+      "layer": "technical",
+      "description": "Implement strong customer authentication mechanisms for digital banking services that balance security with user experience while meeting BNM RMiT requirements.",
+      "clauses": [
+        "12.4",
+        "12.8"
+      ],
+      "keyActivities": [
+        "Deploy multi-factor authentication for customer login to internet and mobile banking using secure methods",
+        "Implement risk-based authentication that escalates authentication strength based on transaction risk and context",
+        "Support secure authentication methods including biometrics, hardware tokens, and secure push notifications",
+        "Ensure authentication mechanisms are resistant to phishing, SIM-swap, and man-in-the-middle attacks"
+      ],
+      "maturity": {
+        "basic": "MFA for customer digital banking access with SMS OTP and secure password policies.",
+        "mature": "Risk-based adaptive authentication with biometric options, device binding, and step-up authentication for high-risk transactions such as fund transfers and payee registration.",
+        "advanced": "Continuous customer authentication with behavioural biometrics, device trust scoring, and frictionless risk-based authentication reducing MFA prompts for trusted sessions while strengthening security for anomalous access."
+      },
+      "toolExamples": [
+        "Ping Identity",
+        "ForgeRock",
+        "Transmit Security",
+        "BioCatch"
+      ],
+      "nist": [
+        "IA-2",
+        "IA-5",
+        "IA-8"
+      ],
+      "iso27001": [
+        "A.5.17",
+        "A.8.5"
+      ]
+    },
+    {
+      "slug": "transaction-verification",
+      "name": "Transaction Verification",
+      "domain": "digital-services",
+      "type": "preventive",
+      "layer": "technical",
+      "description": "Implement transaction signing and verification controls to ensure the integrity and authenticity of customer-initiated financial transactions through digital channels.",
+      "clauses": [
+        "12.5"
+      ],
+      "keyActivities": [
+        "Implement transaction signing for high-risk transactions using out-of-band verification channels",
+        "Display transaction details (amount, recipient, account) in the verification channel to prevent transaction manipulation",
+        "Deploy dynamic linking between the authentication code and the specific transaction details being authorised",
+        "Monitor for transaction verification bypass attempts and implement anomaly detection on verification patterns"
+      ],
+      "maturity": {
+        "basic": "OTP-based transaction verification for fund transfers and critical account changes with transaction details displayed.",
+        "mature": "Dynamic transaction signing with secure push notifications displaying full transaction context, device binding, and resistance to real-time phishing and social engineering.",
+        "advanced": "Cryptographic transaction signing with dynamic linking, hardware-backed verification on mobile devices, and real-time fraud analytics on transaction verification behaviour patterns."
+      },
+      "toolExamples": [
+        "OneSpan",
+        "Entrust",
+        "Thales SafeNet",
+        "Entersekt"
+      ],
+      "nist": [
+        "IA-9",
+        "SC-13",
+        "AU-10"
+      ],
+      "iso27001": [
+        "A.8.5",
+        "A.8.24",
+        "A.8.26"
+      ]
+    },
+    {
+      "slug": "session-management",
+      "name": "Session Management",
+      "domain": "digital-services",
+      "type": "preventive",
+      "layer": "technical",
+      "description": "Implement secure session management controls for digital banking applications to prevent session hijacking, fixation, and unauthorised session reuse.",
+      "clauses": [
+        "12.6"
+      ],
+      "keyActivities": [
+        "Enforce session timeout policies appropriate to channel risk: shorter timeouts for internet banking, configurable for mobile",
+        "Implement secure session token generation using cryptographically strong random number generators",
+        "Prevent concurrent sessions from multiple devices or locations with customer notification of active sessions",
+        "Invalidate sessions on password change, privilege escalation, and detected anomalies"
+      ],
+      "maturity": {
+        "basic": "Session timeouts enforced with secure token generation and session invalidation on logout and password change.",
+        "mature": "Advanced session management with device fingerprinting, concurrent session controls, anomaly-triggered session termination, and customer session visibility features.",
+        "advanced": "Continuous session risk assessment with behavioural analysis, automatic re-authentication triggers, session binding to device and network context, and real-time session compromise detection."
+      },
+      "toolExamples": [
+        "F5 BIG-IP APM",
+        "Akamai Enterprise Application Access",
+        "ForgeRock"
+      ],
+      "nist": [
+        "AC-12",
+        "SC-23",
+        "SC-10"
+      ],
+      "iso27001": [
+        "A.8.5",
+        "A.8.24"
+      ]
+    },
+    {
+      "slug": "fraud-detection",
+      "name": "Fraud Detection",
+      "domain": "digital-services",
+      "type": "detective",
+      "layer": "technical",
+      "description": "Deploy real-time fraud detection and prevention capabilities across digital banking channels to identify and block fraudulent transactions and account takeover attempts.",
+      "clauses": [
+        "12.7"
+      ],
+      "keyActivities": [
+        "Implement real-time transaction fraud monitoring with rules and machine-learning models for anomaly detection",
+        "Deploy device intelligence and behavioural analytics to detect account takeover and authorised push payment fraud",
+        "Define fraud detection rules covering transaction velocity, geo-anomaly, beneficiary risk, and amount thresholds",
+        "Establish fraud investigation workflows with integration to transaction blocking and customer notification capabilities",
+        "Report fraud trends and losses to management and participate in industry fraud intelligence sharing"
+      ],
+      "maturity": {
+        "basic": "Rule-based fraud detection system monitoring digital banking transactions with manual investigation workflows.",
+        "mature": "Hybrid fraud detection combining rules and machine-learning models, real-time transaction scoring, automated blocking for high-confidence fraud, and case management for investigations.",
+        "advanced": "AI-driven fraud prevention with deep learning models, network analysis for mule account detection, real-time adaptive rules, and consortium-based fraud intelligence sharing across Malaysian banks."
+      },
+      "toolExamples": [
+        "NICE Actimize",
+        "SAS Fraud Management",
+        "Featurespace",
+        "Feedzai"
+      ],
+      "nist": [
+        "SI-4",
+        "AU-6",
+        "IR-4"
+      ],
+      "iso27001": [
+        "A.8.16",
+        "A.5.7"
+      ]
+    },
+    {
+      "slug": "qr-code-and-ewallet-security",
+      "name": "QR Code and E-Wallet Security",
+      "domain": "digital-services",
+      "type": "preventive",
+      "layer": "technical",
+      "description": "Implement security controls for QR code-based payment systems and e-wallet services to prevent QR code manipulation, payment fraud, and unauthorised wallet access in line with BNM guidelines.",
+      "clauses": [
+        "12.9"
+      ],
+      "keyActivities": [
+        "Validate QR code integrity and authenticity to prevent QR code substitution and injection attacks at merchant points",
+        "Implement transaction limits and velocity controls for QR-based and e-wallet payments aligned with BNM guidelines",
+        "Secure e-wallet provisioning, top-up, and withdrawal processes with appropriate authentication controls",
+        "Monitor QR payment and e-wallet transactions for fraud patterns including merchant impersonation and QR overlay attacks"
+      ],
+      "maturity": {
+        "basic": "QR code validation controls with transaction limits and basic fraud monitoring for QR-based and e-wallet payments.",
+        "mature": "Cryptographically signed QR codes, dynamic QR with expiry, merchant verification, and real-time fraud detection for DuitNow QR and e-wallet transactions.",
+        "advanced": "Advanced QR security with device attestation, location-based risk analysis, AI-driven fraud prevention across payment channels, and real-time merchant risk scoring integrated with PayNet ecosystem."
+      },
+      "toolExamples": [
+        "PayNet DuitNow QR",
+        "SAS Fraud Management",
+        "Featurespace"
+      ],
+      "nist": [
+        "SC-13",
+        "SI-4",
+        "IA-9"
+      ],
+      "iso27001": [
+        "A.8.24",
+        "A.8.26"
+      ]
+    }
+  ],
+  "assurance-and-compliance": [
+    {
+      "slug": "it-audit-program",
+      "name": "IT Audit Program",
+      "domain": "assurance-and-compliance",
+      "type": "detective",
+      "layer": "process",
+      "description": "Establish a risk-based IT audit programme that provides independent assurance on the effectiveness of technology risk management, cybersecurity controls, and IT governance.",
+      "clauses": [
+        "13.1",
+        "13.4"
+      ],
+      "keyActivities": [
+        "Develop an annual risk-based IT audit plan covering critical technology domains, cybersecurity, and regulatory requirements",
+        "Execute IT audits assessing control design and operating effectiveness with reference to BNM RMiT requirements",
+        "Track audit findings and management action plans with escalation for overdue items to audit committee",
+        "Perform follow-up audits to validate remediation effectiveness and closure of identified deficiencies"
+      ],
+      "maturity": {
+        "basic": "Annual IT audit plan with coverage of key technology risk areas and documented findings tracking.",
+        "mature": "Risk-based IT audit programme with continuous auditing techniques, data analytics, and integrated findings management linked to enterprise risk register.",
+        "advanced": "Agile IT audit with continuous assurance, automated control testing, real-time risk monitoring, and predictive analytics to focus audit resources on emerging risk areas."
+      },
+      "toolExamples": [
+        "Galvanize/Diligent HighBond",
+        "AuditBoard",
+        "TeamMate+",
+        "ServiceNow GRC"
+      ],
+      "nist": [
+        "CA-2",
+        "CA-7",
+        "AU-6"
+      ],
+      "iso27001": [
+        "A.5.35",
+        "A.5.36"
+      ]
+    },
+    {
+      "slug": "it-audit-independence-and-competency",
+      "name": "IT Audit Independence and Competency",
+      "domain": "assurance-and-compliance",
+      "type": "preventive",
+      "layer": "process",
+      "description": "Ensure the IT audit function maintains independence, objectivity, and adequate technical competency to effectively assess complex technology and cybersecurity environments.",
+      "clauses": [
+        "13.2",
+        "13.3"
+      ],
+      "keyActivities": [
+        "Maintain organisational independence of the IT audit function with direct reporting to the audit committee",
+        "Ensure IT auditors possess relevant certifications (CISA, CISSP, CRISC) and receive ongoing technical training",
+        "Supplement internal IT audit capability with specialised external resources for complex technology assessments",
+        "Assess and maintain the competency matrix for IT audit staff covering emerging technologies such as cloud, AI, and blockchain"
+      ],
+      "maturity": {
+        "basic": "IT audit function with defined independence charter and auditors holding relevant professional certifications.",
+        "mature": "Dedicated IT audit team with specialised skills in cybersecurity, cloud, and emerging technology, supplemented by co-sourcing arrangements for niche expertise.",
+        "advanced": "IT audit centre of excellence with advanced data analytics capability, continuous professional development programme, and thought leadership on technology risk assurance methodologies."
+      },
+      "toolExamples": [
+        "ISACA CISA Training",
+        "SANS Audit Courses",
+        "IIA Standards"
+      ],
+      "nist": [
+        "CA-2",
+        "PM-14"
+      ],
+      "iso27001": [
+        "A.5.35",
+        "A.5.36"
+      ]
+    },
+    {
+      "slug": "third-party-security-assessment",
+      "name": "Third-Party Security Assessment",
+      "domain": "assurance-and-compliance",
+      "type": "detective",
+      "layer": "process",
+      "description": "Conduct security assessments of third-party technology service providers, cloud providers, and outsourcing partners to validate compliance with contractual and regulatory security requirements.",
+      "clauses": [
+        "14.1",
+        "14.2"
+      ],
+      "keyActivities": [
+        "Perform risk-based security assessments of critical third-party service providers on an annual basis at minimum",
+        "Evaluate third-party SOC 2 Type II reports, ISO 27001 certifications, and conduct supplementary assessments where gaps exist",
+        "Assess cloud service provider security posture against BNM cloud risk management requirements",
+        "Monitor third-party security performance through KPIs, SLA compliance, and incident notification adherence",
+        "Maintain a register of all third-party technology dependencies with risk ratings and assessment schedules"
+      ],
+      "maturity": {
+        "basic": "Annual third-party security assessments using questionnaires and review of certifications for critical service providers.",
+        "mature": "Structured third-party security programme with risk-tiered assessment methodologies, continuous monitoring of critical providers, and contractual right-to-audit enforcement.",
+        "advanced": "Continuous third-party risk intelligence with automated security rating monitoring, real-time risk alerting, supply chain attack surface mapping, and collaborative security improvement programmes with strategic providers."
+      },
+      "toolExamples": [
+        "BitSight",
+        "SecurityScorecard",
+        "OneTrust Vendorpedia",
+        "Prevalent"
+      ],
+      "nist": [
+        "SA-9",
+        "SR-6",
+        "CA-2"
+      ],
+      "iso27001": [
+        "A.5.19",
+        "A.5.20",
+        "A.5.21",
+        "A.5.22"
+      ]
+    },
+    {
+      "slug": "security-awareness-program",
+      "name": "Security Awareness Program",
+      "domain": "assurance-and-compliance",
+      "type": "preventive",
+      "layer": "process",
+      "description": "Deliver a comprehensive security awareness programme to all staff, contractors, and board members to build a security-conscious culture aligned with BNM RMiT expectations.",
+      "clauses": [
+        "15.1"
+      ],
+      "keyActivities": [
+        "Deliver mandatory annual security awareness training covering cyber threats, data protection, and regulatory responsibilities",
+        "Provide role-specific training for high-risk roles such as IT administrators, developers, and treasury operations staff",
+        "Measure awareness effectiveness through assessments, phishing simulation results, and incident reporting metrics",
+        "Maintain training records and ensure completion rates meet compliance thresholds with escalation for non-compliance"
+      ],
+      "maturity": {
+        "basic": "Annual mandatory security awareness training for all staff with completion tracking and basic effectiveness measurement.",
+        "mature": "Continuous security awareness programme with monthly micro-learning, role-specific modules, gamification, and behaviour-based metrics informing programme content.",
+        "advanced": "Adaptive security awareness with personalised learning paths based on individual risk profiles, real-time teachable moments triggered by user behaviour, and security culture measurement integrated into enterprise risk reporting."
+      },
+      "toolExamples": [
+        "KnowBe4",
+        "Proofpoint Security Awareness",
+        "SANS Security Awareness",
+        "Cofense"
+      ],
+      "nist": [
+        "AT-1",
+        "AT-2",
+        "AT-3"
+      ],
+      "iso27001": [
+        "A.6.3",
+        "A.5.4"
+      ]
+    },
+    {
+      "slug": "phishing-simulation",
+      "name": "Phishing Simulation",
+      "domain": "assurance-and-compliance",
+      "type": "detective",
+      "layer": "technical",
+      "description": "Conduct regular phishing simulation exercises to measure employee susceptibility and reinforce security awareness in recognising and reporting social engineering attacks.",
+      "clauses": [
+        "15.2"
+      ],
+      "keyActivities": [
+        "Conduct monthly phishing simulation campaigns with varied scenarios reflecting current threat landscape targeting Malaysian banks",
+        "Track click rates, credential submission rates, and reporting rates as key performance indicators",
+        "Provide immediate just-in-time training for employees who fall for simulated phishing attempts",
+        "Report phishing simulation trends to management and use results to tailor awareness programme content"
+      ],
+      "maturity": {
+        "basic": "Quarterly phishing simulations with basic reporting on click rates and remedial training for repeat offenders.",
+        "mature": "Monthly simulations with diverse scenarios (spear-phishing, BEC, smishing), department-level analytics, and progressive difficulty based on employee performance.",
+        "advanced": "Continuous phishing resilience testing with AI-generated personalised attack simulations, real-time reporting integration, peer benchmarking, and predictive modelling of organisational phishing risk."
+      },
+      "toolExamples": [
+        "KnowBe4 PhishER",
+        "Cofense PhishMe",
+        "Proofpoint Attack Simulation",
+        "Hoxhunt"
+      ],
+      "nist": [
+        "AT-2(1)",
+        "CA-8"
+      ],
+      "iso27001": [
+        "A.6.3",
+        "A.5.4"
+      ]
+    },
+    {
+      "slug": "role-based-security-training",
+      "name": "Role-Based Security Training",
+      "domain": "assurance-and-compliance",
+      "type": "preventive",
+      "layer": "process",
+      "description": "Deliver specialised security training programmes tailored to specific roles including developers, system administrators, and senior management to address role-specific risk exposure.",
+      "clauses": [
+        "15.3"
+      ],
+      "keyActivities": [
+        "Develop and maintain role-based training curricula for developers (secure coding), IT ops (secure configuration), and management (cyber risk oversight)",
+        "Deliver secure coding training to all application developers covering OWASP Top 10, API security, and secure SDLC practices",
+        "Provide board and senior management with periodic cyber risk briefings and governance training",
+        "Track role-based training completion and effectiveness through practical assessments and certification requirements"
+      ],
+      "maturity": {
+        "basic": "Role-based training modules for key technical roles with annual completion requirements and basic assessments.",
+        "mature": "Comprehensive role-based programme with hands-on labs, capture-the-flag exercises for technical staff, and board-level cyber simulation exercises.",
+        "advanced": "Adaptive role-based training with personalised learning paths, continuous skill assessment, cyber range exercises for incident responders, and executive war-gaming for senior leadership."
+      },
+      "toolExamples": [
+        "SANS Training",
+        "Immersive Labs",
+        "Hack The Box",
+        "Secure Code Warrior"
+      ],
+      "nist": [
+        "AT-3",
+        "AT-4"
+      ],
+      "iso27001": [
+        "A.6.3"
+      ]
+    },
+    {
+      "slug": "incident-notification-framework",
+      "name": "Incident Notification Framework",
+      "domain": "assurance-and-compliance",
+      "type": "corrective",
+      "layer": "process",
+      "description": "Establish a regulatory incident notification framework ensuring timely and accurate reporting of technology and cybersecurity incidents to BNM within mandated timelines.",
+      "clauses": [
+        "16.1"
+      ],
+      "keyActivities": [
+        "Define incident classification criteria aligned with BNM RMiT notification thresholds and severity levels",
+        "Establish notification workflows ensuring critical incidents are reported to BNM within mandated timelines (typically 1 hour for critical events)",
+        "Maintain pre-approved notification templates and communication channels for BNM incident reporting",
+        "Conduct post-incident reporting including root cause analysis and remediation plans as required by BNM"
+      ],
+      "maturity": {
+        "basic": "Documented incident notification procedures with defined BNM reporting thresholds, templates, and designated contact points.",
+        "mature": "Streamlined notification workflow with automated severity classification, pre-staged report templates, and rehearsed escalation procedures with designated BNM liaison.",
+        "advanced": "Integrated incident reporting platform with automated threshold detection, pre-populated regulatory notification forms, and real-time coordination capabilities with BNM and industry peers."
+      },
+      "toolExamples": [
+        "ServiceNow GRC",
+        "RSA Archer",
+        "Fusion Risk Management"
+      ],
+      "nist": [
+        "IR-6",
+        "IR-7"
+      ],
+      "iso27001": [
+        "A.5.24",
+        "A.5.26",
+        "A.6.8"
+      ]
+    },
+    {
+      "slug": "technology-change-notification",
+      "name": "Technology Change Notification",
+      "domain": "assurance-and-compliance",
+      "type": "preventive",
+      "layer": "process",
+      "description": "Notify BNM of significant technology changes, system implementations, and major IT projects as required by RMiT notification provisions.",
+      "clauses": [
+        "16.2",
+        "16.4"
+      ],
+      "keyActivities": [
+        "Maintain a register of technology changes requiring BNM notification such as core system replacements, cloud migrations, and new digital services",
+        "Submit technology change notifications to BNM within prescribed timelines with required supporting documentation",
+        "Coordinate with business and technology teams to compile impact assessments, risk evaluations, and implementation plans for BNM submissions",
+        "Track BNM feedback on notifications and ensure any conditions or observations are addressed prior to go-live"
+      ],
+      "maturity": {
+        "basic": "Manual tracking of technology changes requiring BNM notification with documented submission procedures.",
+        "mature": "Centralised change notification register with workflow-driven preparation, review, and submission process with automated timeline tracking and reminder alerts.",
+        "advanced": "Integrated regulatory change management platform with automated identification of notifiable changes from project portfolio, pre-populated submission templates, and regulatory feedback tracking."
+      },
+      "toolExamples": [
+        "ServiceNow GRC",
+        "RSA Archer",
+        "Microsoft Planner"
+      ],
+      "nist": [
+        "CM-3",
+        "CM-4",
+        "SA-10"
+      ],
+      "iso27001": [
+        "A.5.36",
+        "A.8.32"
+      ]
+    },
+    {
+      "slug": "outsourcing-notification",
+      "name": "Outsourcing Notification",
+      "domain": "assurance-and-compliance",
+      "type": "preventive",
+      "layer": "process",
+      "description": "Notify BNM of material outsourcing arrangements for technology services and ensure outsourcing agreements meet RMiT requirements for risk management and data protection.",
+      "clauses": [
+        "16.3"
+      ],
+      "keyActivities": [
+        "Identify and classify technology outsourcing arrangements that require BNM notification based on materiality and criticality",
+        "Submit outsourcing notifications to BNM with comprehensive risk assessments, due diligence reports, and contractual terms",
+        "Ensure outsourcing agreements include BNM-required provisions for audit rights, data sovereignty, exit management, and business continuity",
+        "Monitor outsourced service provider performance and report material changes or incidents to BNM as required"
+      ],
+      "maturity": {
+        "basic": "Manual identification and notification of material outsourcing arrangements with documented BNM submission procedures.",
+        "mature": "Centralised outsourcing register with risk classification, automated notification tracking, and contractual compliance monitoring against BNM RMiT requirements.",
+        "advanced": "Integrated third-party risk and outsourcing governance platform with automated materiality assessment, continuous provider monitoring, and proactive regulatory engagement on outsourcing arrangements."
+      },
+      "toolExamples": [
+        "OneTrust Vendorpedia",
+        "ServiceNow Vendor Risk",
+        "Prevalent"
+      ],
+      "nist": [
+        "SA-9",
+        "SR-1",
+        "SR-6"
+      ],
+      "iso27001": [
+        "A.5.19",
+        "A.5.20",
+        "A.5.21"
+      ]
+    },
+    {
+      "slug": "regulatory-examination-response",
+      "name": "Regulatory Examination Response",
+      "domain": "assurance-and-compliance",
+      "type": "corrective",
+      "layer": "process",
+      "description": "Manage responses to BNM regulatory examinations, on-site inspections, and supervisory findings with structured tracking and timely remediation of identified issues.",
+      "clauses": [
+        "16.5",
+        "16.6"
+      ],
+      "keyActivities": [
+        "Establish a coordination framework for BNM regulatory examinations including document preparation, interview scheduling, and evidence management",
+        "Track all regulatory examination findings and supervisory observations in a centralised remediation tracker",
+        "Develop and execute remediation action plans with defined timelines, owners, and milestones agreed with BNM",
+        "Report remediation progress to board audit committee and BNM within prescribed timelines"
+      ],
+      "maturity": {
+        "basic": "Documented examination response procedures with centralised tracking of findings and remediation actions.",
+        "mature": "Structured examination management programme with dedicated coordination function, evidence repository, automated remediation tracking, and periodic progress reporting to board.",
+        "advanced": "Proactive regulatory engagement with predictive examination readiness assessments, continuous compliance monitoring reducing examination findings, and data-driven remediation prioritisation."
+      },
+      "toolExamples": [
+        "RSA Archer",
+        "ServiceNow GRC",
+        "Wolters Kluwer OneSumX"
+      ],
+      "nist": [
+        "CA-2",
+        "CA-5",
+        "PM-9"
+      ],
+      "iso27001": [
+        "A.5.35",
+        "A.5.36"
+      ]
+    },
+    {
+      "slug": "annual-technology-risk-reporting",
+      "name": "Annual Technology Risk Reporting",
+      "domain": "assurance-and-compliance",
+      "type": "detective",
+      "layer": "process",
+      "description": "Prepare and submit annual technology risk reports to BNM summarising the institution's technology risk profile, key risk indicators, and control effectiveness.",
+      "clauses": [
+        "16.7"
+      ],
+      "keyActivities": [
+        "Compile annual technology risk report covering risk profile, incident trends, audit findings, and control effectiveness metrics",
+        "Include assessment of emerging technology risks such as AI, cloud concentration, and supply chain dependencies",
+        "Obtain board or board risk committee endorsement of the annual technology risk report prior to BNM submission",
+        "Benchmark technology risk metrics against industry standards and prior-year performance to demonstrate trend analysis"
+      ],
+      "maturity": {
+        "basic": "Annual technology risk report compiled manually with key metrics and submitted to BNM within prescribed timelines.",
+        "mature": "Structured annual reporting with automated data aggregation from GRC platforms, trend analysis, peer benchmarking, and board-endorsed submission.",
+        "advanced": "Continuous technology risk reporting capability with real-time dashboards, automated annual report generation, predictive risk analytics, and proactive identification of emerging risk themes for BNM engagement."
+      },
+      "toolExamples": [
+        "ServiceNow GRC",
+        "RSA Archer",
+        "Power BI",
+        "Tableau"
+      ],
+      "nist": [
+        "PM-9",
+        "PM-28",
+        "CA-7"
+      ],
+      "iso27001": [
+        "A.5.35",
+        "A.5.36"
+      ]
+    },
+    {
+      "slug": "rmit-self-assessment",
+      "name": "RMiT Self-Assessment",
+      "domain": "assurance-and-compliance",
+      "type": "detective",
+      "layer": "process",
+      "description": "Conduct periodic self-assessments against BNM RMiT requirements to identify compliance gaps, track remediation progress, and demonstrate regulatory compliance maturity.",
+      "clauses": [
+        "18.1"
+      ],
+      "keyActivities": [
+        "Perform annual self-assessment against all applicable BNM RMiT policy documents and clauses",
+        "Map existing controls to RMiT requirements and identify gaps with risk-rated remediation priorities",
+        "Track self-assessment findings in a centralised compliance register with assigned owners and target dates",
+        "Report self-assessment results and remediation progress to board risk committee and designated BNM liaison"
+      ],
+      "maturity": {
+        "basic": "Annual RMiT self-assessment conducted via spreadsheets with gap identification and basic remediation tracking.",
+        "mature": "Structured self-assessment programme with GRC platform support, evidence-linked control mapping, automated gap analysis, and quarterly remediation progress reporting.",
+        "advanced": "Continuous compliance monitoring with automated control testing against RMiT requirements, real-time compliance dashboards, predictive gap identification, and integration with regulatory change management."
+      },
+      "toolExamples": [
+        "ServiceNow GRC",
+        "RSA Archer",
+        "MetricStream",
+        "OneTrust"
+      ],
+      "nist": [
+        "CA-2",
+        "CA-5",
+        "PM-9"
+      ],
+      "iso27001": [
+        "A.5.35",
+        "A.5.36"
+      ]
+    },
+    {
+      "slug": "gap-remediation-tracking",
+      "name": "Gap Remediation Tracking",
+      "domain": "assurance-and-compliance",
+      "type": "detective",
+      "layer": "process",
+      "description": "Track and manage the remediation of identified compliance gaps from RMiT self-assessments, regulatory examinations, and audit findings through to verified closure.",
+      "clauses": [
+        "18.2"
+      ],
+      "keyActivities": [
+        "Maintain a centralised remediation register consolidating gaps from self-assessments, audits, regulatory examinations, and penetration tests",
+        "Define remediation action plans with clear owners, milestones, resource requirements, and target completion dates",
+        "Implement escalation procedures for overdue remediation items with reporting to senior management and board audit committee",
+        "Verify remediation effectiveness through independent validation before closing items in the compliance register",
+        "Report remediation status and trends to BNM as required and during regulatory examinations"
+      ],
+      "maturity": {
+        "basic": "Centralised remediation tracker with defined owners, target dates, and periodic status reporting to management.",
+        "mature": "GRC-platform-managed remediation with automated status tracking, escalation workflows, evidence management, and integrated reporting across audit, risk, and compliance functions.",
+        "advanced": "Intelligent remediation management with risk-based prioritisation, predictive completion analysis, automated evidence validation, and continuous monitoring to detect control regression after remediation."
+      },
+      "toolExamples": [
+        "ServiceNow GRC",
+        "RSA Archer",
+        "Galvanize/Diligent HighBond",
+        "AuditBoard"
+      ],
+      "nist": [
+        "CA-5",
+        "PM-4",
+        "PM-9"
+      ],
+      "iso27001": [
+        "A.5.35",
+        "A.5.36"
+      ]
+    }
+  ]
+}

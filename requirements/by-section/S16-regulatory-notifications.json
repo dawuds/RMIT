@@ -1,0 +1,635 @@
+{
+  "16.1": {
+    "clauseId": "16.1",
+    "section": "Regulatory Notifications",
+    "subsection": "BNM Notifications",
+    "title": "Material Incident Notification",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "business": {
+      "summary": "Timely notification of material incidents to BNM is a mandatory regulatory obligation that protects systemic stability and demonstrates the institution's commitment to transparent regulatory engagement.",
+      "requirements": [
+        {
+          "id": "16.1-B1",
+          "requirement": "Notify Bank Negara Malaysia of all material technology and cybersecurity incidents within four hours of detection, including the nature of the incident, systems affected, estimated impact, and initial response actions",
+          "rationale": "The four-hour notification window is a strict regulatory requirement; failure to meet it constitutes a compliance breach and may result in supervisory action by BNM",
+          "owner": "Head of Regulatory Affairs",
+          "frequency": "Per-incident",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.1-B2",
+          "requirement": "Submit a detailed follow-up report to BNM within fourteen days of the initial notification, covering root cause analysis, full impact assessment, remediation actions, and lessons learned",
+          "rationale": "The 14-day follow-up report demonstrates thorough incident investigation and remediation planning, enabling BNM to assess systemic risk implications",
+          "owner": "Head of Regulatory Affairs",
+          "frequency": "Per-incident",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.1-B3",
+          "requirement": "Define clear materiality criteria for determining which incidents require BNM notification, covering customer impact, financial loss, data breach, service disruption duration, and reputational impact thresholds",
+          "rationale": "Without defined materiality criteria, the institution risks either under-reporting (regulatory breach) or over-reporting (diluting the significance of notifications)",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Technology systems must support rapid incident detection, automated escalation to regulatory affairs, and pre-populated notification workflows to meet the four-hour BNM notification deadline.",
+      "requirements": [
+        {
+          "id": "16.1-T1",
+          "requirement": "Implement automated incident escalation workflows that trigger BNM notification preparation immediately upon a material incident being classified, with countdown timers tracking the four-hour deadline",
+          "rationale": "Manual escalation processes are too slow and error-prone to consistently meet the four-hour deadline; automated workflows ensure timely notification preparation begins immediately",
+          "owner": "Head of IT",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.1-T2",
+          "requirement": "Maintain pre-populated BNM notification templates within the incident management system that capture required fields including incident nature, affected systems, estimated impact, and initial response actions",
+          "rationale": "Pre-populated templates reduce the time needed to compile notification details and ensure all required information fields are captured consistently",
+          "owner": "Head of IT",
+          "frequency": "Continuous",
+          "priority": "High"
+        },
+        {
+          "id": "16.1-T3",
+          "requirement": "Configure incident management tools to automatically log all notification-related timestamps including detection time, classification time, notification preparation time, and submission time",
+          "rationale": "Auditable timestamps provide evidence of compliance with the four-hour window and enable post-incident review of notification timeliness",
+          "owner": "Head of IT",
+          "frequency": "Continuous",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Governance procedures must define the end-to-end BNM notification process with clear roles, escalation paths, and approval authorities to ensure timely and accurate regulatory reporting.",
+      "requirements": [
+        {
+          "id": "16.1-G1",
+          "requirement": "Document a BNM incident notification procedure defining materiality criteria, notification content requirements, approval authorities, submission channels, and the escalation path from incident detection to BNM submission",
+          "rationale": "A documented procedure ensures all stakeholders understand their roles and the notification process can be executed consistently under the pressure of an active incident",
+          "owner": "Head of Regulatory Affairs",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.1-G2",
+          "requirement": "Conduct tabletop exercises at least annually that simulate the end-to-end BNM incident notification process, testing the ability to meet the four-hour deadline",
+          "rationale": "Tabletop exercises identify bottlenecks in the notification process before a real incident occurs, ensuring the four-hour deadline is achievable in practice",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "High"
+        },
+        {
+          "id": "16.1-G3",
+          "requirement": "Maintain a register of all BNM incident notifications submitted, including timestamps, content summaries, follow-up report status, and any BNM feedback received",
+          "rationale": "A centralised register provides an auditable record of regulatory notification compliance and facilitates tracking of follow-up report obligations",
+          "owner": "Compliance Officer",
+          "frequency": "Continuous",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "16.2": {
+    "clauseId": "16.2",
+    "section": "Regulatory Notifications",
+    "subsection": "BNM Notifications",
+    "title": "Technology Project Notification",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "business": {
+      "summary": "Advance notification of major technology projects to BNM enables regulatory oversight of changes that could significantly affect the institution's operations or customers, preventing surprises that undermine systemic stability.",
+      "requirements": [
+        {
+          "id": "16.2-B1",
+          "requirement": "Notify BNM at least three months prior to the planned implementation of any major technology project that may significantly impact operations or customers, including project scope, risk assessment, and implementation timeline",
+          "rationale": "The three-month advance notification is a mandatory regulatory requirement; late notification may result in BNM directing the institution to delay implementation",
+          "owner": "Head of Regulatory Affairs",
+          "frequency": "Per-project",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.2-B2",
+          "requirement": "Define clear criteria for identifying which technology projects qualify as major and require BNM notification, considering customer impact, operational significance, and risk profile",
+          "rationale": "Without defined criteria, the institution risks either failing to notify BNM of significant projects or overwhelming the regulator with unnecessary notifications",
+          "owner": "CTO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.2-B3",
+          "requirement": "Include a comprehensive risk assessment with each project notification covering technology risk, operational risk, customer impact, and implementation risk with mitigation strategies",
+          "rationale": "BNM requires risk assessments to evaluate whether the institution has adequately considered the risks of major technology changes before implementation",
+          "owner": "CRO",
+          "frequency": "Per-project",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Project management and governance tools must support identification of notifiable projects, track notification timelines, and ensure three-month advance notification compliance.",
+      "requirements": [
+        {
+          "id": "16.2-T1",
+          "requirement": "Integrate BNM notification checkpoints into the project management lifecycle so that major projects are flagged for regulatory notification at the project initiation or approval stage",
+          "rationale": "Early identification in the project lifecycle ensures three-month advance notification is feasible; late identification risks missing the deadline",
+          "owner": "Head of IT",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.2-T2",
+          "requirement": "Maintain a centralised project portfolio register that flags all projects meeting major project criteria and tracks their BNM notification status and submission dates",
+          "rationale": "A centralised register prevents projects from proceeding without required notification and provides an auditable trail of notification compliance",
+          "owner": "Head of IT",
+          "frequency": "Continuous",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Governance processes must embed BNM notification requirements into project approval workflows to ensure no major project proceeds without timely regulatory notification.",
+      "requirements": [
+        {
+          "id": "16.2-G1",
+          "requirement": "Document a technology project notification procedure defining major project criteria, notification content requirements, approval authorities, and the three-month advance submission process",
+          "rationale": "A documented procedure ensures consistent identification and notification of major projects across all business units and technology teams",
+          "owner": "Head of Regulatory Affairs",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.2-G2",
+          "requirement": "Require BNM notification assessment as a mandatory gate in the project approval process, with Compliance Officer sign-off confirming whether notification is required",
+          "rationale": "A mandatory gate prevents major projects from advancing to implementation without the required BNM notification being submitted",
+          "owner": "Compliance Officer",
+          "frequency": "Per-project",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.2-G3",
+          "requirement": "Maintain records of all BNM project notifications including submission dates, project implementation dates, BNM acknowledgements, and any BNM feedback or conditions received",
+          "rationale": "Comprehensive records demonstrate compliance with the three-month advance requirement and provide audit evidence of regulatory engagement",
+          "owner": "Compliance Officer",
+          "frequency": "Continuous",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "16.3": {
+    "clauseId": "16.3",
+    "section": "Regulatory Notifications",
+    "subsection": "BNM Notifications",
+    "title": "Outsourcing Notification",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "business": {
+      "summary": "Pre-notification of material technology outsourcing arrangements to BNM ensures regulatory visibility over third-party dependencies that could affect the institution's operational resilience and customer data protection.",
+      "requirements": [
+        {
+          "id": "16.3-B1",
+          "requirement": "Notify BNM prior to entering into any material outsourcing arrangement involving technology services, including the scope of outsourced services, risk assessment, and oversight mechanisms",
+          "rationale": "Prior notification is mandatory; entering into material outsourcing arrangements without BNM notification constitutes a regulatory breach",
+          "owner": "Head of Regulatory Affairs",
+          "frequency": "Per-arrangement",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.3-B2",
+          "requirement": "Define materiality criteria for outsourcing arrangements that consider criticality of the technology service, customer data exposure, operational dependency, and substitutability of the provider",
+          "rationale": "Clear materiality criteria ensure consistent identification of outsourcing arrangements requiring BNM notification and prevent unnotified material arrangements",
+          "owner": "CRO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.3-B3",
+          "requirement": "Include comprehensive oversight mechanisms in each notification, detailing how the institution will monitor the outsourced service provider's performance, security posture, and compliance with contractual obligations",
+          "rationale": "BNM expects institutions to demonstrate that outsourcing does not diminish their ability to manage technology risks and protect customer interests",
+          "owner": "Head of Vendor Management",
+          "frequency": "Per-arrangement",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Vendor management and procurement systems must flag material outsourcing arrangements for BNM notification and track notification status throughout the procurement lifecycle.",
+      "requirements": [
+        {
+          "id": "16.3-T1",
+          "requirement": "Integrate BNM notification checkpoints into the vendor onboarding and procurement workflow so that material technology outsourcing arrangements are flagged before contracts are signed",
+          "rationale": "Integration into procurement workflows prevents contracts being executed before BNM notification is submitted, ensuring the prior notification requirement is met",
+          "owner": "Head of IT",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.3-T2",
+          "requirement": "Maintain a centralised outsourcing register that tracks all technology outsourcing arrangements, their materiality classification, BNM notification status, and oversight mechanisms in place",
+          "rationale": "A centralised register provides a single view of all outsourcing dependencies and ensures notification compliance is tracked and auditable",
+          "owner": "Head of Vendor Management",
+          "frequency": "Continuous",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Governance frameworks must ensure material outsourcing decisions include BNM notification as a mandatory prerequisite, with documented risk assessments and oversight arrangements.",
+      "requirements": [
+        {
+          "id": "16.3-G1",
+          "requirement": "Document an outsourcing notification procedure defining materiality criteria, notification content requirements, risk assessment standards, and the approval process for material outsourcing arrangements",
+          "rationale": "A documented procedure ensures all business units and procurement teams understand when BNM notification is required and what information must be provided",
+          "owner": "Head of Regulatory Affairs",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.3-G2",
+          "requirement": "Require Compliance Officer sign-off on the materiality assessment for all technology outsourcing arrangements before procurement can proceed",
+          "rationale": "Compliance sign-off creates a mandatory control point that prevents material arrangements from being entered into without notification assessment",
+          "owner": "Compliance Officer",
+          "frequency": "Per-arrangement",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.3-G3",
+          "requirement": "Report all material outsourcing arrangements and their BNM notification status to the board risk committee at least annually, including any BNM feedback or conditions",
+          "rationale": "Board visibility ensures governance oversight of the institution's outsourcing risk profile and regulatory engagement posture",
+          "owner": "Head of Regulatory Affairs",
+          "frequency": "Annual",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "16.4": {
+    "clauseId": "16.4",
+    "section": "Regulatory Notifications",
+    "subsection": "BNM Notifications",
+    "title": "Cloud Adoption Notification",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "business": {
+      "summary": "Pre-notification of cloud adoption for critical systems or customer data to BNM is mandatory, ensuring regulatory oversight of data residency, shared responsibility, and concentration risks inherent in cloud deployments.",
+      "requirements": [
+        {
+          "id": "16.4-B1",
+          "requirement": "Notify BNM prior to adopting cloud services for critical systems or systems that process, store, or transmit customer data, including the cloud risk assessment, data residency arrangements, and shared responsibility model",
+          "rationale": "Prior notification is mandatory; deploying customer data or critical systems to the cloud without BNM notification constitutes a serious regulatory breach",
+          "owner": "Head of Regulatory Affairs",
+          "frequency": "Per-adoption",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.4-B2",
+          "requirement": "Conduct and document a comprehensive cloud risk assessment for each cloud adoption covering data security, data residency, vendor lock-in, concentration risk, and regulatory compliance before BNM notification",
+          "rationale": "BNM expects a substantive risk assessment that demonstrates the institution has fully evaluated cloud-specific risks before committing to cloud deployment",
+          "owner": "CRO",
+          "frequency": "Per-adoption",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.4-B3",
+          "requirement": "Document data residency arrangements confirming where customer data will be stored, processed, and backed up, including any cross-border data transfer implications under Malaysian data protection law",
+          "rationale": "Data residency is a critical BNM concern; the institution must demonstrate awareness and control over where customer data physically resides",
+          "owner": "Chief Data Officer",
+          "frequency": "Per-adoption",
+          "priority": "Critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Cloud adoption workflows must include BNM notification checkpoints, and technical teams must document shared responsibility boundaries and data residency configurations for each cloud deployment.",
+      "requirements": [
+        {
+          "id": "16.4-T1",
+          "requirement": "Document the shared responsibility model for each cloud service provider clearly delineating security responsibilities between the institution and the cloud service provider across all service layers",
+          "rationale": "The shared responsibility model is a mandatory component of the BNM notification and ensures the institution understands which security controls it must implement versus those managed by the provider",
+          "owner": "Cloud Architect",
+          "frequency": "Per-adoption",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.4-T2",
+          "requirement": "Configure and validate data residency controls within the cloud environment to ensure customer data remains within approved jurisdictions, with technical evidence of configuration",
+          "rationale": "Technical validation of data residency configurations provides concrete evidence that data sovereignty commitments in the BNM notification are implemented in practice",
+          "owner": "Cloud Architect",
+          "frequency": "Per-adoption",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.4-T3",
+          "requirement": "Integrate BNM cloud notification requirements into the cloud service adoption workflow to prevent deployment of critical workloads or customer data to cloud before notification is submitted",
+          "rationale": "Workflow integration creates a technical control point that prevents cloud deployment before regulatory notification, reducing the risk of non-compliance",
+          "owner": "Head of IT",
+          "frequency": "Continuous",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Governance processes must ensure BNM cloud notification is a mandatory prerequisite for any cloud deployment involving critical systems or customer data, with documented risk assessments and data residency arrangements.",
+      "requirements": [
+        {
+          "id": "16.4-G1",
+          "requirement": "Document a cloud adoption notification procedure defining which cloud deployments require BNM notification, notification content requirements, and the approval process ensuring notification precedes deployment",
+          "rationale": "A documented procedure ensures all cloud adoption decisions are assessed against BNM notification requirements before deployment proceeds",
+          "owner": "Head of Regulatory Affairs",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.4-G2",
+          "requirement": "Require joint sign-off from the CRO, CISO, and Compliance Officer on all cloud adoption BNM notifications before submission, confirming adequacy of risk assessment, security controls, and data residency arrangements",
+          "rationale": "Multi-stakeholder sign-off ensures the notification reflects comprehensive assessment across risk, security, and compliance dimensions",
+          "owner": "Compliance Officer",
+          "frequency": "Per-adoption",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.4-G3",
+          "requirement": "Maintain a register of all cloud adoption BNM notifications with submission dates, deployment dates, BNM acknowledgements, and any conditions or feedback received from BNM",
+          "rationale": "A centralised register provides auditable evidence of compliance with the prior notification requirement and tracks regulatory engagement",
+          "owner": "Compliance Officer",
+          "frequency": "Continuous",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "16.5": {
+    "clauseId": "16.5",
+    "section": "Regulatory Notifications",
+    "subsection": "BNM Notifications",
+    "title": "Technology Audit Findings",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "business": {
+      "summary": "Timely reporting of significant technology audit findings to BNM demonstrates the institution's transparency and enables the regulator to assess whether material control weaknesses are being addressed across the financial sector.",
+      "requirements": [
+        {
+          "id": "16.5-B1",
+          "requirement": "Report significant technology audit findings to BNM within thirty days of the audit report being finalised, covering findings that indicate material weaknesses in technology risk management, cybersecurity controls, or regulatory compliance",
+          "rationale": "The thirty-day reporting deadline is a mandatory requirement; delayed reporting may indicate the institution is concealing material weaknesses from the regulator",
+          "owner": "Head of Internal Audit",
+          "frequency": "Per-audit",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.5-B2",
+          "requirement": "Define clear criteria for identifying which audit findings qualify as significant and require BNM reporting, covering material control weaknesses, systemic vulnerabilities, and regulatory non-compliance",
+          "rationale": "Defined criteria ensure consistent classification of significant findings and prevent both under-reporting and over-reporting to BNM",
+          "owner": "Head of Internal Audit",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.5-B3",
+          "requirement": "Include management response and remediation commitments in all significant finding reports submitted to BNM, with specific actions, owners, and target dates",
+          "rationale": "BNM expects to see that significant findings are being actively addressed; reporting without remediation plans signals inadequate governance",
+          "owner": "Head of Internal Audit",
+          "frequency": "Per-audit",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Audit management systems must support identification, classification, and timely reporting of significant findings to BNM within the thirty-day deadline.",
+      "requirements": [
+        {
+          "id": "16.5-T1",
+          "requirement": "Configure the audit management system to flag findings that meet significant finding criteria and trigger BNM reporting workflows with thirty-day deadline tracking",
+          "rationale": "Automated flagging and deadline tracking reduce the risk of significant findings being missed or reported late",
+          "owner": "Head of IT",
+          "frequency": "Continuous",
+          "priority": "High"
+        },
+        {
+          "id": "16.5-T2",
+          "requirement": "Maintain an automated audit finding tracker that monitors remediation progress for all significant findings reported to BNM, with alerts for overdue remediation actions",
+          "rationale": "BNM may follow up on reported findings; an automated tracker ensures the institution can demonstrate progress at any time",
+          "owner": "Head of IT",
+          "frequency": "Continuous",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Governance processes must ensure significant audit findings are identified, classified, reported to BNM within thirty days, and tracked to remediation with board oversight.",
+      "requirements": [
+        {
+          "id": "16.5-G1",
+          "requirement": "Document an audit finding reporting procedure for BNM defining significant finding criteria, reporting content requirements, approval authorities, and the thirty-day submission workflow",
+          "rationale": "A documented procedure ensures consistent and timely identification and reporting of significant findings across all audit engagements",
+          "owner": "Head of Internal Audit",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.5-G2",
+          "requirement": "Present all significant technology audit findings and their BNM reporting status to the board audit committee, including remediation progress and any BNM feedback",
+          "rationale": "Board audit committee oversight ensures accountability for addressing significant findings and maintains transparency with governance bodies",
+          "owner": "Head of Internal Audit",
+          "frequency": "Quarterly",
+          "priority": "High"
+        },
+        {
+          "id": "16.5-G3",
+          "requirement": "Maintain a register of all significant audit findings reported to BNM with submission dates, finding summaries, management responses, remediation status, and BNM feedback",
+          "rationale": "A centralised register provides an auditable trail of compliance with the thirty-day reporting requirement and facilitates tracking of remediation commitments",
+          "owner": "Head of Internal Audit",
+          "frequency": "Continuous",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "16.6": {
+    "clauseId": "16.6",
+    "section": "Regulatory Notifications",
+    "subsection": "BNM Notifications",
+    "title": "Regulatory Examination Response",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "business": {
+      "summary": "Timely and comprehensive response to BNM regulatory examination findings demonstrates the institution's commitment to regulatory compliance and ensures supervisory concerns are addressed with concrete action plans.",
+      "requirements": [
+        {
+          "id": "16.6-B1",
+          "requirement": "Respond to all BNM regulatory examination findings within the timeframes specified by the Bank, with action plans developed for every finding including specific actions, owners, and target completion dates",
+          "rationale": "Failure to respond within BNM-specified timeframes is a serious compliance breach that may trigger enhanced supervisory action or enforcement measures",
+          "owner": "Head of Regulatory Affairs",
+          "frequency": "Per-examination",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.6-B2",
+          "requirement": "Report remediation progress on examination findings to both the board and BNM as required, with status updates on each finding's action plan",
+          "rationale": "Dual reporting to the board and BNM ensures governance oversight and regulatory transparency throughout the remediation process",
+          "owner": "Head of Regulatory Affairs",
+          "frequency": "Quarterly",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.6-B3",
+          "requirement": "Ensure full cooperation with BNM regulatory examinations by providing timely access to systems, documentation, personnel, and facilities as requested by examination teams",
+          "rationale": "Full cooperation is mandatory; obstruction or delay in providing information may result in supervisory sanctions and undermines the institution's regulatory relationship",
+          "owner": "CEO",
+          "frequency": "Per-examination",
+          "priority": "Critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Technology systems must support efficient examination cooperation including secure data provision, finding tracking, and remediation progress monitoring.",
+      "requirements": [
+        {
+          "id": "16.6-T1",
+          "requirement": "Maintain a centralised examination finding tracker that records all BNM examination findings, response deadlines, action plans, remediation status, and evidence of closure",
+          "rationale": "A centralised tracker prevents findings from being lost or forgotten and enables real-time status reporting to both the board and BNM",
+          "owner": "Head of IT",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.6-T2",
+          "requirement": "Establish secure channels for providing documentation and system access to BNM examination teams, including secure file sharing, read-only system access, and dedicated examination workspaces",
+          "rationale": "Secure and efficient information provision demonstrates cooperation and professionalism while maintaining appropriate access controls",
+          "owner": "Head of IT",
+          "frequency": "Per-examination",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Governance processes must ensure examination findings are escalated to the board, responded to within required timeframes, and tracked to completion with regular progress reporting.",
+      "requirements": [
+        {
+          "id": "16.6-G1",
+          "requirement": "Document a regulatory examination response procedure defining the process for receiving, triaging, responding to, and remediating BNM examination findings within required timeframes",
+          "rationale": "A documented procedure ensures the institution can mobilise efficiently when examination findings are received and prevents ad-hoc responses that may miss deadlines",
+          "owner": "Head of Regulatory Affairs",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.6-G2",
+          "requirement": "Present all BNM examination findings and remediation action plans to the board within one board cycle of receipt, with quarterly progress updates thereafter",
+          "rationale": "Board visibility ensures the highest level of governance oversight for regulatory examination findings and demonstrates institutional seriousness",
+          "owner": "Head of Regulatory Affairs",
+          "frequency": "Per-examination",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.6-G3",
+          "requirement": "Assign senior management owners for each examination finding with accountability for remediation delivery within committed timeframes",
+          "rationale": "Senior management ownership ensures adequate authority and resources are allocated to remediation and creates clear accountability for delivery",
+          "owner": "CEO",
+          "frequency": "Per-examination",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "16.7": {
+    "clauseId": "16.7",
+    "section": "Regulatory Notifications",
+    "subsection": "BNM Notifications",
+    "title": "Annual Technology Risk Report",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "business": {
+      "summary": "The annual technology risk report to BNM provides the regulator with a comprehensive view of the institution's technology risk posture, significant incidents, key risk indicators, and strategic plans for managing technology risk.",
+      "requirements": [
+        {
+          "id": "16.7-B1",
+          "requirement": "Submit a comprehensive annual technology risk report to BNM covering the institution's technology risk posture, significant incidents during the reporting period, key risk indicators, and planned technology risk management initiatives",
+          "rationale": "The annual report is a mandatory regulatory submission that enables BNM to monitor the institution's technology risk profile and planned improvements",
+          "owner": "Head of Regulatory Affairs",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.7-B2",
+          "requirement": "Include an honest and comprehensive assessment of the institution's technology risk posture identifying both strengths and areas requiring improvement",
+          "rationale": "BNM expects candid self-assessment; an overly positive report that omits known weaknesses will undermine credibility during subsequent examinations",
+          "owner": "CRO",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.7-B3",
+          "requirement": "Detail all significant technology and cybersecurity incidents from the reporting period with lessons learned and implemented improvements",
+          "rationale": "Incident analysis demonstrates the institution's learning culture and provides BNM with visibility into the frequency and nature of technology incidents",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Technology systems must support aggregation of risk data, incident metrics, and KRI dashboards to enable comprehensive annual reporting to BNM.",
+      "requirements": [
+        {
+          "id": "16.7-T1",
+          "requirement": "Maintain key risk indicator (KRI) dashboards that track technology risk metrics throughout the year, providing the data foundation for the annual BNM report",
+          "rationale": "Continuous KRI tracking ensures accurate and evidence-based annual reporting rather than retrospective data gathering exercises",
+          "owner": "Head of IT",
+          "frequency": "Continuous",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.7-T2",
+          "requirement": "Implement automated incident data aggregation to compile annual incident summaries by category, severity, impact, and resolution time",
+          "rationale": "Automated aggregation ensures completeness and accuracy of incident data in the annual report and reduces manual compilation effort",
+          "owner": "Head of IT",
+          "frequency": "Annual",
+          "priority": "High"
+        },
+        {
+          "id": "16.7-T3",
+          "requirement": "Generate technology risk posture assessments using data from vulnerability management, patch management, access management, and incident management systems",
+          "rationale": "Data-driven risk posture assessments provide BNM with verifiable metrics rather than subjective opinions about the institution's technology risk status",
+          "owner": "Head of IT",
+          "frequency": "Annual",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Governance processes must ensure the annual report is comprehensive, board-reviewed, and submitted to BNM within required timeframes with consistent year-on-year comparability.",
+      "requirements": [
+        {
+          "id": "16.7-G1",
+          "requirement": "Obtain board review and approval of the annual technology risk report before submission to BNM, with documented board discussion of key findings and planned initiatives",
+          "rationale": "Board approval demonstrates governance oversight and ensures the highest level of the organisation endorses the report's content and committed initiatives",
+          "owner": "Head of Regulatory Affairs",
+          "frequency": "Annual",
+          "priority": "Critical"
+        },
+        {
+          "id": "16.7-G2",
+          "requirement": "Establish a standardised annual reporting template and process to ensure consistency, comparability, and completeness across reporting periods",
+          "rationale": "A standardised template ensures all required content areas are covered and enables year-on-year comparison of the institution's technology risk posture",
+          "owner": "CRO",
+          "frequency": "Annual",
+          "priority": "High"
+        },
+        {
+          "id": "16.7-G3",
+          "requirement": "Include forward-looking planned initiatives for the coming year with specific objectives, timelines, and resource commitments in the annual report",
+          "rationale": "Forward-looking initiatives demonstrate proactive risk management and provide BNM with visibility into the institution's strategic direction for technology risk",
+          "owner": "CTO",
+          "frequency": "Annual",
+          "priority": "High"
+        }
+      ]
+    }
+  }
+}

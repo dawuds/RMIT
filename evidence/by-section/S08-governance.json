@@ -1,0 +1,829 @@
+{
+  "8.1": {
+    "clauseId": "8.1",
+    "section": "Governance",
+    "subsection": "Board of Directors",
+    "title": "Board Oversight of Technology Risk",
+    "clauseType": "governance",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that the board actively oversees technology risk rather than merely receiving information passively. They look for evidence of board-level challenge, dedicated agenda time, approved budgets, and integration of technology risk into the enterprise risk management framework.",
+    "evidenceItems": [
+      {
+        "id": "8.1-E1",
+        "name": "Board meeting minutes discussing technology risk",
+        "description": "Board meeting minutes discussing technology risk",
+        "whatGoodLooksLike": [
+          "Minutes show specific technology risk agenda items (not buried under AOB)",
+          "Evidence of board members asking questions and challenging management presentations",
+          "Clear action items with assigned owners and deadlines arising from technology risk discussions",
+          "Documented board decisions on technology risk matters such as budget approvals or risk acceptance"
+        ],
+        "commonGaps": [
+          "Technology risk mentioned only as a footnote or information item with no recorded discussion",
+          "No evidence of board members engaging, questioning, or challenging management",
+          "Missing action items or follow-up tracking from previous board technology risk discussions",
+          "Minutes are generic and do not reflect substantive deliberation on specific technology risks"
+        ],
+        "suggestedSources": [
+          "Board secretariat records",
+          "Board portal or collaboration platform (e.g., Diligent, BoardEffect)",
+          "Company secretary archives"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "8.1-E2",
+        "name": "Enterprise risk management framework incorporating technology risk",
+        "description": "Enterprise risk management framework incorporating technology risk",
+        "whatGoodLooksLike": [
+          "Technology risk is explicitly identified as a distinct risk category within the ERM framework",
+          "Clear linkages between technology risk and other risk categories such as operational, credit, and reputational risk",
+          "Defined risk taxonomy that includes technology-specific risk types such as cyber risk, data risk, and system availability risk",
+          "Framework references BNM RMiT requirements and maps controls to specific clauses"
+        ],
+        "commonGaps": [
+          "Technology risk treated as a subset of operational risk without distinct identification or assessment criteria",
+          "ERM framework last updated more than 12 months ago with no evidence of annual review",
+          "No mapping between technology risk categories and business impact scenarios",
+          "Framework does not reference or align with BNM RMiT policy requirements"
+        ],
+        "suggestedSources": [
+          "Enterprise risk management team documentation",
+          "GRC platform (e.g., ServiceNow GRC, RSA Archer, MetricStream)",
+          "Chief Risk Officer office records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "8.1-E3",
+        "name": "Board-approved technology risk budget and resource allocation",
+        "description": "Board-approved technology risk budget and resource allocation",
+        "whatGoodLooksLike": [
+          "Dedicated line items for technology risk management in the annual budget, separate from general IT spending",
+          "Board resolution or minutes recording formal approval of the technology risk budget",
+          "Budget covers cybersecurity tools, risk personnel, training, third-party assessments, and incident response capabilities",
+          "Quarterly variance reports showing actual spend against approved budget presented to the board"
+        ],
+        "commonGaps": [
+          "Technology risk budget is bundled within general IT or operational budgets with no separate visibility",
+          "No formal board approval record for the technology risk budget allocation",
+          "Budget does not cover all critical areas such as incident response, training, or third-party risk assessments",
+          "No tracking of budget utilisation or variance reporting to the board"
+        ],
+        "suggestedSources": [
+          "Finance department budget records",
+          "Board meeting papers and resolutions",
+          "CFO office quarterly financial reports"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "8.1-E4",
+        "name": "Board terms of reference covering technology risk oversight",
+        "description": "Board terms of reference covering technology risk oversight",
+        "whatGoodLooksLike": [
+          "Terms of reference explicitly include technology risk oversight as a board responsibility",
+          "Defined frequency and format for technology risk reporting to the board",
+          "Clear delineation of board versus management responsibilities for technology risk",
+          "Terms of reference reviewed and updated within the last 12 months"
+        ],
+        "commonGaps": [
+          "Terms of reference do not mention technology risk or cybersecurity oversight responsibilities",
+          "No defined reporting cadence or format for technology risk matters",
+          "Responsibilities for technology risk oversight are vague or conflated with general IT governance",
+          "Terms of reference have not been reviewed or updated in more than two years"
+        ],
+        "suggestedSources": [
+          "Company secretary records",
+          "Board governance documentation",
+          "Corporate governance framework"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Request the last 4 quarters of board minutes and verify technology risk is a standing agenda item with dedicated discussion time, not buried under AOB",
+      "Cross-reference board-approved technology risk budget with actual spending reports to verify resource allocation matches stated commitments",
+      "Check whether the enterprise risk management framework explicitly identifies technology risk as a distinct category with its own assessment criteria",
+      "Verify that board terms of reference were reviewed within the last 12 months and explicitly cover technology risk oversight responsibilities",
+      "Look for evidence of board challenge by examining whether minutes record questions, disagreements, or requests for additional information from management"
+    ]
+  },
+  "8.2": {
+    "clauseId": "8.2",
+    "section": "Governance",
+    "subsection": "Board of Directors",
+    "title": "Board Technology Risk Committee",
+    "clauseType": "governance",
+    "marker": "S",
+    "auditorFocus": "BNM examiners verify that a dedicated board-level technology risk committee exists with qualified members, meets at least quarterly, and produces meaningful outcomes. They will scrutinise member competency profiles, attendance records, and whether the committee exercises genuine challenge rather than rubber-stamping management reports.",
+    "evidenceItems": [
+      {
+        "id": "8.2-E1",
+        "name": "Board committee charter or terms of reference",
+        "description": "Board committee charter or terms of reference",
+        "whatGoodLooksLike": [
+          "Charter clearly defines the committee's mandate covering technology risk, cybersecurity, and IT resilience oversight",
+          "Specifies membership composition requirements including minimum technology or cybersecurity expertise",
+          "Defines quorum requirements, meeting frequency (at least quarterly), and reporting obligations to the full board",
+          "Includes authority to commission independent reviews and access any information necessary for its oversight role"
+        ],
+        "commonGaps": [
+          "Charter is generic and does not specifically address technology risk or cybersecurity oversight responsibilities",
+          "No minimum competency requirements for committee membership specified in the charter",
+          "Charter does not define the committee's authority to commission independent assessments or access information",
+          "Charter has not been reviewed or updated since initial approval"
+        ],
+        "suggestedSources": [
+          "Company secretary records",
+          "Board governance documentation repository",
+          "Corporate governance framework"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "8.2-E2",
+        "name": "Committee member profiles demonstrating relevant expertise",
+        "description": "Committee member profiles demonstrating relevant expertise",
+        "whatGoodLooksLike": [
+          "Each member has a documented profile showing technology, cybersecurity, or IT risk management qualifications or experience",
+          "Profiles include relevant certifications (e.g., CISSP, CISM, CRISC), academic qualifications, or senior industry experience",
+          "Competency gaps are identified with documented plans for addressing them through training or advisory support",
+          "Profiles are updated annually or upon membership changes"
+        ],
+        "commonGaps": [
+          "Committee members lack any documented technology or cybersecurity expertise or experience",
+          "Profiles are outdated and do not reflect current competencies or recent training undertaken",
+          "No formal competency assessment performed against the requirements of the committee charter",
+          "Reliance on a single member for all technology expertise, creating a single point of failure"
+        ],
+        "suggestedSources": [
+          "Human Resources department records",
+          "Company secretary nomination files",
+          "Board skills matrix documentation"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "8.2-E3",
+        "name": "Quarterly meeting schedules and attendance records",
+        "description": "Quarterly meeting schedules and attendance records",
+        "whatGoodLooksLike": [
+          "Annual meeting schedule published at the start of each year with at least four meetings planned",
+          "Attendance records show consistent quorum achievement across all meetings",
+          "Individual member attendance rates are tracked and reported, with minimum attendance thresholds enforced",
+          "Ad hoc meetings are convened when material technology risk events occur outside the regular schedule"
+        ],
+        "commonGaps": [
+          "Fewer than four meetings held in the calendar year without documented justification",
+          "Repeated failure to achieve quorum, with meetings proceeding without sufficient attendees",
+          "No tracking of individual member attendance rates or consequences for poor attendance",
+          "No ad hoc meetings convened despite significant technology incidents occurring during the year"
+        ],
+        "suggestedSources": [
+          "Company secretary meeting management records",
+          "Board portal scheduling system",
+          "Committee chairman's office records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "8.2-E4",
+        "name": "Committee meeting minutes and action items",
+        "description": "Committee meeting minutes and action items",
+        "whatGoodLooksLike": [
+          "Minutes reflect substantive discussion of technology risk topics with specific questions and challenges from committee members",
+          "Action items are clearly documented with assigned owners, deadlines, and priority levels",
+          "Follow-up on previous action items is a standing agenda item with status updates recorded",
+          "Decisions and recommendations to the full board are clearly documented and tracked through to board discussion"
+        ],
+        "commonGaps": [
+          "Minutes are brief summaries that do not capture the substance of discussions or member challenges",
+          "Action items lack assigned owners or deadlines, making follow-up impossible to track",
+          "No evidence of tracking or following up on action items from previous meetings",
+          "Committee recommendations to the board are not formally documented or tracked"
+        ],
+        "suggestedSources": [
+          "Company secretary minutes archive",
+          "Board portal or document management system",
+          "Action item tracking system or register"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Request the committee charter and verify it explicitly mandates technology risk and cybersecurity oversight with quarterly meeting requirements",
+      "Review member profiles against the charter's competency requirements and check for documented plans to address any identified gaps",
+      "Count the actual number of meetings held in the past 12 months and verify quorum was achieved at each meeting",
+      "Examine the last 4 quarters of meeting minutes for evidence of genuine committee challenge, not just acknowledgement of management reports",
+      "Trace at least 3 action items from assignment through to completion or escalation to verify the action tracking process works"
+    ]
+  },
+  "8.3": {
+    "clauseId": "8.3",
+    "section": "Governance",
+    "subsection": "Board of Directors",
+    "title": "Board Competency in Technology",
+    "clauseType": "governance",
+    "marker": "G",
+    "auditorFocus": "BNM examiners will assess whether board members possess or have access to adequate technology and cybersecurity knowledge. They look for structured competency assessments, documented training records, evidence of external advisory engagement, and whether training content is relevant to current threats facing Malaysian financial institutions.",
+    "evidenceItems": [
+      {
+        "id": "8.3-E1",
+        "name": "Board training records on technology and cybersecurity topics",
+        "description": "Board training records on technology and cybersecurity topics",
+        "whatGoodLooksLike": [
+          "Individual training records maintained for each board member showing dates, topics, duration, and provider",
+          "Training topics are current and relevant, covering areas such as cyber threats, cloud risk, data protection, and AI governance",
+          "At least two technology-focused training sessions conducted per year for the full board",
+          "Training materials are retained alongside attendance records for audit verification",
+          "Post-training feedback or knowledge assessments are documented"
+        ],
+        "commonGaps": [
+          "No formal training records exist; training is claimed but undocumented",
+          "Training topics are outdated or generic and do not address current threat landscape or Malaysian regulatory context",
+          "Training is conducted only once or irregularly rather than on a sustained annual programme",
+          "Some board members have no recorded technology training attendance at all"
+        ],
+        "suggestedSources": [
+          "Company secretary training administration records",
+          "Learning management system (LMS) records",
+          "External training provider attendance certificates"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "8.3-E2",
+        "name": "External advisor engagement records",
+        "description": "External advisor engagement records",
+        "whatGoodLooksLike": [
+          "Formal engagement letters or contracts with qualified technology or cybersecurity advisory firms",
+          "Advisor qualifications and credentials are documented and demonstrate relevant expertise",
+          "Records of advisory sessions, reports delivered, and recommendations made to the board",
+          "Evidence that advisory input influenced board decisions or risk appetite calibration"
+        ],
+        "commonGaps": [
+          "No external advisors engaged despite identified competency gaps in the board skills matrix",
+          "Advisor engagement is informal with no documented terms of reference or deliverables",
+          "Advisory recommendations are received but not tracked or acted upon by the board",
+          "Advisors lack relevant financial services or cybersecurity credentials"
+        ],
+        "suggestedSources": [
+          "Procurement or vendor management records",
+          "Board secretariat advisory engagement files",
+          "External consulting firm reports and invoices"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "8.3-E3",
+        "name": "Board competency assessment results",
+        "description": "Board competency assessment results",
+        "whatGoodLooksLike": [
+          "Structured assessment covering technology domains such as cybersecurity, cloud computing, data governance, and digital banking risks",
+          "Individual results are documented with identified strengths and development areas for each board member",
+          "Assessment results are used to inform the annual board training plan and external advisory needs",
+          "Year-on-year comparison shows improvement in collective board technology competency"
+        ],
+        "commonGaps": [
+          "No formal competency assessment conducted; board technology knowledge is assumed rather than measured",
+          "Assessment is a generic self-evaluation with no objective measurement criteria",
+          "Results are not used to inform training plans or advisory engagement decisions",
+          "Assessment has not been updated to reflect new technology risk areas such as AI, open banking, or cloud adoption"
+        ],
+        "suggestedSources": [
+          "Board Nomination Committee records",
+          "Human Resources board development files",
+          "External board effectiveness review reports"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "8.3-E4",
+        "name": "Annual training plan for board members",
+        "description": "Annual training plan for board members",
+        "whatGoodLooksLike": [
+          "Training plan is approved at the start of each year with specific technology and cybersecurity topics scheduled",
+          "Plan is informed by the competency assessment results and addresses identified knowledge gaps",
+          "Plan includes a mix of internal briefings, external conferences, and specialist workshops",
+          "Completion tracking shows actual delivery against the planned schedule"
+        ],
+        "commonGaps": [
+          "No formal annual training plan exists; training is ad hoc and reactive",
+          "Plan exists on paper but actual delivery falls significantly short of planned sessions",
+          "Plan does not align with competency assessment findings or current threat landscape",
+          "Plan covers only generic governance topics without dedicated technology or cybersecurity content"
+        ],
+        "suggestedSources": [
+          "Company secretary annual planning documents",
+          "Board Nomination Committee development plans",
+          "Learning and development department records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Request the board skills matrix and verify that technology and cybersecurity competency is explicitly assessed for each individual member",
+      "Cross-reference the training plan with actual training records to identify gaps between planned and delivered sessions",
+      "Verify that external advisors engaged have relevant qualifications and that their recommendations are traceable to board actions",
+      "Check whether training content is current and addresses threats specific to Malaysian financial services, not just generic cybersecurity awareness",
+      "Ask for evidence that competency assessment results directly informed the training plan and advisory engagement decisions"
+    ]
+  },
+  "8.4": {
+    "clauseId": "8.4",
+    "section": "Governance",
+    "subsection": "Board of Directors",
+    "title": "Board Risk Appetite Statement",
+    "clauseType": "governance",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will assess whether the technology risk appetite statement contains both quantitative and qualitative measures, has current board approval, is reviewed at least annually, and is operationally embedded through cascaded limits and monitoring. They will test whether threshold breaches trigger defined escalation procedures.",
+    "evidenceItems": [
+      {
+        "id": "8.4-E1",
+        "name": "Board-approved technology risk appetite statement",
+        "description": "Board-approved technology risk appetite statement",
+        "whatGoodLooksLike": [
+          "Statement explicitly covers cybersecurity, system availability, data integrity, and third-party technology risk domains",
+          "Includes both quantitative metrics (e.g., maximum 4 hours RTO for critical systems, fewer than 3 P1 incidents per quarter) and qualitative statements (e.g., zero tolerance for customer data breaches)",
+          "Carries formal board approval with documented resolution, signatures, and approval date",
+          "Version-controlled with clear effective date and next review date",
+          "Aligned with the institution's overall enterprise risk appetite statement"
+        ],
+        "commonGaps": [
+          "Statement contains only qualitative platitudes without measurable thresholds or metrics",
+          "No formal board approval record; statement exists as a management document without board endorsement",
+          "Statement has not been reviewed or updated in more than 12 months",
+          "Technology risk appetite is not aligned with or cross-referenced to the enterprise risk appetite statement"
+        ],
+        "suggestedSources": [
+          "Enterprise risk management team documentation",
+          "Board secretariat resolution records",
+          "GRC platform (e.g., ServiceNow GRC, RSA Archer)"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "8.4-E2",
+        "name": "Risk appetite metrics and thresholds",
+        "description": "Risk appetite metrics and thresholds",
+        "whatGoodLooksLike": [
+          "Each metric has clearly defined green, amber, and red thresholds with specific numerical values",
+          "Metrics cover key domains including system uptime, incident frequency, vulnerability remediation timelines, and data loss events",
+          "Thresholds are calibrated based on historical performance data and industry benchmarks for Malaysian financial institutions",
+          "Metrics are mapped to specific risk appetite statements for traceability"
+        ],
+        "commonGaps": [
+          "Thresholds are arbitrary and not based on historical data, industry benchmarks, or business impact analysis",
+          "Metrics do not cover all technology risk domains referenced in the risk appetite statement",
+          "No differentiation between warning (amber) and breach (red) thresholds",
+          "Metrics have not been recalibrated despite significant changes in the institution's technology environment"
+        ],
+        "suggestedSources": [
+          "Risk management department metric definitions",
+          "GRC or risk monitoring platform configuration",
+          "IT service management platform (e.g., ServiceNow ITSM)"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "8.4-E3",
+        "name": "Annual review and approval records",
+        "description": "Annual review and approval records",
+        "whatGoodLooksLike": [
+          "Documented review process showing what was assessed, what changed, and the rationale for changes or reaffirmation",
+          "Evidence that the review considered changes in the threat landscape, business strategy, regulatory requirements, and past incidents",
+          "Board meeting minutes or resolution recording formal re-approval of the reviewed risk appetite statement",
+          "Clear version history showing progression from previous to current approved version"
+        ],
+        "commonGaps": [
+          "No evidence of annual review despite the statement being more than 12 months old",
+          "Review is perfunctory with no documented analysis of whether thresholds remain appropriate",
+          "Review does not consider external factors such as emerging threats, regulatory changes, or industry incidents",
+          "Board re-approval is not formally documented in meeting minutes or resolutions"
+        ],
+        "suggestedSources": [
+          "Board meeting minutes and resolutions",
+          "Risk management annual review documentation",
+          "Document management system version history"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "8.4-E4",
+        "name": "Evidence of risk appetite communication to management",
+        "description": "Evidence of risk appetite communication to management",
+        "whatGoodLooksLike": [
+          "Formal communication or memo from the CRO distributing the approved risk appetite statement to all relevant stakeholders",
+          "Acknowledgement records showing business unit heads and IT leaders have received and understood the risk appetite",
+          "Risk appetite is referenced in operational policies, procedures, and risk assessment templates",
+          "Training or briefing sessions conducted to explain risk appetite thresholds and their operational implications"
+        ],
+        "commonGaps": [
+          "Risk appetite statement resides only in board papers with no evidence of communication to operational teams",
+          "No formal acknowledgement process; communication assumed but not documented",
+          "Business units and IT teams are unaware of specific thresholds and cannot articulate the institution's technology risk appetite",
+          "Risk appetite is not referenced or embedded in operational risk management processes"
+        ],
+        "suggestedSources": [
+          "Chief Risk Officer office correspondence",
+          "Internal communication platform records (email, intranet)",
+          "Risk management training records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Verify the risk appetite statement contains both quantitative metrics with specific thresholds and qualitative statements, as BNM explicitly requires both",
+      "Check the approval date and confirm the statement has been reviewed within the last 12 months with board re-approval documented",
+      "Ask three different operational managers to articulate the institution's technology risk appetite to test whether communication has been effective",
+      "Request evidence of at least one threshold breach in the past year and trace the escalation path from detection through to board notification",
+      "Compare stated risk appetite metrics against actual performance data to identify any persistent breaches that have not been escalated or addressed"
+    ]
+  },
+  "8.5": {
+    "clauseId": "8.5",
+    "section": "Governance",
+    "subsection": "Board of Directors",
+    "title": "Board Reporting on Technology Risk",
+    "clauseType": "governance",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that the board receives comprehensive, quarterly technology risk reports that include KRIs, incident summaries, risk mitigation progress, trend analysis, and forward-looking assessments. They will check whether the board engages with the reports and whether resulting actions are documented and tracked.",
+    "evidenceItems": [
+      {
+        "id": "8.5-E1",
+        "name": "Quarterly technology risk reports to the board",
+        "description": "Quarterly technology risk reports to the board",
+        "whatGoodLooksLike": [
+          "Reports are delivered quarterly without gaps or delays in the reporting cycle",
+          "Each report covers all mandatory elements: KRIs, incident summaries, mitigation status, trend analysis, and forward-looking assessments",
+          "Reports are written in business language accessible to board members, not technical jargon",
+          "Reports include executive summaries with clear risk ratings and recommended board actions",
+          "Trend analysis covers at least four consecutive quarters to show directional movement"
+        ],
+        "commonGaps": [
+          "Reports are missed or delivered late, with quarters without any board technology risk reporting",
+          "Reports cover only a subset of required elements, typically missing trend analysis or forward-looking assessments",
+          "Reports are overly technical and do not translate technology risks into business impact language",
+          "No executive summary or clear indication of what requires board attention or action"
+        ],
+        "suggestedSources": [
+          "Board secretariat paper archives",
+          "Board portal or document management system",
+          "Chief Risk Officer reporting team records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "8.5-E2",
+        "name": "Key risk indicator dashboards",
+        "description": "Key risk indicator dashboards",
+        "whatGoodLooksLike": [
+          "Dashboard includes clearly defined KRIs with green, amber, and red thresholds aligned to the risk appetite statement",
+          "KRIs cover all major technology risk domains: cybersecurity, availability, change management, and third-party risk",
+          "Historical trend lines are visible for each KRI spanning at least four quarters",
+          "Dashboard narrative explains the significance of any amber or red indicators and actions being taken"
+        ],
+        "commonGaps": [
+          "KRIs lack defined thresholds, making it impossible to determine whether the institution is within risk appetite",
+          "Dashboard shows only current-state indicators without historical trend data",
+          "Critical risk domains such as third-party technology risk or patch management are missing from the dashboard",
+          "No narrative or commentary accompanies the dashboard data, leaving the board to interpret raw numbers"
+        ],
+        "suggestedSources": [
+          "GRC platform (e.g., ServiceNow GRC, RSA Archer, MetricStream)",
+          "SIEM or security monitoring platform dashboards",
+          "IT service management platform reporting"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "8.5-E3",
+        "name": "Incident summary reports presented to board",
+        "description": "Incident summary reports presented to board",
+        "whatGoodLooksLike": [
+          "Incidents are categorised by severity, type, root cause, and business impact",
+          "Summary includes both the number of incidents and their cumulative business impact (e.g., downtime hours, customers affected, financial loss)",
+          "Root cause analysis findings are summarised with systemic themes identified across incidents",
+          "Comparison with previous quarters shows whether incident frequency and severity are trending up or down"
+        ],
+        "commonGaps": [
+          "Only major incidents are reported; near misses and lower-severity incidents that reveal systemic issues are omitted",
+          "Incidents are counted but business impact is not quantified or communicated to the board",
+          "No root cause analysis themes are presented, missing the opportunity to highlight systemic weaknesses",
+          "Incident reporting is ad hoc rather than structured within the quarterly board report"
+        ],
+        "suggestedSources": [
+          "IT service management platform (e.g., ServiceNow, Jira Service Management)",
+          "Security operations centre incident records",
+          "CISO quarterly incident summary compilations"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "8.5-E4",
+        "name": "Risk mitigation status reports",
+        "description": "Risk mitigation status reports",
+        "whatGoodLooksLike": [
+          "All open risk treatment plans are listed with current status, percentage completion, and expected closure dates",
+          "Overdue treatment plans are clearly highlighted with explanations and revised timelines",
+          "Reports show the number of risks closed versus new risks identified during the reporting period",
+          "Board is informed of any risks where the treatment approach has changed (e.g., from mitigate to accept)"
+        ],
+        "commonGaps": [
+          "Risk mitigation progress is not reported to the board, or only high-level summaries are provided without specifics",
+          "Overdue treatment plans are not flagged or explained to the board",
+          "No tracking of risk closure rates or comparison between new and resolved risks",
+          "Changes in risk treatment approach are made without board visibility or approval where required"
+        ],
+        "suggestedSources": [
+          "GRC platform risk treatment module",
+          "Risk management team tracking spreadsheets or registers",
+          "Project management office milestone reports for risk-related projects"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "8.5-E5",
+        "name": "Board acknowledgement or sign-off records",
+        "description": "Board acknowledgement or sign-off records",
+        "whatGoodLooksLike": [
+          "Board meeting minutes explicitly record that the technology risk report was presented, discussed, and acknowledged",
+          "Minutes capture specific questions, challenges, or concerns raised by board members regarding the report content",
+          "Resulting board directives or action items are documented with assigned owners and deadlines",
+          "Follow-up on previous board directives related to technology risk is recorded in subsequent meeting minutes"
+        ],
+        "commonGaps": [
+          "Minutes note the report was tabled but do not record any discussion or acknowledgement",
+          "No evidence of board members questioning or challenging the reported information",
+          "Board directives arising from technology risk discussions are not documented as formal action items",
+          "Follow-up on previous board directives is not tracked or reported in subsequent meetings"
+        ],
+        "suggestedSources": [
+          "Board secretariat minutes archive",
+          "Board portal action item tracking module",
+          "Company secretary records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Request the last 4 quarterly board reports and verify each contains all mandatory elements: KRIs, incident summaries, mitigation status, trend analysis, and forward-looking assessments",
+      "Check that KRI thresholds in the dashboard align with those defined in the board-approved risk appetite statement",
+      "Verify that incident summaries include business impact quantification, not just incident counts",
+      "Trace at least 2 board directives from technology risk report discussions through to completion or ongoing tracking",
+      "Confirm no quarters were missed in the reporting cycle and that reports were delivered to the board in advance of meetings"
+    ]
+  },
+  "8.6": {
+    "clauseId": "8.6",
+    "section": "Governance",
+    "subsection": "Senior Management",
+    "title": "Senior Management Accountability",
+    "clauseType": "governance",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that senior management accountability for technology risk is formally documented, that a CISO or equivalent is formally appointed with direct board or committee reporting access, and that this reporting line is actively exercised. They will scrutinise the CISO's organisational placement and independence from IT operations.",
+    "evidenceItems": [
+      {
+        "id": "8.6-E1",
+        "name": "Senior management accountability matrix for technology risk",
+        "description": "Senior management accountability matrix for technology risk",
+        "whatGoodLooksLike": [
+          "Matrix assigns specific technology risk domains to named C-suite executives (e.g., CISO for cybersecurity, CTO for infrastructure, CRO for risk oversight)",
+          "Each accountability area has clearly defined responsibilities, decision authority limits, and escalation triggers",
+          "Matrix distinguishes between first line (risk ownership), second line (risk oversight), and third line (audit) responsibilities",
+          "Matrix is board-approved and reviewed annually or upon significant organisational changes"
+        ],
+        "commonGaps": [
+          "No formal accountability matrix exists; technology risk responsibilities are assumed based on job titles rather than documented",
+          "Accountability overlaps between roles without clear delineation of who is ultimately responsible for specific risk domains",
+          "Matrix does not reflect the three lines of defence model expected by BNM",
+          "Matrix has not been updated following organisational restructuring or leadership changes"
+        ],
+        "suggestedSources": [
+          "Chief Executive Officer's office documentation",
+          "Corporate governance framework documents",
+          "Human Resources organisational design records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "8.6-E2",
+        "name": "CISO appointment letter and job description",
+        "description": "CISO appointment letter and job description",
+        "whatGoodLooksLike": [
+          "Formal appointment letter signed by the CEO or board chairman confirming the CISO designation",
+          "Job description explicitly covers cybersecurity strategy, incident response leadership, security architecture governance, and regulatory compliance",
+          "Mandate includes authority to halt or delay technology deployments that present unacceptable security risks",
+          "Role grade and reporting structure demonstrate appropriate seniority within the organisation"
+        ],
+        "commonGaps": [
+          "No formal appointment letter; the CISO role is assumed rather than formally designated",
+          "Job description is generic IT management rather than specific to information security leadership",
+          "CISO lacks documented authority to influence technology decisions on security grounds",
+          "Role is positioned too junior in the organisation to have the influence required by RMiT"
+        ],
+        "suggestedSources": [
+          "Human Resources appointment and contract records",
+          "CEO office correspondence",
+          "Board or committee appointment resolutions"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "8.6-E3",
+        "name": "CISO reporting line documentation",
+        "description": "CISO reporting line documentation",
+        "whatGoodLooksLike": [
+          "Organisation chart clearly shows the CISO with a direct reporting line to the board or board technology risk committee for cybersecurity matters",
+          "Dual reporting structure is documented if the CISO has both an administrative reporting line (e.g., to CEO) and a functional reporting line to the board committee",
+          "Reporting line demonstrates independence from the CTO or Head of IT operations",
+          "Documentation is current and reflects the actual organisational structure in practice"
+        ],
+        "commonGaps": [
+          "CISO reports exclusively to the CTO or Head of IT with no independent board access",
+          "Organisation chart shows a dotted line to the board but no evidence that this reporting line is exercised",
+          "Reporting structure has the CISO buried several layers below the C-suite, limiting influence and access",
+          "Organisation chart is outdated and does not reflect current reporting arrangements"
+        ],
+        "suggestedSources": [
+          "Human Resources organisational chart repository",
+          "Corporate governance structure documents",
+          "Board committee terms of reference"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "8.6-E4",
+        "name": "Board or committee meeting records showing CISO reporting",
+        "description": "Board or committee meeting records showing CISO reporting",
+        "whatGoodLooksLike": [
+          "Minutes show the CISO presenting directly to the board or committee at least quarterly",
+          "CISO presentations cover cybersecurity posture, incident trends, threat intelligence, and security programme progress",
+          "Evidence of board members engaging with the CISO directly, asking questions, and requesting follow-up information",
+          "CISO has the opportunity to raise concerns directly to the board without management filtering"
+        ],
+        "commonGaps": [
+          "No records of the CISO ever presenting directly to the board or committee despite having a documented reporting line",
+          "CISO presentations are delivered through the CTO or CRO rather than directly, undermining independence",
+          "CISO attendance at board or committee meetings is irregular with multiple quarters without direct reporting",
+          "Minutes do not show the CISO being given the opportunity to raise independent concerns"
+        ],
+        "suggestedSources": [
+          "Board secretariat minutes archive",
+          "Board portal presentation and document records",
+          "Committee chairman's meeting files"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Verify the CISO appointment is formally documented with a board-approved mandate and confirm the appointee has appropriate seniority and qualifications",
+      "Examine the organisation chart and confirm the CISO has an independent reporting line to the board or committee that does not pass through the CTO",
+      "Request the last 4 quarters of committee minutes and verify the CISO presented directly at each meeting, not through an intermediary",
+      "Check that the senior management accountability matrix reflects the three lines of defence model with clear boundaries between risk ownership and risk oversight",
+      "Ask the CISO whether they have the authority to delay technology deployments on security grounds and request evidence of this authority being exercised"
+    ]
+  },
+  "8.7": {
+    "clauseId": "8.7",
+    "section": "Governance",
+    "subsection": "Senior Management",
+    "title": "Technology Risk Management Function",
+    "clauseType": "governance",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that an independent technology risk management function exists with adequate authority, resources, and access. They will scrutinise organisational independence from IT operations, assess staffing adequacy relative to the institution's technology complexity, and review whether the function actively produces risk assessments and reports.",
+    "evidenceItems": [
+      {
+        "id": "8.7-E1",
+        "name": "Technology risk management function charter",
+        "description": "Technology risk management function charter",
+        "whatGoodLooksLike": [
+          "Charter clearly defines the function's mandate covering risk identification, assessment, monitoring, and reporting across all technology domains",
+          "Authority to access any technology system, data, or personnel necessary for risk assessment is explicitly stated",
+          "Independence from IT operations is explicitly mandated in the charter with board or committee approval",
+          "Charter specifies reporting obligations to the CRO, senior management, and board committee",
+          "Document is version-controlled with board approval date and next review date"
+        ],
+        "commonGaps": [
+          "No formal charter exists; the function operates based on informal understanding rather than documented authority",
+          "Charter does not explicitly mandate independence from IT operations or define access authority",
+          "Charter is outdated and does not reflect current scope of technology risk across cloud, digital, and third-party domains",
+          "Charter lacks board or committee approval, undermining the function's formal authority"
+        ],
+        "suggestedSources": [
+          "Chief Risk Officer office documentation",
+          "Board committee approval records",
+          "Corporate governance framework documents"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "8.7-E2",
+        "name": "Organisation chart showing independence from IT operations",
+        "description": "Organisation chart showing independence from IT operations",
+        "whatGoodLooksLike": [
+          "Organisation chart clearly shows the technology risk function reporting to the CRO or a risk leadership role separate from the CTO or Head of IT",
+          "No dotted or solid reporting line connects the function to IT operations leadership",
+          "Function head has an appropriate title and grade reflecting the seniority needed to exercise authority across the institution",
+          "Chart is current, dated, and reflects the actual organisational structure"
+        ],
+        "commonGaps": [
+          "Technology risk function reports to the CTO or Head of IT, creating a conflict of interest",
+          "Organisation chart is outdated and does not reflect recent restructuring or leadership changes",
+          "Function is embedded within the IT department with no structural independence",
+          "Function head is too junior in the organisation to effectively challenge IT operations leadership"
+        ],
+        "suggestedSources": [
+          "Human Resources organisational chart repository",
+          "Corporate governance structure documentation",
+          "Chief Risk Officer office records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "8.7-E3",
+        "name": "Staffing plan and competency matrix",
+        "description": "Staffing plan and competency matrix",
+        "whatGoodLooksLike": [
+          "Staffing plan is proportionate to the institution's technology complexity and maps roles to the function's mandate",
+          "Competency matrix defines required skills across risk management, cybersecurity, cloud, data, and technology audit disciplines",
+          "Current staff competencies are assessed against the matrix with documented gaps and development plans",
+          "Staffing plan includes succession planning for critical roles within the function",
+          "Staff hold relevant certifications such as CRISC, CISM, CISSP, or ISO 27001 Lead Auditor"
+        ],
+        "commonGaps": [
+          "Function is staffed with only one or two individuals for an institution with a complex technology environment",
+          "No competency matrix exists; staffing is based on availability rather than required competencies",
+          "Identified competency gaps have no documented development plans or hiring timelines",
+          "Staff lack relevant risk management or technology certifications"
+        ],
+        "suggestedSources": [
+          "Human Resources workforce planning records",
+          "Head of Technology Risk personnel files and development plans",
+          "Professional development and certification tracking records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "8.7-E4",
+        "name": "Function mandate and authority documentation",
+        "description": "Function mandate and authority documentation",
+        "whatGoodLooksLike": [
+          "Documentation confirms the function's authority to conduct risk assessments across all technology domains without restriction",
+          "Evidence of the function exercising its authority through completed risk assessments, audit findings, and risk advisories",
+          "Access rights to technology systems, SIEM, vulnerability scanners, and CMDB are documented and verified",
+          "Evidence of the function providing independent risk opinions on major technology projects or changes"
+        ],
+        "commonGaps": [
+          "Mandate exists on paper but there is no evidence of the function exercising its authority in practice",
+          "Function has been denied access to systems or information needed for risk assessments",
+          "No evidence of the function providing independent risk opinions on technology projects or changes",
+          "Function's authority has been overridden by IT operations leadership without proper escalation"
+        ],
+        "suggestedSources": [
+          "Technology risk assessment reports and work products",
+          "System access logs and permissions records",
+          "Risk advisory memos and project risk sign-off records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Verify organisational independence by examining the actual reporting line of the technology risk function head and confirming it does not report to IT operations",
+      "Assess staffing adequacy by comparing the number of risk staff against the institution's technology complexity (number of critical systems, cloud deployments, third-party integrations)",
+      "Request examples of risk assessments completed by the function in the past 12 months to verify it is actively producing work products",
+      "Ask the function head whether they have ever been denied access to systems or information and how such situations were resolved",
+      "Review the function's output (risk reports, advisories, assessment findings) to determine whether it provides genuine independent challenge to IT operations"
+    ]
+  }
+}

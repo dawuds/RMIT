@@ -1,0 +1,579 @@
+{
+  "9.1": {
+    "clauseId": "9.1",
+    "section": "Technology Risk Management",
+    "subsection": "Risk Management Framework",
+    "title": "Technology Risk Framework",
+    "clauseType": "governance",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will assess whether the technology risk management framework is comprehensive, proportionate to the institution's complexity, board-approved, annually reviewed, and aligned with the enterprise risk management framework. They look for a cohesive document that defines governance, risk appetite, assessment methodology, and reporting mechanisms as an integrated whole.",
+    "evidenceItems": [
+      {
+        "id": "9.1-E1",
+        "name": "Technology risk management framework document",
+        "description": "Technology risk management framework document",
+        "whatGoodLooksLike": [
+          "Comprehensive document covering governance structures, risk appetite, risk assessment methodology, risk treatment options, monitoring, and reporting mechanisms",
+          "Framework is proportionate to the institution's size and complexity, with clear justification for the scope and depth of coverage",
+          "References BNM RMiT requirements with traceability mapping showing which framework components address which regulatory clauses",
+          "Includes a risk taxonomy specific to technology risks with clear definitions and categorisation",
+          "Version-controlled with effective date, next review date, and document owner identified"
+        ],
+        "commonGaps": [
+          "Framework is a collection of disconnected policies rather than a cohesive, integrated document",
+          "Framework is generic and not tailored to the institution's specific technology environment and risk profile",
+          "No mapping to BNM RMiT requirements, making it impossible to verify regulatory coverage",
+          "Framework is overly theoretical with no practical guidance on how to apply the methodology in day-to-day operations"
+        ],
+        "suggestedSources": [
+          "Chief Risk Officer office documentation",
+          "GRC platform document repository",
+          "Enterprise risk management team records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "9.1-E2",
+        "name": "Board approval of the framework",
+        "description": "Board approval of the framework",
+        "whatGoodLooksLike": [
+          "Board meeting minutes or resolution explicitly recording approval of the technology risk management framework",
+          "Evidence that the board received a briefing on the framework's key components before approving",
+          "Approval covers the current version of the framework with the version number and date referenced",
+          "Board re-approval documented after each annual review or material update"
+        ],
+        "commonGaps": [
+          "No board approval record exists; the framework was approved only by management",
+          "Board approved an earlier version and has not re-approved after significant updates",
+          "Board approval is inferred from general governance approvals rather than specific to the technology risk framework",
+          "No evidence that board members were briefed on the framework content before approval"
+        ],
+        "suggestedSources": [
+          "Board secretariat resolution records",
+          "Board meeting minutes archive",
+          "Company secretary approval tracking records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "9.1-E3",
+        "name": "Annual framework review records",
+        "description": "Annual framework review records",
+        "whatGoodLooksLike": [
+          "Documented review process with assessment of each framework component's effectiveness and currency",
+          "Review considers changes in the regulatory landscape (e.g., BNM updates), technology environment, business strategy, and incident learnings",
+          "Summary of changes made or rationale for no changes required is documented",
+          "Review findings are presented to the board or committee with recommendations for framework updates"
+        ],
+        "commonGaps": [
+          "No evidence of annual review despite the framework being more than 12 months since last update",
+          "Review is perfunctory, consisting of a date change without substantive assessment of framework effectiveness",
+          "Review does not consider external factors such as new BNM guidelines, industry incidents, or changes in the threat landscape",
+          "Review findings are not escalated to the board or committee for awareness and approval"
+        ],
+        "suggestedSources": [
+          "Risk management team review working papers",
+          "Board or committee meeting papers presenting review findings",
+          "Document management system version history and change logs"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "9.1-E4",
+        "name": "Framework alignment with enterprise risk management",
+        "description": "Framework alignment with enterprise risk management",
+        "whatGoodLooksLike": [
+          "Technology risk management framework explicitly references and aligns with the enterprise risk management framework",
+          "Common risk taxonomy, rating scales, and reporting formats are used across technology and enterprise risk frameworks",
+          "Technology risk appetite is derived from and consistent with the enterprise risk appetite statement",
+          "Technology risk reporting feeds into enterprise-wide risk aggregation and reporting to the board"
+        ],
+        "commonGaps": [
+          "Technology risk framework operates in isolation with different methodologies, rating scales, and reporting formats from the enterprise framework",
+          "No documented mapping between technology risk categories and enterprise risk categories",
+          "Technology risk reports are not integrated into enterprise-wide risk dashboards or board reports",
+          "Risk appetite thresholds in the technology framework are inconsistent with those in the enterprise framework"
+        ],
+        "suggestedSources": [
+          "Enterprise risk management framework document",
+          "Chief Risk Officer alignment and integration records",
+          "GRC platform configuration showing integrated risk taxonomy"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Request the full framework document and verify it covers all required components: governance, risk appetite, assessment methodology, treatment, monitoring, and reporting",
+      "Confirm the framework carries current board approval by checking the approval date and comparing it to the framework's version and last review date",
+      "Compare the technology risk framework's risk taxonomy and rating scales with the enterprise risk framework to verify alignment",
+      "Ask for the last annual review record and verify it conducted a substantive assessment of framework effectiveness, not just a date update",
+      "Check whether the framework is operationally implemented by requesting examples of risk assessments conducted using its defined methodology"
+    ]
+  },
+  "9.2": {
+    "clauseId": "9.2",
+    "section": "Technology Risk Management",
+    "subsection": "Risk Management Framework",
+    "title": "Risk Identification & Assessment",
+    "clauseType": "governance",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that the institution conducts systematic technology risk assessments at least annually using a documented methodology, covering all critical assets and services. They will check that assessments consider threats, vulnerabilities, likelihood, and impact, and that ad hoc assessments are triggered by significant changes.",
+    "evidenceItems": [
+      {
+        "id": "9.2-E1",
+        "name": "Technology risk assessment methodology document",
+        "description": "Technology risk assessment methodology document",
+        "whatGoodLooksLike": [
+          "Methodology defines clear risk identification techniques including threat modelling, vulnerability analysis, and scenario analysis",
+          "Likelihood and impact rating scales are defined with specific criteria for each level (e.g., 5-point scales with quantitative and qualitative descriptors)",
+          "Risk scoring methodology is transparent, showing how likelihood and impact combine to produce an overall risk rating",
+          "Methodology specifies when assessments must be performed (annual minimum plus change-triggered triggers)",
+          "Roles and responsibilities for conducting, reviewing, and approving risk assessments are clearly defined"
+        ],
+        "commonGaps": [
+          "No documented methodology; risk assessments are conducted ad hoc using different approaches by different teams",
+          "Rating scales are undefined or subjective with no criteria to distinguish between levels",
+          "Methodology does not specify triggers for ad hoc assessments beyond the annual cycle",
+          "No quality assurance or review process defined for completed assessments"
+        ],
+        "suggestedSources": [
+          "Technology risk management function documentation",
+          "GRC platform methodology configuration",
+          "Chief Risk Officer policy repository"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "9.2-E2",
+        "name": "Completed risk assessment reports",
+        "description": "Completed risk assessment reports",
+        "whatGoodLooksLike": [
+          "Assessment reports cover all critical technology assets and services within the defined scope",
+          "Each risk is documented with identified threats, vulnerabilities, likelihood rating, impact rating, and overall risk score",
+          "Business impact is quantified or described in terms relevant to the institution (financial, operational, regulatory, reputational)",
+          "Assessment findings lead to documented risk treatment recommendations with proposed owners and timelines",
+          "Reports are signed off by the Head of Technology Risk and relevant risk owners"
+        ],
+        "commonGaps": [
+          "Assessments cover only a subset of critical technology assets, leaving significant gaps in coverage",
+          "Risk ratings are assigned without supporting justification or evidence of threat and vulnerability analysis",
+          "Business impact is described in purely technical terms without translation to business consequences",
+          "No treatment recommendations accompany identified risks, making the assessment purely academic"
+        ],
+        "suggestedSources": [
+          "GRC platform risk assessment module",
+          "Technology risk management function work products",
+          "Risk assessment project files and working papers"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "9.2-E3",
+        "name": "Risk assessment schedule and completion records",
+        "description": "Risk assessment schedule and completion records",
+        "whatGoodLooksLike": [
+          "Annual schedule published at the start of the year covering all critical technology domains and assets",
+          "Schedule shows planned assessment dates, assigned assessors, and scope for each assessment",
+          "Completion tracking shows actual versus planned progress with explanations for any delays",
+          "Full coverage of all critical technology domains is achieved within each annual cycle"
+        ],
+        "commonGaps": [
+          "No formal schedule exists; assessments are conducted reactively rather than proactively",
+          "Schedule exists but completion records show significant portions were not completed within the annual cycle",
+          "Certain technology domains (e.g., cloud services, third-party integrations) are consistently excluded from the schedule",
+          "No tracking mechanism to monitor whether planned assessments are completed on time"
+        ],
+        "suggestedSources": [
+          "Technology risk management function planning documents",
+          "GRC platform assessment scheduling module",
+          "Head of Technology Risk annual work plan"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "9.2-E4",
+        "name": "Evidence of assessment upon significant change events",
+        "description": "Evidence of assessment upon significant change events",
+        "whatGoodLooksLike": [
+          "Documented criteria defining what constitutes a significant change triggering an ad hoc risk assessment",
+          "Records of ad hoc risk assessments conducted following major system implementations, infrastructure changes, or security incidents",
+          "Change management process includes a risk assessment gate that triggers evaluation for significant changes",
+          "Assessment results from change-triggered assessments feed into the risk register and treatment planning process"
+        ],
+        "commonGaps": [
+          "No defined criteria for what constitutes a significant change requiring an ad hoc assessment",
+          "Major technology changes were implemented without a corresponding risk assessment",
+          "Change management process does not include a risk assessment trigger or gate",
+          "Ad hoc assessments are conducted but findings are not integrated into the main risk register"
+        ],
+        "suggestedSources": [
+          "Change management system records (e.g., ServiceNow Change Management)",
+          "Technology risk assessment records for specific change events",
+          "Project management office risk gate documentation"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Request the risk assessment methodology and verify it defines clear rating scales with specific criteria for each likelihood and impact level",
+      "Compare the assessment schedule against completion records to identify any assessments that were planned but not executed",
+      "Select 2-3 completed risk assessment reports and verify they follow the documented methodology with proper justification for assigned risk ratings",
+      "Identify major technology changes from the past 12 months (from the change management system) and verify whether corresponding ad hoc risk assessments were conducted",
+      "Check whether assessment findings resulted in documented risk treatment plans with assigned owners and timelines"
+    ]
+  },
+  "9.3": {
+    "clauseId": "9.3",
+    "section": "Technology Risk Management",
+    "subsection": "Risk Management Framework",
+    "title": "Risk Treatment & Mitigation",
+    "clauseType": "governance",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that every identified technology risk has a documented treatment plan with a named owner and timeline. They will pay particular attention to risk acceptance decisions, checking whether approvals were obtained at the appropriate authority level with documented justification. Overdue treatment plans are a common finding.",
+    "evidenceItems": [
+      {
+        "id": "9.3-E1",
+        "name": "Risk treatment plans with assigned owners",
+        "description": "Risk treatment plans with assigned owners",
+        "whatGoodLooksLike": [
+          "Each identified risk has a documented treatment plan specifying the chosen treatment option (avoid, mitigate, transfer, or accept)",
+          "Plans include specific actions, milestones, resource requirements, and target completion dates",
+          "A named individual is accountable for each treatment plan with their role and reporting line documented",
+          "Expected residual risk level after treatment completion is documented alongside the current risk level",
+          "Plans are linked to the corresponding risks in the risk register for traceability"
+        ],
+        "commonGaps": [
+          "Identified risks in the register have no corresponding treatment plans or only generic remediation notes",
+          "Treatment plans lack specific milestones, making progress tracking impossible",
+          "No named owner assigned to treatment plans; accountability is assigned to teams rather than individuals",
+          "Treatment plans are static documents that have not been updated since initial creation despite changing circumstances"
+        ],
+        "suggestedSources": [
+          "GRC platform risk treatment module (e.g., ServiceNow GRC, RSA Archer)",
+          "Risk management team treatment plan register",
+          "Project management office records for risk-related projects"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "9.3-E2",
+        "name": "Risk acceptance approvals at appropriate authority level",
+        "description": "Risk acceptance approvals at appropriate authority level",
+        "whatGoodLooksLike": [
+          "Each risk acceptance record documents the risk description, current risk level, residual risk after any partial mitigation, and business justification for acceptance",
+          "Approval is signed by the authority level defined in the risk treatment policy (e.g., CRO for high risks, board for critical risks)",
+          "Acceptance includes conditions such as compensating controls, monitoring requirements, and a defined review or expiry date",
+          "Accepted risks are flagged in the risk register with their acceptance status and next review date"
+        ],
+        "commonGaps": [
+          "Risks are accepted de facto by inaction rather than through a formal acceptance process with documented approval",
+          "Risk acceptance approvals are signed by managers below the authority level required by policy for the given risk severity",
+          "No business justification documented for why the risk is being accepted rather than mitigated",
+          "Accepted risks are never revisited; they remain accepted indefinitely without periodic revalidation"
+        ],
+        "suggestedSources": [
+          "GRC platform risk acceptance workflow and approval records",
+          "Risk management committee meeting minutes",
+          "Senior management or board resolution records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "9.3-E3",
+        "name": "Treatment plan progress tracking records",
+        "description": "Treatment plan progress tracking records",
+        "whatGoodLooksLike": [
+          "Regular progress updates are recorded for each active treatment plan showing percentage completion and status changes",
+          "Overdue treatment plans are clearly flagged with explanations for delays and revised target dates",
+          "Escalation to senior management is documented when treatment plans are significantly overdue or face resource constraints",
+          "Quarterly summary reports on treatment plan status are included in board technology risk reports"
+        ],
+        "commonGaps": [
+          "No systematic progress tracking; treatment plans are created but never monitored for completion",
+          "Overdue plans accumulate without escalation or management visibility",
+          "Progress tracking is ad hoc and inconsistent, making it impossible to assess the institution's overall risk treatment velocity",
+          "Treatment plan status is not included in board or senior management risk reporting"
+        ],
+        "suggestedSources": [
+          "GRC platform treatment tracking module",
+          "Risk management team status reports and dashboards",
+          "Senior management and board committee reporting packs"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "9.3-E4",
+        "name": "Risk mitigation implementation evidence",
+        "description": "Risk mitigation implementation evidence",
+        "whatGoodLooksLike": [
+          "Technical evidence of control implementation such as system configuration screenshots, deployment records, or tool activation logs",
+          "Post-implementation validation reports confirming the control reduces the risk as intended",
+          "Residual risk re-assessment performed after control implementation showing the updated risk level",
+          "Sign-off by the risk owner confirming the treatment plan has been satisfactorily completed"
+        ],
+        "commonGaps": [
+          "Treatment plans are marked as complete without supporting evidence of actual implementation",
+          "No post-implementation validation to confirm the control is effective in reducing the identified risk",
+          "Residual risk is not re-assessed after control implementation; the risk register still shows the original risk level",
+          "Implementation evidence is anecdotal rather than documented with verifiable artefacts"
+        ],
+        "suggestedSources": [
+          "IT operations deployment and change records",
+          "Security testing and validation reports",
+          "GRC platform control implementation records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Select 5-10 risks from the risk register and verify each has a documented treatment plan with a named owner and specific timeline",
+      "Review all risk acceptance records and confirm approvals were signed at the authority level required by the risk treatment policy for the given risk severity",
+      "Check the treatment plan tracking system for overdue plans and assess whether appropriate escalation occurred",
+      "For recently completed treatment plans, request implementation evidence and verify that post-implementation validation was performed",
+      "Ask the Head of Technology Risk to provide the current ratio of open to closed treatment plans and the average time to closure over the past 12 months"
+    ]
+  },
+  "9.4": {
+    "clauseId": "9.4",
+    "section": "Technology Risk Management",
+    "subsection": "Risk Management Framework",
+    "title": "Risk Monitoring & Reporting",
+    "clauseType": "governance",
+    "marker": "G",
+    "auditorFocus": "BNM examiners will verify that the institution has defined KRIs with specific thresholds, maintains continuous monitoring capabilities, and has documented escalation procedures for threshold breaches. They will test whether the escalation framework has been exercised in practice by requesting evidence of actual breach notifications and responses.",
+    "evidenceItems": [
+      {
+        "id": "9.4-E1",
+        "name": "Key risk indicator definitions and thresholds",
+        "description": "Key risk indicator definitions and thresholds",
+        "whatGoodLooksLike": [
+          "Each KRI has a clear definition, data source, calculation methodology, and measurement frequency documented",
+          "Thresholds are defined with green (within appetite), amber (approaching breach), and red (breach) levels using specific numerical values",
+          "KRIs cover all critical technology risk domains including cybersecurity, availability, change management, data integrity, and third-party risk",
+          "Named owners are assigned to each KRI with accountability for data quality and escalation",
+          "KRI thresholds are aligned with the board-approved technology risk appetite statement"
+        ],
+        "commonGaps": [
+          "KRIs are defined at a high level without specific numerical thresholds, making breach determination subjective",
+          "KRI coverage is incomplete, missing critical domains such as third-party risk, cloud risk, or data protection",
+          "No named owners assigned to individual KRIs, leading to gaps in monitoring and accountability",
+          "KRI thresholds are not aligned with or traceable to the risk appetite statement"
+        ],
+        "suggestedSources": [
+          "Risk management KRI register or catalogue",
+          "GRC platform KRI configuration",
+          "Chief Risk Officer policy documentation"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "9.4-E2",
+        "name": "Risk monitoring dashboard or reports",
+        "description": "Risk monitoring dashboard or reports",
+        "whatGoodLooksLike": [
+          "Dashboard displays current status of all defined KRIs with visual indicators showing green, amber, or red status",
+          "Historical trend data is available for each KRI spanning at least 12 months to enable trend analysis",
+          "Dashboard is updated at least monthly with data sourced from automated monitoring tools rather than manual input",
+          "Narrative commentary accompanies the dashboard explaining any amber or red indicators and actions being taken"
+        ],
+        "commonGaps": [
+          "Dashboard is static and updated infrequently, providing a stale view of the institution's risk posture",
+          "No historical trend data available, preventing identification of deteriorating risk trends",
+          "Dashboard relies on manual data input, introducing delays and potential inaccuracies",
+          "No narrative or context provided alongside dashboard metrics, leaving readers to interpret raw data"
+        ],
+        "suggestedSources": [
+          "GRC platform risk dashboard module",
+          "SIEM or security monitoring platform dashboards",
+          "IT service management reporting tools"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "9.4-E3",
+        "name": "Escalation procedure documentation",
+        "description": "Escalation procedure documentation",
+        "whatGoodLooksLike": [
+          "Documented procedures define specific actions for amber (warning) and red (breach) threshold triggers",
+          "Escalation path identifies specific roles (not just teams) who must be notified at each severity level, with timeframes for notification",
+          "Procedures include requirements for root cause analysis, remediation planning, and follow-up reporting",
+          "Procedures are integrated with the institution's broader incident management and crisis management frameworks"
+        ],
+        "commonGaps": [
+          "No documented escalation procedures exist; responses to threshold breaches are ad hoc",
+          "Procedures identify teams but not specific roles, creating ambiguity about who is responsible for taking action",
+          "No defined timeframes for notification or response, allowing breaches to persist without timely attention",
+          "Procedures are not tested or rehearsed, raising doubts about their effectiveness in a real scenario"
+        ],
+        "suggestedSources": [
+          "Risk management procedure documentation",
+          "Incident management and escalation framework documents",
+          "Chief Risk Officer operational procedures"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "9.4-E4",
+        "name": "Evidence of threshold breach escalations",
+        "description": "Evidence of threshold breach escalations",
+        "whatGoodLooksLike": [
+          "Records of actual KRI threshold breaches with timestamps showing when the breach was detected and when escalation occurred",
+          "Documentation of escalation actions taken including notifications sent, recipients, and response timeframes achieved",
+          "Root cause analysis completed for each breach explaining why the threshold was breached and what corrective action was taken",
+          "Evidence that breach events were reported to senior management and, where appropriate, to the board or committee"
+        ],
+        "commonGaps": [
+          "No records of threshold breach escalations despite KRIs showing amber or red status in the monitoring dashboard",
+          "Breaches are detected but not escalated per the documented procedures, indicating the framework is not operational",
+          "No root cause analysis performed for breach events, missing the opportunity to prevent recurrence",
+          "Breach events are not included in board or senior management risk reporting"
+        ],
+        "suggestedSources": [
+          "GRC platform escalation and notification logs",
+          "Incident management system escalation records",
+          "Senior management and board reporting packs showing breach notifications"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Request the KRI catalogue and verify each indicator has defined numerical thresholds aligned with the risk appetite statement",
+      "Ask for the most recent monitoring dashboard and check whether it shows any current amber or red indicators, then request evidence of corresponding escalation actions",
+      "Review the escalation procedures and trace at least 2 actual breach events from detection through escalation to resolution to verify the process works in practice",
+      "Check whether KRI trend data is available for the past 12 months and whether deteriorating trends triggered proactive management attention before thresholds were breached",
+      "Verify that KRI monitoring data feeds into the quarterly board technology risk report as required by Clause 8.5"
+    ]
+  },
+  "9.5": {
+    "clauseId": "9.5",
+    "section": "Technology Risk Management",
+    "subsection": "Risk Management Framework",
+    "title": "Technology Risk Register",
+    "clauseType": "governance",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will request the full technology risk register and verify it is comprehensive, current, and contains all required fields for each risk entry. They will check that quarterly reviews are documented, risk owners are assigned and actively engaged, and the register's change history demonstrates active maintenance rather than a static document.",
+    "evidenceItems": [
+      {
+        "id": "9.5-E1",
+        "name": "Technology risk register with all required fields",
+        "description": "Technology risk register with all required fields",
+        "whatGoodLooksLike": [
+          "Register contains entries for all identified technology risks across infrastructure, applications, cybersecurity, data, cloud, and third-party domains",
+          "Each entry includes risk description, risk category, assessed likelihood, assessed impact, overall risk rating, named risk owner, treatment plan reference, treatment status, and residual risk level",
+          "Risk ratings are consistent with the documented risk assessment methodology and use the defined rating scales",
+          "Register distinguishes between inherent risk (before controls) and residual risk (after controls) for each entry",
+          "Register is maintained on a platform with version control and audit trails, not in standalone spreadsheets"
+        ],
+        "commonGaps": [
+          "Register covers only IT infrastructure risks and omits critical domains such as cloud, data, third-party, or application risks",
+          "Entries are missing required fields; many risks lack assigned owners, treatment plans, or residual risk assessments",
+          "Risk ratings are inconsistent across entries, suggesting different methodologies were applied",
+          "Register is maintained in a spreadsheet with no version control, making it impossible to verify when entries were added or modified"
+        ],
+        "suggestedSources": [
+          "GRC platform risk register module (e.g., ServiceNow GRC, RSA Archer, MetricStream)",
+          "Technology risk management function records",
+          "Head of Technology Risk operational files"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "9.5-E2",
+        "name": "Quarterly review records of the risk register",
+        "description": "Quarterly review records of the risk register",
+        "whatGoodLooksLike": [
+          "Documented review outcomes for each quarter showing which risks were reviewed, updated, added, or closed",
+          "Review records demonstrate that risk assessments were revalidated and treatment plan progress was evaluated",
+          "Summary statistics are captured: total risks, new risks added, risks closed, risks with overdue treatment plans",
+          "Review findings are escalated to senior management through the quarterly technology risk report",
+          "Reviews are conducted by the technology risk management function with participation from risk owners"
+        ],
+        "commonGaps": [
+          "No documented quarterly review records despite the register existing; reviews are claimed but not evidenced",
+          "Reviews consist of a cursory check with no substantive reassessment of risk levels or treatment progress",
+          "Review records do not show which specific risks were reassessed or what changes were made",
+          "Reviews are conducted by the risk function alone without engagement from risk owners"
+        ],
+        "suggestedSources": [
+          "GRC platform review workflow and audit logs",
+          "Technology risk management function quarterly review reports",
+          "Risk committee meeting minutes where register reviews are discussed"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "9.5-E3",
+        "name": "Risk owner acknowledgement records",
+        "description": "Risk owner acknowledgement records",
+        "whatGoodLooksLike": [
+          "Each risk owner has formally acknowledged their assigned risks through signed acknowledgement records or system-based confirmation",
+          "Risk owners provide quarterly status updates on their assigned risks including treatment progress and any changes to risk levels",
+          "Acknowledgement records include the risk owner's understanding of their responsibilities for monitoring and managing the assigned risks",
+          "Records are maintained for all current risk owners and updated when ownership changes"
+        ],
+        "commonGaps": [
+          "No formal acknowledgement process; risk owners are assigned in the register but have never confirmed their accountability",
+          "Risk owners do not provide regular status updates, leaving the risk function to track treatment progress without owner input",
+          "Acknowledgement was obtained at initial assignment but not refreshed when risk circumstances changed significantly",
+          "Some risks have no assigned owner or the assigned owner has left the organisation without a successor being designated"
+        ],
+        "suggestedSources": [
+          "GRC platform risk assignment and acknowledgement workflows",
+          "Technology risk management function correspondence records",
+          "Email or system-based acknowledgement confirmations"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "9.5-E4",
+        "name": "Risk register change history",
+        "description": "Risk register change history",
+        "whatGoodLooksLike": [
+          "Complete audit trail showing all additions, modifications, and closures with timestamps, author identification, and change descriptions",
+          "Change history demonstrates regular updates throughout the year, not just bulk changes at review time",
+          "Justification is documented for significant changes such as risk level adjustments, owner changes, or risk closures",
+          "Change history is system-generated from the GRC platform rather than manually maintained"
+        ],
+        "commonGaps": [
+          "No change history available due to the register being maintained in a tool without audit trail capabilities",
+          "Change history shows long periods of inactivity suggesting the register is only updated around audit or review dates",
+          "Risk closures are not accompanied by documented justification explaining why the risk is no longer relevant",
+          "Changes are not attributable to specific individuals, making accountability for register modifications unclear"
+        ],
+        "suggestedSources": [
+          "GRC platform audit log and version history",
+          "Document management system version control records",
+          "Technology risk management function change tracking records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Request the full risk register and verify it covers all critical technology domains, not just traditional IT infrastructure risks",
+      "Check completeness by verifying that every entry has all required fields populated: risk description, likelihood, impact, rating, owner, treatment plan, and status",
+      "Request the last 4 quarters of review records and verify that substantive reassessment occurred, not just date updates",
+      "Select 5 risk owners at random and verify they can articulate the risks assigned to them and the current treatment plan status",
+      "Examine the change history timeline and confirm the register is updated regularly throughout the year, not just in bulk before scheduled reviews or audits"
+    ]
+  }
+}
