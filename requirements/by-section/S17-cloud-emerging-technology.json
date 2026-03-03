@@ -1,9 +1,9 @@
 {
   "17.1": {
     "clauseId": "17.1",
-    "section": "Cloud & Emerging Technology",
-    "subsection": "Cloud & Innovation",
-    "title": "Cloud Strategy & Governance",
+    "section": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "subsection": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "title": "First-Time Cloud and Emerging Technology Consultation",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -96,9 +96,9 @@
   },
   "17.2": {
     "clauseId": "17.2",
-    "section": "Cloud & Emerging Technology",
-    "subsection": "Cloud & Innovation",
-    "title": "Cloud Security Controls",
+    "section": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "subsection": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "title": "Subsequent Cloud and Emerging Technology Notification",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -199,11 +199,11 @@
   },
   "17.3": {
     "clauseId": "17.3",
-    "section": "Cloud & Emerging Technology",
-    "subsection": "Cloud & Innovation",
-    "title": "Cloud Portability & Exit",
+    "section": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "subsection": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "title": "Enhancement Notification Exemption",
     "clauseType": "regulatory",
-    "marker": "S",
+    "marker": "G",
     "business": {
       "summary": "Ensuring cloud portability and maintaining exit strategies for all cloud services protects the institution from excessive vendor dependency and guarantees continuity if a cloud provider relationship must be terminated.",
       "requirements": [
@@ -294,11 +294,11 @@
   },
   "17.4": {
     "clauseId": "17.4",
-    "section": "Cloud & Emerging Technology",
-    "subsection": "Cloud & Innovation",
-    "title": "AI & Machine Learning Governance",
+    "section": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "subsection": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "title": "Bank Discretionary Direction",
     "clauseType": "governance",
-    "marker": "G",
+    "marker": "S",
     "business": {
       "summary": "Establishing governance for AI and ML use in decision-making protects customers from biased or opaque automated decisions and manages the model risks inherent in deploying these technologies in financial services.",
       "requirements": [
@@ -389,11 +389,11 @@
   },
   "17.5": {
     "clauseId": "17.5",
-    "section": "Cloud & Emerging Technology",
-    "subsection": "Cloud & Innovation",
-    "title": "Emerging Technology Risk Assessment",
+    "section": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "subsection": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "title": "Cloud and Emerging Technology Roadmap",
     "clauseType": "regulatory",
-    "marker": "G",
+    "marker": "S",
     "business": {
       "summary": "Conducting risk assessments before adopting emerging technologies ensures the institution understands the security, privacy, regulatory, and operational implications of new technologies before committing resources.",
       "requirements": [

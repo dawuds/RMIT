@@ -2,8 +2,8 @@
   "8.1": {
     "clauseId": "8.1",
     "section": "Governance",
-    "subsection": "Board of Directors",
-    "title": "Board Oversight of Technology Risk",
+    "subsection": "Responsibilities of the Board of Directors",
+    "title": "Board Approval of Technology Risk Appetite",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -97,8 +97,8 @@
   "8.2": {
     "clauseId": "8.2",
     "section": "Governance",
-    "subsection": "Board of Directors",
-    "title": "Board Technology Risk Committee",
+    "subsection": "Responsibilities of the Board of Directors",
+    "title": "Board Oversight Responsibilities",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -184,10 +184,10 @@
   "8.3": {
     "clauseId": "8.3",
     "section": "Governance",
-    "subsection": "Board of Directors",
-    "title": "Board Competency in Technology",
+    "subsection": "Responsibilities of the Board of Directors",
+    "title": "Board-Level Technology Committee",
     "clauseType": "governance",
-    "marker": "G",
+    "marker": "S",
     "business": {
       "summary": "Board members who lack technology and cybersecurity knowledge cannot effectively challenge management or make informed decisions about technology investments, risk appetite, and incident response, exposing the institution to poorly governed technology risk.",
       "requirements": [
@@ -271,8 +271,8 @@
   "8.4": {
     "clauseId": "8.4",
     "section": "Governance",
-    "subsection": "Board of Directors",
-    "title": "Board Risk Appetite Statement",
+    "subsection": "Responsibilities of the Board of Directors",
+    "title": "Board Discussion on Technology and Cyber Risk",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -366,8 +366,8 @@
   "8.5": {
     "clauseId": "8.5",
     "section": "Governance",
-    "subsection": "Board of Directors",
-    "title": "Board Reporting on Technology Risk",
+    "subsection": "Responsibilities of the Board of Directors",
+    "title": "Board Audit Committee Technology Oversight",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -461,8 +461,8 @@
   "8.6": {
     "clauseId": "8.6",
     "section": "Governance",
-    "subsection": "Senior Management",
-    "title": "Senior Management Accountability",
+    "subsection": "Responsibilities of the senior management",
+    "title": "Senior Management Accountability for Technology Risk",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -548,8 +548,8 @@
   "8.7": {
     "clauseId": "8.7",
     "section": "Governance",
-    "subsection": "Senior Management",
-    "title": "Technology Risk Management Function",
+    "subsection": "Responsibilities of the senior management",
+    "title": "Cross-Functional Technology Committee",
     "clauseType": "governance",
     "marker": "S",
     "business": {

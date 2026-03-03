@@ -1,9 +1,9 @@
 {
   "17.1": {
     "clauseId": "17.1",
-    "section": "Cloud & Emerging Technology",
-    "subsection": "Cloud & Innovation",
-    "title": "Cloud Strategy & Governance",
+    "section": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "subsection": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "title": "First-Time Cloud and Emerging Technology Consultation",
     "clauseType": "governance",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that the institution has a board-approved cloud strategy aligned with overall technology strategy and risk appetite, that governance structures are defined for cloud decisions, and that approved service models and providers are documented with appropriate assessment evidence.",
@@ -111,9 +111,9 @@
   },
   "17.2": {
     "clauseId": "17.2",
-    "section": "Cloud & Emerging Technology",
-    "subsection": "Cloud & Innovation",
-    "title": "Cloud Security Controls",
+    "section": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "subsection": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "title": "Subsequent Cloud and Emerging Technology Notification",
     "clauseType": "regulatory",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that the institution has implemented security controls across all five required domains (IAM, data protection, network security, logging, configuration management), that controls are aligned with the shared responsibility model, and that effectiveness is validated through regular assessments.",
@@ -221,11 +221,11 @@
   },
   "17.3": {
     "clauseId": "17.3",
-    "section": "Cloud & Emerging Technology",
-    "subsection": "Cloud & Innovation",
-    "title": "Cloud Portability & Exit",
+    "section": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "subsection": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "title": "Enhancement Notification Exemption",
     "clauseType": "regulatory",
-    "marker": "S",
+    "marker": "G",
     "auditorFocus": "BNM examiners will verify that the institution has documented exit strategies for all cloud services, that architectures are designed to avoid excessive vendor dependency, that data extraction procedures are tested, and that vendor lock-in risks are assessed and reported.",
     "evidenceItems": [
       {
@@ -331,11 +331,11 @@
   },
   "17.4": {
     "clauseId": "17.4",
-    "section": "Cloud & Emerging Technology",
-    "subsection": "Cloud & Innovation",
-    "title": "AI & Machine Learning Governance",
+    "section": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "subsection": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "title": "Bank Discretionary Direction",
     "clauseType": "governance",
-    "marker": "G",
+    "marker": "S",
     "auditorFocus": "BNM examiners will assess whether the institution has established governance over AI and ML use, whether customer-facing models are subject to validation for accuracy and bias, whether model decisions are explainable, and whether clear accountability exists for AI-driven outcomes.",
     "evidenceItems": [
       {
@@ -441,11 +441,11 @@
   },
   "17.5": {
     "clauseId": "17.5",
-    "section": "Cloud & Emerging Technology",
-    "subsection": "Cloud & Innovation",
-    "title": "Emerging Technology Risk Assessment",
+    "section": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "subsection": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "title": "Cloud and Emerging Technology Roadmap",
     "clauseType": "regulatory",
-    "marker": "G",
+    "marker": "S",
     "auditorFocus": "BNM examiners will assess whether the institution has a structured process for evaluating emerging technology risks before adoption, whether quantum computing preparedness is being addressed, and whether risk assessments cover security, privacy, regulatory, and operational dimensions.",
     "evidenceItems": [
       {

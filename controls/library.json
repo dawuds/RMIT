@@ -963,8 +963,8 @@
         "Splunk ITSI"
       ],
       "nist": [
-        "ID.BE-5",
-        "PR.IP-7"
+        "GV.OC-05",
+        "GV.RM-07"
       ],
       "iso27001": [
         "A.5.30",
@@ -999,8 +999,8 @@
         "ServiceNow BCM"
       ],
       "nist": [
-        "PR.IP-9",
-        "RC.RP-1"
+        "RS.MA-01",
+        "RC.RP-01"
       ],
       "iso27001": [
         "A.5.29",
@@ -1020,7 +1020,7 @@
         "10.33"
       ],
       "keyActivities": [
-        "Define RTO and RPO for all critical systems with Board-approved targets aligned to BNM requirements — typically RTO of 4 hours or less for Tier-1 payment and core banking systems",
+        "Define RTO and RPO for all critical systems with Board-approved targets aligned to BNM requirements \u2014 typically RTO of 4 hours or less for Tier-1 payment and core banking systems",
         "Maintain a disaster recovery site with adequate infrastructure capacity, network connectivity, and data replication to support full recovery of critical banking operations",
         "Conduct full-scale DR drills at least annually with actual failover to the DR site, validating end-to-end recovery of core banking, RENTAS, FPX, DuitNow, and internet/mobile banking services",
         "Document and track DR test results, gaps identified, and remediation actions with reporting to the Board Risk Committee and retention for BNM examination",
@@ -1038,9 +1038,9 @@
         "IBM Resiliency Services"
       ],
       "nist": [
-        "PR.IP-9",
-        "RC.RP-1",
-        "RC.CO-3"
+        "RS.MA-01",
+        "RC.RP-01",
+        "RC.CO-04"
       ],
       "iso27001": [
         "A.5.29",
@@ -1076,9 +1076,9 @@
         "Castellan Solutions"
       ],
       "nist": [
-        "ID.BE-4",
-        "ID.BE-5",
-        "ID.RA-4"
+        "GV.OC-04",
+        "GV.OC-05",
+        "ID.RA-04"
       ],
       "iso27001": [
         "A.5.29",
@@ -1115,11 +1115,9 @@
         "OnSolve"
       ],
       "nist": [
-        "RS.CO-1",
-        "RS.CO-2",
-        "RS.CO-3",
-        "RS.CO-4",
-        "RS.CO-5"
+        "RS.CO-01",
+        "RS.CO-02",
+        "RS.CO-03"
       ],
       "iso27001": [
         "A.5.24",
@@ -1159,9 +1157,9 @@
         "Palo Alto Prisma"
       ],
       "nist": [
-        "PR.AC-5",
-        "PR.PT-4",
-        "DE.AE-1"
+        "PR.AA-04",
+        "PR.DS-02",
+        "DE.AE-02"
       ],
       "iso27001": [
         "A.8.20",
@@ -1197,8 +1195,8 @@
         "Palo Alto Panorama"
       ],
       "nist": [
-        "PR.AC-5",
-        "PR.PT-4"
+        "PR.AA-04",
+        "PR.DS-02"
       ],
       "iso27001": [
         "A.8.20",
@@ -1235,9 +1233,8 @@
         "Darktrace"
       ],
       "nist": [
-        "DE.CM-1",
-        "DE.CM-7",
-        "DE.DP-2"
+        "DE.CM-01",
+        "DE.AE-01"
       ],
       "iso27001": [
         "A.8.16",
@@ -1272,9 +1269,9 @@
         "Fortinet FortiAP"
       ],
       "nist": [
-        "PR.AC-1",
-        "PR.AC-5",
-        "DE.CM-1"
+        "PR.AA-01",
+        "PR.AA-04",
+        "DE.CM-01"
       ],
       "iso27001": [
         "A.8.20",
@@ -1309,9 +1306,8 @@
         "Cloudflare Access"
       ],
       "nist": [
-        "PR.AC-1",
-        "PR.AC-3",
-        "PR.AC-7"
+        "PR.AA-01",
+        "PR.AA-03"
       ],
       "iso27001": [
         "A.8.5",
@@ -1346,9 +1342,8 @@
         "Akamai Edge DNS"
       ],
       "nist": [
-        "PR.DS-2",
-        "DE.CM-1",
-        "PR.PT-4"
+        "PR.DS-02",
+        "DE.CM-01"
       ],
       "iso27001": [
         "A.8.20",
@@ -1386,9 +1381,9 @@
         "Cisco Stealthwatch"
       ],
       "nist": [
-        "DE.CM-1",
-        "DE.AE-1",
-        "DE.AE-3"
+        "DE.CM-01",
+        "DE.AE-02",
+        "DE.AE-04"
       ],
       "iso27001": [
         "A.8.16",
@@ -1427,9 +1422,9 @@
         "Dell PowerProtect"
       ],
       "nist": [
-        "PR.IP-4",
-        "PR.IP-9",
-        "RC.RP-1"
+        "PR.DS-11",
+        "RS.MA-01",
+        "RC.RP-01"
       ],
       "iso27001": [
         "A.8.13",
@@ -1468,9 +1463,9 @@
         "Archer Third Party Governance"
       ],
       "nist": [
-        "ID.SC-1",
-        "ID.SC-2",
-        "ID.SC-4"
+        "GV.SC-01",
+        "GV.SC-02",
+        "GV.SC-04"
       ],
       "iso27001": [
         "A.5.19",
@@ -1505,8 +1500,8 @@
         "SAP Ariba"
       ],
       "nist": [
-        "ID.SC-1",
-        "ID.SC-3"
+        "GV.SC-01",
+        "GV.SC-03"
       ],
       "iso27001": [
         "A.5.19",
@@ -1542,8 +1537,8 @@
         "ManageEngine ServiceDesk Plus"
       ],
       "nist": [
-        "ID.SC-4",
-        "DE.CM-6"
+        "GV.SC-04",
+        "DE.CM-06"
       ],
       "iso27001": [
         "A.5.20",
@@ -1577,8 +1572,8 @@
         "ServiceNow Vendor Risk"
       ],
       "nist": [
-        "ID.SC-1",
-        "ID.SC-3"
+        "GV.SC-01",
+        "GV.SC-03"
       ],
       "iso27001": [
         "A.5.19",
@@ -1616,9 +1611,9 @@
         "OneTrust Cloud Compliance"
       ],
       "nist": [
-        "ID.RA-1",
-        "ID.RA-3",
-        "ID.SC-2"
+        "ID.RA-01",
+        "ID.RA-03",
+        "GV.SC-02"
       ],
       "iso27001": [
         "A.5.23",
@@ -1655,10 +1650,10 @@
         "Lacework"
       ],
       "nist": [
-        "PR.AC-4",
-        "PR.DS-1",
-        "PR.DS-2",
-        "DE.CM-7"
+        "PR.AA-03",
+        "PR.DS-01",
+        "PR.DS-02",
+        "DE.CM-01"
       ],
       "iso27001": [
         "A.8.23",
@@ -1694,9 +1689,9 @@
         "Azure Policy / AWS Config"
       ],
       "nist": [
-        "PR.DS-1",
-        "PR.DS-5",
-        "ID.AM-5"
+        "PR.DS-01",
+        "PR.DS-02",
+        "ID.AM-05"
       ],
       "iso27001": [
         "A.5.34",
@@ -1732,8 +1727,8 @@
         "CloudEndure Migration"
       ],
       "nist": [
-        "ID.SC-1",
-        "PR.IP-9"
+        "GV.SC-01",
+        "RS.MA-01"
       ],
       "iso27001": [
         "A.5.23",
@@ -1769,9 +1764,9 @@
         "Arthur AI"
       ],
       "nist": [
-        "ID.RA-1",
-        "ID.GV-1",
-        "PR.IP-7"
+        "ID.RA-01",
+        "GV.PO-01",
+        "GV.RM-07"
       ],
       "iso27001": [
         "A.5.1",
@@ -1805,9 +1800,9 @@
         "ServiceNow Technology Portfolio"
       ],
       "nist": [
-        "ID.RA-1",
-        "ID.RA-2",
-        "ID.RA-3"
+        "ID.RA-01",
+        "ID.RA-02",
+        "ID.RA-03"
       ],
       "iso27001": [
         "A.5.7",
@@ -1843,9 +1838,9 @@
         "CyberArk Identity"
       ],
       "nist": [
-        "AC-1",
-        "AC-2",
-        "AC-3"
+        "PR.AA-01",
+        "PR.AA-02",
+        "PR.AA-03"
       ],
       "iso27001": [
         "A.5.15",
@@ -1881,10 +1876,8 @@
         "Ping Identity"
       ],
       "nist": [
-        "AC-2",
-        "IA-2",
-        "IA-4",
-        "IA-5"
+        "PR.AA-02",
+        "PR.AA-01"
       ],
       "iso27001": [
         "A.5.16",
@@ -1958,7 +1951,7 @@
         "1Password Business"
       ],
       "nist": [
-        "IA-5",
+        "PR.AA-01",
         "IA-5(1)"
       ],
       "iso27001": [
@@ -1994,7 +1987,7 @@
         "HashiCorp Vault"
       ],
       "nist": [
-        "AC-6",
+        "PR.AA-03",
         "AC-6(1)",
         "AC-6(5)",
         "AC-2(7)"
@@ -2074,11 +2067,10 @@
         "TheHive"
       ],
       "nist": [
-        "IR-1",
-        "IR-4",
-        "IR-5",
-        "IR-6",
-        "IR-8"
+        "RS.MA-01",
+        "RS.AN-03",
+        "RS.AN-01",
+        "RS.CO-02"
       ],
       "iso27001": [
         "A.5.24",
@@ -2114,9 +2106,9 @@
         "SecurityScorecard"
       ],
       "nist": [
-        "PM-1",
-        "PM-9",
-        "RA-3"
+        "GV.PO-01",
+        "GV.RM-01",
+        "ID.RA-03"
       ],
       "iso27001": [
         "A.5.1",
@@ -2151,8 +2143,8 @@
         "MetricStream"
       ],
       "nist": [
-        "PM-1",
-        "PM-2",
+        "GV.PO-01",
+        "GV.PO-02",
         "PM-10"
       ],
       "iso27001": [
@@ -2193,8 +2185,8 @@
       ],
       "nist": [
         "IR-4(3)",
-        "IR-7",
-        "CP-2"
+        "RS.CO-03",
+        "RC.RP-02"
       ],
       "iso27001": [
         "A.5.24",
@@ -2233,9 +2225,9 @@
         "Wazuh"
       ],
       "nist": [
-        "SI-4",
-        "IR-4",
-        "AU-6"
+        "DE.CM-01",
+        "RS.AN-03",
+        "DE.AE-02"
       ],
       "iso27001": [
         "A.8.15",
@@ -2272,9 +2264,9 @@
         "Wazuh"
       ],
       "nist": [
-        "SI-4",
-        "AU-6",
-        "AU-12"
+        "DE.CM-01",
+        "DE.AE-02",
+        "DE.CM-09"
       ],
       "iso27001": [
         "A.8.15",
@@ -2309,9 +2301,8 @@
         "Carbon Black"
       ],
       "nist": [
-        "SI-3",
-        "SI-4",
-        "SC-7"
+        "PR.DS-02",
+        "DE.CM-01"
       ],
       "iso27001": [
         "A.8.7",
@@ -2346,9 +2337,8 @@
         "Abnormal Security"
       ],
       "nist": [
-        "SI-3",
-        "SI-8",
-        "SC-7"
+        "PR.DS-02",
+        "SI-8"
       ],
       "iso27001": [
         "A.8.7",
@@ -2384,9 +2374,9 @@
         "Forcepoint DLP"
       ],
       "nist": [
-        "SC-7",
-        "AC-4",
-        "SI-4",
+        "PR.DS-02",
+        "PR.AA-04",
+        "DE.CM-01",
         "MP-5"
       ],
       "iso27001": [
@@ -2425,9 +2415,9 @@
         "Microsoft Defender Vulnerability Management"
       ],
       "nist": [
-        "RA-5",
-        "SI-2",
-        "SI-5"
+        "ID.RA-01",
+        "PR.PS-01",
+        "DE.AE-02"
       ],
       "iso27001": [
         "A.8.8",
@@ -2463,8 +2453,8 @@
       ],
       "nist": [
         "CA-8",
-        "RA-5",
-        "SA-11"
+        "ID.RA-01",
+        "PR.PS-02"
       ],
       "iso27001": [
         "A.8.8",
@@ -2500,7 +2490,7 @@
       ],
       "nist": [
         "CA-8(1)",
-        "RA-5",
+        "ID.RA-01",
         "PM-14"
       ],
       "iso27001": [
@@ -2537,8 +2527,8 @@
       ],
       "nist": [
         "PM-15",
-        "RA-5",
-        "SI-5"
+        "ID.RA-01",
+        "DE.AE-02"
       ],
       "iso27001": [
         "A.8.8",
@@ -2577,8 +2567,8 @@
       ],
       "nist": [
         "PM-16",
-        "RA-3",
-        "SI-5"
+        "ID.RA-03",
+        "DE.AE-02"
       ],
       "iso27001": [
         "A.5.7",
@@ -2613,9 +2603,9 @@
         "Jupyter Notebooks"
       ],
       "nist": [
-        "RA-5",
-        "SI-4",
-        "IR-4"
+        "ID.RA-01",
+        "DE.CM-01",
+        "RS.AN-03"
       ],
       "iso27001": [
         "A.8.16",
@@ -2650,9 +2640,9 @@
         "ThreatConnect"
       ],
       "nist": [
-        "SI-5",
+        "DE.AE-02",
         "PM-16",
-        "SI-4"
+        "DE.CM-01"
       ],
       "iso27001": [
         "A.5.7",
@@ -2688,8 +2678,8 @@
       ],
       "nist": [
         "PM-16",
-        "SI-5",
-        "RA-3"
+        "DE.AE-02",
+        "ID.RA-03"
       ],
       "iso27001": [
         "A.5.7",
@@ -2726,9 +2716,8 @@
         "Imperva"
       ],
       "nist": [
-        "SC-8",
-        "SC-13",
-        "SC-23"
+        "PR.DS-02",
+        "PR.DS-01"
       ],
       "iso27001": [
         "A.8.20",
@@ -2764,9 +2753,9 @@
         "NowSecure"
       ],
       "nist": [
-        "SA-15",
-        "SI-7",
-        "SC-28"
+        "PR.PS-02",
+        "PR.DS-06",
+        "PR.DS-01"
       ],
       "iso27001": [
         "A.8.25",
@@ -2804,10 +2793,9 @@
         "42Crunch"
       ],
       "nist": [
-        "SC-7",
-        "AC-3",
-        "SI-10",
-        "SC-8"
+        "PR.DS-02",
+        "PR.AA-03",
+        "PR.DS-01"
       ],
       "iso27001": [
         "A.8.24",
@@ -2844,9 +2832,7 @@
         "BioCatch"
       ],
       "nist": [
-        "IA-2",
-        "IA-5",
-        "IA-8"
+        "PR.AA-01"
       ],
       "iso27001": [
         "A.5.17",
@@ -2882,7 +2868,7 @@
       ],
       "nist": [
         "IA-9",
-        "SC-13",
+        "PR.DS-01",
         "AU-10"
       ],
       "iso27001": [
@@ -2919,7 +2905,7 @@
       ],
       "nist": [
         "AC-12",
-        "SC-23",
+        "PR.DS-02",
         "SC-10"
       ],
       "iso27001": [
@@ -2956,9 +2942,9 @@
         "Feedzai"
       ],
       "nist": [
-        "SI-4",
-        "AU-6",
-        "IR-4"
+        "DE.CM-01",
+        "DE.AE-02",
+        "RS.AN-03"
       ],
       "iso27001": [
         "A.8.16",
@@ -2992,8 +2978,8 @@
         "Featurespace"
       ],
       "nist": [
-        "SC-13",
-        "SI-4",
+        "PR.DS-01",
+        "DE.CM-01",
         "IA-9"
       ],
       "iso27001": [
@@ -3032,9 +3018,9 @@
         "ServiceNow GRC"
       ],
       "nist": [
-        "CA-2",
-        "CA-7",
-        "AU-6"
+        "ID.RA-06",
+        "DE.CM-01",
+        "DE.AE-02"
       ],
       "iso27001": [
         "A.5.35",
@@ -3069,7 +3055,7 @@
         "IIA Standards"
       ],
       "nist": [
-        "CA-2",
+        "ID.RA-06",
         "PM-14"
       ],
       "iso27001": [
@@ -3107,9 +3093,9 @@
         "Prevalent"
       ],
       "nist": [
-        "SA-9",
-        "SR-6",
-        "CA-2"
+        "GV.SC-01",
+        "GV.SC-05",
+        "ID.RA-06"
       ],
       "iso27001": [
         "A.5.19",
@@ -3146,9 +3132,9 @@
         "Cofense"
       ],
       "nist": [
-        "AT-1",
-        "AT-2",
-        "AT-3"
+        "GV.PO-01",
+        "PR.AT-01",
+        "PR.AT-02"
       ],
       "iso27001": [
         "A.6.3",
@@ -3219,7 +3205,7 @@
         "Secure Code Warrior"
       ],
       "nist": [
-        "AT-3",
+        "PR.AT-02",
         "AT-4"
       ],
       "iso27001": [
@@ -3253,8 +3239,8 @@
         "Fusion Risk Management"
       ],
       "nist": [
-        "IR-6",
-        "IR-7"
+        "RS.CO-02",
+        "RS.CO-03"
       ],
       "iso27001": [
         "A.5.24",
@@ -3290,9 +3276,8 @@
         "Microsoft Planner"
       ],
       "nist": [
-        "CM-3",
-        "CM-4",
-        "SA-10"
+        "PR.PS-02",
+        "CM-4"
       ],
       "iso27001": [
         "A.5.36",
@@ -3326,9 +3311,8 @@
         "Prevalent"
       ],
       "nist": [
-        "SA-9",
-        "SR-1",
-        "SR-6"
+        "GV.SC-01",
+        "GV.SC-05"
       ],
       "iso27001": [
         "A.5.19",
@@ -3364,9 +3348,9 @@
         "Wolters Kluwer OneSumX"
       ],
       "nist": [
-        "CA-2",
+        "ID.RA-06",
         "CA-5",
-        "PM-9"
+        "GV.RM-01"
       ],
       "iso27001": [
         "A.5.35",
@@ -3401,9 +3385,9 @@
         "Tableau"
       ],
       "nist": [
-        "PM-9",
-        "PM-28",
-        "CA-7"
+        "GV.RM-01",
+        "GV.RM-02",
+        "DE.CM-01"
       ],
       "iso27001": [
         "A.5.35",
@@ -3438,9 +3422,9 @@
         "OneTrust"
       ],
       "nist": [
-        "CA-2",
+        "ID.RA-06",
         "CA-5",
-        "PM-9"
+        "GV.RM-01"
       ],
       "iso27001": [
         "A.5.35",
@@ -3478,7 +3462,7 @@
       "nist": [
         "CA-5",
         "PM-4",
-        "PM-9"
+        "GV.RM-01"
       ],
       "iso27001": [
         "A.5.35",

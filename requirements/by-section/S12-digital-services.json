@@ -2,8 +2,8 @@
   "12.1": {
     "clauseId": "12.1",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "Digital Channel Security",
+    "subsection": "Security of Digital Services",
+    "title": "Digital Services Security Controls",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -105,8 +105,8 @@
   "12.2": {
     "clauseId": "12.2",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "Mobile Application Security",
+    "subsection": "Security of Digital Services",
+    "title": "Alternative Controls and Liability",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -208,8 +208,8 @@
   "12.3": {
     "clauseId": "12.3",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "API Security",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "CRF Enhancement for Digital Fraud",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -311,8 +311,8 @@
   "12.4": {
     "clauseId": "12.4",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "Customer Authentication",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Fraud Detection Capabilities",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -406,8 +406,8 @@
   "12.5": {
     "clauseId": "12.5",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "Transaction Verification",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Digital Service Delivery Risk Mitigation",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -501,8 +501,8 @@
   "12.6": {
     "clauseId": "12.6",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "Session Management",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Customer Fraud Risk Empowerment",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -596,8 +596,8 @@
   "12.7": {
     "clauseId": "12.7",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "Fraud Detection",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Customer Fraud Awareness Programmes",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -699,10 +699,10 @@
   "12.8": {
     "clauseId": "12.8",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "Digital Onboarding Security",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Customer Account Suspension and Kill Switch",
     "clauseType": "technical",
-    "marker": "G",
+    "marker": "S",
     "business": {
       "summary": "Digital customer onboarding introduces fraud and identity theft risks that must be managed through proportionate security controls without creating excessive friction for legitimate customers.",
       "requirements": [
@@ -794,8 +794,8 @@
   "12.9": {
     "clauseId": "12.9",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "QR Code & E-Wallet Security",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Post-Incident Customer Protection",
     "clauseType": "technical",
     "marker": "S",
     "business": {

@@ -208,17 +208,17 @@ Maturity levels:
 
 | Section | Name | Clauses | Subsections |
 |---------|------|---------|-------------|
-| S8 | Governance | 7 | Board of Directors, Senior Management |
-| S9 | Technology Risk Management | 5 | Risk Management Framework |
-| S10 | Technology Operations Management | 57 | Project Management, System Development, Patch & End-of-Life, Cryptography, Data Centre & Facilities, Service Availability, Network Security, Backup & Recovery, Third-Party Management, Cloud Services, Access Control |
-| S11 | Cybersecurity Management | 20 | Cybersecurity Framework, Security Operations, Vulnerability Management, Threat Intelligence |
-| S12 | Digital Services | 9 | Digital Channels |
-| S13 | Technology Audits | 4 | Audit Framework |
-| S14 | External Party Assurance | 2 | Third-Party Assurance |
-| S15 | Security Awareness & Education | 3 | Training & Awareness |
-| S16 | Regulatory Notifications | 7 | BNM Notifications |
-| S17 | Cloud & Emerging Technology | 5 | Cloud & Innovation |
-| S18 | Assessment & Gap Analysis | 2 | Self-Assessment |
+| S8 | Governance | 7 | Responsibilities of the Board of Directors, Responsibilities of the senior management |
+| S9 | Technology Risk Management | 5 | Risk Management Framework, Designated Chief Information Security Officer |
+| S10 | Technology Operations Management | 57 | Technology Project Management, System Development and Acquisition, Patch and End-of-Life System Management, Cryptography, Data Centre Resilience, Service Availability, Network Resilience, System backup and restoration, Third Party Service Provider Management, Cloud Services, Access Control |
+| S11 | Cybersecurity Management | 20 | Cyber Risk Management, Cybersecurity Operations, Cyber Response and Recovery, Cyber Reporting and Threat Information Sharing |
+| S12 | Digital Services | 9 | Security of Digital Services, Digital Fraud Management and Customer Awareness |
+| S13 | Technology Audits | 4 | Audit function |
+| S14 | External Party Assurance | 2 | External Party Assurance |
+| S15 | Security Awareness and Education | 3 | Security Awareness and Education |
+| S16 | Notification for Technology-Related Applications | 7 | Introduction or enhancement to digital services |
+| S17 | Consultation and Notification related to Cloud Services and Emerging Technology | 5 | Consultation and Notification related to Cloud Services and Emerging Technology |
+| S18 | Assessment and Gap Analysis | 2 | Assessment and Gap Analysis |
 
 ## Clause Types
 

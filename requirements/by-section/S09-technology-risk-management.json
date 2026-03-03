@@ -3,7 +3,7 @@
     "clauseId": "9.1",
     "section": "Technology Risk Management",
     "subsection": "Risk Management Framework",
-    "title": "Technology Risk Framework",
+    "title": "TRMF Integration with Enterprise Risk Management",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -98,7 +98,7 @@
     "clauseId": "9.2",
     "section": "Technology Risk Management",
     "subsection": "Risk Management Framework",
-    "title": "Risk Identification & Assessment",
+    "title": "TRMF Minimum Requirements",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -193,7 +193,7 @@
     "clauseId": "9.3",
     "section": "Technology Risk Management",
     "subsection": "Risk Management Framework",
-    "title": "Risk Treatment & Mitigation",
+    "title": "Independent Technology Risk Management Function",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -287,10 +287,10 @@
   "9.4": {
     "clauseId": "9.4",
     "section": "Technology Risk Management",
-    "subsection": "Risk Management Framework",
-    "title": "Risk Monitoring & Reporting",
+    "subsection": "Designated Chief Information Security Officer",
+    "title": "Designation of Chief Information Security Officer",
     "clauseType": "governance",
-    "marker": "G",
+    "marker": "S",
     "business": {
       "summary": "Continuous monitoring and structured reporting of technology risks ensures the institution detects emerging threats and risk appetite breaches early, enabling timely management response and informed board oversight.",
       "requirements": [
@@ -382,8 +382,8 @@
   "9.5": {
     "clauseId": "9.5",
     "section": "Technology Risk Management",
-    "subsection": "Risk Management Framework",
-    "title": "Technology Risk Register",
+    "subsection": "Designated Chief Information Security Officer",
+    "title": "CISO Responsibilities for Information Protection",
     "clauseType": "governance",
     "marker": "S",
     "business": {

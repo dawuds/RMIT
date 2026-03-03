@@ -1,9 +1,9 @@
 {
   "16.1": {
     "clauseId": "16.1",
-    "section": "Regulatory Notifications",
-    "subsection": "BNM Notifications",
-    "title": "Material Incident Notification",
+    "section": "Notification for Technology-Related Applications",
+    "subsection": "Introduction or enhancement to digital services",
+    "title": "Digital Services Notification Requirement",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -96,9 +96,9 @@
   },
   "16.2": {
     "clauseId": "16.2",
-    "section": "Regulatory Notifications",
-    "subsection": "BNM Notifications",
-    "title": "Technology Project Notification",
+    "section": "Notification for Technology-Related Applications",
+    "subsection": "Introduction or enhancement to digital services",
+    "title": "First-Time Digital Services Notification",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -183,9 +183,9 @@
   },
   "16.3": {
     "clauseId": "16.3",
-    "section": "Regulatory Notifications",
-    "subsection": "BNM Notifications",
-    "title": "Outsourcing Notification",
+    "section": "Notification for Technology-Related Applications",
+    "subsection": "Introduction or enhancement to digital services",
+    "title": "Simplified Enhancement Notification",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -270,9 +270,9 @@
   },
   "16.4": {
     "clauseId": "16.4",
-    "section": "Regulatory Notifications",
-    "subsection": "BNM Notifications",
-    "title": "Cloud Adoption Notification",
+    "section": "Notification for Technology-Related Applications",
+    "subsection": "Introduction or enhancement to digital services",
+    "title": "Full Enhancement Notification Requirements",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -365,9 +365,9 @@
   },
   "16.5": {
     "clauseId": "16.5",
-    "section": "Regulatory Notifications",
-    "subsection": "BNM Notifications",
-    "title": "Technology Audit Findings",
+    "section": "Notification for Technology-Related Applications",
+    "subsection": "Introduction or enhancement to digital services",
+    "title": "External Assurance Competency",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -452,9 +452,9 @@
   },
   "16.6": {
     "clauseId": "16.6",
-    "section": "Regulatory Notifications",
-    "subsection": "BNM Notifications",
-    "title": "Regulatory Examination Response",
+    "section": "Notification for Technology-Related Applications",
+    "subsection": "Introduction or enhancement to digital services",
+    "title": "Document Provision to Bank",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -539,11 +539,11 @@
   },
   "16.7": {
     "clauseId": "16.7",
-    "section": "Regulatory Notifications",
-    "subsection": "BNM Notifications",
-    "title": "Annual Technology Risk Report",
+    "section": "Notification for Technology-Related Applications",
+    "subsection": "Introduction or enhancement to digital services",
+    "title": "Immediate Service Offering Upon Notification",
     "clauseType": "regulatory",
-    "marker": "S",
+    "marker": "G",
     "business": {
       "summary": "The annual technology risk report to BNM provides the regulator with a comprehensive view of the institution's technology risk posture, significant incidents, key risk indicators, and strategic plans for managing technology risk.",
       "requirements": [

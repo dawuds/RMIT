@@ -2,8 +2,8 @@
   "13.1": {
     "clauseId": "13.1",
     "section": "Technology Audits",
-    "subsection": "Audit Framework",
-    "title": "IT Audit Plan",
+    "subsection": "Audit function",
+    "title": "Technology Audit Scope and Frequency",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -97,8 +97,8 @@
   "13.2": {
     "clauseId": "13.2",
     "section": "Technology Audits",
-    "subsection": "Audit Framework",
-    "title": "IT Audit Independence",
+    "subsection": "Audit function",
+    "title": "Annual Technology Audit Plan",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -192,10 +192,10 @@
   "13.3": {
     "clauseId": "13.3",
     "section": "Technology Audits",
-    "subsection": "Audit Framework",
-    "title": "IT Audit Competency",
+    "subsection": "Audit function",
+    "title": "Technology Audit Competency",
     "clauseType": "governance",
-    "marker": "G",
+    "marker": "S",
     "business": {
       "summary": "IT audit quality depends on auditors possessing relevant certifications and current knowledge of technology risks, cybersecurity threats, and auditing standards.",
       "requirements": [
@@ -287,10 +287,10 @@
   "13.4": {
     "clauseId": "13.4",
     "section": "Technology Audits",
-    "subsection": "Audit Framework",
-    "title": "IT Audit Follow-Up",
+    "subsection": "Audit function",
+    "title": "Technology Audit Advisory Role",
     "clauseType": "governance",
-    "marker": "S",
+    "marker": "G",
     "business": {
       "summary": "Effective follow-up on IT audit findings ensures that identified risks are actually remediated rather than merely documented, protecting the institution from recurring technology failures.",
       "requirements": [

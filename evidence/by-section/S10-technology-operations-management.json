@@ -2,8 +2,8 @@
   "10.1": {
     "clauseId": "10.1",
     "section": "Technology Operations Management",
-    "subsection": "Project Management",
-    "title": "IT Project Governance",
+    "subsection": "Technology Project Management",
+    "title": "Technology Project Governance",
     "clauseType": "governance",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that a formal, board-approved IT project governance framework exists and is actively enforced, with particular scrutiny on whether major projects underwent independent risk assessment and received senior management approval before commencement.",
@@ -22,7 +22,7 @@
         "commonGaps": [
           "Framework exists as a generic template without customisation to the institution's project landscape",
           "No clear criteria for what constitutes a 'major' project, leading to inconsistent classification",
-          "Stage-gate requirements defined but not enforced in practice — projects proceed without documented approvals",
+          "Stage-gate requirements defined but not enforced in practice \u2014 projects proceed without documented approvals",
           "Framework has not been updated since initial creation despite organisational or regulatory changes"
         ],
         "suggestedSources": [
@@ -45,8 +45,8 @@
         ],
         "commonGaps": [
           "Stage-gate approvals are backdated or completed retrospectively after the project has already moved to the next phase",
-          "Sign-offs lack specificity — generic 'approved' without reference to what was actually reviewed",
-          "No evidence of conditions tracking — issues raised at gates are not followed through to closure",
+          "Sign-offs lack specificity \u2014 generic 'approved' without reference to what was actually reviewed",
+          "No evidence of conditions tracking \u2014 issues raised at gates are not followed through to closure",
           "Smaller projects bypass stage-gates entirely without documented justification"
         ],
         "suggestedSources": [
@@ -118,8 +118,8 @@
   "10.2": {
     "clauseId": "10.2",
     "section": "Technology Operations Management",
-    "subsection": "Project Management",
-    "title": "Project Risk Assessment",
+    "subsection": "Technology Project Management",
+    "title": "Technology Project Risk Assessment",
     "clauseType": "governance",
     "marker": "S",
     "auditorFocus": "BNM examiners will look for evidence that every technology project has a completed risk assessment covering security, availability, and data integrity, with explicit interdependency analysis and documented risk mitigation plans reviewed before project commencement.",
@@ -236,10 +236,10 @@
   "10.3": {
     "clauseId": "10.3",
     "section": "Technology Operations Management",
-    "subsection": "Project Management",
-    "title": "Post-Implementation Review",
+    "subsection": "Technology Project Management",
+    "title": "Board and Senior Management Project Reporting",
     "clauseType": "governance",
-    "marker": "G",
+    "marker": "S",
     "auditorFocus": "BNM examiners will check whether post-implementation reviews are consistently conducted within three months of go-live for significant projects, and whether lessons learned are documented and demonstrably fed back into improved processes.",
     "evidenceItems": [
       {
@@ -352,8 +352,8 @@
   "10.4": {
     "clauseId": "10.4",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "SDLC Framework",
+    "subsection": "System Development and Acquisition",
+    "title": "Enterprise Technology Architecture Framework",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that a formal SDLC framework exists with security explicitly integrated at every phase, and will sample recent projects to confirm that security checkpoints and quality gates are being followed in practice, not just documented.",
@@ -467,8 +467,8 @@
   "10.5": {
     "clauseId": "10.5",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Requirements Management",
+    "subsection": "System Development and Acquisition",
+    "title": "System Development Life Cycle Methodology",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will specifically look for evidence that security and compliance requirements are explicitly documented at the start of development, traceable through to validation, and formally signed off before deployment. They will sample recent projects to verify traceability is maintained in practice.",
@@ -505,7 +505,7 @@
         "whatGoodLooksLike": [
           "Every security requirement has a corresponding design element, implementation reference, test case, and validation result",
           "Matrix is maintained as a living document updated throughout the project lifecycle, not created at the end",
-          "No gaps in traceability chain — every requirement can be traced from source to validated implementation",
+          "No gaps in traceability chain \u2014 every requirement can be traced from source to validated implementation",
           "Matrix includes status tracking showing requirements as pending, implemented, tested, or validated",
           "Validated by QA lead with sign-off confirming complete traceability before deployment"
         ],
@@ -575,7 +575,7 @@
       }
     ],
     "auditTips": [
-      "Select 3-5 recent projects and request their requirements traceability matrices — verify that security requirements trace from source through to validated test results with no gaps",
+      "Select 3-5 recent projects and request their requirements traceability matrices \u2014 verify that security requirements trace from source through to validated test results with no gaps",
       "Check that security requirements specification documents were signed off by the information security function before the design phase, not retrospectively",
       "Verify that compliance requirements mapping covers all applicable regulations, not just RMiT",
       "Look for evidence that failed security requirement validations were remediated and retested before deployment",
@@ -585,8 +585,8 @@
   "10.6": {
     "clauseId": "10.6",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Secure Development Standards",
+    "subsection": "System Development and Acquisition",
+    "title": "Rapid Development Security Requirements",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that secure coding standards exist based on recognised practices like OWASP, that all developers have been trained, and that compliance is verified through both code reviews and automated scanning tools with documented results.",
@@ -630,7 +630,7 @@
         "commonGaps": [
           "Training records exist for permanent staff but not for contractors or outsourced development partners",
           "Training is a one-time event with no annual refresh or update when standards change",
-          "No competency assessment — only attendance records, providing no assurance of actual learning",
+          "No competency assessment \u2014 only attendance records, providing no assurance of actual learning",
           "Training content is generic and not aligned to the institution's specific secure coding standards"
         ],
         "suggestedSources": [
@@ -703,8 +703,8 @@
   "10.7": {
     "clauseId": "10.7",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Code Review & Static Analysis",
+    "subsection": "System Development and Acquisition",
+    "title": "Production Environment Segregation",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that both peer code reviews and SAST scanning are mandatory for all code before production deployment, that critical and high findings are remediated before release, and that any exceptions have formal risk acceptance documentation signed by the appropriate authority.",
@@ -723,7 +723,7 @@
         "commonGaps": [
           "Policy exists for SAST but peer code review is not mandated or is discretionary",
           "Policy exempts certain code types such as configuration scripts, database changes, or vendor patches",
-          "Exception handling is informal — no defined risk acceptance procedure or authority level",
+          "Exception handling is informal \u2014 no defined risk acceptance procedure or authority level",
           "Policy not updated to cover new development platforms or languages adopted by the institution"
         ],
         "suggestedSources": [
@@ -814,15 +814,15 @@
       "Request CI/CD pipeline configurations and verify that SAST is configured as a mandatory gate that blocks deployment for critical/high findings",
       "Sample 10 recent production deployments and verify each has both peer code review records and SAST scan results with no unresolved critical/high findings",
       "Review the risk acceptance register for any exceptions and verify each has proper documentation, CISO approval, compensating controls, and a remediation deadline",
-      "Check SAST finding trend data over the last 12 months — a flat or increasing trend of critical findings suggests remediation is not keeping pace with new code",
+      "Check SAST finding trend data over the last 12 months \u2014 a flat or increasing trend of critical findings suggests remediation is not keeping pace with new code",
       "Attempt to identify code that was deployed without review or scanning by checking for direct commits to production branches or pipeline bypass patterns"
     ]
   },
   "10.8": {
     "clauseId": "10.8",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Testing Standards",
+    "subsection": "System Development and Acquisition",
+    "title": "System Testing Methodology",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that comprehensive testing standards exist covering functional, integration, performance, and security testing, and will sample recent releases to confirm that test plans were documented, executed, and formally approved before production deployment.",
@@ -930,7 +930,7 @@
     ],
     "auditTips": [
       "Select 5 recent production deployments and verify each has documented test plans covering functional, integration, performance, and security testing",
-      "Check that test result approvals were obtained before deployment dates, not retrospectively — compare sign-off dates against deployment logs",
+      "Check that test result approvals were obtained before deployment dates, not retrospectively \u2014 compare sign-off dates against deployment logs",
       "Review performance test plans and verify they include load profiles based on actual production traffic, not arbitrary numbers",
       "Look for evidence of security testing (DAST, vulnerability scanning) as part of the standard release cycle, not only for major releases",
       "Examine defect records linked to test failures and confirm remediation was verified through retesting before deployment approval"
@@ -939,10 +939,10 @@
   "10.9": {
     "clauseId": "10.9",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "UAT & Acceptance",
+    "subsection": "System Development and Acquisition",
+    "title": "Scope of System Testing",
     "clauseType": "technical",
-    "marker": "S",
+    "marker": "G",
     "auditorFocus": "BNM examiners will verify that UAT is conducted by business users in an environment mirroring production, that results are formally signed off by business owners before deployment, and that production data in UAT environments is appropriately masked or anonymised.",
     "evidenceItems": [
       {
@@ -957,10 +957,10 @@
           "Procedures approved by Head of IT and reviewed within the last 12 months"
         ],
         "commonGaps": [
-          "Procedures exist but do not mandate business user participation — UAT is conducted by IT staff",
+          "Procedures exist but do not mandate business user participation \u2014 UAT is conducted by IT staff",
           "No specific environment parity requirements, allowing UAT in significantly different environments",
           "Data masking requirements mentioned but no specific techniques or verification procedures defined",
-          "Sign-off process is informal — email approval rather than structured sign-off with acceptance criteria confirmation"
+          "Sign-off process is informal \u2014 email approval rather than structured sign-off with acceptance criteria confirmation"
         ],
         "suggestedSources": [
           "QA team procedures library (Confluence, SharePoint)",
@@ -982,7 +982,7 @@
           "Network architecture diagram showing UAT environment topology"
         ],
         "commonGaps": [
-          "No formal comparison document — environment parity is assumed rather than verified",
+          "No formal comparison document \u2014 environment parity is assumed rather than verified",
           "UAT environment significantly behind production in software versions or patches",
           "Integration points in UAT use stubs or mocks instead of actual system connections, reducing test validity",
           "Environment specification is outdated and does not reflect recent production changes"
@@ -1033,7 +1033,7 @@
         ],
         "commonGaps": [
           "Production data used in UAT without any masking, exposing real customer information",
-          "Masking applied to some data fields but not comprehensively — sensitive fields (IC numbers, phone numbers) left unmasked",
+          "Masking applied to some data fields but not comprehensively \u2014 sensitive fields (IC numbers, phone numbers) left unmasked",
           "Manual masking process prone to error and inconsistency",
           "No verification step to confirm masking was applied correctly before UAT commences"
         ],
@@ -1048,7 +1048,7 @@
     ],
     "auditTips": [
       "Request UAT sign-off records for 5 recent deployments and verify sign-off dates precede deployment dates, with named business owners as signatories",
-      "Ask to see the UAT environment configuration and compare it against production — look for significant version differences or missing integration points",
+      "Ask to see the UAT environment configuration and compare it against production \u2014 look for significant version differences or missing integration points",
       "Verify data masking by requesting evidence of masking tool execution logs or sample masked data from the UAT environment",
       "Check whether UAT was conducted by actual business users by reviewing UAT test execution logs for tester identities",
       "Ask for the data masking verification report and confirm that all sensitive data types (IC numbers, account numbers, contact details) are covered"
@@ -1057,8 +1057,8 @@
   "10.10": {
     "clauseId": "10.10",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Change Management Policy",
+    "subsection": "System Development and Acquisition",
+    "title": "Source Code Review for Critical Systems",
     "clauseType": "governance",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that a formal change management policy exists covering all production change types, that changes are risk-assessed and approved before implementation, and that a complete change log is maintained. They will sample recent changes to verify the process is followed in practice.",
@@ -1103,7 +1103,7 @@
           "CAB exists but membership does not include information security or risk management representation",
           "Terms of reference are outdated and do not reflect current membership or meeting practices",
           "CAB reviews all changes regardless of risk, creating bottlenecks, or reviews none, providing no oversight",
-          "No documented decision-making criteria — CAB approvals are based on informal discussion without structured assessment"
+          "No documented decision-making criteria \u2014 CAB approvals are based on informal discussion without structured assessment"
         ],
         "suggestedSources": [
           "CAB terms of reference document",
@@ -1151,7 +1151,7 @@
         ],
         "commonGaps": [
           "Change log only includes formally raised changes, missing ad-hoc or emergency changes",
-          "Log entries are incomplete — missing risk assessments, approvals, or implementation outcomes",
+          "Log entries are incomplete \u2014 missing risk assessments, approvals, or implementation outcomes",
           "Infrastructure changes (firewall rules, server patches, network changes) not recorded in the change log",
           "No reconciliation between change log and actual production deployments, allowing unrecorded changes"
         ],
@@ -1175,8 +1175,8 @@
   "10.11": {
     "clauseId": "10.11",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Emergency Change Procedures",
+    "subsection": "System Development and Acquisition",
+    "title": "Independent Review of System Changes",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will scrutinise whether emergency change procedures have strict eligibility criteria, whether all emergency changes undergo retrospective review and approval within defined timeframes, and whether emergency change frequency is monitored and reported to management.",
@@ -1219,7 +1219,7 @@
         ],
         "commonGaps": [
           "Emergency changes are implemented but retrospective reviews are not completed within the defined timeframe",
-          "Retrospective review is a formality — all emergency changes are approved without genuine scrutiny of the emergency classification",
+          "Retrospective review is a formality \u2014 all emergency changes are approved without genuine scrutiny of the emergency classification",
           "No documentation of the original emergency justification, making retrospective assessment impossible",
           "Some emergency changes have no retrospective review record at all"
         ],
@@ -1293,8 +1293,8 @@
   "10.12": {
     "clauseId": "10.12",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Release Management",
+    "subsection": "System Development and Acquisition",
+    "title": "Third Party Service Provider System Changes",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that a structured release management process exists with mandatory rollback procedures, deployment verification steps, and defined success criteria for every production release. They will sample recent releases to confirm these elements are present and followed.",
@@ -1361,7 +1361,7 @@
           "Automated verification results from deployment pipelines are captured and stored"
         ],
         "commonGaps": [
-          "No formal verification records — deployment success assumed unless incidents are reported",
+          "No formal verification records \u2014 deployment success assumed unless incidents are reported",
           "Verification limited to 'application is up' without functional or performance validation",
           "Verification checks not defined in advance, leading to inconsistent post-deployment assessment",
           "Automated verification exists in the pipeline but results are not stored for audit purposes"
@@ -1386,7 +1386,7 @@
           "Historical success criteria and outcomes are tracked for trend analysis"
         ],
         "commonGaps": [
-          "No defined success criteria — deployment considered successful unless a major incident occurs",
+          "No defined success criteria \u2014 deployment considered successful unless a major incident occurs",
           "Criteria are technical only without business-level success measures",
           "Criteria defined but not assessed post-deployment, making them purely theoretical",
           "No defined process for what happens when success criteria are not met"
@@ -1411,8 +1411,8 @@
   "10.13": {
     "clauseId": "10.13",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Environment Separation",
+    "subsection": "System Development and Acquisition",
+    "title": "Critical System Decommissioning",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that development, testing, staging, and production environments are strictly separated with enforced access controls, that code migration follows an auditable process through defined environment tiers, and that no production data is accessible from non-production environments without masking.",
@@ -1431,7 +1431,7 @@
         "commonGaps": [
           "Architecture documentation exists but is outdated and does not reflect current infrastructure",
           "Diagrams show logical separation but physical infrastructure is shared (e.g., same database server for dev and production)",
-          "Cloud environments not covered — on-premises separation documented but cloud deployments use shared resources",
+          "Cloud environments not covered \u2014 on-premises separation documented but cloud deployments use shared resources",
           "No documentation of network segmentation rules between environments"
         ],
         "suggestedSources": [
@@ -1448,7 +1448,7 @@
         "description": "Documented access control configurations for each environment showing role-based access restrictions and segregation between development and production personnel",
         "whatGoodLooksLike": [
           "Access control lists clearly show different user groups per environment with production restricted to operations personnel",
-          "Developers have no standing access to production — only temporary, approved access through privileged access management",
+          "Developers have no standing access to production \u2014 only temporary, approved access through privileged access management",
           "Quarterly access review records confirm compliance with the defined access model",
           "Service account access is documented and segregated per environment",
           "Access control configurations match the documented policy requirements"
@@ -1480,8 +1480,8 @@
         ],
         "commonGaps": [
           "Procedures exist but developers can deploy directly to production outside the pipeline",
-          "Audit trail incomplete — not all code migrations are logged, particularly manual deployments",
-          "No automated enforcement of the promotion path — policy compliance relies on developer discipline",
+          "Audit trail incomplete \u2014 not all code migrations are logged, particularly manual deployments",
+          "No automated enforcement of the promotion path \u2014 policy compliance relies on developer discipline",
           "Emergency deployments bypass environment tiers without documented approval"
         ],
         "suggestedSources": [
@@ -1520,7 +1520,7 @@
     ],
     "auditTips": [
       "Request network diagrams showing environment separation and cross-reference with actual firewall rules or cloud security group configurations to verify enforcement",
-      "Check production access control lists for developer accounts — any developer with standing production access is a finding",
+      "Check production access control lists for developer accounts \u2014 any developer with standing production access is a finding",
       "Review CI/CD pipeline configurations to confirm that direct deployment from development to production is technically prevented, not just procedurally discouraged",
       "Sample recent code migrations and trace them through the environment promotion path to verify the defined process was followed",
       "Request evidence of quarterly production access reviews and verify that temporary access grants were revoked after their approved period"
@@ -1529,10 +1529,10 @@
   "10.14": {
     "clauseId": "10.14",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Source Code Protection",
+    "subsection": "System Development and Acquisition",
+    "title": "Automated Development and Security Tools",
     "clauseType": "technical",
-    "marker": "S",
+    "marker": "G",
     "auditorFocus": "BNM examiners will verify that source code is stored in access-controlled, version-controlled repositories with complete audit trails, that access is restricted to authorised personnel, and that source code is not present in production environments.",
     "evidenceItems": [
       {
@@ -1572,7 +1572,7 @@
           "Multi-factor authentication required for repository access"
         ],
         "commonGaps": [
-          "Repositories have overly broad access — all IT staff can access all repositories regardless of project involvement",
+          "Repositories have overly broad access \u2014 all IT staff can access all repositories regardless of project involvement",
           "Former employees or role-changed staff retain repository access",
           "Service accounts with broad access are not documented or regularly reviewed",
           "No MFA requirement for repository access, especially for cloud-hosted repositories"
@@ -1599,7 +1599,7 @@
         "commonGaps": [
           "Version control logs capture commits but not access events or administrative actions",
           "Logs retained only for default system retention periods (e.g., 90 days) rather than seven years",
-          "No centralised log collection — logs reside only on the version control platform",
+          "No centralised log collection \u2014 logs reside only on the version control platform",
           "No monitoring or alerting on version control log events"
         ],
         "suggestedSources": [
@@ -1623,7 +1623,7 @@
         ],
         "commonGaps": [
           "Source code deployed directly to production servers (common with interpreted languages like Python or Node.js)",
-          "No verification process exists — source code exclusion is assumed but never confirmed",
+          "No verification process exists \u2014 source code exclusion is assumed but never confirmed",
           "Git repositories cloned onto production servers for deployment rather than using built artefacts",
           "Debug or development files left on production servers after troubleshooting sessions"
         ],
@@ -1640,17 +1640,17 @@
       "Request repository access reports and verify that access is restricted to current development team members, with no former employees or non-development personnel having access",
       "Check branch protection rules on main/release branches to confirm that direct commits are blocked and pull request review is enforced",
       "Verify that version control audit logs are retained for seven years and include access events, not just commit history",
-      "Ask for evidence that production servers have been inspected for source code — look for git repositories, source files, or development tools on production",
+      "Ask for evidence that production servers have been inspected for source code \u2014 look for git repositories, source files, or development tools on production",
       "Review CI/CD pipeline deployment configurations to confirm that only built artefacts (not source code) are deployed to production environments"
     ]
   },
   "10.15": {
     "clauseId": "10.15",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Configuration Management",
+    "subsection": "System Development and Acquisition",
+    "title": "Third Party Software Supply Chain Risk",
     "clauseType": "technical",
-    "marker": "S",
+    "marker": "G",
     "auditorFocus": "BNM examiners will verify that the institution maintains an accurate CMDB with complete asset inventory and interdependency mapping, that configuration baselines are established for critical assets, and that deviations are detected, assessed, and remediated through a governed process.",
     "evidenceItems": [
       {
@@ -1666,7 +1666,7 @@
         ],
         "commonGaps": [
           "Procedures cover CMDB maintenance but do not address configuration baselines or deviation management",
-          "No defined process for baseline approval — baselines are set informally without governance",
+          "No defined process for baseline approval \u2014 baselines are set informally without governance",
           "Deviation handling is reactive (addressed only when incidents occur) rather than proactive",
           "Cloud resources not included in the CMDB scope, creating a growing blind spot"
         ],
@@ -1690,10 +1690,10 @@
           "CMDB data quality metrics are tracked (e.g., completeness above 95%, accuracy verified quarterly)"
         ],
         "commonGaps": [
-          "CMDB exists but is incomplete — significant asset categories (cloud resources, network devices) are missing",
+          "CMDB exists but is incomplete \u2014 significant asset categories (cloud resources, network devices) are missing",
           "Configuration details are outdated and do not reflect current deployed states",
           "Interdependency mapping is minimal or absent, limiting the value for change impact analysis",
-          "No automated discovery integration — CMDB relies on manual updates that quickly become stale"
+          "No automated discovery integration \u2014 CMDB relies on manual updates that quickly become stale"
         ],
         "suggestedSources": [
           "CMDB platform (ServiceNow, BMC Helix, Freshservice) asset reports",
@@ -1717,7 +1717,7 @@
         "commonGaps": [
           "Baselines exist for servers but not for databases, network devices, or cloud services",
           "Baselines are outdated and do not reflect current security hardening best practices",
-          "No formal approval process for baselines — they are created by technical teams without security review",
+          "No formal approval process for baselines \u2014 they are created by technical teams without security review",
           "Baseline compliance is not measured, making deviations invisible"
         ],
         "suggestedSources": [
@@ -1740,7 +1740,7 @@
           "Trend analysis shows decreasing deviation rates over time, indicating improving configuration discipline"
         ],
         "commonGaps": [
-          "No automated deviation detection — deviations discovered only during periodic manual audits",
+          "No automated deviation detection \u2014 deviations discovered only during periodic manual audits",
           "Deviations detected but not assessed for risk or severity",
           "Remediation is ad-hoc without formal tracking to closure",
           "Large numbers of persistent deviations indicate that the baseline is impractical or monitoring is ignored"
@@ -1757,7 +1757,7 @@
     "auditTips": [
       "Request the CMDB and verify it includes all technology asset categories with current configuration data, not just a hardware inventory",
       "Sample 10 critical assets from the CMDB and verify their recorded configurations match actual deployed configurations",
-      "Check configuration baseline documents for currency — baselines based on outdated CIS Benchmarks or vendor defaults are a common finding",
+      "Check configuration baseline documents for currency \u2014 baselines based on outdated CIS Benchmarks or vendor defaults are a common finding",
       "Request deviation monitoring reports and verify that detected deviations are being assessed and remediated, not just reported",
       "Verify that CMDB interdependency mapping is accurate by selecting a critical system and tracing its dependencies against actual infrastructure"
     ]
@@ -1765,10 +1765,10 @@
   "10.16": {
     "clauseId": "10.16",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Capacity Planning",
+    "subsection": "System Development and Acquisition",
+    "title": "Shadow IT Risk Management",
     "clauseType": "technical",
-    "marker": "G",
+    "marker": "S",
     "auditorFocus": "BNM examiners will check whether the institution has a defined capacity planning process with documented thresholds, regular monitoring, and evidence of proactive scaling actions taken before capacity limits are reached rather than reactively after service degradation.",
     "evidenceItems": [
       {
@@ -1783,7 +1783,7 @@
           "Reviewed and approved within the last 12 months"
         ],
         "commonGaps": [
-          "No formal capacity planning procedure — capacity is managed reactively when issues arise",
+          "No formal capacity planning procedure \u2014 capacity is managed reactively when issues arise",
           "Procedure covers on-premises infrastructure but not cloud resources",
           "No defined escalation path for capacity issues, leading to delayed response",
           "Procedure exists but is not actively followed by infrastructure teams"
@@ -1811,7 +1811,7 @@
           "Monitoring exists but only covers basic metrics (CPU, memory) without database connections, application queue depths, or network bandwidth",
           "No historical trend data available beyond 30 days, limiting forecasting capability",
           "Dashboards exist but are not regularly reviewed by management or used for planning",
-          "No regular reports — monitoring data is only examined when problems occur"
+          "No regular reports \u2014 monitoring data is only examined when problems occur"
         ],
         "suggestedSources": [
           "Infrastructure monitoring platforms (Grafana, Datadog, New Relic, Zabbix, SolarWinds)",
@@ -1833,7 +1833,7 @@
           "Thresholds reviewed and adjusted at least annually based on utilisation trends"
         ],
         "commonGaps": [
-          "No documented thresholds — monitoring alerts use vendor defaults or ad-hoc settings",
+          "No documented thresholds \u2014 monitoring alerts use vendor defaults or ad-hoc settings",
           "Thresholds defined but no associated response actions or escalation procedures",
           "Same thresholds applied to all systems regardless of criticality or performance requirements",
           "Thresholds have not been reviewed since initial setup despite changing utilisation patterns"
@@ -1858,9 +1858,9 @@
           "Annual capacity review produces a forward-looking procurement plan with budget requests"
         ],
         "commonGaps": [
-          "No records of proactive scaling — all capacity actions triggered by incidents rather than monitoring",
+          "No records of proactive scaling \u2014 all capacity actions triggered by incidents rather than monitoring",
           "Scaling actions documented but timeline shows significant delays between threshold breach and action",
-          "Only ad-hoc scaling records — no evidence of planned, proactive capacity management",
+          "Only ad-hoc scaling records \u2014 no evidence of planned, proactive capacity management",
           "No annual capacity forecast or procurement plan linked to business growth projections"
         ],
         "suggestedSources": [
@@ -1883,8 +1883,8 @@
   "10.17": {
     "clauseId": "10.17",
     "section": "Technology Operations Management",
-    "subsection": "Patch & End-of-Life",
-    "title": "Patch Management Policy",
+    "subsection": "Patch and End-of-Life System Management",
+    "title": "Vulnerability and End-of-Life System Management",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that a formal patch management policy exists with defined severity classification and deployment timelines, that patches are tested before production deployment, and that compliance metrics demonstrate the institution is meeting its defined patching SLAs across all technology assets.",
@@ -1929,7 +1929,7 @@
           "Classification relies solely on vendor-provided severity without considering institutional context or exposure",
           "Timelines defined but not differentiated based on asset criticality or exposure",
           "No criteria for zero-day vulnerabilities or actively exploited vulnerabilities requiring accelerated response",
-          "Classification criteria not documented separately — buried in the policy document and not easily applied by operational teams"
+          "Classification criteria not documented separately \u2014 buried in the policy document and not easily applied by operational teams"
         ],
         "suggestedSources": [
           "Patch management policy annexes with classification tables",
@@ -1952,7 +1952,7 @@
         ],
         "commonGaps": [
           "Deployment records exist for server patches but not for network devices, databases, or applications",
-          "Compliance metrics not calculated against defined timelines — only raw deployment counts reported",
+          "Compliance metrics not calculated against defined timelines \u2014 only raw deployment counts reported",
           "Large numbers of overdue critical patches indicate the process is not functioning effectively",
           "No trend analysis to identify systemic issues with patching specific asset types or business units"
         ],
@@ -1976,7 +1976,7 @@
           "Emergency patching procedure defined for zero-day or actively exploited vulnerabilities where normal testing timelines cannot be followed"
         ],
         "commonGaps": [
-          "No formal testing procedure — patches are deployed directly to production or tested informally",
+          "No formal testing procedure \u2014 patches are deployed directly to production or tested informally",
           "Testing environment does not match production, leading to compatibility issues discovered only after deployment",
           "All patches follow the same testing process regardless of risk, creating bottlenecks for low-risk patches",
           "No defined emergency patching procedure for urgent security patches"
@@ -2001,8 +2001,8 @@
   "10.18": {
     "clauseId": "10.18",
     "section": "Technology Operations Management",
-    "subsection": "Patch & End-of-Life",
-    "title": "Patch Deployment Timeline",
+    "subsection": "Patch and End-of-Life System Management",
+    "title": "Patch and EOL Management Framework",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that critical patches are deployed within 14 days and high-severity patches within 30 days, and that any exceptions are backed by documented compensating controls and formal risk acceptance at the appropriate authority level.",
@@ -2119,8 +2119,8 @@
   "10.19": {
     "clauseId": "10.19",
     "section": "Technology Operations Management",
-    "subsection": "Patch & End-of-Life",
-    "title": "End-of-Life Management",
+    "subsection": "Patch and End-of-Life System Management",
+    "title": "Technology Effectiveness Monitoring",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that a comprehensive inventory of EOL and EOS assets exists, that each has a migration or replacement plan with defined timelines, and that any EOL systems still in use have documented compensating controls and formal risk acceptance.",
@@ -2238,7 +2238,7 @@
     "clauseId": "10.20",
     "section": "Technology Operations Management",
     "subsection": "Cryptography",
-    "title": "Cryptographic Policy",
+    "title": "Cryptography Policy and Standards",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that a formal cryptographic policy exists with specific approved algorithms and key lengths, is aligned with recognised international standards (NIST, ISO), and has been reviewed and updated within the past 12 months with documented evidence of the review process.",
@@ -2354,7 +2354,7 @@
     "clauseId": "10.21",
     "section": "Technology Operations Management",
     "subsection": "Cryptography",
-    "title": "Key Management",
+    "title": "Cryptographic Controls Due Diligence",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that a comprehensive key management framework governs the full key lifecycle, that HSMs are deployed for critical system keys, and that key custodian roles with dual-control and split-knowledge principles are formally assigned and enforced.",
@@ -2470,7 +2470,7 @@
     "clauseId": "10.22",
     "section": "Technology Operations Management",
     "subsection": "Cryptography",
-    "title": "Encryption Standards",
+    "title": "Cryptographic Protocol Implementation",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that all sensitive data is encrypted at rest and in transit using minimum AES-256 (symmetric) and RSA-2048 (asymmetric), that a comprehensive algorithm inventory exists, and that any deprecated or weak algorithms have been identified with active remediation plans.",
@@ -2586,7 +2586,7 @@
     "clauseId": "10.23",
     "section": "Technology Operations Management",
     "subsection": "Cryptography",
-    "title": "Certificate Management",
+    "title": "Public Key Certificate Management",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will check for a complete certificate inventory with expiry tracking, evidence of certificate transparency log monitoring, documented issuance and renewal procedures using trusted CAs, and whether any certificate-related outages have occurred in the past 12 months.",
@@ -2701,8 +2701,8 @@
   "10.24": {
     "clauseId": "10.24",
     "section": "Technology Operations Management",
-    "subsection": "Data Centre & Facilities",
-    "title": "Data Centre Physical Security",
+    "subsection": "Data Centre Resilience",
+    "title": "Data Centre Resilience Objectives",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify multi-layered physical security controls at data centres including perimeter security, progressive access controls, CCTV with minimum 90-day retention, and formal visitor management procedures with complete logs.",
@@ -2842,8 +2842,8 @@
   "10.25": {
     "clauseId": "10.25",
     "section": "Technology Operations Management",
-    "subsection": "Data Centre & Facilities",
-    "title": "Environmental Controls",
+    "subsection": "Data Centre Resilience",
+    "title": "Data Centre Redundancy",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will check for continuous environmental monitoring with defined thresholds for temperature, humidity, and water detection, automated alerting with documented escalation procedures, and evidence that environmental conditions have been maintained within acceptable ranges.",
@@ -2957,8 +2957,8 @@
   "10.26": {
     "clauseId": "10.26",
     "section": "Technology Operations Management",
-    "subsection": "Data Centre & Facilities",
-    "title": "Power & Redundancy",
+    "subsection": "Data Centre Resilience",
+    "title": "Production Data Centre Physical Security",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will specifically verify redundant power supply design, UPS capacity and configuration, backup generator capability with minimum 72-hour runtime, and evidence of regular power failover testing demonstrating successful transitions.",
@@ -3075,8 +3075,8 @@
   "10.27": {
     "clauseId": "10.27",
     "section": "Technology Operations Management",
-    "subsection": "Data Centre & Facilities",
-    "title": "Fire Suppression",
+    "subsection": "Data Centre Resilience",
+    "title": "Data Centre Operations Control Procedures",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that fire detection and suppression systems are appropriate for electronic equipment protection (gas-based, not water-based in server rooms), are tested at least annually with documented results, and that staff are trained on emergency response procedures.",
@@ -3193,8 +3193,8 @@
   "10.28": {
     "clauseId": "10.28",
     "section": "Technology Operations Management",
-    "subsection": "Data Centre & Facilities",
-    "title": "Data Centre Access Control",
+    "subsection": "Data Centre Resilience",
+    "title": "Data Centre Activity Segregation",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify multi-factor physical access controls with biometric authentication for sensitive areas, quarterly access review records with documented evidence of revocations, and that terminated employees have their access immediately revoked with timestamp evidence.",
@@ -3312,7 +3312,7 @@
     "clauseId": "10.29",
     "section": "Technology Operations Management",
     "subsection": "Service Availability",
-    "title": "Service Level Management",
+    "title": "System Capacity Planning",
     "clauseType": "governance",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that SLAs are formally defined for all critical technology services with specific availability and performance targets, that performance is continuously monitored, and that monthly reports are presented to senior management with evidence of breach management.",
@@ -3430,7 +3430,7 @@
     "clauseId": "10.30",
     "section": "Technology Operations Management",
     "subsection": "Service Availability",
-    "title": "IT Service Continuity",
+    "title": "Real-Time Performance Monitoring",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that IT service continuity plans exist for all critical services, are aligned with business continuity management, address multiple disruption scenarios (natural disasters, cyber attacks, technology failures), and have been tested with documented results.",
@@ -3548,7 +3548,7 @@
     "clauseId": "10.31",
     "section": "Technology Operations Management",
     "subsection": "Service Availability",
-    "title": "Disaster Recovery Planning",
+    "title": "Digital Services Resilience Enhancement",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that DR plans exist for every critical system with detailed recovery procedures, defined roles and responsibilities, communication plans, and escalation procedures, and that plans are accessible to relevant personnel during emergencies through out-of-band means.",
@@ -3666,7 +3666,7 @@
     "clauseId": "10.32",
     "section": "Technology Operations Management",
     "subsection": "Service Availability",
-    "title": "DR Testing",
+    "title": "Critical System High Availability Requirements",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will specifically look for annual full failover test evidence for all critical systems, measured RTO and RPO validation results, and documented deficiency remediation with tracked progress. Tabletop exercises alone are insufficient.",
@@ -3784,9 +3784,9 @@
     "clauseId": "10.33",
     "section": "Technology Operations Management",
     "subsection": "Service Availability",
-    "title": "Recovery Time Objectives",
+    "title": "Non-NCII Entity Service Availability Guidance",
     "clauseType": "technical",
-    "marker": "S",
+    "marker": "G",
     "auditorFocus": "BNM examiners will verify that RTO and RPO targets are defined for all critical systems, are based on business impact analysis, have been formally approved by business owners, and are validated through regular DR testing with documented results.",
     "evidenceItems": [
       {
@@ -3902,7 +3902,7 @@
     "clauseId": "10.34",
     "section": "Technology Operations Management",
     "subsection": "Service Availability",
-    "title": "Business Impact Analysis",
+    "title": "Technology Diversity for Resilience",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that a comprehensive BIA has been conducted within the past 12 months, covers all critical business processes and their technology dependencies, quantifies the impact of disruption, and directly informs recovery priorities and continuity planning.",
@@ -4020,7 +4020,7 @@
     "clauseId": "10.35",
     "section": "Technology Operations Management",
     "subsection": "Service Availability",
-    "title": "Crisis Communication",
+    "title": "Service Interruption Response",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that a crisis communication plan exists with defined stakeholder notification procedures (including BNM notification timelines), designated spokespersons, media management strategies, and evidence that the plan has been tested as part of continuity exercises.",
@@ -4137,8 +4137,8 @@
   "10.36": {
     "clauseId": "10.36",
     "section": "Technology Operations Management",
-    "subsection": "Network Security",
-    "title": "Network Architecture",
+    "subsection": "Network Resilience",
+    "title": "Enterprise Network Design",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that the network architecture is documented with comprehensive diagrams showing all zones, data flows, and interconnections, is designed with defence-in-depth principles, and has been reviewed within the past 12 months or upon significant changes.",
@@ -4255,8 +4255,8 @@
   "10.37": {
     "clauseId": "10.37",
     "section": "Technology Operations Management",
-    "subsection": "Network Security",
-    "title": "Network Segmentation",
+    "subsection": "Network Resilience",
+    "title": "Network Service Reliability",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that network segmentation isolates critical systems and sensitive data environments, that segmentation controls restrict lateral movement between zones, and that segmentation effectiveness has been validated through penetration testing.",
@@ -4373,10 +4373,10 @@
   "10.38": {
     "clauseId": "10.38",
     "section": "Technology Operations Management",
-    "subsection": "Network Security",
-    "title": "Firewall Management",
+    "subsection": "Network Resilience",
+    "title": "Network Fault Prevention Measures",
     "clauseType": "technical",
-    "marker": "S",
+    "marker": "G",
     "auditorFocus": "BNM examiners will verify that firewalls are deployed at all network boundaries and between security zones, that rules follow the principle of least privilege with no 'any-any' rules, that semi-annual rule reviews are conducted and documented, and that overly permissive or unused rules are actively identified and remediated.",
     "evidenceItems": [
       {
@@ -4491,8 +4491,8 @@
   "10.39": {
     "clauseId": "10.39",
     "section": "Technology Operations Management",
-    "subsection": "Network Security",
-    "title": "Intrusion Detection & Prevention",
+    "subsection": "Network Resilience",
+    "title": "Network Bandwidth Monitoring",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that IDS/IPS is deployed at all critical network points with current signatures, and that alerts are actively monitored and investigated rather than merely collected. They will look for evidence of timely triage and documented investigation outcomes.",
@@ -4605,8 +4605,8 @@
   "10.40": {
     "clauseId": "10.40",
     "section": "Technology Operations Management",
-    "subsection": "Network Security",
-    "title": "Wireless Security",
+    "subsection": "Network Resilience",
+    "title": "Network Security for Critical Systems",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that all wireless networks use WPA3 or equivalent encryption, that corporate and guest networks are properly segmented, that rogue access point detection is operational, and that regular wireless security assessments are conducted with findings remediated.",
@@ -4719,8 +4719,8 @@
   "10.41": {
     "clauseId": "10.41",
     "section": "Technology Operations Management",
-    "subsection": "Network Security",
-    "title": "Remote Access Security",
+    "subsection": "Network Resilience",
+    "title": "Network Design Blueprint",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that remote access uses MFA and encrypted tunnels, that endpoint compliance is enforced before connection, that split tunnelling is disabled, and that all remote sessions are logged and actively monitored.",
@@ -4833,8 +4833,8 @@
   "10.42": {
     "clauseId": "10.42",
     "section": "Technology Operations Management",
-    "subsection": "Network Security",
-    "title": "DNS Security",
+    "subsection": "Network Resilience",
+    "title": "Network Device Log Retention",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that DNSSEC is implemented for authoritative domains, that DNS queries are logged and monitored for threats, that protections against DNS-based attacks are in place, and that DNS infrastructure is designed with redundancy and resilience.",
@@ -4947,8 +4947,8 @@
   "10.43": {
     "clauseId": "10.43",
     "section": "Technology Operations Management",
-    "subsection": "Network Security",
-    "title": "Network Monitoring",
+    "subsection": "Network Resilience",
+    "title": "Network Segmentation Safeguards",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that network monitoring operates 24/7 with adequate staffing, that flow data and deep packet inspection are utilised where appropriate, and that anomalous traffic patterns are detected and investigated promptly.",
@@ -5061,8 +5061,8 @@
   "10.44": {
     "clauseId": "10.44",
     "section": "Technology Operations Management",
-    "subsection": "Backup & Recovery",
-    "title": "Backup Policy",
+    "subsection": "System backup and restoration",
+    "title": "Backup Strategy and Procedures",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify the existence of a comprehensive backup policy covering scope, frequency, retention, and storage requirements. They will check that backups are encrypted, stored at geographically separate locations, and protected from ransomware attacks.",
@@ -5175,8 +5175,8 @@
   "10.45": {
     "clauseId": "10.45",
     "section": "Technology Operations Management",
-    "subsection": "Backup & Recovery",
-    "title": "Backup Testing & Restoration",
+    "subsection": "System backup and restoration",
+    "title": "Tamper-Proof Backup and Isolated Recovery",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that backup restoration tests are conducted quarterly for critical systems and annually for non-critical systems, that test results are documented with RTO/RPO measurements, and that any failures are remediated with root cause analysis.",
@@ -5289,8 +5289,8 @@
   "10.46": {
     "clauseId": "10.46",
     "section": "Technology Operations Management",
-    "subsection": "Third-Party Management",
-    "title": "Vendor Risk Assessment",
+    "subsection": "Third Party Service Provider Management",
+    "title": "Third Party Service Provider Oversight",
     "clauseType": "regulatory",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that comprehensive risk assessments are conducted for all technology vendors prior to engagement and on an ongoing basis, covering security posture, financial stability, regulatory compliance, and business continuity. Critical vendor reassessments must be completed at least annually.",
@@ -5403,8 +5403,8 @@
   "10.47": {
     "clauseId": "10.47",
     "section": "Technology Operations Management",
-    "subsection": "Third-Party Management",
-    "title": "Outsourcing Governance",
+    "subsection": "Third Party Service Provider Management",
+    "title": "Third Party Due Diligence",
     "clauseType": "governance",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify the existence of a formal outsourcing governance framework with clear roles and oversight mechanisms, that board approval is obtained for material outsourcing, and that outsourced activities meet the same risk management and security standards as in-house operations.",
@@ -5517,8 +5517,8 @@
   "10.48": {
     "clauseId": "10.48",
     "section": "Technology Operations Management",
-    "subsection": "Third-Party Management",
-    "title": "SLA Monitoring",
+    "subsection": "Third Party Service Provider Management",
+    "title": "Service Level Agreement Requirements",
     "clauseType": "regulatory",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that vendor SLA compliance is monitored on an ongoing basis, that breaches are documented and escalated through defined processes, and that persistent non-compliance triggers vendor review and potential contract renegotiation or termination.",
@@ -5631,8 +5631,8 @@
   "10.49": {
     "clauseId": "10.49",
     "section": "Technology Operations Management",
-    "subsection": "Third-Party Management",
-    "title": "Vendor Exit Strategy",
+    "subsection": "Third Party Service Provider Management",
+    "title": "Continuous Third Party Cybersecurity Monitoring",
     "clauseType": "regulatory",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that documented exit strategies exist for all critical technology vendors, covering data migration, service transition, operational continuity, and secure data destruction. They will check that exit plans are reviewed or tested at least annually.",
@@ -5746,7 +5746,7 @@
     "clauseId": "10.50",
     "section": "Technology Operations Management",
     "subsection": "Cloud Services",
-    "title": "Cloud Risk Assessment",
+    "title": "Cloud Services Risk Assessment",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that comprehensive risk assessments are conducted before adopting any cloud service, covering data sovereignty, regulatory compliance, security controls, vendor lock-in, and the shared responsibility model. They will check that assessments are reviewed upon material changes.",
@@ -5860,9 +5860,9 @@
     "clauseId": "10.51",
     "section": "Technology Operations Management",
     "subsection": "Cloud Services",
-    "title": "Access Control Policy",
+    "title": "Public Cloud Key Risks and Controls",
     "clauseType": "governance",
-    "marker": "S",
+    "marker": "G",
     "auditorFocus": "BNM examiners will look for a formally documented access control policy that defines rules and rights for all users and systems, has been reviewed within the past 12 months, and has been communicated to all staff. They will verify the policy scope covers all systems including cloud environments.",
     "evidenceItems": [
       {
@@ -5974,7 +5974,7 @@
     "clauseId": "10.52",
     "section": "Technology Operations Management",
     "subsection": "Cloud Services",
-    "title": "Cloud Data Residency",
+    "title": "Cloud Data Protection Safeguards",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that data stored in cloud environments complies with applicable data residency and sovereignty requirements, that data classification determines permissible locations, and that the institution maintains visibility over the physical location of its data at all times.",
@@ -6088,7 +6088,7 @@
     "clauseId": "10.53",
     "section": "Technology Operations Management",
     "subsection": "Access Control",
-    "title": "User Access Provisioning",
+    "title": "Access Control Policy",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that formal provisioning and de-provisioning processes exist following least privilege, that access is granted with documented owner approval, and that de-provisioning occurs within 24 hours of employment termination. They will sample recent terminations to verify compliance.",
@@ -6202,7 +6202,7 @@
     "clauseId": "10.54",
     "section": "Technology Operations Management",
     "subsection": "Access Control",
-    "title": "Multi-Factor Authentication",
+    "title": "Access Control Principles",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that MFA is enforced for all privileged access to critical systems, that the authentication mechanism is resistant to replay and phishing attacks, and that SMS OTP is not used for privileged access. They will check MFA configuration evidence and coverage across all critical systems.",
@@ -6340,7 +6340,7 @@
     "clauseId": "10.55",
     "section": "Technology Operations Management",
     "subsection": "Access Control",
-    "title": "Password Policy",
+    "title": "Multi-Factor Authentication",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that the password policy mandates minimum 12-character passwords for standard users and 16 characters for privileged accounts, with complexity, history, age, and lockout requirements technically enforced across all systems.",
@@ -6454,7 +6454,7 @@
     "clauseId": "10.56",
     "section": "Technology Operations Management",
     "subsection": "Access Control",
-    "title": "Privileged Access Management",
+    "title": "User Access Matrix",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that privileged access is managed through a PAM solution, that all privileged activities are logged with logs retained for at least three years, that shared privileged accounts are eliminated or justified with compensating controls, and that regular privileged access reviews are conducted.",
@@ -6568,7 +6568,7 @@
     "clauseId": "10.57",
     "section": "Technology Operations Management",
     "subsection": "Access Control",
-    "title": "Access Review & Recertification",
+    "title": "Access Monitoring and Logging",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that privileged access is reviewed at least quarterly and standard user access at least semi-annually, that reviews are conducted by appropriate system or data owners, and that access identified as no longer required is promptly revoked with documented evidence.",

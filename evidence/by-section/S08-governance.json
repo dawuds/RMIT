@@ -2,8 +2,8 @@
   "8.1": {
     "clauseId": "8.1",
     "section": "Governance",
-    "subsection": "Board of Directors",
-    "title": "Board Oversight of Technology Risk",
+    "subsection": "Responsibilities of the Board of Directors",
+    "title": "Board Approval of Technology Risk Appetite",
     "clauseType": "governance",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that the board actively oversees technology risk rather than merely receiving information passively. They look for evidence of board-level challenge, dedicated agenda time, approved budgets, and integration of technology risk into the enterprise risk management framework.",
@@ -116,8 +116,8 @@
   "8.2": {
     "clauseId": "8.2",
     "section": "Governance",
-    "subsection": "Board of Directors",
-    "title": "Board Technology Risk Committee",
+    "subsection": "Responsibilities of the Board of Directors",
+    "title": "Board Oversight Responsibilities",
     "clauseType": "governance",
     "marker": "S",
     "auditorFocus": "BNM examiners verify that a dedicated board-level technology risk committee exists with qualified members, meets at least quarterly, and produces meaningful outcomes. They will scrutinise member competency profiles, attendance records, and whether the committee exercises genuine challenge rather than rubber-stamping management reports.",
@@ -230,10 +230,10 @@
   "8.3": {
     "clauseId": "8.3",
     "section": "Governance",
-    "subsection": "Board of Directors",
-    "title": "Board Competency in Technology",
+    "subsection": "Responsibilities of the Board of Directors",
+    "title": "Board-Level Technology Committee",
     "clauseType": "governance",
-    "marker": "G",
+    "marker": "S",
     "auditorFocus": "BNM examiners will assess whether board members possess or have access to adequate technology and cybersecurity knowledge. They look for structured competency assessments, documented training records, evidence of external advisory engagement, and whether training content is relevant to current threats facing Malaysian financial institutions.",
     "evidenceItems": [
       {
@@ -345,8 +345,8 @@
   "8.4": {
     "clauseId": "8.4",
     "section": "Governance",
-    "subsection": "Board of Directors",
-    "title": "Board Risk Appetite Statement",
+    "subsection": "Responsibilities of the Board of Directors",
+    "title": "Board Discussion on Technology and Cyber Risk",
     "clauseType": "governance",
     "marker": "S",
     "auditorFocus": "BNM examiners will assess whether the technology risk appetite statement contains both quantitative and qualitative measures, has current board approval, is reviewed at least annually, and is operationally embedded through cascaded limits and monitoring. They will test whether threshold breaches trigger defined escalation procedures.",
@@ -460,8 +460,8 @@
   "8.5": {
     "clauseId": "8.5",
     "section": "Governance",
-    "subsection": "Board of Directors",
-    "title": "Board Reporting on Technology Risk",
+    "subsection": "Responsibilities of the Board of Directors",
+    "title": "Board Audit Committee Technology Oversight",
     "clauseType": "governance",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that the board receives comprehensive, quarterly technology risk reports that include KRIs, incident summaries, risk mitigation progress, trend analysis, and forward-looking assessments. They will check whether the board engages with the reports and whether resulting actions are documented and tracked.",
@@ -599,8 +599,8 @@
   "8.6": {
     "clauseId": "8.6",
     "section": "Governance",
-    "subsection": "Senior Management",
-    "title": "Senior Management Accountability",
+    "subsection": "Responsibilities of the senior management",
+    "title": "Senior Management Accountability for Technology Risk",
     "clauseType": "governance",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that senior management accountability for technology risk is formally documented, that a CISO or equivalent is formally appointed with direct board or committee reporting access, and that this reporting line is actively exercised. They will scrutinise the CISO's organisational placement and independence from IT operations.",
@@ -713,8 +713,8 @@
   "8.7": {
     "clauseId": "8.7",
     "section": "Governance",
-    "subsection": "Senior Management",
-    "title": "Technology Risk Management Function",
+    "subsection": "Responsibilities of the senior management",
+    "title": "Cross-Functional Technology Committee",
     "clauseType": "governance",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that an independent technology risk management function exists with adequate authority, resources, and access. They will scrutinise organisational independence from IT operations, assess staffing adequacy relative to the institution's technology complexity, and review whether the function actively produces risk assessments and reports.",

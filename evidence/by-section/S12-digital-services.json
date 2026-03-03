@@ -2,8 +2,8 @@
   "12.1": {
     "clauseId": "12.1",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "Digital Channel Security",
+    "subsection": "Security of Digital Services",
+    "title": "Digital Services Security Controls",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that comprehensive security controls are implemented across all digital channels (internet banking, mobile banking, e-payment) and that these controls are regularly tested. Expect requests for security architecture documents, vulnerability assessment results, and evidence of security controls covering authentication, authorisation, encryption, and session management for each channel.",
@@ -118,8 +118,8 @@
   "12.2": {
     "clauseId": "12.2",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "Mobile Application Security",
+    "subsection": "Security of Digital Services",
+    "title": "Alternative Controls and Liability",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will specifically look for evidence that mobile banking apps implement code obfuscation, root/jailbreak detection, certificate pinning, and secure local storage. They will also verify that security testing is performed before each app store release, with formal sign-off records.",
@@ -236,8 +236,8 @@
   "12.3": {
     "clauseId": "12.3",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "API Security",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "CRF Enhancement for Digital Fraud",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that all APIs are inventoried, documented, and secured with authentication, authorisation, rate limiting, input validation, and encryption. They will also check that deprecated APIs are decommissioned promptly and that regular security assessments are performed on APIs.",
@@ -353,8 +353,8 @@
   "12.4": {
     "clauseId": "12.4",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "Customer Authentication",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Fraud Detection Capabilities",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that customer authentication strength is proportionate to transaction risk, that MFA is implemented for high-risk transactions, and that authentication effectiveness is regularly assessed. Expect detailed questions about the risk-based authentication model and how it adapts to emerging threats.",
@@ -469,8 +469,8 @@
   "12.5": {
     "clauseId": "12.5",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "Transaction Verification",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Digital Service Delivery Risk Mitigation",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that high-value and high-risk transactions are verified through an independent channel from the initiation channel, that customers see full transaction details before confirming, and that verification mechanisms cannot be easily bypassed or intercepted.",
@@ -584,8 +584,8 @@
   "12.6": {
     "clauseId": "12.6",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "Session Management",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Customer Fraud Risk Empowerment",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that session management controls include automatic timeouts, secure token generation, session fixation prevention, and concurrent session controls. They will specifically check that session tokens are not transmitted in URLs and are properly invalidated upon logout.",
@@ -701,8 +701,8 @@
   "12.7": {
     "clauseId": "12.7",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "Fraud Detection",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Customer Fraud Awareness Programmes",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that real-time fraud detection systems are deployed for digital banking transactions, employing behavioural analytics and anomaly detection. They will look for evidence of detection effectiveness metrics, investigation procedures, and the ability to flag and block suspicious transactions in real time.",
@@ -819,10 +819,10 @@
   "12.8": {
     "clauseId": "12.8",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "Digital Onboarding Security",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Customer Account Suspension and Kill Switch",
     "clauseType": "technical",
-    "marker": "G",
+    "marker": "S",
     "auditorFocus": "BNM examiners will assess whether digital customer onboarding processes include appropriate identity verification, liveness detection, document verification, and fraud screening controls that are proportionate to the risk level of the products offered. Evidence of control effectiveness and alignment with BNM e-KYC guidelines will be examined.",
     "evidenceItems": [
       {
@@ -937,8 +937,8 @@
   "12.9": {
     "clauseId": "12.9",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "QR Code & E-Wallet Security",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Post-Incident Customer Protection",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that QR code payments and e-wallet services are protected against tampering, overlay attacks, and forgery. They will look for QR code validation mechanisms, transaction encryption, integrity controls, and evidence of security testing specifically targeting QR and e-wallet attack vectors.",

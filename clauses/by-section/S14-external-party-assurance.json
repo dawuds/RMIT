@@ -2,11 +2,11 @@
   {
     "id": "14.1",
     "section": "External Party Assurance",
-    "subsection": "Third-Party Assurance",
-    "title": "Third-Party Security Assessment",
+    "subsection": "External Party Assurance",
+    "title": "Data Centre Resilience Assessment",
     "clauseType": "regulatory",
     "marker": "S",
-    "verbatim": "Financial institutions shall obtain independent security assessments of critical third-party service providers at least annually. Assessments shall evaluate the service provider's security controls, data protection practices, and compliance with contractual security requirements. Assessment results shall be reviewed by the institution's risk management function.",
+    "verbatim": "A financial institution shall appoint a technically competent external service provider to carry out a production data centre resilience and risk assessment (DCRA). The assessment must consider all major risks and determine the current level of resilience of the production data centre. A financial institution must ensure the assessment is conducted at least once every three years or when there is a material change in the data centre infrastructure, whichever is earlier. The assessment shall, at a minimum, include a consideration of whether the requirements in paragraphs 10.24 to 10.28 have been adhered to. For data centres managed by third party service providers, a financial institution shall only rely on independent third party assurance reports provided such reliance is consistent with the financial institution\u2019s risk appetite and tolerance, and the independent assurance has considered similar risks and meets the requirements in this paragraph for conducting the DCRA. The designated board-level committee specified in paragraph 8.3 must deliberate the outcome of the assessment.",
     "translation": "Get independent security assessments of your critical third-party providers at least yearly. Evaluate their security controls, data protection, and compliance with your contractual requirements. Your risk management team must review the results.",
     "evidence": [
       "Third-party assessment policy and schedule",
@@ -41,11 +41,11 @@
   {
     "id": "14.2",
     "section": "External Party Assurance",
-    "subsection": "Third-Party Assurance",
-    "title": "Third-Party Certification Requirements",
+    "subsection": "External Party Assurance",
+    "title": "Network Resilience Assessment",
     "clauseType": "regulatory",
     "marker": "S",
-    "verbatim": "Financial institutions shall require critical third-party service providers to maintain recognised security certifications such as ISO 27001, SOC 2, or equivalent. Certification status shall be monitored on an ongoing basis and lapses in certification shall trigger a reassessment of the service provider's risk profile.",
+    "verbatim": "A financial institution shall appoint a technically competent external service provider to carry out regular network resilience and risk assessments (NRA) and set proportionate controls aligned with its risk appetite. The assessment must be conducted at least once in three years or whenever there is a material change in the network design, whichever is earlier. The assessment must consider all major risks and determine the current level of resilience. This shall include an assessment of the financial institution\u2019s adherence to the requirements in paragraphs 10.36 to 10.43. The designated board-level committee specified in paragraph 8.3 must deliberate the outcome of the assessment.",
     "translation": "Require critical vendors to hold recognised security certifications like ISO 27001 or SOC 2. Monitor their certification status continuously. If a vendor's certification lapses, trigger a risk reassessment immediately.",
     "evidence": [
       "Third-party certification requirements in contracts",

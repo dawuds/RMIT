@@ -4,7 +4,7 @@
     "name": "Governance",
     "subsections": [
       {
-        "name": "Board of Directors",
+        "name": "Responsibilities of the Board of Directors",
         "clauses": [
           "8.1",
           "8.2",
@@ -14,7 +14,7 @@
         ]
       },
       {
-        "name": "Senior Management",
+        "name": "Responsibilities of the senior management",
         "clauses": [
           "8.6",
           "8.7"
@@ -31,7 +31,12 @@
         "clauses": [
           "9.1",
           "9.2",
-          "9.3",
+          "9.3"
+        ]
+      },
+      {
+        "name": "Designated Chief Information Security Officer",
+        "clauses": [
           "9.4",
           "9.5"
         ]
@@ -43,7 +48,7 @@
     "name": "Technology Operations Management",
     "subsections": [
       {
-        "name": "Project Management",
+        "name": "Technology Project Management",
         "clauses": [
           "10.1",
           "10.2",
@@ -51,7 +56,7 @@
         ]
       },
       {
-        "name": "System Development",
+        "name": "System Development and Acquisition",
         "clauses": [
           "10.4",
           "10.5",
@@ -69,7 +74,7 @@
         ]
       },
       {
-        "name": "Patch & End-of-Life",
+        "name": "Patch and End-of-Life System Management",
         "clauses": [
           "10.17",
           "10.18",
@@ -86,7 +91,7 @@
         ]
       },
       {
-        "name": "Data Centre & Facilities",
+        "name": "Data Centre Resilience",
         "clauses": [
           "10.24",
           "10.25",
@@ -108,7 +113,7 @@
         ]
       },
       {
-        "name": "Network Security",
+        "name": "Network Resilience",
         "clauses": [
           "10.36",
           "10.37",
@@ -121,14 +126,14 @@
         ]
       },
       {
-        "name": "Backup & Recovery",
+        "name": "System backup and restoration",
         "clauses": [
           "10.44",
           "10.45"
         ]
       },
       {
-        "name": "Third-Party Management",
+        "name": "Third Party Service Provider Management",
         "clauses": [
           "10.46",
           "10.47",
@@ -161,40 +166,40 @@
     "name": "Cybersecurity Management",
     "subsections": [
       {
-        "name": "Cybersecurity Framework",
+        "name": "Cyber Risk Management",
         "clauses": [
           "11.1",
           "11.2",
           "11.3",
           "11.4",
-          "11.5"
+          "11.5",
+          "11.6",
+          "11.7"
         ]
       },
       {
-        "name": "Security Operations",
+        "name": "Cybersecurity Operations",
         "clauses": [
-          "11.6",
-          "11.7",
           "11.8",
           "11.9",
-          "11.10"
+          "11.10",
+          "11.11"
         ]
       },
       {
-        "name": "Vulnerability Management",
+        "name": "Cyber Response and Recovery",
         "clauses": [
-          "11.11",
           "11.12",
           "11.13",
           "11.14",
-          "11.15"
+          "11.15",
+          "11.16",
+          "11.17"
         ]
       },
       {
-        "name": "Threat Intelligence",
+        "name": "Cyber Reporting and Threat Information Sharing",
         "clauses": [
-          "11.16",
-          "11.17",
           "11.18",
           "11.19",
           "11.20"
@@ -207,10 +212,15 @@
     "name": "Digital Services",
     "subsections": [
       {
-        "name": "Digital Channels",
+        "name": "Security of Digital Services",
         "clauses": [
           "12.1",
-          "12.2",
+          "12.2"
+        ]
+      },
+      {
+        "name": "Digital Fraud Management and Customer Awareness",
+        "clauses": [
           "12.3",
           "12.4",
           "12.5",
@@ -227,7 +237,7 @@
     "name": "Technology Audits",
     "subsections": [
       {
-        "name": "Audit Framework",
+        "name": "Audit function",
         "clauses": [
           "13.1",
           "13.2",
@@ -242,7 +252,7 @@
     "name": "External Party Assurance",
     "subsections": [
       {
-        "name": "Third-Party Assurance",
+        "name": "External Party Assurance",
         "clauses": [
           "14.1",
           "14.2"
@@ -252,10 +262,10 @@
   },
   {
     "id": "15",
-    "name": "Security Awareness & Education",
+    "name": "Security Awareness and Education",
     "subsections": [
       {
-        "name": "Training & Awareness",
+        "name": "Security Awareness and Education",
         "clauses": [
           "15.1",
           "15.2",
@@ -266,10 +276,10 @@
   },
   {
     "id": "16",
-    "name": "Regulatory Notifications",
+    "name": "Notification for Technology-Related Applications",
     "subsections": [
       {
-        "name": "BNM Notifications",
+        "name": "Introduction or enhancement to digital services",
         "clauses": [
           "16.1",
           "16.2",
@@ -284,10 +294,10 @@
   },
   {
     "id": "17",
-    "name": "Cloud & Emerging Technology",
+    "name": "Consultation and Notification related to Cloud Services and Emerging Technology",
     "subsections": [
       {
-        "name": "Cloud & Innovation",
+        "name": "Consultation and Notification related to Cloud Services and Emerging Technology",
         "clauses": [
           "17.1",
           "17.2",
@@ -300,10 +310,10 @@
   },
   {
     "id": "18",
-    "name": "Assessment & Gap Analysis",
+    "name": "Assessment and Gap Analysis",
     "subsections": [
       {
-        "name": "Self-Assessment",
+        "name": "Assessment and Gap Analysis",
         "clauses": [
           "18.1",
           "18.2"

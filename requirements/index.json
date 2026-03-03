@@ -2,8 +2,8 @@
   "8.1": {
     "clauseId": "8.1",
     "section": "Governance",
-    "subsection": "Board of Directors",
-    "title": "Board Oversight of Technology Risk",
+    "subsection": "Responsibilities of the Board of Directors",
+    "title": "Board Approval of Technology Risk Appetite",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -97,8 +97,8 @@
   "8.2": {
     "clauseId": "8.2",
     "section": "Governance",
-    "subsection": "Board of Directors",
-    "title": "Board Technology Risk Committee",
+    "subsection": "Responsibilities of the Board of Directors",
+    "title": "Board Oversight Responsibilities",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -184,10 +184,10 @@
   "8.3": {
     "clauseId": "8.3",
     "section": "Governance",
-    "subsection": "Board of Directors",
-    "title": "Board Competency in Technology",
+    "subsection": "Responsibilities of the Board of Directors",
+    "title": "Board-Level Technology Committee",
     "clauseType": "governance",
-    "marker": "G",
+    "marker": "S",
     "business": {
       "summary": "Board members who lack technology and cybersecurity knowledge cannot effectively challenge management or make informed decisions about technology investments, risk appetite, and incident response, exposing the institution to poorly governed technology risk.",
       "requirements": [
@@ -271,8 +271,8 @@
   "8.4": {
     "clauseId": "8.4",
     "section": "Governance",
-    "subsection": "Board of Directors",
-    "title": "Board Risk Appetite Statement",
+    "subsection": "Responsibilities of the Board of Directors",
+    "title": "Board Discussion on Technology and Cyber Risk",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -366,8 +366,8 @@
   "8.5": {
     "clauseId": "8.5",
     "section": "Governance",
-    "subsection": "Board of Directors",
-    "title": "Board Reporting on Technology Risk",
+    "subsection": "Responsibilities of the Board of Directors",
+    "title": "Board Audit Committee Technology Oversight",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -461,8 +461,8 @@
   "8.6": {
     "clauseId": "8.6",
     "section": "Governance",
-    "subsection": "Senior Management",
-    "title": "Senior Management Accountability",
+    "subsection": "Responsibilities of the senior management",
+    "title": "Senior Management Accountability for Technology Risk",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -548,8 +548,8 @@
   "8.7": {
     "clauseId": "8.7",
     "section": "Governance",
-    "subsection": "Senior Management",
-    "title": "Technology Risk Management Function",
+    "subsection": "Responsibilities of the senior management",
+    "title": "Cross-Functional Technology Committee",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -644,7 +644,7 @@
     "clauseId": "9.1",
     "section": "Technology Risk Management",
     "subsection": "Risk Management Framework",
-    "title": "Technology Risk Framework",
+    "title": "TRMF Integration with Enterprise Risk Management",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -739,7 +739,7 @@
     "clauseId": "9.2",
     "section": "Technology Risk Management",
     "subsection": "Risk Management Framework",
-    "title": "Risk Identification & Assessment",
+    "title": "TRMF Minimum Requirements",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -834,7 +834,7 @@
     "clauseId": "9.3",
     "section": "Technology Risk Management",
     "subsection": "Risk Management Framework",
-    "title": "Risk Treatment & Mitigation",
+    "title": "Independent Technology Risk Management Function",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -928,10 +928,10 @@
   "9.4": {
     "clauseId": "9.4",
     "section": "Technology Risk Management",
-    "subsection": "Risk Management Framework",
-    "title": "Risk Monitoring & Reporting",
+    "subsection": "Designated Chief Information Security Officer",
+    "title": "Designation of Chief Information Security Officer",
     "clauseType": "governance",
-    "marker": "G",
+    "marker": "S",
     "business": {
       "summary": "Continuous monitoring and structured reporting of technology risks ensures the institution detects emerging threats and risk appetite breaches early, enabling timely management response and informed board oversight.",
       "requirements": [
@@ -1023,8 +1023,8 @@
   "9.5": {
     "clauseId": "9.5",
     "section": "Technology Risk Management",
-    "subsection": "Risk Management Framework",
-    "title": "Technology Risk Register",
+    "subsection": "Designated Chief Information Security Officer",
+    "title": "CISO Responsibilities for Information Protection",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -1126,8 +1126,8 @@
   "10.1": {
     "clauseId": "10.1",
     "section": "Technology Operations Management",
-    "subsection": "Project Management",
-    "title": "IT Project Governance",
+    "subsection": "Technology Project Management",
+    "title": "Technology Project Governance",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -1229,8 +1229,8 @@
   "10.2": {
     "clauseId": "10.2",
     "section": "Technology Operations Management",
-    "subsection": "Project Management",
-    "title": "Project Risk Assessment",
+    "subsection": "Technology Project Management",
+    "title": "Technology Project Risk Assessment",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -1324,10 +1324,10 @@
   "10.3": {
     "clauseId": "10.3",
     "section": "Technology Operations Management",
-    "subsection": "Project Management",
-    "title": "Post-Implementation Review",
+    "subsection": "Technology Project Management",
+    "title": "Board and Senior Management Project Reporting",
     "clauseType": "governance",
-    "marker": "G",
+    "marker": "S",
     "business": {
       "summary": "Post-implementation reviews ensure the institution captures lessons from technology projects and verifies that intended business benefits are being realised, preventing repeated costly mistakes across future initiatives.",
       "requirements": [
@@ -1419,8 +1419,8 @@
   "10.4": {
     "clauseId": "10.4",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "SDLC Framework",
+    "subsection": "System Development and Acquisition",
+    "title": "Enterprise Technology Architecture Framework",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -1514,8 +1514,8 @@
   "10.5": {
     "clauseId": "10.5",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Requirements Management",
+    "subsection": "System Development and Acquisition",
+    "title": "System Development Life Cycle Methodology",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -1609,8 +1609,8 @@
   "10.6": {
     "clauseId": "10.6",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Secure Development Standards",
+    "subsection": "System Development and Acquisition",
+    "title": "Rapid Development Security Requirements",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -1704,8 +1704,8 @@
   "10.7": {
     "clauseId": "10.7",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Code Review & Static Analysis",
+    "subsection": "System Development and Acquisition",
+    "title": "Production Environment Segregation",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -1807,8 +1807,8 @@
   "10.8": {
     "clauseId": "10.8",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Testing Standards",
+    "subsection": "System Development and Acquisition",
+    "title": "System Testing Methodology",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -1910,10 +1910,10 @@
   "10.9": {
     "clauseId": "10.9",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "UAT & Acceptance",
+    "subsection": "System Development and Acquisition",
+    "title": "Scope of System Testing",
     "clauseType": "technical",
-    "marker": "S",
+    "marker": "G",
     "business": {
       "summary": "Formal user acceptance testing by business users in a production-like environment ensures that deployed systems meet actual business needs and do not introduce risks to customer data through exposure of unmasked production information.",
       "requirements": [
@@ -2005,8 +2005,8 @@
   "10.10": {
     "clauseId": "10.10",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Change Management Policy",
+    "subsection": "System Development and Acquisition",
+    "title": "Source Code Review for Critical Systems",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -2014,7 +2014,7 @@
       "requirements": [
         {
           "id": "10.10-B1",
-          "requirement": "Ensure all changes to production systems — applications, infrastructure, databases, and configurations — are assessed for potential impact on customer services, business operations, and regulatory compliance before approval",
+          "requirement": "Ensure all changes to production systems \u2014 applications, infrastructure, databases, and configurations \u2014 are assessed for potential impact on customer services, business operations, and regulatory compliance before approval",
           "rationale": "Impact assessment prevents changes from being deployed without understanding their potential to disrupt customer-facing services or create compliance violations",
           "owner": "Change Manager",
           "frequency": "Per-change",
@@ -2108,8 +2108,8 @@
   "10.11": {
     "clauseId": "10.11",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Emergency Change Procedures",
+    "subsection": "System Development and Acquisition",
+    "title": "Independent Review of System Changes",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -2203,8 +2203,8 @@
   "10.12": {
     "clauseId": "10.12",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Release Management",
+    "subsection": "System Development and Acquisition",
+    "title": "Third Party Service Provider System Changes",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -2306,8 +2306,8 @@
   "10.13": {
     "clauseId": "10.13",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Environment Separation",
+    "subsection": "System Development and Acquisition",
+    "title": "Critical System Decommissioning",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -2409,10 +2409,10 @@
   "10.14": {
     "clauseId": "10.14",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Source Code Protection",
+    "subsection": "System Development and Acquisition",
+    "title": "Automated Development and Security Tools",
     "clauseType": "technical",
-    "marker": "S",
+    "marker": "G",
     "business": {
       "summary": "Source code represents critical intellectual property and a high-value attack vector. Protecting it from unauthorised access, modification, and loss safeguards the institution's proprietary systems, prevents supply-chain attacks, and ensures regulatory traceability of all code changes.",
       "requirements": [
@@ -2512,10 +2512,10 @@
   "10.15": {
     "clauseId": "10.15",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Configuration Management",
+    "subsection": "System Development and Acquisition",
+    "title": "Third Party Software Supply Chain Risk",
     "clauseType": "technical",
-    "marker": "S",
+    "marker": "G",
     "business": {
       "summary": "Configuration management ensures the institution maintains an accurate, complete inventory of all technology assets and their configurations, enabling rapid incident response, reliable change impact assessment, and demonstrable control over the technology estate.",
       "requirements": [
@@ -2615,10 +2615,10 @@
   "10.16": {
     "clauseId": "10.16",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Capacity Planning",
+    "subsection": "System Development and Acquisition",
+    "title": "Shadow IT Risk Management",
     "clauseType": "technical",
-    "marker": "G",
+    "marker": "S",
     "business": {
       "summary": "Capacity planning ensures technology resources are sufficient to meet current and projected business requirements, preventing service degradation during peak periods such as salary processing, festive seasons, and regulatory reporting windows.",
       "requirements": [
@@ -2718,8 +2718,8 @@
   "10.17": {
     "clauseId": "10.17",
     "section": "Technology Operations Management",
-    "subsection": "Patch & End-of-Life",
-    "title": "Patch Management Policy",
+    "subsection": "Patch and End-of-Life System Management",
+    "title": "Vulnerability and End-of-Life System Management",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -2821,8 +2821,8 @@
   "10.18": {
     "clauseId": "10.18",
     "section": "Technology Operations Management",
-    "subsection": "Patch & End-of-Life",
-    "title": "Patch Deployment Timeline",
+    "subsection": "Patch and End-of-Life System Management",
+    "title": "Patch and EOL Management Framework",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -2924,8 +2924,8 @@
   "10.19": {
     "clauseId": "10.19",
     "section": "Technology Operations Management",
-    "subsection": "Patch & End-of-Life",
-    "title": "End-of-Life Management",
+    "subsection": "Patch and End-of-Life System Management",
+    "title": "Technology Effectiveness Monitoring",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -3028,7 +3028,7 @@
     "clauseId": "10.20",
     "section": "Technology Operations Management",
     "subsection": "Cryptography",
-    "title": "Cryptographic Policy",
+    "title": "Cryptography Policy and Standards",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -3131,7 +3131,7 @@
     "clauseId": "10.21",
     "section": "Technology Operations Management",
     "subsection": "Cryptography",
-    "title": "Key Management",
+    "title": "Cryptographic Controls Due Diligence",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -3234,7 +3234,7 @@
     "clauseId": "10.22",
     "section": "Technology Operations Management",
     "subsection": "Cryptography",
-    "title": "Encryption Standards",
+    "title": "Cryptographic Protocol Implementation",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -3337,7 +3337,7 @@
     "clauseId": "10.23",
     "section": "Technology Operations Management",
     "subsection": "Cryptography",
-    "title": "Certificate Management",
+    "title": "Public Key Certificate Management",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -3439,8 +3439,8 @@
   "10.24": {
     "clauseId": "10.24",
     "section": "Technology Operations Management",
-    "subsection": "Data Centre & Facilities",
-    "title": "Data Centre Physical Security",
+    "subsection": "Data Centre Resilience",
+    "title": "Data Centre Resilience Objectives",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -3534,8 +3534,8 @@
   "10.25": {
     "clauseId": "10.25",
     "section": "Technology Operations Management",
-    "subsection": "Data Centre & Facilities",
-    "title": "Environmental Controls",
+    "subsection": "Data Centre Resilience",
+    "title": "Data Centre Redundancy",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -3637,8 +3637,8 @@
   "10.26": {
     "clauseId": "10.26",
     "section": "Technology Operations Management",
-    "subsection": "Data Centre & Facilities",
-    "title": "Power & Redundancy",
+    "subsection": "Data Centre Resilience",
+    "title": "Production Data Centre Physical Security",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -3740,8 +3740,8 @@
   "10.27": {
     "clauseId": "10.27",
     "section": "Technology Operations Management",
-    "subsection": "Data Centre & Facilities",
-    "title": "Fire Suppression",
+    "subsection": "Data Centre Resilience",
+    "title": "Data Centre Operations Control Procedures",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -3843,8 +3843,8 @@
   "10.28": {
     "clauseId": "10.28",
     "section": "Technology Operations Management",
-    "subsection": "Data Centre & Facilities",
-    "title": "Data Centre Access Control",
+    "subsection": "Data Centre Resilience",
+    "title": "Data Centre Activity Segregation",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -3939,7 +3939,7 @@
     "clauseId": "10.29",
     "section": "Technology Operations Management",
     "subsection": "Service Availability",
-    "title": "Service Level Management",
+    "title": "System Capacity Planning",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -4034,7 +4034,7 @@
     "clauseId": "10.30",
     "section": "Technology Operations Management",
     "subsection": "Service Availability",
-    "title": "IT Service Continuity",
+    "title": "Real-Time Performance Monitoring",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -4137,7 +4137,7 @@
     "clauseId": "10.31",
     "section": "Technology Operations Management",
     "subsection": "Service Availability",
-    "title": "Disaster Recovery Planning",
+    "title": "Digital Services Resilience Enhancement",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -4240,7 +4240,7 @@
     "clauseId": "10.32",
     "section": "Technology Operations Management",
     "subsection": "Service Availability",
-    "title": "DR Testing",
+    "title": "Critical System High Availability Requirements",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -4343,9 +4343,9 @@
     "clauseId": "10.33",
     "section": "Technology Operations Management",
     "subsection": "Service Availability",
-    "title": "Recovery Time Objectives",
+    "title": "Non-NCII Entity Service Availability Guidance",
     "clauseType": "technical",
-    "marker": "S",
+    "marker": "G",
     "business": {
       "summary": "Formally defined and business-owner-approved RTO and RPO targets ensure that recovery priorities are driven by business impact rather than technical convenience, and that DR investments are proportionate to the criticality of each system.",
       "requirements": [
@@ -4438,7 +4438,7 @@
     "clauseId": "10.34",
     "section": "Technology Operations Management",
     "subsection": "Service Availability",
-    "title": "Business Impact Analysis",
+    "title": "Technology Diversity for Resilience",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -4533,7 +4533,7 @@
     "clauseId": "10.35",
     "section": "Technology Operations Management",
     "subsection": "Service Availability",
-    "title": "Crisis Communication",
+    "title": "Service Interruption Response",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -4627,8 +4627,8 @@
   "10.36": {
     "clauseId": "10.36",
     "section": "Technology Operations Management",
-    "subsection": "Network Security",
-    "title": "Network Architecture",
+    "subsection": "Network Resilience",
+    "title": "Enterprise Network Design",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -4730,8 +4730,8 @@
   "10.37": {
     "clauseId": "10.37",
     "section": "Technology Operations Management",
-    "subsection": "Network Security",
-    "title": "Network Segmentation",
+    "subsection": "Network Resilience",
+    "title": "Network Service Reliability",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -4833,10 +4833,10 @@
   "10.38": {
     "clauseId": "10.38",
     "section": "Technology Operations Management",
-    "subsection": "Network Security",
-    "title": "Firewall Management",
+    "subsection": "Network Resilience",
+    "title": "Network Fault Prevention Measures",
     "clauseType": "technical",
-    "marker": "S",
+    "marker": "G",
     "business": {
       "summary": "Firewalls are the primary enforcement mechanism for network security policy; poorly managed firewall rules with permissive or stale entries create direct pathways for attackers to reach critical banking systems and sensitive customer data.",
       "requirements": [
@@ -4936,8 +4936,8 @@
   "10.39": {
     "clauseId": "10.39",
     "section": "Technology Operations Management",
-    "subsection": "Network Security",
-    "title": "Intrusion Detection & Prevention",
+    "subsection": "Network Resilience",
+    "title": "Network Bandwidth Monitoring",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -5039,8 +5039,8 @@
   "10.40": {
     "clauseId": "10.40",
     "section": "Technology Operations Management",
-    "subsection": "Network Security",
-    "title": "Wireless Security",
+    "subsection": "Network Resilience",
+    "title": "Network Security for Critical Systems",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -5142,8 +5142,8 @@
   "10.41": {
     "clauseId": "10.41",
     "section": "Technology Operations Management",
-    "subsection": "Network Security",
-    "title": "Remote Access Security",
+    "subsection": "Network Resilience",
+    "title": "Network Design Blueprint",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -5245,8 +5245,8 @@
   "10.42": {
     "clauseId": "10.42",
     "section": "Technology Operations Management",
-    "subsection": "Network Security",
-    "title": "DNS Security",
+    "subsection": "Network Resilience",
+    "title": "Network Device Log Retention",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -5348,8 +5348,8 @@
   "10.43": {
     "clauseId": "10.43",
     "section": "Technology Operations Management",
-    "subsection": "Network Security",
-    "title": "Network Monitoring",
+    "subsection": "Network Resilience",
+    "title": "Network Segmentation Safeguards",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -5451,8 +5451,8 @@
   "10.44": {
     "clauseId": "10.44",
     "section": "Technology Operations Management",
-    "subsection": "Backup & Recovery",
-    "title": "Backup Policy",
+    "subsection": "System backup and restoration",
+    "title": "Backup Strategy and Procedures",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -5554,8 +5554,8 @@
   "10.45": {
     "clauseId": "10.45",
     "section": "Technology Operations Management",
-    "subsection": "Backup & Recovery",
-    "title": "Backup Testing & Restoration",
+    "subsection": "System backup and restoration",
+    "title": "Tamper-Proof Backup and Isolated Recovery",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -5657,8 +5657,8 @@
   "10.46": {
     "clauseId": "10.46",
     "section": "Technology Operations Management",
-    "subsection": "Third-Party Management",
-    "title": "Vendor Risk Assessment",
+    "subsection": "Third Party Service Provider Management",
+    "title": "Third Party Service Provider Oversight",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -5752,8 +5752,8 @@
   "10.47": {
     "clauseId": "10.47",
     "section": "Technology Operations Management",
-    "subsection": "Third-Party Management",
-    "title": "Outsourcing Governance",
+    "subsection": "Third Party Service Provider Management",
+    "title": "Third Party Due Diligence",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -5847,8 +5847,8 @@
   "10.48": {
     "clauseId": "10.48",
     "section": "Technology Operations Management",
-    "subsection": "Third-Party Management",
-    "title": "SLA Monitoring",
+    "subsection": "Third Party Service Provider Management",
+    "title": "Service Level Agreement Requirements",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -5942,8 +5942,8 @@
   "10.49": {
     "clauseId": "10.49",
     "section": "Technology Operations Management",
-    "subsection": "Third-Party Management",
-    "title": "Vendor Exit Strategy",
+    "subsection": "Third Party Service Provider Management",
+    "title": "Continuous Third Party Cybersecurity Monitoring",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -6038,7 +6038,7 @@
     "clauseId": "10.50",
     "section": "Technology Operations Management",
     "subsection": "Cloud Services",
-    "title": "Cloud Risk Assessment",
+    "title": "Cloud Services Risk Assessment",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -6133,9 +6133,9 @@
     "clauseId": "10.51",
     "section": "Technology Operations Management",
     "subsection": "Cloud Services",
-    "title": "Access Control Policy",
+    "title": "Public Cloud Key Risks and Controls",
     "clauseType": "governance",
-    "marker": "S",
+    "marker": "G",
     "business": {
       "summary": "A formal access control policy is the foundational governance instrument that ensures only authorised users can access systems and information assets, protecting the institution from insider threats, data breaches, and regulatory non-compliance.",
       "requirements": [
@@ -6228,7 +6228,7 @@
     "clauseId": "10.52",
     "section": "Technology Operations Management",
     "subsection": "Cloud Services",
-    "title": "Cloud Data Residency",
+    "title": "Cloud Data Protection Safeguards",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -6323,7 +6323,7 @@
     "clauseId": "10.53",
     "section": "Technology Operations Management",
     "subsection": "Access Control",
-    "title": "User Access Provisioning",
+    "title": "Access Control Policy",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -6418,7 +6418,7 @@
     "clauseId": "10.54",
     "section": "Technology Operations Management",
     "subsection": "Access Control",
-    "title": "Multi-Factor Authentication",
+    "title": "Access Control Principles",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -6513,7 +6513,7 @@
     "clauseId": "10.55",
     "section": "Technology Operations Management",
     "subsection": "Access Control",
-    "title": "Password Policy",
+    "title": "Multi-Factor Authentication",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -6608,7 +6608,7 @@
     "clauseId": "10.56",
     "section": "Technology Operations Management",
     "subsection": "Access Control",
-    "title": "Privileged Access Management",
+    "title": "User Access Matrix",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -6703,7 +6703,7 @@
     "clauseId": "10.57",
     "section": "Technology Operations Management",
     "subsection": "Access Control",
-    "title": "Access Review & Recertification",
+    "title": "Access Monitoring and Logging",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -6797,8 +6797,8 @@
   "11.1": {
     "clauseId": "11.1",
     "section": "Cybersecurity Management",
-    "subsection": "Cybersecurity Framework",
-    "title": "Incident Response Plan",
+    "subsection": "Cyber Risk Management",
+    "title": "Enterprise-Wide Cyber Risk Management",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -6900,8 +6900,8 @@
   "11.2": {
     "clauseId": "11.2",
     "section": "Cybersecurity Management",
-    "subsection": "Cybersecurity Framework",
-    "title": "Cybersecurity Strategy",
+    "subsection": "Cyber Risk Management",
+    "title": "Cyber Resilience Framework Development",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -6995,8 +6995,8 @@
   "11.3": {
     "clauseId": "11.3",
     "section": "Cybersecurity Management",
-    "subsection": "Cybersecurity Framework",
-    "title": "Cybersecurity Governance",
+    "subsection": "Cyber Risk Management",
+    "title": "CRF Minimum Elements",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -7012,7 +7012,7 @@
         },
         {
           "id": "11.3-B2",
-          "requirement": "Allocate adequate resources — budget, headcount, and tooling — commensurate with the institution's size, complexity, and cyber risk exposure to support the cybersecurity governance structure",
+          "requirement": "Allocate adequate resources \u2014 budget, headcount, and tooling \u2014 commensurate with the institution's size, complexity, and cyber risk exposure to support the cybersecurity governance structure",
           "rationale": "Governance structures without adequate resourcing are ineffective; BNM expects the institution's cybersecurity investment to be proportionate to its risk profile",
           "owner": "CISO",
           "frequency": "Annual",
@@ -7098,8 +7098,8 @@
   "11.4": {
     "clauseId": "11.4",
     "section": "Cybersecurity Management",
-    "subsection": "Cybersecurity Framework",
-    "title": "Incident Detection and Reporting",
+    "subsection": "Cyber Risk Management",
+    "title": "NCII Compliance Requirements",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -7193,8 +7193,8 @@
   "11.5": {
     "clauseId": "11.5",
     "section": "Cybersecurity Management",
-    "subsection": "Cybersecurity Framework",
-    "title": "Cyber Crisis Management",
+    "subsection": "Cyber Risk Management",
+    "title": "Cybersecurity Control Measures",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -7288,8 +7288,8 @@
   "11.6": {
     "clauseId": "11.6",
     "section": "Cybersecurity Management",
-    "subsection": "Security Operations",
-    "title": "SOC Operations",
+    "subsection": "Cyber Risk Management",
+    "title": "Red Team Simulation Attacks",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -7383,10 +7383,10 @@
   "11.7": {
     "clauseId": "11.7",
     "section": "Cybersecurity Management",
-    "subsection": "Security Operations",
-    "title": "SIEM Implementation",
+    "subsection": "Cyber Risk Management",
+    "title": "Crowdsourced Security Testing",
     "clauseType": "technical",
-    "marker": "S",
+    "marker": "G",
     "business": {
       "summary": "A properly implemented SIEM provides the institution with the centralised visibility needed to detect cyber threats across all critical systems, reducing the financial and operational impact of undetected breaches.",
       "requirements": [
@@ -7478,8 +7478,8 @@
   "11.8": {
     "clauseId": "11.8",
     "section": "Cybersecurity Management",
-    "subsection": "Security Operations",
-    "title": "Endpoint Protection",
+    "subsection": "Cybersecurity Operations",
+    "title": "Cybersecurity Operations Responsibilities",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -7573,8 +7573,8 @@
   "11.9": {
     "clauseId": "11.9",
     "section": "Cybersecurity Management",
-    "subsection": "Security Operations",
-    "title": "Email Security",
+    "subsection": "Cybersecurity Operations",
+    "title": "Continuous Security Monitoring and SOC",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -7668,8 +7668,8 @@
   "11.10": {
     "clauseId": "11.10",
     "section": "Cybersecurity Management",
-    "subsection": "Security Operations",
-    "title": "DLP Controls",
+    "subsection": "Cybersecurity Operations",
+    "title": "Cyber Threat Intelligence",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -7763,8 +7763,8 @@
   "11.11": {
     "clauseId": "11.11",
     "section": "Cybersecurity Management",
-    "subsection": "Vulnerability Management",
-    "title": "Vulnerability Assessment",
+    "subsection": "Cybersecurity Operations",
+    "title": "Anomalous Activity Response",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -7858,8 +7858,8 @@
   "11.12": {
     "clauseId": "11.12",
     "section": "Cybersecurity Management",
-    "subsection": "Vulnerability Management",
-    "title": "Penetration Testing",
+    "subsection": "Cyber Response and Recovery",
+    "title": "Cyber Crisis Management",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -7945,10 +7945,10 @@
   "11.13": {
     "clauseId": "11.13",
     "section": "Cybersecurity Management",
-    "subsection": "Vulnerability Management",
-    "title": "Red Team Exercises",
+    "subsection": "Cyber Response and Recovery",
+    "title": "Cyber Incident Response Plan",
     "clauseType": "technical",
-    "marker": "G",
+    "marker": "S",
     "business": {
       "summary": "Red team exercises simulate advanced persistent threat scenarios to test the institution's security controls and incident response effectiveness against realistic adversary behaviour, providing a higher level of assurance than standard penetration testing.",
       "requirements": [
@@ -8032,8 +8032,8 @@
   "11.14": {
     "clauseId": "11.14",
     "section": "Cybersecurity Management",
-    "subsection": "Vulnerability Management",
-    "title": "Vulnerability Remediation",
+    "subsection": "Cyber Response and Recovery",
+    "title": "CERT Member Readiness",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -8127,10 +8127,10 @@
   "11.15": {
     "clauseId": "11.15",
     "section": "Cybersecurity Management",
-    "subsection": "Vulnerability Management",
-    "title": "Bug Bounty & Disclosure",
+    "subsection": "Cyber Response and Recovery",
+    "title": "Out-of-Band Communication Infrastructure",
     "clauseType": "technical",
-    "marker": "G",
+    "marker": "S",
     "business": {
       "summary": "A coordinated vulnerability disclosure or bug bounty programme leverages the global security research community to identify vulnerabilities that internal testing may miss, providing an additional layer of assurance for internet-facing banking systems.",
       "requirements": [
@@ -8214,8 +8214,8 @@
   "11.16": {
     "clauseId": "11.16",
     "section": "Cybersecurity Management",
-    "subsection": "Threat Intelligence",
-    "title": "Threat Intelligence Program",
+    "subsection": "Cyber Response and Recovery",
+    "title": "Annual Cyber Drill Exercise",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -8309,8 +8309,8 @@
   "11.17": {
     "clauseId": "11.17",
     "section": "Cybersecurity Management",
-    "subsection": "Threat Intelligence",
-    "title": "Threat Information Sharing",
+    "subsection": "Cyber Response and Recovery",
+    "title": "Cyber Insurance and Loss Provision",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -8404,10 +8404,10 @@
   "11.18": {
     "clauseId": "11.18",
     "section": "Cybersecurity Management",
-    "subsection": "Threat Intelligence",
-    "title": "Threat Hunting",
+    "subsection": "Cyber Reporting and Threat Information Sharing",
+    "title": "Cyber Incident Notification to BNM",
     "clauseType": "technical",
-    "marker": "G",
+    "marker": "S",
     "business": {
       "summary": "Proactive threat hunting complements automated detection by actively searching for threats that may have evaded security controls, using intelligence-driven and hypothesis-driven methodologies to identify advanced persistent threats within the institution's environment.",
       "requirements": [
@@ -8491,8 +8491,8 @@
   "11.19": {
     "clauseId": "11.19",
     "section": "Cybersecurity Management",
-    "subsection": "Threat Intelligence",
-    "title": "IoC Management",
+    "subsection": "Cyber Reporting and Threat Information Sharing",
+    "title": "Cyber Threat Intelligence Sharing",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -8578,8 +8578,8 @@
   "11.20": {
     "clauseId": "11.20",
     "section": "Cybersecurity Management",
-    "subsection": "Threat Intelligence",
-    "title": "Cyber Situational Awareness",
+    "subsection": "Cyber Reporting and Threat Information Sharing",
+    "title": "Stakeholder Collaboration on Cyber Threats",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -8673,8 +8673,8 @@
   "12.1": {
     "clauseId": "12.1",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "Digital Channel Security",
+    "subsection": "Security of Digital Services",
+    "title": "Digital Services Security Controls",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -8776,8 +8776,8 @@
   "12.2": {
     "clauseId": "12.2",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "Mobile Application Security",
+    "subsection": "Security of Digital Services",
+    "title": "Alternative Controls and Liability",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -8879,8 +8879,8 @@
   "12.3": {
     "clauseId": "12.3",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "API Security",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "CRF Enhancement for Digital Fraud",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -8982,8 +8982,8 @@
   "12.4": {
     "clauseId": "12.4",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "Customer Authentication",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Fraud Detection Capabilities",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -9077,8 +9077,8 @@
   "12.5": {
     "clauseId": "12.5",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "Transaction Verification",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Digital Service Delivery Risk Mitigation",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -9172,8 +9172,8 @@
   "12.6": {
     "clauseId": "12.6",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "Session Management",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Customer Fraud Risk Empowerment",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -9267,8 +9267,8 @@
   "12.7": {
     "clauseId": "12.7",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "Fraud Detection",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Customer Fraud Awareness Programmes",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -9370,10 +9370,10 @@
   "12.8": {
     "clauseId": "12.8",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "Digital Onboarding Security",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Customer Account Suspension and Kill Switch",
     "clauseType": "technical",
-    "marker": "G",
+    "marker": "S",
     "business": {
       "summary": "Digital customer onboarding introduces fraud and identity theft risks that must be managed through proportionate security controls without creating excessive friction for legitimate customers.",
       "requirements": [
@@ -9465,8 +9465,8 @@
   "12.9": {
     "clauseId": "12.9",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "QR Code & E-Wallet Security",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Post-Incident Customer Protection",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -9560,8 +9560,8 @@
   "13.1": {
     "clauseId": "13.1",
     "section": "Technology Audits",
-    "subsection": "Audit Framework",
-    "title": "IT Audit Plan",
+    "subsection": "Audit function",
+    "title": "Technology Audit Scope and Frequency",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -9655,8 +9655,8 @@
   "13.2": {
     "clauseId": "13.2",
     "section": "Technology Audits",
-    "subsection": "Audit Framework",
-    "title": "IT Audit Independence",
+    "subsection": "Audit function",
+    "title": "Annual Technology Audit Plan",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -9750,10 +9750,10 @@
   "13.3": {
     "clauseId": "13.3",
     "section": "Technology Audits",
-    "subsection": "Audit Framework",
-    "title": "IT Audit Competency",
+    "subsection": "Audit function",
+    "title": "Technology Audit Competency",
     "clauseType": "governance",
-    "marker": "G",
+    "marker": "S",
     "business": {
       "summary": "IT audit quality depends on auditors possessing relevant certifications and current knowledge of technology risks, cybersecurity threats, and auditing standards.",
       "requirements": [
@@ -9845,10 +9845,10 @@
   "13.4": {
     "clauseId": "13.4",
     "section": "Technology Audits",
-    "subsection": "Audit Framework",
-    "title": "IT Audit Follow-Up",
+    "subsection": "Audit function",
+    "title": "Technology Audit Advisory Role",
     "clauseType": "governance",
-    "marker": "S",
+    "marker": "G",
     "business": {
       "summary": "Effective follow-up on IT audit findings ensures that identified risks are actually remediated rather than merely documented, protecting the institution from recurring technology failures.",
       "requirements": [
@@ -9940,8 +9940,8 @@
   "14.1": {
     "clauseId": "14.1",
     "section": "External Party Assurance",
-    "subsection": "Third-Party Assurance",
-    "title": "Third-Party Security Assessment",
+    "subsection": "External Party Assurance",
+    "title": "Data Centre Resilience Assessment",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -10035,8 +10035,8 @@
   "14.2": {
     "clauseId": "14.2",
     "section": "External Party Assurance",
-    "subsection": "Third-Party Assurance",
-    "title": "Third-Party Certification Requirements",
+    "subsection": "External Party Assurance",
+    "title": "Network Resilience Assessment",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -10129,9 +10129,9 @@
   },
   "15.1": {
     "clauseId": "15.1",
-    "section": "Security Awareness & Education",
-    "subsection": "Training & Awareness",
-    "title": "Security Awareness Program",
+    "section": "Security Awareness and Education",
+    "subsection": "Security Awareness and Education",
+    "title": "Cybersecurity Awareness Education",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -10224,9 +10224,9 @@
   },
   "15.2": {
     "clauseId": "15.2",
-    "section": "Security Awareness & Education",
-    "subsection": "Training & Awareness",
-    "title": "Phishing Simulation",
+    "section": "Security Awareness and Education",
+    "subsection": "Security Awareness and Education",
+    "title": "Technology Staff Training",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -10319,11 +10319,11 @@
   },
   "15.3": {
     "clauseId": "15.3",
-    "section": "Security Awareness & Education",
-    "subsection": "Training & Awareness",
-    "title": "Role-Based Security Training",
+    "section": "Security Awareness and Education",
+    "subsection": "Security Awareness and Education",
+    "title": "Board Technology Training",
     "clauseType": "regulatory",
-    "marker": "G",
+    "marker": "S",
     "business": {
       "summary": "Role-based security training ensures that personnel in specialised functions receive training tailored to their specific risk exposure and responsibilities, reducing the likelihood of role-specific security failures.",
       "requirements": [
@@ -10414,9 +10414,9 @@
   },
   "16.1": {
     "clauseId": "16.1",
-    "section": "Regulatory Notifications",
-    "subsection": "BNM Notifications",
-    "title": "Material Incident Notification",
+    "section": "Notification for Technology-Related Applications",
+    "subsection": "Introduction or enhancement to digital services",
+    "title": "Digital Services Notification Requirement",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -10509,9 +10509,9 @@
   },
   "16.2": {
     "clauseId": "16.2",
-    "section": "Regulatory Notifications",
-    "subsection": "BNM Notifications",
-    "title": "Technology Project Notification",
+    "section": "Notification for Technology-Related Applications",
+    "subsection": "Introduction or enhancement to digital services",
+    "title": "First-Time Digital Services Notification",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -10596,9 +10596,9 @@
   },
   "16.3": {
     "clauseId": "16.3",
-    "section": "Regulatory Notifications",
-    "subsection": "BNM Notifications",
-    "title": "Outsourcing Notification",
+    "section": "Notification for Technology-Related Applications",
+    "subsection": "Introduction or enhancement to digital services",
+    "title": "Simplified Enhancement Notification",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -10683,9 +10683,9 @@
   },
   "16.4": {
     "clauseId": "16.4",
-    "section": "Regulatory Notifications",
-    "subsection": "BNM Notifications",
-    "title": "Cloud Adoption Notification",
+    "section": "Notification for Technology-Related Applications",
+    "subsection": "Introduction or enhancement to digital services",
+    "title": "Full Enhancement Notification Requirements",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -10778,9 +10778,9 @@
   },
   "16.5": {
     "clauseId": "16.5",
-    "section": "Regulatory Notifications",
-    "subsection": "BNM Notifications",
-    "title": "Technology Audit Findings",
+    "section": "Notification for Technology-Related Applications",
+    "subsection": "Introduction or enhancement to digital services",
+    "title": "External Assurance Competency",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -10865,9 +10865,9 @@
   },
   "16.6": {
     "clauseId": "16.6",
-    "section": "Regulatory Notifications",
-    "subsection": "BNM Notifications",
-    "title": "Regulatory Examination Response",
+    "section": "Notification for Technology-Related Applications",
+    "subsection": "Introduction or enhancement to digital services",
+    "title": "Document Provision to Bank",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -10952,11 +10952,11 @@
   },
   "16.7": {
     "clauseId": "16.7",
-    "section": "Regulatory Notifications",
-    "subsection": "BNM Notifications",
-    "title": "Annual Technology Risk Report",
+    "section": "Notification for Technology-Related Applications",
+    "subsection": "Introduction or enhancement to digital services",
+    "title": "Immediate Service Offering Upon Notification",
     "clauseType": "regulatory",
-    "marker": "S",
+    "marker": "G",
     "business": {
       "summary": "The annual technology risk report to BNM provides the regulator with a comprehensive view of the institution's technology risk posture, significant incidents, key risk indicators, and strategic plans for managing technology risk.",
       "requirements": [
@@ -11047,9 +11047,9 @@
   },
   "17.1": {
     "clauseId": "17.1",
-    "section": "Cloud & Emerging Technology",
-    "subsection": "Cloud & Innovation",
-    "title": "Cloud Strategy & Governance",
+    "section": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "subsection": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "title": "First-Time Cloud and Emerging Technology Consultation",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -11142,9 +11142,9 @@
   },
   "17.2": {
     "clauseId": "17.2",
-    "section": "Cloud & Emerging Technology",
-    "subsection": "Cloud & Innovation",
-    "title": "Cloud Security Controls",
+    "section": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "subsection": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "title": "Subsequent Cloud and Emerging Technology Notification",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -11245,11 +11245,11 @@
   },
   "17.3": {
     "clauseId": "17.3",
-    "section": "Cloud & Emerging Technology",
-    "subsection": "Cloud & Innovation",
-    "title": "Cloud Portability & Exit",
+    "section": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "subsection": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "title": "Enhancement Notification Exemption",
     "clauseType": "regulatory",
-    "marker": "S",
+    "marker": "G",
     "business": {
       "summary": "Ensuring cloud portability and maintaining exit strategies for all cloud services protects the institution from excessive vendor dependency and guarantees continuity if a cloud provider relationship must be terminated.",
       "requirements": [
@@ -11340,11 +11340,11 @@
   },
   "17.4": {
     "clauseId": "17.4",
-    "section": "Cloud & Emerging Technology",
-    "subsection": "Cloud & Innovation",
-    "title": "AI & Machine Learning Governance",
+    "section": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "subsection": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "title": "Bank Discretionary Direction",
     "clauseType": "governance",
-    "marker": "G",
+    "marker": "S",
     "business": {
       "summary": "Establishing governance for AI and ML use in decision-making protects customers from biased or opaque automated decisions and manages the model risks inherent in deploying these technologies in financial services.",
       "requirements": [
@@ -11435,11 +11435,11 @@
   },
   "17.5": {
     "clauseId": "17.5",
-    "section": "Cloud & Emerging Technology",
-    "subsection": "Cloud & Innovation",
-    "title": "Emerging Technology Risk Assessment",
+    "section": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "subsection": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "title": "Cloud and Emerging Technology Roadmap",
     "clauseType": "regulatory",
-    "marker": "G",
+    "marker": "S",
     "business": {
       "summary": "Conducting risk assessments before adopting emerging technologies ensures the institution understands the security, privacy, regulatory, and operational implications of new technologies before committing resources.",
       "requirements": [
@@ -11530,9 +11530,9 @@
   },
   "18.1": {
     "clauseId": "18.1",
-    "section": "Assessment & Gap Analysis",
-    "subsection": "Self-Assessment",
-    "title": "Annual RMiT Self-Assessment",
+    "section": "Assessment and Gap Analysis",
+    "subsection": "Assessment and Gap Analysis",
+    "title": "Gap Analysis and Action Plan",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -11625,9 +11625,9 @@
   },
   "18.2": {
     "clauseId": "18.2",
-    "section": "Assessment & Gap Analysis",
-    "subsection": "Self-Assessment",
-    "title": "Gap Remediation Planning",
+    "section": "Assessment and Gap Analysis",
+    "subsection": "Assessment and Gap Analysis",
+    "title": "Gap Analysis Submission",
     "clauseType": "governance",
     "marker": "S",
     "business": {

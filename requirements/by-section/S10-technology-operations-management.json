@@ -2,8 +2,8 @@
   "10.1": {
     "clauseId": "10.1",
     "section": "Technology Operations Management",
-    "subsection": "Project Management",
-    "title": "IT Project Governance",
+    "subsection": "Technology Project Management",
+    "title": "Technology Project Governance",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -105,8 +105,8 @@
   "10.2": {
     "clauseId": "10.2",
     "section": "Technology Operations Management",
-    "subsection": "Project Management",
-    "title": "Project Risk Assessment",
+    "subsection": "Technology Project Management",
+    "title": "Technology Project Risk Assessment",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -200,10 +200,10 @@
   "10.3": {
     "clauseId": "10.3",
     "section": "Technology Operations Management",
-    "subsection": "Project Management",
-    "title": "Post-Implementation Review",
+    "subsection": "Technology Project Management",
+    "title": "Board and Senior Management Project Reporting",
     "clauseType": "governance",
-    "marker": "G",
+    "marker": "S",
     "business": {
       "summary": "Post-implementation reviews ensure the institution captures lessons from technology projects and verifies that intended business benefits are being realised, preventing repeated costly mistakes across future initiatives.",
       "requirements": [
@@ -295,8 +295,8 @@
   "10.4": {
     "clauseId": "10.4",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "SDLC Framework",
+    "subsection": "System Development and Acquisition",
+    "title": "Enterprise Technology Architecture Framework",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -390,8 +390,8 @@
   "10.5": {
     "clauseId": "10.5",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Requirements Management",
+    "subsection": "System Development and Acquisition",
+    "title": "System Development Life Cycle Methodology",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -485,8 +485,8 @@
   "10.6": {
     "clauseId": "10.6",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Secure Development Standards",
+    "subsection": "System Development and Acquisition",
+    "title": "Rapid Development Security Requirements",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -580,8 +580,8 @@
   "10.7": {
     "clauseId": "10.7",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Code Review & Static Analysis",
+    "subsection": "System Development and Acquisition",
+    "title": "Production Environment Segregation",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -683,8 +683,8 @@
   "10.8": {
     "clauseId": "10.8",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Testing Standards",
+    "subsection": "System Development and Acquisition",
+    "title": "System Testing Methodology",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -786,10 +786,10 @@
   "10.9": {
     "clauseId": "10.9",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "UAT & Acceptance",
+    "subsection": "System Development and Acquisition",
+    "title": "Scope of System Testing",
     "clauseType": "technical",
-    "marker": "S",
+    "marker": "G",
     "business": {
       "summary": "Formal user acceptance testing by business users in a production-like environment ensures that deployed systems meet actual business needs and do not introduce risks to customer data through exposure of unmasked production information.",
       "requirements": [
@@ -881,8 +881,8 @@
   "10.10": {
     "clauseId": "10.10",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Change Management Policy",
+    "subsection": "System Development and Acquisition",
+    "title": "Source Code Review for Critical Systems",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -890,7 +890,7 @@
       "requirements": [
         {
           "id": "10.10-B1",
-          "requirement": "Ensure all changes to production systems — applications, infrastructure, databases, and configurations — are assessed for potential impact on customer services, business operations, and regulatory compliance before approval",
+          "requirement": "Ensure all changes to production systems \u2014 applications, infrastructure, databases, and configurations \u2014 are assessed for potential impact on customer services, business operations, and regulatory compliance before approval",
           "rationale": "Impact assessment prevents changes from being deployed without understanding their potential to disrupt customer-facing services or create compliance violations",
           "owner": "Change Manager",
           "frequency": "Per-change",
@@ -984,8 +984,8 @@
   "10.11": {
     "clauseId": "10.11",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Emergency Change Procedures",
+    "subsection": "System Development and Acquisition",
+    "title": "Independent Review of System Changes",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -1079,8 +1079,8 @@
   "10.12": {
     "clauseId": "10.12",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Release Management",
+    "subsection": "System Development and Acquisition",
+    "title": "Third Party Service Provider System Changes",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -1182,8 +1182,8 @@
   "10.13": {
     "clauseId": "10.13",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Environment Separation",
+    "subsection": "System Development and Acquisition",
+    "title": "Critical System Decommissioning",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -1285,10 +1285,10 @@
   "10.14": {
     "clauseId": "10.14",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Source Code Protection",
+    "subsection": "System Development and Acquisition",
+    "title": "Automated Development and Security Tools",
     "clauseType": "technical",
-    "marker": "S",
+    "marker": "G",
     "business": {
       "summary": "Source code represents critical intellectual property and a high-value attack vector. Protecting it from unauthorised access, modification, and loss safeguards the institution's proprietary systems, prevents supply-chain attacks, and ensures regulatory traceability of all code changes.",
       "requirements": [
@@ -1388,10 +1388,10 @@
   "10.15": {
     "clauseId": "10.15",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Configuration Management",
+    "subsection": "System Development and Acquisition",
+    "title": "Third Party Software Supply Chain Risk",
     "clauseType": "technical",
-    "marker": "S",
+    "marker": "G",
     "business": {
       "summary": "Configuration management ensures the institution maintains an accurate, complete inventory of all technology assets and their configurations, enabling rapid incident response, reliable change impact assessment, and demonstrable control over the technology estate.",
       "requirements": [
@@ -1491,10 +1491,10 @@
   "10.16": {
     "clauseId": "10.16",
     "section": "Technology Operations Management",
-    "subsection": "System Development",
-    "title": "Capacity Planning",
+    "subsection": "System Development and Acquisition",
+    "title": "Shadow IT Risk Management",
     "clauseType": "technical",
-    "marker": "G",
+    "marker": "S",
     "business": {
       "summary": "Capacity planning ensures technology resources are sufficient to meet current and projected business requirements, preventing service degradation during peak periods such as salary processing, festive seasons, and regulatory reporting windows.",
       "requirements": [
@@ -1594,8 +1594,8 @@
   "10.17": {
     "clauseId": "10.17",
     "section": "Technology Operations Management",
-    "subsection": "Patch & End-of-Life",
-    "title": "Patch Management Policy",
+    "subsection": "Patch and End-of-Life System Management",
+    "title": "Vulnerability and End-of-Life System Management",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -1697,8 +1697,8 @@
   "10.18": {
     "clauseId": "10.18",
     "section": "Technology Operations Management",
-    "subsection": "Patch & End-of-Life",
-    "title": "Patch Deployment Timeline",
+    "subsection": "Patch and End-of-Life System Management",
+    "title": "Patch and EOL Management Framework",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -1800,8 +1800,8 @@
   "10.19": {
     "clauseId": "10.19",
     "section": "Technology Operations Management",
-    "subsection": "Patch & End-of-Life",
-    "title": "End-of-Life Management",
+    "subsection": "Patch and End-of-Life System Management",
+    "title": "Technology Effectiveness Monitoring",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -1904,7 +1904,7 @@
     "clauseId": "10.20",
     "section": "Technology Operations Management",
     "subsection": "Cryptography",
-    "title": "Cryptographic Policy",
+    "title": "Cryptography Policy and Standards",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -2007,7 +2007,7 @@
     "clauseId": "10.21",
     "section": "Technology Operations Management",
     "subsection": "Cryptography",
-    "title": "Key Management",
+    "title": "Cryptographic Controls Due Diligence",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -2110,7 +2110,7 @@
     "clauseId": "10.22",
     "section": "Technology Operations Management",
     "subsection": "Cryptography",
-    "title": "Encryption Standards",
+    "title": "Cryptographic Protocol Implementation",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -2213,7 +2213,7 @@
     "clauseId": "10.23",
     "section": "Technology Operations Management",
     "subsection": "Cryptography",
-    "title": "Certificate Management",
+    "title": "Public Key Certificate Management",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -2315,8 +2315,8 @@
   "10.24": {
     "clauseId": "10.24",
     "section": "Technology Operations Management",
-    "subsection": "Data Centre & Facilities",
-    "title": "Data Centre Physical Security",
+    "subsection": "Data Centre Resilience",
+    "title": "Data Centre Resilience Objectives",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -2410,8 +2410,8 @@
   "10.25": {
     "clauseId": "10.25",
     "section": "Technology Operations Management",
-    "subsection": "Data Centre & Facilities",
-    "title": "Environmental Controls",
+    "subsection": "Data Centre Resilience",
+    "title": "Data Centre Redundancy",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -2513,8 +2513,8 @@
   "10.26": {
     "clauseId": "10.26",
     "section": "Technology Operations Management",
-    "subsection": "Data Centre & Facilities",
-    "title": "Power & Redundancy",
+    "subsection": "Data Centre Resilience",
+    "title": "Production Data Centre Physical Security",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -2616,8 +2616,8 @@
   "10.27": {
     "clauseId": "10.27",
     "section": "Technology Operations Management",
-    "subsection": "Data Centre & Facilities",
-    "title": "Fire Suppression",
+    "subsection": "Data Centre Resilience",
+    "title": "Data Centre Operations Control Procedures",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -2719,8 +2719,8 @@
   "10.28": {
     "clauseId": "10.28",
     "section": "Technology Operations Management",
-    "subsection": "Data Centre & Facilities",
-    "title": "Data Centre Access Control",
+    "subsection": "Data Centre Resilience",
+    "title": "Data Centre Activity Segregation",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -2815,7 +2815,7 @@
     "clauseId": "10.29",
     "section": "Technology Operations Management",
     "subsection": "Service Availability",
-    "title": "Service Level Management",
+    "title": "System Capacity Planning",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -2910,7 +2910,7 @@
     "clauseId": "10.30",
     "section": "Technology Operations Management",
     "subsection": "Service Availability",
-    "title": "IT Service Continuity",
+    "title": "Real-Time Performance Monitoring",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -3013,7 +3013,7 @@
     "clauseId": "10.31",
     "section": "Technology Operations Management",
     "subsection": "Service Availability",
-    "title": "Disaster Recovery Planning",
+    "title": "Digital Services Resilience Enhancement",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -3116,7 +3116,7 @@
     "clauseId": "10.32",
     "section": "Technology Operations Management",
     "subsection": "Service Availability",
-    "title": "DR Testing",
+    "title": "Critical System High Availability Requirements",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -3219,9 +3219,9 @@
     "clauseId": "10.33",
     "section": "Technology Operations Management",
     "subsection": "Service Availability",
-    "title": "Recovery Time Objectives",
+    "title": "Non-NCII Entity Service Availability Guidance",
     "clauseType": "technical",
-    "marker": "S",
+    "marker": "G",
     "business": {
       "summary": "Formally defined and business-owner-approved RTO and RPO targets ensure that recovery priorities are driven by business impact rather than technical convenience, and that DR investments are proportionate to the criticality of each system.",
       "requirements": [
@@ -3314,7 +3314,7 @@
     "clauseId": "10.34",
     "section": "Technology Operations Management",
     "subsection": "Service Availability",
-    "title": "Business Impact Analysis",
+    "title": "Technology Diversity for Resilience",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -3409,7 +3409,7 @@
     "clauseId": "10.35",
     "section": "Technology Operations Management",
     "subsection": "Service Availability",
-    "title": "Crisis Communication",
+    "title": "Service Interruption Response",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -3503,8 +3503,8 @@
   "10.36": {
     "clauseId": "10.36",
     "section": "Technology Operations Management",
-    "subsection": "Network Security",
-    "title": "Network Architecture",
+    "subsection": "Network Resilience",
+    "title": "Enterprise Network Design",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -3606,8 +3606,8 @@
   "10.37": {
     "clauseId": "10.37",
     "section": "Technology Operations Management",
-    "subsection": "Network Security",
-    "title": "Network Segmentation",
+    "subsection": "Network Resilience",
+    "title": "Network Service Reliability",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -3709,10 +3709,10 @@
   "10.38": {
     "clauseId": "10.38",
     "section": "Technology Operations Management",
-    "subsection": "Network Security",
-    "title": "Firewall Management",
+    "subsection": "Network Resilience",
+    "title": "Network Fault Prevention Measures",
     "clauseType": "technical",
-    "marker": "S",
+    "marker": "G",
     "business": {
       "summary": "Firewalls are the primary enforcement mechanism for network security policy; poorly managed firewall rules with permissive or stale entries create direct pathways for attackers to reach critical banking systems and sensitive customer data.",
       "requirements": [
@@ -3812,8 +3812,8 @@
   "10.39": {
     "clauseId": "10.39",
     "section": "Technology Operations Management",
-    "subsection": "Network Security",
-    "title": "Intrusion Detection & Prevention",
+    "subsection": "Network Resilience",
+    "title": "Network Bandwidth Monitoring",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -3915,8 +3915,8 @@
   "10.40": {
     "clauseId": "10.40",
     "section": "Technology Operations Management",
-    "subsection": "Network Security",
-    "title": "Wireless Security",
+    "subsection": "Network Resilience",
+    "title": "Network Security for Critical Systems",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -4018,8 +4018,8 @@
   "10.41": {
     "clauseId": "10.41",
     "section": "Technology Operations Management",
-    "subsection": "Network Security",
-    "title": "Remote Access Security",
+    "subsection": "Network Resilience",
+    "title": "Network Design Blueprint",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -4121,8 +4121,8 @@
   "10.42": {
     "clauseId": "10.42",
     "section": "Technology Operations Management",
-    "subsection": "Network Security",
-    "title": "DNS Security",
+    "subsection": "Network Resilience",
+    "title": "Network Device Log Retention",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -4224,8 +4224,8 @@
   "10.43": {
     "clauseId": "10.43",
     "section": "Technology Operations Management",
-    "subsection": "Network Security",
-    "title": "Network Monitoring",
+    "subsection": "Network Resilience",
+    "title": "Network Segmentation Safeguards",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -4327,8 +4327,8 @@
   "10.44": {
     "clauseId": "10.44",
     "section": "Technology Operations Management",
-    "subsection": "Backup & Recovery",
-    "title": "Backup Policy",
+    "subsection": "System backup and restoration",
+    "title": "Backup Strategy and Procedures",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -4430,8 +4430,8 @@
   "10.45": {
     "clauseId": "10.45",
     "section": "Technology Operations Management",
-    "subsection": "Backup & Recovery",
-    "title": "Backup Testing & Restoration",
+    "subsection": "System backup and restoration",
+    "title": "Tamper-Proof Backup and Isolated Recovery",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -4533,8 +4533,8 @@
   "10.46": {
     "clauseId": "10.46",
     "section": "Technology Operations Management",
-    "subsection": "Third-Party Management",
-    "title": "Vendor Risk Assessment",
+    "subsection": "Third Party Service Provider Management",
+    "title": "Third Party Service Provider Oversight",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -4628,8 +4628,8 @@
   "10.47": {
     "clauseId": "10.47",
     "section": "Technology Operations Management",
-    "subsection": "Third-Party Management",
-    "title": "Outsourcing Governance",
+    "subsection": "Third Party Service Provider Management",
+    "title": "Third Party Due Diligence",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -4723,8 +4723,8 @@
   "10.48": {
     "clauseId": "10.48",
     "section": "Technology Operations Management",
-    "subsection": "Third-Party Management",
-    "title": "SLA Monitoring",
+    "subsection": "Third Party Service Provider Management",
+    "title": "Service Level Agreement Requirements",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -4818,8 +4818,8 @@
   "10.49": {
     "clauseId": "10.49",
     "section": "Technology Operations Management",
-    "subsection": "Third-Party Management",
-    "title": "Vendor Exit Strategy",
+    "subsection": "Third Party Service Provider Management",
+    "title": "Continuous Third Party Cybersecurity Monitoring",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -4914,7 +4914,7 @@
     "clauseId": "10.50",
     "section": "Technology Operations Management",
     "subsection": "Cloud Services",
-    "title": "Cloud Risk Assessment",
+    "title": "Cloud Services Risk Assessment",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -5009,9 +5009,9 @@
     "clauseId": "10.51",
     "section": "Technology Operations Management",
     "subsection": "Cloud Services",
-    "title": "Access Control Policy",
+    "title": "Public Cloud Key Risks and Controls",
     "clauseType": "governance",
-    "marker": "S",
+    "marker": "G",
     "business": {
       "summary": "A formal access control policy is the foundational governance instrument that ensures only authorised users can access systems and information assets, protecting the institution from insider threats, data breaches, and regulatory non-compliance.",
       "requirements": [
@@ -5104,7 +5104,7 @@
     "clauseId": "10.52",
     "section": "Technology Operations Management",
     "subsection": "Cloud Services",
-    "title": "Cloud Data Residency",
+    "title": "Cloud Data Protection Safeguards",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -5199,7 +5199,7 @@
     "clauseId": "10.53",
     "section": "Technology Operations Management",
     "subsection": "Access Control",
-    "title": "User Access Provisioning",
+    "title": "Access Control Policy",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -5294,7 +5294,7 @@
     "clauseId": "10.54",
     "section": "Technology Operations Management",
     "subsection": "Access Control",
-    "title": "Multi-Factor Authentication",
+    "title": "Access Control Principles",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -5389,7 +5389,7 @@
     "clauseId": "10.55",
     "section": "Technology Operations Management",
     "subsection": "Access Control",
-    "title": "Password Policy",
+    "title": "Multi-Factor Authentication",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -5484,7 +5484,7 @@
     "clauseId": "10.56",
     "section": "Technology Operations Management",
     "subsection": "Access Control",
-    "title": "Privileged Access Management",
+    "title": "User Access Matrix",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -5579,7 +5579,7 @@
     "clauseId": "10.57",
     "section": "Technology Operations Management",
     "subsection": "Access Control",
-    "title": "Access Review & Recertification",
+    "title": "Access Monitoring and Logging",
     "clauseType": "technical",
     "marker": "S",
     "business": {

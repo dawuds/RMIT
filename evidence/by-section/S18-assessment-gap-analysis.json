@@ -1,9 +1,9 @@
 {
   "18.1": {
     "clauseId": "18.1",
-    "section": "Assessment & Gap Analysis",
-    "subsection": "Self-Assessment",
-    "title": "Annual RMiT Self-Assessment",
+    "section": "Assessment and Gap Analysis",
+    "subsection": "Assessment and Gap Analysis",
+    "title": "Gap Analysis and Action Plan",
     "clauseType": "governance",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that the institution conducts a comprehensive annual self-assessment covering all applicable RMiT clauses, that compliance ratings are supported by evidence, that the assessment is honest about gaps, and that results are reviewed and signed off by the board or senior management.",
@@ -111,9 +111,9 @@
   },
   "18.2": {
     "clauseId": "18.2",
-    "section": "Assessment & Gap Analysis",
-    "subsection": "Self-Assessment",
-    "title": "Gap Remediation Planning",
+    "section": "Assessment and Gap Analysis",
+    "subsection": "Assessment and Gap Analysis",
+    "title": "Gap Analysis Submission",
     "clauseType": "governance",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that remediation plans exist for all identified compliance gaps, that plans include specific actions with accountable owners and target dates, that progress is reported to the board at least quarterly, and that closed gaps have evidence of completion and independent verification.",

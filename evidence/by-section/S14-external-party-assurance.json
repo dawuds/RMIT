@@ -2,8 +2,8 @@
   "14.1": {
     "clauseId": "14.1",
     "section": "External Party Assurance",
-    "subsection": "Third-Party Assurance",
-    "title": "Third-Party Security Assessment",
+    "subsection": "External Party Assurance",
+    "title": "Data Centre Resilience Assessment",
     "clauseType": "regulatory",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that independent security assessments are obtained for all critical third-party service providers at least annually, that assessments cover security controls, data protection, and contractual compliance, and that results are reviewed by the risk management function. They will request the vendor register, assessment reports, and risk management review records.",
@@ -120,8 +120,8 @@
   "14.2": {
     "clauseId": "14.2",
     "section": "External Party Assurance",
-    "subsection": "Third-Party Assurance",
-    "title": "Third-Party Certification Requirements",
+    "subsection": "External Party Assurance",
+    "title": "Network Resilience Assessment",
     "clauseType": "regulatory",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that critical third-party providers are required to maintain recognised security certifications (ISO 27001, SOC 2, or equivalent), that certification status is actively monitored, and that certification lapses trigger risk reassessments. They will request the certification tracking register, monitoring evidence, and any lapse response records.",

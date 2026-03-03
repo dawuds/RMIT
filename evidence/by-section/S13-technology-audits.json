@@ -2,8 +2,8 @@
   "13.1": {
     "clauseId": "13.1",
     "section": "Technology Audits",
-    "subsection": "Audit Framework",
-    "title": "IT Audit Plan",
+    "subsection": "Audit function",
+    "title": "Technology Audit Scope and Frequency",
     "clauseType": "governance",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that a risk-based IT audit plan exists covering all critical technology domains, that it has been formally approved by the audit committee, and that it is executed by qualified IT auditors. They will check the risk assessment methodology underpinning audit priorities and the completeness of coverage across cybersecurity, IT operations, change management, access control, and business continuity.",
@@ -118,8 +118,8 @@
   "13.2": {
     "clauseId": "13.2",
     "section": "Technology Audits",
-    "subsection": "Audit Framework",
-    "title": "IT Audit Independence",
+    "subsection": "Audit function",
+    "title": "Annual Technology Audit Plan",
     "clauseType": "governance",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that the IT audit function is structurally independent from IT management, reports directly to the audit committee, and has unrestricted access to all systems and records. They will scrutinise reporting lines, access rights, and any situations where audit independence may have been compromised.",
@@ -236,10 +236,10 @@
   "13.3": {
     "clauseId": "13.3",
     "section": "Technology Audits",
-    "subsection": "Audit Framework",
-    "title": "IT Audit Competency",
+    "subsection": "Audit function",
+    "title": "Technology Audit Competency",
     "clauseType": "governance",
-    "marker": "G",
+    "marker": "S",
     "auditorFocus": "BNM examiners will assess whether IT auditors hold relevant professional certifications, maintain current knowledge of technology risks, and participate in continuous professional development. Expect requests for certification records, CPD logs, and training plans for all IT audit personnel.",
     "evidenceItems": [
       {
@@ -354,10 +354,10 @@
   "13.4": {
     "clauseId": "13.4",
     "section": "Technology Audits",
-    "subsection": "Audit Framework",
-    "title": "IT Audit Follow-Up",
+    "subsection": "Audit function",
+    "title": "Technology Audit Advisory Role",
     "clauseType": "governance",
-    "marker": "S",
+    "marker": "G",
     "auditorFocus": "BNM examiners will verify that a systematic process exists for tracking IT audit findings to remediation completion, that management provides action plans with target dates, and that overdue findings are escalated to senior management and the audit committee. They will review the finding register, ageing analysis, and escalation records.",
     "evidenceItems": [
       {

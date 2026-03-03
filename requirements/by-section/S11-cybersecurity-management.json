@@ -2,8 +2,8 @@
   "11.1": {
     "clauseId": "11.1",
     "section": "Cybersecurity Management",
-    "subsection": "Cybersecurity Framework",
-    "title": "Incident Response Plan",
+    "subsection": "Cyber Risk Management",
+    "title": "Enterprise-Wide Cyber Risk Management",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -105,8 +105,8 @@
   "11.2": {
     "clauseId": "11.2",
     "section": "Cybersecurity Management",
-    "subsection": "Cybersecurity Framework",
-    "title": "Cybersecurity Strategy",
+    "subsection": "Cyber Risk Management",
+    "title": "Cyber Resilience Framework Development",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -200,8 +200,8 @@
   "11.3": {
     "clauseId": "11.3",
     "section": "Cybersecurity Management",
-    "subsection": "Cybersecurity Framework",
-    "title": "Cybersecurity Governance",
+    "subsection": "Cyber Risk Management",
+    "title": "CRF Minimum Elements",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -217,7 +217,7 @@
         },
         {
           "id": "11.3-B2",
-          "requirement": "Allocate adequate resources — budget, headcount, and tooling — commensurate with the institution's size, complexity, and cyber risk exposure to support the cybersecurity governance structure",
+          "requirement": "Allocate adequate resources \u2014 budget, headcount, and tooling \u2014 commensurate with the institution's size, complexity, and cyber risk exposure to support the cybersecurity governance structure",
           "rationale": "Governance structures without adequate resourcing are ineffective; BNM expects the institution's cybersecurity investment to be proportionate to its risk profile",
           "owner": "CISO",
           "frequency": "Annual",
@@ -303,8 +303,8 @@
   "11.4": {
     "clauseId": "11.4",
     "section": "Cybersecurity Management",
-    "subsection": "Cybersecurity Framework",
-    "title": "Incident Detection and Reporting",
+    "subsection": "Cyber Risk Management",
+    "title": "NCII Compliance Requirements",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -398,8 +398,8 @@
   "11.5": {
     "clauseId": "11.5",
     "section": "Cybersecurity Management",
-    "subsection": "Cybersecurity Framework",
-    "title": "Cyber Crisis Management",
+    "subsection": "Cyber Risk Management",
+    "title": "Cybersecurity Control Measures",
     "clauseType": "governance",
     "marker": "S",
     "business": {
@@ -493,8 +493,8 @@
   "11.6": {
     "clauseId": "11.6",
     "section": "Cybersecurity Management",
-    "subsection": "Security Operations",
-    "title": "SOC Operations",
+    "subsection": "Cyber Risk Management",
+    "title": "Red Team Simulation Attacks",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -588,10 +588,10 @@
   "11.7": {
     "clauseId": "11.7",
     "section": "Cybersecurity Management",
-    "subsection": "Security Operations",
-    "title": "SIEM Implementation",
+    "subsection": "Cyber Risk Management",
+    "title": "Crowdsourced Security Testing",
     "clauseType": "technical",
-    "marker": "S",
+    "marker": "G",
     "business": {
       "summary": "A properly implemented SIEM provides the institution with the centralised visibility needed to detect cyber threats across all critical systems, reducing the financial and operational impact of undetected breaches.",
       "requirements": [
@@ -683,8 +683,8 @@
   "11.8": {
     "clauseId": "11.8",
     "section": "Cybersecurity Management",
-    "subsection": "Security Operations",
-    "title": "Endpoint Protection",
+    "subsection": "Cybersecurity Operations",
+    "title": "Cybersecurity Operations Responsibilities",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -778,8 +778,8 @@
   "11.9": {
     "clauseId": "11.9",
     "section": "Cybersecurity Management",
-    "subsection": "Security Operations",
-    "title": "Email Security",
+    "subsection": "Cybersecurity Operations",
+    "title": "Continuous Security Monitoring and SOC",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -873,8 +873,8 @@
   "11.10": {
     "clauseId": "11.10",
     "section": "Cybersecurity Management",
-    "subsection": "Security Operations",
-    "title": "DLP Controls",
+    "subsection": "Cybersecurity Operations",
+    "title": "Cyber Threat Intelligence",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -968,8 +968,8 @@
   "11.11": {
     "clauseId": "11.11",
     "section": "Cybersecurity Management",
-    "subsection": "Vulnerability Management",
-    "title": "Vulnerability Assessment",
+    "subsection": "Cybersecurity Operations",
+    "title": "Anomalous Activity Response",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -1063,8 +1063,8 @@
   "11.12": {
     "clauseId": "11.12",
     "section": "Cybersecurity Management",
-    "subsection": "Vulnerability Management",
-    "title": "Penetration Testing",
+    "subsection": "Cyber Response and Recovery",
+    "title": "Cyber Crisis Management",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -1150,10 +1150,10 @@
   "11.13": {
     "clauseId": "11.13",
     "section": "Cybersecurity Management",
-    "subsection": "Vulnerability Management",
-    "title": "Red Team Exercises",
+    "subsection": "Cyber Response and Recovery",
+    "title": "Cyber Incident Response Plan",
     "clauseType": "technical",
-    "marker": "G",
+    "marker": "S",
     "business": {
       "summary": "Red team exercises simulate advanced persistent threat scenarios to test the institution's security controls and incident response effectiveness against realistic adversary behaviour, providing a higher level of assurance than standard penetration testing.",
       "requirements": [
@@ -1237,8 +1237,8 @@
   "11.14": {
     "clauseId": "11.14",
     "section": "Cybersecurity Management",
-    "subsection": "Vulnerability Management",
-    "title": "Vulnerability Remediation",
+    "subsection": "Cyber Response and Recovery",
+    "title": "CERT Member Readiness",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -1332,10 +1332,10 @@
   "11.15": {
     "clauseId": "11.15",
     "section": "Cybersecurity Management",
-    "subsection": "Vulnerability Management",
-    "title": "Bug Bounty & Disclosure",
+    "subsection": "Cyber Response and Recovery",
+    "title": "Out-of-Band Communication Infrastructure",
     "clauseType": "technical",
-    "marker": "G",
+    "marker": "S",
     "business": {
       "summary": "A coordinated vulnerability disclosure or bug bounty programme leverages the global security research community to identify vulnerabilities that internal testing may miss, providing an additional layer of assurance for internet-facing banking systems.",
       "requirements": [
@@ -1419,8 +1419,8 @@
   "11.16": {
     "clauseId": "11.16",
     "section": "Cybersecurity Management",
-    "subsection": "Threat Intelligence",
-    "title": "Threat Intelligence Program",
+    "subsection": "Cyber Response and Recovery",
+    "title": "Annual Cyber Drill Exercise",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -1514,8 +1514,8 @@
   "11.17": {
     "clauseId": "11.17",
     "section": "Cybersecurity Management",
-    "subsection": "Threat Intelligence",
-    "title": "Threat Information Sharing",
+    "subsection": "Cyber Response and Recovery",
+    "title": "Cyber Insurance and Loss Provision",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -1609,10 +1609,10 @@
   "11.18": {
     "clauseId": "11.18",
     "section": "Cybersecurity Management",
-    "subsection": "Threat Intelligence",
-    "title": "Threat Hunting",
+    "subsection": "Cyber Reporting and Threat Information Sharing",
+    "title": "Cyber Incident Notification to BNM",
     "clauseType": "technical",
-    "marker": "G",
+    "marker": "S",
     "business": {
       "summary": "Proactive threat hunting complements automated detection by actively searching for threats that may have evaded security controls, using intelligence-driven and hypothesis-driven methodologies to identify advanced persistent threats within the institution's environment.",
       "requirements": [
@@ -1696,8 +1696,8 @@
   "11.19": {
     "clauseId": "11.19",
     "section": "Cybersecurity Management",
-    "subsection": "Threat Intelligence",
-    "title": "IoC Management",
+    "subsection": "Cyber Reporting and Threat Information Sharing",
+    "title": "Cyber Threat Intelligence Sharing",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -1783,8 +1783,8 @@
   "11.20": {
     "clauseId": "11.20",
     "section": "Cybersecurity Management",
-    "subsection": "Threat Intelligence",
-    "title": "Cyber Situational Awareness",
+    "subsection": "Cyber Reporting and Threat Information Sharing",
+    "title": "Stakeholder Collaboration on Cyber Threats",
     "clauseType": "technical",
     "marker": "S",
     "business": {

@@ -2,8 +2,8 @@
   "14.1": {
     "clauseId": "14.1",
     "section": "External Party Assurance",
-    "subsection": "Third-Party Assurance",
-    "title": "Third-Party Security Assessment",
+    "subsection": "External Party Assurance",
+    "title": "Data Centre Resilience Assessment",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -97,8 +97,8 @@
   "14.2": {
     "clauseId": "14.2",
     "section": "External Party Assurance",
-    "subsection": "Third-Party Assurance",
-    "title": "Third-Party Certification Requirements",
+    "subsection": "External Party Assurance",
+    "title": "Network Resilience Assessment",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {

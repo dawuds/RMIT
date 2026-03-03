@@ -1,9 +1,9 @@
 {
   "15.1": {
     "clauseId": "15.1",
-    "section": "Security Awareness & Education",
-    "subsection": "Training & Awareness",
-    "title": "Security Awareness Program",
+    "section": "Security Awareness and Education",
+    "subsection": "Security Awareness and Education",
+    "title": "Cybersecurity Awareness Education",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -96,9 +96,9 @@
   },
   "15.2": {
     "clauseId": "15.2",
-    "section": "Security Awareness & Education",
-    "subsection": "Training & Awareness",
-    "title": "Phishing Simulation",
+    "section": "Security Awareness and Education",
+    "subsection": "Security Awareness and Education",
+    "title": "Technology Staff Training",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -191,11 +191,11 @@
   },
   "15.3": {
     "clauseId": "15.3",
-    "section": "Security Awareness & Education",
-    "subsection": "Training & Awareness",
-    "title": "Role-Based Security Training",
+    "section": "Security Awareness and Education",
+    "subsection": "Security Awareness and Education",
+    "title": "Board Technology Training",
     "clauseType": "regulatory",
-    "marker": "G",
+    "marker": "S",
     "business": {
       "summary": "Role-based security training ensures that personnel in specialised functions receive training tailored to their specific risk exposure and responsibilities, reducing the likelihood of role-specific security failures.",
       "requirements": [

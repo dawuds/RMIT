@@ -1,9 +1,9 @@
 {
   "15.1": {
     "clauseId": "15.1",
-    "section": "Security Awareness & Education",
-    "subsection": "Training & Awareness",
-    "title": "Security Awareness Program",
+    "section": "Security Awareness and Education",
+    "subsection": "Security Awareness and Education",
+    "title": "Cybersecurity Awareness Education",
     "clauseType": "regulatory",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that a formal security awareness programme exists covering all personnel categories, that mandatory annual training is completed with high participation rates, and that completion is tracked with evidence of management reporting.",
@@ -111,9 +111,9 @@
   },
   "15.2": {
     "clauseId": "15.2",
-    "section": "Security Awareness & Education",
-    "subsection": "Training & Awareness",
-    "title": "Phishing Simulation",
+    "section": "Security Awareness and Education",
+    "subsection": "Security Awareness and Education",
+    "title": "Technology Staff Training",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that phishing simulations are conducted at least quarterly, that personnel who fail receive follow-up training, and that metrics are tracked over time and reported to management demonstrating measurable improvement.",
@@ -221,11 +221,11 @@
   },
   "15.3": {
     "clauseId": "15.3",
-    "section": "Security Awareness & Education",
-    "subsection": "Training & Awareness",
-    "title": "Role-Based Security Training",
+    "section": "Security Awareness and Education",
+    "subsection": "Security Awareness and Education",
+    "title": "Board Technology Training",
     "clauseType": "regulatory",
-    "marker": "G",
+    "marker": "S",
     "auditorFocus": "BNM examiners will assess whether the institution has identified specialised roles requiring tailored training, whether training content is differentiated by role and updated for emerging threats, and whether completion is tracked by role category.",
     "evidenceItems": [
       {
