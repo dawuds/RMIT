@@ -328,6 +328,37 @@ for clause in mandatory[:3]:
 | Artifacts | 365 | Across 6 categories (policies, procedures, governance, evidence, reports, logs) |
 | Controls | 93 | Across 15 domains with NIST CSF 2.0 + ISO 27001:2022 mappings |
 
+## AI-Generated Content — Important Disclaimer
+
+**This database contains two distinct types of content. They must not be confused.**
+
+### Authoritative Content (extracted from official BNM source)
+The following fields are extracted from the official BNM RMiT Policy Document and should be treated as authoritative:
+- `verbatim` — Exact text from the BNM RMiT Policy Document (November 2025)
+- `id`, `section`, `clauseType`, `marker` (S/G) — Structural metadata
+- Clause IDs and section numbering (S8–S18)
+
+### AI-Generated Content (interpretive — not authoritative)
+The following fields are **AI-generated interpretations or illustrative examples**. They are provided to assist understanding only and **must not be treated as authoritative BNM guidance or legal advice**:
+
+| Field | Location | Nature |
+|-------|----------|--------|
+| `translation` | `clauses/` | AI-generated plain-language interpretation — **verify against verbatim text** |
+| `summary` | `requirements/` | AI-generated interpretive summary of requirements |
+| `rationale` | `requirements/` | AI-generated explanation of why a requirement matters |
+| `auditorFocus` | `evidence/` | AI-generated view of BNM examiner priorities |
+| `evidenceItems[].description` | `evidence/` | AI-generated guidance |
+| `whatGoodLooksLike` | `evidence/` | AI-generated illustrative examples |
+| `commonGaps` | `evidence/` | AI-generated illustrative examples |
+| `auditTips` | `evidence/` | AI-generated guidance |
+| `description`, `keyActivities`, `maturity` | `controls/` | AI-generated guidance |
+
+> **Known data quality issue:** Spot-checks during audit identified that some `translation` fields do not accurately paraphrase their corresponding `verbatim` clause text — they appear to describe different clause topics. **Always verify the `translation` field against the `verbatim` text and the source PDF before relying on it for compliance decisions.**
+>
+> The web explorer labels all AI-generated fields with an **AI Generated** indicator and illustrative examples with an **Example** indicator.
+
+**Always consult the source PDF and qualified legal or regulatory counsel before acting on any interpretation in this database.**
+
 ## Source
 
 Bank Negara Malaysia — Risk Management in Technology (RMiT) Policy Document, November 2025.

@@ -322,6 +322,8 @@ a:hover { text-decoration: underline; }
 .badge-owner { background: #F0FDF4; color: var(--green); }
 .badge-frequency { background: #F5F3FF; color: var(--sec-8); }
 .badge-mandatory { background: #FEF2F2; color: var(--danger); }
+.badge-ai { background: #EFF6FF; color: #1D4ED8; font-size: 0.6rem; font-style: italic; cursor: help; }
+.badge-example { background: #F0FDF4; color: #15803D; font-size: 0.6rem; font-style: italic; cursor: help; }
 
 .control-desc { font-size: 0.8125rem; color: var(--text-secondary); margin-bottom: 0.75rem; }
 .key-activities { margin-bottom: 0.75rem; }

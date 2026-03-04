@@ -162,7 +162,7 @@ function renderClause(clauseId) {
         </div>` : ''}
       ${cl.translation ? `
         <div class="translation-block">
-          <strong>Plain English</strong>
+          <strong>Plain English</strong> <span class="badge badge-ai" title="AI-generated interpretation — verify against verbatim BNM text and source PDF before relying on this">AI Generated</span>
           ${escHtml(cl.translation)}
         </div>` : ''}
     </div>
@@ -215,7 +215,7 @@ function renderRequirementsTab(clauseId) {
     return `
       <div class="req-dimension">
         <h4 style="color:${color}">${label} Requirements</h4>
-        <p class="req-summary">${escHtml(d.summary)}</p>
+        <p class="req-summary">${escHtml(d.summary)} <span class="badge badge-ai" title="AI-generated interpretive summary">AI Generated</span></p>
         ${d.requirements && d.requirements.length > 0 ? `
           <div style="overflow-x:auto">
             <table class="data-table">
@@ -226,7 +226,7 @@ function renderRequirementsTab(clauseId) {
                     <td class="mono" style="white-space:nowrap">${escHtml(r.id)}</td>
                     <td>
                       ${escHtml(r.requirement)}
-                      ${r.rationale ? `<div style="font-size:0.75rem;color:var(--text-muted);margin-top:0.25rem">${escHtml(r.rationale)}</div>` : ''}
+                      ${r.rationale ? `<div style="font-size:0.75rem;color:var(--text-muted);margin-top:0.25rem"><span class="badge badge-ai" title="AI-generated rationale">AI Generated</span> ${escHtml(r.rationale)}</div>` : ''}
                     </td>
                     <td style="white-space:nowrap">${escHtml(r.owner)}</td>
                     <td style="white-space:nowrap;font-size:0.8125rem">${escHtml(r.frequency)}</td>
@@ -245,18 +245,18 @@ function renderEvidenceTab(clauseId) {
   if (!ev) return '<p class="empty-state">No evidence guidance available for this clause.</p>';
 
   return `
-    ${ev.auditorFocus ? `<div class="auditor-focus"><strong>Auditor Focus</strong>${escHtml(ev.auditorFocus)}</div>` : ''}
+    ${ev.auditorFocus ? `<div class="auditor-focus"><strong>Auditor Focus</strong> <span class="badge badge-ai" title="AI-generated — verify against official BNM examination guidance">AI Generated</span>${escHtml(ev.auditorFocus)}</div>` : ''}
     ${(ev.evidenceItems || []).map(item => `
       <div class="evidence-card">
         <h4>${escHtml(item.name)}</h4>
         <div class="ev-id">${escHtml(item.id)}</div>
         ${item.description ? `<div class="ev-desc">${escHtml(item.description)}</div>` : ''}
         ${item.whatGoodLooksLike && item.whatGoodLooksLike.length > 0 ? `
-          <div class="ev-section"><div class="ev-section-title">What Good Looks Like</div>
+          <div class="ev-section"><div class="ev-section-title">What Good Looks Like <span class="badge badge-example" title="AI-generated illustrative examples — not exhaustive or prescriptive">Example</span></div>
             <ul class="ev-list good">${item.whatGoodLooksLike.map(w => `<li>${escHtml(w)}</li>`).join('')}</ul>
           </div>` : ''}
         ${item.commonGaps && item.commonGaps.length > 0 ? `
-          <div class="ev-section"><div class="ev-section-title">Common Gaps</div>
+          <div class="ev-section"><div class="ev-section-title">Common Gaps <span class="badge badge-example" title="AI-generated illustrative examples — not exhaustive">Example</span></div>
             <ul class="ev-list gap">${item.commonGaps.map(g => `<li>${escHtml(g)}</li>`).join('')}</ul>
           </div>` : ''}
         <div class="ev-meta">
@@ -266,7 +266,7 @@ function renderEvidenceTab(clauseId) {
         </div>
       </div>`).join('')}
     ${ev.auditTips && ev.auditTips.length > 0 ? `
-      <div class="audit-tips"><h4>Audit Tips</h4>
+      <div class="audit-tips"><h4>Audit Tips <span class="badge badge-ai" title="AI-generated guidance — verify against official BNM examination criteria">AI Generated</span></h4>
         <ul>${ev.auditTips.map(t => `<li>${escHtml(t)}</li>`).join('')}</ul>
       </div>` : ''}`;
 }
