@@ -3,7 +3,7 @@
     "clauseId": "16.1",
     "section": "Notification for Technology-Related Applications",
     "subsection": "Introduction or enhancement to digital services",
-    "title": "Digital Services Notification Requirement",
+    "title": "Notification Prior to Digital Services Changes",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -185,7 +185,7 @@
     "clauseId": "16.3",
     "section": "Notification for Technology-Related Applications",
     "subsection": "Introduction or enhancement to digital services",
-    "title": "Simplified Enhancement Notification",
+    "title": "Simplified Notification for Enhancements",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -272,7 +272,7 @@
     "clauseId": "16.4",
     "section": "Notification for Technology-Related Applications",
     "subsection": "Introduction or enhancement to digital services",
-    "title": "Full Enhancement Notification Requirements",
+    "title": "Assurance and Confirmation for Material Enhancements",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -367,7 +367,7 @@
     "clauseId": "16.5",
     "section": "Notification for Technology-Related Applications",
     "subsection": "Introduction or enhancement to digital services",
-    "title": "External Assurance Competency",
+    "title": "Independent External Party Assurance Quality",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -454,7 +454,7 @@
     "clauseId": "16.6",
     "section": "Notification for Technology-Related Applications",
     "subsection": "Introduction or enhancement to digital services",
-    "title": "Document Provision to Bank",
+    "title": "Provision of Documents for Bank Review",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -541,7 +541,7 @@
     "clauseId": "16.7",
     "section": "Notification for Technology-Related Applications",
     "subsection": "Introduction or enhancement to digital services",
-    "title": "Immediate Service Offering Upon Notification",
+    "title": "Immediate Offering Upon Notification",
     "clauseType": "regulatory",
     "marker": "G",
     "business": {

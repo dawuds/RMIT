@@ -2014,7 +2014,7 @@
       "requirements": [
         {
           "id": "10.10-B1",
-          "requirement": "Ensure all changes to production systems \u2014 applications, infrastructure, databases, and configurations \u2014 are assessed for potential impact on customer services, business operations, and regulatory compliance before approval",
+          "requirement": "Ensure all changes to production systems — applications, infrastructure, databases, and configurations — are assessed for potential impact on customer services, business operations, and regulatory compliance before approval",
           "rationale": "Impact assessment prevents changes from being deployed without understanding their potential to disrupt customer-facing services or create compliance violations",
           "owner": "Change Manager",
           "frequency": "Per-change",
@@ -7012,7 +7012,7 @@
         },
         {
           "id": "11.3-B2",
-          "requirement": "Allocate adequate resources \u2014 budget, headcount, and tooling \u2014 commensurate with the institution's size, complexity, and cyber risk exposure to support the cybersecurity governance structure",
+          "requirement": "Allocate adequate resources — budget, headcount, and tooling — commensurate with the institution's size, complexity, and cyber risk exposure to support the cybersecurity governance structure",
           "rationale": "Governance structures without adequate resourcing are ineffective; BNM expects the institution's cybersecurity investment to be proportionate to its risk profile",
           "owner": "CISO",
           "frequency": "Annual",
@@ -10226,7 +10226,7 @@
     "clauseId": "15.2",
     "section": "Security Awareness and Education",
     "subsection": "Security Awareness and Education",
-    "title": "Technology Staff Training",
+    "title": "Continuous Training for Technology Staff",
     "clauseType": "technical",
     "marker": "S",
     "business": {
@@ -10321,7 +10321,7 @@
     "clauseId": "15.3",
     "section": "Security Awareness and Education",
     "subsection": "Security Awareness and Education",
-    "title": "Board Technology Training",
+    "title": "Board Training on Technology Developments",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -10416,7 +10416,7 @@
     "clauseId": "16.1",
     "section": "Notification for Technology-Related Applications",
     "subsection": "Introduction or enhancement to digital services",
-    "title": "Digital Services Notification Requirement",
+    "title": "Notification Prior to Digital Services Changes",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -10598,7 +10598,7 @@
     "clauseId": "16.3",
     "section": "Notification for Technology-Related Applications",
     "subsection": "Introduction or enhancement to digital services",
-    "title": "Simplified Enhancement Notification",
+    "title": "Simplified Notification for Enhancements",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -10685,7 +10685,7 @@
     "clauseId": "16.4",
     "section": "Notification for Technology-Related Applications",
     "subsection": "Introduction or enhancement to digital services",
-    "title": "Full Enhancement Notification Requirements",
+    "title": "Assurance and Confirmation for Material Enhancements",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -10780,7 +10780,7 @@
     "clauseId": "16.5",
     "section": "Notification for Technology-Related Applications",
     "subsection": "Introduction or enhancement to digital services",
-    "title": "External Assurance Competency",
+    "title": "Independent External Party Assurance Quality",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -10867,7 +10867,7 @@
     "clauseId": "16.6",
     "section": "Notification for Technology-Related Applications",
     "subsection": "Introduction or enhancement to digital services",
-    "title": "Document Provision to Bank",
+    "title": "Provision of Documents for Bank Review",
     "clauseType": "regulatory",
     "marker": "S",
     "business": {
@@ -10954,7 +10954,7 @@
     "clauseId": "16.7",
     "section": "Notification for Technology-Related Applications",
     "subsection": "Introduction or enhancement to digital services",
-    "title": "Immediate Service Offering Upon Notification",
+    "title": "Immediate Offering Upon Notification",
     "clauseType": "regulatory",
     "marker": "G",
     "business": {

@@ -3,11 +3,11 @@
     "id": "15.1",
     "section": "Security Awareness and Education",
     "subsection": "Security Awareness and Education",
-    "title": "Technology and Cybersecurity Awareness Education",
+    "title": "Cybersecurity Awareness Education",
     "clauseType": "regulatory",
     "marker": "S",
     "verbatim": "A financial institution must provide adequate and regular technology and cybersecurity awareness education for all staff in undertaking their respective roles and measure the effectiveness of its education and awareness programs. This cybersecurity awareness education must be conducted at least annually and must reflect the evolving cyber threat landscape and emerging risks. Where appropriate, the financial institution shall also include its third party service providers in their relevant training as outlined in paragraph 10.48(i).",
-    "translation": "All employees, contractors, and third parties with system access must complete mandatory annual security awareness training covering cyber risks, data protection, and your security policies. Track and report on training completion rates.",
+    "translation": "A financial institution must provide all staff with adequate and regular technology and cybersecurity awareness education relevant to their roles, and must measure the effectiveness of those programmes. The education must be conducted at least annually and must reflect the evolving cyber threat landscape and emerging risks. Where appropriate, third-party service providers must also be included in relevant training.",
     "evidence": [
       "Security awareness program documentation",
       "Annual training content and materials",

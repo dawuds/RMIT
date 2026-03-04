@@ -1426,7 +1426,7 @@
         "commonGaps": [
           "Framework exists as a generic template without customisation to the institution's project landscape",
           "No clear criteria for what constitutes a 'major' project, leading to inconsistent classification",
-          "Stage-gate requirements defined but not enforced in practice \u2014 projects proceed without documented approvals",
+          "Stage-gate requirements defined but not enforced in practice — projects proceed without documented approvals",
           "Framework has not been updated since initial creation despite organisational or regulatory changes"
         ],
         "suggestedSources": [
@@ -1449,8 +1449,8 @@
         ],
         "commonGaps": [
           "Stage-gate approvals are backdated or completed retrospectively after the project has already moved to the next phase",
-          "Sign-offs lack specificity \u2014 generic 'approved' without reference to what was actually reviewed",
-          "No evidence of conditions tracking \u2014 issues raised at gates are not followed through to closure",
+          "Sign-offs lack specificity — generic 'approved' without reference to what was actually reviewed",
+          "No evidence of conditions tracking — issues raised at gates are not followed through to closure",
           "Smaller projects bypass stage-gates entirely without documented justification"
         ],
         "suggestedSources": [
@@ -1909,7 +1909,7 @@
         "whatGoodLooksLike": [
           "Every security requirement has a corresponding design element, implementation reference, test case, and validation result",
           "Matrix is maintained as a living document updated throughout the project lifecycle, not created at the end",
-          "No gaps in traceability chain \u2014 every requirement can be traced from source to validated implementation",
+          "No gaps in traceability chain — every requirement can be traced from source to validated implementation",
           "Matrix includes status tracking showing requirements as pending, implemented, tested, or validated",
           "Validated by QA lead with sign-off confirming complete traceability before deployment"
         ],
@@ -1979,7 +1979,7 @@
       }
     ],
     "auditTips": [
-      "Select 3-5 recent projects and request their requirements traceability matrices \u2014 verify that security requirements trace from source through to validated test results with no gaps",
+      "Select 3-5 recent projects and request their requirements traceability matrices — verify that security requirements trace from source through to validated test results with no gaps",
       "Check that security requirements specification documents were signed off by the information security function before the design phase, not retrospectively",
       "Verify that compliance requirements mapping covers all applicable regulations, not just RMiT",
       "Look for evidence that failed security requirement validations were remediated and retested before deployment",
@@ -2034,7 +2034,7 @@
         "commonGaps": [
           "Training records exist for permanent staff but not for contractors or outsourced development partners",
           "Training is a one-time event with no annual refresh or update when standards change",
-          "No competency assessment \u2014 only attendance records, providing no assurance of actual learning",
+          "No competency assessment — only attendance records, providing no assurance of actual learning",
           "Training content is generic and not aligned to the institution's specific secure coding standards"
         ],
         "suggestedSources": [
@@ -2127,7 +2127,7 @@
         "commonGaps": [
           "Policy exists for SAST but peer code review is not mandated or is discretionary",
           "Policy exempts certain code types such as configuration scripts, database changes, or vendor patches",
-          "Exception handling is informal \u2014 no defined risk acceptance procedure or authority level",
+          "Exception handling is informal — no defined risk acceptance procedure or authority level",
           "Policy not updated to cover new development platforms or languages adopted by the institution"
         ],
         "suggestedSources": [
@@ -2218,7 +2218,7 @@
       "Request CI/CD pipeline configurations and verify that SAST is configured as a mandatory gate that blocks deployment for critical/high findings",
       "Sample 10 recent production deployments and verify each has both peer code review records and SAST scan results with no unresolved critical/high findings",
       "Review the risk acceptance register for any exceptions and verify each has proper documentation, CISO approval, compensating controls, and a remediation deadline",
-      "Check SAST finding trend data over the last 12 months \u2014 a flat or increasing trend of critical findings suggests remediation is not keeping pace with new code",
+      "Check SAST finding trend data over the last 12 months — a flat or increasing trend of critical findings suggests remediation is not keeping pace with new code",
       "Attempt to identify code that was deployed without review or scanning by checking for direct commits to production branches or pipeline bypass patterns"
     ]
   },
@@ -2334,7 +2334,7 @@
     ],
     "auditTips": [
       "Select 5 recent production deployments and verify each has documented test plans covering functional, integration, performance, and security testing",
-      "Check that test result approvals were obtained before deployment dates, not retrospectively \u2014 compare sign-off dates against deployment logs",
+      "Check that test result approvals were obtained before deployment dates, not retrospectively — compare sign-off dates against deployment logs",
       "Review performance test plans and verify they include load profiles based on actual production traffic, not arbitrary numbers",
       "Look for evidence of security testing (DAST, vulnerability scanning) as part of the standard release cycle, not only for major releases",
       "Examine defect records linked to test failures and confirm remediation was verified through retesting before deployment approval"
@@ -2361,10 +2361,10 @@
           "Procedures approved by Head of IT and reviewed within the last 12 months"
         ],
         "commonGaps": [
-          "Procedures exist but do not mandate business user participation \u2014 UAT is conducted by IT staff",
+          "Procedures exist but do not mandate business user participation — UAT is conducted by IT staff",
           "No specific environment parity requirements, allowing UAT in significantly different environments",
           "Data masking requirements mentioned but no specific techniques or verification procedures defined",
-          "Sign-off process is informal \u2014 email approval rather than structured sign-off with acceptance criteria confirmation"
+          "Sign-off process is informal — email approval rather than structured sign-off with acceptance criteria confirmation"
         ],
         "suggestedSources": [
           "QA team procedures library (Confluence, SharePoint)",
@@ -2386,7 +2386,7 @@
           "Network architecture diagram showing UAT environment topology"
         ],
         "commonGaps": [
-          "No formal comparison document \u2014 environment parity is assumed rather than verified",
+          "No formal comparison document — environment parity is assumed rather than verified",
           "UAT environment significantly behind production in software versions or patches",
           "Integration points in UAT use stubs or mocks instead of actual system connections, reducing test validity",
           "Environment specification is outdated and does not reflect recent production changes"
@@ -2437,7 +2437,7 @@
         ],
         "commonGaps": [
           "Production data used in UAT without any masking, exposing real customer information",
-          "Masking applied to some data fields but not comprehensively \u2014 sensitive fields (IC numbers, phone numbers) left unmasked",
+          "Masking applied to some data fields but not comprehensively — sensitive fields (IC numbers, phone numbers) left unmasked",
           "Manual masking process prone to error and inconsistency",
           "No verification step to confirm masking was applied correctly before UAT commences"
         ],
@@ -2452,7 +2452,7 @@
     ],
     "auditTips": [
       "Request UAT sign-off records for 5 recent deployments and verify sign-off dates precede deployment dates, with named business owners as signatories",
-      "Ask to see the UAT environment configuration and compare it against production \u2014 look for significant version differences or missing integration points",
+      "Ask to see the UAT environment configuration and compare it against production — look for significant version differences or missing integration points",
       "Verify data masking by requesting evidence of masking tool execution logs or sample masked data from the UAT environment",
       "Check whether UAT was conducted by actual business users by reviewing UAT test execution logs for tester identities",
       "Ask for the data masking verification report and confirm that all sensitive data types (IC numbers, account numbers, contact details) are covered"
@@ -2507,7 +2507,7 @@
           "CAB exists but membership does not include information security or risk management representation",
           "Terms of reference are outdated and do not reflect current membership or meeting practices",
           "CAB reviews all changes regardless of risk, creating bottlenecks, or reviews none, providing no oversight",
-          "No documented decision-making criteria \u2014 CAB approvals are based on informal discussion without structured assessment"
+          "No documented decision-making criteria — CAB approvals are based on informal discussion without structured assessment"
         ],
         "suggestedSources": [
           "CAB terms of reference document",
@@ -2555,7 +2555,7 @@
         ],
         "commonGaps": [
           "Change log only includes formally raised changes, missing ad-hoc or emergency changes",
-          "Log entries are incomplete \u2014 missing risk assessments, approvals, or implementation outcomes",
+          "Log entries are incomplete — missing risk assessments, approvals, or implementation outcomes",
           "Infrastructure changes (firewall rules, server patches, network changes) not recorded in the change log",
           "No reconciliation between change log and actual production deployments, allowing unrecorded changes"
         ],
@@ -2623,7 +2623,7 @@
         ],
         "commonGaps": [
           "Emergency changes are implemented but retrospective reviews are not completed within the defined timeframe",
-          "Retrospective review is a formality \u2014 all emergency changes are approved without genuine scrutiny of the emergency classification",
+          "Retrospective review is a formality — all emergency changes are approved without genuine scrutiny of the emergency classification",
           "No documentation of the original emergency justification, making retrospective assessment impossible",
           "Some emergency changes have no retrospective review record at all"
         ],
@@ -2765,7 +2765,7 @@
           "Automated verification results from deployment pipelines are captured and stored"
         ],
         "commonGaps": [
-          "No formal verification records \u2014 deployment success assumed unless incidents are reported",
+          "No formal verification records — deployment success assumed unless incidents are reported",
           "Verification limited to 'application is up' without functional or performance validation",
           "Verification checks not defined in advance, leading to inconsistent post-deployment assessment",
           "Automated verification exists in the pipeline but results are not stored for audit purposes"
@@ -2790,7 +2790,7 @@
           "Historical success criteria and outcomes are tracked for trend analysis"
         ],
         "commonGaps": [
-          "No defined success criteria \u2014 deployment considered successful unless a major incident occurs",
+          "No defined success criteria — deployment considered successful unless a major incident occurs",
           "Criteria are technical only without business-level success measures",
           "Criteria defined but not assessed post-deployment, making them purely theoretical",
           "No defined process for what happens when success criteria are not met"
@@ -2835,7 +2835,7 @@
         "commonGaps": [
           "Architecture documentation exists but is outdated and does not reflect current infrastructure",
           "Diagrams show logical separation but physical infrastructure is shared (e.g., same database server for dev and production)",
-          "Cloud environments not covered \u2014 on-premises separation documented but cloud deployments use shared resources",
+          "Cloud environments not covered — on-premises separation documented but cloud deployments use shared resources",
           "No documentation of network segmentation rules between environments"
         ],
         "suggestedSources": [
@@ -2852,7 +2852,7 @@
         "description": "Documented access control configurations for each environment showing role-based access restrictions and segregation between development and production personnel",
         "whatGoodLooksLike": [
           "Access control lists clearly show different user groups per environment with production restricted to operations personnel",
-          "Developers have no standing access to production \u2014 only temporary, approved access through privileged access management",
+          "Developers have no standing access to production — only temporary, approved access through privileged access management",
           "Quarterly access review records confirm compliance with the defined access model",
           "Service account access is documented and segregated per environment",
           "Access control configurations match the documented policy requirements"
@@ -2884,8 +2884,8 @@
         ],
         "commonGaps": [
           "Procedures exist but developers can deploy directly to production outside the pipeline",
-          "Audit trail incomplete \u2014 not all code migrations are logged, particularly manual deployments",
-          "No automated enforcement of the promotion path \u2014 policy compliance relies on developer discipline",
+          "Audit trail incomplete — not all code migrations are logged, particularly manual deployments",
+          "No automated enforcement of the promotion path — policy compliance relies on developer discipline",
           "Emergency deployments bypass environment tiers without documented approval"
         ],
         "suggestedSources": [
@@ -2924,7 +2924,7 @@
     ],
     "auditTips": [
       "Request network diagrams showing environment separation and cross-reference with actual firewall rules or cloud security group configurations to verify enforcement",
-      "Check production access control lists for developer accounts \u2014 any developer with standing production access is a finding",
+      "Check production access control lists for developer accounts — any developer with standing production access is a finding",
       "Review CI/CD pipeline configurations to confirm that direct deployment from development to production is technically prevented, not just procedurally discouraged",
       "Sample recent code migrations and trace them through the environment promotion path to verify the defined process was followed",
       "Request evidence of quarterly production access reviews and verify that temporary access grants were revoked after their approved period"
@@ -2976,7 +2976,7 @@
           "Multi-factor authentication required for repository access"
         ],
         "commonGaps": [
-          "Repositories have overly broad access \u2014 all IT staff can access all repositories regardless of project involvement",
+          "Repositories have overly broad access — all IT staff can access all repositories regardless of project involvement",
           "Former employees or role-changed staff retain repository access",
           "Service accounts with broad access are not documented or regularly reviewed",
           "No MFA requirement for repository access, especially for cloud-hosted repositories"
@@ -3003,7 +3003,7 @@
         "commonGaps": [
           "Version control logs capture commits but not access events or administrative actions",
           "Logs retained only for default system retention periods (e.g., 90 days) rather than seven years",
-          "No centralised log collection \u2014 logs reside only on the version control platform",
+          "No centralised log collection — logs reside only on the version control platform",
           "No monitoring or alerting on version control log events"
         ],
         "suggestedSources": [
@@ -3027,7 +3027,7 @@
         ],
         "commonGaps": [
           "Source code deployed directly to production servers (common with interpreted languages like Python or Node.js)",
-          "No verification process exists \u2014 source code exclusion is assumed but never confirmed",
+          "No verification process exists — source code exclusion is assumed but never confirmed",
           "Git repositories cloned onto production servers for deployment rather than using built artefacts",
           "Debug or development files left on production servers after troubleshooting sessions"
         ],
@@ -3044,7 +3044,7 @@
       "Request repository access reports and verify that access is restricted to current development team members, with no former employees or non-development personnel having access",
       "Check branch protection rules on main/release branches to confirm that direct commits are blocked and pull request review is enforced",
       "Verify that version control audit logs are retained for seven years and include access events, not just commit history",
-      "Ask for evidence that production servers have been inspected for source code \u2014 look for git repositories, source files, or development tools on production",
+      "Ask for evidence that production servers have been inspected for source code — look for git repositories, source files, or development tools on production",
       "Review CI/CD pipeline deployment configurations to confirm that only built artefacts (not source code) are deployed to production environments"
     ]
   },
@@ -3070,7 +3070,7 @@
         ],
         "commonGaps": [
           "Procedures cover CMDB maintenance but do not address configuration baselines or deviation management",
-          "No defined process for baseline approval \u2014 baselines are set informally without governance",
+          "No defined process for baseline approval — baselines are set informally without governance",
           "Deviation handling is reactive (addressed only when incidents occur) rather than proactive",
           "Cloud resources not included in the CMDB scope, creating a growing blind spot"
         ],
@@ -3094,10 +3094,10 @@
           "CMDB data quality metrics are tracked (e.g., completeness above 95%, accuracy verified quarterly)"
         ],
         "commonGaps": [
-          "CMDB exists but is incomplete \u2014 significant asset categories (cloud resources, network devices) are missing",
+          "CMDB exists but is incomplete — significant asset categories (cloud resources, network devices) are missing",
           "Configuration details are outdated and do not reflect current deployed states",
           "Interdependency mapping is minimal or absent, limiting the value for change impact analysis",
-          "No automated discovery integration \u2014 CMDB relies on manual updates that quickly become stale"
+          "No automated discovery integration — CMDB relies on manual updates that quickly become stale"
         ],
         "suggestedSources": [
           "CMDB platform (ServiceNow, BMC Helix, Freshservice) asset reports",
@@ -3121,7 +3121,7 @@
         "commonGaps": [
           "Baselines exist for servers but not for databases, network devices, or cloud services",
           "Baselines are outdated and do not reflect current security hardening best practices",
-          "No formal approval process for baselines \u2014 they are created by technical teams without security review",
+          "No formal approval process for baselines — they are created by technical teams without security review",
           "Baseline compliance is not measured, making deviations invisible"
         ],
         "suggestedSources": [
@@ -3144,7 +3144,7 @@
           "Trend analysis shows decreasing deviation rates over time, indicating improving configuration discipline"
         ],
         "commonGaps": [
-          "No automated deviation detection \u2014 deviations discovered only during periodic manual audits",
+          "No automated deviation detection — deviations discovered only during periodic manual audits",
           "Deviations detected but not assessed for risk or severity",
           "Remediation is ad-hoc without formal tracking to closure",
           "Large numbers of persistent deviations indicate that the baseline is impractical or monitoring is ignored"
@@ -3161,7 +3161,7 @@
     "auditTips": [
       "Request the CMDB and verify it includes all technology asset categories with current configuration data, not just a hardware inventory",
       "Sample 10 critical assets from the CMDB and verify their recorded configurations match actual deployed configurations",
-      "Check configuration baseline documents for currency \u2014 baselines based on outdated CIS Benchmarks or vendor defaults are a common finding",
+      "Check configuration baseline documents for currency — baselines based on outdated CIS Benchmarks or vendor defaults are a common finding",
       "Request deviation monitoring reports and verify that detected deviations are being assessed and remediated, not just reported",
       "Verify that CMDB interdependency mapping is accurate by selecting a critical system and tracing its dependencies against actual infrastructure"
     ]
@@ -3187,7 +3187,7 @@
           "Reviewed and approved within the last 12 months"
         ],
         "commonGaps": [
-          "No formal capacity planning procedure \u2014 capacity is managed reactively when issues arise",
+          "No formal capacity planning procedure — capacity is managed reactively when issues arise",
           "Procedure covers on-premises infrastructure but not cloud resources",
           "No defined escalation path for capacity issues, leading to delayed response",
           "Procedure exists but is not actively followed by infrastructure teams"
@@ -3215,7 +3215,7 @@
           "Monitoring exists but only covers basic metrics (CPU, memory) without database connections, application queue depths, or network bandwidth",
           "No historical trend data available beyond 30 days, limiting forecasting capability",
           "Dashboards exist but are not regularly reviewed by management or used for planning",
-          "No regular reports \u2014 monitoring data is only examined when problems occur"
+          "No regular reports — monitoring data is only examined when problems occur"
         ],
         "suggestedSources": [
           "Infrastructure monitoring platforms (Grafana, Datadog, New Relic, Zabbix, SolarWinds)",
@@ -3237,7 +3237,7 @@
           "Thresholds reviewed and adjusted at least annually based on utilisation trends"
         ],
         "commonGaps": [
-          "No documented thresholds \u2014 monitoring alerts use vendor defaults or ad-hoc settings",
+          "No documented thresholds — monitoring alerts use vendor defaults or ad-hoc settings",
           "Thresholds defined but no associated response actions or escalation procedures",
           "Same thresholds applied to all systems regardless of criticality or performance requirements",
           "Thresholds have not been reviewed since initial setup despite changing utilisation patterns"
@@ -3262,9 +3262,9 @@
           "Annual capacity review produces a forward-looking procurement plan with budget requests"
         ],
         "commonGaps": [
-          "No records of proactive scaling \u2014 all capacity actions triggered by incidents rather than monitoring",
+          "No records of proactive scaling — all capacity actions triggered by incidents rather than monitoring",
           "Scaling actions documented but timeline shows significant delays between threshold breach and action",
-          "Only ad-hoc scaling records \u2014 no evidence of planned, proactive capacity management",
+          "Only ad-hoc scaling records — no evidence of planned, proactive capacity management",
           "No annual capacity forecast or procurement plan linked to business growth projections"
         ],
         "suggestedSources": [
@@ -3333,7 +3333,7 @@
           "Classification relies solely on vendor-provided severity without considering institutional context or exposure",
           "Timelines defined but not differentiated based on asset criticality or exposure",
           "No criteria for zero-day vulnerabilities or actively exploited vulnerabilities requiring accelerated response",
-          "Classification criteria not documented separately \u2014 buried in the policy document and not easily applied by operational teams"
+          "Classification criteria not documented separately — buried in the policy document and not easily applied by operational teams"
         ],
         "suggestedSources": [
           "Patch management policy annexes with classification tables",
@@ -3356,7 +3356,7 @@
         ],
         "commonGaps": [
           "Deployment records exist for server patches but not for network devices, databases, or applications",
-          "Compliance metrics not calculated against defined timelines \u2014 only raw deployment counts reported",
+          "Compliance metrics not calculated against defined timelines — only raw deployment counts reported",
           "Large numbers of overdue critical patches indicate the process is not functioning effectively",
           "No trend analysis to identify systemic issues with patching specific asset types or business units"
         ],
@@ -3380,7 +3380,7 @@
           "Emergency patching procedure defined for zero-day or actively exploited vulnerabilities where normal testing timelines cannot be followed"
         ],
         "commonGaps": [
-          "No formal testing procedure \u2014 patches are deployed directly to production or tested informally",
+          "No formal testing procedure — patches are deployed directly to production or tested informally",
           "Testing environment does not match production, leading to compatibility issues discovered only after deployment",
           "All patches follow the same testing process regardless of risk, creating bottlenecks for low-risk patches",
           "No defined emergency patching procedure for urgent security patches"
@@ -8240,10 +8240,10 @@
           "Board papers include strategy summary, risk assessment, and investment requirements"
         ],
         "commonGaps": [
-          "No formal board approval record \u2014 strategy approved only at management level",
+          "No formal board approval record — strategy approved only at management level",
           "Board approval older than 12 months indicating the annual review was missed",
           "Board papers lack sufficient detail for meaningful board oversight",
-          "No evidence of board challenge or discussion \u2014 appears as rubber-stamp approval"
+          "No evidence of board challenge or discussion — appears as rubber-stamp approval"
         ],
         "suggestedSources": [
           "Board secretariat records and minutes",
@@ -8264,7 +8264,7 @@
           "Evidence of joint planning sessions between business and cybersecurity teams"
         ],
         "commonGaps": [
-          "No documented alignment \u2014 cybersecurity strategy developed independently of business strategy",
+          "No documented alignment — cybersecurity strategy developed independently of business strategy",
           "Alignment is superficial, referencing business strategy in the introduction but not in specific initiatives",
           "New business initiatives launched without corresponding cybersecurity workstreams",
           "Cybersecurity budget not linked to business risk exposure or growth plans"
@@ -8470,7 +8470,7 @@
         "commonGaps": [
           "SIEM deployed but critical log sources are missing from ingestion, creating detection blind spots",
           "Detection rules are not tuned for the institution's specific environment, generating excessive false positives",
-          "No automated correlation \u2014 analysts must manually investigate individual alerts",
+          "No automated correlation — analysts must manually investigate individual alerts",
           "Detection coverage does not extend to cloud environments or third-party hosted systems"
         ],
         "suggestedSources": [
@@ -8531,7 +8531,7 @@
       }
     ],
     "auditTips": [
-      "Request the incident register for the past 12 months and identify any incidents classified as material \u2014 verify each was reported to BNM within four hours of detection",
+      "Request the incident register for the past 12 months and identify any incidents classified as material — verify each was reported to BNM within four hours of detection",
       "Test the classification framework by presenting hypothetical scenarios and asking staff to classify them to check for consistency",
       "Verify that the four-hour clock starts from detection, not from confirmation or management approval, as per BNM's requirement",
       "Check whether the BNM reporting procedure has been tested through a timed drill and whether the drill results demonstrated four-hour compliance",
@@ -8698,7 +8698,7 @@
         "commonGaps": [
           "24/7 coverage claimed but staffing schedule shows single-analyst shifts or gaps during Malaysian public holidays",
           "Analyst certifications are expired or only held by senior staff while junior analysts have none",
-          "No formal training plan \u2014 analysts rely on on-the-job learning without structured skill development",
+          "No formal training plan — analysts rely on on-the-job learning without structured skill development",
           "High turnover with vacant positions reducing effective coverage below minimum requirements"
         ],
         "suggestedSources": [
@@ -8722,7 +8722,7 @@
         "commonGaps": [
           "Triage time targets exist but are not tracked or enforced, with no visibility into compliance rates",
           "Escalation relies on analyst judgement without defined criteria, leading to inconsistent escalation decisions",
-          "No automated escalation \u2014 critical alerts can sit unactioned during shift transitions",
+          "No automated escalation — critical alerts can sit unactioned during shift transitions",
           "No feedback mechanism to identify and correct recurring triage errors"
         ],
         "suggestedSources": [
@@ -8746,7 +8746,7 @@
         "commonGaps": [
           "SOC performance metrics not formally tracked or reported to management",
           "Metrics limited to alert volume without measuring detection and response effectiveness",
-          "No trend analysis \u2014 metrics reported as point-in-time snapshots without historical context",
+          "No trend analysis — metrics reported as point-in-time snapshots without historical context",
           "CISO does not review SOC performance reports or take action on underperformance"
         ],
         "suggestedSources": [
@@ -8789,7 +8789,7 @@
           "Architecture documentation is outdated and does not reflect the current deployment",
           "No data flow diagrams making it difficult to identify log collection gaps or single points of failure",
           "Log retention policies not defined or not meeting BNM's regulatory retention requirements",
-          "No capacity planning \u2014 SIEM performance degrades during peak periods causing log drops"
+          "No capacity planning — SIEM performance degrades during peak periods causing log drops"
         ],
         "suggestedSources": [
           "SOC engineering team documentation",
@@ -8810,10 +8810,10 @@
           "Quarterly validation records showing cross-reference against critical asset register and network discovery"
         ],
         "commonGaps": [
-          "Log source inventory is incomplete \u2014 new systems deployed without SIEM integration",
+          "Log source inventory is incomplete — new systems deployed without SIEM integration",
           "No automated monitoring for log source health, meaning silent failures go undetected for days or weeks",
           "Coverage analysis shows significant gaps in cloud, mobile, or third-party system log collection",
-          "No regular validation process \u2014 coverage analysis is only performed during audit preparation"
+          "No regular validation process — coverage analysis is only performed during audit preparation"
         ],
         "suggestedSources": [
           "SIEM administration console (log source management)",
@@ -8837,7 +8837,7 @@
           "Detection rules deployed at SIEM installation and never tuned or updated",
           "No mapping to MITRE ATT&CK framework making it impossible to assess detection coverage",
           "Rules tuned to suppress alerts rather than improve detection accuracy, masking genuine threats",
-          "No formal change management for rule changes \u2014 rules modified ad hoc without documentation"
+          "No formal change management for rule changes — rules modified ad hoc without documentation"
         ],
         "suggestedSources": [
           "SIEM rule management and change log",
@@ -9017,7 +9017,7 @@
           "Architecture documentation is outdated and does not reflect the current email security stack",
           "Missing coverage for one or more control layers such as attachment sandboxing or URL rewriting",
           "Email DLP not integrated or configured, leaving data exfiltration via email uncontrolled",
-          "No protection for internal email traffic \u2014 security controls only applied to external email"
+          "No protection for internal email traffic — security controls only applied to external email"
         ],
         "suggestedSources": [
           "Email security gateway administration (Proofpoint, Mimecast, Microsoft Defender for Office 365)",
@@ -9063,7 +9063,7 @@
         ],
         "commonGaps": [
           "Spam filtering relies on a single engine without multi-layered scanning",
-          "No attachment sandboxing \u2014 only signature-based malware scanning is performed",
+          "No attachment sandboxing — only signature-based malware scanning is performed",
           "URL protection limited to blocking known malicious URLs without time-of-click analysis",
           "No impersonation or business email compromise protection configured"
         ],
@@ -9179,7 +9179,7 @@
           "DLP deployed on email only without coverage of web uploads, USB transfers, or cloud storage",
           "Cloud DLP not integrated with CASB or does not cover unsanctioned cloud applications",
           "Endpoint DLP agent not deployed on all endpoints, creating gaps in removable media control",
-          "Inconsistent policies across channels \u2014 strict on email but permissive on web and cloud"
+          "Inconsistent policies across channels — strict on email but permissive on web and cloud"
         ],
         "suggestedSources": [
           "DLP management console showing channel-specific policy configurations",
@@ -9201,7 +9201,7 @@
         ],
         "commonGaps": [
           "DLP alerts generated but not investigated by the SOC or data protection team",
-          "No documentation of investigation outcomes \u2014 alerts are closed without analysis",
+          "No documentation of investigation outcomes — alerts are closed without analysis",
           "High false positive rate leading to alert fatigue and genuine incidents being overlooked",
           "No trend analysis or management reporting on DLP incident patterns"
         ],
@@ -9356,7 +9356,7 @@
           "Annual testing schedule with defined scope for each test engagement"
         ],
         "commonGaps": [
-          "No documented penetration testing policy \u2014 tests conducted ad hoc without consistent scope or methodology",
+          "No documented penetration testing policy — tests conducted ad hoc without consistent scope or methodology",
           "Testing scope limited to internet-facing web applications only, excluding core banking, mobile, and API systems",
           "No requirement for pre-release testing, allowing vulnerabilities to be introduced with major deployments",
           "Policy does not define tester independence or qualification requirements"
@@ -9495,7 +9495,7 @@
         ],
         "commonGaps": [
           "Report lacks detail on the attack path and techniques used, reading more like a penetration test than a red team exercise",
-          "No assessment of detection and response performance \u2014 report focuses only on vulnerabilities exploited",
+          "No assessment of detection and response performance — report focuses only on vulnerabilities exploited",
           "Findings not mapped to MITRE ATT&CK framework making it difficult to assess detection gaps",
           "No executive summary suitable for board-level reporting"
         ],
@@ -9518,7 +9518,7 @@
           "New detection rules or playbooks created as a direct result of red team findings"
         ],
         "commonGaps": [
-          "No formal lessons learned documented \u2014 findings remain only in the red team report",
+          "No formal lessons learned documented — findings remain only in the red team report",
           "Improvement plan created but not tracked or implemented before the next exercise cycle",
           "Improvements limited to fixing specific vulnerabilities without addressing systemic detection or response gaps",
           "No evidence of red team findings being operationalised into new SIEM rules or SOC playbooks"
@@ -9557,7 +9557,7 @@
       }
     ],
     "auditTips": [
-      "Verify that the red team exercise simulated realistic adversary behaviour, not just vulnerability exploitation \u2014 look for evidence of multi-phase attack simulation",
+      "Verify that the red team exercise simulated realistic adversary behaviour, not just vulnerability exploitation — look for evidence of multi-phase attack simulation",
       "Request the SOC detection assessment from the exercise to understand which attack phases were detected and which were missed",
       "Check whether red team findings have been operationalised into new SIEM detection rules or SOC playbooks since the exercise",
       "Review the improvement plan from the last exercise and verify that critical actions have been completed before any subsequent exercise",
@@ -9585,7 +9585,7 @@
         ],
         "commonGaps": [
           "No documented SLTs or SLTs that exceed BNM's expected timeframes",
-          "Remediation workflow does not define clear ownership \u2014 vulnerabilities treated as the security team's problem",
+          "Remediation workflow does not define clear ownership — vulnerabilities treated as the security team's problem",
           "Exception process exists but does not require compensating controls or define maximum exception duration",
           "No escalation process for overdue remediations, allowing critical vulnerabilities to remain open indefinitely"
         ],
@@ -9608,7 +9608,7 @@
           "Reports generated at least monthly and distributed to the CISO and IT Risk Committee"
         ],
         "commonGaps": [
-          "No centralised tracking \u2014 vulnerabilities tracked in spreadsheets or not tracked at all",
+          "No centralised tracking — vulnerabilities tracked in spreadsheets or not tracked at all",
           "Dashboard exists but is not regularly reviewed by management or used to drive remediation priorities",
           "No ageing analysis to identify vulnerabilities that have exceeded their SLT deadlines",
           "Tracking does not cover all vulnerability sources (scans, penetration tests, threat intelligence)"
@@ -9634,7 +9634,7 @@
         "commonGaps": [
           "SLT compliance not measured or reported, making it impossible to demonstrate adherence to BNM's expectations",
           "Compliance rates below 70% for critical vulnerabilities indicating systemic remediation challenges",
-          "No root cause analysis for SLT breaches \u2014 overdue items simply rolled over without investigation",
+          "No root cause analysis for SLT breaches — overdue items simply rolled over without investigation",
           "Metrics not segmented by severity, masking poor performance on critical vulnerabilities"
         ],
         "suggestedSources": [
@@ -9812,10 +9812,10 @@
           "Defined roles and responsibilities for the threat intelligence function with qualified personnel"
         ],
         "commonGaps": [
-          "No formal programme documentation \u2014 threat intelligence activities are ad hoc and unstructured",
+          "No formal programme documentation — threat intelligence activities are ad hoc and unstructured",
           "Programme focuses only on tactical intelligence (IoCs) without strategic or operational intelligence production",
           "Intelligence requirements not defined, resulting in unfocused collection and analysis efforts",
-          "No dedicated threat intelligence personnel \u2014 function performed part-time by SOC analysts"
+          "No dedicated threat intelligence personnel — function performed part-time by SOC analysts"
         ],
         "suggestedSources": [
           "CISO office threat intelligence programme documentation",
@@ -9860,7 +9860,7 @@
           "Evidence that reports are disseminated to relevant teams including SOC, vulnerability management, and senior management"
         ],
         "commonGaps": [
-          "No regular threat intelligence reporting \u2014 information shared ad hoc when major threats emerge",
+          "No regular threat intelligence reporting — information shared ad hoc when major threats emerge",
           "Reports are raw intelligence feeds forwarded without analysis or contextualisation for the institution",
           "Intelligence reports do not include actionable recommendations or recommended defensive actions",
           "Reports produced but not disseminated beyond the threat intelligence team"
@@ -9923,10 +9923,10 @@
           "Signed sharing agreements with industry peers, government agencies (MyCERT, NACSA), and relevant ISACs",
           "Active membership in at least one financial sector ISAC or sharing community",
           "Agreements define sharing scope, handling requirements, confidentiality obligations, and dispute resolution",
-          "Current memberships and agreements \u2014 not expired or lapsed subscriptions"
+          "Current memberships and agreements — not expired or lapsed subscriptions"
         ],
         "commonGaps": [
-          "No formal sharing agreements in place \u2014 intelligence shared informally without defined terms",
+          "No formal sharing agreements in place — intelligence shared informally without defined terms",
           "Membership in sharing groups but no active participation or contribution",
           "Agreements signed but expired or not renewed, with no current active arrangements",
           "Sharing limited to government agencies only without industry peer participation"
@@ -9953,7 +9953,7 @@
           "No documented TLP handling procedures despite receiving TLP-marked intelligence from sharing partners",
           "Procedures exist but staff are unaware of TLP classifications and handling requirements",
           "TLP:AMBER intelligence forwarded broadly within the organisation without restriction",
-          "No technical controls enforcing TLP restrictions \u2014 compliance relies entirely on manual processes"
+          "No technical controls enforcing TLP restrictions — compliance relies entirely on manual processes"
         ],
         "suggestedSources": [
           "Threat intelligence team operational procedures",
@@ -9999,7 +9999,7 @@
         ],
         "commonGaps": [
           "ISAC membership exists on paper but no active participation in meetings or intelligence exchange",
-          "No financial sector-specific ISAC membership \u2014 participation limited to general cybersecurity forums",
+          "No financial sector-specific ISAC membership — participation limited to general cybersecurity forums",
           "Intelligence received from ISAC not integrated into the institution's threat intelligence programme",
           "No contribution of intelligence back to the ISAC, undermining the collaborative model"
         ],
@@ -10040,9 +10040,9 @@
           "Programme integrated with the broader threat intelligence and detection engineering functions"
         ],
         "commonGaps": [
-          "No formal threat hunting programme \u2014 hunting performed informally or not at all",
+          "No formal threat hunting programme — hunting performed informally or not at all",
           "Programme documented but no hunts actually conducted in the past 12 months",
-          "No dedicated hunting resources \u2014 expected to be performed by SOC analysts alongside alert triage duties",
+          "No dedicated hunting resources — expected to be performed by SOC analysts alongside alert triage duties",
           "Hunting methodology not defined, resulting in ad hoc and unrepeatable investigations"
         ],
         "suggestedSources": [
@@ -10064,7 +10064,7 @@
           "Playbooks regularly updated based on new threat intelligence and findings from previous hunts"
         ],
         "commonGaps": [
-          "No documented hunting playbooks \u2014 hunts performed ad hoc without repeatable methodology",
+          "No documented hunting playbooks — hunts performed ad hoc without repeatable methodology",
           "Playbooks are generic and not tailored to the institution's specific technology environment",
           "Playbooks cover only basic techniques without addressing advanced adversary behaviours",
           "Playbooks not updated following new threat intelligence or completed hunts"
@@ -10088,7 +10088,7 @@
           "Actionable recommendations from each hunt with follow-up actions tracked to completion"
         ],
         "commonGaps": [
-          "No documented hunting reports \u2014 hunts conducted but not recorded for audit or knowledge retention",
+          "No documented hunting reports — hunts conducted but not recorded for audit or knowledge retention",
           "Hunts conducted infrequently with long gaps between activities",
           "Reports only document positive findings without recording hunts that found no threats, losing validation evidence",
           "Findings not actioned or tracked, with recommendations remaining as report items without follow-through"
@@ -10112,7 +10112,7 @@
           "Measurable improvement in detection coverage attributable to threat hunting findings"
         ],
         "commonGaps": [
-          "No hunt-to-detection pipeline \u2014 hunting findings remain in reports without being operationalised",
+          "No hunt-to-detection pipeline — hunting findings remain in reports without being operationalised",
           "Detection rules created from hunts but not tracked back to the originating hunt for programme measurement",
           "Pipeline exists on paper but no detection rules have actually been created from hunting findings",
           "Detection rules created but not properly tested before deployment, leading to false positives"
@@ -10154,14 +10154,14 @@
           "Enrichment process adds context such as threat actor attribution, campaign association, and relevance to the Malaysian financial sector"
         ],
         "commonGaps": [
-          "No documented IoC management procedure \u2014 IoCs are consumed from feeds and pushed to tools without validation or enrichment",
+          "No documented IoC management procedure — IoCs are consumed from feeds and pushed to tools without validation or enrichment",
           "IoCs collected but never validated, leading to false positives from stale or inaccurate indicators blocking legitimate traffic",
           "No confidence scoring or source reliability assessment, treating all IoCs as equally trustworthy regardless of origin",
           "IoC retirement process absent, with indicators remaining active indefinitely and degrading detection quality over time"
         ],
         "suggestedSources": [
           "Threat intelligence team standard operating procedures",
-          "Information security policy framework \u2014 threat intelligence section",
+          "Information security policy framework — threat intelligence section",
           "SOC operational procedures manual"
         ],
         "format": "PDF/DOCX",
@@ -10178,14 +10178,14 @@
           "Platform integrated with external feed sources including MyCERT advisories, commercial feeds, and ISAC sharing communities"
         ],
         "commonGaps": [
-          "No dedicated threat intelligence platform \u2014 IoCs managed in spreadsheets or ad hoc email distribution lists",
+          "No dedicated threat intelligence platform — IoCs managed in spreadsheets or ad hoc email distribution lists",
           "Platform deployed but poorly configured with default taxonomies that do not align with the institution's threat model",
           "No STIX/TAXII integration capability, preventing automated ingestion from and sharing with external partners",
           "Platform access not restricted by role, allowing unauthorised staff to modify or delete IoC records"
         ],
         "suggestedSources": [
           "Threat intelligence platform administration console and configuration exports",
-          "IT infrastructure architecture documentation \u2014 TIP deployment diagram",
+          "IT infrastructure architecture documentation — TIP deployment diagram",
           "Platform vendor support and licensing records"
         ],
         "format": "PDF/DOCX",
@@ -10202,10 +10202,10 @@
           "Evidence of IoC-triggered detections or blocks in security tool logs over the past 12 months"
         ],
         "commonGaps": [
-          "IoCs collected in the TIP but not automatically pushed to security monitoring tools \u2014 requiring manual copy-paste into SIEM rules",
+          "IoCs collected in the TIP but not automatically pushed to security monitoring tools — requiring manual copy-paste into SIEM rules",
           "Integration exists but is one-directional, with no feedback loop from detection tools back to the TIP on IoC hit rates",
           "Feed integration failures go undetected for extended periods, leaving gaps in automated detection coverage",
-          "Only partial integration \u2014 IoCs pushed to SIEM but not to firewall, proxy, or email gateway for blocking"
+          "Only partial integration — IoCs pushed to SIEM but not to firewall, proxy, or email gateway for blocking"
         ],
         "suggestedSources": [
           "Threat intelligence platform integration configuration and API connection logs",
@@ -10226,7 +10226,7 @@
           "Evidence that IoC retirement decisions are informed by threat intelligence analysis rather than arbitrary time-based expiry"
         ],
         "commonGaps": [
-          "No IoC retirement process \u2014 indicators accumulate indefinitely, with stale IoCs from years ago still active in detection tools",
+          "No IoC retirement process — indicators accumulate indefinitely, with stale IoCs from years ago still active in detection tools",
           "No regular review cycle for IoC validity, leading to growing false positive rates that erode analyst trust",
           "No metrics or reporting on IoC lifecycle, making it impossible to demonstrate programme health to BNM examiners",
           "IoCs retired based solely on age without considering whether the associated threat actor or campaign is still active"
@@ -10244,7 +10244,7 @@
       "Request a walkthrough of the IoC lifecycle from collection through to retirement, asking the team to demonstrate each stage with a recent real-world example",
       "Verify automated integration by selecting a recently ingested IoC in the TIP and confirming it appears in SIEM correlation rules and firewall block lists",
       "Check IoC validation processes by asking how the team distinguishes between high-confidence and low-confidence indicators before operationalising them",
-      "Review IoC retirement records and ask how the team determines when an indicator is no longer relevant \u2014 look for evidence-based decisions rather than arbitrary expiry",
+      "Review IoC retirement records and ask how the team determines when an indicator is no longer relevant — look for evidence-based decisions rather than arbitrary expiry",
       "Examine feed health monitoring by asking what happens when an IoC feed fails and how quickly the team is alerted to integration disruptions"
     ]
   },
@@ -10268,7 +10268,7 @@
           "Programme references relevant Malaysian threat sources including MyCERT advisories, NACSA alerts, and BNM communications on cyber threats"
         ],
         "commonGaps": [
-          "No documented situational awareness programme \u2014 threat monitoring is ad hoc and dependent on individual analyst initiative",
+          "No documented situational awareness programme — threat monitoring is ad hoc and dependent on individual analyst initiative",
           "Programme covers external threats but neglects the institution's own attack surface and exposure monitoring",
           "No defined information sources or collection strategy, resulting in inconsistent and incomplete threat coverage",
           "Programme does not address financial sector-specific threats, relying solely on generic cybersecurity news"
@@ -10292,7 +10292,7 @@
           "Attack surface inventory reconciled against the institution's approved asset register to identify unauthorised or unknown assets"
         ],
         "commonGaps": [
-          "No external attack surface monitoring \u2014 the institution relies solely on internal vulnerability scanning without visibility of its external footprint",
+          "No external attack surface monitoring — the institution relies solely on internal vulnerability scanning without visibility of its external footprint",
           "Attack surface scans conducted but findings not tracked through to remediation, leaving identified exposures unaddressed",
           "Monitoring is periodic (e.g., quarterly) rather than continuous, missing newly exposed assets between scan cycles",
           "Shadow IT and cloud assets excluded from attack surface monitoring, creating blind spots in the institution's external exposure"
@@ -10316,7 +10316,7 @@
           "Reports include actionable recommendations for security operations and risk management, not merely informational summaries"
         ],
         "commonGaps": [
-          "No regular threat landscape reporting \u2014 awareness is limited to ad hoc forwarding of vendor alerts and news articles",
+          "No regular threat landscape reporting — awareness is limited to ad hoc forwarding of vendor alerts and news articles",
           "Reports produced but are generic summaries without relevance assessment to the institution's specific environment",
           "No inclusion of Malaysia-specific threat intelligence from MyCERT, NACSA, or local financial sector sharing communities",
           "Reports lack actionable recommendations, providing information without guidance on what the institution should do in response"
@@ -10340,7 +10340,7 @@
           "Reporting format tailored for executive audience with risk-based language, avoiding overly technical jargon"
         ],
         "commonGaps": [
-          "No regular situational awareness reporting to senior management \u2014 cyber threat updates provided only after major incidents",
+          "No regular situational awareness reporting to senior management — cyber threat updates provided only after major incidents",
           "Reports produced for the SOC but not escalated to senior management or the board, failing to meet the RMiT requirement",
           "Reports provided but no evidence of management engagement, discussion, or action taken in response",
           "Reporting is overly technical and not accessible to senior management, reducing its value as a risk governance input"
@@ -10356,7 +10356,7 @@
     ],
     "auditTips": [
       "Request the last three months of situational awareness reports provided to senior management and verify they cover external threats, attack surface findings, and financial sector-specific intelligence",
-      "Ask for evidence of management acknowledgement or decisions taken in response to situational awareness reports \u2014 meeting minutes or action items from board risk committee sessions",
+      "Ask for evidence of management acknowledgement or decisions taken in response to situational awareness reports — meeting minutes or action items from board risk committee sessions",
       "Review the attack surface monitoring setup by asking the team to demonstrate the tooling and show recently discovered exposures with remediation tracking evidence",
       "Check whether MyCERT advisories and NACSA bulletins are systematically tracked and assessed for relevance to the institution, not merely received and filed",
       "Verify the situational awareness programme covers all three domains required by this clause: external threat landscape, institutional attack surface, and emerging threats targeting the financial sector"
@@ -12234,7 +12234,7 @@
     "clauseId": "15.2",
     "section": "Security Awareness and Education",
     "subsection": "Security Awareness and Education",
-    "title": "Technology Staff Training",
+    "title": "Continuous Training for Technology Staff",
     "clauseType": "technical",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that phishing simulations are conducted at least quarterly, that personnel who fail receive follow-up training, and that metrics are tracked over time and reported to management demonstrating measurable improvement.",
@@ -12344,7 +12344,7 @@
     "clauseId": "15.3",
     "section": "Security Awareness and Education",
     "subsection": "Security Awareness and Education",
-    "title": "Board Technology Training",
+    "title": "Board Training on Technology Developments",
     "clauseType": "regulatory",
     "marker": "S",
     "auditorFocus": "BNM examiners will assess whether the institution has identified specialised roles requiring tailored training, whether training content is differentiated by role and updated for emerging threats, and whether completion is tracked by role category.",
@@ -12454,7 +12454,7 @@
     "clauseId": "16.1",
     "section": "Notification for Technology-Related Applications",
     "subsection": "Introduction or enhancement to digital services",
-    "title": "Digital Services Notification Requirement",
+    "title": "Notification Prior to Digital Services Changes",
     "clauseType": "regulatory",
     "marker": "S",
     "auditorFocus": "BNM examiners will scrutinise whether the institution has a defined notification procedure with clear materiality criteria, whether past incidents were reported within the mandatory four-hour window, and whether detailed follow-up reports were submitted within fourteen days.",
@@ -12674,7 +12674,7 @@
     "clauseId": "16.3",
     "section": "Notification for Technology-Related Applications",
     "subsection": "Introduction or enhancement to digital services",
-    "title": "Simplified Enhancement Notification",
+    "title": "Simplified Notification for Enhancements",
     "clauseType": "regulatory",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that material technology outsourcing arrangements were notified to BNM before contracts were executed, that notifications include adequate risk assessments and oversight mechanisms, and that materiality criteria are clearly defined and consistently applied.",
@@ -12784,7 +12784,7 @@
     "clauseId": "16.4",
     "section": "Notification for Technology-Related Applications",
     "subsection": "Introduction or enhancement to digital services",
-    "title": "Full Enhancement Notification Requirements",
+    "title": "Assurance and Confirmation for Material Enhancements",
     "clauseType": "regulatory",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that the institution notified BNM prior to deploying critical systems or customer data to the cloud, that notifications include comprehensive cloud risk assessments with data residency arrangements and shared responsibility models, and that no cloud deployment proceeded without prior notification.",
@@ -12894,7 +12894,7 @@
     "clauseId": "16.5",
     "section": "Notification for Technology-Related Applications",
     "subsection": "Introduction or enhancement to digital services",
-    "title": "External Assurance Competency",
+    "title": "Independent External Party Assurance Quality",
     "clauseType": "regulatory",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that the institution has defined criteria for significant findings, that significant technology audit findings were reported to BNM within thirty days of audit report finalisation, and that management responses include concrete remediation commitments.",
@@ -13004,7 +13004,7 @@
     "clauseId": "16.6",
     "section": "Notification for Technology-Related Applications",
     "subsection": "Introduction or enhancement to digital services",
-    "title": "Document Provision to Bank",
+    "title": "Provision of Documents for Bank Review",
     "clauseType": "regulatory",
     "marker": "S",
     "auditorFocus": "BNM examiners will verify that the institution responded to previous examination findings within specified timeframes, that action plans were developed for all findings with accountable owners, that progress was reported to both the board and BNM, and that the institution cooperated fully during examinations.",
@@ -13114,7 +13114,7 @@
     "clauseId": "16.7",
     "section": "Notification for Technology-Related Applications",
     "subsection": "Introduction or enhancement to digital services",
-    "title": "Immediate Service Offering Upon Notification",
+    "title": "Immediate Offering Upon Notification",
     "clauseType": "regulatory",
     "marker": "G",
     "auditorFocus": "BNM examiners will verify that the annual technology risk report was submitted on time, that it provides a comprehensive and honest assessment of the institution's technology risk posture, includes all significant incidents with lessons learned, presents meaningful KRIs, and outlines concrete planned initiatives for the coming year.",
