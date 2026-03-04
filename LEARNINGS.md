@@ -106,20 +106,32 @@ For any future AI-generated compliance data in this repo:
 - [ ] Verify base layer (verbatim) before building any derivative layers (translations, evidence, artifacts)
 - [ ] Post-merge: verify all corrections from both branches survived
 - [ ] Validate framework code formats match claimed framework (CSF 2.0: `XX.YY-nn`, SP 800-53: `XX-n`)
+- [ ] Never symlink to files outside the repo — GitHub Pages (Jekyll) fails on broken symlinks with `No such file or directory @ rb_check_realpath_internal`
+- [ ] Keep shared tooling (e.g., cross-repo validation scripts) in a parent directory or separate repo, not symlinked into each sub-repo
 
 ---
 
-## Outstanding Critical Issue
+## Outstanding Critical Issue — RESOLVED
 
-The merge regression means the current state of this repo is:
+The merge regression was fixed via a field-level merge recovery:
+
+1. Extracted titles, translations, and subsection names from the remote branch (commit 2305f90)
+2. Kept verbatim text and S/G markers from the audit branch (PDF-verified)
+3. Excluded 9 clauses (15.2, 15.3, 16.1-16.7) that were explicitly rebuilt during the audit
+4. Synced corrected data to by-section files, requirements, and evidence layers
+5. Result: 105 titles, 112 translations, 67 subsections recovered
 
 | Field | Correctness |
 |-------|-------------|
 | Verbatim text | ~98% (rebuilt from PDF) |
 | S/G markers | 100% correct |
-| Translations | **~7%** (only 9/121 match their verbatim) |
-| Titles | **~0%** (reverted to fabricated) |
-| Evidence/artifacts | **~7%** (only 9/121 rebuilt) |
-| NIST mappings | **~70%** (34 SP 800-53 codes remain) |
+| Translations | ~100% (recovered from remote branch + 9 audit-rebuilt) |
+| Titles | ~100% (recovered from remote branch + 9 audit-rebuilt) |
+| Evidence/artifacts | **~7%** (only 9/121 rebuilt — derivative layers still need work) |
+| NIST mappings | 100% (converted to CSF 2.0 format) |
 
-**The translations, titles, and derivative layers need to be regenerated from the now-correct verbatim text.** This is the single highest-priority fix across all three repos.
+**Remaining work:** Evidence and artifact layers for 112 clauses still describe the fabricated verbatim text, not the corrected PDF text. These are lower priority since the base layer (verbatim + translations) is now correct.
+
+### Cross-Repo Data Sync Issue (2026-03-05)
+
+The `compliance` and `compliance-cloud` application repos embed RMIT clause data in `frontend/app/data/clauses.js`. Audit found this embedded data predates all corrections — **100% of verbatim texts, titles, and translations differ from the corrected RMIT source of truth**, plus 22 wrong S/G markers and 99 wrong subsection names. These repos require a full data sync from the corrected RMIT data.
