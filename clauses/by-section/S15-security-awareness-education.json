@@ -7,7 +7,7 @@
     "clauseType": "regulatory",
     "marker": "S",
     "verbatim": "A financial institution must provide adequate and regular technology and cybersecurity awareness education for all staff in undertaking their respective roles and measure the effectiveness of its education and awareness programs. This cybersecurity awareness education must be conducted at least annually and must reflect the evolving cyber threat landscape and emerging risks. Where appropriate, the financial institution shall also include its third party service providers in their relevant training as outlined in paragraph 10.48(i).",
-    "translation": "All employees, contractors, and third parties with system access must complete mandatory annual security awareness training covering cyber risks, data protection, and your security policies. Track and report on training completion rates.",
+    "translation": "A financial institution must provide all staff with adequate and regular technology and cybersecurity awareness education relevant to their roles, and must measure the effectiveness of those programmes. The education must be conducted at least annually and must reflect the evolving cyber threat landscape and emerging risks. Where appropriate, third-party service providers must also be included in relevant training.",
     "evidence": [
       "Security awareness program documentation",
       "Annual training content and materials",
@@ -46,7 +46,7 @@
     "clauseType": "technical",
     "marker": "S",
     "verbatim": "A financial institution must provide adequate and continuous training for staff involved in technology operations, cybersecurity and risk management in order to ensure that the staff are competent and suitably certified to effectively perform their roles and responsibilities.",
-    "translation": "Run phishing simulations at least quarterly to test how your people respond to social engineering. Anyone who falls for the simulation must receive additional training. Track metrics over time and report them to management to measure improvement.",
+    "translation": "A financial institution must provide adequate and continuous training for staff involved in technology operations, cybersecurity, and risk management to ensure those staff are competent and suitably certified to perform their roles and responsibilities effectively.",
     "evidence": [
       "Phishing simulation program documentation",
       "Quarterly simulation execution records",
@@ -85,7 +85,7 @@
     "clauseType": "regulatory",
     "marker": "S",
     "verbatim": "A financial institution must provide its board members with regular training and information on technology developments to enable the board to effectively discharge its oversight role.",
-    "translation": "Provide specialised security training tailored to specific roles such as IT administrators, developers, security analysts, and executives. Training content should reflect the unique risks and responsibilities of each role and be updated as threats evolve.",
+    "translation": "A financial institution must provide board members with regular training and information on technology developments so the board can effectively discharge its oversight role over technology-related matters.",
     "evidence": [
       "Role-based training program documentation",
       "Role-specific training materials and curricula",

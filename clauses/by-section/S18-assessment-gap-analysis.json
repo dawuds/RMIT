@@ -7,7 +7,7 @@
     "clauseType": "governance",
     "marker": "S",
     "verbatim": "A financial institution must perform a gap analysis of existing practices in managing technology risk against the requirements in this policy document and highlight key implementation gaps. The financial institution must develop an action plan with a clear timeline and key milestones to address the gaps identified. The gap analysis and action plan must be submitted to the Bank no later than 90 days after the issuance date of this policy document. Financial institutions that have previously made a submission in accordance with the equivalent provision in the previous version of this policy document are required to maintain continuous compliance by identifying any new gaps against the enhanced or revised requirements in the latest version of this policy document and taking the necessary steps to address such gaps. The updated annual assessment of its level of compliance must be made available to the Bank upon request.",
-    "translation": "Conduct a formal annual self-assessment of your compliance with the full RMiT policy. For each requirement, determine whether you are fully compliant, partially compliant, or non-compliant, and provide supporting evidence for your assessment.",
+    "translation": "A financial institution must perform a gap analysis comparing its existing technology risk management practices against the requirements in this policy document and must develop an action plan with clear timelines and milestones to close identified gaps. Both the gap analysis and action plan must be submitted to the regulator no later than 90 days after the policy document's issuance date. Institutions that previously submitted under an earlier version of the policy must continue to identify any new gaps against enhanced or revised requirements and make their updated annual compliance assessment available to the regulator upon request.",
     "evidence": [
       "Annual RMiT self-assessment report",
       "Compliance status for each RMiT clause",
@@ -46,7 +46,7 @@
     "clauseType": "governance",
     "marker": "S",
     "verbatim": "The self-assessment, gap analysis and action plan in paragraph 18.1 must be submitted to Jabatan Penyeliaan Konglomerat Kewangan, Jabatan Penyeliaan Perbankan, Jabatan Penyeliaan Insurans dan Takaful or Jabatan Pemantauan Perkhidmatan Pembayaran, as the case may be.",
-    "translation": "For every compliance gap found in the self-assessment, create a remediation plan with specific actions, assigned owners, target dates, and resource requirements. Report remediation progress to the board at least quarterly.",
+    "translation": "The self-assessment, gap analysis, and action plan required under paragraph 18.1 must be submitted to the appropriate supervisory department within the Bank, namely Jabatan Penyeliaan Konglomerat Kewangan, Jabatan Penyeliaan Perbankan, Jabatan Penyeliaan Insurans dan Takaful, or Jabatan Pemantauan Perkhidmatan Pembayaran, depending on which department supervises the institution.",
     "evidence": [
       "Gap remediation plan with actions and owners",
       "Target completion dates and resource requirements",

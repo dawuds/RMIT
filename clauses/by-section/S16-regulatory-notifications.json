@@ -7,7 +7,7 @@
     "clauseType": "regulatory",
     "marker": "S",
     "verbatim": "A financial institution must notify the Bank in accordance with the requirements in paragraphs 16.2 to 16.7 prior to introducing new digital services or enhancement to existing digital services.",
-    "translation": "Notify BNM within 4 hours of detecting any material technology or cybersecurity incident. Include what happened, what systems are affected, estimated impact, and what you are doing about it. Submit a detailed follow-up report within 14 days.",
+    "translation": "A financial institution must notify the Bank before introducing new digital services or making enhancements to existing digital services, in accordance with the requirements set out in paragraphs 16.2 to 16.7.",
     "evidence": [
       "BNM incident notification procedure",
       "Incident notification template",
@@ -46,7 +46,7 @@
     "clauseType": "regulatory",
     "marker": "S",
     "verbatim": "A financial institution offering digital services for the first time must undertake measures specified under paragraph 16.4 and submit the following information in the notification to the Bank: (a) assessment on the risks identified and strategies to manage such risks. This includes specific accountabilities, policies and controls to address risks; (b) security arrangements and controls; (c) significant terms and conditions; (d) client charter; (e) privacy policy statement; and (f) any outsourcing or website link arrangements, or strategic alliances or partnerships with third parties that have been finalised.",
-    "translation": "Notify BNM about major technology projects at least three months before implementation. Include the project scope, risk assessment, and implementation timeline. This applies to projects that could significantly affect operations or customers.",
+    "translation": "A financial institution offering digital services for the first time must complete the measures specified in paragraph 16.4 and submit to the Bank a notification that includes a risk assessment and management strategies with specific accountabilities, policies, and controls; security arrangements and controls; significant terms and conditions; a client charter; a privacy policy statement; and details of any outsourcing, website link arrangements, or third-party strategic alliances that have been finalised.",
     "evidence": [
       "Technology project notification procedure",
       "Project notification records to BNM",
@@ -85,7 +85,7 @@
     "clauseType": "regulatory",
     "marker": "S",
     "verbatim": "For any enhancements to existing digital services which meet the criteria in Appendix 6, a financial institution shall be subject to a simplified notification requirement and submit the following information in the notification to the Bank: (a) description of the enhancements to the existing technologies; and (b) risk assessment of the proposed enhancements, including the impact and measures to mitigate identified risks.",
-    "translation": "Before entering into any material technology outsourcing arrangement, notify BNM. Include the scope of services being outsourced, the risk assessment, and how you will oversee the arrangement.",
+    "translation": "For enhancements to existing digital services that meet the criteria in Appendix 6, a financial institution is subject to a simplified notification process and need only submit to the Bank a description of the enhancements to existing technologies and a risk assessment of the proposed enhancements covering impact and mitigation measures.",
     "evidence": [
       "Outsourcing notification procedure",
       "BNM outsourcing notifications records",
@@ -123,8 +123,8 @@
     "title": "Full Enhancement Notification Requirements",
     "clauseType": "regulatory",
     "marker": "S",
-    "verbatim": "For any enhancements to existing digital services which are not subject to the simplified notification requirement under paragraph 16.3, a financial institution is required to undertake the following measures prior to notifying the Bank: (a) engage an independent external party to provide assurance that the financial institution has addressed the technology risks and security controls associated with the digital services or any material enhancement to the digital services. The format of the assurance shall be as set out in Part A of Appendix 7; and (b) provide a confirmation by the CISO, senior management officer or the chairman of the board or designated board-level committee specified in paragraph 8.3 of the financial institution\u2019s readiness to provide digital services or implement any material enhancement to the digital services. The format of the confirmation shall be as set out in Part B of Appendix 7.",
-    "translation": "Before using cloud services for critical systems or customer data, notify BNM. Include your cloud risk assessment, data residency arrangements, and the shared responsibility model with your cloud provider.",
+    "verbatim": "For any enhancements to existing digital services which are not subject to the simplified notification requirement under paragraph 16.3, a financial institution is required to undertake the following measures prior to notifying the Bank: (a) engage an independent external party to provide assurance that the financial institution has addressed the technology risks and security controls associated with the digital services or any material enhancement to the digital services. The format of the assurance shall be as set out in Part A of Appendix 7; and (b) provide a confirmation by the CISO, senior management officer or the chairman of the board or designated board-level committee specified in paragraph 8.3 of the financial institution’s readiness to provide digital services or implement any material enhancement to the digital services. The format of the confirmation shall be as set out in Part B of Appendix 7.",
+    "translation": "For enhancements to existing digital services that are not subject to the simplified notification process under paragraph 16.3, a financial institution must, before notifying the Bank, engage an independent external party to provide assurance that technology risks and security controls have been addressed (in the format set out in Part A of Appendix 7), and obtain a confirmation of readiness from the CISO, a senior management officer, or the chairman of the board or designated board-level committee (in the format set out in Part B of Appendix 7).",
     "evidence": [
       "Cloud adoption notification procedure",
       "BNM cloud adoption notification records",
@@ -163,7 +163,7 @@
     "clauseType": "regulatory",
     "marker": "S",
     "verbatim": "A financial institution must ensure that the independent external party providing the assurance is competent and has a good track record. The assurance shall address the matters covered in, and comply with, Part C and D of Appendix 7.",
-    "translation": "Report significant IT audit findings to BNM within 30 days of the audit report being finalised. This applies to findings that indicate material weaknesses in technology risk management, cybersecurity, or regulatory compliance.",
+    "translation": "A financial institution must ensure that the independent external party providing assurance under paragraph 16.4 is competent and has a good track record, and that the assurance addresses and complies with the matters set out in Parts C and D of Appendix 7.",
     "evidence": [
       "Audit finding reporting procedure for BNM",
       "Significant finding identification criteria",
@@ -201,8 +201,8 @@
     "title": "Document Provision to Bank",
     "clauseType": "regulatory",
     "marker": "S",
-    "verbatim": "A financial institution shall provide relevant documents for the Bank\u2019s review when required by the Bank.",
-    "translation": "Respond to BNM examination findings within the required timeframes. Develop action plans for every finding and report progress to both the board and BNM. Full cooperation with regulatory examinations is mandatory.",
+    "verbatim": "A financial institution shall provide relevant documents for the Bank’s review when required by the Bank.",
+    "translation": "A financial institution must provide relevant documents to the Bank for review when the Bank requests them.",
     "evidence": [
       "Regulatory examination response procedure",
       "Examination finding action plans",
@@ -241,7 +241,7 @@
     "clauseType": "regulatory",
     "marker": "G",
     "verbatim": "A financial institution may offer digital services or implement any enhancement to the digital services immediately upon submission of the notification under paragraph 16.1 and compliance with the requirements in paragraphs 16.2 to 16.6.",
-    "translation": "Submit an annual technology risk report to BNM covering your current risk posture, significant incidents from the past year, key risk metrics, and your plans for improving technology risk management in the coming year.",
+    "translation": "A financial institution may offer new digital services or implement enhancements to existing digital services immediately upon submitting the notification required under paragraph 16.1 and satisfying the requirements in paragraphs 16.2 to 16.6, without needing to wait for the Bank's approval.",
     "evidence": [
       "Annual technology risk report submitted to BNM",
       "Technology risk posture assessment",
