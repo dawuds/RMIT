@@ -4,9 +4,12 @@ Machine-readable extraction of the **Bank Negara Malaysia (BNM) Risk Management 
 
 121 clauses across 11 sections (S8–S18), with five integrated data layers: verbatim clause text, requirement breakdowns, evidence guidance, audit artifacts, and common controls.
 
+> **Disclaimer**: This is an indicative/educational resource. It does not constitute legal advice. Always refer to the official BNM Policy Document and seek professional counsel for compliance decisions. See [LEARNINGS.md](LEARNINGS.md) for data quality audit history.
+
 ## Repository Structure
 
 ```
+LEARNINGS.md                               # Data quality audit findings and lessons
 source/
   pd-rmit-nov25.pdf                        # Original BNM policy document (80 pages)
 
@@ -58,7 +61,7 @@ Each clause object:
 | `title` | string | Short descriptive title |
 | `clauseType` | string | `"governance"`, `"technical"`, or `"regulatory"` |
 | `marker` | string | `"S"` (shall — mandatory) or `"G"` (should — guidance) |
-| `verbatim` | string | Exact text from the RMiT PD |
+| `verbatim` | string | Text extracted from the RMiT PD (audit-verified against source PDF) |
 | `translation` | string | Plain-language interpretation |
 | `evidence` | string[] | List of expected evidence items |
 | `artifacts` | object[] | Audit artifacts with category, name, description, format, mandatory flag |
@@ -334,8 +337,9 @@ for clause in mandatory[:3]:
 
 ### Authoritative Content (extracted from official BNM source)
 The following fields are extracted from the official BNM RMiT Policy Document and should be treated as authoritative:
-- `verbatim` — Exact text from the BNM RMiT Policy Document (November 2025)
-- `id`, `section`, `clauseType`, `marker` (S/G) — Structural metadata
+- `verbatim` — Text extracted from the BNM RMiT Policy Document (November 2025), audit-verified against source PDF (~98% coverage)
+- `marker` (S/G) — Standard/Guidance classification, 100% verified against source PDF
+- `id`, `section`, `subsection`, `clauseType` — Structural metadata
 - Clause IDs and section numbering (S8–S18)
 
 ### AI-Generated Content (interpretive — not authoritative)
@@ -353,7 +357,7 @@ The following fields are **AI-generated interpretations or illustrative examples
 | `auditTips` | `evidence/` | AI-generated guidance |
 | `description`, `keyActivities`, `maturity` | `controls/` | AI-generated guidance |
 
-> **Known data quality issue:** Spot-checks during audit identified that some `translation` fields do not accurately paraphrase their corresponding `verbatim` clause text — they appear to describe different clause topics. **Always verify the `translation` field against the `verbatim` text and the source PDF before relying on it for compliance decisions.**
+> **Data quality note (2026-03-05):** An initial audit found 100% of verbatim fields and S/G markers were AI-fabricated. These have since been rebuilt from the source PDF. Translation fields were recovered via a field-level merge from a corrected branch. Evidence, requirements, and artifact layers still contain AI-generated content based on the original fabricated text — treat these as illustrative only. See [LEARNINGS.md](LEARNINGS.md) for the full audit history.
 >
 > The web explorer labels all AI-generated fields with an **AI Generated** indicator and illustrative examples with an **Example** indicator.
 
