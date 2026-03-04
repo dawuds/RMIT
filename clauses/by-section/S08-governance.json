@@ -6,7 +6,7 @@
     "title": "Board Oversight of Technology Risk",
     "clauseType": "governance",
     "marker": "S",
-    "verbatim": "The board of directors shall maintain effective oversight of technology risk management across the financial institution. The board shall ensure that technology risk is integrated into the enterprise risk management framework and that adequate resources are allocated for technology risk management activities.",
+    "verbatim": "The board must establish and approve the technology risk appetite which is aligned with the financial institution\u2019s risk appetite statement. In doing so, the board must-\n(a) approve the corresponding risk tolerances for technology-related events considering potential impact on business operations as well as its customers;\n(b) identify risk owner to ensure clear accountability and establish criteria and approving authority for the acceptance of residual risks by the institution;\n(c) ensure key risk indicators are identified to monitor existing and emerging risks against financial institution\u2019s risk tolerance;\n(d) ensure sufficiency and appropriate deployment of resources; and\n(e) conduct review of the technology risk appetite at regular intervals with sufficient deliberation to ensure such risk appetite remains relevant with changing risk environment.",
     "translation": "The board must actively oversee how the institution manages technology risks. This means technology risk should be part of the overall enterprise risk framework, and the board must ensure enough budget, people, and tools are dedicated to managing it.",
     "evidence": [
       "Board meeting minutes discussing technology risk",
@@ -45,7 +45,7 @@
     "title": "Board Technology Risk Committee",
     "clauseType": "governance",
     "marker": "S",
-    "verbatim": "Financial institutions shall establish a board-level committee responsible for overseeing technology risk. The committee shall comprise members with sufficient knowledge and experience in technology and cybersecurity matters, and shall convene at least quarterly to review the institution's technology risk posture.",
+    "verbatim": "In discharging its oversight responsibility, the board must-\n(a) approve and review the adequacy of the financial institution\u2019s IT and cybersecurity strategic plans to meet business objectives covering a period of no less than three years;\n(b) endorse and oversee the effective implementation of a sound and robust technology risk management framework (TRMF) and cyber resilience framework (CRF), as required to be developed under paragraphs 9.1 and 11.2, for the continuity of operations and delivery of financial services;\n(c) require senior management to continuously demonstrate that risk assessments undertaken in relation to critical IT systems and use of emerging technology are robust and comprehensive, supported with adequate control measures and resources to mitigate IT and cyber risks arising from the execution of IT strategic plans;\n(d) ensure IT-related framework, policies and guidelines are reviewed at least once every three years (unless otherwise stated in this policy document) and apply a depth of review that is commensurate with the complexity of the financial institution\u2019s operations and changes in the risk environment; and\n(e) ensure risk management framework provide support to robust risk assessments in relation to technology related applications submitted to the Bank.",
     "translation": "You need a dedicated board committee focused on technology risk. Its members must understand technology and cyber topics, and it must meet at least every quarter to review the current state of technology risk.",
     "evidence": [
       "Board committee charter or terms of reference",
@@ -83,8 +83,8 @@
     "subsection": "Board of Directors",
     "title": "Board Competency in Technology",
     "clauseType": "governance",
-    "marker": "G",
-    "verbatim": "Financial institutions should ensure that members of the board of directors possess or have access to adequate knowledge and expertise in technology and cybersecurity. The board should undertake continuous education and training to remain informed of evolving technology risks and emerging threats.",
+    "marker": "S",
+    "verbatim": "The board must designate a board-level committee which shall be responsible for supporting the board in providing oversight over technology-related matters. The composition of the designated committee must include at least one member with technology experience and competencies.",
     "translation": "Board members should either have personal expertise in technology and cybersecurity, or have access to advisors who do. Ongoing training and education programs should keep the board current on new threats and technology trends.",
     "evidence": [
       "Board training records on technology and cybersecurity topics",
@@ -123,7 +123,7 @@
     "title": "Board Risk Appetite Statement",
     "clauseType": "governance",
     "marker": "S",
-    "verbatim": "The board shall approve a technology risk appetite statement that defines the level of technology risk the financial institution is willing to accept. The risk appetite shall be expressed using quantitative and qualitative measures and shall be reviewed at least annually to reflect changes in the operating environment.",
+    "verbatim": "To promote effective discussion at the board level amidst a rapidly evolving technology and cyber risk landscape, the board must-\n(a) obtain regular updates on technology risk and cyber threats;\n(b) allocate sufficient time to discuss cyber risks, including the strategic, reputational and liquidity risks and impact of operational disruption to stakeholders which could arise from an extreme cyber incident. This shall be supported by input from external experts where appropriate; and\n(c) participate in relevant cybersecurity awareness and training programmes.",
     "translation": "The board must formally approve a statement that sets out how much technology risk the institution is prepared to tolerate. This should include both measurable metrics and qualitative descriptions, and must be reviewed yearly or when circumstances change significantly.",
     "evidence": [
       "Board-approved technology risk appetite statement",
@@ -162,7 +162,7 @@
     "title": "Board Reporting on Technology Risk",
     "clauseType": "governance",
     "marker": "S",
-    "verbatim": "Senior management shall provide the board with comprehensive and timely reports on technology risk, including key risk indicators, incident summaries, and the status of risk mitigation initiatives. Reporting shall occur at least quarterly and shall include trend analysis and forward-looking assessments.",
+    "verbatim": "The board audit committee (BAC) shall be responsible for ensuring the effectiveness of the internal technology audit function. This shall include ensuring the adequate competence of the audit staff to perform technology audits. The BAC shall review and ensure appropriate audit scope, procedures and frequency of technology audits. The BAC shall also ensure effective oversight over the prompt closure of corrective actions to address technology control gaps.",
     "translation": "Management must give the board regular, detailed reports on technology risk at least every quarter. Reports must cover KRIs, incident trends, remediation progress, and forward-looking risk assessments so the board can make informed decisions.",
     "evidence": [
       "Quarterly technology risk reports to the board",
@@ -202,7 +202,7 @@
     "title": "Senior Management Accountability",
     "clauseType": "governance",
     "marker": "S",
-    "verbatim": "Senior management shall be accountable for implementing the technology risk management framework approved by the board. Senior management shall designate a Chief Information Security Officer or equivalent role with direct reporting access to the board or board committee on cybersecurity matters.",
+    "verbatim": "The senior management shall bear primary responsibility for the day-to-day management of technology risks including cyber risks. In fulfilling its responsibilities, senior management must–\n(a) implement board approved TRMF and CRF into specific policies and procedures that are consistent with the approved risk appetite and risk tolerance;\n(b) ensure that the crisis management plan for service disruptions provides for timely escalation of recovery action, taking into consideration the impact on customers, such as:\n(i) duration of disruption;\n(ii) number of customers affected by a disruption; and\n(iii) number and value of financial transaction impacted; and\n(c) provide regular updates to the board on the status of key performance indicators with pertinent information on the risk controls to facilitate informed performance review.",
     "translation": "Senior management is directly responsible for putting the board-approved technology risk framework into practice. They must appoint a CISO (or equivalent) who can report directly to the board or its technology risk committee on cybersecurity issues.",
     "evidence": [
       "Senior management accountability matrix for technology risk",
@@ -241,7 +241,7 @@
     "title": "Technology Risk Management Function",
     "clauseType": "governance",
     "marker": "S",
-    "verbatim": "Financial institutions shall establish an independent technology risk management function with adequate authority, resources, and access to information. The function shall be independent from technology operations and shall be responsible for identifying, assessing, monitoring, and reporting technology risks.",
+    "verbatim": "The senior management must establish a cross-functional committee to provide guidance on the financial institution\u2019s technology plans and operations. The members of the committee must include senior management from both cyber and technology functions, as well as major business units. The committee\u2019s responsibilities shall include the following:\n(a) oversee the formulation and effective implementation of the strategic technology plan and associated technology policies and procedures;\n(b) provide timely updates to the board on key technology matters; and\n(c) approve any deviation from technology-related policies after having carefully considered a robust assessment of related risks. Material deviations shall be reported to the board.",
     "translation": "You must have a dedicated technology risk management team that operates independently from the IT operations team. This team needs proper authority, staffing, and access to systems and data to do its job of identifying, assessing, monitoring, and reporting technology risks.",
     "evidence": [
       "Technology risk management function charter",

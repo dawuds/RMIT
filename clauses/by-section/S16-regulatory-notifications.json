@@ -1,38 +1,38 @@
 [
   {
     "id": "16.1",
-    "section": "Regulatory Notifications",
-    "subsection": "BNM Notifications",
-    "title": "Material Incident Notification",
+    "section": "Notification for Technology-Related Applications",
+    "subsection": "Introduction or enhancement to digital services",
+    "title": "Notification Prior to Digital Services Changes",
     "clauseType": "regulatory",
     "marker": "S",
-    "verbatim": "Financial institutions shall notify Bank Negara Malaysia of all material technology and cybersecurity incidents within four hours of detection. The notification shall include the nature of the incident, systems affected, estimated impact, and initial response actions. A detailed follow-up report shall be submitted within fourteen days.",
-    "translation": "Notify BNM within 4 hours of detecting any material technology or cybersecurity incident. Include what happened, what systems are affected, estimated impact, and what you are doing about it. Submit a detailed follow-up report within 14 days.",
+    "verbatim": "A financial institution must notify the Bank in accordance with the requirements in paragraphs 16.2 to 16.7 prior to introducing new digital services or enhancement to existing digital services.",
+    "translation": "Before introducing any new digital service or enhancing an existing one, you must notify BNM in advance following the requirements set out in paragraphs 16.2 through 16.7.",
     "evidence": [
-      "BNM incident notification procedure",
-      "Incident notification template",
-      "Sample incident notification records",
-      "Follow-up report records"
+      "Digital services notification procedure",
+      "Records of notifications submitted to BNM for new or enhanced digital services",
+      "Internal approval workflow for digital service launches",
+      "Tracking register of all digital service notifications"
     ],
     "artifacts": [
       {
         "category": "procedures",
-        "name": "BNM Incident Notification Procedure",
-        "description": "Procedure for notifying BNM of material incidents within four hours",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "evidence",
-        "name": "Notification Templates",
-        "description": "Templates for initial notification and 14-day follow-up report to BNM",
+        "name": "Digital Services Notification Procedure",
+        "description": "Procedure for notifying BNM prior to introducing or enhancing digital services",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       },
       {
         "category": "logs",
-        "name": "Notification Records",
-        "description": "Records of all BNM incident notifications and follow-up reports",
+        "name": "Digital Services Notification Register",
+        "description": "Register tracking all digital service notifications submitted to BNM",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "BNM Notification Submissions",
+        "description": "Copies of notifications submitted to BNM for new or enhanced digital services",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       }
@@ -40,38 +40,46 @@
   },
   {
     "id": "16.2",
-    "section": "Regulatory Notifications",
-    "subsection": "BNM Notifications",
-    "title": "Technology Project Notification",
+    "section": "Notification for Technology-Related Applications",
+    "subsection": "Introduction or enhancement to digital services",
+    "title": "First-Time Digital Services Notification",
     "clauseType": "regulatory",
     "marker": "S",
-    "verbatim": "Financial institutions shall notify Bank Negara Malaysia of major technology projects that may have a significant impact on the institution's operations or customers. Notification shall be made at least three months prior to the planned implementation and shall include project scope, risk assessment, and implementation timeline.",
-    "translation": "Notify BNM about major technology projects at least three months before implementation. Include the project scope, risk assessment, and implementation timeline. This applies to projects that could significantly affect operations or customers.",
+    "verbatim": "A financial institution offering digital services for the first time must undertake measures specified under paragraph 16.4 and submit the following information in the notification to the Bank:\n(a) assessment on the risks identified and strategies to manage such risks. This includes specific accountabilities, policies and controls to address risks;\n(b) security arrangements and controls;\n(c) significant terms and conditions;\n(d) client charter;\n(e) privacy policy statement; and\n(f) any outsourcing or website link arrangements, or strategic alliances or partnerships with third parties that have been finalised.",
+    "translation": "When offering digital services for the first time, you must complete the measures in paragraph 16.4 and submit a notification to BNM that includes: a risk assessment with accountabilities, policies, and controls; security arrangements; significant terms and conditions; a client charter; a privacy policy statement; and details of any outsourcing, website links, alliances, or third-party partnerships.",
     "evidence": [
-      "Technology project notification procedure",
-      "Project notification records to BNM",
-      "Major project risk assessments",
-      "Three-month advance notification evidence"
+      "Risk assessment covering identified risks, accountabilities, policies, and controls",
+      "Security arrangements and controls documentation for the digital service",
+      "Significant terms and conditions for the digital service",
+      "Client charter and privacy policy statement",
+      "Outsourcing and third-party partnership details submitted to BNM"
     ],
     "artifacts": [
       {
-        "category": "procedures",
-        "name": "Technology Project Notification Procedure",
-        "description": "Procedure for notifying BNM of major technology projects",
+        "category": "reports",
+        "name": "Digital Services Risk Assessment",
+        "description": "Comprehensive risk assessment for first-time digital services including risk strategies, accountabilities, and controls",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "governance",
+        "name": "Security Arrangements Documentation",
+        "description": "Documentation of security arrangements and controls for the digital service",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "governance",
+        "name": "Client Charter and Privacy Policy",
+        "description": "Client charter, privacy policy statement, and significant terms and conditions for the digital service",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       },
       {
         "category": "evidence",
-        "name": "Project Notification Records",
-        "description": "Records of technology project notifications submitted to BNM",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "reports",
-        "name": "Major Project Risk Assessments",
-        "description": "Risk assessments for major projects submitted as part of BNM notification",
+        "name": "Third-Party Arrangements",
+        "description": "Details of outsourcing, website links, strategic alliances, or third-party partnerships related to the digital service",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       }
@@ -79,38 +87,38 @@
   },
   {
     "id": "16.3",
-    "section": "Regulatory Notifications",
-    "subsection": "BNM Notifications",
-    "title": "Outsourcing Notification",
+    "section": "Notification for Technology-Related Applications",
+    "subsection": "Introduction or enhancement to digital services",
+    "title": "Simplified Notification for Enhancements",
     "clauseType": "regulatory",
     "marker": "S",
-    "verbatim": "Financial institutions shall notify Bank Negara Malaysia of material outsourcing arrangements involving technology services. Notification shall be made prior to entering into the outsourcing arrangement and shall include the scope of outsourced services, risk assessment, and oversight mechanisms.",
-    "translation": "Before entering into any material technology outsourcing arrangement, notify BNM. Include the scope of services being outsourced, the risk assessment, and how you will oversee the arrangement.",
+    "verbatim": "For any enhancements to existing digital services which meet the criteria in Appendix 6, a financial institution shall be subject to a simplified notification requirement and submit the following information in the notification to the Bank:\n(a) description of the enhancements to the existing technologies; and\n(b) risk assessment of the proposed enhancements, including the impact and measures to mitigate identified risks.",
+    "translation": "For enhancements to existing digital services that meet the criteria in Appendix 6, a simplified notification process applies. You only need to submit a description of the enhancements and a risk assessment covering impact and mitigation measures.",
     "evidence": [
-      "Outsourcing notification procedure",
-      "BNM outsourcing notifications records",
-      "Outsourcing risk assessments",
-      "Oversight mechanism documentation"
+      "Appendix 6 criteria assessment confirming simplified notification eligibility",
+      "Description of the proposed enhancements to existing digital services",
+      "Risk assessment of the proposed enhancements with impact analysis and mitigation measures",
+      "Simplified notification submission records to BNM"
     ],
     "artifacts": [
       {
-        "category": "procedures",
-        "name": "Outsourcing Notification Procedure",
-        "description": "Procedure for notifying BNM of material technology outsourcing arrangements",
+        "category": "reports",
+        "name": "Appendix 6 Eligibility Assessment",
+        "description": "Assessment confirming the enhancement meets Appendix 6 criteria for simplified notification",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       },
       {
         "category": "evidence",
-        "name": "Outsourcing Notification Records",
-        "description": "Records of outsourcing notifications submitted to BNM",
+        "name": "Enhancement Description and Risk Assessment",
+        "description": "Description of digital service enhancements and risk assessment with impact and mitigation measures",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       },
       {
-        "category": "reports",
-        "name": "Outsourcing Risk Assessment",
-        "description": "Risk assessment for material outsourcing arrangements submitted to BNM",
+        "category": "logs",
+        "name": "Simplified Notification Records",
+        "description": "Records of simplified notifications submitted to BNM for qualifying enhancements",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       }
@@ -118,38 +126,38 @@
   },
   {
     "id": "16.4",
-    "section": "Regulatory Notifications",
-    "subsection": "BNM Notifications",
-    "title": "Cloud Adoption Notification",
+    "section": "Notification for Technology-Related Applications",
+    "subsection": "Introduction or enhancement to digital services",
+    "title": "Assurance and Confirmation for Material Enhancements",
     "clauseType": "regulatory",
     "marker": "S",
-    "verbatim": "Financial institutions shall notify Bank Negara Malaysia prior to the adoption of cloud services for critical systems or systems that process, store, or transmit customer data. The notification shall include the cloud risk assessment, data residency arrangements, and the shared responsibility model with the cloud service provider.",
-    "translation": "Before using cloud services for critical systems or customer data, notify BNM. Include your cloud risk assessment, data residency arrangements, and the shared responsibility model with your cloud provider.",
+    "verbatim": "For any enhancements to existing digital services which are not subject to the simplified notification requirement under paragraph 16.3, a financial institution is required to undertake the following measures prior to notifying the Bank:\n(a) engage an independent external party to provide assurance that the financial institution has addressed the technology risks and security controls associated with the digital services or any material enhancement to the digital services. The format of the assurance shall be as set out in Part A of Appendix 7; and\n(b) provide a confirmation by the CISO, senior management officer or the chairman of the board or designated board-level committee specified in paragraph 8.3 of the financial institution's readiness to provide digital services or implement any material enhancement to the digital services. The format of the confirmation shall be as set out in Part B of Appendix 7.",
+    "translation": "For digital service enhancements that do not qualify for simplified notification under 16.3, you must: (a) engage an independent external party to provide assurance that technology risks and security controls have been addressed, using the format in Part A of Appendix 7; and (b) obtain a confirmation from the CISO, senior management officer, or board/committee chairman of the institution's readiness, using the format in Part B of Appendix 7.",
     "evidence": [
-      "Cloud adoption notification procedure",
-      "BNM cloud adoption notification records",
-      "Cloud risk assessments submitted to BNM",
-      "Data residency and shared responsibility documentation"
+      "Independent external party assurance report (Appendix 7 Part A format)",
+      "CISO or senior management readiness confirmation (Appendix 7 Part B format)",
+      "Engagement letter or contract with the independent external party",
+      "Evidence that assurance and confirmation were completed prior to BNM notification"
     ],
     "artifacts": [
       {
-        "category": "procedures",
-        "name": "Cloud Adoption Notification Procedure",
-        "description": "Procedure for notifying BNM prior to cloud service adoption",
+        "category": "reports",
+        "name": "Independent Assurance Report",
+        "description": "Assurance from an independent external party covering technology risks and security controls, in Appendix 7 Part A format",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "governance",
+        "name": "CISO/Senior Management Readiness Confirmation",
+        "description": "Confirmation by CISO, senior management, or board committee chairman of readiness to provide or enhance digital services, in Appendix 7 Part B format",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       },
       {
         "category": "evidence",
-        "name": "Cloud Notification Records",
-        "description": "Records of cloud adoption notifications submitted to BNM",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "reports",
-        "name": "Cloud Risk Assessment for BNM",
-        "description": "Cloud risk assessments submitted as part of BNM notification",
+        "name": "External Party Engagement Records",
+        "description": "Engagement letter or contract with the independent external party providing assurance",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       }
@@ -157,38 +165,38 @@
   },
   {
     "id": "16.5",
-    "section": "Regulatory Notifications",
-    "subsection": "BNM Notifications",
-    "title": "Technology Audit Findings",
+    "section": "Notification for Technology-Related Applications",
+    "subsection": "Introduction or enhancement to digital services",
+    "title": "Independent External Party Assurance Quality",
     "clauseType": "regulatory",
     "marker": "S",
-    "verbatim": "Financial institutions shall report significant technology audit findings to Bank Negara Malaysia in a timely manner. Findings that indicate material weaknesses in technology risk management, cybersecurity controls, or regulatory compliance shall be reported within thirty days of the audit report being finalised.",
-    "translation": "Report significant IT audit findings to BNM within 30 days of the audit report being finalised. This applies to findings that indicate material weaknesses in technology risk management, cybersecurity, or regulatory compliance.",
+    "verbatim": "A financial institution must ensure that the independent external party providing the assurance is competent and has a good track record. The assurance shall address the matters covered in, and comply with, Part C and D of Appendix 7.",
+    "translation": "The independent external party providing assurance must be competent and have a good track record. The assurance report must address and comply with the matters set out in Part C and Part D of Appendix 7.",
     "evidence": [
-      "Audit finding reporting procedure for BNM",
-      "Significant finding identification criteria",
-      "BNM audit finding notification records",
-      "Thirty-day reporting compliance records"
+      "Independent external party competency assessment and track record verification",
+      "Assurance report addressing Part C of Appendix 7",
+      "Assurance report addressing Part D of Appendix 7",
+      "Selection criteria and due diligence records for the independent external party"
     ],
     "artifacts": [
       {
-        "category": "procedures",
-        "name": "Audit Finding Reporting Procedure",
-        "description": "Procedure for reporting significant technology audit findings to BNM",
+        "category": "governance",
+        "name": "External Party Competency Assessment",
+        "description": "Assessment verifying the competency and track record of the independent external party providing assurance",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Appendix 7 Part C and D Assurance Report",
+        "description": "Assurance report that addresses and complies with Part C and Part D of Appendix 7",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       },
       {
         "category": "evidence",
-        "name": "Audit Finding Notifications",
-        "description": "Records of significant audit findings reported to BNM within 30 days",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "governance",
-        "name": "Significant Finding Criteria",
-        "description": "Criteria for determining which audit findings require BNM notification",
+        "name": "External Party Selection Records",
+        "description": "Due diligence and selection records for the independent external party",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       }
@@ -196,38 +204,38 @@
   },
   {
     "id": "16.6",
-    "section": "Regulatory Notifications",
-    "subsection": "BNM Notifications",
-    "title": "Regulatory Examination Response",
+    "section": "Notification for Technology-Related Applications",
+    "subsection": "Introduction or enhancement to digital services",
+    "title": "Provision of Documents for Bank Review",
     "clauseType": "regulatory",
     "marker": "S",
-    "verbatim": "Financial institutions shall respond to Bank Negara Malaysia regulatory examination findings within the timeframes specified by the Bank. Action plans shall be developed for all findings and progress shall be reported to the board and to the Bank as required. The institution shall cooperate fully with regulatory examinations.",
-    "translation": "Respond to BNM examination findings within the required timeframes. Develop action plans for every finding and report progress to both the board and BNM. Full cooperation with regulatory examinations is mandatory.",
+    "verbatim": "A financial institution shall provide relevant documents for the Bank's review when required by the Bank.",
+    "translation": "When BNM requests documents related to your digital services notification, you must provide them for the Bank's review.",
     "evidence": [
-      "Regulatory examination response procedure",
-      "Examination finding action plans",
-      "Progress reports to BNM and board",
-      "Cooperation and access provision records"
+      "Procedure for responding to BNM document requests",
+      "Records of documents provided to BNM upon request",
+      "Internal tracking of BNM document requests and responses",
+      "Document repository for digital services notification materials"
     ],
     "artifacts": [
       {
         "category": "procedures",
-        "name": "Regulatory Examination Response Procedure",
-        "description": "Procedure for responding to BNM examination findings within required timeframes",
+        "name": "BNM Document Request Response Procedure",
+        "description": "Procedure for providing relevant documents to BNM when requested",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       },
       {
-        "category": "reports",
-        "name": "Examination Finding Action Plans",
-        "description": "Action plans for all regulatory examination findings with timelines",
+        "category": "logs",
+        "name": "BNM Document Request Tracker",
+        "description": "Log tracking all BNM document requests, responses, and submission dates",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       },
       {
-        "category": "reports",
-        "name": "Progress Reports to BNM",
-        "description": "Progress reports on examination finding remediation submitted to BNM",
+        "category": "evidence",
+        "name": "Submitted Document Records",
+        "description": "Copies of all documents submitted to BNM in response to review requests",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       }
@@ -235,38 +243,38 @@
   },
   {
     "id": "16.7",
-    "section": "Regulatory Notifications",
-    "subsection": "BNM Notifications",
-    "title": "Annual Technology Risk Report",
+    "section": "Notification for Technology-Related Applications",
+    "subsection": "Introduction or enhancement to digital services",
+    "title": "Immediate Offering Upon Notification",
     "clauseType": "regulatory",
-    "marker": "S",
-    "verbatim": "Financial institutions shall submit an annual technology risk report to Bank Negara Malaysia. The report shall include an assessment of the institution's technology risk posture, significant incidents during the reporting period, key risk indicators, and planned technology risk management initiatives for the coming year.",
-    "translation": "Submit an annual technology risk report to BNM covering your current risk posture, significant incidents from the past year, key risk metrics, and your plans for improving technology risk management in the coming year.",
+    "marker": "G",
+    "verbatim": "A financial institution may offer digital services or implement any enhancement to the digital services immediately upon submission of the notification under paragraph 16.1 and compliance with the requirements in paragraphs 16.2 to 16.6.",
+    "translation": "You may launch or enhance digital services immediately once you have submitted the notification under paragraph 16.1 and complied with the requirements in paragraphs 16.2 through 16.6. No waiting period or approval from BNM is required.",
     "evidence": [
-      "Annual technology risk report submitted to BNM",
-      "Technology risk posture assessment",
-      "Annual incident summary",
-      "Planned initiatives for the coming year"
+      "Confirmation of notification submission to BNM under paragraph 16.1",
+      "Evidence of compliance with paragraphs 16.2 through 16.6",
+      "Records of digital service launch dates relative to notification submission dates",
+      "Internal sign-off confirming all notification requirements were met prior to launch"
     ],
     "artifacts": [
       {
-        "category": "reports",
-        "name": "Annual Technology Risk Report",
-        "description": "Comprehensive annual technology risk report submitted to BNM",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "reports",
-        "name": "Technology Risk Posture Assessment",
-        "description": "Assessment of current technology risk posture included in annual report",
+        "category": "evidence",
+        "name": "Notification Submission Confirmation",
+        "description": "Confirmation that the notification was submitted to BNM under paragraph 16.1 prior to offering digital services",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       },
       {
         "category": "governance",
-        "name": "Planned Risk Initiatives",
-        "description": "Documented plans for technology risk management initiatives in the coming year",
+        "name": "Compliance Checklist (16.2-16.6)",
+        "description": "Checklist confirming compliance with all requirements in paragraphs 16.2 through 16.6 before digital service launch",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "Digital Service Launch Records",
+        "description": "Records of digital service launch dates and corresponding notification submission dates",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       }

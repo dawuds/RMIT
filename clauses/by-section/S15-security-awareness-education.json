@@ -1,12 +1,12 @@
 [
   {
     "id": "15.1",
-    "section": "Security Awareness & Education",
-    "subsection": "Training & Awareness",
-    "title": "Security Awareness Program",
+    "section": "Security Awareness and Education",
+    "subsection": "Security Awareness and Education",
+    "title": "Technology and Cybersecurity Awareness Education",
     "clauseType": "regulatory",
     "marker": "S",
-    "verbatim": "Financial institutions shall establish a security awareness program that covers all employees, contractors, and third-party personnel with access to the institution's systems. The program shall include mandatory annual training on cybersecurity risks, data protection, and the institution's security policies. Training completion shall be tracked and reported.",
+    "verbatim": "A financial institution must provide adequate and regular technology and cybersecurity awareness education for all staff in undertaking their respective roles and measure the effectiveness of its education and awareness programs. This cybersecurity awareness education must be conducted at least annually and must reflect the evolving cyber threat landscape and emerging risks. Where appropriate, the financial institution shall also include its third party service providers in their relevant training as outlined in paragraph 10.48(i).",
     "translation": "All employees, contractors, and third parties with system access must complete mandatory annual security awareness training covering cyber risks, data protection, and your security policies. Track and report on training completion rates.",
     "evidence": [
       "Security awareness program documentation",
@@ -40,38 +40,38 @@
   },
   {
     "id": "15.2",
-    "section": "Security Awareness & Education",
-    "subsection": "Training & Awareness",
-    "title": "Phishing Simulation",
+    "section": "Security Awareness and Education",
+    "subsection": "Security Awareness and Education",
+    "title": "Continuous Training for Technology Staff",
     "clauseType": "technical",
     "marker": "S",
-    "verbatim": "Financial institutions shall conduct regular phishing simulation exercises to assess employee susceptibility to social engineering attacks. Simulations shall be conducted at least quarterly and shall include follow-up training for personnel who fail the simulation. Metrics shall be tracked and reported to management.",
-    "translation": "Run phishing simulations at least quarterly to test how your people respond to social engineering. Anyone who falls for the simulation must receive additional training. Track metrics over time and report them to management to measure improvement.",
+    "verbatim": "A financial institution must provide adequate and continuous training for staff involved in technology operations, cybersecurity and risk management in order to ensure that the staff are competent and suitably certified to effectively perform their roles and responsibilities.",
+    "translation": "Staff working in technology operations, cybersecurity, and risk management must receive adequate and ongoing training to maintain competence and obtain relevant certifications for their roles.",
     "evidence": [
-      "Phishing simulation program documentation",
-      "Quarterly simulation execution records",
-      "Follow-up training records for failed simulations",
-      "Phishing simulation metrics and trend reports"
+      "Continuous training program for technology and cybersecurity staff",
+      "Training records and attendance logs for technology operations personnel",
+      "Staff certification records (e.g., CISSP, CISM, OSCP, vendor certifications)",
+      "Competency assessments and skills gap analyses"
     ],
     "artifacts": [
       {
-        "category": "procedures",
-        "name": "Phishing Simulation Procedure",
-        "description": "Procedure for conducting quarterly phishing simulations and follow-up training",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "reports",
-        "name": "Phishing Simulation Reports",
-        "description": "Quarterly reports on phishing simulation results and failure rates",
+        "category": "governance",
+        "name": "Technology Staff Training Program",
+        "description": "Documented continuous training program for technology operations, cybersecurity, and risk management staff",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       },
       {
         "category": "evidence",
-        "name": "Follow-Up Training Records",
-        "description": "Records of follow-up training for personnel who failed phishing simulations",
+        "name": "Staff Certification Records",
+        "description": "Records of professional certifications held by technology and cybersecurity staff",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Competency Assessment Report",
+        "description": "Periodic assessments of staff competency and training effectiveness for technology roles",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       }
@@ -79,40 +79,40 @@
   },
   {
     "id": "15.3",
-    "section": "Security Awareness & Education",
-    "subsection": "Training & Awareness",
-    "title": "Role-Based Security Training",
+    "section": "Security Awareness and Education",
+    "subsection": "Security Awareness and Education",
+    "title": "Board Training on Technology Developments",
     "clauseType": "regulatory",
-    "marker": "G",
-    "verbatim": "Financial institutions should provide role-based security training to personnel in specialised functions including IT administrators, developers, security analysts, and senior management. Training content should be tailored to the specific risks and responsibilities associated with each role and should be updated to reflect emerging threats.",
-    "translation": "Provide specialised security training tailored to specific roles such as IT administrators, developers, security analysts, and executives. Training content should reflect the unique risks and responsibilities of each role and be updated as threats evolve.",
+    "marker": "S",
+    "verbatim": "A financial institution must provide its board members with regular training and information on technology developments to enable the board to effectively discharge its oversight role.",
+    "translation": "Board members must receive regular training and briefings on technology developments so they can effectively oversee the institution's technology strategy, risks, and governance.",
     "evidence": [
-      "Role-based training program documentation",
-      "Role-specific training materials and curricula",
-      "Training completion records by role",
-      "Training content update records"
+      "Board technology training schedule and calendar",
+      "Training materials and briefing decks presented to the board",
+      "Board meeting minutes recording technology training sessions",
+      "Attendance records for board technology briefings"
     ],
     "artifacts": [
       {
         "category": "governance",
-        "name": "Role-Based Training Program",
-        "description": "Program defining specialised security training requirements by role",
+        "name": "Board Technology Training Program",
+        "description": "Program for providing regular technology training and briefings to board members",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       },
       {
         "category": "evidence",
-        "name": "Role-Specific Training Materials",
-        "description": "Training materials tailored to specific roles and responsibilities",
+        "name": "Board Technology Briefing Materials",
+        "description": "Presentation materials on technology developments provided to board members",
         "format": "PDF/DOCX, version-controlled",
-        "mandatory": false
+        "mandatory": true
       },
       {
         "category": "reports",
-        "name": "Role-Based Training Completion Report",
-        "description": "Report on role-based training completion and effectiveness",
+        "name": "Board Training Attendance Records",
+        "description": "Records of board member attendance at technology training sessions",
         "format": "PDF/DOCX, version-controlled",
-        "mandatory": false
+        "mandatory": true
       }
     ]
   }

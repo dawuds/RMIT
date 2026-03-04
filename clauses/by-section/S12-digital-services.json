@@ -2,11 +2,11 @@
   {
     "id": "12.1",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "Digital Channel Security",
+    "subsection": "Security of Digital Services",
+    "title": "Digital Services Security Controls",
     "clauseType": "technical",
     "marker": "S",
-    "verbatim": "Financial institutions shall implement security controls for all digital channels including internet banking, mobile banking, and electronic payment systems. Security controls shall address authentication, authorisation, encryption, session management, and protection against common web application vulnerabilities.",
+    "verbatim": "Securing digital services is an integral part of financial institution\u2019s risk management. A financial institution must expand its CRF to implement robust technology security controls in providing digital services which assure the following:\n(a) adopt and regularly assess the minimum-security controls for respective delivery channels to ensure confidentiality and integrity of customer and counterparty information and transactions. Refer to Appendices 2, 3, 4 and 11;\n(b) proper authentication of users or devices and authorization of transactions to mitigate impersonation and fraud risk. Refer the minimum-security controls in Appendix 3; and\n(c) strong physical control and logical control measures.",
     "translation": "All digital channels — internet banking, mobile banking, and payment systems — must have comprehensive security controls covering authentication, authorisation, encryption, session management, and protection against web application attacks.",
     "evidence": [
       "Digital channel security architecture",
@@ -41,11 +41,11 @@
   {
     "id": "12.2",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "Mobile Application Security",
+    "subsection": "Security of Digital Services",
+    "title": "Alternative Controls for Digital Services",
     "clauseType": "technical",
     "marker": "S",
-    "verbatim": "Financial institutions shall implement security controls for mobile banking applications including code obfuscation, root and jailbreak detection, certificate pinning, secure local storage, and protection against reverse engineering. Mobile applications shall undergo security testing prior to each release.",
+    "verbatim": "In the event that a financial institution has not yet implemented the digital services security controls specified under paragraph 12.1 to 12.9, the financial institution must-\n(a) be ready to provide documented explanation of how alternatives measures or mitigations achieve equivalent or superior effectiveness; and\n(b) assume the liability of any fraud that occurs due to the gaps arise from the absence of the specified control.",
     "translation": "Mobile banking apps must include security features like code obfuscation, root/jailbreak detection, certificate pinning, and secure local storage. Test the security of each release before publishing to app stores.",
     "evidence": [
       "Mobile application security standards",
@@ -80,11 +80,11 @@
   {
     "id": "12.3",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "API Security",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Cyber Resilience Framework Enhancement for Digital Fraud",
     "clauseType": "technical",
     "marker": "S",
-    "verbatim": "Financial institutions shall implement security controls for all application programming interfaces (APIs) including authentication, authorisation, rate limiting, input validation, and encryption. APIs shall be inventoried, documented, and subject to regular security assessments. Deprecated APIs shall be decommissioned in a timely manner.",
+    "verbatim": "The complex and fast evolving digital fraud requires financial institutions to be vigilant against new fraud techniques and proactive in strengthening their cyber defence for customer protection. In line with paragraphs 11.2 and 11.3, a financial institution must enhance its CRF as follows:\n(a) expand the scope of identification of cybersecurity threats and countermeasures to include customers\u2019 mobile devices and access points;\n(b) adopt layered (defense-in-depth) security controls to protect the digital service application deployed to customers\u2019 mobile devices and the relevant banking data contained in it;\n(c) perform continuous surveillance and monitoring to detect any exploitation of the digital service application deployed to customers\u2019 mobile devices and ensure the swift upgrade of security controls to mitigate new vulnerabilities;\n(d) establish clearly defined and effective incident handling procedures to assist customers to contain the potential damage resulting from a cybersecurity breach involving digital services;\n(e) formalise operational arrangement to enable swift coordinated response and rapid upgrade of countermeasures to defend against advanced fraud tactics if a financial institution relies on multiple business functions;\n(f) conduct regular review by senior management to ensure the effectiveness of digital fraud management and define threshold for escalation of countermeasures considering the actual impact to victims of digital fraud and emerging fraud environment; and\n(g) apprise the board on the outcome of management reviews to preserve public confidence in the security of digital services and mitigate reputation risk to the industry.",
     "translation": "Secure all APIs with authentication, authorisation, rate limiting, input validation, and encryption. Maintain an inventory of all APIs, document them, and test their security regularly. Shut down deprecated APIs promptly.",
     "evidence": [
       "API security standards and policy",
@@ -119,11 +119,11 @@
   {
     "id": "12.4",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "Customer Authentication",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Fraud Detection Capabilities",
     "clauseType": "technical",
     "marker": "S",
-    "verbatim": "Financial institutions shall implement robust customer authentication mechanisms for digital services that are commensurate with the risk profile of the transaction or service. Multi-factor authentication shall be required for high-risk transactions. Authentication mechanisms shall be regularly assessed for effectiveness.",
+    "verbatim": "A financial institution must ensure that its fraud detection capabilities and rules are updated in a timely manner upon detection of new fraud modus operandi in order to prevent fraudulent transactions or account takeover using stolen customer credentials. This must be supported by appropriate risk analytics to improve the accuracy of fraud detection, that includes continuous upgrade of fraud detection capabilities as specified in Appendix 11 on Fraud Detection Standards.",
     "translation": "Customer authentication for digital services must match the risk level of the activity. High-risk transactions require MFA. Regularly assess whether your authentication mechanisms are still effective against current threats.",
     "evidence": [
       "Customer authentication policy",
@@ -158,11 +158,11 @@
   {
     "id": "12.5",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "Transaction Verification",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Attendant Risk Mitigation for Digital Services",
     "clauseType": "technical",
     "marker": "S",
-    "verbatim": "Financial institutions shall implement transaction verification mechanisms for high-value and high-risk digital transactions. Verification shall be performed through an independent channel from the transaction initiation channel. Customers shall be provided with transaction details for verification prior to final authorisation.",
+    "verbatim": "A financial institution must mitigate any attendant risk arising from its delivery of digital services. This shall include-\n(a) adopt secure communication channel to mitigate risk of phishing. Compensating controls shall be adopted when using communication channel prone to phishing exploits;\n(b) all customers must be properly informed in advance of new controls to ease adoption and minimise inconvenience; and\n(c) practical ways for customers to verify the authenticity of calls made by the financial institution or its appointed outsourced service providers.",
     "translation": "High-value and high-risk digital transactions need out-of-band verification — confirming the transaction through a separate channel from the one used to initiate it. Show customers the full transaction details for confirmation before final authorisation.",
     "evidence": [
       "Transaction verification policy and procedures",
@@ -197,11 +197,11 @@
   {
     "id": "12.6",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "Session Management",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Customer Empowerment for Digital Fraud Mitigation",
     "clauseType": "technical",
     "marker": "S",
-    "verbatim": "Financial institutions shall implement secure session management for all digital services including automatic session timeout, secure session token generation, session fixation prevention, and concurrent session controls. Session tokens shall not be transmitted in URLs and shall be invalidated upon logout.",
+    "verbatim": "A financial institution shall empower customers to mitigate digital fraud risks where it is reasonably practical. This shall include offering customer mechanisms to manage activation and de-activation of payment card for card-not-present and overseas transactions. This shall not absolve the financial institution from its liabilities, responsibilities and duty of care to ensure the security of its digital services.",
     "translation": "Implement secure session management for digital services: automatic timeouts, securely generated session tokens, protection against session fixation attacks, and controls on concurrent sessions. Never put session tokens in URLs and always invalidate them on logout.",
     "evidence": [
       "Session management policy and standards",
@@ -236,11 +236,11 @@
   {
     "id": "12.7",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "Fraud Detection",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Consumer Competency and Awareness",
     "clauseType": "technical",
     "marker": "S",
-    "verbatim": "Financial institutions shall implement real-time fraud detection and monitoring systems for digital banking transactions. The systems shall employ behavioural analytics, transaction pattern analysis, and anomaly detection to identify potentially fraudulent activities. Suspicious transactions shall be flagged for review and potential blocking.",
+    "verbatim": "Consumer competency is essential to strengthening the security of digital services. A financial institution must maintain continuous efforts to review and enhance the effectiveness of its awareness programmes, ensuring customers understand the risks of digital services fraud. This shall include-\n(a) continuous and timely updates of practical information on how to identify potential fraud, including specific information about new or common modus operandi;\n(b) clear explanation about new and existing security measures, such as how to verify genuine e-banking websites and mobile applications;\n(c) real-time alerts of possible risks when security measures are absent or have not yet been implemented; and\n(d) measures to further improve customer understanding and familiarisation with fraud risks and controls, such as through interactive simulations of security features etc.",
     "translation": "Deploy real-time fraud detection for digital transactions using behavioural analytics, pattern analysis, and anomaly detection. Flag suspicious transactions for review and be able to block them in real time when necessary.",
     "evidence": [
       "Fraud detection system architecture and configuration",
@@ -275,11 +275,11 @@
   {
     "id": "12.8",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "Digital Onboarding Security",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Customer Reporting and Account Management",
     "clauseType": "technical",
-    "marker": "G",
-    "verbatim": "Financial institutions should implement security controls for digital customer onboarding processes including identity verification, liveness detection, document verification, and fraud screening. Digital onboarding controls should be commensurate with the risk level of the products and services being offered.",
+    "marker": "S",
+    "verbatim": "A financial institution must provide convenient means for customers to report, suspend and re-activate their account swiftly in the event of a suspected fraud, where applicable. This shall require the financial institution to:\n(a) offer a secure self-service \u201ckill switch\u201d solution;\n(b) ensure that its contact centre is adequately resourced and operating effectively to provide prompt and adequate assistance to customers in distress; and\n(c) restore customer access to digital services within a reasonable timeframe upon validation.",
     "translation": "When onboarding customers digitally, use security controls like identity verification, liveness detection, document checks, and fraud screening. The level of controls should match the risk of the products being offered.",
     "evidence": [
       "Digital onboarding security standards",
@@ -314,11 +314,11 @@
   {
     "id": "12.9",
     "section": "Digital Services",
-    "subsection": "Digital Channels",
-    "title": "QR Code & E-Wallet Security",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Additional Measures for Fraud and Data Compromise Incidents",
     "clauseType": "technical",
     "marker": "S",
-    "verbatim": "Financial institutions shall implement security controls for QR code-based payments and e-wallet services including QR code validation, transaction encryption, and protection against QR code tampering and overlay attacks. Security controls shall ensure the integrity and authenticity of QR code transactions.",
+    "verbatim": "In addition to effective incident handling procedures, a financial institution must adopt additional measures to mitigate risk to customers arising from any incident involving potential fraud or compromise of customer data. This shall include-\n(a) heighten monitoring of affected customer accounts;\n(b) notify affected customers and provide them with the necessary information to apply mitigating measures and reduce the risk of fraud; and\n(c) revoke and re-issue affected user credentials or designated payment instruments, where there is a potential risk of exploitation due to compromised data or other fraudulent activity.",
     "translation": "Secure QR code payments and e-wallet services against tampering, overlay attacks, and forgery. Ensure QR codes are validated, transactions are encrypted, and the integrity and authenticity of every QR-based transaction is verified.",
     "evidence": [
       "QR code and e-wallet security standards",

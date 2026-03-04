@@ -6,7 +6,7 @@
     "title": "Technology Risk Framework",
     "clauseType": "governance",
     "marker": "S",
-    "verbatim": "Financial institutions shall establish and maintain a comprehensive technology risk management framework that is commensurate with the nature, size, and complexity of the institution's operations. The framework shall define risk governance structures, risk appetite, risk assessment methodologies, and risk reporting mechanisms.",
+    "verbatim": "A financial institution must ensure that the TRMF is an integral part of the financial institution\u2019s enterprise risk management framework (ERM).",
     "translation": "You must create and maintain a technology risk management framework that fits your institution's size and complexity. It should cover governance structures, risk appetite, how you assess risks, and how you report on them.",
     "evidence": [
       "Technology risk management framework document",
@@ -45,7 +45,7 @@
     "title": "Risk Identification & Assessment",
     "clauseType": "governance",
     "marker": "S",
-    "verbatim": "Financial institutions shall conduct regular and systematic identification and assessment of technology risks. Risk assessments shall consider threats, vulnerabilities, likelihood, and potential impact across all critical technology assets and services. Assessments shall be performed at least annually and upon significant changes.",
+    "verbatim": "The TRMF must include the following:\n(a) clear definition of technology risk;\n(b) clear responsibilities assigned for the management of technology risk at different levels and across functions, with appropriate governance and reporting arrangements;\n(c) the identification of technology risks to which the financial institution is exposed, including risks from the adoption of new or emerging technology (refer Appendix 9 on Guidance on Emerging Technologies);\n(d) risk classification of all information assets / systems based on its criticality;\n(e) risk measurement and assessment approaches and methodologies;\n(f) risk controls and mitigations;\n(g) continuous monitoring to timely detect and address any material risks;\n(h) effective information system to ensure the technology risk profile remains accurate and up to date;\n(i) identification of key resources and interdependencies (including critical third party service providers and their connected parties) which support delivery of critical technology functions;\n(j) undertake scenario analysis to strengthen capacity and readiness to resume critical systems under severe conditions; and\n(k) effective incident management policies and procedures to minimise the impact of any service disruption on the financial institution and its customers, by restoring the affected service or system to a secure and stable state as quickly as possible.",
     "translation": "You must regularly and systematically identify and assess technology risks by looking at threats, vulnerabilities, how likely they are, and what impact they could have. This applies to all critical technology assets and must happen at least yearly or whenever there are major changes.",
     "evidence": [
       "Technology risk assessment methodology document",
@@ -84,7 +84,7 @@
     "title": "Risk Treatment & Mitigation",
     "clauseType": "governance",
     "marker": "S",
-    "verbatim": "Financial institutions shall develop and implement risk treatment plans for identified technology risks. Risk treatment options shall include avoidance, mitigation, transfer, or acceptance, with formal approval for risk acceptance by the appropriate authority level. Treatment plans shall include timelines and accountable owners.",
+    "verbatim": "A financial institution must establish an independent enterprise-wide technology risk management function which is responsible for-\n(a) implementing the TRMF and CRF;\n(b) advising on critical technology projects and ensuring critical issues that may have an impact on the financial institution\u2019s risk tolerance are adequately deliberated or escalated in a timely manner; and\n(c) providing independent views to the board and senior management on third party assessments, where necessary.",
     "translation": "For every identified technology risk, you need a treatment plan: avoid it, mitigate it, transfer it, or accept it. Risk acceptance requires formal sign-off by someone with appropriate authority. Each plan must have deadlines and a named person responsible.",
     "evidence": [
       "Risk treatment plans with assigned owners",
@@ -122,8 +122,8 @@
     "subsection": "Risk Management Framework",
     "title": "Risk Monitoring & Reporting",
     "clauseType": "governance",
-    "marker": "G",
-    "verbatim": "Financial institutions should establish mechanisms for continuous monitoring and periodic reporting of technology risks. Key risk indicators should be defined, measured, and reported to senior management and the board. Breaches of risk appetite thresholds should trigger escalation procedures.",
+    "marker": "S",
+    "verbatim": "A financial institution must designate a Chief Information Security Officer (CISO) by whatever name called, to be responsible for the technology risk management function of the financial institution. The financial institution must ensure that the CISO has sufficient authority, independence and resources. The CISO shall-\n(a) be independent from day-to-day technology operations;\n(b) apprise board and senior management of current and emerging technology risks which could potentially affect the financial institution\u2019s risk profile;\n(c) have the requisite technical skills in emerging and core technologies used by the institution, expertise and experience in audit, governance and risk management, strategic planning and execution of IT and cybersecurity programs, and third party risk management; and\n(d) be appropriately certified.",
     "translation": "You should set up ongoing monitoring and regular reporting of technology risks. Define KRIs that are tracked and reported to management and the board. When risk thresholds are breached, there should be automatic escalation processes.",
     "evidence": [
       "Key risk indicator definitions and thresholds",
@@ -162,7 +162,7 @@
     "title": "Technology Risk Register",
     "clauseType": "governance",
     "marker": "S",
-    "verbatim": "Financial institutions shall maintain a comprehensive and up-to-date technology risk register. The register shall document all identified technology risks, their assessed likelihood and impact, risk owners, treatment plans, and current status. The register shall be reviewed at least quarterly.",
+    "verbatim": "The CISO shall be responsible for ensuring that the financial institution\u2019s information assets and technologies are adequately protected, which includes-\n(a) formulating appropriate policies for the effective implementation of TRMF and CRF;\n(b) enforcing compliance with these policies, frameworks and other technology-related regulatory requirements; and\n(c) advising senior management on technology risk and security matters, including developments in the financial institution\u2019s technology security risk profile in relation to its business and operations.",
     "translation": "You must keep a complete, current register of all technology risks. Each entry needs the risk description, likelihood, impact, owner, treatment plan, and status. This register must be reviewed at least every quarter to ensure it reflects reality.",
     "evidence": [
       "Technology risk register with all required fields",

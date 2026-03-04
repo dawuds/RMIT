@@ -1,12 +1,12 @@
 [
   {
     "id": "18.1",
-    "section": "Assessment & Gap Analysis",
-    "subsection": "Self-Assessment",
-    "title": "Annual RMiT Self-Assessment",
+    "section": "Assessment and Gap Analysis",
+    "subsection": "Assessment and Gap Analysis",
+    "title": "Gap Analysis and Action Plan",
     "clauseType": "governance",
     "marker": "S",
-    "verbatim": "Financial institutions shall conduct an annual self-assessment of their compliance with the Risk Management in Technology policy document. The self-assessment shall cover all applicable policy requirements and shall identify areas of non-compliance, partial compliance, and full compliance with supporting evidence.",
+    "verbatim": "A financial institution must perform a gap analysis of existing practices in managing technology risk against the requirements in this policy document and highlight key implementation gaps. The financial institution must develop an action plan with a clear timeline and key milestones to address the gaps identified. The gap analysis and action plan must be submitted to the Bank no later than 90 days after the issuance date of this policy document. Financial institutions that have previously made a submission in accordance with the equivalent provision in the previous version of this policy document are required to maintain continuous compliance by identifying any new gaps against the enhanced or revised requirements in the latest version of this policy document and taking the necessary steps to address such gaps. The updated annual assessment of its level of compliance must be made available to the Bank upon request.",
     "translation": "Conduct a formal annual self-assessment of your compliance with the full RMiT policy. For each requirement, determine whether you are fully compliant, partially compliant, or non-compliant, and provide supporting evidence for your assessment.",
     "evidence": [
       "Annual RMiT self-assessment report",
@@ -40,12 +40,12 @@
   },
   {
     "id": "18.2",
-    "section": "Assessment & Gap Analysis",
-    "subsection": "Self-Assessment",
-    "title": "Gap Remediation Planning",
+    "section": "Assessment and Gap Analysis",
+    "subsection": "Assessment and Gap Analysis",
+    "title": "Submission of Gap Analysis to Relevant Department",
     "clauseType": "governance",
     "marker": "S",
-    "verbatim": "Financial institutions shall develop remediation plans for all identified gaps in compliance with the Risk Management in Technology policy. Remediation plans shall include specific actions, accountable owners, target completion dates, and required resources. Progress on remediation shall be reported to the board at least quarterly.",
+    "verbatim": "The self-assessment, gap analysis and action plan in paragraph 18.1 must be submitted to Jabatan Penyeliaan Konglomerat Kewangan, Jabatan Penyeliaan Perbankan, Jabatan Penyeliaan Insurans dan Takaful or Jabatan Pemantauan Perkhidmatan Pembayaran, as the case may be.",
     "translation": "For every compliance gap found in the self-assessment, create a remediation plan with specific actions, assigned owners, target dates, and resource requirements. Report remediation progress to the board at least quarterly.",
     "evidence": [
       "Gap remediation plan with actions and owners",
