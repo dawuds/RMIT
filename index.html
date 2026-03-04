@@ -7,15 +7,27 @@
   <meta name="description" content="Interactive browser for BNM Risk Management in Technology (RMiT) — explore clauses, requirements, evidence guidance, common controls, and compliance artifacts.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="header" id="site-header">
     <div class="header-inner">
-      <h1>BNM RMiT Explorer</h1>
+      <a href="#" class="header-brand">
+        <h1>BNM RMiT Explorer</h1>
+        <span class="header-subtitle">Risk Management in Technology (Nov 2025)</span>
+      </a>
+      <div class="header-search">
+        <input type="text" id="search-input" placeholder="Search clauses, controls, evidence…" autocomplete="off">
+      </div>
     </div>
   </header>
+  <nav class="nav" id="site-nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-link active" data-view="overview">Overview</a>
+      <a href="#controls" class="nav-link" data-view="controls-browser">Controls</a>
+    </div>
+  </nav>
   <div id="app">
     <div class="loading">
       <div class="spinner"></div>

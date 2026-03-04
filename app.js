@@ -60,6 +60,9 @@ function renderOverview() {
   const totalSubsections = sections.reduce((s, sec) => s + sec.subsections.length, 0);
 
   return `
+    <div class="disclaimer">
+      This database is for educational and indicative purposes only. It does not constitute legal advice. The content represents a structured interpretation of BNM's Risk Management in Technology Policy Document (November 2025). Always consult the source PDF and qualified legal or regulatory counsel for compliance decisions.
+    </div>
     <div class="stats-banner">
       <div class="stat"><div class="stat-value">${sections.length}</div><div class="stat-label">Sections</div></div>
       <div class="stat"><div class="stat-value">${totalSubsections}</div><div class="stat-label">Subsections</div></div>
@@ -489,10 +492,22 @@ function renderControlDetail(slug) {
     </ul>`;
 }
 
+function updateNav() {
+  document.querySelectorAll('.nav-link').forEach(el => {
+    const view = el.dataset.view;
+    el.classList.toggle('active', view === state.route.view ||
+      (view === 'overview' && state.route.view === 'section') ||
+      (view === 'overview' && state.route.view === 'clause') ||
+      (view === 'controls-browser' && state.route.view === 'control-detail')
+    );
+  });
+}
+
 // ---- Main Render ----
 async function render() {
   const app = document.getElementById('app');
   const route = state.route;
+  updateNav();
 
   if (!state.sections || !state.clauses) {
     app.innerHTML = renderLoading();
@@ -623,21 +638,7 @@ function setupEvents() {
   });
 }
 
-function renderHeader() {
-  const header = document.getElementById('site-header');
-  if (!header) return;
-  header.innerHTML = `
-    <div class="header-inner">
-      <h1><a href="#">BNM RMiT Explorer</a></h1>
-      <div class="search-box">
-        <span class="search-icon">\u2315</span>
-        <input type="text" id="search-input" placeholder="Search clauses\u2026" autocomplete="off" />
-      </div>
-    </div>`;
-}
-
 function init() {
-  renderHeader();
   state.route = parseHash();
   setupEvents();
   render();
