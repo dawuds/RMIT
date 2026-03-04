@@ -1,0 +1,702 @@
+{
+  "clauseToControls": {
+    "8.1": [
+      "board-technology-risk-oversight"
+    ],
+    "8.2": [
+      "technology-risk-committee"
+    ],
+    "8.3": [
+      "board-technology-competency"
+    ],
+    "8.4": [
+      "technology-risk-appetite-framework"
+    ],
+    "8.5": [
+      "board-technology-risk-oversight",
+      "risk-monitoring-and-kri"
+    ],
+    "8.6": [
+      "senior-management-accountability"
+    ],
+    "8.7": [
+      "technology-risk-function"
+    ],
+    "9.1": [
+      "technology-risk-appetite-framework",
+      "technology-risk-management-framework"
+    ],
+    "9.2": [
+      "technology-risk-assessment"
+    ],
+    "9.3": [
+      "risk-treatment-and-acceptance"
+    ],
+    "9.4": [
+      "risk-monitoring-and-kri"
+    ],
+    "9.5": [
+      "technology-risk-register"
+    ],
+    "10.1": [
+      "it-project-governance"
+    ],
+    "10.2": [
+      "technology-risk-assessment",
+      "it-project-governance"
+    ],
+    "10.3": [
+      "it-project-governance"
+    ],
+    "10.4": [
+      "sdlc-framework"
+    ],
+    "10.5": [
+      "sdlc-framework"
+    ],
+    "10.6": [
+      "secure-development-practices"
+    ],
+    "10.7": [
+      "secure-development-practices"
+    ],
+    "10.8": [
+      "sdlc-framework"
+    ],
+    "10.9": [
+      "sdlc-framework"
+    ],
+    "10.10": [
+      "change-management"
+    ],
+    "10.11": [
+      "change-management"
+    ],
+    "10.12": [
+      "change-management"
+    ],
+    "10.13": [
+      "environment-segregation"
+    ],
+    "10.14": [
+      "source-code-protection"
+    ],
+    "10.15": [
+      "configuration-management"
+    ],
+    "10.16": [
+      "capacity-and-performance-management"
+    ],
+    "10.17": [
+      "patch-management"
+    ],
+    "10.18": [
+      "patch-management"
+    ],
+    "10.19": [
+      "end-of-life-management"
+    ],
+    "10.20": [
+      "cryptographic-controls"
+    ],
+    "10.21": [
+      "key-and-certificate-management"
+    ],
+    "10.22": [
+      "cryptographic-controls"
+    ],
+    "10.23": [
+      "key-and-certificate-management"
+    ],
+    "10.24": [
+      "data-centre-physical-security"
+    ],
+    "10.25": [
+      "environmental-controls"
+    ],
+    "10.26": [
+      "power-and-redundancy"
+    ],
+    "10.27": [
+      "environmental-controls"
+    ],
+    "10.28": [
+      "data-centre-physical-security"
+    ],
+    "10.29": [
+      "service-level-management"
+    ],
+    "10.30": [
+      "it-service-continuity"
+    ],
+    "10.31": [
+      "disaster-recovery"
+    ],
+    "10.32": [
+      "disaster-recovery"
+    ],
+    "10.33": [
+      "disaster-recovery"
+    ],
+    "10.34": [
+      "business-impact-analysis"
+    ],
+    "10.35": [
+      "crisis-communication",
+      "cyber-crisis-management"
+    ],
+    "10.36": [
+      "network-architecture-and-segmentation"
+    ],
+    "10.37": [
+      "network-architecture-and-segmentation"
+    ],
+    "10.38": [
+      "firewall-management"
+    ],
+    "10.39": [
+      "intrusion-detection-and-prevention",
+      "siem-implementation"
+    ],
+    "10.40": [
+      "wireless-security"
+    ],
+    "10.41": [
+      "remote-access-security"
+    ],
+    "10.42": [
+      "dns-security"
+    ],
+    "10.43": [
+      "network-monitoring",
+      "soc-operations"
+    ],
+    "10.44": [
+      "backup-management"
+    ],
+    "10.45": [
+      "backup-management"
+    ],
+    "10.46": [
+      "vendor-risk-assessment"
+    ],
+    "10.47": [
+      "outsourcing-governance"
+    ],
+    "10.48": [
+      "sla-monitoring"
+    ],
+    "10.49": [
+      "vendor-exit-strategy"
+    ],
+    "10.50": [
+      "cloud-risk-assessment"
+    ],
+    "10.51": [
+      "access-control-framework"
+    ],
+    "10.52": [
+      "cloud-data-residency"
+    ],
+    "10.53": [
+      "identity-and-access-management"
+    ],
+    "10.54": [
+      "multi-factor-authentication"
+    ],
+    "10.55": [
+      "password-management"
+    ],
+    "10.56": [
+      "privileged-access-management"
+    ],
+    "10.57": [
+      "access-review-and-recertification"
+    ],
+    "11.1": [
+      "incident-response-plan"
+    ],
+    "11.2": [
+      "cybersecurity-strategy"
+    ],
+    "11.3": [
+      "cybersecurity-governance"
+    ],
+    "11.4": [
+      "incident-response-plan"
+    ],
+    "11.5": [
+      "crisis-communication",
+      "cyber-crisis-management"
+    ],
+    "11.6": [
+      "network-monitoring",
+      "soc-operations"
+    ],
+    "11.7": [
+      "intrusion-detection-and-prevention",
+      "siem-implementation"
+    ],
+    "11.8": [
+      "endpoint-protection"
+    ],
+    "11.9": [
+      "email-security"
+    ],
+    "11.10": [
+      "data-loss-prevention"
+    ],
+    "11.11": [
+      "vulnerability-assessment"
+    ],
+    "11.12": [
+      "penetration-testing"
+    ],
+    "11.13": [
+      "red-team-exercises"
+    ],
+    "11.14": [
+      "vulnerability-assessment"
+    ],
+    "11.15": [
+      "bug-bounty-and-disclosure"
+    ],
+    "11.16": [
+      "threat-intelligence-program"
+    ],
+    "11.17": [
+      "threat-intelligence-program"
+    ],
+    "11.18": [
+      "threat-hunting"
+    ],
+    "11.19": [
+      "ioc-management"
+    ],
+    "11.20": [
+      "cyber-situational-awareness"
+    ],
+    "12.1": [
+      "digital-channel-security"
+    ],
+    "12.2": [
+      "mobile-application-security"
+    ],
+    "12.3": [
+      "api-security"
+    ],
+    "12.4": [
+      "multi-factor-authentication",
+      "customer-authentication"
+    ],
+    "12.5": [
+      "transaction-verification"
+    ],
+    "12.6": [
+      "session-management"
+    ],
+    "12.7": [
+      "fraud-detection"
+    ],
+    "12.8": [
+      "customer-authentication"
+    ],
+    "12.9": [
+      "qr-code-and-ewallet-security"
+    ],
+    "13.1": [
+      "it-audit-program"
+    ],
+    "13.2": [
+      "it-audit-independence-and-competency"
+    ],
+    "13.3": [
+      "it-audit-independence-and-competency"
+    ],
+    "13.4": [
+      "it-audit-program"
+    ],
+    "14.1": [
+      "vendor-risk-assessment",
+      "third-party-security-assessment"
+    ],
+    "14.2": [
+      "third-party-security-assessment"
+    ],
+    "15.1": [
+      "security-awareness-program"
+    ],
+    "15.2": [
+      "phishing-simulation"
+    ],
+    "15.3": [
+      "role-based-security-training"
+    ],
+    "16.1": [
+      "incident-response-plan",
+      "incident-notification-framework"
+    ],
+    "16.2": [
+      "technology-change-notification"
+    ],
+    "16.3": [
+      "outsourcing-notification"
+    ],
+    "16.4": [
+      "technology-change-notification"
+    ],
+    "16.5": [
+      "regulatory-examination-response"
+    ],
+    "16.6": [
+      "regulatory-examination-response"
+    ],
+    "16.7": [
+      "annual-technology-risk-reporting"
+    ],
+    "17.1": [
+      "cloud-risk-assessment"
+    ],
+    "17.2": [
+      "cloud-security-controls"
+    ],
+    "17.3": [
+      "cloud-portability-and-exit"
+    ],
+    "17.4": [
+      "ai-and-ml-governance"
+    ],
+    "17.5": [
+      "emerging-technology-risk-assessment"
+    ],
+    "18.1": [
+      "technology-risk-management-framework",
+      "rmit-self-assessment"
+    ],
+    "18.2": [
+      "gap-remediation-tracking"
+    ]
+  },
+  "controlToClauses": {
+    "access-control-framework": [
+      "10.51"
+    ],
+    "access-review-and-recertification": [
+      "10.57"
+    ],
+    "ai-and-ml-governance": [
+      "17.4"
+    ],
+    "annual-technology-risk-reporting": [
+      "16.7"
+    ],
+    "api-security": [
+      "12.3"
+    ],
+    "backup-management": [
+      "10.44",
+      "10.45"
+    ],
+    "board-technology-competency": [
+      "8.3"
+    ],
+    "board-technology-risk-oversight": [
+      "8.1",
+      "8.5"
+    ],
+    "bug-bounty-and-disclosure": [
+      "11.15"
+    ],
+    "business-impact-analysis": [
+      "10.34"
+    ],
+    "capacity-and-performance-management": [
+      "10.16"
+    ],
+    "change-management": [
+      "10.10",
+      "10.11",
+      "10.12"
+    ],
+    "cloud-data-residency": [
+      "10.52"
+    ],
+    "cloud-portability-and-exit": [
+      "17.3"
+    ],
+    "cloud-risk-assessment": [
+      "10.50",
+      "17.1"
+    ],
+    "cloud-security-controls": [
+      "17.2"
+    ],
+    "configuration-management": [
+      "10.15"
+    ],
+    "crisis-communication": [
+      "10.35",
+      "11.5"
+    ],
+    "cryptographic-controls": [
+      "10.20",
+      "10.22"
+    ],
+    "customer-authentication": [
+      "12.4",
+      "12.8"
+    ],
+    "cyber-crisis-management": [
+      "11.5",
+      "10.35"
+    ],
+    "cyber-situational-awareness": [
+      "11.20"
+    ],
+    "cybersecurity-governance": [
+      "11.3"
+    ],
+    "cybersecurity-strategy": [
+      "11.2"
+    ],
+    "data-centre-physical-security": [
+      "10.24",
+      "10.28"
+    ],
+    "data-loss-prevention": [
+      "11.10"
+    ],
+    "digital-channel-security": [
+      "12.1"
+    ],
+    "disaster-recovery": [
+      "10.31",
+      "10.32",
+      "10.33"
+    ],
+    "dns-security": [
+      "10.42"
+    ],
+    "email-security": [
+      "11.9"
+    ],
+    "emerging-technology-risk-assessment": [
+      "17.5"
+    ],
+    "end-of-life-management": [
+      "10.19"
+    ],
+    "endpoint-protection": [
+      "11.8"
+    ],
+    "environment-segregation": [
+      "10.13"
+    ],
+    "environmental-controls": [
+      "10.25",
+      "10.27"
+    ],
+    "firewall-management": [
+      "10.38"
+    ],
+    "fraud-detection": [
+      "12.7"
+    ],
+    "gap-remediation-tracking": [
+      "18.2"
+    ],
+    "identity-and-access-management": [
+      "10.53"
+    ],
+    "incident-notification-framework": [
+      "16.1"
+    ],
+    "incident-response-plan": [
+      "11.1",
+      "11.4",
+      "16.1"
+    ],
+    "intrusion-detection-and-prevention": [
+      "10.39",
+      "11.7"
+    ],
+    "ioc-management": [
+      "11.19"
+    ],
+    "it-audit-independence-and-competency": [
+      "13.2",
+      "13.3"
+    ],
+    "it-audit-program": [
+      "13.1",
+      "13.4"
+    ],
+    "it-project-governance": [
+      "10.1",
+      "10.2",
+      "10.3"
+    ],
+    "it-service-continuity": [
+      "10.30"
+    ],
+    "key-and-certificate-management": [
+      "10.21",
+      "10.23"
+    ],
+    "mobile-application-security": [
+      "12.2"
+    ],
+    "multi-factor-authentication": [
+      "10.54",
+      "12.4"
+    ],
+    "network-architecture-and-segmentation": [
+      "10.36",
+      "10.37"
+    ],
+    "network-monitoring": [
+      "10.43",
+      "11.6"
+    ],
+    "outsourcing-governance": [
+      "10.47"
+    ],
+    "outsourcing-notification": [
+      "16.3"
+    ],
+    "password-management": [
+      "10.55"
+    ],
+    "patch-management": [
+      "10.17",
+      "10.18"
+    ],
+    "penetration-testing": [
+      "11.12"
+    ],
+    "phishing-simulation": [
+      "15.2"
+    ],
+    "power-and-redundancy": [
+      "10.26"
+    ],
+    "privileged-access-management": [
+      "10.56"
+    ],
+    "qr-code-and-ewallet-security": [
+      "12.9"
+    ],
+    "red-team-exercises": [
+      "11.13"
+    ],
+    "regulatory-examination-response": [
+      "16.5",
+      "16.6"
+    ],
+    "remote-access-security": [
+      "10.41"
+    ],
+    "risk-monitoring-and-kri": [
+      "9.4",
+      "8.5"
+    ],
+    "risk-treatment-and-acceptance": [
+      "9.3"
+    ],
+    "rmit-self-assessment": [
+      "18.1"
+    ],
+    "role-based-security-training": [
+      "15.3"
+    ],
+    "sdlc-framework": [
+      "10.4",
+      "10.5",
+      "10.8",
+      "10.9"
+    ],
+    "secure-development-practices": [
+      "10.6",
+      "10.7"
+    ],
+    "security-awareness-program": [
+      "15.1"
+    ],
+    "senior-management-accountability": [
+      "8.6"
+    ],
+    "service-level-management": [
+      "10.29"
+    ],
+    "session-management": [
+      "12.6"
+    ],
+    "siem-implementation": [
+      "11.7",
+      "10.39"
+    ],
+    "sla-monitoring": [
+      "10.48"
+    ],
+    "soc-operations": [
+      "11.6",
+      "10.43"
+    ],
+    "source-code-protection": [
+      "10.14"
+    ],
+    "technology-change-notification": [
+      "16.2",
+      "16.4"
+    ],
+    "technology-risk-appetite-framework": [
+      "8.4",
+      "9.1"
+    ],
+    "technology-risk-assessment": [
+      "9.2",
+      "10.2"
+    ],
+    "technology-risk-committee": [
+      "8.2"
+    ],
+    "technology-risk-function": [
+      "8.7"
+    ],
+    "technology-risk-management-framework": [
+      "9.1",
+      "18.1"
+    ],
+    "technology-risk-register": [
+      "9.5"
+    ],
+    "third-party-security-assessment": [
+      "14.1",
+      "14.2"
+    ],
+    "threat-hunting": [
+      "11.18"
+    ],
+    "threat-intelligence-program": [
+      "11.16",
+      "11.17"
+    ],
+    "transaction-verification": [
+      "12.5"
+    ],
+    "vendor-exit-strategy": [
+      "10.49"
+    ],
+    "vendor-risk-assessment": [
+      "10.46",
+      "14.1"
+    ],
+    "vulnerability-assessment": [
+      "11.11",
+      "11.14"
+    ],
+    "wireless-security": [
+      "10.40"
+    ]
+  }
+}

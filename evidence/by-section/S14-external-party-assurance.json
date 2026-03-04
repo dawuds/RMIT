@@ -1,0 +1,238 @@
+{
+  "14.1": {
+    "clauseId": "14.1",
+    "section": "External Party Assurance",
+    "subsection": "External Party Assurance",
+    "title": "Data Centre Resilience Assessment",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that independent security assessments are obtained for all critical third-party service providers at least annually, that assessments cover security controls, data protection, and contractual compliance, and that results are reviewed by the risk management function. They will request the vendor register, assessment reports, and risk management review records.",
+    "evidenceItems": [
+      {
+        "id": "14.1-E1",
+        "name": "Third-party assessment policy and schedule",
+        "description": "Formal policy defining requirements for independent security assessments of third-party service providers and the assessment schedule for critical vendors",
+        "whatGoodLooksLike": [
+          "Policy defines assessment frequency requirements by vendor criticality tier (minimum annual for critical providers)",
+          "Assessment scope requirements cover security controls, data protection, incident response, and business continuity",
+          "Criteria for qualifying independent assessors are defined (e.g., CREST, ISO 27001 lead auditor, Big Four)",
+          "Annual assessment schedule showing all critical vendors with planned assessment dates and status",
+          "Policy approved by CISO and Chief Risk Officer, reviewed within the last 12 months"
+        ],
+        "commonGaps": [
+          "No formal policy; vendor assessments performed ad hoc without defined frequency or scope requirements",
+          "Assessment policy does not define what constitutes an 'independent' assessor, allowing vendor self-assessments to be accepted",
+          "Assessment schedule does not cover all critical vendors or has significant gaps in coverage",
+          "Policy does not define assessment scope requirements, leading to inconsistent and incomplete assessments"
+        ],
+        "suggestedSources": [
+          "Vendor management office policy repository",
+          "IT Security third-party risk management documentation",
+          "Procurement and vendor management procedures"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "14.1-E2",
+        "name": "Independent security assessment reports for critical vendors",
+        "description": "Security assessment reports from independent assessors for each critical third-party service provider",
+        "whatGoodLooksLike": [
+          "Independent assessment reports available for 100% of critical vendors within the last 12 months",
+          "Reports produced by qualified independent assessors (not the vendor's own internal audit or parent company audit)",
+          "Assessment scope covers security controls, data protection practices, and compliance with contractual security requirements",
+          "Reports include findings with severity ratings, recommendations, and vendor management responses",
+          "SOC 2 Type II, ISO 27001 audit reports, or equivalent independent assurance reports for each critical vendor"
+        ],
+        "commonGaps": [
+          "Assessment reports missing for some critical vendors or reports older than 12 months",
+          "Vendor-provided self-assessment questionnaires accepted in lieu of independent security assessments",
+          "Assessment scope does not cover the specific services provided to the institution or the institution's data",
+          "Reports provided are SOC 2 Type I (point-in-time) rather than Type II (period-of-time) for operational effectiveness"
+        ],
+        "suggestedSources": [
+          "Vendor management office assessment report repository",
+          "Third-party risk management platform (e.g., BitSight, SecurityScorecard, OneTrust)",
+          "Vendor-provided SOC 2/ISAE 3402 reports and ISO 27001 certificates"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "14.1-E3",
+        "name": "Risk management review records of assessments",
+        "description": "Records demonstrating that the risk management function has formally reviewed third-party security assessment results and documented risk acceptance decisions",
+        "whatGoodLooksLike": [
+          "Risk management review records for each critical vendor assessment showing review date, reviewer, and risk assessment conclusions",
+          "Risk acceptance documentation for any identified control gaps with compensating controls and residual risk classification",
+          "Evidence of risk management challenging vendor responses to assessment findings where remediation plans are insufficient",
+          "Risk management recommendations tracked through to implementation or formal acceptance by appropriate authority",
+          "Quarterly risk management reporting on third-party risk posture to senior management"
+        ],
+        "commonGaps": [
+          "Assessment reports received by vendor management but not formally reviewed by the risk management function",
+          "Risk management review is perfunctory (rubber-stamp) without substantive analysis of assessment findings",
+          "No documented risk acceptance for vendor control gaps; risks are implicitly accepted without formal decision",
+          "Risk management recommendations not tracked or followed up for implementation"
+        ],
+        "suggestedSources": [
+          "Risk management department vendor risk assessment records",
+          "Third-party risk management platform risk assessment outputs",
+          "Risk management committee meeting minutes and reporting packs"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "14.1-E4",
+        "name": "Contractual security requirement compliance evidence",
+        "description": "Evidence demonstrating that third-party security assessments evaluate vendor compliance with contractual security requirements specific to the institution",
+        "whatGoodLooksLike": [
+          "Assessment reports include specific evaluation of vendor compliance against contractual security requirements and SLAs",
+          "Contractual security requirements clearly defined in vendor agreements with measurable compliance criteria",
+          "Compliance matrix mapping contractual requirements to assessment findings for each critical vendor",
+          "Non-compliance instances documented with vendor remediation plans and agreed timelines",
+          "Annual compliance reports from vendors addressing all contractual security obligations"
+        ],
+        "commonGaps": [
+          "Assessment scope covers general vendor security but does not evaluate compliance with institution-specific contractual requirements",
+          "Vendor contracts lack specific measurable security requirements making compliance assessment impossible",
+          "No compliance matrix linking contractual requirements to assessment results",
+          "Vendor non-compliance with contractual security requirements not formally documented or addressed"
+        ],
+        "suggestedSources": [
+          "Legal department vendor contract repository",
+          "Vendor management office compliance tracking records",
+          "Third-party assessment reports (contractual compliance section)"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Prepare the critical vendor register with assessment dates showing 100% coverage within the last 12 months for all critical providers",
+      "Ensure independent assessment reports are from truly independent assessors, not the vendor's own audit function or parent company",
+      "Have risk management review records ready for each assessment demonstrating substantive analysis, not just acknowledgement",
+      "Prepare a compliance matrix mapping contractual security requirements to assessment findings for your most critical vendors",
+      "Be ready to explain the process for handling vendors who refuse to provide independent assessment reports or cooperate with assessments"
+    ]
+  },
+  "14.2": {
+    "clauseId": "14.2",
+    "section": "External Party Assurance",
+    "subsection": "External Party Assurance",
+    "title": "Network Resilience Assessment",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that critical third-party providers are required to maintain recognised security certifications (ISO 27001, SOC 2, or equivalent), that certification status is actively monitored, and that certification lapses trigger risk reassessments. They will request the certification tracking register, monitoring evidence, and any lapse response records.",
+    "evidenceItems": [
+      {
+        "id": "14.2-E1",
+        "name": "Third-party certification requirements in contracts",
+        "description": "Evidence that vendor contracts include mandatory security certification requirements for critical third-party service providers",
+        "whatGoodLooksLike": [
+          "Contract clauses explicitly requiring maintenance of ISO 27001, SOC 2 Type II, or equivalent certifications as a condition of engagement",
+          "Certification requirements specified for all critical vendor contracts with clear definition of acceptable certifications",
+          "Contractual obligation for vendors to notify the institution immediately of any certification status changes or lapses",
+          "Consequences of certification lapse defined in contract including right to reassess, additional monitoring, or termination",
+          "Certification requirements apply to all critical vendors including those onboarded before the policy was established (through contract renewal)"
+        ],
+        "commonGaps": [
+          "Vendor contracts do not include specific security certification requirements",
+          "Certification requirements included in newer contracts but legacy contracts lack these provisions",
+          "Contract specifies certification at time of engagement but no ongoing maintenance requirement",
+          "No contractual obligation for vendors to notify the institution of certification changes or lapses"
+        ],
+        "suggestedSources": [
+          "Legal department vendor contract repository",
+          "Procurement standard contract templates and schedules",
+          "Vendor management office contract review records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "14.2-E2",
+        "name": "Vendor certification tracking register",
+        "description": "Centralised register tracking the security certification status of all critical third-party service providers",
+        "whatGoodLooksLike": [
+          "Register covers all critical vendors with certification type, certifying body, certificate number, scope, issue date, and expiry date",
+          "Register updated within the last quarter with evidence of regular review and maintenance",
+          "Certification scope verified to ensure it covers the services provided to the institution",
+          "Register includes certification verification evidence (e.g., certifying body confirmation or accredited registry check)",
+          "Dashboard view available showing certifications approaching expiry within 90 days"
+        ],
+        "commonGaps": [
+          "No centralised certification tracking; certification information scattered across vendor files",
+          "Register exists but is incomplete, missing some critical vendors or lacking expiry date tracking",
+          "Certification scope not verified; vendor holds ISO 27001 but the certificate scope excludes the services provided to the institution",
+          "Register not regularly updated; contains stale or inaccurate certification information"
+        ],
+        "suggestedSources": [
+          "Vendor management office certification tracking system",
+          "Third-party risk management platform (OneTrust, Archer, ServiceNow VRM)",
+          "Vendor management spreadsheets and databases"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "14.2-E3",
+        "name": "Certification lapse monitoring evidence",
+        "description": "Evidence that vendor certification status is actively monitored on an ongoing basis with alerts for certifications approaching expiry",
+        "whatGoodLooksLike": [
+          "Automated monitoring system or calendar-based alerting configured for 90-day, 60-day, and 30-day pre-expiry notifications",
+          "Evidence of proactive vendor engagement when certifications approach expiry, requesting renewal confirmation",
+          "Monitoring covers all critical vendors without exceptions",
+          "Records of vendor responses confirming certification renewal or explaining delays",
+          "Monitoring frequency is at minimum quarterly for all critical vendors"
+        ],
+        "commonGaps": [
+          "No proactive monitoring; certification lapses discovered only during annual vendor reviews",
+          "Monitoring relies on vendor self-reporting without independent verification",
+          "Automated alerts configured but not actioned when triggered",
+          "Monitoring excludes some critical vendors, particularly smaller or specialist providers"
+        ],
+        "suggestedSources": [
+          "Vendor management system alert and notification logs",
+          "Vendor correspondence records regarding certification renewal",
+          "Calendar or task management system certification review reminders"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "14.2-E4",
+        "name": "Risk reassessment records for certification lapses",
+        "description": "Records of risk reassessments triggered by vendor security certification lapses, including interim controls and service continuity decisions",
+        "whatGoodLooksLike": [
+          "Risk reassessment report for each certification lapse event including assessment of increased risk exposure",
+          "Interim compensating controls documented and implemented during the certification gap period",
+          "Escalation to senior management for decision on continued engagement with uncertified vendor",
+          "Documented decision outcome (continued engagement with conditions, enhanced monitoring, service transition planning, or termination)",
+          "Follow-up tracking showing certification reinstatement or agreed alternative assurance measures"
+        ],
+        "commonGaps": [
+          "No risk reassessment performed when vendor certifications lapse; business as usual continues",
+          "Reassessment performed informally without documented analysis or senior management involvement",
+          "No interim compensating controls identified or implemented during the certification gap period",
+          "No documented decision on whether to continue engagement with the uncertified vendor"
+        ],
+        "suggestedSources": [
+          "Risk management department vendor risk reassessment records",
+          "Vendor management office lapse response documentation",
+          "Senior management meeting minutes addressing vendor certification issues"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Prepare the vendor certification tracking register with current status for all critical vendors, highlighting any approaching expiries",
+      "Have contract extracts ready showing certification maintenance clauses for your top critical vendors",
+      "If any certification lapses have occurred, prepare the complete risk reassessment package including interim controls and senior management decisions",
+      "Ensure certification scope verification is documented, showing that vendor certifications cover the relevant services",
+      "Be ready to explain the process for legacy vendors whose contracts predate the certification requirement policy and how you are bringing them into compliance"
+    ]
+  }
+}

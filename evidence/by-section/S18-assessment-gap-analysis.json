@@ -1,0 +1,222 @@
+{
+  "18.1": {
+    "clauseId": "18.1",
+    "section": "Assessment and Gap Analysis",
+    "subsection": "Assessment and Gap Analysis",
+    "title": "Gap Analysis and Action Plan",
+    "clauseType": "governance",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that the institution conducts a comprehensive annual self-assessment covering all applicable RMiT clauses, that compliance ratings are supported by evidence, that the assessment is honest about gaps, and that results are reviewed and signed off by the board or senior management.",
+    "evidenceItems": [
+      {
+        "id": "18.1-E1",
+        "name": "Annual RMiT self-assessment report",
+        "description": "Comprehensive annual self-assessment report covering all applicable RMiT policy requirements with clause-by-clause compliance ratings, supporting evidence references, and overall compliance posture summary",
+        "whatGoodLooksLike": [
+          "Report covers all applicable RMiT clauses with no gaps in assessment scope",
+          "Each clause rated as fully compliant, partially compliant, or non-compliant with consistent application of rating criteria",
+          "Overall compliance posture summary with executive-level dashboard showing distribution of ratings across sections",
+          "Assessment completed within a defined annual cycle with consistent timing year on year"
+        ],
+        "commonGaps": [
+          "Assessment scope excludes certain RMiT sections or clauses without documented justification",
+          "All clauses rated as fully compliant despite known gaps, indicating lack of assessment rigour",
+          "Assessment conducted on an ad-hoc schedule rather than as a defined annual process"
+        ],
+        "suggestedSources": [
+          "Compliance department annual RMiT self-assessment report",
+          "GRC platform compliance assessment reports (ServiceNow GRC, MetricStream, Archer)",
+          "Board meeting packs containing self-assessment presentation"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "18.1-E2",
+        "name": "Compliance status for each RMiT clause",
+        "description": "Detailed clause-by-clause compliance status showing the rating for each RMiT requirement, the rationale for the rating, and reference to supporting evidence",
+        "whatGoodLooksLike": [
+          "Every applicable clause has a documented compliance rating with clear rationale",
+          "Partially compliant and non-compliant ratings include specific description of the gap and remaining work required",
+          "Evidence references are specific and traceable (not just 'see documentation' but specific document names and versions)",
+          "Rating methodology is consistent across clauses, with calibration exercises documented"
+        ],
+        "commonGaps": [
+          "Compliance ratings assigned without documented rationale or evidence references",
+          "Partially compliant ratings lack specificity about what is missing versus what is in place",
+          "No calibration of ratings across different assessors, leading to inconsistent standards"
+        ],
+        "suggestedSources": [
+          "GRC platform clause-level compliance tracking",
+          "Compliance department self-assessment working papers",
+          "Internal audit RMiT compliance review reports"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "18.1-E3",
+        "name": "Supporting evidence for compliance ratings",
+        "description": "Evidence packages supporting the compliance ratings for each RMiT clause, including policy documents, procedure evidence, technical configurations, reports, and other artefacts demonstrating compliance",
+        "whatGoodLooksLike": [
+          "Evidence packages organised by RMiT clause with a clear index linking evidence to specific compliance requirements",
+          "Evidence is current (within the assessment period) and directly relevant to the clause requirements",
+          "Mix of evidence types including policies, procedures, technical configurations, reports, and meeting minutes",
+          "Evidence demonstrates operational effectiveness, not just documentation existence"
+        ],
+        "commonGaps": [
+          "Evidence consists solely of policy documents without evidence of operational implementation",
+          "Evidence is outdated, predating the current assessment period",
+          "Evidence is poorly organised, making it difficult to link specific artefacts to specific clause requirements"
+        ],
+        "suggestedSources": [
+          "GRC platform evidence repository",
+          "Document management system policy and procedure library",
+          "Technical systems providing configuration and operational evidence"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "18.1-E4",
+        "name": "Board or senior management review of assessment results",
+        "description": "Evidence of board or senior management review and sign-off of the annual self-assessment results, including meeting minutes showing discussion of findings and direction for remediation",
+        "whatGoodLooksLike": [
+          "Board meeting minutes showing substantive discussion of self-assessment results, not just a notation of receipt",
+          "Board or senior management sign-off documented with date and signatories",
+          "Discussion includes challenge of compliance ratings and direction for addressing material gaps",
+          "Follow-up actions assigned by the board with accountability and timelines for remediation"
+        ],
+        "commonGaps": [
+          "Self-assessment results presented to board but no evidence of discussion or challenge in meeting minutes",
+          "Board sign-off obtained after significant delay, indicating the assessment is a box-ticking exercise",
+          "No follow-up actions assigned by the board for identified gaps"
+        ],
+        "suggestedSources": [
+          "Board risk committee meeting minutes and packs",
+          "Senior management committee meeting records",
+          "Board sign-off sheet or resolution on self-assessment results"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Prepare the self-assessment report with a clear executive summary dashboard showing the distribution of compliance ratings to give examiners an immediate overview",
+      "Ensure evidence packages are well-organised and indexed by clause so that examiners can quickly verify compliance claims for any selected clause",
+      "Have board meeting minutes showing substantive discussion of self-assessment results, not just a rubber-stamp approval",
+      "If any clauses are rated as non-compliant, ensure corresponding remediation plans exist (linking to clause 18.2) to demonstrate proactive gap management",
+      "Be prepared for examiners to select specific clauses and request the supporting evidence to validate the compliance rating; have the evidence readily accessible"
+    ]
+  },
+  "18.2": {
+    "clauseId": "18.2",
+    "section": "Assessment and Gap Analysis",
+    "subsection": "Assessment and Gap Analysis",
+    "title": "Gap Analysis Submission",
+    "clauseType": "governance",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that remediation plans exist for all identified compliance gaps, that plans include specific actions with accountable owners and target dates, that progress is reported to the board at least quarterly, and that closed gaps have evidence of completion and independent verification.",
+    "evidenceItems": [
+      {
+        "id": "18.2-E1",
+        "name": "Gap remediation plan with actions and owners",
+        "description": "Detailed remediation plan documenting all identified RMiT compliance gaps with specific remediation actions, accountable senior management owners, and required resources for each gap",
+        "whatGoodLooksLike": [
+          "Every gap identified in the annual self-assessment has a corresponding remediation action plan",
+          "Actions are specific and measurable, not vague statements like 'improve compliance'",
+          "Each action has a named senior management owner with clear accountability",
+          "Resource requirements (budget, personnel, technology) documented for each remediation action"
+        ],
+        "commonGaps": [
+          "Some identified gaps have no corresponding remediation plan, particularly for lower-priority items",
+          "Remediation actions are vague without specific deliverables or success criteria",
+          "Owners assigned at operational level without senior management accountability"
+        ],
+        "suggestedSources": [
+          "GRC platform remediation tracking module (ServiceNow GRC, MetricStream, Archer)",
+          "Compliance department gap remediation plan documentation",
+          "Board meeting packs containing remediation plan approval"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "18.2-E2",
+        "name": "Target completion dates and resource requirements",
+        "description": "Documentation of target completion dates for each remediation action, including milestones for longer-term remediation efforts, and approved resource allocations",
+        "whatGoodLooksLike": [
+          "Realistic target dates set for each action based on complexity and resource availability",
+          "Milestones defined for remediation efforts spanning more than three months",
+          "Resource allocations approved and documented, including budget and personnel commitments",
+          "Priority-based timeline with critical gaps (S-marker clauses) targeted for earliest completion"
+        ],
+        "commonGaps": [
+          "Target dates are unrealistic given the complexity of remediation required",
+          "No milestones for long-running remediation, making progress monitoring impossible",
+          "Resource requirements identified but no budget approval obtained, stalling remediation"
+        ],
+        "suggestedSources": [
+          "GRC platform remediation timeline reports",
+          "Budget approval documentation for remediation initiatives",
+          "Project management system timeline records for remediation projects"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "18.2-E3",
+        "name": "Quarterly progress reports to the board",
+        "description": "Quarterly board reports showing remediation progress across all compliance gaps, including status of each action, completed items, overdue items, and any timeline revisions with justification",
+        "whatGoodLooksLike": [
+          "Reports presented to the board at least quarterly with evidence in board meeting minutes",
+          "Status dashboard showing overall remediation progress (on track, at risk, overdue, completed) for all gaps",
+          "Individual status for each remediation action with clear explanation of any delays or timeline revisions",
+          "Board meeting minutes showing discussion, challenge, and direction on remediation progress"
+        ],
+        "commonGaps": [
+          "Progress reported less frequently than quarterly, indicating insufficient board oversight",
+          "Reports show aggregate progress only without individual action-level detail",
+          "Overdue actions not flagged or escalated in board reporting"
+        ],
+        "suggestedSources": [
+          "Board risk committee meeting packs and minutes",
+          "GRC platform quarterly remediation status reports",
+          "Compliance department quarterly reporting documentation"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "18.2-E4",
+        "name": "Remediation completion evidence",
+        "description": "Evidence of completed remediation actions for closed gaps, including artefacts demonstrating the gap has been addressed and independent verification of closure by compliance or internal audit",
+        "whatGoodLooksLike": [
+          "Each closed gap has specific completion evidence demonstrating the remediation action was implemented",
+          "Evidence demonstrates operational effectiveness, not just documentation creation",
+          "Independent verification by compliance function or internal audit documented with sign-off",
+          "Updated compliance rating in the self-assessment reflecting the closed gap"
+        ],
+        "commonGaps": [
+          "Gaps marked as closed without completion evidence, based solely on owner assertion",
+          "Completion evidence is a policy document without evidence of operational implementation",
+          "No independent verification of gap closure; closure is self-certified by the remediation owner"
+        ],
+        "suggestedSources": [
+          "GRC platform remediation closure evidence repository",
+          "Internal audit verification reports for closed remediation items",
+          "Compliance department gap closure review records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Prepare a summary dashboard showing total gaps, completed remediations, in-progress items, and overdue actions to give examiners an immediate overview of remediation status",
+      "Have board meeting minutes from all quarterly progress reports readily available to demonstrate consistent governance oversight",
+      "For closed gaps, ensure completion evidence is readily accessible and demonstrates operational effectiveness, not just policy documentation",
+      "Prepare a reconciliation between the self-assessment gap list and the remediation plan to confirm every identified gap has a corresponding action plan",
+      "If any remediation timelines have been extended, have documented justifications and board approval for the extensions"
+    ]
+  }
+}

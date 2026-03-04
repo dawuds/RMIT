@@ -1,0 +1,62 @@
+{
+  "governance-and-oversight": {
+    "name": "Governance & Oversight",
+    "description": "Board-level and senior management oversight structures ensuring technology risk is governed at the highest institutional level"
+  },
+  "risk-management": {
+    "name": "Risk Management",
+    "description": "Framework, assessment, treatment, and monitoring of technology risks across the institution"
+  },
+  "project-and-development": {
+    "name": "Project & Development",
+    "description": "IT project governance, systems development lifecycle, change management, and release processes"
+  },
+  "it-operations": {
+    "name": "IT Operations",
+    "description": "Day-to-day technology operations including capacity planning, patching, and end-of-life management"
+  },
+  "cryptography": {
+    "name": "Cryptography",
+    "description": "Encryption standards, key management, and certificate lifecycle controls"
+  },
+  "physical-security": {
+    "name": "Physical Security",
+    "description": "Data centre physical access, environmental controls, and infrastructure redundancy"
+  },
+  "service-continuity": {
+    "name": "Service Continuity",
+    "description": "Service level management, disaster recovery, business continuity, and crisis communication"
+  },
+  "network-security": {
+    "name": "Network Security",
+    "description": "Network architecture, segmentation, perimeter defence, and traffic monitoring"
+  },
+  "backup-and-recovery": {
+    "name": "Backup & Recovery",
+    "description": "Data backup management, testing, and restoration capabilities"
+  },
+  "third-party-management": {
+    "name": "Third-Party Management",
+    "description": "Vendor risk assessment, outsourcing governance, SLA monitoring, and exit strategies"
+  },
+  "cloud-and-emerging-technology": {
+    "name": "Cloud & Emerging Technology",
+    "description": "Cloud governance, security controls, data residency, and emerging technology risk management"
+  },
+  "access-control": {
+    "name": "Access Control",
+    "description": "Identity management, authentication, authorisation, privileged access, and periodic review"
+  },
+  "cybersecurity": {
+    "name": "Cybersecurity",
+    "description": "Cyber strategy, incident response, security operations, vulnerability management, and threat intelligence"
+  },
+  "digital-services": {
+    "name": "Digital Services",
+    "description": "Digital channel security, mobile/API security, customer authentication, and fraud prevention"
+  },
+  "assurance-and-compliance": {
+    "name": "Assurance & Compliance",
+    "description": "IT audit, security awareness, regulatory notifications, and compliance self-assessment"
+  }
+}

@@ -1,0 +1,1054 @@
+{
+  "12.1": {
+    "clauseId": "12.1",
+    "section": "Digital Services",
+    "subsection": "Security of Digital Services",
+    "title": "Digital Services Security Controls",
+    "clauseType": "technical",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that comprehensive security controls are implemented across all digital channels (internet banking, mobile banking, e-payment) and that these controls are regularly tested. Expect requests for security architecture documents, vulnerability assessment results, and evidence of security controls covering authentication, authorisation, encryption, and session management for each channel.",
+    "evidenceItems": [
+      {
+        "id": "12.1-E1",
+        "name": "Digital channel security architecture",
+        "description": "Comprehensive security architecture documentation for all digital banking channels showing defence-in-depth controls, data flow diagrams, and security component placement",
+        "whatGoodLooksLike": [
+          "Architecture diagrams cover all active digital channels (internet banking, mobile banking, e-payment) individually",
+          "Security controls are mapped to specific threats and OWASP Top 10 categories for each channel",
+          "Defence-in-depth layers are clearly illustrated including WAF, API gateway, authentication services, and encryption points",
+          "Document is version-controlled with review dates within the last 12 months",
+          "Data flow diagrams show encryption boundaries and trust zones for each channel"
+        ],
+        "commonGaps": [
+          "Architecture documentation exists only for internet banking but not mobile banking or e-payment channels",
+          "Security controls are described generically without mapping to specific threats or vulnerabilities",
+          "Documentation has not been updated after significant platform changes or new channel launches",
+          "Missing data flow diagrams showing where encryption is applied and where sensitive data is processed"
+        ],
+        "suggestedSources": [
+          "Enterprise architecture team (ArchiMate/TOGAF repositories)",
+          "IT Security department security design documents",
+          "Digital banking platform vendor documentation"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "12.1-E2",
+        "name": "Security control implementation evidence per channel",
+        "description": "Evidence demonstrating that authentication, authorisation, encryption, and session management controls are implemented and operational for each digital channel",
+        "whatGoodLooksLike": [
+          "Configuration screenshots or exports showing TLS 1.2+ enforcement, HSTS headers, and certificate configurations per channel",
+          "Authentication mechanism documentation with multi-factor implementation details for each channel",
+          "Authorisation matrix showing role-based access controls for digital banking administrative functions",
+          "Session management configuration evidence including timeout values and concurrent session limits"
+        ],
+        "commonGaps": [
+          "Evidence shows configuration for one channel but not all active digital channels",
+          "TLS configuration allows deprecated cipher suites or protocol versions",
+          "No evidence of session management controls such as timeout settings or concurrent session restrictions",
+          "Authentication controls documented in policy but no evidence of actual implementation configuration"
+        ],
+        "suggestedSources": [
+          "Digital banking platform configuration exports",
+          "Web server and application server configuration files",
+          "WAF and API gateway configuration dashboards"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "12.1-E3",
+        "name": "Web application vulnerability assessment results",
+        "description": "Results from vulnerability assessments and penetration tests conducted against all internet-facing digital channels",
+        "whatGoodLooksLike": [
+          "Quarterly vulnerability scans and annual penetration tests covering all digital channels with no outstanding critical or high findings",
+          "Reports from qualified security assessors (CREST, OSCP certified) with clear scope covering all digital channel endpoints",
+          "Remediation tracking showing all identified vulnerabilities addressed within defined SLAs (critical: 7 days, high: 30 days)",
+          "Testing covers OWASP Top 10 categories with specific test cases documented for each"
+        ],
+        "commonGaps": [
+          "Penetration testing scope excludes mobile banking APIs or e-payment endpoints",
+          "Vulnerability assessment performed only annually rather than quarterly as required",
+          "Critical or high vulnerabilities remain open beyond defined remediation timelines with no documented risk acceptance",
+          "Testing performed by internal team without independent external validation"
+        ],
+        "suggestedSources": [
+          "Security testing vendor reports (e.g., Qualys, Rapid7, HackerOne)",
+          "Internal vulnerability management platform (e.g., Tenable, Nessus)",
+          "Penetration testing engagement reports from CREST-certified providers"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "12.1-E4",
+        "name": "Digital channel security standards",
+        "description": "Formal security standards document defining security requirements for all digital banking channels",
+        "whatGoodLooksLike": [
+          "Standards cover authentication, authorisation, encryption, session management, and vulnerability management for each channel type",
+          "Document is approved by CISO and reviewed within the last 12 months",
+          "Standards reference industry frameworks (OWASP ASVS, PCI DSS, NIST) and are mapped to RMiT requirements",
+          "Clear compliance requirements with measurable criteria for each security control area",
+          "Standards include secure coding requirements for digital channel development teams"
+        ],
+        "commonGaps": [
+          "Standards document is generic and does not address channel-specific security requirements",
+          "No formal approval or review process; document is outdated",
+          "Standards lack measurable criteria making compliance assessment subjective",
+          "Missing coverage of newer channels such as QR payments or e-wallet features"
+        ],
+        "suggestedSources": [
+          "IT Security policy repository",
+          "CISO office governance document library",
+          "Digital banking team standards documentation"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Prepare a channel-by-channel security control matrix mapping each RMiT requirement to specific implemented controls with configuration evidence",
+      "Ensure vulnerability assessment reports cover all active digital channels and that remediation evidence is readily available for any identified findings",
+      "Verify that the security architecture documentation reflects the current production environment, not an outdated or aspirational state",
+      "Have session management configuration exports readily available showing timeout values and concurrent session settings for each channel",
+      "Prepare a timeline showing when security standards were last reviewed and any changes made in response to new threats or regulatory guidance"
+    ]
+  },
+  "12.2": {
+    "clauseId": "12.2",
+    "section": "Digital Services",
+    "subsection": "Security of Digital Services",
+    "title": "Alternative Controls and Liability",
+    "clauseType": "technical",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will specifically look for evidence that mobile banking apps implement code obfuscation, root/jailbreak detection, certificate pinning, and secure local storage. They will also verify that security testing is performed before each app store release, with formal sign-off records.",
+    "evidenceItems": [
+      {
+        "id": "12.2-E1",
+        "name": "Mobile application security standards",
+        "description": "Formal standards document defining mandatory security features and testing requirements for mobile banking applications",
+        "whatGoodLooksLike": [
+          "Standards explicitly mandate code obfuscation, root/jailbreak detection, certificate pinning, and secure local storage as required for all mobile banking apps",
+          "OWASP MASVS (Mobile Application Security Verification Standard) is referenced as the baseline framework",
+          "Standards define pre-release security testing requirements and acceptance criteria",
+          "Document is approved by CISO, reviewed within the last 12 months, and distributed to all mobile development teams",
+          "Standards cover both Android and iOS platform-specific security requirements"
+        ],
+        "commonGaps": [
+          "Standards exist but do not explicitly list all RMiT-mandated security features (obfuscation, root detection, pinning, secure storage)",
+          "No reference to OWASP MASVS or equivalent mobile security framework",
+          "Standards have not been updated to reflect latest mobile platform security capabilities",
+          "Missing platform-specific guidance for Android vs iOS implementations"
+        ],
+        "suggestedSources": [
+          "IT Security policy repository",
+          "Mobile development team documentation",
+          "CISO office governance document library"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "12.2-E2",
+        "name": "Security feature implementation evidence",
+        "description": "Technical evidence demonstrating that each mandated mobile security feature is implemented and functional in the production mobile banking application",
+        "whatGoodLooksLike": [
+          "Code obfuscation configuration evidence (ProGuard/R8 rules for Android, build settings for iOS) with before/after decompilation comparison",
+          "Root/jailbreak detection implementation evidence showing detection logic and response actions (restrict operations, log events)",
+          "Certificate pinning configuration showing pinned certificates and pin update mechanism",
+          "Secure storage implementation evidence showing use of Android Keystore/iOS Keychain for sensitive data",
+          "Anti-tampering and anti-debugging protections documented with test results"
+        ],
+        "commonGaps": [
+          "Code obfuscation enabled but with default minimal rules that are easily reversible",
+          "Root/jailbreak detection implemented but only logs events without restricting high-risk operations",
+          "Certificate pinning implemented but no mechanism for pin rotation, risking app lockout during certificate changes",
+          "Sensitive data found in shared preferences or local files instead of platform secure storage"
+        ],
+        "suggestedSources": [
+          "Mobile development team build configuration repositories",
+          "Mobile application security scan reports (e.g., NowSecure, Checkmarx)",
+          "Source code repository showing security feature implementations"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "12.2-E3",
+        "name": "Mobile application security test reports",
+        "description": "Security testing reports from independent assessors validating mobile application security for each production release",
+        "whatGoodLooksLike": [
+          "Independent MAST (Mobile Application Security Testing) report for every production release within the last 12 months",
+          "Testing scope covers OWASP MASVS L1 and L2 requirements including all RMiT-mandated security features",
+          "Reports produced by qualified mobile security assessors (e.g., CREST, NowSecure certified)",
+          "All critical and high findings remediated before app store release with evidence of retesting",
+          "Both static analysis (SAST) and dynamic analysis (DAST) results included"
+        ],
+        "commonGaps": [
+          "Security testing performed only for major releases but skipped for minor or patch releases",
+          "Testing scope does not cover all OWASP MASVS requirements relevant to banking applications",
+          "Critical findings identified but app released before remediation with informal risk acceptance",
+          "Only automated scanning performed without manual security testing by qualified assessors"
+        ],
+        "suggestedSources": [
+          "Mobile security testing vendor reports (NowSecure, Synopsys, Checkmarx)",
+          "Internal application security testing team reports",
+          "CI/CD pipeline security scan outputs"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "12.2-E4",
+        "name": "App store release security sign-off records",
+        "description": "Formal security sign-off records documenting IT Security approval before each mobile app release to app stores",
+        "whatGoodLooksLike": [
+          "Signed security checklist completed for every app store release covering all RMiT-mandated features",
+          "Sign-off by IT Security, QA Lead, and release manager with dates and approval signatures",
+          "Security test results summary attached to each sign-off showing pass/fail status for each security requirement",
+          "Clear traceability from security test findings to remediation actions and retesting confirmation",
+          "Records maintained for all releases within the retention period including rejected releases"
+        ],
+        "commonGaps": [
+          "No formal sign-off process; security approval is verbal or via informal email",
+          "Sign-off checklist exists but does not cover all RMiT-mandated mobile security features",
+          "Sign-off records missing for some releases, particularly emergency or hotfix releases",
+          "No evidence linking the sign-off to specific security test results"
+        ],
+        "suggestedSources": [
+          "Release management system (Jira, ServiceNow, Azure DevOps)",
+          "IT Security approval workflow records",
+          "Mobile app release management documentation"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Prepare a release-by-release matrix showing security test date, test results summary, and sign-off record for each mobile app version released in the past 12 months",
+      "Have technical evidence ready demonstrating each specific RMiT security feature (obfuscation, root detection, pinning, secure storage) with configuration screenshots",
+      "Ensure security test reports clearly state OWASP MASVS coverage and that the testing scope aligns with RMiT requirements",
+      "Verify that emergency and hotfix releases also have security sign-off records, even if through an expedited process",
+      "Prepare evidence showing how certificate pinning is managed during certificate rotation to demonstrate operational maturity"
+    ]
+  },
+  "12.3": {
+    "clauseId": "12.3",
+    "section": "Digital Services",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "CRF Enhancement for Digital Fraud",
+    "clauseType": "technical",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that all APIs are inventoried, documented, and secured with authentication, authorisation, rate limiting, input validation, and encryption. They will also check that deprecated APIs are decommissioned promptly and that regular security assessments are performed on APIs.",
+    "evidenceItems": [
+      {
+        "id": "12.3-E1",
+        "name": "API security standards and policy",
+        "description": "Formal API security standards defining requirements for authentication, authorisation, rate limiting, input validation, and encryption across all APIs",
+        "whatGoodLooksLike": [
+          "Standards aligned with OWASP API Security Top 10 covering authentication, broken object-level authorisation, rate limiting, and injection prevention",
+          "Clear requirements for OAuth 2.0 implementation, API key management, and mutual TLS for server-to-server communications",
+          "Rate limiting and throttling thresholds defined per API tier (public, partner, internal)",
+          "Document approved by CISO and reviewed within the last 12 months",
+          "Input validation and output encoding requirements specified for all API endpoints"
+        ],
+        "commonGaps": [
+          "API security standards focus only on authentication but lack rate limiting, input validation, and encryption requirements",
+          "Standards do not differentiate between public-facing, partner, and internal API security requirements",
+          "No reference to OWASP API Security Top 10 or equivalent API security framework",
+          "Standards have not been updated to address new API patterns such as GraphQL or WebSocket APIs"
+        ],
+        "suggestedSources": [
+          "IT Security policy repository",
+          "API platform team documentation",
+          "Enterprise architecture standards library"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "12.3-E2",
+        "name": "API inventory and documentation",
+        "description": "Complete inventory of all APIs with security classification, documentation status, and lifecycle stage",
+        "whatGoodLooksLike": [
+          "Comprehensive inventory covering all APIs (internal, partner, public) with unique identifiers, owners, and security classifications",
+          "Each API has OpenAPI/Swagger documentation showing endpoints, parameters, authentication requirements, and data types",
+          "Lifecycle stage clearly marked for each API (active, deprecated, decommissioning, retired)",
+          "Inventory updated within the last quarter with evidence of regular review process",
+          "Data sensitivity classification for each API indicating what customer or financial data is accessible"
+        ],
+        "commonGaps": [
+          "Inventory exists for public APIs but internal and partner APIs are not tracked",
+          "Deprecated APIs identified but no decommissioning timeline or plan documented",
+          "API documentation is incomplete or outdated, not reflecting current production endpoints",
+          "No data sensitivity classification for APIs making it impossible to apply risk-proportionate controls"
+        ],
+        "suggestedSources": [
+          "API management platform (Apigee, Kong, AWS API Gateway) dashboards",
+          "API developer portal documentation",
+          "Enterprise service registry or API catalogue"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "12.3-E3",
+        "name": "API security assessment results",
+        "description": "Results from regular security assessments of APIs including automated scanning and manual penetration testing",
+        "whatGoodLooksLike": [
+          "Quarterly automated API security scans covering all production APIs with OWASP API Top 10 test coverage",
+          "Annual manual API penetration testing by qualified assessors covering authentication bypass, injection, and authorisation flaws",
+          "Remediation tracking showing all identified vulnerabilities addressed within defined SLAs",
+          "Testing includes both functional API security tests and business logic abuse scenarios",
+          "CI/CD pipeline integration for automated API security testing on every deployment"
+        ],
+        "commonGaps": [
+          "API security testing limited to web application scans that do not cover API-specific vulnerabilities",
+          "No testing for business logic abuse such as broken object-level authorisation (BOLA) or excessive data exposure",
+          "Security assessment scope does not include partner or internal APIs",
+          "Automated scanning only without manual penetration testing by qualified security assessors"
+        ],
+        "suggestedSources": [
+          "API security testing tools (Postman, Burp Suite, 42Crunch)",
+          "Penetration testing vendor reports",
+          "CI/CD pipeline security scan outputs"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "12.3-E4",
+        "name": "Deprecated API decommissioning records",
+        "description": "Records demonstrating timely identification, communication, and decommissioning of deprecated APIs",
+        "whatGoodLooksLike": [
+          "Documented decommissioning timeline for each deprecated API with consumer notification records",
+          "Evidence of consumer migration support including migration guides and alternative API documentation",
+          "Confirmation of API shutdown with traffic monitoring showing zero usage before final decommissioning",
+          "Post-decommission verification that endpoints no longer respond and are removed from API gateways"
+        ],
+        "commonGaps": [
+          "Deprecated APIs identified but remain active with no decommissioning timeline",
+          "No evidence of consumer notification before API retirement",
+          "Decommissioned APIs still responding with error messages rather than being fully removed",
+          "No monitoring to verify deprecated APIs are not still receiving traffic from unknown consumers"
+        ],
+        "suggestedSources": [
+          "API management platform lifecycle reports",
+          "Change management records for API decommissioning",
+          "API gateway traffic analytics showing deprecated API usage trends"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Prepare the complete API inventory with evidence that it includes all APIs, not just public-facing ones; examiners often ask about internal and partner APIs",
+      "Have API gateway configuration exports showing rate limiting, authentication, and encryption settings for representative APIs",
+      "Ensure deprecated API decommissioning records show timely action with documented consumer communication trails",
+      "Prepare a mapping of each API to its security assessment coverage demonstrating no APIs are excluded from testing",
+      "Show evidence of CI/CD pipeline API security scanning to demonstrate shift-left security practices"
+    ]
+  },
+  "12.4": {
+    "clauseId": "12.4",
+    "section": "Digital Services",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Fraud Detection Capabilities",
+    "clauseType": "technical",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that customer authentication strength is proportionate to transaction risk, that MFA is implemented for high-risk transactions, and that authentication effectiveness is regularly assessed. Expect detailed questions about the risk-based authentication model and how it adapts to emerging threats.",
+    "evidenceItems": [
+      {
+        "id": "12.4-E1",
+        "name": "Customer authentication policy",
+        "description": "Formal policy defining risk-based authentication requirements, acceptable authentication methods, and MFA mandates for high-risk transactions across all digital channels",
+        "whatGoodLooksLike": [
+          "Policy clearly defines transaction risk tiers (low, medium, high, critical) with corresponding authentication requirements for each tier",
+          "MFA is explicitly mandated for high-risk transactions including fund transfers above defined thresholds, payee additions, and limit changes",
+          "Acceptable authentication factors are defined for each category (knowledge, possession, inherence) with approved implementations",
+          "Policy is approved by CISO and board risk committee, reviewed within the last 12 months",
+          "Coverage spans all digital channels (internet banking, mobile banking, e-wallet)"
+        ],
+        "commonGaps": [
+          "Policy mandates MFA generically without defining which specific transactions require it based on risk classification",
+          "Transaction risk tiers not formally defined, leaving authentication requirements ambiguous",
+          "Policy does not address emerging authentication methods such as biometrics or FIDO2",
+          "Missing coverage of some digital channels, particularly newer channels like e-wallet or QR payments"
+        ],
+        "suggestedSources": [
+          "IT Security policy repository",
+          "Digital banking product documentation",
+          "Risk management framework documentation"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "12.4-E2",
+        "name": "Risk-based authentication configuration",
+        "description": "Technical configuration evidence showing how authentication requirements are dynamically adjusted based on transaction risk and user behaviour",
+        "whatGoodLooksLike": [
+          "Configuration exports showing risk scoring rules including device fingerprint, geolocation, transaction amount, and behavioural factors",
+          "Step-up authentication triggers documented for high-risk scenarios with specific threshold values",
+          "Risk engine decision flow diagrams showing how authentication level is determined in real time",
+          "Evidence of adaptive authentication adjusting requirements based on anomaly detection"
+        ],
+        "commonGaps": [
+          "Static authentication requirements applied uniformly regardless of transaction risk level",
+          "Risk-based authentication described in policy but not actually implemented in the technical platform",
+          "Risk scoring rules have not been updated to address current attack patterns such as SIM swapping or device emulation",
+          "No evidence of adaptive behaviour; same authentication for all transactions regardless of context"
+        ],
+        "suggestedSources": [
+          "Authentication platform configuration (e.g., ForgeRock, Ping Identity, custom IAM)",
+          "Risk engine rule configuration exports",
+          "Digital banking platform authentication settings"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "12.4-E3",
+        "name": "MFA implementation for high-risk transactions",
+        "description": "Evidence demonstrating that multi-factor authentication is implemented and enforced for all high-risk digital banking transactions",
+        "whatGoodLooksLike": [
+          "Configuration evidence showing MFA enforcement for fund transfers above defined thresholds, payee additions, and account settings changes",
+          "MFA methods deployed include at least two independent factor categories (e.g., password + OTP, biometric + device binding)",
+          "Transaction logs showing MFA challenge issuance and completion rates for high-risk transactions",
+          "Fallback authentication procedures documented for MFA delivery failures with appropriate security controls"
+        ],
+        "commonGaps": [
+          "MFA implemented only for login but not enforced for high-risk transactional operations",
+          "Single SMS OTP used as the sole second factor without alternative methods for SIM swap scenarios",
+          "MFA bypass mechanisms exist for customer convenience that undermine the security intent",
+          "No monitoring of MFA completion rates to detect potential bypass or social engineering attacks"
+        ],
+        "suggestedSources": [
+          "Authentication platform MFA configuration",
+          "Transaction processing system authentication logs",
+          "Digital banking application MFA flow documentation"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "12.4-E4",
+        "name": "Authentication effectiveness assessment records",
+        "description": "Records from periodic assessments evaluating the effectiveness of customer authentication mechanisms against current threats",
+        "whatGoodLooksLike": [
+          "Annual authentication effectiveness assessment report covering all digital channels and authentication methods",
+          "Assessment evaluates resistance to current threats including credential stuffing, SIM swapping, phishing, and device emulation",
+          "Recommendations from assessments are tracked through to implementation with evidence of control improvements",
+          "Assessment includes analysis of authentication-related fraud cases and security incidents from the review period",
+          "Benchmarking against industry standards and peer institution practices in Malaysian banking"
+        ],
+        "commonGaps": [
+          "No formal authentication effectiveness assessment conducted; reliance on general penetration testing only",
+          "Assessment does not evaluate resistance to current threat vectors specific to Malaysian digital banking",
+          "Recommendations from previous assessments remain unimplemented without documented risk acceptance",
+          "Assessment does not analyse actual authentication-related fraud and incident data"
+        ],
+        "suggestedSources": [
+          "IT Security assessment reports",
+          "Fraud analytics team incident analysis",
+          "Authentication platform vendor security advisories"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Prepare a clear mapping of transaction types to risk tiers and corresponding authentication requirements to demonstrate the risk-based approach",
+      "Have evidence ready showing MFA is enforced for specific high-risk transactions, not just at login",
+      "Ensure the authentication effectiveness assessment explicitly addresses current threats relevant to Malaysian digital banking (SIM swap, social engineering)",
+      "Prepare authentication failure rate and fraud correlation data to demonstrate monitoring of authentication effectiveness",
+      "Be ready to explain how adaptive authentication rules have been updated in response to new threats identified in the assessment period"
+    ]
+  },
+  "12.5": {
+    "clauseId": "12.5",
+    "section": "Digital Services",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Digital Service Delivery Risk Mitigation",
+    "clauseType": "technical",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that high-value and high-risk transactions are verified through an independent channel from the initiation channel, that customers see full transaction details before confirming, and that verification mechanisms cannot be easily bypassed or intercepted.",
+    "evidenceItems": [
+      {
+        "id": "12.5-E1",
+        "name": "Transaction verification policy and procedures",
+        "description": "Formal policy defining which transactions require out-of-band verification, acceptable verification channels, and customer notification requirements",
+        "whatGoodLooksLike": [
+          "Policy defines specific monetary thresholds and transaction types requiring out-of-band verification (e.g., transfers above RM10,000, new payee registration)",
+          "Acceptable independent verification channels are explicitly listed (SMS OTP, push notification, hardware token) with channel independence requirements",
+          "Customer transaction detail display requirements are specified including amount, payee name, and account number",
+          "Policy is approved by CISO and Head of Digital Banking, reviewed within the last 12 months",
+          "Procedures for handling verification failures and customer disputes are documented"
+        ],
+        "commonGaps": [
+          "No clearly defined monetary or risk thresholds for triggering out-of-band verification",
+          "Verification channel is not truly independent (e.g., in-app verification for in-app transactions)",
+          "Policy does not specify what transaction details must be shown to the customer during verification",
+          "Missing procedures for handling verification delivery failures and customer escalations"
+        ],
+        "suggestedSources": [
+          "IT Security policy repository",
+          "Digital banking product procedures",
+          "Transaction processing system documentation"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "12.5-E2",
+        "name": "Out-of-band verification mechanism configuration",
+        "description": "Technical configuration evidence showing the implementation of independent channel verification for high-risk transactions",
+        "whatGoodLooksLike": [
+          "Configuration showing verification triggers linked to defined monetary thresholds and high-risk transaction types",
+          "Evidence of channel independence (e.g., SMS/push sent via separate infrastructure from the transaction channel)",
+          "Time-limited verification codes with maximum validity period (e.g., 5 minutes) and single-use enforcement",
+          "Cryptographic binding of transaction details to verification codes preventing modification after verification request"
+        ],
+        "commonGaps": [
+          "Verification uses the same channel as transaction initiation (e.g., in-app OTP for mobile banking transactions)",
+          "Verification codes have excessively long validity periods or can be reused",
+          "Transaction details are not cryptographically bound to verification codes, allowing modification between verification and execution",
+          "No configuration evidence for automatic transaction cancellation when verification expires"
+        ],
+        "suggestedSources": [
+          "Transaction verification system configuration",
+          "OTP/push notification gateway configuration",
+          "Digital banking platform security settings"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "12.5-E3",
+        "name": "Transaction verification flow documentation",
+        "description": "Flow diagrams and technical documentation showing the end-to-end transaction verification process with channel independence highlighted",
+        "whatGoodLooksLike": [
+          "Flow diagrams clearly showing transaction initiation channel and verification channel as separate, independent paths",
+          "Sequence diagrams illustrating the full verification lifecycle from trigger to execution or cancellation",
+          "Channel independence architecture showing separate infrastructure for transaction and verification channels",
+          "Edge cases documented including verification timeout, delivery failure, and concurrent transaction handling"
+        ],
+        "commonGaps": [
+          "Flow diagrams exist but do not clearly demonstrate channel independence",
+          "Documentation shows the happy path only without error handling and edge case flows",
+          "Architecture does not demonstrate true infrastructure separation between channels",
+          "Missing documentation of fallback mechanisms when the primary verification channel is unavailable"
+        ],
+        "suggestedSources": [
+          "Digital banking solution architecture documentation",
+          "Transaction processing system design documents",
+          "Integration architecture team documentation"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "12.5-E4",
+        "name": "Customer notification evidence",
+        "description": "Evidence that customers receive complete transaction details through the independent verification channel before final authorisation",
+        "whatGoodLooksLike": [
+          "Sample verification messages showing full transaction details (amount, payee name, account number, reference) displayed to the customer",
+          "Customer journey screenshots showing transaction summary screen with verification prompt before final authorisation",
+          "Transaction logs showing verification challenge issuance with transaction details and customer confirmation timestamps",
+          "Evidence of real-time transaction notifications sent to customers after successful verification and execution"
+        ],
+        "commonGaps": [
+          "Verification messages contain only OTP codes without transaction details for customer verification",
+          "Transaction details shown are incomplete (e.g., amount shown but payee name masked or missing)",
+          "No post-transaction notification to alert customers of completed transactions",
+          "Customer confirmation screen does not display all relevant transaction details before final execution"
+        ],
+        "suggestedSources": [
+          "Digital banking application screenshots and user flow documentation",
+          "SMS/push notification gateway message templates",
+          "Transaction processing system notification logs"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Prepare flow diagrams that clearly demonstrate channel independence between transaction initiation and verification for each digital channel",
+      "Have sample verification messages ready showing that full transaction details are included, not just OTP codes",
+      "Be prepared to demonstrate how the system handles verification failures, timeouts, and delivery issues",
+      "Ensure configuration evidence shows time-limited and single-use verification codes with automatic transaction cancellation on expiry",
+      "Prepare evidence of threshold review history showing how verification triggers have been updated based on fraud trend analysis"
+    ]
+  },
+  "12.6": {
+    "clauseId": "12.6",
+    "section": "Digital Services",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Customer Fraud Risk Empowerment",
+    "clauseType": "technical",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that session management controls include automatic timeouts, secure token generation, session fixation prevention, and concurrent session controls. They will specifically check that session tokens are not transmitted in URLs and are properly invalidated upon logout.",
+    "evidenceItems": [
+      {
+        "id": "12.6-E1",
+        "name": "Session management policy and standards",
+        "description": "Formal standards defining session management requirements including timeout values, token handling, and concurrent session policies for each digital channel",
+        "whatGoodLooksLike": [
+          "Standards define specific timeout values (idle and absolute) for each digital channel with justification based on risk assessment",
+          "Secure session token requirements specified including minimum entropy, HTTP-only and Secure flags, and prohibition of URL-based transmission",
+          "Session fixation prevention requirements documented including token regeneration triggers",
+          "Concurrent session policies defined per channel with clear rules for session displacement or blocking",
+          "Standards approved by CISO and reviewed within the last 12 months"
+        ],
+        "commonGaps": [
+          "Standards define generic timeout values without channel-specific differentiation or risk-based justification",
+          "No explicit prohibition of session tokens in URLs or requirement for HTTP-only and Secure cookie flags",
+          "Session fixation prevention not addressed in standards",
+          "Concurrent session controls not defined, allowing unlimited simultaneous sessions"
+        ],
+        "suggestedSources": [
+          "IT Security policy repository",
+          "Digital banking platform security documentation",
+          "Application security standards library"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "12.6-E2",
+        "name": "Session timeout configuration evidence",
+        "description": "Configuration exports demonstrating session timeout values implemented in production for all digital channels",
+        "whatGoodLooksLike": [
+          "Configuration exports from each digital channel showing idle timeout (e.g., 5-15 minutes) and absolute timeout (e.g., 30-60 minutes) values",
+          "Evidence that timeout values align with the approved session management standards",
+          "Server-side timeout enforcement evidence showing sessions are invalidated server-side, not just client-side",
+          "Different timeout configurations for different risk contexts (e.g., shorter timeouts for transaction-enabled sessions)"
+        ],
+        "commonGaps": [
+          "Timeout configured client-side only with no server-side enforcement, allowing bypass",
+          "Excessively long timeout values (e.g., 60+ minutes idle timeout) without risk-based justification",
+          "Same timeout values applied across all channels without risk-based differentiation",
+          "No absolute timeout configured, allowing sessions to persist indefinitely with activity"
+        ],
+        "suggestedSources": [
+          "Application server configuration (e.g., web.xml, application.properties)",
+          "Digital banking platform session configuration dashboards",
+          "Load balancer and reverse proxy session configuration"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "12.6-E3",
+        "name": "Session security testing results",
+        "description": "Security testing results specifically validating session management controls including token security, fixation resistance, and timeout enforcement",
+        "whatGoodLooksLike": [
+          "Penetration test results covering session fixation, session hijacking, and concurrent session bypass test cases",
+          "Verification that session tokens are not exposed in URLs, browser history, or server logs",
+          "Testing confirms session invalidation on logout with server-side verification",
+          "Evidence of session token entropy analysis confirming cryptographically secure generation",
+          "Testing covers all digital channels with channel-specific session management test cases"
+        ],
+        "commonGaps": [
+          "Session management testing limited to timeout verification without testing fixation, hijacking, or token security",
+          "Testing performed on internet banking only without covering mobile banking session management",
+          "Session token entropy and randomness not tested or verified",
+          "No test case verifying server-side session invalidation on logout"
+        ],
+        "suggestedSources": [
+          "Penetration testing vendor reports (session management section)",
+          "Internal application security testing results",
+          "Automated security scanning tool outputs (Burp Suite, OWASP ZAP)"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "12.6-E4",
+        "name": "Secure token implementation evidence",
+        "description": "Technical evidence demonstrating secure session token generation, transmission, and storage practices across all digital channels",
+        "whatGoodLooksLike": [
+          "Evidence of cryptographically secure random number generator (CSPRNG) usage for session token generation with minimum 128-bit entropy",
+          "Cookie configuration showing HTTP-only, Secure, and SameSite flags enabled for all session cookies",
+          "Verification that session tokens are never transmitted in URL parameters or query strings",
+          "Session token regeneration evidence upon authentication and privilege changes",
+          "Token binding or device binding mechanisms for additional session security"
+        ],
+        "commonGaps": [
+          "Session tokens generated with predictable patterns or insufficient entropy",
+          "HTTP-only or Secure flags not set on session cookies, allowing client-side script access",
+          "Session tokens found in URL parameters in web server access logs",
+          "No session token regeneration after authentication, enabling fixation attacks"
+        ],
+        "suggestedSources": [
+          "Application framework session configuration (Spring Security, Express.js, ASP.NET)",
+          "HTTP response header analysis from security testing tools",
+          "Source code review of session management implementation"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Prepare configuration exports showing session timeout values for each digital channel with clear mapping to the approved standards",
+      "Have HTTP response headers readily available showing Secure, HTTP-only, and SameSite flags on session cookies",
+      "Ensure penetration test reports include specific session management test cases covering fixation, hijacking, and token analysis",
+      "Be prepared to demonstrate server-side session invalidation on logout, not just client-side cookie deletion",
+      "Prepare evidence showing concurrent session controls are configured and enforced across all digital channels"
+    ]
+  },
+  "12.7": {
+    "clauseId": "12.7",
+    "section": "Digital Services",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Customer Fraud Awareness Programmes",
+    "clauseType": "technical",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that real-time fraud detection systems are deployed for digital banking transactions, employing behavioural analytics and anomaly detection. They will look for evidence of detection effectiveness metrics, investigation procedures, and the ability to flag and block suspicious transactions in real time.",
+    "evidenceItems": [
+      {
+        "id": "12.7-E1",
+        "name": "Fraud detection system architecture and configuration",
+        "description": "Architecture documentation and configuration evidence for the real-time fraud detection system deployed across digital banking channels",
+        "whatGoodLooksLike": [
+          "Architecture diagram showing real-time fraud detection integrated into the transaction processing pipeline with sub-second decision latency",
+          "Configuration evidence showing detection rules cover digital banking channels including internet banking, mobile banking, and e-wallet transactions",
+          "Integration points documented with transaction monitoring, anti-money laundering, and SIEM platforms",
+          "System capacity and performance metrics showing the system handles peak transaction volumes without degradation",
+          "Failover and resilience architecture ensuring fraud detection remains operational during system failures"
+        ],
+        "commonGaps": [
+          "Fraud detection operates in batch mode rather than real-time, analysing transactions after completion",
+          "Detection coverage excludes some digital channels such as QR payments or e-wallet transactions",
+          "No documented integration with SIEM or anti-money laundering systems for correlated risk analysis",
+          "Missing capacity planning evidence for fraud detection systems during peak transaction periods"
+        ],
+        "suggestedSources": [
+          "Fraud detection platform documentation (e.g., NICE Actimize, SAS, Featurespace)",
+          "Enterprise architecture repository",
+          "IT operations capacity management reports"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "12.7-E2",
+        "name": "Fraud detection rules and models documentation",
+        "description": "Documentation of fraud detection rules, machine learning models, and behavioural analytics employed by the fraud detection system",
+        "whatGoodLooksLike": [
+          "Documented rule library categorised by fraud type (account takeover, social engineering, card-not-present, authorised push payment)",
+          "Machine learning model documentation including training data scope, feature engineering, and model performance metrics",
+          "Behavioural analytics profiles documented showing what customer behaviour baselines are monitored (transaction patterns, device usage, login times)",
+          "Rule and model change history showing regular updates based on fraud trend analysis",
+          "Threshold calibration records showing how detection sensitivity is balanced against false positive rates"
+        ],
+        "commonGaps": [
+          "Detection relies solely on static rules without behavioural analytics or machine learning as required by RMiT",
+          "Rules have not been updated in over 12 months and do not address current fraud patterns in Malaysian digital banking",
+          "No documentation of model performance metrics or threshold calibration rationale",
+          "Behavioural analytics scope is limited to transaction amount only without considering device, location, or timing patterns"
+        ],
+        "suggestedSources": [
+          "Fraud operations team rule documentation",
+          "Data science team model documentation and performance reports",
+          "Fraud detection platform rule management interface"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "12.7-E3",
+        "name": "Fraud alert monitoring and investigation records",
+        "description": "Records demonstrating that fraud alerts are monitored, investigated, and resolved in a timely manner with documented outcomes",
+        "whatGoodLooksLike": [
+          "Alert monitoring dashboard showing 24/7 coverage with response time SLAs for different alert severity levels",
+          "Investigation records showing structured triage, analysis, and resolution for flagged transactions",
+          "Evidence of real-time transaction blocking for confirmed fraud cases with customer notification records",
+          "Escalation records showing timely escalation of confirmed fraud to management and regulatory reporting where required",
+          "Case management system records demonstrating end-to-end investigation lifecycle tracking"
+        ],
+        "commonGaps": [
+          "Alerts generated but not monitored outside business hours, creating gaps in coverage",
+          "Investigation records are informal (email-based) without structured case management",
+          "No evidence of real-time transaction blocking capability; all suspicious transactions processed and reviewed after the fact",
+          "Missing regulatory reporting evidence for confirmed fraud cases exceeding BNM notification thresholds"
+        ],
+        "suggestedSources": [
+          "Fraud case management system (e.g., NICE Actimize, SAS Case Management)",
+          "Security operations centre alert dashboards",
+          "Regulatory fraud reporting submissions"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "12.7-E4",
+        "name": "Fraud detection effectiveness metrics",
+        "description": "Regular reports on fraud detection system effectiveness including detection rates, false positive rates, and financial impact metrics",
+        "whatGoodLooksLike": [
+          "Quarterly effectiveness reports showing detection rate (percentage of fraud caught), false positive rate, and mean time to detect",
+          "Financial impact metrics including amounts blocked, losses prevented, and actual fraud losses for the reporting period",
+          "Trend analysis comparing current period metrics against previous quarters and industry benchmarks",
+          "Model performance metrics including precision, recall, and F1 scores for machine learning models",
+          "Reports reviewed by senior management with documented actions for any performance concerns"
+        ],
+        "commonGaps": [
+          "No formal effectiveness metrics tracked; effectiveness claims based on anecdotal evidence",
+          "High false positive rates (above 95%) indicating poor rule calibration and alert fatigue risk",
+          "No comparison against industry benchmarks or previous period performance",
+          "Effectiveness reports not reviewed by senior management or audit committee"
+        ],
+        "suggestedSources": [
+          "Fraud operations team quarterly reports",
+          "Data science team model performance dashboards",
+          "Management information system (MIS) fraud reporting"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Prepare quarterly fraud detection effectiveness metrics demonstrating detection rates, false positive management, and financial impact for the past 12 months",
+      "Have evidence ready showing that fraud detection operates in real time within the transaction processing flow, not as a post-transaction batch process",
+      "Ensure investigation records demonstrate structured case management with clear triage, investigation, and resolution workflows",
+      "Be prepared to explain how detection rules and models have been updated in response to fraud trends specific to Malaysian digital banking",
+      "Prepare evidence of 24/7 alert monitoring coverage and escalation procedures for after-hours fraud detection"
+    ]
+  },
+  "12.8": {
+    "clauseId": "12.8",
+    "section": "Digital Services",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Customer Account Suspension and Kill Switch",
+    "clauseType": "technical",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will assess whether digital customer onboarding processes include appropriate identity verification, liveness detection, document verification, and fraud screening controls that are proportionate to the risk level of the products offered. Evidence of control effectiveness and alignment with BNM e-KYC guidelines will be examined.",
+    "evidenceItems": [
+      {
+        "id": "12.8-E1",
+        "name": "Digital onboarding security standards",
+        "description": "Formal standards defining security control requirements for digital customer onboarding processes, differentiated by product risk tier",
+        "whatGoodLooksLike": [
+          "Standards define onboarding security requirements by product risk tier (e.g., basic savings vs. credit facilities) with proportionate controls",
+          "Identity verification, liveness detection, document verification, and fraud screening requirements are explicitly specified",
+          "Alignment with BNM e-KYC guidelines and AMLATFPUAA requirements is documented",
+          "Standards cover both mobile and web-based onboarding channels",
+          "Document approved by CISO and Head of Compliance, reviewed within the last 12 months"
+        ],
+        "commonGaps": [
+          "Standards apply the same verification requirements to all products regardless of risk level",
+          "Liveness detection not addressed in standards despite being explicitly mentioned in RMiT",
+          "No alignment mapping to BNM e-KYC guidelines or anti-money laundering requirements",
+          "Standards cover only one onboarding channel without addressing mobile-specific considerations"
+        ],
+        "suggestedSources": [
+          "IT Security policy repository",
+          "Compliance department e-KYC documentation",
+          "Digital banking onboarding project documentation"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "12.8-E2",
+        "name": "Identity verification process documentation",
+        "description": "Documentation of the end-to-end digital identity verification process including MyKad/identity document validation, biometric comparison, and sanctions screening",
+        "whatGoodLooksLike": [
+          "Process flow diagrams showing the complete digital identity verification journey from document capture to verification decision",
+          "Integration with JPN (Jabatan Pendaftaran Negara) or equivalent identity validation services documented",
+          "Facial recognition comparison process with match score thresholds and manual review triggers",
+          "Sanctions, PEP, and adverse media screening integration with documented hit review procedures",
+          "Error handling and manual fallback procedures documented for verification failures"
+        ],
+        "commonGaps": [
+          "Identity verification relies solely on OCR document capture without backend validation against government databases",
+          "No facial recognition comparison between submitted photo and identity document",
+          "Sanctions and PEP screening not integrated into the digital onboarding flow",
+          "Manual review process for edge cases not documented or resourced"
+        ],
+        "suggestedSources": [
+          "Digital onboarding vendor documentation (Jumio, Onfido, iProov)",
+          "Compliance team KYC process documentation",
+          "Identity verification system integration architecture"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "12.8-E3",
+        "name": "Liveness detection and document verification evidence",
+        "description": "Technical evidence demonstrating that liveness detection and document verification controls are implemented and effective against spoofing attempts",
+        "whatGoodLooksLike": [
+          "Liveness detection technology documentation showing resistance to photo, video, and 3D mask attacks with testing evidence",
+          "Document verification capabilities including watermark detection, hologram validation, and MRZ/barcode cross-checking",
+          "Vendor-provided liveness detection accuracy metrics (false acceptance rate and false rejection rate)",
+          "Regular testing results showing liveness detection bypass resistance against current spoofing techniques",
+          "Integration evidence showing liveness and document verification are mandatory steps in the onboarding flow"
+        ],
+        "commonGaps": [
+          "Basic liveness detection (e.g., blink detection only) that is easily spoofed by video replay",
+          "Document verification limited to OCR without authenticity checks for watermarks, holograms, or security features",
+          "No regular testing of liveness detection against evolving spoofing techniques",
+          "Liveness detection implemented but can be bypassed through alternative onboarding paths"
+        ],
+        "suggestedSources": [
+          "Liveness detection vendor documentation and accuracy reports",
+          "Document verification vendor capability documentation",
+          "Internal security testing reports for onboarding controls"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "12.8-E4",
+        "name": "Fraud screening integration evidence",
+        "description": "Evidence that fraud screening databases and risk signals are integrated into the digital onboarding process to detect and prevent fraudulent applications",
+        "whatGoodLooksLike": [
+          "Integration evidence showing real-time fraud screening during onboarding including device risk scoring, velocity checks, and fraud database lookups",
+          "Connection to industry fraud databases (e.g., CTOS, RAM, internal fraud blacklists) for applicant screening",
+          "Onboarding fraud detection rules documented with evidence of regular review and update",
+          "Fraud screening decision audit trail showing screening results for each onboarding application",
+          "Metrics showing fraud screening effectiveness including application rejection rates and false positive analysis"
+        ],
+        "commonGaps": [
+          "Fraud screening performed only after account opening rather than integrated into the onboarding decision flow",
+          "No device risk scoring or velocity checks during digital onboarding",
+          "Fraud databases are checked but results are not integrated into the automated onboarding decision",
+          "No metrics tracked for onboarding fraud screening effectiveness"
+        ],
+        "suggestedSources": [
+          "Fraud screening platform configuration (e.g., LexisNexis, TransUnion, CTOS)",
+          "Digital onboarding application backend logs",
+          "Fraud operations team onboarding screening reports"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Prepare a product risk tier matrix showing how onboarding security controls scale with product risk level",
+      "Have liveness detection testing evidence ready demonstrating resistance to common spoofing attacks (photo, video, mask)",
+      "Ensure alignment with BNM e-KYC guidelines is explicitly documented and demonstrable",
+      "Prepare onboarding fraud metrics including application rejection rates, fraud detection rates, and false positive analysis",
+      "Be ready to demonstrate the end-to-end onboarding verification flow including fallback procedures for verification failures"
+    ]
+  },
+  "12.9": {
+    "clauseId": "12.9",
+    "section": "Digital Services",
+    "subsection": "Digital Fraud Management and Customer Awareness",
+    "title": "Post-Incident Customer Protection",
+    "clauseType": "technical",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that QR code payments and e-wallet services are protected against tampering, overlay attacks, and forgery. They will look for QR code validation mechanisms, transaction encryption, integrity controls, and evidence of security testing specifically targeting QR and e-wallet attack vectors.",
+    "evidenceItems": [
+      {
+        "id": "12.9-E1",
+        "name": "QR code and e-wallet security standards",
+        "description": "Formal security standards for QR code-based payments and e-wallet services covering validation, encryption, and anti-tampering requirements",
+        "whatGoodLooksLike": [
+          "Standards cover QR code generation, validation, display security, and transaction processing for both merchant-presented and consumer-presented QR codes",
+          "Anti-tampering and anti-overlay requirements explicitly defined for e-wallet applications",
+          "Alignment with PayNet DuitNow QR specifications and Malaysian Payment Systems Act requirements documented",
+          "Encryption requirements for QR transaction data at rest and in transit specified",
+          "Standards approved by CISO and reviewed within the last 12 months"
+        ],
+        "commonGaps": [
+          "Standards address general digital channel security but lack QR-specific and e-wallet-specific requirements",
+          "No reference to PayNet DuitNow QR security specifications",
+          "Anti-overlay and anti-screen-capture requirements not addressed for e-wallet applications",
+          "Standards do not differentiate between merchant-presented and consumer-presented QR code security requirements"
+        ],
+        "suggestedSources": [
+          "IT Security policy repository",
+          "PayNet DuitNow QR technical specifications",
+          "E-wallet product security documentation"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "12.9-E2",
+        "name": "QR code validation implementation evidence",
+        "description": "Technical evidence demonstrating that QR codes are cryptographically validated before processing payment transactions",
+        "whatGoodLooksLike": [
+          "QR code generation process documented showing cryptographic signing of QR code data to ensure integrity and authenticity",
+          "Validation logic evidence showing QR codes are verified against the signing authority before processing transactions",
+          "Merchant QR code registration process documented with validation of merchant identity and account details",
+          "Evidence of QR code expiry mechanisms preventing replay of time-sensitive QR codes",
+          "Error handling for invalid or tampered QR codes documented with user notification flow"
+        ],
+        "commonGaps": [
+          "QR codes contain plain text data without cryptographic integrity protection",
+          "No merchant QR code registration process, allowing anyone to generate payment QR codes",
+          "QR codes have no expiry mechanism, enabling indefinite reuse of intercepted codes",
+          "Invalid QR codes are rejected but no security alert is generated for potential tampering detection"
+        ],
+        "suggestedSources": [
+          "QR payment platform technical documentation",
+          "Merchant onboarding system QR registration records",
+          "Payment gateway QR validation configuration"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "12.9-E3",
+        "name": "Transaction encryption and integrity controls",
+        "description": "Evidence that QR code and e-wallet transactions are encrypted end-to-end with integrity verification throughout the transaction lifecycle",
+        "whatGoodLooksLike": [
+          "End-to-end encryption evidence showing transaction data encrypted from customer device to payment processing backend using TLS 1.2+ and application-layer encryption",
+          "Transaction integrity verification mechanisms documented including digital signatures or HMAC on transaction payloads",
+          "Evidence of secure key management for QR transaction encryption and signing keys",
+          "Payment tokenisation implementation evidence replacing sensitive account data in QR transaction flows"
+        ],
+        "commonGaps": [
+          "TLS encryption at transport layer only without application-layer encryption of sensitive transaction data",
+          "No transaction integrity verification allowing potential modification of transaction details in transit",
+          "Encryption keys stored in application configuration without proper key management procedures",
+          "Sensitive account numbers transmitted in plain text within QR code data without tokenisation"
+        ],
+        "suggestedSources": [
+          "Payment platform encryption architecture documentation",
+          "Key management system configuration",
+          "Security testing reports covering transaction encryption validation"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "12.9-E4",
+        "name": "Security testing results for QR and e-wallet features",
+        "description": "Security testing results from assessments specifically targeting QR code payment and e-wallet security controls",
+        "whatGoodLooksLike": [
+          "Penetration testing scope includes QR code tampering, substitution, and replay attack test cases",
+          "E-wallet application testing covers overlay attack simulations and screen-capture prevention validation",
+          "Testing validates QR code validation logic including handling of modified, expired, and forged QR codes",
+          "Results from security assessments performed by qualified assessors with QR payment security expertise",
+          "All findings remediated before production release with retesting evidence"
+        ],
+        "commonGaps": [
+          "General mobile app security testing performed but no QR-specific or e-wallet-specific attack scenarios tested",
+          "Overlay attack resistance not tested for the e-wallet application",
+          "QR code tampering and substitution attack scenarios not included in penetration testing scope",
+          "Security testing performed at initial launch only without retesting for subsequent feature updates"
+        ],
+        "suggestedSources": [
+          "Penetration testing vendor reports (QR/e-wallet section)",
+          "Mobile application security testing reports",
+          "Internal security team QR-specific test results"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Prepare evidence showing QR code cryptographic validation is implemented, not just format validation",
+      "Have security testing reports ready that specifically cover QR tampering, overlay attacks, and e-wallet-specific threat scenarios",
+      "Ensure alignment with PayNet DuitNow QR specifications is documented and demonstrable",
+      "Prepare evidence of both merchant-presented and consumer-presented QR code security controls",
+      "Be ready to demonstrate the end-to-end encrypted transaction flow from QR scan to payment completion"
+    ]
+  }
+}

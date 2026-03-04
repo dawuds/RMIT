@@ -1,0 +1,485 @@
+{
+  "9.1": {
+    "clauseId": "9.1",
+    "section": "Technology Risk Management",
+    "subsection": "Risk Management Framework",
+    "title": "TRMF Integration with Enterprise Risk Management",
+    "clauseType": "governance",
+    "marker": "S",
+    "business": {
+      "summary": "A comprehensive technology risk management framework provides the foundational structure for systematically identifying, assessing, treating, and monitoring technology risks in a manner proportionate to the institution's size, complexity, and risk profile.",
+      "requirements": [
+        {
+          "id": "9.1-B1",
+          "requirement": "Develop and maintain a technology risk management framework that is proportionate to the institution's nature, size, complexity, and technology dependencies",
+          "rationale": "A one-size-fits-all framework either overwhelms smaller institutions or leaves larger ones underprotected; BNM expects the framework to be calibrated to the institution's actual risk exposure",
+          "owner": "Chief Risk Officer",
+          "frequency": "Annual review",
+          "priority": "Critical"
+        },
+        {
+          "id": "9.1-B2",
+          "requirement": "Align the technology risk management framework with the enterprise risk management framework to ensure technology risks are considered alongside credit, market, operational, and strategic risks",
+          "rationale": "Technology risks do not exist in isolation; a cyber incident can trigger operational losses, reputational damage, and regulatory penalties simultaneously, requiring an integrated risk view",
+          "owner": "Chief Risk Officer",
+          "frequency": "Annual alignment review",
+          "priority": "Critical"
+        },
+        {
+          "id": "9.1-B3",
+          "requirement": "Obtain formal board approval for the technology risk management framework and any material changes to its structure, scope, or methodology",
+          "rationale": "Board approval demonstrates that the highest governance body has reviewed and endorsed the approach to managing technology risk, which is a fundamental BNM expectation",
+          "owner": "Chief Risk Officer",
+          "frequency": "Annual approval, Upon material change",
+          "priority": "Critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "The framework must be supported by technology tools and systems that enable consistent risk assessment, centralised risk data management, and automated reporting across the institution.",
+      "requirements": [
+        {
+          "id": "9.1-T1",
+          "requirement": "Implement a GRC platform or equivalent tool to operationalise the framework, enabling consistent risk assessments, centralised risk data, automated workflows, and integrated reporting",
+          "rationale": "Manual or spreadsheet-based framework implementation does not scale, creates data quality issues, and makes it difficult to demonstrate consistent methodology application to BNM examiners",
+          "owner": "Head of Technology Risk",
+          "frequency": "Continuous operation, Annual tool review",
+          "priority": "High"
+        },
+        {
+          "id": "9.1-T2",
+          "requirement": "Integrate the technology risk framework with existing IT service management, security monitoring, and asset management systems to enable automated risk data collection",
+          "rationale": "Integration reduces manual data entry, improves data accuracy, and ensures the framework captures risks from operational systems in near-real time",
+          "owner": "Chief Technology Officer",
+          "frequency": "Annual integration review",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "The framework must define clear governance structures, roles, methodologies, and reporting mechanisms that establish how technology risk is managed from board level through to operational teams.",
+      "requirements": [
+        {
+          "id": "9.1-G1",
+          "requirement": "Define within the framework the governance structures for technology risk including committee structures, roles and responsibilities, escalation paths, and reporting lines from operational level to the board",
+          "rationale": "Clear governance structures prevent confusion about who makes risk decisions at each level and ensure risks are escalated appropriately from operational teams to senior management and the board",
+          "owner": "Chief Risk Officer",
+          "frequency": "Annual review",
+          "priority": "Critical"
+        },
+        {
+          "id": "9.1-G2",
+          "requirement": "Document the risk appetite framework within the technology risk management framework, including how risk appetite is defined, cascaded, monitored, and enforced across the institution",
+          "rationale": "The risk appetite component connects strategic risk tolerance set by the board to operational risk limits enforced by management, which is a critical linkage BNM examiners expect to see",
+          "owner": "Chief Risk Officer",
+          "frequency": "Annual review",
+          "priority": "Critical"
+        },
+        {
+          "id": "9.1-G3",
+          "requirement": "Specify the risk assessment methodology within the framework including risk identification approaches, likelihood and impact rating scales, risk scoring methodology, and assessment frequency requirements",
+          "rationale": "A standardised methodology ensures consistency across risk assessments conducted by different teams and enables meaningful aggregation and comparison of risks across the institution",
+          "owner": "Head of Technology Risk",
+          "frequency": "Annual review",
+          "priority": "Critical"
+        },
+        {
+          "id": "9.1-G4",
+          "requirement": "Conduct an annual review of the framework to assess its effectiveness, currency, and alignment with changes in the regulatory environment, business strategy, and technology landscape",
+          "rationale": "An outdated framework provides false assurance; annual reviews ensure the framework evolves with the institution's technology footprint and BNM's regulatory expectations",
+          "owner": "Chief Risk Officer",
+          "frequency": "Annual",
+          "priority": "Critical"
+        }
+      ]
+    }
+  },
+  "9.2": {
+    "clauseId": "9.2",
+    "section": "Technology Risk Management",
+    "subsection": "Risk Management Framework",
+    "title": "TRMF Minimum Requirements",
+    "clauseType": "governance",
+    "marker": "S",
+    "business": {
+      "summary": "Systematic identification and assessment of technology risks across all critical assets and services is essential for understanding the institution's true risk exposure and making informed decisions about risk treatment investments and priorities.",
+      "requirements": [
+        {
+          "id": "9.2-B1",
+          "requirement": "Conduct comprehensive technology risk assessments at least annually covering all critical technology assets, systems, and services, considering threats, vulnerabilities, likelihood, and potential business impact",
+          "rationale": "Annual assessments are the BNM-mandated minimum; without them, the institution lacks a current understanding of its technology risk exposure, leading to uninformed resource allocation and potential regulatory findings",
+          "owner": "Chief Risk Officer",
+          "frequency": "Annual (minimum)",
+          "priority": "Critical"
+        },
+        {
+          "id": "9.2-B2",
+          "requirement": "Trigger ad hoc risk assessments upon significant changes including major system implementations, infrastructure migrations, organisational restructuring, mergers and acquisitions, and material security incidents",
+          "rationale": "Annual assessments alone are insufficient when the technology environment changes significantly between cycles; change-triggered assessments ensure the risk picture remains current and accurate",
+          "owner": "Head of Technology Risk",
+          "frequency": "Upon significant change",
+          "priority": "Critical"
+        },
+        {
+          "id": "9.2-B3",
+          "requirement": "Quantify the potential business impact of identified technology risks in terms of financial loss, operational disruption, customer impact, regulatory exposure, and reputational damage",
+          "rationale": "Risk assessments that do not translate technical vulnerabilities into business impact fail to inform board-level decision-making and make it impossible to prioritise treatment investments effectively",
+          "owner": "Head of Technology Risk",
+          "frequency": "Per assessment",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Technical teams must deploy and maintain tools for continuous threat intelligence gathering, vulnerability scanning, and asset discovery to feed accurate data into the risk assessment process.",
+      "requirements": [
+        {
+          "id": "9.2-T1",
+          "requirement": "Maintain a comprehensive and current inventory of all technology assets including hardware, software, cloud services, APIs, and data repositories that serves as the scope baseline for risk assessments",
+          "rationale": "Risk assessments can only cover known assets; an incomplete or outdated asset inventory means the institution has blind spots where unassessed risks may reside",
+          "owner": "Head of IT",
+          "frequency": "Continuous maintenance, Quarterly validation",
+          "priority": "Critical"
+        },
+        {
+          "id": "9.2-T2",
+          "requirement": "Deploy automated vulnerability scanning tools that regularly assess technical vulnerabilities across the institution's infrastructure, applications, and cloud environments",
+          "rationale": "Automated scanning provides objective, repeatable data on technical vulnerabilities that feeds directly into risk assessments and ensures no critical vulnerabilities are missed",
+          "owner": "Chief Information Security Officer",
+          "frequency": "Continuous or Weekly scanning",
+          "priority": "Critical"
+        },
+        {
+          "id": "9.2-T3",
+          "requirement": "Subscribe to and integrate threat intelligence feeds relevant to the Malaysian financial services sector to inform threat identification during risk assessments",
+          "rationale": "Risk assessments must consider current and emerging threats; Malaysian-specific threat intelligence ensures assessments reflect the actual threat actors and attack vectors targeting the local financial sector",
+          "owner": "Chief Information Security Officer",
+          "frequency": "Continuous",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "A documented risk assessment methodology with defined rating scales, assessment procedures, and quality assurance processes ensures consistency, repeatability, and auditability of technology risk assessments.",
+      "requirements": [
+        {
+          "id": "9.2-G1",
+          "requirement": "Document a formal technology risk assessment methodology that defines risk identification techniques, likelihood and impact rating scales, risk scoring calculations, and assessment procedures",
+          "rationale": "A documented methodology ensures consistency across assessments conducted by different teams and enables BNM to verify that the institution applies a systematic, repeatable approach to risk assessment",
+          "owner": "Head of Technology Risk",
+          "frequency": "Annual review",
+          "priority": "Critical"
+        },
+        {
+          "id": "9.2-G2",
+          "requirement": "Maintain a risk assessment schedule that plans assessments across all critical technology domains and tracks completion status, ensuring full coverage within each annual cycle",
+          "rationale": "Without a schedule, risk assessments tend to focus on familiar areas while neglecting others; a planned schedule ensures comprehensive coverage and provides BNM with evidence of systematic execution",
+          "owner": "Head of Technology Risk",
+          "frequency": "Annual planning, Quarterly tracking",
+          "priority": "Critical"
+        },
+        {
+          "id": "9.2-G3",
+          "requirement": "Implement a quality assurance process for completed risk assessments including peer review, methodology compliance checks, and sign-off by the Head of Technology Risk",
+          "rationale": "Risk assessments vary in quality depending on the assessor's experience; quality assurance ensures assessments meet defined standards and produce reliable, comparable results across the institution",
+          "owner": "Head of Technology Risk",
+          "frequency": "Per assessment",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "9.3": {
+    "clauseId": "9.3",
+    "section": "Technology Risk Management",
+    "subsection": "Risk Management Framework",
+    "title": "Independent Technology Risk Management Function",
+    "clauseType": "governance",
+    "marker": "S",
+    "business": {
+      "summary": "Effective risk treatment ensures that every identified technology risk has a deliberate response -- whether avoided, mitigated, transferred, or formally accepted -- with clear accountability, timelines, and approval at the appropriate authority level.",
+      "requirements": [
+        {
+          "id": "9.3-B1",
+          "requirement": "Develop risk treatment plans for all identified technology risks specifying the chosen treatment option (avoid, mitigate, transfer, or accept), implementation timelines, resource requirements, and the named individual accountable for execution",
+          "rationale": "Identified risks without treatment plans represent unmanaged exposure; BNM expects every risk to have a deliberate, documented response with clear accountability",
+          "owner": "Head of Technology Risk",
+          "frequency": "Per risk identification, Quarterly review",
+          "priority": "Critical"
+        },
+        {
+          "id": "9.3-B2",
+          "requirement": "Establish a formal risk acceptance process requiring sign-off at the appropriate authority level based on the risk's severity, with board-level approval required for high and critical residual risks",
+          "rationale": "Risk acceptance without proper authority is a governance failure; senior management or the board must consciously decide to accept risks above defined thresholds, with full understanding of the potential consequences",
+          "owner": "Chief Risk Officer",
+          "frequency": "Per risk acceptance decision",
+          "priority": "Critical"
+        },
+        {
+          "id": "9.3-B3",
+          "requirement": "Allocate sufficient budget and resources for risk treatment implementation, with tracking mechanisms to ensure treatment plans are funded and progressing on schedule",
+          "rationale": "Treatment plans without funding are aspirational; the institution must demonstrate that it commits real resources to reducing identified technology risks within agreed timelines",
+          "owner": "Chief Financial Officer",
+          "frequency": "Annual budget cycle, Quarterly tracking",
+          "priority": "High"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Technology teams must implement the technical controls, system changes, and security measures specified in risk treatment plans, with verifiable evidence of implementation effectiveness.",
+      "requirements": [
+        {
+          "id": "9.3-T1",
+          "requirement": "Implement technical controls and security measures specified in risk treatment plans with documented evidence of deployment, configuration, and effectiveness testing",
+          "rationale": "A treatment plan that specifies a technical control is only effective once the control is properly implemented, configured, and tested; deployment without verification provides false assurance",
+          "owner": "Chief Technology Officer",
+          "frequency": "Per treatment plan timeline",
+          "priority": "Critical"
+        },
+        {
+          "id": "9.3-T2",
+          "requirement": "Conduct post-implementation validation of risk mitigation controls to verify they reduce the identified risk to within acceptable levels as defined in the treatment plan",
+          "rationale": "Controls may be implemented but may not be effective in actually reducing the risk; post-implementation validation confirms the treatment achieved its intended risk reduction",
+          "owner": "Head of Technology Risk",
+          "frequency": "Per control implementation",
+          "priority": "High"
+        },
+        {
+          "id": "9.3-T3",
+          "requirement": "Maintain ongoing monitoring of implemented controls to ensure they continue to operate effectively and the residual risk remains within the accepted level",
+          "rationale": "Controls can degrade over time due to configuration drift, technology changes, or evolving threats; ongoing monitoring ensures continued effectiveness",
+          "owner": "Chief Information Security Officer",
+          "frequency": "Continuous",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Governance processes must define risk treatment policies, approval authorities, progress tracking mechanisms, and reporting requirements to ensure treatment plans are executed effectively and transparently.",
+      "requirements": [
+        {
+          "id": "9.3-G1",
+          "requirement": "Document a risk treatment policy that defines the available treatment options, approval authority levels for each risk severity tier, and requirements for treatment plan documentation",
+          "rationale": "A formal policy ensures consistent treatment decision-making across the institution and provides BNM examiners with a clear framework for assessing whether appropriate approvals were obtained",
+          "owner": "Chief Risk Officer",
+          "frequency": "Annual review",
+          "priority": "Critical"
+        },
+        {
+          "id": "9.3-G2",
+          "requirement": "Implement a treatment plan tracking system that monitors progress against timelines, escalates overdue plans to senior management, and reports status to the board quarterly",
+          "rationale": "Without tracking, treatment plans stagnate; systematic monitoring with escalation ensures accountability and provides the board with visibility into whether the institution is actually reducing its technology risk exposure",
+          "owner": "Head of Technology Risk",
+          "frequency": "Continuous tracking, Quarterly reporting",
+          "priority": "Critical"
+        },
+        {
+          "id": "9.3-G3",
+          "requirement": "Maintain a formal record of all risk acceptance decisions including the risk description, residual risk level, business justification, approving authority, approval date, and next review date",
+          "rationale": "Risk acceptance records are a primary audit artefact; BNM examiners will verify that accepted risks were approved at the correct authority level with documented justification and periodic revalidation",
+          "owner": "Head of Technology Risk",
+          "frequency": "Per acceptance decision, Annual revalidation",
+          "priority": "Critical"
+        }
+      ]
+    }
+  },
+  "9.4": {
+    "clauseId": "9.4",
+    "section": "Technology Risk Management",
+    "subsection": "Designated Chief Information Security Officer",
+    "title": "Designation of Chief Information Security Officer",
+    "clauseType": "governance",
+    "marker": "S",
+    "business": {
+      "summary": "Continuous monitoring and structured reporting of technology risks ensures the institution detects emerging threats and risk appetite breaches early, enabling timely management response and informed board oversight.",
+      "requirements": [
+        {
+          "id": "9.4-B1",
+          "requirement": "Define and implement key risk indicators for all critical technology risk domains, with specific thresholds that trigger escalation when risk appetite limits are approached or breached",
+          "rationale": "KRIs translate abstract risk concepts into measurable metrics that management and the board can monitor; without defined thresholds, it is impossible to determine whether the institution is operating within its stated risk appetite",
+          "owner": "Chief Risk Officer",
+          "frequency": "Annual KRI review, Continuous monitoring",
+          "priority": "High"
+        },
+        {
+          "id": "9.4-B2",
+          "requirement": "Establish periodic technology risk reporting to senior management and the board that includes KRI performance, emerging risk alerts, and risk treatment progress",
+          "rationale": "Regular reporting creates a feedback loop between operational risk monitoring and strategic decision-making, ensuring management and the board remain informed and can intervene when needed",
+          "owner": "Head of Technology Risk",
+          "frequency": "Monthly to senior management, Quarterly to board",
+          "priority": "High"
+        },
+        {
+          "id": "9.4-B3",
+          "requirement": "Integrate technology risk monitoring data into the enterprise-wide risk reporting framework to provide a holistic view of the institution's risk profile",
+          "rationale": "Technology risks that are reported in isolation cannot be properly weighted against other institutional risks; integration ensures the board sees the full picture when making strategic risk decisions",
+          "owner": "Chief Risk Officer",
+          "frequency": "Quarterly",
+          "priority": "Medium"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "Technology infrastructure must support continuous, automated monitoring of risk indicators through integrated dashboards, SIEM platforms, and alerting systems that provide real-time visibility into the institution's risk posture.",
+      "requirements": [
+        {
+          "id": "9.4-T1",
+          "requirement": "Deploy automated monitoring tools that continuously collect and correlate data for defined KRIs across infrastructure, applications, security, and third-party technology services",
+          "rationale": "Manual KRI data collection is too slow and error-prone for effective risk monitoring; automated tools ensure timely, accurate data that can trigger alerts before thresholds are breached",
+          "owner": "Chief Technology Officer",
+          "frequency": "Continuous",
+          "priority": "High"
+        },
+        {
+          "id": "9.4-T2",
+          "requirement": "Implement a centralised risk monitoring dashboard that consolidates KRI data from multiple sources and provides configurable threshold alerts for risk management and senior management",
+          "rationale": "A centralised dashboard provides a single pane of glass for risk monitoring, eliminating the need to check multiple systems and reducing the risk of missing critical threshold breaches",
+          "owner": "Head of IT",
+          "frequency": "Continuous operation",
+          "priority": "High"
+        },
+        {
+          "id": "9.4-T3",
+          "requirement": "Configure automated escalation alerts that notify designated personnel when KRI thresholds are approached (amber) or breached (red), with different notification channels based on severity",
+          "rationale": "Automated escalation removes human delay from the notification process and ensures threshold breaches are communicated to the right people immediately, enabling rapid response",
+          "owner": "Chief Information Security Officer",
+          "frequency": "Continuous",
+          "priority": "High"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Governance processes must define KRI ownership, escalation procedures, reporting cadences, and accountability mechanisms to ensure monitoring activities translate into timely and effective risk management actions.",
+      "requirements": [
+        {
+          "id": "9.4-G1",
+          "requirement": "Document formal escalation procedures that define the actions required when KRI thresholds are approached or breached, including notification recipients, response timeframes, and required remediation steps",
+          "rationale": "Without documented escalation procedures, threshold breaches may go unaddressed or be handled inconsistently; formal procedures ensure a predictable, auditable response to risk appetite violations",
+          "owner": "Chief Risk Officer",
+          "frequency": "Annual review",
+          "priority": "High"
+        },
+        {
+          "id": "9.4-G2",
+          "requirement": "Assign named owners to each key risk indicator who are accountable for data quality, threshold calibration, and escalation when their KRI approaches or breaches the defined limit",
+          "rationale": "Ownerless KRIs receive no attention; assigning named owners creates personal accountability and ensures someone is responsible for monitoring and acting on each indicator",
+          "owner": "Head of Technology Risk",
+          "frequency": "Annual assignment review",
+          "priority": "High"
+        },
+        {
+          "id": "9.4-G3",
+          "requirement": "Maintain records of all KRI threshold breach events including the breach details, escalation actions taken, root cause analysis, and remediation outcomes",
+          "rationale": "Breach records provide BNM examiners with evidence that the monitoring and escalation framework operates in practice, not just in theory; they also enable trend analysis to identify systemic issues",
+          "owner": "Head of Technology Risk",
+          "frequency": "Per breach event",
+          "priority": "High"
+        }
+      ]
+    }
+  },
+  "9.5": {
+    "clauseId": "9.5",
+    "section": "Technology Risk Management",
+    "subsection": "Designated Chief Information Security Officer",
+    "title": "CISO Responsibilities for Information Protection",
+    "clauseType": "governance",
+    "marker": "S",
+    "business": {
+      "summary": "A comprehensive, up-to-date technology risk register serves as the central repository of all identified technology risks and their treatment status, providing the institution with a single source of truth for risk-informed decision-making at all levels.",
+      "requirements": [
+        {
+          "id": "9.5-B1",
+          "requirement": "Maintain a comprehensive technology risk register that documents all identified technology risks including risk description, assessed likelihood and impact, risk owner, treatment plan, and current status",
+          "rationale": "The risk register is the operational backbone of the technology risk management framework; without a complete register, the institution cannot demonstrate systematic risk management to BNM",
+          "owner": "Head of Technology Risk",
+          "frequency": "Continuous maintenance",
+          "priority": "Critical"
+        },
+        {
+          "id": "9.5-B2",
+          "requirement": "Conduct quarterly reviews of the risk register to validate that risk assessments remain current, treatment plans are progressing, and new risks are captured in a timely manner",
+          "rationale": "Quarterly review is the BNM-mandated minimum frequency; a risk register that is not regularly reviewed becomes stale and provides false assurance about the institution's actual risk exposure",
+          "owner": "Head of Technology Risk",
+          "frequency": "Quarterly",
+          "priority": "Critical"
+        },
+        {
+          "id": "9.5-B3",
+          "requirement": "Assign a named risk owner to every entry in the risk register who is accountable for monitoring the risk, implementing the treatment plan, and reporting on status changes",
+          "rationale": "Risks without owners are nobody's responsibility; named ownership creates personal accountability and ensures each risk receives ongoing attention and management",
+          "owner": "Head of Technology Risk",
+          "frequency": "Per risk entry, Quarterly validation",
+          "priority": "Critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "The risk register must be maintained on a platform that supports version control, audit trails, automated workflows, and integration with other risk management tools to ensure data integrity and operational efficiency.",
+      "requirements": [
+        {
+          "id": "9.5-T1",
+          "requirement": "Maintain the risk register on a GRC platform or equivalent tool that provides version control, audit trails, automated workflow capabilities, and role-based access controls",
+          "rationale": "Spreadsheet-based risk registers lack the version control and audit trail capabilities that BNM examiners expect; a proper platform demonstrates mature risk management operations",
+          "owner": "Head of Technology Risk",
+          "frequency": "Continuous operation",
+          "priority": "High"
+        },
+        {
+          "id": "9.5-T2",
+          "requirement": "Integrate the risk register platform with vulnerability scanning, incident management, and change management systems to enable automated risk data updates and cross-referencing",
+          "rationale": "Integration reduces manual effort, improves data accuracy, and ensures the register reflects findings from operational systems such as new vulnerabilities or incidents",
+          "owner": "Chief Technology Officer",
+          "frequency": "Annual integration review",
+          "priority": "High"
+        },
+        {
+          "id": "9.5-T3",
+          "requirement": "Enable automated reporting and dashboard generation from the risk register to support quarterly board reporting and operational risk management decisions",
+          "rationale": "Automated reporting from the register ensures consistency between the risk register content and board reports, eliminating transcription errors and reducing report preparation time",
+          "owner": "Head of Technology Risk",
+          "frequency": "Quarterly reporting",
+          "priority": "Medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "Governance processes must ensure the risk register is maintained with rigour through defined update procedures, quarterly review protocols, risk owner accountability mechanisms, and comprehensive change history.",
+      "requirements": [
+        {
+          "id": "9.5-G1",
+          "requirement": "Establish formal procedures for adding, updating, escalating, and closing risks in the register, including required fields, approval workflows, and documentation standards",
+          "rationale": "Without standardised procedures, risk register entries vary in quality and completeness, undermining the register's value as a reliable risk management tool",
+          "owner": "Head of Technology Risk",
+          "frequency": "Annual procedure review",
+          "priority": "Critical"
+        },
+        {
+          "id": "9.5-G2",
+          "requirement": "Document quarterly risk register review outcomes including risks reviewed, status changes, new risks added, risks closed, and any escalations to senior management or the board",
+          "rationale": "Documented review outcomes demonstrate to BNM examiners that quarterly reviews are substantive assessments, not perfunctory exercises, and provide an audit trail of risk register evolution",
+          "owner": "Head of Technology Risk",
+          "frequency": "Quarterly",
+          "priority": "Critical"
+        },
+        {
+          "id": "9.5-G3",
+          "requirement": "Require risk owners to formally acknowledge their assigned risks and provide quarterly status updates on treatment plan progress and any changes to risk levels",
+          "rationale": "Formal acknowledgement creates documented accountability; quarterly updates from risk owners ensure the register reflects current conditions rather than outdated assessments",
+          "owner": "Head of Technology Risk",
+          "frequency": "Per risk assignment, Quarterly updates",
+          "priority": "High"
+        },
+        {
+          "id": "9.5-G4",
+          "requirement": "Maintain a complete change history for the risk register documenting all additions, modifications, and closures with timestamps, authors, and justifications",
+          "rationale": "Change history provides BNM examiners with an audit trail that demonstrates the register is actively maintained and enables investigation of how risk assessments evolved over time",
+          "owner": "Head of Technology Risk",
+          "frequency": "Continuous",
+          "priority": "High"
+        }
+      ]
+    }
+  }
+}

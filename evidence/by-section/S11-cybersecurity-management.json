@@ -1,0 +1,2282 @@
+{
+  "11.1": {
+    "clauseId": "11.1",
+    "section": "Cybersecurity Management",
+    "subsection": "Cyber Risk Management",
+    "title": "Enterprise-Wide Cyber Risk Management",
+    "clauseType": "governance",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that a comprehensive IRP exists covering all five phases, has been tested within the past 12 months, and has been updated following any major incidents. They will look for evidence of post-incident reviews and that lessons learned have been incorporated.",
+    "evidenceItems": [
+      {
+        "id": "11.1-E1",
+        "name": "Incident Response Plan document (version + date)",
+        "description": "Incident Response Plan document (version + date)",
+        "whatGoodLooksLike": [
+          "IRP covers all five phases: identification, containment, eradication, recovery, and post-incident activities",
+          "Clear RACI matrix with named roles and escalation paths including BNM notification within 4 hours",
+          "Version-controlled with review date within the past 12 months and CISO sign-off",
+          "Includes specific playbooks for common scenarios such as ransomware, data breach, DDoS, and insider threat"
+        ],
+        "commonGaps": [
+          "IRP exists but lacks one or more phases, typically eradication or post-incident review",
+          "No version control or review date, making it unclear whether the plan is current",
+          "Generic plan not tailored to the institution's technology environment or Malaysian regulatory context",
+          "BNM notification timeline not explicitly stated or exceeds the 4-hour requirement"
+        ],
+        "suggestedSources": [
+          "Information Security department (CISO office)",
+          "Document management system (SharePoint, Confluence)",
+          "Governance, Risk and Compliance (GRC) platform"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.1-E2",
+        "name": "IRP testing records (tabletop or simulation)",
+        "description": "IRP testing records (tabletop or simulation)",
+        "whatGoodLooksLike": [
+          "At least one tabletop exercise and one technical simulation conducted within the past 12 months",
+          "Participation from cross-functional teams including IT, legal, communications, and senior management",
+          "Documented scenarios, participant observations, identified gaps, and remediation actions with deadlines",
+          "Evidence that findings from previous tests were addressed before the next test cycle"
+        ],
+        "commonGaps": [
+          "Testing not conducted within the past 12 months or only performed as a checkbox exercise",
+          "Only IT staff participated without involvement from business, legal, or communications teams",
+          "No documented outcomes or action items from the exercise",
+          "Same scenario repeated annually without adapting to current threat landscape"
+        ],
+        "suggestedSources": [
+          "SOC or Incident Response team records",
+          "Training and awareness department",
+          "External simulation service provider reports"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.1-E3",
+        "name": "Post-incident review reports",
+        "description": "Post-incident review reports",
+        "whatGoodLooksLike": [
+          "Completed within 14 days of incident closure with detailed root cause analysis",
+          "Includes full incident timeline from detection to resolution with timestamps",
+          "Documents lessons learned, specific improvement actions, assigned owners, and completion deadlines",
+          "Evidence that improvement actions have been tracked to completion and incorporated into the IRP"
+        ],
+        "commonGaps": [
+          "Post-incident reviews not conducted or completed months after the incident",
+          "Reports lack root cause analysis and focus only on symptoms rather than systemic issues",
+          "Improvement actions identified but not tracked or implemented",
+          "Reviews conducted only for major incidents while recurring minor incidents go unreviewed"
+        ],
+        "suggestedSources": [
+          "Incident management system (ServiceNow, Jira)",
+          "SOC incident log and case management records",
+          "CISO office post-incident review register"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.1-E4",
+        "name": "Annual review sign-off",
+        "description": "Annual review sign-off",
+        "whatGoodLooksLike": [
+          "Formal sign-off from the CISO and relevant senior management within the past 12 months",
+          "Review covers changes to the threat landscape, organisational structure, technology environment, and regulatory requirements",
+          "Documented comparison between current IRP and previous version highlighting what changed and why",
+          "Sign-off includes confirmation that the IRP aligns with current BNM RMiT requirements"
+        ],
+        "commonGaps": [
+          "No formal sign-off or approval trail for the annual review",
+          "Review conducted but changes not reflected in the IRP document itself",
+          "Sign-off by junior staff without appropriate authority",
+          "Review does not consider lessons from incidents or test exercises conducted during the year"
+        ],
+        "suggestedSources": [
+          "CISO office governance records",
+          "Board Risk Committee or IT Risk Committee minutes",
+          "Document management system version history"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Request the IRP document and verify it covers all five phases with specific procedures for each, not just high-level descriptions",
+      "Cross-reference the IRP review date against the date of the last major incident to confirm the plan was updated post-incident",
+      "Ask for the participant list from the most recent tabletop exercise and verify cross-functional representation including senior management",
+      "Review two or three post-incident reports and trace improvement actions through to completion in subsequent IRP updates",
+      "Verify that the BNM 4-hour notification requirement is explicitly documented in the IRP with a named responsible officer"
+    ]
+  },
+  "11.2": {
+    "clauseId": "11.2",
+    "section": "Cybersecurity Management",
+    "subsection": "Cyber Risk Management",
+    "title": "Cyber Resilience Framework Development",
+    "clauseType": "governance",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that a board-approved cybersecurity strategy exists, is aligned with the business strategy and risk appetite, includes a multi-year roadmap, and has been reviewed within the past 12 months with documented board sign-off.",
+    "evidenceItems": [
+      {
+        "id": "11.2-E1",
+        "name": "Cybersecurity strategy document",
+        "description": "Cybersecurity strategy document",
+        "whatGoodLooksLike": [
+          "Clearly articulates the cybersecurity vision, strategic objectives, and a phased multi-year roadmap with milestones",
+          "Explicitly references and aligns with the institution's business strategy and stated risk appetite",
+          "Covers all security domains including detection, prevention, response, recovery, and emerging technology risks",
+          "Includes measurable KPIs and resource requirements with budget allocation"
+        ],
+        "commonGaps": [
+          "Strategy document is overly generic without institution-specific context or Malaysian banking relevance",
+          "No clear linkage between cybersecurity objectives and business strategy priorities",
+          "Missing roadmap or roadmap lacks timelines, milestones, and resource commitments",
+          "Strategy has not been updated to reflect recent technology changes such as cloud adoption or open banking"
+        ],
+        "suggestedSources": [
+          "CISO office strategic planning documentation",
+          "Board Risk Committee papers and presentations",
+          "Enterprise risk management function"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.2-E2",
+        "name": "Board approval records",
+        "description": "Board approval records",
+        "whatGoodLooksLike": [
+          "Formal board resolution or minutes recording approval of the cybersecurity strategy",
+          "Approval date within the past 12 months demonstrating annual review cycle",
+          "Evidence of board discussion, questions raised, and management responses",
+          "Board papers include strategy summary, risk assessment, and investment requirements"
+        ],
+        "commonGaps": [
+          "No formal board approval record \u2014 strategy approved only at management level",
+          "Board approval older than 12 months indicating the annual review was missed",
+          "Board papers lack sufficient detail for meaningful board oversight",
+          "No evidence of board challenge or discussion \u2014 appears as rubber-stamp approval"
+        ],
+        "suggestedSources": [
+          "Board secretariat records and minutes",
+          "Board Risk Committee or IT Committee meeting minutes",
+          "Corporate governance function"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.2-E3",
+        "name": "Strategy alignment with business strategy",
+        "description": "Strategy alignment with business strategy",
+        "whatGoodLooksLike": [
+          "Mapping document showing each business strategic initiative linked to corresponding cybersecurity requirements",
+          "Risk assessment of new digital initiatives with cybersecurity controls identified",
+          "Cybersecurity budget allocation proportionate to the scale and complexity of digital transformation programmes",
+          "Evidence of joint planning sessions between business and cybersecurity teams"
+        ],
+        "commonGaps": [
+          "No documented alignment \u2014 cybersecurity strategy developed independently of business strategy",
+          "Alignment is superficial, referencing business strategy in the introduction but not in specific initiatives",
+          "New business initiatives launched without corresponding cybersecurity workstreams",
+          "Cybersecurity budget not linked to business risk exposure or growth plans"
+        ],
+        "suggestedSources": [
+          "CISO office and business strategy team",
+          "Enterprise architecture function",
+          "Digital transformation programme office"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.2-E4",
+        "name": "Annual strategy review records",
+        "description": "Annual strategy review records",
+        "whatGoodLooksLike": [
+          "Documented annual review with assessment of strategy effectiveness against KPIs",
+          "Analysis of changes to the threat landscape, regulatory environment, and business priorities since the last review",
+          "Identified strategy adjustments with rationale and updated roadmap",
+          "Review conducted with input from multiple stakeholders including risk, compliance, and business units"
+        ],
+        "commonGaps": [
+          "Annual review not conducted or not documented despite the strategy document being reissued",
+          "Review focuses only on completed activities without assessing effectiveness or outcomes",
+          "No consideration of changes in the threat landscape or new BNM regulatory requirements",
+          "Review conducted by the CISO alone without cross-functional input"
+        ],
+        "suggestedSources": [
+          "CISO office governance and planning records",
+          "Cybersecurity steering committee minutes",
+          "Board Risk Committee annual review papers"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Compare the cybersecurity strategy document date against the board approval date to confirm the latest version has been formally approved",
+      "Request the business strategy document and verify explicit cross-references between business and cybersecurity strategic objectives",
+      "Check whether the strategy roadmap has been updated to reflect emerging risks such as cloud, AI, and open banking security",
+      "Review quarterly board reporting packs to verify that strategy progress is being reported with measurable KPIs, not just activity lists",
+      "Ask for the cybersecurity maturity assessment results and verify they are being used to inform roadmap priorities"
+    ]
+  },
+  "11.3": {
+    "clauseId": "11.3",
+    "section": "Cybersecurity Management",
+    "subsection": "Cyber Risk Management",
+    "title": "CRF Minimum Elements",
+    "clauseType": "governance",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that a clear cybersecurity governance structure exists with defined roles across the three lines of defence, adequate segregation of duties between security operations, risk management, and audit, and that the CISO has appropriate organisational positioning and board access.",
+    "evidenceItems": [
+      {
+        "id": "11.3-E1",
+        "name": "Cybersecurity governance framework document",
+        "description": "Cybersecurity governance framework document",
+        "whatGoodLooksLike": [
+          "Defines the cybersecurity governance structure with clear reporting lines and committee structures",
+          "Maps responsibilities across the three lines of defence with explicit separation of duties",
+          "CISO reporting line ensures independence from technology operations with direct board access",
+          "Reviewed and approved within the past 12 months by senior management"
+        ],
+        "commonGaps": [
+          "Governance framework exists but does not explicitly address the three lines of defence model",
+          "CISO reports to the CTO or CIO without independent access to the board, compromising independence",
+          "Framework is outdated and does not reflect current organisational structure or team composition",
+          "No clear escalation path for cybersecurity matters to reach the board"
+        ],
+        "suggestedSources": [
+          "CISO office governance documentation",
+          "Organisational chart and reporting line documentation",
+          "Board Risk Committee charter and terms of reference"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.3-E2",
+        "name": "Three lines of defence model documentation",
+        "description": "Three lines of defence model documentation",
+        "whatGoodLooksLike": [
+          "Clear documentation of first-line responsibilities (SOC, IT security operations, system administrators)",
+          "Second-line risk management function with independent cybersecurity risk assessment capability",
+          "Third-line internal audit with documented cybersecurity audit plan and qualified auditors",
+          "No individual or team holding responsibilities across multiple lines that would create conflicts of interest"
+        ],
+        "commonGaps": [
+          "Three lines of defence model documented for enterprise risk but not specifically applied to cybersecurity",
+          "Second-line cybersecurity risk function does not exist or is part of the first-line security team",
+          "Internal audit lacks cybersecurity expertise and relies entirely on external specialists",
+          "Segregation exists on paper but is not enforced in practice due to resource constraints"
+        ],
+        "suggestedSources": [
+          "Enterprise risk management framework",
+          "Internal audit cybersecurity audit plan",
+          "HR records confirming separate reporting lines"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.3-E3",
+        "name": "Roles and responsibilities matrix",
+        "description": "Roles and responsibilities matrix",
+        "whatGoodLooksLike": [
+          "RACI matrix covering all cybersecurity functions with named roles and clear R/A/C/I assignments",
+          "Covers key processes including incident response, vulnerability management, risk assessment, policy development, and compliance",
+          "No individual assigned both operational and oversight roles for the same process",
+          "Matrix is current and reflects actual personnel assignments, not just planned structure"
+        ],
+        "commonGaps": [
+          "RACI matrix is generic and not tailored to the institution's actual cybersecurity team structure",
+          "Same individual or team is both Responsible and Accountable for control execution and oversight",
+          "Matrix does not cover all cybersecurity processes, particularly emerging areas like cloud security or threat intelligence",
+          "Matrix is outdated with departed staff still listed or new functions not included"
+        ],
+        "suggestedSources": [
+          "CISO office organisational documentation",
+          "GRC platform role assignments",
+          "HR department organisational records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.3-E4",
+        "name": "Segregation of duties evidence",
+        "description": "Segregation of duties evidence",
+        "whatGoodLooksLike": [
+          "Access control reports showing separate permissions for security operations, risk, and audit users in security platforms",
+          "Organisational chart confirming different reporting lines for each line of defence",
+          "Evidence that second-line risk function independently challenges first-line security assessments",
+          "Internal audit reports demonstrating independent testing of cybersecurity controls"
+        ],
+        "commonGaps": [
+          "Segregation exists in documentation but system access permissions do not enforce it",
+          "Risk management staff also perform first-line security operations due to resource constraints",
+          "Internal audit has not conducted an independent cybersecurity audit in the past 12 months",
+          "No evidence of second-line challenge or independent risk assessment of cybersecurity controls"
+        ],
+        "suggestedSources": [
+          "Identity and access management system reports",
+          "Internal audit cybersecurity audit reports",
+          "Risk management independent assessment records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Review the CISO's reporting line on the organisational chart and verify they have direct access to the board or Board Risk Committee without being filtered through the CIO/CTO",
+      "Request the RACI matrix and cross-reference against actual system access permissions to verify segregation is enforced technically, not just documented",
+      "Ask for the most recent internal audit report on cybersecurity and verify findings were reported to the Audit Committee with management responses",
+      "Interview second-line risk management staff to confirm they independently assess cybersecurity controls rather than simply relying on first-line self-assessments",
+      "Check whether the governance structure has been reviewed and updated following any organisational changes in the past 12 months"
+    ]
+  },
+  "11.4": {
+    "clauseId": "11.4",
+    "section": "Cybersecurity Management",
+    "subsection": "Cyber Risk Management",
+    "title": "NCII Compliance Requirements",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will focus on the incident classification framework to verify materiality criteria are clearly defined, the four-hour BNM notification procedure is documented and tested, and that the institution can demonstrate actual compliance with reporting timelines for any material incidents that occurred.",
+    "evidenceItems": [
+      {
+        "id": "11.4-E1",
+        "name": "Incident classification framework",
+        "description": "Incident classification framework",
+        "whatGoodLooksLike": [
+          "Clear severity levels (e.g., P1-P4) with specific criteria for each level covering customer impact, financial exposure, data compromise, and service availability",
+          "Explicit materiality thresholds that trigger BNM reporting requirements",
+          "Classification criteria are specific and measurable, not subjective (e.g., 'more than 1,000 customers affected' rather than 'significant customer impact')",
+          "Framework is aligned with BNM's expectations and references applicable regulatory requirements"
+        ],
+        "commonGaps": [
+          "Classification criteria are vague or subjective, leaving materiality determination to individual judgement",
+          "Framework exists for IT incidents generally but does not specifically address cybersecurity incident classification",
+          "BNM materiality thresholds not explicitly defined within the framework",
+          "Framework has not been updated to address new incident types such as ransomware, supply chain compromise, or cloud-specific incidents"
+        ],
+        "suggestedSources": [
+          "CISO office incident management documentation",
+          "IT service management framework (ServiceNow, BMC)",
+          "Regulatory compliance team BNM correspondence files"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.4-E2",
+        "name": "SIEM or detection tool evidence",
+        "description": "SIEM or detection tool evidence",
+        "whatGoodLooksLike": [
+          "SIEM deployed with log ingestion from all critical systems and active detection rules for material incident indicators",
+          "Detection coverage spans network, endpoint, application, cloud, and identity layers",
+          "Alert triage procedures ensure potential material incidents are escalated within 30 minutes of detection",
+          "Detection tools are regularly tuned with evidence of rule updates in response to new threats"
+        ],
+        "commonGaps": [
+          "SIEM deployed but critical log sources are missing from ingestion, creating detection blind spots",
+          "Detection rules are not tuned for the institution's specific environment, generating excessive false positives",
+          "No automated correlation \u2014 analysts must manually investigate individual alerts",
+          "Detection coverage does not extend to cloud environments or third-party hosted systems"
+        ],
+        "suggestedSources": [
+          "SIEM platform (Splunk, QRadar, Wazuh, Microsoft Sentinel)",
+          "SOC operations team and detection engineering records",
+          "EDR console (CrowdStrike, SentinelOne, Microsoft Defender)"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.4-E3",
+        "name": "BNM reporting procedure",
+        "description": "BNM reporting procedure",
+        "whatGoodLooksLike": [
+          "Documented procedure specifying the four-hour reporting timeline starting from detection, not from confirmation",
+          "Named designated reporting officer with backup contacts for 24/7 coverage",
+          "Pre-approved notification template with BNM-required information fields",
+          "Procedure tested through simulation at least annually with documented results"
+        ],
+        "commonGaps": [
+          "Procedure exists but the four-hour timeline is measured from incident confirmation rather than detection as required by BNM",
+          "No designated backup reporting officer for weekends, public holidays, or leave periods",
+          "Notification template not pre-approved, requiring drafting during an active incident",
+          "Procedure has never been tested through a timed simulation"
+        ],
+        "suggestedSources": [
+          "Regulatory compliance and affairs team",
+          "CISO office incident response documentation",
+          "BNM correspondence and reporting records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.4-E4",
+        "name": "Sample incident report / notification record",
+        "description": "Sample incident report / notification record",
+        "whatGoodLooksLike": [
+          "Completed incident reports with timestamps showing detection-to-notification within four hours for material incidents",
+          "Full incident timeline from detection through containment, eradication, and recovery",
+          "BNM notification records with submission timestamps and acknowledgement receipts",
+          "Follow-up reports submitted to BNM as required with investigation findings and remediation status"
+        ],
+        "commonGaps": [
+          "Incident records lack precise timestamps making it impossible to verify four-hour compliance",
+          "BNM notification was submitted but no acknowledgement or receipt evidence is retained",
+          "Material incidents occurred but were not reported to BNM due to classification errors",
+          "Follow-up reports to BNM were not submitted or were significantly delayed"
+        ],
+        "suggestedSources": [
+          "Incident management system (ServiceNow, Jira Service Management)",
+          "BNM reporting portal or email correspondence records",
+          "SOC incident case management records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Request the incident register for the past 12 months and identify any incidents classified as material \u2014 verify each was reported to BNM within four hours of detection",
+      "Test the classification framework by presenting hypothetical scenarios and asking staff to classify them to check for consistency",
+      "Verify that the four-hour clock starts from detection, not from confirmation or management approval, as per BNM's requirement",
+      "Check whether the BNM reporting procedure has been tested through a timed drill and whether the drill results demonstrated four-hour compliance",
+      "Review SIEM log source coverage against the critical systems inventory to identify any detection blind spots"
+    ]
+  },
+  "11.5": {
+    "clauseId": "11.5",
+    "section": "Cybersecurity Management",
+    "subsection": "Cyber Risk Management",
+    "title": "Cybersecurity Control Measures",
+    "clauseType": "governance",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that a cyber crisis management plan exists with defined governance and escalation processes, that executive management roles are clearly assigned, and that at least one crisis simulation has been conducted within the past 12 months with documented outcomes and improvements.",
+    "evidenceItems": [
+      {
+        "id": "11.5-E1",
+        "name": "Cyber crisis management plan",
+        "description": "Cyber crisis management plan",
+        "whatGoodLooksLike": [
+          "Clearly defines what constitutes a cyber crisis versus a routine incident with specific escalation triggers",
+          "Documents the crisis governance structure with decision-making authority assigned to named executive roles",
+          "Covers roles for executive management, legal counsel, corporate communications, technology, and business continuity teams",
+          "Includes provisions for BNM regulatory notification and coordination with law enforcement"
+        ],
+        "commonGaps": [
+          "Plan does not clearly differentiate between a cyber crisis and a routine incident, leading to confusion on when to activate",
+          "Decision-making authority is vague or requires too many layers of approval, slowing crisis response",
+          "Legal and communications roles are mentioned but lack specific procedures or assigned personnel",
+          "Plan is a standalone document not integrated with the institution's broader business continuity management framework"
+        ],
+        "suggestedSources": [
+          "CISO office crisis management documentation",
+          "Business continuity management team",
+          "Corporate communications department"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.5-E2",
+        "name": "Crisis governance and escalation procedures",
+        "description": "Crisis governance and escalation procedures",
+        "whatGoodLooksLike": [
+          "Step-by-step escalation procedure with time-bound triggers at each level",
+          "Clear decision-making authority matrix specifying who can authorise system isolation, service shutdown, ransom decisions, and public statements",
+          "Defined interface between the cyber crisis team and the institution's broader crisis management or business continuity governance",
+          "Pre-approved communication templates for BNM, customers, media, and staff"
+        ],
+        "commonGaps": [
+          "Escalation procedures are too high-level without specific time triggers or action steps",
+          "No clear authority for critical decisions such as network isolation or service shutdown during an active attack",
+          "Cyber crisis governance operates independently of the institution's overall crisis management framework",
+          "Communication templates not pre-approved, requiring legal review during an active crisis"
+        ],
+        "suggestedSources": [
+          "CISO office and executive management team",
+          "Legal and compliance department",
+          "Corporate communications crisis management protocols"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.5-E3",
+        "name": "Annual crisis simulation records",
+        "description": "Annual crisis simulation records",
+        "whatGoodLooksLike": [
+          "At least one simulation conducted within the past 12 months with a realistic scenario such as ransomware, data exfiltration, or destructive malware",
+          "Executive management participation documented with attendance records",
+          "Simulation report includes timeline, decisions made, identified weaknesses, and improvement actions with owners and deadlines",
+          "Evidence that improvement actions from the previous simulation have been implemented"
+        ],
+        "commonGaps": [
+          "No simulation conducted within the past 12 months or simulation was too simplistic to test crisis governance",
+          "Executive management did not participate, limiting the exercise to technical teams only",
+          "Simulation report does not document identified weaknesses or improvement actions",
+          "Improvement actions from previous simulations remain unaddressed"
+        ],
+        "suggestedSources": [
+          "CISO office simulation planning and records",
+          "External simulation facilitator reports",
+          "Business continuity management team exercise records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.5-E4",
+        "name": "Crisis team roles and contact information",
+        "description": "Crisis team roles and contact information",
+        "whatGoodLooksLike": [
+          "Comprehensive roster listing all crisis team members with primary and alternate contacts",
+          "24/7 contact details including personal mobile numbers and alternative communication channels",
+          "Defined alternates for every key role to ensure coverage during leave or unavailability",
+          "Roster reviewed and updated at least quarterly to reflect personnel changes"
+        ],
+        "commonGaps": [
+          "Contact roster is outdated with departed staff still listed or new team members missing",
+          "No alternates defined for key roles, creating single points of failure",
+          "Only office contact numbers provided without personal or out-of-hours contact details",
+          "Roster does not include external parties such as legal counsel, forensics providers, or regulatory contacts"
+        ],
+        "suggestedSources": [
+          "CISO office crisis management documentation",
+          "HR department for current personnel records",
+          "Business continuity management contact registers"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Request the attendance list from the most recent crisis simulation and verify that executive management (CEO, CFO, or their delegates) participated, not just IT staff",
+      "Ask to see the improvement action tracker from the last two simulations and verify that identified gaps have been remediated",
+      "Test the crisis team contact roster by checking whether key contacts are still with the institution and whether alternates are defined for all roles",
+      "Verify that the crisis management plan addresses ransomware specifically, including decision-making authority for ransom payment considerations",
+      "Check whether the institution has pre-engaged external incident response and forensics providers with documented SLAs for crisis mobilisation"
+    ]
+  },
+  "11.6": {
+    "clauseId": "11.6",
+    "section": "Cybersecurity Management",
+    "subsection": "Cyber Risk Management",
+    "title": "Red Team Simulation Attacks",
+    "clauseType": "technical",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that the SOC provides genuine 24/7 monitoring coverage with qualified analysts, documented triage and escalation procedures, and measurable performance metrics demonstrating effective detection and response capabilities.",
+    "evidenceItems": [
+      {
+        "id": "11.6-E1",
+        "name": "SOC operational procedures",
+        "description": "SOC operational procedures",
+        "whatGoodLooksLike": [
+          "Comprehensive procedures covering alert triage, investigation workflows, escalation criteria, and shift handover protocols",
+          "Documented runbooks for common attack scenarios including phishing, malware, DDoS, and unauthorised access",
+          "Clear escalation matrix with severity-based timelines and named escalation contacts",
+          "Version-controlled with evidence of regular review and updates"
+        ],
+        "commonGaps": [
+          "Procedures exist but are high-level without specific step-by-step instructions for analysts",
+          "Runbooks do not cover the institution's specific technology environment or common alert types",
+          "No shift handover procedure, leading to dropped investigations between shifts",
+          "Procedures have not been updated to reflect changes in tooling or the threat landscape"
+        ],
+        "suggestedSources": [
+          "SOC operations team documentation",
+          "SOAR platform playbook configurations",
+          "ITSM knowledge base (Confluence, SharePoint)"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.6-E2",
+        "name": "24/7 staffing schedule and analyst qualifications",
+        "description": "24/7 staffing schedule and analyst qualifications",
+        "whatGoodLooksLike": [
+          "Published shift schedule demonstrating 24/7 coverage with no gaps including weekends and public holidays",
+          "Minimum two analysts per shift to prevent single-point-of-failure monitoring",
+          "Analyst qualification records showing relevant certifications (GCIA, GCIH, CEH, CySA+)",
+          "Annual training plan with evidence of completion for all SOC analysts"
+        ],
+        "commonGaps": [
+          "24/7 coverage claimed but staffing schedule shows single-analyst shifts or gaps during Malaysian public holidays",
+          "Analyst certifications are expired or only held by senior staff while junior analysts have none",
+          "No formal training plan \u2014 analysts rely on on-the-job learning without structured skill development",
+          "High turnover with vacant positions reducing effective coverage below minimum requirements"
+        ],
+        "suggestedSources": [
+          "SOC shift management system or roster",
+          "HR training and certification records",
+          "MSSP service level agreements (if outsourced)"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.6-E3",
+        "name": "Alert triage and escalation procedures",
+        "description": "Alert triage and escalation procedures",
+        "whatGoodLooksLike": [
+          "Defined severity classification for alerts with corresponding triage time targets (e.g., P1 within 15 minutes, P2 within 1 hour)",
+          "Clear escalation criteria specifying when and to whom alerts are escalated based on severity and type",
+          "Automated escalation workflows in SOAR or ticketing system to prevent missed escalations",
+          "Regular review of escalation accuracy with feedback loop to improve triage quality"
+        ],
+        "commonGaps": [
+          "Triage time targets exist but are not tracked or enforced, with no visibility into compliance rates",
+          "Escalation relies on analyst judgement without defined criteria, leading to inconsistent escalation decisions",
+          "No automated escalation \u2014 critical alerts can sit unactioned during shift transitions",
+          "No feedback mechanism to identify and correct recurring triage errors"
+        ],
+        "suggestedSources": [
+          "SOAR platform (Phantom, XSOAR, Swimlane)",
+          "SIEM alert management console",
+          "SOC ticketing and case management system"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.6-E4",
+        "name": "SOC performance metrics and reports",
+        "description": "SOC performance metrics and reports",
+        "whatGoodLooksLike": [
+          "Monthly SOC performance reports tracking MTTD, MTTR, alert volume, escalation rates, and false positive rates",
+          "Trend analysis showing improvement over time with explanations for any degradation",
+          "Metrics benchmarked against industry standards or SLTs with variance analysis",
+          "Reports reviewed by the CISO with documented actions for underperforming metrics"
+        ],
+        "commonGaps": [
+          "SOC performance metrics not formally tracked or reported to management",
+          "Metrics limited to alert volume without measuring detection and response effectiveness",
+          "No trend analysis \u2014 metrics reported as point-in-time snapshots without historical context",
+          "CISO does not review SOC performance reports or take action on underperformance"
+        ],
+        "suggestedSources": [
+          "SIEM and SOAR dashboards and reports",
+          "SOC management reporting to the CISO",
+          "MSSP service performance reports (if outsourced)"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Request the SOC shift schedule for the past three months and verify there are no coverage gaps, particularly during weekends and Malaysian public holidays",
+      "Ask for SOC performance metrics for the past 12 months and look for MTTD consistently under 15 minutes and MTTR trends improving over time",
+      "Review analyst certification records and verify that at least 70% of SOC staff hold relevant security certifications",
+      "Request a sample of five recent high-severity alerts and trace them through the triage, investigation, and escalation process to verify procedure adherence",
+      "If the SOC is outsourced to an MSSP, review the SLA and verify performance against contractual metrics"
+    ]
+  },
+  "11.7": {
+    "clauseId": "11.7",
+    "section": "Cybersecurity Management",
+    "subsection": "Cyber Risk Management",
+    "title": "Crowdsourced Security Testing",
+    "clauseType": "technical",
+    "marker": "G",
+    "auditorFocus": "BNM examiners will verify that the SIEM collects logs from all critical systems, detection rules are regularly tuned to address evolving threats, log source completeness is validated, and the SIEM provides effective correlation and alerting capability.",
+    "evidenceItems": [
+      {
+        "id": "11.7-E1",
+        "name": "SIEM architecture and deployment documentation",
+        "description": "SIEM architecture and deployment documentation",
+        "whatGoodLooksLike": [
+          "Documented architecture covering SIEM platform, log collectors, storage, and high-availability configuration",
+          "Data flow diagrams showing log ingestion paths from all critical systems",
+          "Defined log retention periods that meet regulatory requirements (minimum 12 months online, 7 years archive)",
+          "Capacity planning documentation demonstrating the platform can handle current and projected log volumes"
+        ],
+        "commonGaps": [
+          "Architecture documentation is outdated and does not reflect the current deployment",
+          "No data flow diagrams making it difficult to identify log collection gaps or single points of failure",
+          "Log retention policies not defined or not meeting BNM's regulatory retention requirements",
+          "No capacity planning \u2014 SIEM performance degrades during peak periods causing log drops"
+        ],
+        "suggestedSources": [
+          "SOC engineering team documentation",
+          "SIEM platform administration records (Splunk, QRadar, Wazuh, Microsoft Sentinel)",
+          "Security architecture team"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.7-E2",
+        "name": "Log source inventory and coverage analysis",
+        "description": "Log source inventory and coverage analysis",
+        "whatGoodLooksLike": [
+          "Comprehensive inventory of all log sources feeding into the SIEM mapped to the critical asset register",
+          "Coverage analysis showing percentage of critical systems with active SIEM integration",
+          "Automated log source health monitoring with alerting for ingestion failures",
+          "Quarterly validation records showing cross-reference against critical asset register and network discovery"
+        ],
+        "commonGaps": [
+          "Log source inventory is incomplete \u2014 new systems deployed without SIEM integration",
+          "No automated monitoring for log source health, meaning silent failures go undetected for days or weeks",
+          "Coverage analysis shows significant gaps in cloud, mobile, or third-party system log collection",
+          "No regular validation process \u2014 coverage analysis is only performed during audit preparation"
+        ],
+        "suggestedSources": [
+          "SIEM administration console (log source management)",
+          "IT asset management system (CMDB)",
+          "SOC operations team log source tracking"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.7-E3",
+        "name": "SIEM rule tuning records",
+        "description": "SIEM rule tuning records",
+        "whatGoodLooksLike": [
+          "Documented rule tuning activities performed at least monthly with rationale for changes",
+          "Detection rules mapped to MITRE ATT&CK techniques with coverage analysis",
+          "Records of new rules created in response to emerging threats or threat intelligence",
+          "False positive analysis showing reduction trends and specific tuning actions taken"
+        ],
+        "commonGaps": [
+          "Detection rules deployed at SIEM installation and never tuned or updated",
+          "No mapping to MITRE ATT&CK framework making it impossible to assess detection coverage",
+          "Rules tuned to suppress alerts rather than improve detection accuracy, masking genuine threats",
+          "No formal change management for rule changes \u2014 rules modified ad hoc without documentation"
+        ],
+        "suggestedSources": [
+          "SIEM rule management and change log",
+          "SOC detection engineering team records",
+          "Change management system records for SIEM rule changes"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.7-E4",
+        "name": "SIEM alert and correlation reports",
+        "description": "SIEM alert and correlation reports",
+        "whatGoodLooksLike": [
+          "Monthly SIEM performance reports showing alert volumes, true positive rates, and correlation effectiveness",
+          "Examples of multi-source correlation detecting threats that individual log sources would miss",
+          "Alert quality metrics showing improvement trends through ongoing tuning efforts",
+          "Dashboard screenshots demonstrating real-time monitoring and alerting capability"
+        ],
+        "commonGaps": [
+          "No regular reporting on SIEM alert quality or correlation effectiveness",
+          "Alerts based on single log sources without cross-source correlation",
+          "Excessive alert volume with high false positive rate indicating poor tuning",
+          "Correlation rules are vendor defaults without customisation for the institution's environment"
+        ],
+        "suggestedSources": [
+          "SIEM platform reporting and dashboard exports",
+          "SOC performance reports to the CISO",
+          "SOAR platform case management statistics"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Request the log source inventory and cross-reference it against the critical asset register to identify systems not sending logs to the SIEM",
+      "Ask for evidence of SIEM rule tuning in the past three months and verify it includes new rules for recent threats, not just threshold adjustments",
+      "Check whether the SIEM has automated log source health monitoring by asking what happens when a critical log source stops sending data",
+      "Request MITRE ATT&CK coverage analysis to identify detection gaps for techniques commonly used against financial institutions",
+      "Verify that log retention meets BNM requirements with at least 12 months online and archived logs accessible for at least 7 years"
+    ]
+  },
+  "11.8": {
+    "clauseId": "11.8",
+    "section": "Cybersecurity Management",
+    "subsection": "Cybersecurity Operations",
+    "title": "Cybersecurity Operations Responsibilities",
+    "clauseType": "technical",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that EDR is deployed on all endpoints including servers and mobile devices, provides real-time detection and automated response, has daily signature updates, and is centrally managed with complete coverage visibility.",
+    "evidenceItems": [
+      {
+        "id": "11.8-E1",
+        "name": "EDR deployment documentation and coverage",
+        "description": "EDR deployment documentation and coverage",
+        "whatGoodLooksLike": [
+          "EDR deployment report showing 100% coverage across all endpoint types with zero unprotected endpoints",
+          "Coverage mapped against the endpoint asset inventory with reconciliation evidence",
+          "Deployment includes servers, workstations, laptops, and mobile devices as required by BNM",
+          "Coverage report generated within the past 30 days demonstrating current state"
+        ],
+        "commonGaps": [
+          "EDR deployed on workstations but not on servers, mobile devices, or virtual desktop infrastructure",
+          "Coverage percentage below 100% with no documented exceptions or risk acceptances for gaps",
+          "No reconciliation between EDR deployment and the endpoint asset inventory, leaving unknown gaps",
+          "Legacy or specialised systems excluded from EDR without compensating controls"
+        ],
+        "suggestedSources": [
+          "EDR management console (CrowdStrike Falcon, SentinelOne, Microsoft Defender for Endpoint)",
+          "IT asset management system (CMDB)",
+          "Mobile device management platform (Intune, MobileIron)"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.8-E2",
+        "name": "EDR configuration and policy settings",
+        "description": "EDR configuration and policy settings",
+        "whatGoodLooksLike": [
+          "Configuration shows real-time behavioural detection enabled alongside traditional signature-based scanning",
+          "Automated response actions configured including process isolation, file quarantine, and network containment",
+          "Policy settings consistent across all endpoint groups with documented justification for any variations",
+          "Anti-tamper protection enabled to prevent users or malware from disabling the EDR agent"
+        ],
+        "commonGaps": [
+          "EDR configured in detection-only mode without automated response actions enabled",
+          "Behavioural detection disabled due to performance concerns, leaving only signature-based protection",
+          "Inconsistent policies across endpoint groups with some having weaker protection settings",
+          "Excessive exclusions configured, often from legacy implementations, creating detection blind spots"
+        ],
+        "suggestedSources": [
+          "EDR management console policy configuration exports",
+          "SOC endpoint protection configuration documentation",
+          "Change management records for EDR policy modifications"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.8-E3",
+        "name": "Signature update schedule and compliance records",
+        "description": "Signature update schedule and compliance records",
+        "whatGoodLooksLike": [
+          "Automated daily signature updates configured with evidence of successful deployment across all endpoints",
+          "Compliance dashboard showing 95% or higher of endpoints with signatures updated within the past 24 hours",
+          "Monitoring and alerting for endpoints that fail to receive signature updates within the required timeframe",
+          "Historical compliance data showing sustained daily update adherence over the past 12 months"
+        ],
+        "commonGaps": [
+          "Signature updates configured but not monitored for successful deployment to all endpoints",
+          "Endpoints frequently offline or disconnected from the update infrastructure, falling behind on signatures",
+          "Update frequency less than daily, not meeting BNM's minimum requirement",
+          "No alerting or remediation process for endpoints with outdated signatures"
+        ],
+        "suggestedSources": [
+          "EDR management console update compliance reports",
+          "Patch management system update verification records",
+          "SOC endpoint health monitoring dashboards"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.8-E4",
+        "name": "EDR alert and response records",
+        "description": "EDR alert and response records",
+        "whatGoodLooksLike": [
+          "Monthly summary of EDR detections, automated containment actions, and analyst investigations",
+          "Evidence of automated response actions successfully containing threats before manual analyst intervention",
+          "Investigation and response records for all high-severity EDR detections with documented outcomes",
+          "Trend analysis showing detection effectiveness and most common threat categories encountered"
+        ],
+        "commonGaps": [
+          "EDR alerts not integrated with SOC workflows, resulting in detections going uninvestigated",
+          "Automated response actions disabled, requiring manual analyst action for all detections",
+          "No trending or analysis of EDR detection data to identify patterns or emerging threats",
+          "Alert fatigue from excessive false positives leading to genuine threats being overlooked"
+        ],
+        "suggestedSources": [
+          "EDR management console detection and response logs",
+          "SOC case management system (SOAR, ServiceNow, Jira)",
+          "Monthly SOC performance reports"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Pull the EDR coverage report during the examination and compare total deployed agents against the endpoint asset inventory to verify 100% coverage",
+      "Request evidence of daily signature update compliance for the past 30 days and check whether endpoints consistently receive updates within 24 hours",
+      "Verify that automated response actions are enabled by reviewing the EDR policy configuration, not just relying on documentation claims",
+      "Ask for the EDR exclusion list and review each exclusion for valid business justification and documented compensating controls",
+      "Check whether EDR telemetry is integrated with the SIEM by requesting examples of correlated alerts that combine endpoint and network data"
+    ]
+  },
+  "11.9": {
+    "clauseId": "11.9",
+    "section": "Cybersecurity Management",
+    "subsection": "Cybersecurity Operations",
+    "title": "Continuous Security Monitoring and SOC",
+    "clauseType": "technical",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that comprehensive email security controls are deployed including spam filtering, malware scanning, and phishing detection, and that SPF, DKIM, and DMARC are correctly configured with enforcement on all organisational domains.",
+    "evidenceItems": [
+      {
+        "id": "11.9-E1",
+        "name": "Email security architecture documentation",
+        "description": "Email security architecture documentation",
+        "whatGoodLooksLike": [
+          "Documented architecture showing multi-layered email security controls including gateway, cloud, and endpoint protections",
+          "Covers spam filtering, malware scanning, URL protection, attachment sandboxing, and advanced phishing detection",
+          "Architecture includes DLP integration for outbound email content inspection",
+          "Includes data flow diagrams showing email routing through security controls"
+        ],
+        "commonGaps": [
+          "Architecture documentation is outdated and does not reflect the current email security stack",
+          "Missing coverage for one or more control layers such as attachment sandboxing or URL rewriting",
+          "Email DLP not integrated or configured, leaving data exfiltration via email uncontrolled",
+          "No protection for internal email traffic \u2014 security controls only applied to external email"
+        ],
+        "suggestedSources": [
+          "Email security gateway administration (Proofpoint, Mimecast, Microsoft Defender for Office 365)",
+          "Security architecture team documentation",
+          "IT infrastructure team email system documentation"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.9-E2",
+        "name": "SPF, DKIM, and DMARC configuration records",
+        "description": "SPF, DKIM, and DMARC configuration records",
+        "whatGoodLooksLike": [
+          "SPF records configured for all organisational domains with appropriate sender inclusion and hard fail (-all) mechanism",
+          "DKIM signing enabled for all outbound email with regular key rotation (at least annually)",
+          "DMARC policy set to reject or quarantine (not 'none') with aggregate (rua) and forensic (ruf) reporting enabled",
+          "Complete domain inventory showing authentication configuration status for every domain including parked domains"
+        ],
+        "commonGaps": [
+          "DMARC policy set to 'none' which provides monitoring only without preventing spoofing",
+          "SPF record includes too many mechanisms or uses a soft fail (~all) which does not block spoofed messages",
+          "DKIM not enabled or using weak key lengths (below 2048-bit)",
+          "Parked or legacy domains not protected with email authentication, allowing them to be spoofed"
+        ],
+        "suggestedSources": [
+          "DNS management records and zone files",
+          "DMARC reporting service (dmarcian, Valimail, Agari)",
+          "Email gateway configuration export"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.9-E3",
+        "name": "Email filtering and scanning configuration",
+        "description": "Email filtering and scanning configuration",
+        "whatGoodLooksLike": [
+          "Spam filtering with multi-engine scanning showing high catch rates (above 99%) with low false positive rates",
+          "Malware scanning with attachment detonation and sandboxing for suspicious file types",
+          "URL rewriting and time-of-click analysis for embedded links in emails",
+          "Impersonation protection configured for key executives and high-value targets"
+        ],
+        "commonGaps": [
+          "Spam filtering relies on a single engine without multi-layered scanning",
+          "No attachment sandboxing \u2014 only signature-based malware scanning is performed",
+          "URL protection limited to blocking known malicious URLs without time-of-click analysis",
+          "No impersonation or business email compromise protection configured"
+        ],
+        "suggestedSources": [
+          "Email security gateway configuration and policy exports",
+          "Advanced threat protection service configuration (ATP, SEG sandbox)",
+          "Email security vendor service reports"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.9-E4",
+        "name": "Phishing detection and response records",
+        "description": "Phishing detection and response records",
+        "whatGoodLooksLike": [
+          "Monthly metrics showing phishing emails detected and blocked at the gateway versus those reported by users",
+          "Documented phishing response procedure with evidence of execution for reported phishing attempts",
+          "Containment actions documented including mailbox purge, credential resets, and affected user notification",
+          "Trend analysis showing phishing attack patterns and effectiveness of security awareness training"
+        ],
+        "commonGaps": [
+          "No formal user reporting mechanism for suspected phishing emails",
+          "Phishing reports not investigated by the SOC or investigated with significant delays",
+          "Containment actions such as mailbox purge not performed after confirmed phishing campaigns",
+          "No trending or analysis of phishing data to inform security awareness programme improvements"
+        ],
+        "suggestedSources": [
+          "Email security gateway reporting dashboard",
+          "SOC phishing investigation records and case management",
+          "Security awareness platform phishing simulation reports"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Perform a live DMARC record check for all organisational domains during the examination to verify enforcement is set to reject or quarantine",
+      "Request the domain inventory and verify SPF, DKIM, and DMARC configuration for every domain, including parked and inactive domains",
+      "Review the email security gateway configuration to verify that attachment sandboxing and URL rewriting are enabled, not just signature-based scanning",
+      "Ask for phishing detection metrics for the past 12 months and verify that user-reported phishing attempts are investigated and resolved by the SOC",
+      "Check whether email DLP is configured and aligned with the data classification framework, particularly for customer PII and financial data"
+    ]
+  },
+  "11.10": {
+    "clauseId": "11.10",
+    "section": "Cybersecurity Management",
+    "subsection": "Cybersecurity Operations",
+    "title": "Cyber Threat Intelligence",
+    "clauseType": "technical",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that DLP controls are deployed across all required channels (email, web, endpoint, cloud), aligned with the data classification framework, and that DLP incidents are investigated with documented outcomes and remediation actions.",
+    "evidenceItems": [
+      {
+        "id": "11.10-E1",
+        "name": "DLP policy and configuration documentation",
+        "description": "DLP policy and configuration documentation",
+        "whatGoodLooksLike": [
+          "Documented DLP policy specifying protected data types mapped to the institution's data classification scheme",
+          "Configuration covering all four BNM-required channels: email, web, endpoint, and cloud",
+          "Response actions defined by severity level from monitoring to automatic blocking",
+          "Policy reviewed and updated within the past 12 months with CISO approval"
+        ],
+        "commonGaps": [
+          "DLP policy exists but only covers email, leaving web, endpoint, and cloud channels unmonitored",
+          "No mapping between DLP rules and the data classification framework, resulting in inconsistent protection",
+          "All DLP policies set to monitor-only mode without blocking, allowing data loss to proceed",
+          "Policy has not been updated to address cloud storage services adopted since initial DLP deployment"
+        ],
+        "suggestedSources": [
+          "DLP management console (Symantec DLP, Microsoft Purview, Forcepoint, Digital Guardian)",
+          "CISO office data protection policy documentation",
+          "Information security policy framework"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.10-E2",
+        "name": "Data classification framework alignment evidence",
+        "description": "Data classification framework alignment evidence",
+        "whatGoodLooksLike": [
+          "Mapping document showing each data classification level linked to corresponding DLP rules and response actions",
+          "DLP rules configured to detect data patterns for each classification level including customer PII, financial data, and restricted information",
+          "Evidence that DLP policies were updated when the data classification framework was revised",
+          "Sample DLP test results demonstrating accurate detection of classified data across all categories"
+        ],
+        "commonGaps": [
+          "Data classification framework exists but DLP rules are not aligned with the classification levels",
+          "DLP rules focus only on regulatory data (e.g., NRIC numbers) without covering all classification categories",
+          "No evidence that DLP policies were updated following changes to the data classification framework",
+          "DLP rule testing not performed to validate detection accuracy for different data types"
+        ],
+        "suggestedSources": [
+          "Data governance and classification team",
+          "DLP policy management records",
+          "Information risk management function"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.10-E3",
+        "name": "DLP rule configuration across channels",
+        "description": "DLP rule configuration across channels",
+        "whatGoodLooksLike": [
+          "DLP rules deployed and active across email, web, endpoint, and cloud channels with evidence from each",
+          "Channel-specific configurations appropriate to the data flow patterns of each channel",
+          "Consistent policy enforcement across all channels preventing circumvention by switching channels",
+          "Regular testing of DLP rules across each channel with documented test results"
+        ],
+        "commonGaps": [
+          "DLP deployed on email only without coverage of web uploads, USB transfers, or cloud storage",
+          "Cloud DLP not integrated with CASB or does not cover unsanctioned cloud applications",
+          "Endpoint DLP agent not deployed on all endpoints, creating gaps in removable media control",
+          "Inconsistent policies across channels \u2014 strict on email but permissive on web and cloud"
+        ],
+        "suggestedSources": [
+          "DLP management console showing channel-specific policy configurations",
+          "CASB platform (Netskope, Zscaler, Microsoft Defender for Cloud Apps)",
+          "Endpoint DLP agent deployment reports"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.10-E4",
+        "name": "DLP incident and alert records",
+        "description": "DLP incident and alert records",
+        "whatGoodLooksLike": [
+          "Monthly DLP incident summary showing alert volumes, investigation outcomes, and confirmed data loss events",
+          "Investigation records for each DLP alert with documented triage, analysis, and resolution",
+          "Trend analysis identifying repeat offenders, common data types involved, and preferred exfiltration channels",
+          "Evidence that confirmed incidents led to corrective actions including policy updates and user training"
+        ],
+        "commonGaps": [
+          "DLP alerts generated but not investigated by the SOC or data protection team",
+          "No documentation of investigation outcomes \u2014 alerts are closed without analysis",
+          "High false positive rate leading to alert fatigue and genuine incidents being overlooked",
+          "No trend analysis or management reporting on DLP incident patterns"
+        ],
+        "suggestedSources": [
+          "DLP incident management console and reports",
+          "SOC case management system for DLP investigations",
+          "Monthly CISO report on data protection incidents"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Request the DLP channel coverage matrix and verify that all four BNM-required channels (email, web, endpoint, cloud) have active DLP policies",
+      "Ask for DLP incident records for the past six months and verify that alerts are being investigated, not just logged",
+      "Cross-reference DLP rules against the data classification framework to verify alignment for each classification level",
+      "Test DLP effectiveness by asking the institution to demonstrate detection of sample sensitive data patterns across different channels",
+      "Check whether cloud DLP covers both sanctioned and unsanctioned cloud applications, particularly consumer file-sharing services"
+    ]
+  },
+  "11.11": {
+    "clauseId": "11.11",
+    "section": "Cybersecurity Management",
+    "subsection": "Cybersecurity Operations",
+    "title": "Anomalous Activity Response",
+    "clauseType": "technical",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that internet-facing systems are scanned at least monthly and internal systems at least quarterly using industry-recognised tools, that vulnerabilities are risk-rated and prioritised, and that remediation is tracked against defined timeframes.",
+    "evidenceItems": [
+      {
+        "id": "11.11-E1",
+        "name": "Vulnerability assessment schedule and policy",
+        "description": "Vulnerability assessment schedule and policy",
+        "whatGoodLooksLike": [
+          "Documented policy specifying monthly scans for internet-facing systems and quarterly for internal systems",
+          "Scanning scope explicitly covers all internet-facing systems including web applications, APIs, and payment gateways",
+          "Approved scanning tools listed with evidence of current licensing and vulnerability database subscriptions",
+          "Risk-rating methodology defined using CVSS with contextual enrichment for asset criticality"
+        ],
+        "commonGaps": [
+          "Policy exists but scanning frequency does not meet BNM's minimum requirements (monthly/quarterly)",
+          "Scanning scope excludes certain internet-facing systems such as partner portals or development environments",
+          "Risk-rating methodology relies solely on raw CVSS scores without considering asset criticality or exploit availability",
+          "Policy has not been updated to include cloud infrastructure and containerised workloads in scope"
+        ],
+        "suggestedSources": [
+          "CISO office vulnerability management documentation",
+          "Vulnerability scanner configuration (Qualys, Nessus, Rapid7 InsightVM, Tenable)",
+          "IT risk management policy framework"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.11-E2",
+        "name": "Monthly scan results for internet-facing systems",
+        "description": "Monthly scan results for internet-facing systems",
+        "whatGoodLooksLike": [
+          "Scan reports available for every month of the past 12 months with no gaps",
+          "Reports show all internet-facing assets in scope with scan completion confirmation",
+          "Vulnerabilities risk-rated with severity distribution trending downward over time",
+          "Critical and high vulnerabilities highlighted with remediation status and assigned owners"
+        ],
+        "commonGaps": [
+          "Monthly scans missed for one or more months, creating compliance gaps",
+          "Scan reports show incomplete scans with assets that failed to be scanned or timed out",
+          "Vulnerability counts increasing over time without evidence of effective remediation",
+          "Scan results not reviewed or actioned in a timely manner"
+        ],
+        "suggestedSources": [
+          "Vulnerability scanner reporting console (Qualys, Nessus, Rapid7)",
+          "Vulnerability management team scan records",
+          "CISO monthly reporting pack"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.11-E3",
+        "name": "Quarterly scan results for internal systems",
+        "description": "Quarterly scan results for internal systems",
+        "whatGoodLooksLike": [
+          "Quarterly scan reports available for the past 12 months covering all internal system categories",
+          "Authenticated scanning performed to provide comprehensive vulnerability detection",
+          "Internal system scope includes servers, databases, network devices, and internal applications",
+          "Results segmented by system type and business unit for targeted remediation ownership"
+        ],
+        "commonGaps": [
+          "Quarterly scans not performed consistently with missed quarters in the past 12 months",
+          "Scans performed unauthenticated only, missing a significant portion of detectable vulnerabilities",
+          "Internal scope does not cover all system types, particularly network devices or database servers",
+          "Results not segmented or distributed to system owners for remediation"
+        ],
+        "suggestedSources": [
+          "Vulnerability scanner reporting console",
+          "IT infrastructure team for internal system inventory",
+          "Vulnerability management team quarterly reports"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.11-E4",
+        "name": "Vulnerability remediation tracking records",
+        "description": "Vulnerability remediation tracking records",
+        "whatGoodLooksLike": [
+          "Tracking register showing all identified vulnerabilities with assigned owners, deadlines, and current remediation status",
+          "Remediation compliance metrics showing percentage of vulnerabilities remediated within defined SLTs",
+          "Evidence that critical vulnerabilities are prioritised and remediated first with expedited timelines",
+          "Ageing analysis showing no critical vulnerabilities open beyond 30 days without documented risk acceptance"
+        ],
+        "commonGaps": [
+          "Vulnerabilities identified by scans but not tracked in a remediation register",
+          "No defined SLTs for remediation, with vulnerabilities remaining open indefinitely",
+          "Critical vulnerabilities open for extended periods without formal risk acceptance or escalation",
+          "Remediation tracking is manual and inconsistent, with no single source of truth"
+        ],
+        "suggestedSources": [
+          "Vulnerability management platform tracking dashboard",
+          "IT change management and patching records",
+          "Risk acceptance register for deferred remediations"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Request scan reports for the past 12 months and verify monthly scans for internet-facing systems and quarterly for internal systems with no gaps",
+      "Compare the scanning scope against the internet-facing asset inventory to identify any systems excluded from regular scanning",
+      "Review the vulnerability remediation tracking register and check whether critical vulnerabilities are being remediated within 7 days as per industry best practice",
+      "Verify that authenticated scanning is being used for internal systems by checking the scanner configuration, not just the policy",
+      "Ask for the vulnerability trend report and verify that the overall vulnerability count is decreasing over time, indicating effective remediation"
+    ]
+  },
+  "11.12": {
+    "clauseId": "11.12",
+    "section": "Cybersecurity Management",
+    "subsection": "Cyber Response and Recovery",
+    "title": "Cyber Crisis Management",
+    "clauseType": "technical",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that penetration testing of critical systems is conducted at least annually by qualified independent testers, findings are risk-rated and reported to management, and remediation is tracked with evidence of re-testing for critical findings.",
+    "evidenceItems": [
+      {
+        "id": "11.12-E1",
+        "name": "Penetration testing policy and schedule",
+        "description": "Penetration testing policy and schedule",
+        "whatGoodLooksLike": [
+          "Documented policy specifying annual testing for all critical systems and pre-release testing for major deployments",
+          "Testing scope covers internet-facing systems, core banking, mobile applications, and APIs",
+          "Policy defines tester independence and qualification requirements including accepted certifications",
+          "Annual testing schedule with defined scope for each test engagement"
+        ],
+        "commonGaps": [
+          "No documented penetration testing policy \u2014 tests conducted ad hoc without consistent scope or methodology",
+          "Testing scope limited to internet-facing web applications only, excluding core banking, mobile, and API systems",
+          "No requirement for pre-release testing, allowing vulnerabilities to be introduced with major deployments",
+          "Policy does not define tester independence or qualification requirements"
+        ],
+        "suggestedSources": [
+          "CISO office vulnerability management documentation",
+          "Procurement records for penetration testing engagements",
+          "IT risk management policy framework"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.12-E2",
+        "name": "Penetration test reports from qualified testers",
+        "description": "Penetration test reports from qualified testers",
+        "whatGoodLooksLike": [
+          "Comprehensive test reports from the past 12 months covering all critical systems in scope",
+          "Reports include detailed findings with evidence of exploitation, risk ratings, and specific remediation recommendations",
+          "Testing methodology documented including tools used, techniques applied, and attack scenarios attempted",
+          "Executive summary suitable for board and management reporting"
+        ],
+        "commonGaps": [
+          "No penetration test conducted within the past 12 months",
+          "Report is a high-level summary without detailed findings, exploitation evidence, or specific remediation guidance",
+          "Testing methodology not documented, making it impossible to assess test thoroughness",
+          "Report covers only a subset of critical systems, leaving high-value systems untested"
+        ],
+        "suggestedSources": [
+          "External penetration testing provider deliverables",
+          "CISO office test engagement records",
+          "Vulnerability management team report repository"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.12-E3",
+        "name": "Tester independence and qualification evidence",
+        "description": "Tester independence and qualification evidence",
+        "whatGoodLooksLike": [
+          "Statement of independence confirming testers are not involved in development or administration of tested systems",
+          "Tester CVs or profiles showing relevant certifications (OSCP, CREST CRT, GPEN, GXPN)",
+          "Testing firm accreditation evidence (CREST, CHECK, or equivalent)",
+          "Conflict of interest declaration for the testing engagement"
+        ],
+        "commonGaps": [
+          "Penetration testing performed by internal IT staff who also develop or administer the tested systems",
+          "No evidence of tester qualifications or certifications provided with the test report",
+          "Same testing firm used for consecutive years without rotation or justification",
+          "No independence declaration or conflict of interest assessment for the testing engagement"
+        ],
+        "suggestedSources": [
+          "Penetration testing firm proposal and engagement documents",
+          "Tester certification and qualification records",
+          "Procurement and vendor management records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.12-E4",
+        "name": "Remediation plans and tracking records",
+        "description": "Remediation plans and tracking records",
+        "whatGoodLooksLike": [
+          "All penetration test findings tracked in the remediation register with assigned owners, agreed deadlines, and current status",
+          "Remediation timeframes aligned with finding severity: critical within 7 days, high within 30 days",
+          "Re-testing evidence confirming critical and high findings have been effectively remediated",
+          "Management reporting on remediation progress with escalation for overdue items"
+        ],
+        "commonGaps": [
+          "Findings documented in the test report but not entered into the remediation tracking register",
+          "No agreed remediation timeframes resulting in findings remaining open indefinitely",
+          "Re-testing not conducted to verify that critical findings have been effectively fixed",
+          "Remediation ownership not assigned, with findings treated as the security team's responsibility rather than the system owner's"
+        ],
+        "suggestedSources": [
+          "Vulnerability management tracking system",
+          "IT change management records for remediation patches and fixes",
+          "Re-test reports from the penetration testing provider"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Verify that the most recent penetration test was conducted within the past 12 months and covered all critical systems identified in the asset register",
+      "Request tester CVs or certification evidence and confirm they hold recognised certifications such as OSCP, CREST CRT, or GPEN",
+      "Confirm tester independence by verifying the testing firm is not the same organisation that developed, administers, or manages the tested systems",
+      "Review the remediation tracking register for penetration test findings and verify that critical findings have been remediated and re-tested",
+      "Check whether penetration testing was conducted prior to any major system releases in the past 12 months as required by the policy"
+    ]
+  },
+  "11.13": {
+    "clauseId": "11.13",
+    "section": "Cybersecurity Management",
+    "subsection": "Cyber Response and Recovery",
+    "title": "Cyber Incident Response Plan",
+    "clauseType": "technical",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will assess whether the institution conducts red team exercises to validate defences against advanced threats, whether exercises simulate realistic attack scenarios with clear rules of engagement, and whether findings have been used to improve detection and response capabilities.",
+    "evidenceItems": [
+      {
+        "id": "11.13-E1",
+        "name": "Red team exercise plan and rules of engagement",
+        "description": "Red team exercise plan and rules of engagement",
+        "whatGoodLooksLike": [
+          "Documented rules of engagement signed by both the institution and the red team provider before the exercise begins",
+          "Clear scope definition including in-scope and out-of-scope systems, network segments, and attack techniques",
+          "Safety mechanisms defined including emergency stop procedures and communication channels with exercise coordinators",
+          "Exercise objectives aligned with specific security concerns or threat scenarios relevant to the institution"
+        ],
+        "commonGaps": [
+          "Rules of engagement not documented or signed before the exercise begins",
+          "Scope too narrow, excluding critical systems that should be tested or too broad without appropriate safety controls",
+          "No emergency stop procedure defined, risking unintended impact to production systems",
+          "Exercise objectives are generic rather than tailored to the institution's specific threat landscape"
+        ],
+        "suggestedSources": [
+          "Red team provider engagement documents",
+          "CISO office exercise planning records",
+          "Legal department contract and liability documentation"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.13-E2",
+        "name": "Red team exercise reports",
+        "description": "Red team exercise reports",
+        "whatGoodLooksLike": [
+          "Detailed report documenting the attack path from initial access through to objective achievement with timestamps",
+          "Findings mapped to MITRE ATT&CK techniques with risk ratings and specific remediation recommendations",
+          "Assessment of the SOC's detection and response performance during the exercise including what was and was not detected",
+          "Executive summary with strategic recommendations for improving the institution's overall security posture"
+        ],
+        "commonGaps": [
+          "Report lacks detail on the attack path and techniques used, reading more like a penetration test than a red team exercise",
+          "No assessment of detection and response performance \u2014 report focuses only on vulnerabilities exploited",
+          "Findings not mapped to MITRE ATT&CK framework making it difficult to assess detection gaps",
+          "No executive summary suitable for board-level reporting"
+        ],
+        "suggestedSources": [
+          "Red team provider deliverables",
+          "CISO office exercise documentation",
+          "SOC detection logs from the exercise period (for blue team assessment)"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.13-E3",
+        "name": "Lessons learned and improvement plans",
+        "description": "Lessons learned and improvement plans",
+        "whatGoodLooksLike": [
+          "Structured lessons learned document covering detection gaps, response weaknesses, and control failures identified",
+          "Prioritised improvement plan with specific actions, assigned owners, deadlines, and progress tracking",
+          "Evidence that improvement actions from previous exercises have been completed before the next exercise",
+          "New detection rules or playbooks created as a direct result of red team findings"
+        ],
+        "commonGaps": [
+          "No formal lessons learned documented \u2014 findings remain only in the red team report",
+          "Improvement plan created but not tracked or implemented before the next exercise cycle",
+          "Improvements limited to fixing specific vulnerabilities without addressing systemic detection or response gaps",
+          "No evidence of red team findings being operationalised into new SIEM rules or SOC playbooks"
+        ],
+        "suggestedSources": [
+          "CISO office improvement action tracker",
+          "SOC detection engineering change records",
+          "Security architecture improvement project records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.13-E4",
+        "name": "Red team provider qualifications",
+        "description": "Red team provider qualifications",
+        "whatGoodLooksLike": [
+          "Provider company profile demonstrating experience in financial sector red team engagements",
+          "Individual tester CVs showing advanced offensive security certifications (OSCP, OSCE, GXPN, CREST)",
+          "References or case studies from similar engagements with other financial institutions",
+          "Provider holds relevant accreditations such as CREST membership or equivalent"
+        ],
+        "commonGaps": [
+          "Provider qualifications not verified or documented as part of the engagement process",
+          "Testers hold basic certifications only without the advanced skills needed for realistic threat simulation",
+          "Provider has no financial sector experience and may not simulate relevant threat scenarios",
+          "Same provider used for both penetration testing and red teaming without considering different skill requirements"
+        ],
+        "suggestedSources": [
+          "Procurement and vendor management records",
+          "Red team provider proposals and capability statements",
+          "CISO office vendor assessment documentation"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Verify that the red team exercise simulated realistic adversary behaviour, not just vulnerability exploitation \u2014 look for evidence of multi-phase attack simulation",
+      "Request the SOC detection assessment from the exercise to understand which attack phases were detected and which were missed",
+      "Check whether red team findings have been operationalised into new SIEM detection rules or SOC playbooks since the exercise",
+      "Review the improvement plan from the last exercise and verify that critical actions have been completed before any subsequent exercise",
+      "Confirm that the red team provider holds relevant certifications and has demonstrated financial sector experience"
+    ]
+  },
+  "11.14": {
+    "clauseId": "11.14",
+    "section": "Cybersecurity Management",
+    "subsection": "Cyber Response and Recovery",
+    "title": "CERT Member Readiness",
+    "clauseType": "technical",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that defined remediation SLTs exist (critical: 7 days, high: 30 days, medium: 90 days), SLT compliance is tracked and reported, and any exceptions have documented risk acceptance with compensating controls and expiry dates.",
+    "evidenceItems": [
+      {
+        "id": "11.14-E1",
+        "name": "Vulnerability remediation policy and SLTs",
+        "description": "Vulnerability remediation policy and SLTs",
+        "whatGoodLooksLike": [
+          "Documented policy specifying SLTs by severity: critical within 7 days, high within 30 days, medium within 90 days",
+          "Clear remediation workflow from vulnerability identification through to closure with defined roles",
+          "Exception handling process requiring system owner and CISO sign-off with compensating controls",
+          "Escalation procedures for overdue remediations with defined escalation points and timeframes"
+        ],
+        "commonGaps": [
+          "No documented SLTs or SLTs that exceed BNM's expected timeframes",
+          "Remediation workflow does not define clear ownership \u2014 vulnerabilities treated as the security team's problem",
+          "Exception process exists but does not require compensating controls or define maximum exception duration",
+          "No escalation process for overdue remediations, allowing critical vulnerabilities to remain open indefinitely"
+        ],
+        "suggestedSources": [
+          "CISO office vulnerability management documentation",
+          "IT risk management policy framework",
+          "Information security policy suite"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.14-E2",
+        "name": "Remediation tracking dashboard or reports",
+        "description": "Remediation tracking dashboard or reports",
+        "whatGoodLooksLike": [
+          "Dashboard or report showing all open vulnerabilities with severity, assigned owner, deadline, and days open",
+          "Ageing analysis highlighting vulnerabilities approaching or exceeding SLT deadlines",
+          "Trend reporting showing remediation volumes, completion rates, and average time-to-remediate by severity",
+          "Reports generated at least monthly and distributed to the CISO and IT Risk Committee"
+        ],
+        "commonGaps": [
+          "No centralised tracking \u2014 vulnerabilities tracked in spreadsheets or not tracked at all",
+          "Dashboard exists but is not regularly reviewed by management or used to drive remediation priorities",
+          "No ageing analysis to identify vulnerabilities that have exceeded their SLT deadlines",
+          "Tracking does not cover all vulnerability sources (scans, penetration tests, threat intelligence)"
+        ],
+        "suggestedSources": [
+          "Vulnerability management platform dashboard (Qualys, Rapid7, Tenable)",
+          "IT service management system (ServiceNow, Jira)",
+          "CISO monthly reporting pack"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.14-E3",
+        "name": "SLT compliance metrics",
+        "description": "SLT compliance metrics",
+        "whatGoodLooksLike": [
+          "Monthly SLT compliance report showing percentage of vulnerabilities remediated within target for each severity level",
+          "Compliance rates above 90% for critical and high vulnerabilities demonstrating effective remediation",
+          "Trend analysis showing improvement in SLT compliance over the past 12 months",
+          "Root cause analysis for SLT breaches with corrective actions to prevent recurrence"
+        ],
+        "commonGaps": [
+          "SLT compliance not measured or reported, making it impossible to demonstrate adherence to BNM's expectations",
+          "Compliance rates below 70% for critical vulnerabilities indicating systemic remediation challenges",
+          "No root cause analysis for SLT breaches \u2014 overdue items simply rolled over without investigation",
+          "Metrics not segmented by severity, masking poor performance on critical vulnerabilities"
+        ],
+        "suggestedSources": [
+          "Vulnerability management platform compliance reports",
+          "CISO office KPI dashboard",
+          "IT Risk Committee reporting pack"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.14-E4",
+        "name": "Risk acceptance records for exceptions",
+        "description": "Risk acceptance records for exceptions",
+        "whatGoodLooksLike": [
+          "Formal risk acceptance forms signed by the system owner and CISO for each exception",
+          "Each acceptance documents the specific vulnerability, reason for exception, compensating controls in place, and residual risk",
+          "Defined expiry date not exceeding 90 days with mandatory review and re-approval",
+          "Risk acceptance register maintained centrally with periodic review of active exceptions"
+        ],
+        "commonGaps": [
+          "Vulnerabilities left unpatched without formal risk acceptance documentation",
+          "Risk acceptances signed but without compensating controls or residual risk assessment",
+          "No expiry date on risk acceptances, allowing indefinite deferral of remediation",
+          "Risk acceptances approved by personnel without appropriate authority (not the system owner or CISO)"
+        ],
+        "suggestedSources": [
+          "Risk acceptance register (GRC platform or manual register)",
+          "CISO office exception management records",
+          "IT risk management function"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Request the remediation SLT compliance report for the past 12 months and verify compliance rates for critical vulnerabilities are above 90%",
+      "Pull a sample of 10 critical vulnerabilities from the past year and verify each was remediated within 7 days or has a documented risk acceptance",
+      "Review the risk acceptance register and verify that all exceptions have compensating controls, CISO sign-off, and expiry dates not exceeding 90 days",
+      "Check whether the institution uses automated patch management by requesting deployment success rates for the most recent critical security patches",
+      "Ask for evidence of compensating controls (such as virtual patching) deployed for critical vulnerabilities that could not be immediately remediated"
+    ]
+  },
+  "11.15": {
+    "clauseId": "11.15",
+    "section": "Cybersecurity Management",
+    "subsection": "Cyber Response and Recovery",
+    "title": "Out-of-Band Communication Infrastructure",
+    "clauseType": "technical",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will assess whether the institution has considered establishing a vulnerability disclosure or bug bounty programme, and if one exists, whether it has clear scope, safe harbour provisions, and operational procedures for triaging and remediating reported vulnerabilities.",
+    "evidenceItems": [
+      {
+        "id": "11.15-E1",
+        "name": "Vulnerability disclosure policy or bug bounty program documentation",
+        "description": "Vulnerability disclosure policy or bug bounty program documentation",
+        "whatGoodLooksLike": [
+          "Published vulnerability disclosure policy accessible from the institution's website",
+          "Clear programme scope defining which systems and vulnerability types are in scope",
+          "Safe harbour provisions protecting researchers from legal action for good-faith vulnerability research",
+          "Defined reward structure (if bug bounty) or acknowledgement process (if coordinated disclosure)"
+        ],
+        "commonGaps": [
+          "No vulnerability disclosure programme considered or implemented despite BNM's guidance",
+          "Policy exists internally but is not published or accessible to external researchers",
+          "No safe harbour provisions, discouraging researchers from submitting reports due to legal risk",
+          "Programme scope too narrow, excluding critical systems such as mobile banking or APIs"
+        ],
+        "suggestedSources": [
+          "CISO office programme documentation",
+          "Institution's public website (security.txt, vulnerability disclosure page)",
+          "Bug bounty platform (HackerOne, Bugcrowd, YesWeHack)"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.15-E2",
+        "name": "Program scope and rules of engagement",
+        "description": "Program scope and rules of engagement",
+        "whatGoodLooksLike": [
+          "Detailed scope document listing in-scope domains, applications, APIs, and vulnerability types",
+          "Rules of engagement specifying what researchers can and cannot do during testing",
+          "Clear boundaries for testing to prevent impact on production systems or customer data",
+          "Regular scope updates reflecting new systems and services added to the institution's digital footprint"
+        ],
+        "commonGaps": [
+          "Scope not clearly defined, leading to confusion about what systems can be tested",
+          "Rules of engagement too restrictive, preventing meaningful security testing by researchers",
+          "No boundaries defined, risking unintended impact on production systems",
+          "Scope has not been updated to include new systems deployed since the programme launched"
+        ],
+        "suggestedSources": [
+          "Bug bounty platform scope configuration",
+          "CISO office programme management records",
+          "Security architecture team for system inventory alignment"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.15-E3",
+        "name": "Reported vulnerability records and remediation",
+        "description": "Reported vulnerability records and remediation",
+        "whatGoodLooksLike": [
+          "Register of all vulnerabilities reported through the programme with risk ratings and remediation status",
+          "Evidence of timely initial response to researchers (within 3 business days)",
+          "Reported vulnerabilities tracked through the standard remediation pipeline with SLT compliance",
+          "Trend analysis showing the volume and severity of reported vulnerabilities over time"
+        ],
+        "commonGaps": [
+          "No tracking of externally reported vulnerabilities separate from internal scan findings",
+          "Slow or no response to researcher submissions, undermining programme credibility",
+          "Reported vulnerabilities not integrated into the standard remediation tracking process",
+          "No analysis of reported vulnerability trends to identify systemic security weaknesses"
+        ],
+        "suggestedSources": [
+          "Bug bounty platform submission and triage records",
+          "Vulnerability management tracking system",
+          "CISO office programme metrics and reports"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.15-E4",
+        "name": "Researcher acknowledgement records",
+        "description": "Researcher acknowledgement records",
+        "whatGoodLooksLike": [
+          "Records of researcher acknowledgement or reward payments for valid vulnerability submissions",
+          "Hall of fame or acknowledgement page recognising contributing researchers (where agreed)",
+          "Response time metrics showing consistent adherence to published SLTs",
+          "Researcher feedback or satisfaction data used to improve the programme"
+        ],
+        "commonGaps": [
+          "No acknowledgement or reward process, providing no incentive for researchers to participate",
+          "Inconsistent researcher communication with some reports receiving no response",
+          "Response time metrics not tracked, with no visibility into researcher experience",
+          "No feedback mechanism to improve the programme based on researcher input"
+        ],
+        "suggestedSources": [
+          "Bug bounty platform payment and acknowledgement records",
+          "CISO office researcher correspondence records",
+          "Programme annual review documentation"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Check whether the institution has published a security.txt file or vulnerability disclosure page on their website, indicating a mature approach to external researcher engagement",
+      "If a programme exists, request submission records for the past 12 months and verify that reported vulnerabilities were triaged and remediated within standard SLTs",
+      "Verify that safe harbour provisions exist in the disclosure policy to protect researchers from legal action for good-faith testing",
+      "If no programme exists, ask the institution to explain their rationale and whether they have considered BNM's guidance on this topic",
+      "Review whether the programme scope covers the institution's full internet-facing attack surface including APIs and mobile applications"
+    ]
+  },
+  "11.16": {
+    "clauseId": "11.16",
+    "section": "Cybersecurity Management",
+    "subsection": "Cyber Response and Recovery",
+    "title": "Annual Cyber Drill Exercise",
+    "clauseType": "technical",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that a formal threat intelligence programme exists with multiple intelligence sources, produces actionable intelligence relevant to the financial sector, and can demonstrate evidence of intelligence-driven security improvements.",
+    "evidenceItems": [
+      {
+        "id": "11.16-E1",
+        "name": "Threat intelligence program documentation",
+        "description": "Threat intelligence program documentation",
+        "whatGoodLooksLike": [
+          "Documented programme charter defining objectives, scope, intelligence requirements, and operational processes",
+          "Clear intelligence cycle covering collection, processing, analysis, dissemination, and feedback",
+          "Programme aligned with the institution's threat profile and the Malaysian financial sector threat landscape",
+          "Defined roles and responsibilities for the threat intelligence function with qualified personnel"
+        ],
+        "commonGaps": [
+          "No formal programme documentation \u2014 threat intelligence activities are ad hoc and unstructured",
+          "Programme focuses only on tactical intelligence (IoCs) without strategic or operational intelligence production",
+          "Intelligence requirements not defined, resulting in unfocused collection and analysis efforts",
+          "No dedicated threat intelligence personnel \u2014 function performed part-time by SOC analysts"
+        ],
+        "suggestedSources": [
+          "CISO office threat intelligence programme documentation",
+          "Threat intelligence team operating procedures",
+          "Security operations programme documentation"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.16-E2",
+        "name": "Intelligence source inventory",
+        "description": "Intelligence source inventory",
+        "whatGoodLooksLike": [
+          "Comprehensive inventory listing all intelligence sources including commercial feeds, open-source, government, and industry sharing arrangements",
+          "Source quality ratings based on relevance, accuracy, timeliness, and coverage",
+          "Mix of strategic, operational, and tactical intelligence sources appropriate for the institution's needs",
+          "Sources include MyCERT advisories, BNM circulars, regional ISAC feeds, and financial sector-specific intelligence"
+        ],
+        "commonGaps": [
+          "Reliance on a single commercial threat intelligence feed without supplementary sources",
+          "No government or regulator intelligence sources (MyCERT, BNM) included in the source portfolio",
+          "Source inventory not maintained or reviewed, with expired subscriptions or inactive feeds",
+          "No dark web or underground forum monitoring for threats targeting the institution or Malaysian financial sector"
+        ],
+        "suggestedSources": [
+          "Threat intelligence platform source configuration (MISP, Recorded Future, ThreatConnect, Anomali)",
+          "Procurement records for commercial intelligence subscriptions",
+          "MyCERT and BNM correspondence records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.16-E3",
+        "name": "Threat intelligence reports and analysis",
+        "description": "Threat intelligence reports and analysis",
+        "whatGoodLooksLike": [
+          "Regular threat intelligence reports (weekly tactical, monthly operational, quarterly strategic) tailored to different audiences",
+          "Reports include analysis of threats specific to the institution's technology environment and the Malaysian financial sector",
+          "Intelligence assessments include confidence levels, source reliability indicators, and recommended actions",
+          "Evidence that reports are disseminated to relevant teams including SOC, vulnerability management, and senior management"
+        ],
+        "commonGaps": [
+          "No regular threat intelligence reporting \u2014 information shared ad hoc when major threats emerge",
+          "Reports are raw intelligence feeds forwarded without analysis or contextualisation for the institution",
+          "Intelligence reports do not include actionable recommendations or recommended defensive actions",
+          "Reports produced but not disseminated beyond the threat intelligence team"
+        ],
+        "suggestedSources": [
+          "Threat intelligence team report repository",
+          "CISO monthly and quarterly reporting packs",
+          "SOC intelligence briefing records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.16-E4",
+        "name": "Evidence of intelligence-driven security actions",
+        "description": "Evidence of intelligence-driven security actions",
+        "whatGoodLooksLike": [
+          "Documented examples of SIEM rules or detection use cases created from threat intelligence analysis",
+          "Evidence of security controls updated in response to specific threat intelligence findings",
+          "Vulnerability scanning priorities adjusted based on actively exploited vulnerabilities identified through intelligence",
+          "Security awareness campaigns triggered by intelligence on phishing or social engineering threats targeting the sector"
+        ],
+        "commonGaps": [
+          "No documented linkage between threat intelligence and security operations actions",
+          "Intelligence consumed but not operationalised into detection rules, control updates, or priority changes",
+          "Actions taken in response to intelligence but not documented, making it impossible to demonstrate the programme's value",
+          "Intelligence-driven actions limited to IoC blocking without broader defensive improvements"
+        ],
+        "suggestedSources": [
+          "SOC detection engineering change records linked to threat intelligence",
+          "SIEM rule change logs referencing intelligence sources",
+          "Vulnerability management priority adjustment records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Request the threat intelligence source inventory and verify that multiple sources are in use, including government sources (MyCERT, BNM) and financial sector-specific intelligence",
+      "Ask for three examples of intelligence-driven security actions in the past six months and trace them from the intelligence report through to the operational change",
+      "Review threat intelligence reports and verify they include institution-specific analysis and actionable recommendations, not just forwarded vendor alerts",
+      "Check whether the threat intelligence platform is integrated with the SIEM and EDR to enable automated detection of newly identified indicators of compromise",
+      "Verify that the programme produces intelligence at strategic, operational, and tactical levels, not just tactical IoC feeds"
+    ]
+  },
+  "11.17": {
+    "clauseId": "11.17",
+    "section": "Cybersecurity Management",
+    "subsection": "Cyber Response and Recovery",
+    "title": "Cyber Insurance and Loss Provision",
+    "clauseType": "technical",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that the institution actively participates in threat information sharing with peers, government agencies, and ISACs, that shared information is handled in accordance with TLP or equivalent protocols, and that sharing arrangements are supported by formal agreements.",
+    "evidenceItems": [
+      {
+        "id": "11.17-E1",
+        "name": "Threat sharing agreements and memberships",
+        "description": "Threat sharing agreements and memberships",
+        "whatGoodLooksLike": [
+          "Signed sharing agreements with industry peers, government agencies (MyCERT, NACSA), and relevant ISACs",
+          "Active membership in at least one financial sector ISAC or sharing community",
+          "Agreements define sharing scope, handling requirements, confidentiality obligations, and dispute resolution",
+          "Current memberships and agreements \u2014 not expired or lapsed subscriptions"
+        ],
+        "commonGaps": [
+          "No formal sharing agreements in place \u2014 intelligence shared informally without defined terms",
+          "Membership in sharing groups but no active participation or contribution",
+          "Agreements signed but expired or not renewed, with no current active arrangements",
+          "Sharing limited to government agencies only without industry peer participation"
+        ],
+        "suggestedSources": [
+          "CISO office partnership and sharing agreement records",
+          "Legal department contract management records",
+          "MyCERT and NACSA membership correspondence"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.17-E2",
+        "name": "TLP or equivalent handling procedures",
+        "description": "TLP or equivalent handling procedures",
+        "whatGoodLooksLike": [
+          "Documented TLP handling procedures covering all four levels: TLP:RED, TLP:AMBER, TLP:GREEN, and TLP:CLEAR",
+          "Procedures specify who can receive information at each TLP level and how it must be stored and transmitted",
+          "Staff awareness training on TLP handling completed by all personnel who handle shared intelligence",
+          "Technical controls enforcing TLP handling restrictions in the threat intelligence platform and email systems"
+        ],
+        "commonGaps": [
+          "No documented TLP handling procedures despite receiving TLP-marked intelligence from sharing partners",
+          "Procedures exist but staff are unaware of TLP classifications and handling requirements",
+          "TLP:AMBER intelligence forwarded broadly within the organisation without restriction",
+          "No technical controls enforcing TLP restrictions \u2014 compliance relies entirely on manual processes"
+        ],
+        "suggestedSources": [
+          "Threat intelligence team operational procedures",
+          "Information classification and handling policy",
+          "Security awareness training records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.17-E3",
+        "name": "Records of information shared and received",
+        "description": "Records of information shared and received",
+        "whatGoodLooksLike": [
+          "Log of threat intelligence shared with and received from sharing partners over the past 12 months",
+          "Evidence of both contribution and consumption demonstrating active bilateral participation",
+          "Shared intelligence includes indicators of compromise, threat reports, and adversary analysis relevant to the financial sector",
+          "Records show regular sharing activity, not just one or two exchanges per year"
+        ],
+        "commonGaps": [
+          "Institution consumes shared intelligence but does not contribute, acting as a passive participant",
+          "No records of sharing activity maintained, making it impossible to demonstrate participation to BNM",
+          "Sharing activity is sporadic with long gaps between exchanges indicating a dormant programme",
+          "Shared information limited to IoCs without broader threat context or analysis"
+        ],
+        "suggestedSources": [
+          "Threat intelligence platform sharing logs (MISP, ThreatConnect, Anomali)",
+          "Email correspondence records with sharing partners",
+          "ISAC portal activity logs and contribution records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.17-E4",
+        "name": "ISAC participation evidence",
+        "description": "ISAC participation evidence",
+        "whatGoodLooksLike": [
+          "Active membership in a financial sector ISAC with documented participation in meetings and working groups",
+          "Evidence of intelligence received through ISAC channels that was operationalised by the institution",
+          "Contribution of threat intelligence or incident data back to the ISAC community",
+          "Attendance records for ISAC meetings, workshops, or collaborative exercises"
+        ],
+        "commonGaps": [
+          "ISAC membership exists on paper but no active participation in meetings or intelligence exchange",
+          "No financial sector-specific ISAC membership \u2014 participation limited to general cybersecurity forums",
+          "Intelligence received from ISAC not integrated into the institution's threat intelligence programme",
+          "No contribution of intelligence back to the ISAC, undermining the collaborative model"
+        ],
+        "suggestedSources": [
+          "ISAC membership documentation and correspondence",
+          "ISAC meeting attendance records",
+          "Threat intelligence team ISAC contribution records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Request evidence of active ISAC membership and verify participation through meeting attendance records and intelligence contribution logs",
+      "Ask for the TLP handling procedures and test staff awareness by asking how TLP:AMBER intelligence should be handled",
+      "Review the sharing log for the past 12 months and verify the institution is contributing intelligence, not just consuming it",
+      "Check whether shared intelligence is automatically ingested into the SIEM and threat intelligence platform or requires manual processing",
+      "Verify that formal sharing agreements exist with defined terms, particularly for confidentiality and permitted use of shared information"
+    ]
+  },
+  "11.18": {
+    "clauseId": "11.18",
+    "section": "Cybersecurity Management",
+    "subsection": "Cyber Reporting and Threat Information Sharing",
+    "title": "Cyber Incident Notification to BNM",
+    "clauseType": "technical",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will assess whether the institution has established proactive threat hunting capabilities informed by threat intelligence, whether hunts follow structured methodologies, and whether findings are operationalised into improved detection rules and security controls.",
+    "evidenceItems": [
+      {
+        "id": "11.18-E1",
+        "name": "Threat hunting program documentation",
+        "description": "Threat hunting program documentation",
+        "whatGoodLooksLike": [
+          "Documented programme with clear objectives, methodology, hunting cadence, and resource allocation",
+          "Methodology defined as hypothesis-driven or intelligence-driven with structured approach to each hunt",
+          "Dedicated or designated threat hunting personnel with appropriate skills and certifications",
+          "Programme integrated with the broader threat intelligence and detection engineering functions"
+        ],
+        "commonGaps": [
+          "No formal threat hunting programme \u2014 hunting performed informally or not at all",
+          "Programme documented but no hunts actually conducted in the past 12 months",
+          "No dedicated hunting resources \u2014 expected to be performed by SOC analysts alongside alert triage duties",
+          "Hunting methodology not defined, resulting in ad hoc and unrepeatable investigations"
+        ],
+        "suggestedSources": [
+          "CISO office threat hunting programme documentation",
+          "SOC operations programme documentation",
+          "Threat intelligence team operating procedures"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.18-E2",
+        "name": "Threat hunting methodology and playbooks",
+        "description": "Threat hunting methodology and playbooks",
+        "whatGoodLooksLike": [
+          "Hunting playbooks covering key adversary techniques from MITRE ATT&CK including lateral movement, credential access, persistence, and exfiltration",
+          "Each playbook defines the hypothesis, data sources to query, analytical techniques, expected findings, and escalation procedures",
+          "Playbooks tailored to the institution's technology environment and common threat actor profiles",
+          "Playbooks regularly updated based on new threat intelligence and findings from previous hunts"
+        ],
+        "commonGaps": [
+          "No documented hunting playbooks \u2014 hunts performed ad hoc without repeatable methodology",
+          "Playbooks are generic and not tailored to the institution's specific technology environment",
+          "Playbooks cover only basic techniques without addressing advanced adversary behaviours",
+          "Playbooks not updated following new threat intelligence or completed hunts"
+        ],
+        "suggestedSources": [
+          "Threat hunting team playbook repository",
+          "SOC knowledge base (Confluence, SharePoint)",
+          "Threat intelligence team TTP analysis records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.18-E3",
+        "name": "Threat hunting reports and findings",
+        "description": "Threat hunting reports and findings",
+        "whatGoodLooksLike": [
+          "Regular hunting reports documenting each hunt with the hypothesis tested, data analysed, and findings",
+          "Evidence of hunts conducted at least monthly with documented outcomes",
+          "Findings include both positive results (threats found) and negative results (no threats found but coverage validated)",
+          "Actionable recommendations from each hunt with follow-up actions tracked to completion"
+        ],
+        "commonGaps": [
+          "No documented hunting reports \u2014 hunts conducted but not recorded for audit or knowledge retention",
+          "Hunts conducted infrequently with long gaps between activities",
+          "Reports only document positive findings without recording hunts that found no threats, losing validation evidence",
+          "Findings not actioned or tracked, with recommendations remaining as report items without follow-through"
+        ],
+        "suggestedSources": [
+          "Threat hunting team report repository",
+          "SOC case management system hunting records",
+          "CISO quarterly reporting on threat hunting activities"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.18-E4",
+        "name": "Hunting-to-detection pipeline records",
+        "description": "Hunting-to-detection pipeline records",
+        "whatGoodLooksLike": [
+          "Documented pipeline process for converting hunting findings into automated SIEM detection rules or EDR policies",
+          "Records showing specific detection rules created as a direct result of threat hunting discoveries",
+          "Tracking of detection rules from hunt origin through development, testing, and production deployment",
+          "Measurable improvement in detection coverage attributable to threat hunting findings"
+        ],
+        "commonGaps": [
+          "No hunt-to-detection pipeline \u2014 hunting findings remain in reports without being operationalised",
+          "Detection rules created from hunts but not tracked back to the originating hunt for programme measurement",
+          "Pipeline exists on paper but no detection rules have actually been created from hunting findings",
+          "Detection rules created but not properly tested before deployment, leading to false positives"
+        ],
+        "suggestedSources": [
+          "SOC detection engineering change records",
+          "SIEM rule management and change log",
+          "Threat hunting programme metrics and KPIs"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Request the threat hunting log for the past 12 months and verify that hunts are being conducted regularly with documented hypotheses and findings",
+      "Ask for examples of detection rules created from threat hunting findings and verify they are active in the SIEM",
+      "Verify that hunting activities are informed by current threat intelligence by checking whether hunt hypotheses reference specific intelligence sources",
+      "Review the hunting playbook collection and assess whether it covers the most relevant adversary techniques for the financial sector",
+      "If no formal programme exists, ask the institution to explain what proactive measures they take to detect threats beyond automated monitoring"
+    ]
+  },
+  "11.19": {
+    "clauseId": "11.19",
+    "section": "Cybersecurity Management",
+    "subsection": "Cyber Reporting and Threat Information Sharing",
+    "title": "Cyber Threat Intelligence Sharing",
+    "clauseType": "technical",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that the institution has a structured process for managing indicators of compromise covering collection, validation, enrichment, and integration with security monitoring tools, maintained in a threat intelligence platform and kept current with the evolving threat landscape.",
+    "evidenceItems": [
+      {
+        "id": "11.19-E1",
+        "name": "IoC management procedure",
+        "description": "IoC management procedure",
+        "whatGoodLooksLike": [
+          "Documented IoC management procedure covering the full lifecycle: collection, validation, enrichment, dissemination, and retirement",
+          "Procedure defines IoC types managed (IP addresses, domains, file hashes, URLs, email addresses, YARA rules) with handling requirements for each",
+          "Validation process includes confidence scoring and source reliability assessment before IoCs are operationalised",
+          "Enrichment process adds context such as threat actor attribution, campaign association, and relevance to the Malaysian financial sector"
+        ],
+        "commonGaps": [
+          "No documented IoC management procedure \u2014 IoCs are consumed from feeds and pushed to tools without validation or enrichment",
+          "IoCs collected but never validated, leading to false positives from stale or inaccurate indicators blocking legitimate traffic",
+          "No confidence scoring or source reliability assessment, treating all IoCs as equally trustworthy regardless of origin",
+          "IoC retirement process absent, with indicators remaining active indefinitely and degrading detection quality over time"
+        ],
+        "suggestedSources": [
+          "Threat intelligence team standard operating procedures",
+          "Information security policy framework \u2014 threat intelligence section",
+          "SOC operational procedures manual"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.19-E2",
+        "name": "Threat intelligence platform configuration",
+        "description": "Threat intelligence platform configuration",
+        "whatGoodLooksLike": [
+          "Deployed threat intelligence platform (e.g., MISP, OpenCTI, ThreatConnect, Anomali) with documented configuration and architecture",
+          "Platform configured with taxonomies and tagging aligned to MITRE ATT&CK, STIX/TAXII standards, and the institution's internal classification scheme",
+          "Role-based access controls implemented with audit logging of all platform activities",
+          "Platform integrated with external feed sources including MyCERT advisories, commercial feeds, and ISAC sharing communities"
+        ],
+        "commonGaps": [
+          "No dedicated threat intelligence platform \u2014 IoCs managed in spreadsheets or ad hoc email distribution lists",
+          "Platform deployed but poorly configured with default taxonomies that do not align with the institution's threat model",
+          "No STIX/TAXII integration capability, preventing automated ingestion from and sharing with external partners",
+          "Platform access not restricted by role, allowing unauthorised staff to modify or delete IoC records"
+        ],
+        "suggestedSources": [
+          "Threat intelligence platform administration console and configuration exports",
+          "IT infrastructure architecture documentation \u2014 TIP deployment diagram",
+          "Platform vendor support and licensing records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.19-E3",
+        "name": "IoC feed integration evidence",
+        "description": "IoC feed integration evidence",
+        "whatGoodLooksLike": [
+          "Documented integrations between the threat intelligence platform and security monitoring tools (SIEM, EDR, firewall, proxy, email gateway)",
+          "Automated IoC dissemination pipeline pushing validated indicators to blocking and detection tools with minimal manual intervention",
+          "Integration health monitoring in place with alerts for feed failures or synchronisation delays",
+          "Evidence of IoC-triggered detections or blocks in security tool logs over the past 12 months"
+        ],
+        "commonGaps": [
+          "IoCs collected in the TIP but not automatically pushed to security monitoring tools \u2014 requiring manual copy-paste into SIEM rules",
+          "Integration exists but is one-directional, with no feedback loop from detection tools back to the TIP on IoC hit rates",
+          "Feed integration failures go undetected for extended periods, leaving gaps in automated detection coverage",
+          "Only partial integration \u2014 IoCs pushed to SIEM but not to firewall, proxy, or email gateway for blocking"
+        ],
+        "suggestedSources": [
+          "Threat intelligence platform integration configuration and API connection logs",
+          "SIEM correlation rule library showing IoC-based detection rules",
+          "Firewall and proxy block list management records"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.19-E4",
+        "name": "IoC lifecycle management records",
+        "description": "IoC lifecycle management records",
+        "whatGoodLooksLike": [
+          "Records demonstrating active IoC lifecycle management including creation dates, last validation dates, and retirement dates",
+          "Regular review cycles (at least monthly) to age out stale IoCs and update confidence scores based on new intelligence",
+          "Dashboard or metrics showing total active IoCs, IoCs added and retired per period, and false positive rates",
+          "Evidence that IoC retirement decisions are informed by threat intelligence analysis rather than arbitrary time-based expiry"
+        ],
+        "commonGaps": [
+          "No IoC retirement process \u2014 indicators accumulate indefinitely, with stale IoCs from years ago still active in detection tools",
+          "No regular review cycle for IoC validity, leading to growing false positive rates that erode analyst trust",
+          "No metrics or reporting on IoC lifecycle, making it impossible to demonstrate programme health to BNM examiners",
+          "IoCs retired based solely on age without considering whether the associated threat actor or campaign is still active"
+        ],
+        "suggestedSources": [
+          "Threat intelligence platform IoC statistics and lifecycle reports",
+          "SOC false positive analysis records linked to IoC-based detections",
+          "Threat intelligence team monthly operational reports"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Request a walkthrough of the IoC lifecycle from collection through to retirement, asking the team to demonstrate each stage with a recent real-world example",
+      "Verify automated integration by selecting a recently ingested IoC in the TIP and confirming it appears in SIEM correlation rules and firewall block lists",
+      "Check IoC validation processes by asking how the team distinguishes between high-confidence and low-confidence indicators before operationalising them",
+      "Review IoC retirement records and ask how the team determines when an indicator is no longer relevant \u2014 look for evidence-based decisions rather than arbitrary expiry",
+      "Examine feed health monitoring by asking what happens when an IoC feed fails and how quickly the team is alerted to integration disruptions"
+    ]
+  },
+  "11.20": {
+    "clauseId": "11.20",
+    "section": "Cybersecurity Management",
+    "subsection": "Cyber Reporting and Threat Information Sharing",
+    "title": "Stakeholder Collaboration on Cyber Threats",
+    "clauseType": "technical",
+    "marker": "S",
+    "auditorFocus": "BNM examiners will verify that the institution maintains continuous awareness of the external threat landscape and its own attack surface, with regular situational awareness reports provided to senior management and security operations to inform risk decisions.",
+    "evidenceItems": [
+      {
+        "id": "11.20-E1",
+        "name": "Cyber situational awareness program documentation",
+        "description": "Cyber situational awareness program documentation",
+        "whatGoodLooksLike": [
+          "Formally documented cyber situational awareness programme with defined objectives, scope, information sources, and reporting cadence approved by the CISO",
+          "Programme covers three domains: external threat landscape monitoring, institutional attack surface monitoring, and financial sector-specific threat tracking",
+          "Defined roles and responsibilities for producing, reviewing, and distributing situational awareness outputs",
+          "Programme references relevant Malaysian threat sources including MyCERT advisories, NACSA alerts, and BNM communications on cyber threats"
+        ],
+        "commonGaps": [
+          "No documented situational awareness programme \u2014 threat monitoring is ad hoc and dependent on individual analyst initiative",
+          "Programme covers external threats but neglects the institution's own attack surface and exposure monitoring",
+          "No defined information sources or collection strategy, resulting in inconsistent and incomplete threat coverage",
+          "Programme does not address financial sector-specific threats, relying solely on generic cybersecurity news"
+        ],
+        "suggestedSources": [
+          "CISO office programme documentation and governance records",
+          "Threat intelligence team charter and operational procedures",
+          "Annual cybersecurity strategy document submitted to the board"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.20-E2",
+        "name": "Attack surface monitoring evidence",
+        "description": "Attack surface monitoring evidence",
+        "whatGoodLooksLike": [
+          "Continuous external attack surface monitoring using dedicated tooling (e.g., ASM platforms such as Mandiant Advantage, Censys, or Shodan Monitor)",
+          "Regular attack surface discovery scans identifying internet-facing assets, exposed services, shadow IT, and certificate issues",
+          "Findings tracked through to remediation with defined SLAs for addressing newly discovered exposures",
+          "Attack surface inventory reconciled against the institution's approved asset register to identify unauthorised or unknown assets"
+        ],
+        "commonGaps": [
+          "No external attack surface monitoring \u2014 the institution relies solely on internal vulnerability scanning without visibility of its external footprint",
+          "Attack surface scans conducted but findings not tracked through to remediation, leaving identified exposures unaddressed",
+          "Monitoring is periodic (e.g., quarterly) rather than continuous, missing newly exposed assets between scan cycles",
+          "Shadow IT and cloud assets excluded from attack surface monitoring, creating blind spots in the institution's external exposure"
+        ],
+        "suggestedSources": [
+          "Attack surface management platform dashboards and reports",
+          "Vulnerability management team remediation tracking records",
+          "IT asset management system reconciliation reports"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.20-E3",
+        "name": "External threat landscape reports",
+        "description": "External threat landscape reports",
+        "whatGoodLooksLike": [
+          "Regular (at least monthly) threat landscape reports covering emerging threats, active campaigns, and vulnerabilities relevant to the Malaysian financial sector",
+          "Reports reference credible intelligence sources including MyCERT advisories, NACSA bulletins, vendor threat reports, and ISAC intelligence",
+          "Analysis includes relevance assessment specific to the institution's technology stack, geography, and business operations",
+          "Reports include actionable recommendations for security operations and risk management, not merely informational summaries"
+        ],
+        "commonGaps": [
+          "No regular threat landscape reporting \u2014 awareness is limited to ad hoc forwarding of vendor alerts and news articles",
+          "Reports produced but are generic summaries without relevance assessment to the institution's specific environment",
+          "No inclusion of Malaysia-specific threat intelligence from MyCERT, NACSA, or local financial sector sharing communities",
+          "Reports lack actionable recommendations, providing information without guidance on what the institution should do in response"
+        ],
+        "suggestedSources": [
+          "Threat intelligence team report repository",
+          "MyCERT and NACSA advisory tracking records",
+          "Commercial threat intelligence vendor portal (e.g., Recorded Future, Mandiant, CrowdStrike)"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.20-E4",
+        "name": "Situational awareness reports to management",
+        "description": "Situational awareness reports to management",
+        "whatGoodLooksLike": [
+          "Regular (at least monthly) cyber situational awareness reports provided to senior management and the board risk committee",
+          "Reports summarise the current threat posture, significant incidents in the financial sector, attack surface changes, and recommended actions",
+          "Evidence of management acknowledgement, discussion, or decisions taken based on situational awareness reports (e.g., meeting minutes, action items)",
+          "Reporting format tailored for executive audience with risk-based language, avoiding overly technical jargon"
+        ],
+        "commonGaps": [
+          "No regular situational awareness reporting to senior management \u2014 cyber threat updates provided only after major incidents",
+          "Reports produced for the SOC but not escalated to senior management or the board, failing to meet the RMiT requirement",
+          "Reports provided but no evidence of management engagement, discussion, or action taken in response",
+          "Reporting is overly technical and not accessible to senior management, reducing its value as a risk governance input"
+        ],
+        "suggestedSources": [
+          "Board risk committee and IT steering committee meeting packs and minutes",
+          "CISO monthly or quarterly report to senior management",
+          "Enterprise risk management reporting portal"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "Request the last three months of situational awareness reports provided to senior management and verify they cover external threats, attack surface findings, and financial sector-specific intelligence",
+      "Ask for evidence of management acknowledgement or decisions taken in response to situational awareness reports \u2014 meeting minutes or action items from board risk committee sessions",
+      "Review the attack surface monitoring setup by asking the team to demonstrate the tooling and show recently discovered exposures with remediation tracking evidence",
+      "Check whether MyCERT advisories and NACSA bulletins are systematically tracked and assessed for relevance to the institution, not merely received and filed",
+      "Verify the situational awareness programme covers all three domains required by this clause: external threat landscape, institutional attack surface, and emerging threats targeting the financial sector"
+    ]
+  }
+}
