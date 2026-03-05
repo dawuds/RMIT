@@ -431,6 +431,132 @@ a:hover { text-decoration: underline; }
   .sec-card, .accordion-item { break-inside: avoid; }
 }
 
+/* ===== DARK MODE (system preference) ===== */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111827;
+    --card: #1F2937;
+    --border: #374151;
+    --accent: #60A5FA;
+    --accent-light: #1E3A5F;
+    --accent-dark: #2563EB;
+    --text-primary: #F1F5F9;
+    --text-secondary: #CBD5E1;
+    --text-muted: #94A3B8;
+    --red: #F87171;
+    --green: #4ADE80;
+    --amber: #FBBF24;
+    --purple: #A78BFA;
+
+    --sec-8: #A78BFA;
+    --sec-9: #60A5FA;
+    --sec-10: #818CF8;
+    --sec-11: #F87171;
+    --sec-12: #22D3EE;
+    --sec-13: #FBBF24;
+    --sec-14: #4ADE80;
+    --sec-15: #F472B6;
+    --sec-16: #FB923C;
+    --sec-17: #38BDF8;
+    --sec-18: #94A3B8;
+
+    --sec-8-bg: #2E2750;
+    --sec-9-bg: #1E2D4A;
+    --sec-10-bg: #252547;
+    --sec-11-bg: #3B1C1C;
+    --sec-12-bg: #153038;
+    --sec-13-bg: #3A2E10;
+    --sec-14-bg: #1A3326;
+    --sec-15-bg: #3B1B30;
+    --sec-16-bg: #3A2510;
+    --sec-17-bg: #152C3E;
+    --sec-18-bg: #1F2937;
+
+    --shadow: 0 1px 3px rgba(0,0,0,0.3);
+    --shadow-md: 0 4px 6px rgba(0,0,0,0.4);
+  }
+
+  body { background: var(--bg); color: var(--text-primary); }
+
+  a { color: var(--accent); }
+
+  /* Header — keep dark but lighten accent slightly */
+  .header { background: #1E3A5F; }
+
+  /* Nav */
+  .nav { background: var(--card); border-bottom-color: var(--border); }
+
+  /* Disclaimer */
+  .disclaimer { background: #3A2E10; border-color: #5C4A1E; color: #FBBF24; }
+
+  /* Accordion */
+  .accordion-trigger:hover { background: #283548; }
+
+  /* Clause link hover */
+  .clause-link:hover { background: #283548; }
+
+  /* Markers */
+  .marker-S { background: #3B1C1C; color: var(--red); }
+  .marker-G { background: #3A2510; color: var(--amber); }
+
+  /* Verbatim block */
+  .verbatim-block { background: #1A2332; }
+  .translation-block { background: var(--accent-light); }
+  .translation-block strong { color: var(--accent); }
+
+  /* Tables */
+  .data-table tr:hover td { background: #283548; }
+
+  /* Evidence */
+  .auditor-focus { background: #3A2E10; border-left-color: var(--amber); color: #FBBF24; }
+  .auditor-focus strong { color: #FBBF24; }
+  .ev-list.good li::before { background: var(--green); }
+  .ev-list.gap li::before { background: var(--red); }
+  .audit-tips { background: #1A2332; }
+
+  /* Badges */
+  .badge-domain { background: #1E3A5F; color: var(--accent); }
+  .badge-type { background: #1A3326; color: var(--green); }
+  .badge-layer { background: #2E2750; color: var(--purple); }
+  .badge-category { background: #1E3A5F; color: var(--accent); }
+  .badge-owner { background: #1A3326; color: var(--green); }
+  .badge-frequency { background: #2E2750; color: var(--purple); }
+  .badge-mandatory { background: #3B1C1C; color: var(--red); }
+  .badge-ai { background: #1E2D4A; color: #93C5FD; }
+  .badge-example { background: #1A3326; color: #6EE7B7; }
+
+  /* Risk register hover */
+  .risk-register-table tbody tr:hover td { background: #1E3A5F !important; }
+
+  /* Risk filter buttons */
+  .risk-filter-btn { background: var(--card); border-color: var(--border); color: var(--text-secondary); }
+  .risk-filter-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .risk-filter-btn.active { background: var(--accent); color: #111827; }
+
+  /* Risk matrix — keep cell colors vivid */
+  .risk-matrix-corner { background: #1A2332; }
+  .risk-matrix-header { background: #1A2332; }
+  .risk-matrix-row-label { background: #1A2332; }
+
+  /* Evidence good/gap in dark mode */
+  .evidence-good li { color: var(--green); }
+  .evidence-gap li { color: var(--red); }
+
+  /* Audit package */
+  .audit-package { background: #1A2332; border-top-color: var(--accent); }
+
+  /* Maturity cards */
+  .maturity-basic h5 { color: var(--amber); }
+  .maturity-mature h5 { color: var(--accent); }
+  .maturity-advanced h5 { color: var(--green); }
+
+  /* Checklist */
+  .checklist-checkbox { accent-color: var(--accent); }
+
+  /* Treatment cards */
+  .treatment-card { background: var(--card); }
+}
+
 /* ===== AUDIT PACKAGE ===== */
 .audit-package { margin-top: 1.5rem; border-top: 3px solid var(--accent); background: #F8FAFF; border-radius: var(--radius); padding: 1.25rem; }
 .audit-package-title { font-size: 0.6875rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); margin-bottom: 0.25rem; }
