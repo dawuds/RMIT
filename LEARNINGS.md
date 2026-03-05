@@ -131,7 +131,7 @@ The Audit Package data layer is **complete** in this repo. UI rendering is not y
 - `evidence/index.json`: 487 evidence items across 121 clauses with `artifactSlugs[]` added (median 2, max 2 per item). All 487 items have at least 1 artifact slug. Distribution: 45x1, 442x2.
 - `controls/library.json`: 93 controls across 15 domains — structure ready
 - `controls/clause-map.json`: Bidirectional clause-control mapping exists and is intact
-- `app.js`: No Audit Package rendering code yet
+- `app.js`: Audit Package UI implemented in `renderControlDetail()` with accordion-based artifact cards and evidence checklist
 
 **All cross-references are valid** — every `controlSlugs[]` entry references a valid control slug, every `artifactSlugs[]` entry references a valid artifact slug. No broken links detected.
 
