@@ -555,6 +555,25 @@ a:hover { text-decoration: underline; }
 
   /* Treatment cards */
   .treatment-card { background: var(--card); }
+
+  /* Templates */
+  .template-disclaimer { background: #3A2E10; border-color: #5C4A1E; border-left-color: var(--amber); color: #FBBF24; }
+  .template-disclaimer strong { color: #FDE68A; }
+  .template-search input { background: var(--card); border-color: var(--border); color: var(--text-primary); }
+  .template-search input::placeholder { color: var(--text-muted); }
+  .template-search input:focus { border-color: var(--accent); }
+  .template-filter-btn { background: var(--card); border-color: var(--border); color: var(--text-secondary); }
+  .template-filter-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .template-filter-btn.active { background: var(--accent); color: #111827; }
+  .template-table th { background: var(--card); }
+  .template-table tr:hover td { background: #283548; }
+  .template-category-badge.cat-evidence { background: #1E2D4A; color: #93C5FD; }
+  .template-category-badge.cat-governance { background: #2E2750; color: #C4B5FD; }
+  .template-category-badge.cat-logs { background: #153038; color: #67E8F9; }
+  .template-category-badge.cat-policies { background: #3B1C1C; color: #FCA5A5; }
+  .template-category-badge.cat-procedures { background: #3A2E10; color: #FDE68A; }
+  .template-category-badge.cat-reports { background: #1A3326; color: #86EFAC; }
+  .template-ai-note { background: #3A2E10; border-color: #5C4A1E; color: #FBBF24; }
 }
 
 /* ===== AUDIT PACKAGE ===== */
