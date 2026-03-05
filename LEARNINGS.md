@@ -123,9 +123,21 @@ Section-based joins (via provision maps) explode on broad provisions. In the PDP
 - **Evidence sub-accordions collapsed by default:** "What Good Looks Like" and "Common Gaps" are verbose — show on demand.
 - **Checkbox-styled artifact contents:** Makes artifact cards feel like an auditor's checklist.
 
+### Current State (RMIT)
+
+The Audit Package pattern is **documented but not yet implemented** in this repo:
+
+- `artifacts/inventory.json`: 365 artifacts exist but use `clauses[]` join — **`controlSlugs[]` not yet added**
+- `evidence/index.json`: 121 clause-level evidence entries — **`artifactSlugs[]` not yet added**
+- `controls/library.json`: 93 controls across 15 domains — structure ready
+- `controls/clause-map.json`: Bidirectional clause-control mapping exists and is intact
+- `app.js`: No Audit Package rendering code yet
+
+**All existing cross-references are valid** — no broken links detected.
+
 ### Reference Implementation
 
-See `dawuds/pdpa-my` repo — `app.js` lines 664-870 (`renderControlDetail()`) and `style.css` Audit Package section. Pattern is designed for copy-adapt across all compliance repos.
+See `dawuds/pdpa-my` repo — `app.js` `renderControlDetail()` and `style.css` Audit Package section. Pattern is designed for copy-adapt across all compliance repos.
 
 ---
 
