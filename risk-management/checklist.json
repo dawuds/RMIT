@@ -1,0 +1,52 @@
+{
+  "sourceType": "constructed-indicative",
+  "title": "Technology Risk Assessment Checklist",
+  "description": "Step-by-step checklist for conducting technology risk assessments under BNM RMiT",
+  "phases": [
+    {
+      "phase": "Preparation",
+      "items": [
+        { "id": "C-01", "item": "Confirm scope of assessment (systems, processes, business units)", "rmitRef": "S9.1" },
+        { "id": "C-02", "item": "Review previous risk assessment findings and open items", "rmitRef": "S9.2" },
+        { "id": "C-03", "item": "Identify assessment team and assign roles", "rmitRef": "S9.3" },
+        { "id": "C-04", "item": "Gather current IT asset inventory and system architecture diagrams", "rmitRef": "S11.1" }
+      ]
+    },
+    {
+      "phase": "Risk Identification",
+      "items": [
+        { "id": "C-05", "item": "Identify threat sources (external, internal, environmental)", "rmitRef": "S10.1" },
+        { "id": "C-06", "item": "Map vulnerabilities in current technology environment", "rmitRef": "S10.2" },
+        { "id": "C-07", "item": "Review recent incidents, near-misses, and audit findings", "rmitRef": "S10.3" },
+        { "id": "C-08", "item": "Assess third-party and outsourcing risks", "rmitRef": "S13.1" },
+        { "id": "C-09", "item": "Evaluate emerging technology risks (cloud, AI/ML, APIs)", "rmitRef": "S14.1" }
+      ]
+    },
+    {
+      "phase": "Risk Analysis",
+      "items": [
+        { "id": "C-10", "item": "Score each risk using likelihood x impact matrix", "rmitRef": "S9.4" },
+        { "id": "C-11", "item": "Determine inherent risk before controls", "rmitRef": "S9.4" },
+        { "id": "C-12", "item": "Evaluate effectiveness of existing controls", "rmitRef": "S9.5" },
+        { "id": "C-13", "item": "Calculate residual risk after controls", "rmitRef": "S9.5" }
+      ]
+    },
+    {
+      "phase": "Risk Treatment",
+      "items": [
+        { "id": "C-14", "item": "Select treatment option for each risk above appetite", "rmitRef": "S9.6" },
+        { "id": "C-15", "item": "Develop treatment plans with timelines and owners", "rmitRef": "S9.6" },
+        { "id": "C-16", "item": "Obtain CTRO/Board approval for risk acceptances", "rmitRef": "S9.7" }
+      ]
+    },
+    {
+      "phase": "Reporting & Monitoring",
+      "items": [
+        { "id": "C-17", "item": "Document findings in technology risk register", "rmitRef": "S9.8" },
+        { "id": "C-18", "item": "Report to Board Risk Committee", "rmitRef": "S8.1" },
+        { "id": "C-19", "item": "Schedule quarterly risk review", "rmitRef": "S9.9" },
+        { "id": "C-20", "item": "Update BNM if material risk changes occur", "rmitRef": "S9.10" }
+      ]
+    }
+  ]
+}

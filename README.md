@@ -47,6 +47,13 @@ controls/                                  # Layer 5: Common controls (93 contro
   library.json                             # All controls grouped by domain
   domains.json                             # 15 domain definitions
   clause-map.json                          # Bidirectional clause ↔ control mappings
+
+risk-management/                           # Layer 6: Risk Management (indicative)
+  methodology.json                         # Risk assessment methodology and scoring scales
+  risk-matrix.json                         # 5x5 likelihood x impact risk matrix
+  risk-register.json                       # 20 technology risks with scores, controls, treatments
+  checklist.json                           # 20-item risk assessment checklist by phase
+  treatment-options.json                   # 4 risk treatment strategies with examples
 ```
 
 ## Clause Schema
@@ -321,15 +328,55 @@ for clause in mandatory[:3]:
         print(f"    - {ctrl['name']} ({ctrl['type']}/{ctrl['layer']})")
 ```
 
+## Risk Management
+
+An indicative technology risk management framework aligned to BNM RMiT, providing a structured approach to identifying, assessing, and treating technology risks in Malaysian financial institutions.
+
+**All content in this section is AI-generated and indicative.** Organizations must adapt risk scores, controls, and treatment plans to their specific environment, risk appetite, and board-approved frameworks.
+
+### Contents
+
+| File | Description |
+|------|-------------|
+| `risk-management/methodology.json` | Risk assessment methodology with 5-level likelihood and impact scales, risk rating bands (Low/Medium/High/Critical), and review cycle guidance |
+| `risk-management/risk-matrix.json` | 5x5 scoring matrix mapping likelihood x impact to risk scores (1-25) |
+| `risk-management/risk-register.json` | 20 technology risks specific to Malaysian FIs — ransomware, core banking outage, cloud concentration, third-party vendor failure, insider threat, data breach, change management failure, API security, mobile banking fraud, IT obsolescence, DDoS, unauthorized access, backup failure, regulatory non-compliance, supply chain compromise, AI/ML model risk, crypto key compromise, shadow IT, social engineering, payment system fraud |
+| `risk-management/checklist.json` | 20-item risk assessment checklist across 5 phases (Preparation, Risk Identification, Risk Analysis, Risk Treatment, Reporting & Monitoring) with RMiT cross-references |
+| `risk-management/treatment-options.json` | 4 standard treatment strategies (Mitigate, Transfer, Accept, Avoid) with RMiT-specific examples and alignment notes |
+
+### Risk Register Schema
+
+Each risk in `risk-register.json`:
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `id` | string | Risk identifier (e.g. `"TR-001"`) |
+| `title` | string | Short risk name |
+| `description` | string | 1-2 sentence risk description |
+| `category` | string | Risk category (Cybersecurity, Operations, Outsourcing, Data, Change Management, Compliance, Emerging Technology) |
+| `rmitSection` | string | Relevant RMiT section reference |
+| `likelihood` | number | Inherent likelihood score (1-5) |
+| `impact` | number | Inherent impact score (1-5) |
+| `inherentRisk` | number | Likelihood x Impact before controls |
+| `existingControls` | string[] | 2-3 existing control descriptions |
+| `residualLikelihood` | number | Likelihood after controls (1-5) |
+| `residualImpact` | number | Impact after controls (1-5) |
+| `residualRisk` | number | Residual likelihood x residual impact |
+| `treatment` | string | Treatment strategy (mitigate, accept, transfer, avoid) |
+| `treatmentPlan` | string | Brief treatment plan description |
+| `owner` | string | Responsible role title |
+| `reviewDate` | string | Next review date (e.g. `"2026-Q2"`) |
+
 ## Statistics
 
 | Layer | Count | Description |
 |-------|-------|-------------|
-| Clauses | 121 | Across 11 sections (S8–S18) |
+| Clauses | 121 | Across 11 sections (S8-S18) |
 | Requirements | 121 | Business, technology, and governance breakdowns per clause |
 | Evidence | 121 | Auditor focus, evidence items, audit tips per clause (726 individual evidence items total) |
 | Artifacts | 365 | Across 6 categories (policies, procedures, governance, evidence, reports, logs) |
 | Controls | 93 | Across 15 domains with NIST CSF 2.0 + ISO 27001:2022 mappings |
+| Risk Management | 20 | Technology risks with methodology, 5x5 matrix, checklist, and treatment options |
 
 ## AI-Generated Content — Important Disclaimer
 

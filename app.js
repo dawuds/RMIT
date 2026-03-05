@@ -9,6 +9,7 @@ const state = {
   evidence: null,
   controls: null,     // { domains, library, clauseMap }
   artifacts: null,    // { inventory, clauseMap }
+  riskMgmt: null,     // { methodology, matrix, register, checklist, treatment }
   route: { view: 'overview' },
 };
 
@@ -30,6 +31,7 @@ function parseHash() {
   if (hash.startsWith('search/')) return { view: 'search', query: decodeURIComponent(hash.slice(7)) };
   if (hash === 'controls') return { view: 'controls-browser' };
   if (hash.startsWith('control/')) return { view: 'control-detail', slug: hash.slice(8) };
+  if (hash === 'risk-management') return { view: 'risk-management' };
   if (hash.includes('.')) return { view: 'clause', id: hash };
   return { view: 'section', id: hash };
 }
@@ -599,13 +601,352 @@ function renderControlDetail(slug) {
     ${auditPackageHTML}`;
 }
 
+// ---- View: Risk Management ----
+function getRiskBand(score) {
+  if (score >= 16) return { label: 'Critical', color: '#ef4444', bg: '#FEF2F2' };
+  if (score >= 10) return { label: 'High', color: '#f97316', bg: '#FFF7ED' };
+  if (score >= 5)  return { label: 'Medium', color: '#f59e0b', bg: '#FFFBEB' };
+  return { label: 'Low', color: '#22c55e', bg: '#F0FDF4' };
+}
+
+function getMatrixCellColor(score) {
+  const band = getRiskBand(score);
+  return band.color;
+}
+
+function renderRiskManagement() {
+  const { methodology, matrix, register, checklist, treatment } = state.riskMgmt;
+  const tabs = ['Methodology', 'Risk Register', 'Checklist', 'Treatment Options'];
+
+  // Count risks by band
+  const riskCounts = { Critical: 0, High: 0, Medium: 0, Low: 0 };
+  for (const r of register.risks) {
+    riskCounts[getRiskBand(r.inherentRisk).label]++;
+  }
+  const residualCounts = { Critical: 0, High: 0, Medium: 0, Low: 0 };
+  for (const r of register.risks) {
+    residualCounts[getRiskBand(r.residualRisk).label]++;
+  }
+
+  return `
+    ${renderBreadcrumbs([{ label: 'Home', hash: '' }, { label: 'Risk Management' }])}
+    <h2 style="font-size:1.25rem;margin-bottom:0.5rem">Technology Risk Management</h2>
+    <p style="font-size:0.875rem;color:var(--text-secondary);margin-bottom:0.5rem">
+      Risk assessment framework and register for Malaysian financial institutions under BNM RMiT.
+    </p>
+    <div class="disclaimer">
+      This section contains AI-generated indicative content aligned to BNM RMiT requirements. Risk scores, controls, and treatment plans are illustrative and must be adapted to each organization's specific risk appetite, threat landscape, and board-approved frameworks. Always consult qualified risk and regulatory professionals.
+    </div>
+    <div class="stats-banner">
+      <div class="stat"><div class="stat-value">${register.risks.length}</div><div class="stat-label">Risks</div></div>
+      <div class="stat"><div class="stat-value" style="color:#ef4444">${riskCounts.Critical}</div><div class="stat-label">Critical (Inherent)</div></div>
+      <div class="stat"><div class="stat-value" style="color:#f97316">${riskCounts.High}</div><div class="stat-label">High (Inherent)</div></div>
+      <div class="stat"><div class="stat-value" style="color:#f59e0b">${riskCounts.Medium}</div><div class="stat-label">Medium (Inherent)</div></div>
+      <div class="stat"><div class="stat-value" style="color:#22c55e">${riskCounts.Low}</div><div class="stat-label">Low (Inherent)</div></div>
+    </div>
+    <div class="tabs">
+      <div class="tab-list" role="tablist">
+        ${tabs.map((t, i) => `<button class="tab-btn${i === 0 ? ' active' : ''}" data-rmtab="${t.toLowerCase().replace(/ /g, '-')}" role="tab">${t}</button>`).join('')}
+      </div>
+      <div class="tab-panel active" data-rmpanel="methodology">${renderMethodologyTab(methodology, matrix)}</div>
+      <div class="tab-panel" data-rmpanel="risk-register">${renderRiskRegisterTab(register)}</div>
+      <div class="tab-panel" data-rmpanel="checklist">${renderChecklistTab(checklist)}</div>
+      <div class="tab-panel" data-rmpanel="treatment-options">${renderTreatmentOptionsTab(treatment)}</div>
+    </div>`;
+}
+
+function renderMethodologyTab(methodology, matrix) {
+  const { scales, riskRating } = methodology;
+
+  // Build 5x5 matrix HTML
+  const yLabels = matrix.axes.y.values;
+  const xLabels = matrix.axes.x.values;
+  const matrixData = matrix.matrix;
+
+  let matrixHtml = `
+    <h3 style="font-size:1rem;margin-bottom:0.75rem">Risk Assessment Methodology</h3>
+    <p style="font-size:0.875rem;color:var(--text-secondary);margin-bottom:0.5rem">${escHtml(methodology.description)}</p>
+    <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:1.5rem">
+      <span class="badge badge-domain">Framework: ${escHtml(methodology.framework)}</span>
+      <span class="badge badge-type">Approach: ${escHtml(methodology.approach)}</span>
+      <span class="badge badge-layer">Review: ${escHtml(methodology.reviewCycle)}</span>
+    </div>
+
+    <h4 style="font-size:0.9375rem;margin-bottom:0.75rem">5 x 5 Risk Matrix</h4>
+    <div style="overflow-x:auto;margin-bottom:1.5rem">
+      <table class="risk-matrix-table">
+        <thead>
+          <tr>
+            <th class="risk-matrix-corner">${escHtml(matrix.axes.y.label)} \\ ${escHtml(matrix.axes.x.label)}</th>
+            ${xLabels.map(l => `<th class="risk-matrix-header">${escHtml(l)}</th>`).join('')}
+          </tr>
+        </thead>
+        <tbody>
+          ${matrixData.map((row, yi) => `
+            <tr>
+              <td class="risk-matrix-row-label">${escHtml(yLabels[yi])}</td>
+              ${row.map(score => {
+                const band = getRiskBand(score);
+                return `<td class="risk-matrix-cell" style="background:${band.bg};color:${band.color};font-weight:700;border:2px solid ${band.color}22">${score}<div class="risk-matrix-cell-label">${band.label}</div></td>`;
+              }).join('')}
+            </tr>`).join('')}
+        </tbody>
+      </table>
+    </div>
+
+    <div style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-bottom:2rem">
+      ${riskRating.bands.map(b => `
+        <div style="display:flex;align-items:center;gap:0.375rem;font-size:0.8125rem">
+          <span style="width:12px;height:12px;border-radius:3px;background:${b.color};display:inline-block"></span>
+          <strong>${escHtml(b.label)}</strong> (${b.range[0]}-${b.range[1]}):
+          <span style="color:var(--text-secondary)">${escHtml(b.action)}</span>
+        </div>`).join('')}
+    </div>`;
+
+  // Likelihood scale
+  matrixHtml += `
+    <div class="accordion">
+      <div class="accordion-item">
+        <button class="accordion-trigger" data-accordion>
+          <span class="accordion-trigger-left"><span>Likelihood Scale</span></span>
+          <span class="chevron">\u25B6</span>
+        </button>
+        <div class="accordion-content">
+          <div style="overflow-x:auto">
+            <table class="data-table">
+              <thead><tr><th>Score</th><th>Label</th><th>Description</th><th>Frequency</th></tr></thead>
+              <tbody>
+                ${scales.likelihood.levels.map(l => `
+                  <tr>
+                    <td style="font-weight:700;text-align:center">${l.score}</td>
+                    <td style="font-weight:600">${escHtml(l.label)}</td>
+                    <td>${escHtml(l.description)}</td>
+                    <td style="white-space:nowrap;font-size:0.8125rem">${escHtml(l.frequency)}</td>
+                  </tr>`).join('')}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-trigger" data-accordion>
+          <span class="accordion-trigger-left"><span>Impact Scale</span></span>
+          <span class="chevron">\u25B6</span>
+        </button>
+        <div class="accordion-content">
+          <div style="overflow-x:auto">
+            <table class="data-table">
+              <thead><tr><th>Score</th><th>Label</th><th>Description</th><th>Examples</th></tr></thead>
+              <tbody>
+                ${scales.impact.levels.map(l => `
+                  <tr>
+                    <td style="font-weight:700;text-align:center">${l.score}</td>
+                    <td style="font-weight:600">${escHtml(l.label)}</td>
+                    <td>${escHtml(l.description)}</td>
+                    <td style="font-size:0.8125rem">${l.examples.map(e => escHtml(e)).join(', ')}</td>
+                  </tr>`).join('')}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>`;
+
+  return matrixHtml;
+}
+
+function renderRiskRegisterTab(register) {
+  const risks = register.risks;
+  const categories = [...new Set(risks.map(r => r.category))];
+
+  return `
+    <h3 style="font-size:1rem;margin-bottom:0.5rem">Technology Risk Register <span class="badge badge-ai" title="AI-generated indicative risk register">AI Generated</span></h3>
+    <p style="font-size:0.8125rem;color:var(--text-secondary);margin-bottom:1rem">${escHtml(register.description)}. ${risks.length} risks across ${categories.length} categories.</p>
+    <div class="risk-register-filters" style="display:flex;gap:0.5rem;flex-wrap:wrap;margin-bottom:1rem">
+      <button class="risk-filter-btn active" data-risk-filter="all">All (${risks.length})</button>
+      ${categories.map(cat => {
+        const count = risks.filter(r => r.category === cat).length;
+        return `<button class="risk-filter-btn" data-risk-filter="${escHtml(cat)}">${escHtml(cat)} (${count})</button>`;
+      }).join('')}
+    </div>
+    <div style="overflow-x:auto">
+      <table class="data-table risk-register-table">
+        <thead>
+          <tr>
+            <th data-sort="id" class="sortable" style="cursor:pointer">ID</th>
+            <th data-sort="title" class="sortable" style="cursor:pointer">Risk</th>
+            <th data-sort="category" class="sortable" style="cursor:pointer">Category</th>
+            <th>RMiT</th>
+            <th data-sort="inherentRisk" class="sortable" style="cursor:pointer">Inherent</th>
+            <th data-sort="residualRisk" class="sortable" style="cursor:pointer">Residual</th>
+            <th>Treatment</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${risks.map(r => {
+            const iBand = getRiskBand(r.inherentRisk);
+            const rBand = getRiskBand(r.residualRisk);
+            return `
+              <tr class="risk-row" data-category="${escHtml(r.category)}" data-risk-id="${escHtml(r.id)}">
+                <td class="mono" style="white-space:nowrap;font-weight:600">${escHtml(r.id)}</td>
+                <td>
+                  <div style="font-weight:500">${escHtml(r.title)}</div>
+                  <div style="font-size:0.75rem;color:var(--text-muted);margin-top:0.125rem">${escHtml(r.description)}</div>
+                </td>
+                <td><span class="badge badge-domain">${escHtml(r.category)}</span></td>
+                <td style="font-size:0.75rem;white-space:nowrap">${escHtml(r.rmitSection)}</td>
+                <td>
+                  <span class="risk-score-badge" style="background:${iBand.bg};color:${iBand.color};border:1px solid ${iBand.color}33">
+                    ${r.inherentRisk} ${iBand.label}
+                  </span>
+                </td>
+                <td>
+                  <span class="risk-score-badge" style="background:${rBand.bg};color:${rBand.color};border:1px solid ${rBand.color}33">
+                    ${r.residualRisk} ${rBand.label}
+                  </span>
+                </td>
+                <td><span class="badge badge-type" style="text-transform:capitalize">${escHtml(r.treatment)}</span></td>
+              </tr>`;
+          }).join('')}
+        </tbody>
+      </table>
+    </div>
+    <div id="risk-detail-panel" class="risk-detail-panel" style="display:none"></div>`;
+}
+
+function renderRiskDetailPanel(riskId) {
+  const r = state.riskMgmt.register.risks.find(r => r.id === riskId);
+  if (!r) return '';
+  const iBand = getRiskBand(r.inherentRisk);
+  const rBand = getRiskBand(r.residualRisk);
+
+  return `
+    <div class="risk-detail-card">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.75rem">
+        <h4 style="font-size:1rem">
+          <span class="mono" style="color:var(--accent)">${escHtml(r.id)}</span>
+          ${escHtml(r.title)}
+        </h4>
+        <button class="risk-detail-close" data-close-risk style="background:none;border:1px solid var(--border);border-radius:4px;padding:0.25rem 0.5rem;cursor:pointer;font-size:0.75rem;color:var(--text-muted)">Close</button>
+      </div>
+      <p style="font-size:0.8125rem;color:var(--text-secondary);margin-bottom:1rem">${escHtml(r.description)}</p>
+      <div style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-bottom:1rem">
+        <span class="badge badge-domain">${escHtml(r.category)}</span>
+        <span class="badge badge-layer">${escHtml(r.rmitSection)}</span>
+        <span class="badge badge-owner">Owner: ${escHtml(r.owner)}</span>
+        <span class="badge badge-frequency">Review: ${escHtml(r.reviewDate)}</span>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1rem">
+        <div style="background:${iBand.bg};border:1px solid ${iBand.color}33;border-radius:var(--radius);padding:1rem">
+          <div style="font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:${iBand.color};margin-bottom:0.375rem">Inherent Risk</div>
+          <div style="font-size:1.5rem;font-weight:700;color:${iBand.color}">${r.inherentRisk} <span style="font-size:0.875rem">${iBand.label}</span></div>
+          <div style="font-size:0.75rem;color:var(--text-muted);margin-top:0.25rem">Likelihood ${r.likelihood} x Impact ${r.impact}</div>
+        </div>
+        <div style="background:${rBand.bg};border:1px solid ${rBand.color}33;border-radius:var(--radius);padding:1rem">
+          <div style="font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:${rBand.color};margin-bottom:0.375rem">Residual Risk</div>
+          <div style="font-size:1.5rem;font-weight:700;color:${rBand.color}">${r.residualRisk} <span style="font-size:0.875rem">${rBand.label}</span></div>
+          <div style="font-size:0.75rem;color:var(--text-muted);margin-top:0.25rem">Likelihood ${r.residualLikelihood} x Impact ${r.residualImpact}</div>
+        </div>
+      </div>
+      <div style="margin-bottom:1rem">
+        <h5 style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.05em;color:var(--text-muted);margin-bottom:0.375rem">Existing Controls</h5>
+        <ul style="list-style:disc;padding-left:1.25rem">
+          ${r.existingControls.map(c => `<li style="font-size:0.8125rem;color:var(--text-secondary);padding:0.125rem 0">${escHtml(c)}</li>`).join('')}
+        </ul>
+      </div>
+      <div style="background:var(--bg);border-radius:var(--radius);padding:1rem">
+        <h5 style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.05em;color:var(--text-muted);margin-bottom:0.375rem">
+          Treatment Plan
+          <span class="badge badge-type" style="text-transform:capitalize;margin-left:0.5rem">${escHtml(r.treatment)}</span>
+        </h5>
+        <p style="font-size:0.8125rem;color:var(--text-secondary)">${escHtml(r.treatmentPlan)}</p>
+      </div>
+    </div>`;
+}
+
+function renderChecklistTab(checklist) {
+  return `
+    <h3 style="font-size:1rem;margin-bottom:0.5rem">${escHtml(checklist.title)} <span class="badge badge-ai" title="AI-generated indicative checklist">AI Generated</span></h3>
+    <p style="font-size:0.8125rem;color:var(--text-secondary);margin-bottom:1rem">${escHtml(checklist.description)}</p>
+    <div class="checklist-progress" style="margin-bottom:1.5rem">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.375rem">
+        <span style="font-size:0.8125rem;font-weight:600;color:var(--text-secondary)">Progress</span>
+        <span class="checklist-progress-text" style="font-size:0.8125rem;color:var(--text-muted)">0 / ${checklist.phases.reduce((s, p) => s + p.items.length, 0)} completed</span>
+      </div>
+      <div style="height:6px;background:var(--border);border-radius:3px;overflow:hidden">
+        <div class="checklist-progress-bar" style="height:100%;background:var(--accent);border-radius:3px;width:0%;transition:width 0.3s"></div>
+      </div>
+    </div>
+    <div class="accordion">
+      ${checklist.phases.map(phase => `
+        <div class="accordion-item open">
+          <button class="accordion-trigger" data-accordion>
+            <span class="accordion-trigger-left">
+              <span>${escHtml(phase.phase)}</span>
+              <span style="color:var(--text-muted);font-weight:400;font-size:0.8125rem">(${phase.items.length} items)</span>
+            </span>
+            <span class="chevron">\u25B6</span>
+          </button>
+          <div class="accordion-content">
+            ${phase.items.map(item => `
+              <label class="checklist-item" style="display:flex;align-items:flex-start;gap:0.75rem;padding:0.625rem 0;border-bottom:1px solid var(--border);cursor:pointer">
+                <input type="checkbox" class="checklist-checkbox" data-checklist-id="${escHtml(item.id)}" style="margin-top:0.25rem;width:16px;height:16px;flex-shrink:0;accent-color:var(--accent);cursor:pointer">
+                <div style="flex:1">
+                  <div style="display:flex;align-items:baseline;gap:0.5rem;flex-wrap:wrap">
+                    <span class="mono" style="font-size:0.75rem;color:var(--accent);font-weight:600">${escHtml(item.id)}</span>
+                    <span style="font-size:0.875rem;color:var(--text-primary)">${escHtml(item.item)}</span>
+                  </div>
+                  <div style="font-size:0.75rem;color:var(--text-muted);margin-top:0.125rem">RMiT Ref: ${escHtml(item.rmitRef)}</div>
+                </div>
+              </label>`).join('')}
+          </div>
+        </div>`).join('')}
+    </div>`;
+}
+
+function renderTreatmentOptionsTab(treatment) {
+  const strategyColors = {
+    'Mitigate': { bg: '#EFF6FF', border: '#2563EB', text: '#1E40AF' },
+    'Transfer': { bg: '#F5F3FF', border: '#7C3AED', text: '#5B21B6' },
+    'Accept': { bg: '#FFFBEB', border: '#D97706', text: '#92400E' },
+    'Avoid': { bg: '#FEF2F2', border: '#DC2626', text: '#991B1B' },
+  };
+
+  return `
+    <h3 style="font-size:1rem;margin-bottom:0.5rem">${escHtml(treatment.title)}</h3>
+    <p style="font-size:0.8125rem;color:var(--text-secondary);margin-bottom:1.5rem">${escHtml(treatment.description)}</p>
+    <div class="treatment-grid">
+      ${treatment.options.map(opt => {
+        const colors = strategyColors[opt.strategy] || { bg: 'var(--bg)', border: 'var(--border)', text: 'var(--text-primary)' };
+        return `
+          <div class="treatment-card" style="background:${colors.bg};border:1px solid ${colors.border}33;border-left:4px solid ${colors.border}">
+            <h4 style="color:${colors.text};font-size:1rem;margin-bottom:0.375rem">${escHtml(opt.strategy)}</h4>
+            <p style="font-size:0.8125rem;color:var(--text-secondary);margin-bottom:0.75rem">${escHtml(opt.description)}</p>
+            <div style="font-size:0.75rem;color:var(--text-muted);margin-bottom:0.75rem;padding:0.5rem;background:rgba(255,255,255,0.5);border-radius:4px">
+              <strong>When to use:</strong> ${escHtml(opt.when)}
+            </div>
+            <div style="margin-bottom:0.75rem">
+              <div style="font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:var(--text-muted);margin-bottom:0.25rem">Examples</div>
+              <ul style="list-style:disc;padding-left:1.25rem">
+                ${opt.examples.map(e => `<li style="font-size:0.8125rem;color:var(--text-secondary);padding:0.125rem 0">${escHtml(e)}</li>`).join('')}
+              </ul>
+            </div>
+            <div style="font-size:0.75rem;color:var(--text-muted);padding-top:0.5rem;border-top:1px solid ${colors.border}22">
+              <strong>RMiT Alignment:</strong> ${escHtml(opt.rmitAlignment)}
+            </div>
+          </div>`;
+      }).join('')}
+    </div>`;
+}
+
 function updateNav() {
   document.querySelectorAll('.nav-link').forEach(el => {
     const view = el.dataset.view;
     el.classList.toggle('active', view === state.route.view ||
       (view === 'overview' && state.route.view === 'section') ||
       (view === 'overview' && state.route.view === 'clause') ||
-      (view === 'controls-browser' && state.route.view === 'control-detail')
+      (view === 'controls-browser' && state.route.view === 'control-detail') ||
+      (view === 'risk-management' && state.route.view === 'risk-management')
     );
   });
 }
@@ -668,6 +1009,25 @@ async function render() {
         }
       }
       content = route.view === 'controls-browser' ? renderControlsBrowser() : renderControlDetail(route.slug);
+      break;
+    case 'risk-management':
+      if (!state.riskMgmt) {
+        app.innerHTML = `<div class="main">${renderLoading()}</div>`;
+        try {
+          const [methodology, matrix, register, checklist, treatment] = await Promise.all([
+            fetchJSON('risk-management/methodology.json'),
+            fetchJSON('risk-management/risk-matrix.json'),
+            fetchJSON('risk-management/risk-register.json'),
+            fetchJSON('risk-management/checklist.json'),
+            fetchJSON('risk-management/treatment-options.json'),
+          ]);
+          state.riskMgmt = { methodology, matrix, register, checklist, treatment };
+        } catch (err) {
+          app.innerHTML = `<div class="main"><div class="error-state">Failed to load risk management data: ${escHtml(err.message)}</div></div>`;
+          return;
+        }
+      }
+      content = renderRiskManagement();
       break;
     default: content = renderOverview();
   }
@@ -733,7 +1093,71 @@ function setupEvents() {
     const acc = e.target.closest('[data-accordion]');
     if (acc) { const item = acc.closest('.accordion-item'); if (item) item.classList.toggle('open'); return; }
     const tab = e.target.closest('.tab-btn');
-    if (tab) { activateTab(tab.dataset.tab, state.route.id); return; }
+    if (tab) {
+      if (tab.dataset.rmtab) {
+        // Risk management tabs
+        document.querySelectorAll('[data-rmtab]').forEach(b => b.classList.toggle('active', b.dataset.rmtab === tab.dataset.rmtab));
+        document.querySelectorAll('[data-rmpanel]').forEach(p => p.classList.toggle('active', p.dataset.rmpanel === tab.dataset.rmtab));
+        return;
+      }
+      activateTab(tab.dataset.tab, state.route.id);
+      return;
+    }
+
+    // Risk register row click
+    const riskRow = e.target.closest('.risk-row');
+    if (riskRow) {
+      const riskId = riskRow.dataset.riskId;
+      const panel = document.getElementById('risk-detail-panel');
+      if (panel) {
+        if (panel.style.display === 'block' && panel.dataset.currentRisk === riskId) {
+          panel.style.display = 'none';
+          panel.dataset.currentRisk = '';
+        } else {
+          panel.innerHTML = renderRiskDetailPanel(riskId);
+          panel.style.display = 'block';
+          panel.dataset.currentRisk = riskId;
+          panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+      }
+      return;
+    }
+
+    // Risk detail close button
+    if (e.target.closest('[data-close-risk]')) {
+      const panel = document.getElementById('risk-detail-panel');
+      if (panel) { panel.style.display = 'none'; panel.dataset.currentRisk = ''; }
+      return;
+    }
+
+    // Risk filter buttons
+    const filterBtn = e.target.closest('.risk-filter-btn');
+    if (filterBtn) {
+      const filter = filterBtn.dataset.riskFilter;
+      document.querySelectorAll('.risk-filter-btn').forEach(b => b.classList.toggle('active', b === filterBtn));
+      document.querySelectorAll('.risk-row').forEach(row => {
+        row.style.display = (filter === 'all' || row.dataset.category === filter) ? '' : 'none';
+      });
+      // Close detail panel when filtering
+      const panel = document.getElementById('risk-detail-panel');
+      if (panel) { panel.style.display = 'none'; panel.dataset.currentRisk = ''; }
+      return;
+    }
+  });
+
+  // Checklist checkbox change
+  document.addEventListener('change', (e) => {
+    if (e.target.classList.contains('checklist-checkbox')) {
+      const total = document.querySelectorAll('.checklist-checkbox').length;
+      const checked = document.querySelectorAll('.checklist-checkbox:checked').length;
+      const progressText = document.querySelector('.checklist-progress-text');
+      const progressBar = document.querySelector('.checklist-progress-bar');
+      if (progressText) progressText.textContent = `${checked} / ${total} completed`;
+      if (progressBar) progressBar.style.width = `${total > 0 ? (checked / total) * 100 : 0}%`;
+      // Toggle visual styling on the label
+      const label = e.target.closest('.checklist-item');
+      if (label) label.style.opacity = e.target.checked ? '0.6' : '1';
+    }
   });
 
   let searchTimeout;

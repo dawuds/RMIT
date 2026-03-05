@@ -1,0 +1,39 @@
+{
+  "sourceType": "constructed-indicative",
+  "verificationNote": "AI-generated risk methodology aligned to BNM RMiT requirements. Organizations should adapt to their specific risk appetite and board-approved frameworks.",
+  "title": "Technology Risk Assessment Methodology",
+  "description": "Structured methodology for assessing technology risks in Malaysian financial institutions, aligned to BNM RMiT Policy Document (November 2025).",
+  "framework": "BNM RMiT",
+  "approach": "qualitative-quantitative",
+  "scales": {
+    "likelihood": {
+      "levels": [
+        { "score": 1, "label": "Rare", "description": "May occur only in exceptional circumstances (<1% annual probability)", "frequency": "Less than once in 10 years" },
+        { "score": 2, "label": "Unlikely", "description": "Could occur but not expected (1-10% annual probability)", "frequency": "Once in 5-10 years" },
+        { "score": 3, "label": "Possible", "description": "Might occur at some time (10-50% annual probability)", "frequency": "Once in 2-5 years" },
+        { "score": 4, "label": "Likely", "description": "Will probably occur in most circumstances (50-80% annual probability)", "frequency": "Once or more per year" },
+        { "score": 5, "label": "Almost Certain", "description": "Expected to occur in most circumstances (>80% annual probability)", "frequency": "Multiple times per year" }
+      ]
+    },
+    "impact": {
+      "levels": [
+        { "score": 1, "label": "Insignificant", "description": "Minimal disruption, no regulatory impact, <RM100K financial loss", "examples": ["Minor system slowdown", "Single user affected"] },
+        { "score": 2, "label": "Minor", "description": "Limited disruption, internal escalation only, RM100K-1M financial loss", "examples": ["Partial service degradation", "Department-level impact"] },
+        { "score": 3, "label": "Moderate", "description": "Significant disruption, potential BNM notification, RM1M-10M financial loss", "examples": ["Core system outage <4 hours", "Multiple branches affected"] },
+        { "score": 4, "label": "Major", "description": "Severe disruption, BNM reporting required, RM10M-100M financial loss", "examples": ["Core banking outage >4 hours", "Customer data breach", "Regulatory enforcement"] },
+        { "score": 5, "label": "Critical", "description": "Catastrophic impact, systemic risk, >RM100M financial loss or license threat", "examples": ["Extended nationwide outage", "Mass data breach", "Systemic contagion risk"] }
+      ]
+    }
+  },
+  "riskRating": {
+    "formula": "Likelihood x Impact",
+    "bands": [
+      { "range": [1, 4], "label": "Low", "color": "#22c55e", "action": "Accept and monitor" },
+      { "range": [5, 9], "label": "Medium", "color": "#f59e0b", "action": "Mitigate within 90 days" },
+      { "range": [10, 15], "label": "High", "color": "#f97316", "action": "Mitigate within 30 days, escalate to CTRO" },
+      { "range": [16, 25], "label": "Critical", "color": "#ef4444", "action": "Immediate escalation to Board Risk Committee" }
+    ]
+  },
+  "reviewCycle": "Quarterly, or upon material change in risk profile",
+  "approvalAuthority": "Chief Technology Risk Officer (CTRO) or equivalent"
+}

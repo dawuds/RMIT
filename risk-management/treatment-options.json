@@ -1,0 +1,51 @@
+{
+  "sourceType": "constructed-indicative",
+  "title": "Risk Treatment Options",
+  "description": "Four standard risk treatment strategies with BNM RMiT-specific examples",
+  "options": [
+    {
+      "strategy": "Mitigate",
+      "description": "Implement controls to reduce likelihood or impact to acceptable levels",
+      "when": "Risk is above appetite but can be reduced through controls",
+      "examples": [
+        "Deploy MFA and PAM to reduce unauthorized access risk",
+        "Implement real-time transaction monitoring for fraud detection",
+        "Establish automated patching to address vulnerability window"
+      ],
+      "rmitAlignment": "S10 Cybersecurity Controls, S11 Technology Operations"
+    },
+    {
+      "strategy": "Transfer",
+      "description": "Shift risk to a third party through insurance or outsourcing",
+      "when": "Risk impact is high but likelihood can be financially offset",
+      "examples": [
+        "Cyber insurance for data breach liability",
+        "Outsource DDoS protection to specialized provider",
+        "Cloud provider SLA with financial penalties for downtime"
+      ],
+      "rmitAlignment": "S13 Outsourcing, S15 Internal Audit"
+    },
+    {
+      "strategy": "Accept",
+      "description": "Acknowledge and retain the risk within approved appetite",
+      "when": "Cost of treatment exceeds potential loss, or risk is within appetite",
+      "examples": [
+        "Accept minor UI bugs in non-critical internal tools",
+        "Accept limited legacy system risk with compensating controls and EOL plan",
+        "Accept residual risk of sophisticated nation-state attacks"
+      ],
+      "rmitAlignment": "S9 Technology Risk Management — requires CTRO approval and Board reporting"
+    },
+    {
+      "strategy": "Avoid",
+      "description": "Eliminate the risk by removing the activity or technology",
+      "when": "Risk is unacceptable and no adequate treatment exists",
+      "examples": [
+        "Discontinue use of end-of-life operating systems",
+        "Block unsanctioned cloud services (shadow IT)",
+        "Exit high-risk outsourcing arrangement"
+      ],
+      "rmitAlignment": "S14 Technology Audit, S9 Risk Appetite"
+    }
+  ]
+}

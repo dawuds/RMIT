@@ -1,0 +1,16 @@
+{
+  "sourceType": "constructed-indicative",
+  "title": "Technology Risk Matrix",
+  "description": "5x5 risk scoring matrix for technology risk assessment",
+  "matrix": [
+    [1, 2, 3, 4, 5],
+    [2, 4, 6, 8, 10],
+    [3, 6, 9, 12, 15],
+    [4, 8, 12, 16, 20],
+    [5, 10, 15, 20, 25]
+  ],
+  "axes": {
+    "x": { "label": "Impact", "values": ["Insignificant", "Minor", "Moderate", "Major", "Critical"] },
+    "y": { "label": "Likelihood", "values": ["Rare", "Unlikely", "Possible", "Likely", "Almost Certain"] }
+  }
+}
