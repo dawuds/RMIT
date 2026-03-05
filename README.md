@@ -327,7 +327,7 @@ for clause in mandatory[:3]:
 |-------|-------|-------------|
 | Clauses | 121 | Across 11 sections (S8–S18) |
 | Requirements | 121 | Business, technology, and governance breakdowns per clause |
-| Evidence | 121 | Auditor focus, evidence items, audit tips per clause |
+| Evidence | 121 | Auditor focus, evidence items, audit tips per clause (726 individual evidence items total) |
 | Artifacts | 365 | Across 6 categories (policies, procedures, governance, evidence, reports, logs) |
 | Controls | 93 | Across 15 domains with NIST CSF 2.0 + ISO 27001:2022 mappings |
 

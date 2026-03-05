@@ -125,10 +125,10 @@ Section-based joins (via provision maps) explode on broad provisions. In the PDP
 
 ### Current State (RMIT)
 
-The Audit Package data layer is **complete** in this repo. UI rendering is not yet implemented.
+The Audit Package data layer is **complete** in this repo. UI rendering is implemented in `app.js` `renderControlDetail()`.
 
 - `artifacts/inventory.json`: 365 artifacts with `controlSlugs[]` added (median 2, max 4, mean 2.8 per artifact). All 365 artifacts have at least 1 control slug. Distribution: 15x1, 169x2, 73x3, 108x4.
-- `evidence/index.json`: 487 evidence items across 121 clauses with `artifactSlugs[]` added (median 2, max 2 per item). All 487 items have at least 1 artifact slug. Distribution: 45x1, 442x2.
+- `evidence/index.json`: 726 evidence items across 121 clauses with `artifactSlugs[]` added. All 726 items have at least 1 artifact slug.
 - `controls/library.json`: 93 controls across 15 domains — structure ready
 - `controls/clause-map.json`: Bidirectional clause-control mapping exists and is intact
 - `app.js`: Audit Package UI implemented in `renderControlDetail()` with accordion-based artifact cards and evidence checklist
@@ -136,7 +136,6 @@ The Audit Package data layer is **complete** in this repo. UI rendering is not y
 **All cross-references are valid** — every `controlSlugs[]` entry references a valid control slug, every `artifactSlugs[]` entry references a valid artifact slug. No broken links detected.
 
 **Remaining work:**
-- Audit Package UI rendering in `app.js` (see Reference Implementation section)
 - Evidence and artifact *content* for 112 clauses still describes fabricated verbatim text (base layer is correct, derivative content not yet refreshed)
 
 ### Reference Implementation
