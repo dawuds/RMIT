@@ -20,6 +20,10 @@
         "Access provisioning and deprovisioning workflow",
         "Segregation of duties matrix",
         "Periodic access certification process"
+      ],
+      "controlSlugs": [
+        "access-control-framework",
+        "access-review-and-recertification"
       ]
     },
     {
@@ -42,6 +46,10 @@
         "RPO and RTO definitions per tier",
         "Backup schedule and retention periods",
         "Restoration testing results"
+      ],
+      "controlSlugs": [
+        "backup-management",
+        "disaster-recovery"
       ]
     },
     {
@@ -64,6 +72,10 @@
         "Change classification criteria",
         "CAB review and approval workflow",
         "Emergency change process"
+      ],
+      "controlSlugs": [
+        "change-management",
+        "access-control-framework"
       ]
     },
     {
@@ -86,6 +98,12 @@
         "Cloud service model and deployment type",
         "Data residency requirements",
         "Shared responsibility matrix"
+      ],
+      "controlSlugs": [
+        "cloud-data-residency",
+        "cloud-risk-assessment",
+        "crisis-communication",
+        "vendor-risk-assessment"
       ]
     },
     {
@@ -108,6 +126,11 @@
         "Approved algorithms and key lengths",
         "Key lifecycle management",
         "HSM usage requirements"
+      ],
+      "controlSlugs": [
+        "cryptographic-controls",
+        "key-and-certificate-management",
+        "crisis-communication"
       ]
     },
     {
@@ -130,6 +153,11 @@
         "Exceptions and escalation process",
         "Compliance and enforcement",
         "Review and approval history"
+      ],
+      "controlSlugs": [
+        "multi-factor-authentication",
+        "customer-authentication",
+        "transaction-verification"
       ]
     },
     {
@@ -152,6 +180,11 @@
         "Physical access control zones",
         "Environmental controls (HVAC, fire suppression)",
         "Redundancy and failover design"
+      ],
+      "controlSlugs": [
+        "data-centre-physical-security",
+        "environmental-controls",
+        "network-architecture-and-segmentation"
       ]
     },
     {
@@ -174,6 +207,11 @@
         "Exceptions and escalation process",
         "Compliance and enforcement",
         "Review and approval history"
+      ],
+      "controlSlugs": [
+        "data-loss-prevention",
+        "crisis-communication",
+        "incident-response-plan"
       ]
     },
     {
@@ -196,6 +234,10 @@
         "Network segmentation zones",
         "Firewall rule review schedule",
         "Network architecture diagram"
+      ],
+      "controlSlugs": [
+        "firewall-management",
+        "network-architecture-and-segmentation"
       ]
     },
     {
@@ -218,6 +260,10 @@
         "Exceptions and escalation process",
         "Compliance and enforcement",
         "Review and approval history"
+      ],
+      "controlSlugs": [
+        "multi-factor-authentication",
+        "remote-access-security"
       ]
     },
     {
@@ -240,6 +286,11 @@
         "Exceptions and escalation process",
         "Compliance and enforcement",
         "Review and approval history"
+      ],
+      "controlSlugs": [
+        "password-management",
+        "crisis-communication",
+        "outsourcing-governance"
       ]
     },
     {
@@ -262,6 +313,12 @@
         "Patch criticality classification",
         "Testing and rollback procedures",
         "EOL technology register"
+      ],
+      "controlSlugs": [
+        "patch-management",
+        "technology-risk-assessment",
+        "end-of-life-management",
+        "crisis-communication"
       ]
     },
     {
@@ -284,6 +341,12 @@
         "Exceptions and escalation process",
         "Compliance and enforcement",
         "Review and approval history"
+      ],
+      "controlSlugs": [
+        "privileged-access-management",
+        "crisis-communication",
+        "firewall-management",
+        "outsourcing-governance"
       ]
     },
     {
@@ -306,6 +369,12 @@
         "Exceptions and escalation process",
         "Compliance and enforcement",
         "Review and approval history"
+      ],
+      "controlSlugs": [
+        "remote-access-security",
+        "crisis-communication",
+        "firewall-management",
+        "vendor-risk-assessment"
       ]
     },
     {
@@ -329,6 +398,10 @@
         "Due diligence checklist",
         "SLA and KPI definitions",
         "Exit strategy requirements"
+      ],
+      "controlSlugs": [
+        "third-party-security-assessment",
+        "vendor-risk-assessment"
       ]
     },
     {
@@ -351,6 +424,10 @@
         "Scanning scope and frequency",
         "Severity classification and SLA",
         "Remediation tracking"
+      ],
+      "controlSlugs": [
+        "bug-bounty-and-disclosure",
+        "incident-response-plan"
       ]
     },
     {
@@ -373,6 +450,11 @@
         "Network segmentation zones",
         "Firewall rule review schedule",
         "Network architecture diagram"
+      ],
+      "controlSlugs": [
+        "wireless-security",
+        "network-architecture-and-segmentation",
+        "firewall-management"
       ]
     }
   ],
@@ -397,6 +479,10 @@
         "Tools and systems used",
         "Escalation procedures",
         "Review and update history"
+      ],
+      "controlSlugs": [
+        "access-review-and-recertification",
+        "crisis-communication"
       ]
     },
     {
@@ -419,6 +505,10 @@
         "Exceptions and escalation process",
         "Compliance and enforcement",
         "Review and approval history"
+      ],
+      "controlSlugs": [
+        "api-security",
+        "multi-factor-authentication"
       ]
     },
     {
@@ -443,6 +533,12 @@
         "Finding severity classification",
         "Notification trigger criteria",
         "Notification timeline requirements"
+      ],
+      "controlSlugs": [
+        "regulatory-examination-response",
+        "incident-response-plan",
+        "incident-notification-framework",
+        "annual-technology-risk-reporting"
       ]
     },
     {
@@ -465,6 +561,9 @@
         "Audit universe and risk-based plan",
         "Audit methodology and standards",
         "Finding severity classification"
+      ],
+      "controlSlugs": [
+        "it-audit-program"
       ]
     },
     {
@@ -487,6 +586,9 @@
         "Audit universe and risk-based plan",
         "Audit methodology and standards",
         "Finding severity classification"
+      ],
+      "controlSlugs": [
+        "it-audit-program"
       ]
     },
     {
@@ -509,6 +611,10 @@
         "RPO and RTO definitions per tier",
         "Backup schedule and retention periods",
         "Restoration testing results"
+      ],
+      "controlSlugs": [
+        "backup-management",
+        "disaster-recovery"
       ]
     },
     {
@@ -533,6 +639,10 @@
         "Communication templates",
         "Post-incident review process",
         "Notification trigger criteria"
+      ],
+      "controlSlugs": [
+        "incident-notification-framework",
+        "incident-response-plan"
       ]
     },
     {
@@ -557,6 +667,10 @@
         "Communication templates",
         "Post-incident review process",
         "Notification trigger criteria"
+      ],
+      "controlSlugs": [
+        "incident-response-plan",
+        "crisis-communication"
       ]
     },
     {
@@ -579,6 +693,11 @@
         "Tools and systems used",
         "Escalation procedures",
         "Review and update history"
+      ],
+      "controlSlugs": [
+        "multi-factor-authentication",
+        "privileged-access-management",
+        "crisis-communication"
       ]
     },
     {
@@ -601,6 +720,10 @@
         "Tools and systems used",
         "Escalation procedures",
         "Review and update history"
+      ],
+      "controlSlugs": [
+        "bug-bounty-and-disclosure",
+        "crisis-communication"
       ]
     },
     {
@@ -623,6 +746,12 @@
         "Tools and systems used",
         "Escalation procedures",
         "Review and update history"
+      ],
+      "controlSlugs": [
+        "capacity-and-performance-management",
+        "crisis-communication",
+        "network-monitoring",
+        "service-level-management"
       ]
     },
     {
@@ -645,6 +774,12 @@
         "Channel security architecture",
         "Customer authentication requirements",
         "Session management controls"
+      ],
+      "controlSlugs": [
+        "key-and-certificate-management",
+        "wireless-security",
+        "remote-access-security",
+        "multi-factor-authentication"
       ]
     },
     {
@@ -669,6 +804,11 @@
         "Shared responsibility matrix",
         "Notification trigger criteria",
         "Notification timeline requirements"
+      ],
+      "controlSlugs": [
+        "technology-change-notification",
+        "incident-response-plan",
+        "outsourcing-notification"
       ]
     },
     {
@@ -691,6 +831,10 @@
         "Cloud service model and deployment type",
         "Data residency requirements",
         "Shared responsibility matrix"
+      ],
+      "controlSlugs": [
+        "cloud-portability-and-exit",
+        "cloud-risk-assessment"
       ]
     },
     {
@@ -713,6 +857,11 @@
         "Cloud service model and deployment type",
         "Data residency requirements",
         "Shared responsibility matrix"
+      ],
+      "controlSlugs": [
+        "cloud-risk-assessment",
+        "vendor-risk-assessment",
+        "technology-risk-assessment"
       ]
     },
     {
@@ -735,6 +884,11 @@
         "Cloud service model and deployment type",
         "Data residency requirements",
         "Shared responsibility matrix"
+      ],
+      "controlSlugs": [
+        "cloud-security-controls",
+        "cloud-risk-assessment",
+        "ai-and-ml-governance"
       ]
     },
     {
@@ -757,6 +911,11 @@
         "Tools and systems used",
         "Escalation procedures",
         "Review and update history"
+      ],
+      "controlSlugs": [
+        "secure-development-practices",
+        "it-project-governance",
+        "crisis-communication"
       ]
     },
     {
@@ -779,6 +938,10 @@
         "Tools and systems used",
         "Escalation procedures",
         "Review and update history"
+      ],
+      "controlSlugs": [
+        "configuration-management",
+        "crisis-communication"
       ]
     },
     {
@@ -802,6 +965,10 @@
         "Escalation timelines",
         "Communication templates",
         "Post-incident review process"
+      ],
+      "controlSlugs": [
+        "crisis-communication",
+        "cyber-crisis-management"
       ]
     },
     {
@@ -824,6 +991,10 @@
         "Target completion dates",
         "Resource requirements",
         "Progress tracking mechanism"
+      ],
+      "controlSlugs": [
+        "cyber-crisis-management",
+        "crisis-communication"
       ]
     },
     {
@@ -848,6 +1019,11 @@
         "Periodic access certification process",
         "Physical access control zones",
         "Environmental controls (HVAC, fire suppression)"
+      ],
+      "controlSlugs": [
+        "data-centre-physical-security",
+        "environmental-controls",
+        "access-control-framework"
       ]
     },
     {
@@ -870,6 +1046,12 @@
         "Tools and systems used",
         "Escalation procedures",
         "Review and update history"
+      ],
+      "controlSlugs": [
+        "sdlc-framework",
+        "environment-segregation",
+        "crisis-communication",
+        "privileged-access-management"
       ]
     },
     {
@@ -893,6 +1075,11 @@
         "Due diligence checklist",
         "SLA and KPI definitions",
         "Exit strategy requirements"
+      ],
+      "controlSlugs": [
+        "vendor-exit-strategy",
+        "vendor-risk-assessment",
+        "disaster-recovery"
       ]
     },
     {
@@ -915,6 +1102,12 @@
         "Channel security architecture",
         "Customer authentication requirements",
         "Session management controls"
+      ],
+      "controlSlugs": [
+        "digital-channel-security",
+        "transaction-verification",
+        "multi-factor-authentication",
+        "session-management"
       ]
     },
     {
@@ -937,6 +1130,12 @@
         "Channel security architecture",
         "Customer authentication requirements",
         "Session management controls"
+      ],
+      "controlSlugs": [
+        "customer-authentication",
+        "digital-channel-security",
+        "transaction-verification",
+        "session-management"
       ]
     },
     {
@@ -961,6 +1160,12 @@
         "Restoration testing results",
         "Business impact analysis",
         "Recovery priority tiers"
+      ],
+      "controlSlugs": [
+        "disaster-recovery",
+        "business-impact-analysis",
+        "backup-management",
+        "it-service-continuity"
       ]
     },
     {
@@ -983,6 +1188,12 @@
         "Exceptions and escalation process",
         "Compliance and enforcement",
         "Review and approval history"
+      ],
+      "controlSlugs": [
+        "dns-security",
+        "crisis-communication",
+        "firewall-management",
+        "outsourcing-governance"
       ]
     },
     {
@@ -1007,6 +1218,11 @@
         "Restoration testing results",
         "Business impact analysis",
         "Recovery priority tiers"
+      ],
+      "controlSlugs": [
+        "disaster-recovery",
+        "business-impact-analysis",
+        "backup-management"
       ]
     },
     {
@@ -1029,6 +1245,10 @@
         "Tools and systems used",
         "Escalation procedures",
         "Review and update history"
+      ],
+      "controlSlugs": [
+        "change-management",
+        "crisis-communication"
       ]
     },
     {
@@ -1053,6 +1273,11 @@
         "Implementation roadmap",
         "Monitoring and review mechanisms",
         "Appendices and references"
+      ],
+      "controlSlugs": [
+        "emerging-technology-risk-assessment",
+        "ai-and-ml-governance",
+        "cloud-risk-assessment"
       ]
     },
     {
@@ -1075,6 +1300,10 @@
         "Approved algorithms and key lengths",
         "Key lifecycle management",
         "HSM usage requirements"
+      ],
+      "controlSlugs": [
+        "cryptographic-controls",
+        "crisis-communication"
       ]
     },
     {
@@ -1097,6 +1326,12 @@
         "Security requirements per SDLC phase",
         "Code review and testing gates",
         "Production deployment approval"
+      ],
+      "controlSlugs": [
+        "environment-segregation",
+        "sdlc-framework",
+        "patch-management",
+        "secure-development-practices"
       ]
     },
     {
@@ -1119,6 +1354,10 @@
         "Physical access control zones",
         "Environmental controls (HVAC, fire suppression)",
         "Redundancy and failover design"
+      ],
+      "controlSlugs": [
+        "environmental-controls",
+        "data-centre-physical-security"
       ]
     },
     {
@@ -1141,6 +1380,10 @@
         "Quantitative thresholds and KRIs",
         "Qualitative risk tolerance statements",
         "Breach escalation triggers"
+      ],
+      "controlSlugs": [
+        "risk-monitoring-and-kri",
+        "technology-risk-appetite-framework"
       ]
     },
     {
@@ -1163,6 +1406,10 @@
         "Transaction monitoring rules",
         "Alert triage procedures",
         "Customer notification process"
+      ],
+      "controlSlugs": [
+        "fraud-detection",
+        "transaction-verification"
       ]
     },
     {
@@ -1187,6 +1434,11 @@
         "Communication templates",
         "Post-incident review process",
         "Notification trigger criteria"
+      ],
+      "controlSlugs": [
+        "incident-response-plan",
+        "crisis-communication",
+        "cyber-crisis-management"
       ]
     },
     {
@@ -1211,6 +1463,10 @@
         "Restoration testing results",
         "Incident classification matrix",
         "Escalation timelines"
+      ],
+      "controlSlugs": [
+        "incident-response-plan",
+        "crisis-communication"
       ]
     },
     {
@@ -1233,6 +1489,12 @@
         "Tools and systems used",
         "Escalation procedures",
         "Review and update history"
+      ],
+      "controlSlugs": [
+        "ioc-management",
+        "crisis-communication",
+        "network-monitoring",
+        "endpoint-protection"
       ]
     },
     {
@@ -1255,6 +1517,12 @@
         "Business impact analysis",
         "Recovery priority tiers",
         "Testing schedule and results"
+      ],
+      "controlSlugs": [
+        "it-service-continuity",
+        "disaster-recovery",
+        "business-impact-analysis",
+        "vendor-risk-assessment"
       ]
     },
     {
@@ -1277,6 +1545,10 @@
         "Approved algorithms and key lengths",
         "Key lifecycle management",
         "HSM usage requirements"
+      ],
+      "controlSlugs": [
+        "key-and-certificate-management",
+        "cryptographic-controls"
       ]
     },
     {
@@ -1299,6 +1571,12 @@
         "Channel security architecture",
         "Customer authentication requirements",
         "Session management controls"
+      ],
+      "controlSlugs": [
+        "mobile-application-security",
+        "digital-channel-security",
+        "session-management",
+        "multi-factor-authentication"
       ]
     },
     {
@@ -1321,6 +1599,10 @@
         "Tools and systems used",
         "Escalation procedures",
         "Review and update history"
+      ],
+      "controlSlugs": [
+        "ai-and-ml-governance",
+        "emerging-technology-risk-assessment"
       ]
     },
     {
@@ -1343,6 +1625,10 @@
         "Network segmentation zones",
         "Firewall rule review schedule",
         "Network architecture diagram"
+      ],
+      "controlSlugs": [
+        "network-architecture-and-segmentation",
+        "firewall-management"
       ]
     },
     {
@@ -1365,6 +1651,12 @@
         "Network segmentation zones",
         "Firewall rule review schedule",
         "Network architecture diagram"
+      ],
+      "controlSlugs": [
+        "network-monitoring",
+        "soc-operations",
+        "network-architecture-and-segmentation",
+        "firewall-management"
       ]
     },
     {
@@ -1389,6 +1681,10 @@
         "SLA and KPI definitions",
         "Exit strategy requirements",
         "Notification trigger criteria"
+      ],
+      "controlSlugs": [
+        "outsourcing-notification",
+        "incident-notification-framework"
       ]
     },
     {
@@ -1411,6 +1707,11 @@
         "Patch criticality classification",
         "Testing and rollback procedures",
         "EOL technology register"
+      ],
+      "controlSlugs": [
+        "patch-management",
+        "change-management",
+        "crisis-communication"
       ]
     },
     {
@@ -1433,6 +1734,10 @@
         "Patch criticality classification",
         "Testing and rollback procedures",
         "EOL technology register"
+      ],
+      "controlSlugs": [
+        "patch-management",
+        "sdlc-framework"
       ]
     },
     {
@@ -1455,6 +1760,10 @@
         "Scanning scope and frequency",
         "Severity classification and SLA",
         "Remediation tracking"
+      ],
+      "controlSlugs": [
+        "penetration-testing",
+        "incident-response-plan"
       ]
     },
     {
@@ -1477,6 +1786,10 @@
         "Target audience and completion targets",
         "Assessment methodology and pass criteria",
         "Content update schedule"
+      ],
+      "controlSlugs": [
+        "phishing-simulation",
+        "security-awareness-program"
       ]
     },
     {
@@ -1499,6 +1812,12 @@
         "Tools and systems used",
         "Escalation procedures",
         "Review and update history"
+      ],
+      "controlSlugs": [
+        "technology-risk-assessment",
+        "it-project-governance",
+        "crisis-communication",
+        "vendor-risk-assessment"
       ]
     },
     {
@@ -1521,6 +1840,9 @@
         "Exceptions and escalation process",
         "Compliance and enforcement",
         "Review and approval history"
+      ],
+      "controlSlugs": [
+        "qr-code-and-ewallet-security"
       ]
     },
     {
@@ -1543,6 +1865,12 @@
         "Tools and systems used",
         "Escalation procedures",
         "Review and update history"
+      ],
+      "controlSlugs": [
+        "red-team-exercises",
+        "crisis-communication",
+        "intrusion-detection-and-prevention",
+        "bug-bounty-and-disclosure"
       ]
     },
     {
@@ -1565,6 +1893,11 @@
         "Notification trigger criteria",
         "Notification timeline requirements",
         "BNM LINK submission process"
+      ],
+      "controlSlugs": [
+        "regulatory-examination-response",
+        "incident-notification-framework",
+        "incident-response-plan"
       ]
     },
     {
@@ -1587,6 +1920,12 @@
         "Tools and systems used",
         "Escalation procedures",
         "Review and update history"
+      ],
+      "controlSlugs": [
+        "change-management",
+        "crisis-communication",
+        "access-control-framework",
+        "privileged-access-management"
       ]
     },
     {
@@ -1609,6 +1948,12 @@
         "Tools and systems used",
         "Escalation procedures",
         "Review and update history"
+      ],
+      "controlSlugs": [
+        "sdlc-framework",
+        "crisis-communication",
+        "it-service-continuity",
+        "network-monitoring"
       ]
     },
     {
@@ -1631,6 +1976,10 @@
         "Tools and systems used",
         "Escalation procedures",
         "Review and update history"
+      ],
+      "controlSlugs": [
+        "technology-risk-assessment",
+        "technology-risk-management-framework"
       ]
     },
     {
@@ -1653,6 +2002,11 @@
         "Tools and systems used",
         "Escalation procedures",
         "Review and update history"
+      ],
+      "controlSlugs": [
+        "risk-monitoring-and-kri",
+        "technology-risk-assessment",
+        "technology-risk-management-framework"
       ]
     },
     {
@@ -1675,6 +2029,10 @@
         "Security requirements per SDLC phase",
         "Code review and testing gates",
         "Production deployment approval"
+      ],
+      "controlSlugs": [
+        "sdlc-framework",
+        "secure-development-practices"
       ]
     },
     {
@@ -1697,6 +2055,12 @@
         "Exceptions and escalation process",
         "Compliance and enforcement",
         "Review and approval history"
+      ],
+      "controlSlugs": [
+        "secure-development-practices",
+        "crisis-communication",
+        "access-control-framework",
+        "outsourcing-governance"
       ]
     },
     {
@@ -1719,6 +2083,12 @@
         "Channel security architecture",
         "Customer authentication requirements",
         "Session management controls"
+      ],
+      "controlSlugs": [
+        "session-management",
+        "api-security",
+        "customer-authentication",
+        "digital-channel-security"
       ]
     },
     {
@@ -1741,6 +2111,10 @@
         "Target audience and completion targets",
         "Assessment methodology and pass criteria",
         "Content update schedule"
+      ],
+      "controlSlugs": [
+        "cyber-situational-awareness",
+        "crisis-communication"
       ]
     },
     {
@@ -1763,6 +2137,10 @@
         "Use case catalogue and tuning schedule",
         "Shift handover procedures",
         "Escalation matrix and SLA"
+      ],
+      "controlSlugs": [
+        "soc-operations",
+        "network-monitoring"
       ]
     },
     {
@@ -1785,6 +2163,11 @@
         "Exceptions and escalation process",
         "Compliance and enforcement",
         "Review and approval history"
+      ],
+      "controlSlugs": [
+        "source-code-protection",
+        "crisis-communication",
+        "outsourcing-governance"
       ]
     },
     {
@@ -1807,6 +2190,10 @@
         "Notification trigger criteria",
         "Notification timeline requirements",
         "BNM LINK submission process"
+      ],
+      "controlSlugs": [
+        "technology-change-notification",
+        "incident-notification-framework"
       ]
     },
     {
@@ -1829,6 +2216,12 @@
         "Exceptions and escalation process",
         "Compliance and enforcement",
         "Review and approval history"
+      ],
+      "controlSlugs": [
+        "sdlc-framework",
+        "patch-management",
+        "crisis-communication",
+        "outsourcing-governance"
       ]
     },
     {
@@ -1852,6 +2245,10 @@
         "Due diligence checklist",
         "SLA and KPI definitions",
         "Exit strategy requirements"
+      ],
+      "controlSlugs": [
+        "vendor-risk-assessment",
+        "third-party-security-assessment"
       ]
     },
     {
@@ -1874,6 +2271,12 @@
         "Tools and systems used",
         "Escalation procedures",
         "Review and update history"
+      ],
+      "controlSlugs": [
+        "threat-hunting",
+        "crisis-communication",
+        "network-monitoring",
+        "incident-response-plan"
       ]
     },
     {
@@ -1896,6 +2299,10 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "threat-intelligence-program",
+        "network-monitoring"
       ]
     },
     {
@@ -1918,6 +2325,12 @@
         "Tools and systems used",
         "Escalation procedures",
         "Review and update history"
+      ],
+      "controlSlugs": [
+        "threat-intelligence-program",
+        "network-monitoring",
+        "crisis-communication",
+        "soc-operations"
       ]
     },
     {
@@ -1940,6 +2353,10 @@
         "Tools and systems used",
         "Escalation procedures",
         "Review and update history"
+      ],
+      "controlSlugs": [
+        "transaction-verification",
+        "multi-factor-authentication"
       ]
     },
     {
@@ -1962,6 +2379,11 @@
         "Tools and systems used",
         "Escalation procedures",
         "Review and update history"
+      ],
+      "controlSlugs": [
+        "sdlc-framework",
+        "crisis-communication",
+        "privileged-access-management"
       ]
     },
     {
@@ -1984,6 +2406,12 @@
         "Tools and systems used",
         "Escalation procedures",
         "Review and update history"
+      ],
+      "controlSlugs": [
+        "identity-and-access-management",
+        "crisis-communication",
+        "access-control-framework",
+        "it-service-continuity"
       ]
     },
     {
@@ -2007,6 +2435,12 @@
         "Due diligence checklist",
         "SLA and KPI definitions",
         "Exit strategy requirements"
+      ],
+      "controlSlugs": [
+        "vendor-exit-strategy",
+        "vendor-risk-assessment",
+        "technology-risk-assessment",
+        "sla-monitoring"
       ]
     },
     {
@@ -2030,6 +2464,12 @@
         "Due diligence checklist",
         "SLA and KPI definitions",
         "Exit strategy requirements"
+      ],
+      "controlSlugs": [
+        "vendor-risk-assessment",
+        "technology-risk-assessment",
+        "it-project-governance",
+        "cloud-risk-assessment"
       ]
     },
     {
@@ -2052,6 +2492,10 @@
         "Scanning scope and frequency",
         "Severity classification and SLA",
         "Remediation tracking"
+      ],
+      "controlSlugs": [
+        "vulnerability-assessment",
+        "incident-response-plan"
       ]
     },
     {
@@ -2074,6 +2518,11 @@
         "Scanning scope and frequency",
         "Severity classification and SLA",
         "Remediation tracking"
+      ],
+      "controlSlugs": [
+        "vulnerability-assessment",
+        "incident-response-plan",
+        "crisis-communication"
       ]
     }
   ],
@@ -2100,6 +2549,10 @@
         "Implementation roadmap",
         "Monitoring and review mechanisms",
         "Appendices and references"
+      ],
+      "controlSlugs": [
+        "ai-and-ml-governance",
+        "emerging-technology-risk-assessment"
       ]
     },
     {
@@ -2122,6 +2575,10 @@
         "Audit universe and risk-based plan",
         "Audit methodology and standards",
         "Finding severity classification"
+      ],
+      "controlSlugs": [
+        "it-audit-program",
+        "it-audit-independence-and-competency"
       ]
     },
     {
@@ -2144,6 +2601,10 @@
         "Audit universe and risk-based plan",
         "Audit methodology and standards",
         "Finding severity classification"
+      ],
+      "controlSlugs": [
+        "it-audit-independence-and-competency",
+        "it-audit-program"
       ]
     },
     {
@@ -2168,6 +2629,10 @@
         "Finding severity classification",
         "Target audience and completion targets",
         "Assessment methodology and pass criteria"
+      ],
+      "controlSlugs": [
+        "it-audit-independence-and-competency",
+        "it-audit-program"
       ]
     },
     {
@@ -2192,6 +2657,10 @@
         "Implementation roadmap",
         "Monitoring and review mechanisms",
         "Appendices and references"
+      ],
+      "controlSlugs": [
+        "board-technology-competency",
+        "technology-risk-function"
       ]
     },
     {
@@ -2214,6 +2683,11 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "rmit-self-assessment",
+        "technology-risk-management-framework",
+        "gap-remediation-tracking"
       ]
     },
     {
@@ -2236,6 +2710,12 @@
         "Meeting frequency and agenda structure",
         "Reporting obligations",
         "Review and amendment process"
+      ],
+      "controlSlugs": [
+        "board-technology-risk-oversight",
+        "technology-risk-committee",
+        "technology-risk-function",
+        "senior-management-accountability"
       ]
     },
     {
@@ -2258,6 +2738,10 @@
         "Meeting frequency and agenda structure",
         "Reporting obligations",
         "Review and amendment process"
+      ],
+      "controlSlugs": [
+        "change-management",
+        "technology-risk-assessment"
       ]
     },
     {
@@ -2281,6 +2765,11 @@
         "Recommendations and action items",
         "Management response",
         "Appendices and supporting data"
+      ],
+      "controlSlugs": [
+        "senior-management-accountability",
+        "risk-monitoring-and-kri",
+        "technology-risk-committee"
       ]
     },
     {
@@ -2303,6 +2792,11 @@
         "Cloud service model and deployment type",
         "Data residency requirements",
         "Shared responsibility matrix"
+      ],
+      "controlSlugs": [
+        "cloud-risk-assessment",
+        "ai-and-ml-governance",
+        "cloud-portability-and-exit"
       ]
     },
     {
@@ -2325,6 +2819,10 @@
         "Cloud service model and deployment type",
         "Data residency requirements",
         "Shared responsibility matrix"
+      ],
+      "controlSlugs": [
+        "cloud-risk-assessment",
+        "ai-and-ml-governance"
       ]
     },
     {
@@ -2349,6 +2847,11 @@
         "Implementation roadmap",
         "Monitoring and review mechanisms",
         "Appendices and references"
+      ],
+      "controlSlugs": [
+        "crisis-communication",
+        "cyber-crisis-management",
+        "cybersecurity-governance"
       ]
     },
     {
@@ -2373,6 +2876,10 @@
         "Implementation roadmap",
         "Monitoring and review mechanisms",
         "Appendices and references"
+      ],
+      "controlSlugs": [
+        "cybersecurity-governance",
+        "crisis-communication"
       ]
     },
     {
@@ -2397,6 +2904,10 @@
         "Implementation roadmap",
         "Monitoring and review mechanisms",
         "Appendices and references"
+      ],
+      "controlSlugs": [
+        "cybersecurity-governance",
+        "crisis-communication"
       ]
     },
     {
@@ -2421,6 +2932,12 @@
         "Implementation roadmap",
         "Monitoring and review mechanisms",
         "Appendices and references"
+      ],
+      "controlSlugs": [
+        "cybersecurity-strategy",
+        "cybersecurity-governance",
+        "crisis-communication",
+        "cyber-crisis-management"
       ]
     },
     {
@@ -2445,6 +2962,12 @@
         "Implementation roadmap",
         "Monitoring and review mechanisms",
         "Appendices and references"
+      ],
+      "controlSlugs": [
+        "disaster-recovery",
+        "crisis-communication",
+        "it-project-governance",
+        "service-level-management"
       ]
     },
     {
@@ -2469,6 +2992,10 @@
         "Implementation roadmap",
         "Monitoring and review mechanisms",
         "Appendices and references"
+      ],
+      "controlSlugs": [
+        "it-project-governance",
+        "outsourcing-governance"
       ]
     },
     {
@@ -2492,6 +3019,10 @@
         "Due diligence checklist",
         "SLA and KPI definitions",
         "Exit strategy requirements"
+      ],
+      "controlSlugs": [
+        "outsourcing-governance",
+        "vendor-risk-assessment"
       ]
     },
     {
@@ -2514,6 +3045,11 @@
         "Target completion dates",
         "Resource requirements",
         "Progress tracking mechanism"
+      ],
+      "controlSlugs": [
+        "annual-technology-risk-reporting",
+        "regulatory-examination-response",
+        "technology-change-notification"
       ]
     },
     {
@@ -2536,6 +3072,11 @@
         "Exceptions and escalation process",
         "Compliance and enforcement",
         "Review and approval history"
+      ],
+      "controlSlugs": [
+        "risk-treatment-and-acceptance",
+        "technology-risk-appetite-framework",
+        "technology-risk-register"
       ]
     },
     {
@@ -2558,6 +3099,10 @@
         "Target audience and completion targets",
         "Assessment methodology and pass criteria",
         "Content update schedule"
+      ],
+      "controlSlugs": [
+        "role-based-security-training",
+        "security-awareness-program"
       ]
     },
     {
@@ -2582,6 +3127,11 @@
         "Implementation roadmap",
         "Monitoring and review mechanisms",
         "Appendices and references"
+      ],
+      "controlSlugs": [
+        "disaster-recovery",
+        "service-level-management",
+        "outsourcing-governance"
       ]
     },
     {
@@ -2604,6 +3154,10 @@
         "Target audience and completion targets",
         "Assessment methodology and pass criteria",
         "Content update schedule"
+      ],
+      "controlSlugs": [
+        "security-awareness-program",
+        "role-based-security-training"
       ]
     },
     {
@@ -2625,6 +3179,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "senior-management-accountability",
+        "board-technology-risk-oversight"
       ]
     },
     {
@@ -2646,6 +3204,12 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "service-level-management",
+        "sla-monitoring",
+        "end-of-life-management",
+        "it-service-continuity"
       ]
     },
     {
@@ -2670,6 +3234,12 @@
         "Finding severity classification",
         "Notification trigger criteria",
         "Notification timeline requirements"
+      ],
+      "controlSlugs": [
+        "regulatory-examination-response",
+        "incident-response-plan",
+        "incident-notification-framework",
+        "outsourcing-notification"
       ]
     },
     {
@@ -2692,6 +3262,10 @@
         "Quantitative thresholds and KRIs",
         "Qualitative risk tolerance statements",
         "Breach escalation triggers"
+      ],
+      "controlSlugs": [
+        "technology-risk-appetite-framework",
+        "risk-monitoring-and-kri"
       ]
     },
     {
@@ -2714,6 +3288,10 @@
         "Meeting frequency and agenda structure",
         "Reporting obligations",
         "Review and amendment process"
+      ],
+      "controlSlugs": [
+        "technology-risk-committee",
+        "senior-management-accountability"
       ]
     },
     {
@@ -2736,6 +3314,11 @@
         "Meeting frequency and agenda structure",
         "Reporting obligations",
         "Review and amendment process"
+      ],
+      "controlSlugs": [
+        "technology-risk-function",
+        "technology-risk-committee",
+        "senior-management-accountability"
       ]
     },
     {
@@ -2760,6 +3343,11 @@
         "Implementation roadmap",
         "Monitoring and review mechanisms",
         "Appendices and references"
+      ],
+      "controlSlugs": [
+        "technology-risk-management-framework",
+        "technology-risk-appetite-framework",
+        "technology-risk-assessment"
       ]
     },
     {
@@ -2782,6 +3370,11 @@
         "Target completion dates",
         "Resource requirements",
         "Progress tracking mechanism"
+      ],
+      "controlSlugs": [
+        "technology-risk-register",
+        "risk-treatment-and-acceptance",
+        "technology-risk-assessment"
       ]
     }
   ],
@@ -2806,6 +3399,10 @@
         "Access provisioning and deprovisioning workflow",
         "Segregation of duties matrix",
         "Periodic access certification process"
+      ],
+      "controlSlugs": [
+        "data-centre-physical-security",
+        "technology-risk-assessment"
       ]
     },
     {
@@ -2828,6 +3425,12 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "access-review-and-recertification",
+        "technology-risk-assessment",
+        "sdlc-framework",
+        "firewall-management"
       ]
     },
     {
@@ -2850,6 +3453,10 @@
         "Access provisioning and deprovisioning workflow",
         "Segregation of duties matrix",
         "Periodic access certification process"
+      ],
+      "controlSlugs": [
+        "access-control-framework",
+        "outsourcing-governance"
       ]
     },
     {
@@ -2872,6 +3479,11 @@
         "Approved algorithms and key lengths",
         "Key lifecycle management",
         "HSM usage requirements"
+      ],
+      "controlSlugs": [
+        "cryptographic-controls",
+        "key-and-certificate-management",
+        "crisis-communication"
       ]
     },
     {
@@ -2895,6 +3507,10 @@
         "Due diligence checklist",
         "SLA and KPI definitions",
         "Exit strategy requirements"
+      ],
+      "controlSlugs": [
+        "vendor-risk-assessment",
+        "vendor-exit-strategy"
       ]
     },
     {
@@ -2916,6 +3532,9 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "api-security"
       ]
     },
     {
@@ -2938,6 +3557,10 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "cyber-situational-awareness",
+        "penetration-testing"
       ]
     },
     {
@@ -2960,6 +3583,10 @@
         "Audit universe and risk-based plan",
         "Audit methodology and standards",
         "Finding severity classification"
+      ],
+      "controlSlugs": [
+        "it-audit-independence-and-competency",
+        "it-audit-program"
       ]
     },
     {
@@ -2982,6 +3609,9 @@
         "Audit universe and risk-based plan",
         "Audit methodology and standards",
         "Finding severity classification"
+      ],
+      "controlSlugs": [
+        "it-audit-program"
       ]
     },
     {
@@ -3006,6 +3636,12 @@
         "Finding severity classification",
         "Notification trigger criteria",
         "Notification timeline requirements"
+      ],
+      "controlSlugs": [
+        "regulatory-examination-response",
+        "incident-notification-framework",
+        "incident-response-plan",
+        "technology-change-notification"
       ]
     },
     {
@@ -3028,6 +3664,10 @@
         "Audit universe and risk-based plan",
         "Audit methodology and standards",
         "Finding severity classification"
+      ],
+      "controlSlugs": [
+        "it-audit-independence-and-competency",
+        "it-audit-program"
       ]
     },
     {
@@ -3050,6 +3690,10 @@
         "Audit universe and risk-based plan",
         "Audit methodology and standards",
         "Finding severity classification"
+      ],
+      "controlSlugs": [
+        "it-audit-independence-and-competency",
+        "it-audit-program"
       ]
     },
     {
@@ -3072,6 +3716,10 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "multi-factor-authentication",
+        "customer-authentication"
       ]
     },
     {
@@ -3096,6 +3744,11 @@
         "HSM usage requirements",
         "RPO and RTO definitions per tier",
         "Backup schedule and retention periods"
+      ],
+      "controlSlugs": [
+        "backup-management",
+        "cryptographic-controls",
+        "disaster-recovery"
       ]
     },
     {
@@ -3118,6 +3771,12 @@
         "Business impact analysis",
         "Recovery priority tiers",
         "Testing schedule and results"
+      ],
+      "controlSlugs": [
+        "it-service-continuity",
+        "disaster-recovery",
+        "business-impact-analysis",
+        "backup-management"
       ]
     },
     {
@@ -3139,6 +3798,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "business-impact-analysis",
+        "vendor-risk-assessment"
       ]
     },
     {
@@ -3160,6 +3823,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "board-technology-risk-oversight",
+        "risk-monitoring-and-kri"
       ]
     },
     {
@@ -3184,6 +3851,11 @@
         "Implementation roadmap",
         "Monitoring and review mechanisms",
         "Appendices and references"
+      ],
+      "controlSlugs": [
+        "technology-risk-management-framework",
+        "technology-risk-appetite-framework",
+        "technology-risk-assessment"
       ]
     },
     {
@@ -3205,6 +3877,10 @@
         "Decisions and resolutions",
         "Action items with owners and deadlines",
         "Next meeting date"
+      ],
+      "controlSlugs": [
+        "board-technology-risk-oversight",
+        "technology-risk-committee"
       ]
     },
     {
@@ -3228,6 +3904,11 @@
         "Due diligence checklist",
         "SLA and KPI definitions",
         "Exit strategy requirements"
+      ],
+      "controlSlugs": [
+        "outsourcing-governance",
+        "vendor-risk-assessment",
+        "vendor-exit-strategy"
       ]
     },
     {
@@ -3252,6 +3933,10 @@
         "Implementation roadmap",
         "Monitoring and review mechanisms",
         "Appendices and references"
+      ],
+      "controlSlugs": [
+        "cybersecurity-strategy",
+        "cybersecurity-governance"
       ]
     },
     {
@@ -3274,6 +3959,10 @@
         "Target audience and completion targets",
         "Assessment methodology and pass criteria",
         "Content update schedule"
+      ],
+      "controlSlugs": [
+        "board-technology-competency",
+        "board-technology-risk-oversight"
       ]
     },
     {
@@ -3295,6 +3984,11 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "capacity-and-performance-management",
+        "end-of-life-management",
+        "intrusion-detection-and-prevention"
       ]
     },
     {
@@ -3317,6 +4011,12 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "data-centre-physical-security",
+        "technology-risk-assessment",
+        "sdlc-framework",
+        "firewall-management"
       ]
     },
     {
@@ -3339,6 +4039,12 @@
         "Channel security architecture",
         "Customer authentication requirements",
         "Session management controls"
+      ],
+      "controlSlugs": [
+        "key-and-certificate-management",
+        "wireless-security",
+        "remote-access-security",
+        "identity-and-access-management"
       ]
     },
     {
@@ -3360,6 +4066,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "senior-management-accountability",
+        "board-technology-risk-oversight"
       ]
     },
     {
@@ -3384,6 +4094,12 @@
         "Shared responsibility matrix",
         "Notification trigger criteria",
         "Notification timeline requirements"
+      ],
+      "controlSlugs": [
+        "technology-change-notification",
+        "outsourcing-notification",
+        "incident-response-plan",
+        "incident-notification-framework"
       ]
     },
     {
@@ -3408,6 +4124,10 @@
         "SLA and KPI definitions",
         "Exit strategy requirements",
         "Cloud service model and deployment type"
+      ],
+      "controlSlugs": [
+        "cloud-portability-and-exit",
+        "cloud-risk-assessment"
       ]
     },
     {
@@ -3432,6 +4152,12 @@
         "Periodic access certification process",
         "Cloud service model and deployment type",
         "Data residency requirements"
+      ],
+      "controlSlugs": [
+        "cloud-security-controls",
+        "cloud-risk-assessment",
+        "cloud-portability-and-exit",
+        "ai-and-ml-governance"
       ]
     },
     {
@@ -3453,6 +4179,10 @@
         "Decisions and resolutions",
         "Action items with owners and deadlines",
         "Next meeting date"
+      ],
+      "controlSlugs": [
+        "technology-risk-committee",
+        "board-technology-risk-oversight"
       ]
     },
     {
@@ -3475,6 +4205,12 @@
         "Business impact analysis",
         "Recovery priority tiers",
         "Testing schedule and results"
+      ],
+      "controlSlugs": [
+        "cyber-crisis-management",
+        "crisis-communication",
+        "it-service-continuity",
+        "disaster-recovery"
       ]
     },
     {
@@ -3497,6 +4233,10 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "rmit-self-assessment",
+        "technology-risk-management-framework"
       ]
     },
     {
@@ -3518,6 +4258,12 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "configuration-management",
+        "end-of-life-management",
+        "patch-management",
+        "it-service-continuity"
       ]
     },
     {
@@ -3542,6 +4288,10 @@
         "Finding severity classification",
         "Security requirements per SDLC phase",
         "Code review and testing gates"
+      ],
+      "controlSlugs": [
+        "it-audit-independence-and-competency",
+        "it-audit-program"
       ]
     },
     {
@@ -3563,6 +4313,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "cyber-crisis-management",
+        "crisis-communication"
       ]
     },
     {
@@ -3585,6 +4339,12 @@
         "Tools and systems used",
         "Escalation procedures",
         "Review and update history"
+      ],
+      "controlSlugs": [
+        "cloud-data-residency",
+        "crisis-communication",
+        "network-monitoring",
+        "backup-management"
       ]
     },
     {
@@ -3607,6 +4367,12 @@
         "Cloud service model and deployment type",
         "Data residency requirements",
         "Shared responsibility matrix"
+      ],
+      "controlSlugs": [
+        "cloud-data-residency",
+        "vendor-risk-assessment",
+        "cloud-risk-assessment",
+        "technology-risk-assessment"
       ]
     },
     {
@@ -3628,6 +4394,11 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "identity-and-access-management",
+        "end-of-life-management",
+        "vendor-risk-assessment"
       ]
     },
     {
@@ -3651,6 +4422,10 @@
         "Escalation timelines",
         "Communication templates",
         "Post-incident review process"
+      ],
+      "controlSlugs": [
+        "incident-response-plan",
+        "crisis-communication"
       ]
     },
     {
@@ -3673,6 +4448,11 @@
         "Target audience and completion targets",
         "Assessment methodology and pass criteria",
         "Content update schedule"
+      ],
+      "controlSlugs": [
+        "secure-development-practices",
+        "technology-risk-assessment",
+        "sdlc-framework"
       ]
     },
     {
@@ -3695,6 +4475,10 @@
         "Cloud service model and deployment type",
         "Data residency requirements",
         "Shared responsibility matrix"
+      ],
+      "controlSlugs": [
+        "data-loss-prevention",
+        "threat-hunting"
       ]
     },
     {
@@ -3717,6 +4501,12 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "dns-security",
+        "technology-risk-assessment",
+        "sdlc-framework",
+        "firewall-management"
       ]
     },
     {
@@ -3738,6 +4528,12 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "dns-security",
+        "firewall-management",
+        "intrusion-detection-and-prevention",
+        "end-of-life-management"
       ]
     },
     {
@@ -3760,6 +4556,11 @@
         "Exceptions and escalation process",
         "Compliance and enforcement",
         "Review and approval history"
+      ],
+      "controlSlugs": [
+        "endpoint-protection",
+        "crisis-communication",
+        "data-loss-prevention"
       ]
     },
     {
@@ -3782,6 +4583,10 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "endpoint-protection",
+        "vulnerability-assessment"
       ]
     },
     {
@@ -3803,6 +4608,9 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "email-security"
       ]
     },
     {
@@ -3825,6 +4633,11 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "email-security",
+        "penetration-testing",
+        "ioc-management"
       ]
     },
     {
@@ -3847,6 +4660,11 @@
         "Target audience and completion targets",
         "Assessment methodology and pass criteria",
         "Content update schedule"
+      ],
+      "controlSlugs": [
+        "environmental-controls",
+        "technology-risk-assessment",
+        "crisis-communication"
       ]
     },
     {
@@ -3869,6 +4687,12 @@
         "Approved algorithms and key lengths",
         "Key lifecycle management",
         "HSM usage requirements"
+      ],
+      "controlSlugs": [
+        "cryptographic-controls",
+        "technology-risk-assessment",
+        "sdlc-framework",
+        "vendor-risk-assessment"
       ]
     },
     {
@@ -3891,6 +4715,10 @@
         "Patch criticality classification",
         "Testing and rollback procedures",
         "EOL technology register"
+      ],
+      "controlSlugs": [
+        "end-of-life-management",
+        "patch-management"
       ]
     },
     {
@@ -3913,6 +4741,11 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "environment-segregation",
+        "technology-risk-assessment",
+        "sdlc-framework"
       ]
     },
     {
@@ -3935,6 +4768,12 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "environmental-controls",
+        "technology-risk-assessment",
+        "sdlc-framework",
+        "firewall-management"
       ]
     },
     {
@@ -3956,6 +4795,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "end-of-life-management",
+        "patch-management"
       ]
     },
     {
@@ -3979,6 +4822,12 @@
         "Due diligence checklist",
         "SLA and KPI definitions",
         "Exit strategy requirements"
+      ],
+      "controlSlugs": [
+        "vendor-exit-strategy",
+        "vendor-risk-assessment",
+        "disaster-recovery",
+        "cloud-risk-assessment"
       ]
     },
     {
@@ -4003,6 +4852,10 @@
         "Restoration testing results",
         "Business impact analysis",
         "Recovery priority tiers"
+      ],
+      "controlSlugs": [
+        "disaster-recovery",
+        "business-impact-analysis"
       ]
     },
     {
@@ -4025,6 +4878,9 @@
         "Audit universe and risk-based plan",
         "Audit methodology and standards",
         "Finding severity classification"
+      ],
+      "controlSlugs": [
+        "it-audit-program"
       ]
     },
     {
@@ -4047,6 +4903,12 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "environmental-controls",
+        "sdlc-framework",
+        "technology-risk-assessment",
+        "vendor-risk-assessment"
       ]
     },
     {
@@ -4069,6 +4931,10 @@
         "Target audience and completion targets",
         "Assessment methodology and pass criteria",
         "Content update schedule"
+      ],
+      "controlSlugs": [
+        "phishing-simulation",
+        "security-awareness-program"
       ]
     },
     {
@@ -4091,6 +4957,10 @@
         "Transaction monitoring rules",
         "Alert triage procedures",
         "Customer notification process"
+      ],
+      "controlSlugs": [
+        "fraud-detection",
+        "transaction-verification"
       ]
     },
     {
@@ -4113,6 +4983,12 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "key-and-certificate-management",
+        "sdlc-framework",
+        "firewall-management",
+        "technology-risk-assessment"
       ]
     },
     {
@@ -4134,6 +5010,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "threat-hunting",
+        "intrusion-detection-and-prevention"
       ]
     },
     {
@@ -4156,6 +5036,9 @@
         "Access provisioning and deprovisioning workflow",
         "Segregation of duties matrix",
         "Periodic access certification process"
+      ],
+      "controlSlugs": [
+        "customer-authentication"
       ]
     },
     {
@@ -4178,6 +5061,12 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "intrusion-detection-and-prevention",
+        "siem-implementation",
+        "sdlc-framework",
+        "technology-risk-assessment"
       ]
     },
     {
@@ -4199,6 +5088,12 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "threat-intelligence-program",
+        "siem-implementation",
+        "intrusion-detection-and-prevention",
+        "ioc-management"
       ]
     },
     {
@@ -4221,6 +5116,12 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "technology-risk-assessment",
+        "it-project-governance",
+        "sdlc-framework",
+        "vendor-risk-assessment"
       ]
     },
     {
@@ -4243,6 +5144,10 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "ioc-management",
+        "network-monitoring"
       ]
     },
     {
@@ -4264,6 +5169,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "incident-response-plan",
+        "intrusion-detection-and-prevention"
       ]
     },
     {
@@ -4285,6 +5194,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "it-project-governance",
+        "end-of-life-management"
       ]
     },
     {
@@ -4306,6 +5219,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "intrusion-detection-and-prevention",
+        "siem-implementation"
       ]
     },
     {
@@ -4327,6 +5244,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "technology-risk-committee",
+        "board-technology-risk-oversight"
       ]
     },
     {
@@ -4349,6 +5270,12 @@
         "Audit universe and risk-based plan",
         "Audit methodology and standards",
         "Finding severity classification"
+      ],
+      "controlSlugs": [
+        "multi-factor-authentication",
+        "technology-risk-assessment",
+        "patch-management",
+        "crisis-communication"
       ]
     },
     {
@@ -4371,6 +5298,12 @@
         "Channel security architecture",
         "Customer authentication requirements",
         "Session management controls"
+      ],
+      "controlSlugs": [
+        "mobile-application-security",
+        "digital-channel-security",
+        "session-management",
+        "multi-factor-authentication"
       ]
     },
     {
@@ -4393,6 +5326,10 @@
         "Network segmentation zones",
         "Firewall rule review schedule",
         "Network architecture diagram"
+      ],
+      "controlSlugs": [
+        "network-architecture-and-segmentation",
+        "technology-risk-assessment"
       ]
     },
     {
@@ -4415,6 +5352,12 @@
         "Network segmentation zones",
         "Firewall rule review schedule",
         "Network architecture diagram"
+      ],
+      "controlSlugs": [
+        "network-monitoring",
+        "soc-operations",
+        "firewall-management",
+        "technology-risk-assessment"
       ]
     },
     {
@@ -4437,6 +5380,10 @@
         "Network segmentation zones",
         "Firewall rule review schedule",
         "Network architecture diagram"
+      ],
+      "controlSlugs": [
+        "network-architecture-and-segmentation",
+        "firewall-management"
       ]
     },
     {
@@ -4459,6 +5406,11 @@
         "Notification trigger criteria",
         "Notification timeline requirements",
         "BNM LINK submission process"
+      ],
+      "controlSlugs": [
+        "incident-notification-framework",
+        "incident-response-plan",
+        "annual-technology-risk-reporting"
       ]
     },
     {
@@ -4481,6 +5433,10 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "technology-risk-function",
+        "technology-risk-appetite-framework"
       ]
     },
     {
@@ -4505,6 +5461,10 @@
         "SLA and KPI definitions",
         "Exit strategy requirements",
         "Notification trigger criteria"
+      ],
+      "controlSlugs": [
+        "outsourcing-notification",
+        "incident-notification-framework"
       ]
     },
     {
@@ -4527,6 +5487,11 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "privileged-access-management",
+        "sdlc-framework",
+        "firewall-management"
       ]
     },
     {
@@ -4549,6 +5514,12 @@
         "Exceptions and escalation process",
         "Compliance and enforcement",
         "Review and approval history"
+      ],
+      "controlSlugs": [
+        "password-management",
+        "crisis-communication",
+        "outsourcing-governance",
+        "firewall-management"
       ]
     },
     {
@@ -4571,6 +5542,12 @@
         "Patch criticality classification",
         "Testing and rollback procedures",
         "EOL technology register"
+      ],
+      "controlSlugs": [
+        "patch-management",
+        "end-of-life-management",
+        "technology-risk-assessment",
+        "change-management"
       ]
     },
     {
@@ -4593,6 +5570,10 @@
         "Access provisioning and deprovisioning workflow",
         "Segregation of duties matrix",
         "Periodic access certification process"
+      ],
+      "controlSlugs": [
+        "access-control-framework",
+        "technology-risk-assessment"
       ]
     },
     {
@@ -4615,6 +5596,12 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "power-and-redundancy",
+        "sdlc-framework",
+        "technology-risk-assessment",
+        "firewall-management"
       ]
     },
     {
@@ -4636,6 +5623,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "it-project-governance",
+        "end-of-life-management"
       ]
     },
     {
@@ -4658,6 +5649,11 @@
         "Notification trigger criteria",
         "Notification timeline requirements",
         "BNM LINK submission process"
+      ],
+      "controlSlugs": [
+        "technology-change-notification",
+        "incident-notification-framework",
+        "outsourcing-notification"
       ]
     },
     {
@@ -4680,6 +5676,11 @@
         "Approved algorithms and key lengths",
         "Key lifecycle management",
         "HSM usage requirements"
+      ],
+      "controlSlugs": [
+        "qr-code-and-ewallet-security",
+        "mobile-application-security",
+        "api-security"
       ]
     },
     {
@@ -4701,6 +5702,11 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "sdlc-framework",
+        "it-project-governance",
+        "end-of-life-management"
       ]
     },
     {
@@ -4723,6 +5729,9 @@
         "Approved algorithms and key lengths",
         "Key lifecycle management",
         "HSM usage requirements"
+      ],
+      "controlSlugs": [
+        "emerging-technology-risk-assessment"
       ]
     },
     {
@@ -4744,6 +5753,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "technology-risk-register",
+        "technology-risk-assessment"
       ]
     },
     {
@@ -4766,6 +5779,11 @@
         "Tools and systems used",
         "Escalation procedures",
         "Review and update history"
+      ],
+      "controlSlugs": [
+        "change-management",
+        "crisis-communication",
+        "it-service-continuity"
       ]
     },
     {
@@ -4788,6 +5806,10 @@
         "Target completion dates",
         "Resource requirements",
         "Progress tracking mechanism"
+      ],
+      "controlSlugs": [
+        "gap-remediation-tracking",
+        "rmit-self-assessment"
       ]
     },
     {
@@ -4810,6 +5832,12 @@
         "Target completion dates",
         "Resource requirements",
         "Progress tracking mechanism"
+      ],
+      "controlSlugs": [
+        "vulnerability-assessment",
+        "cybersecurity-strategy",
+        "red-team-exercises",
+        "bug-bounty-and-disclosure"
       ]
     },
     {
@@ -4832,6 +5860,12 @@
         "Target completion dates",
         "Resource requirements",
         "Progress tracking mechanism"
+      ],
+      "controlSlugs": [
+        "secure-development-practices",
+        "vendor-risk-assessment",
+        "sla-monitoring",
+        "disaster-recovery"
       ]
     },
     {
@@ -4854,6 +5888,11 @@
         "Scanning scope and frequency",
         "Severity classification and SLA",
         "Remediation tracking"
+      ],
+      "controlSlugs": [
+        "penetration-testing",
+        "incident-response-plan",
+        "red-team-exercises"
       ]
     },
     {
@@ -4876,6 +5915,12 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "remote-access-security",
+        "firewall-management",
+        "vendor-risk-assessment",
+        "technology-risk-assessment"
       ]
     },
     {
@@ -4898,6 +5943,10 @@
         "Access provisioning and deprovisioning workflow",
         "Segregation of duties matrix",
         "Periodic access certification process"
+      ],
+      "controlSlugs": [
+        "source-code-protection",
+        "technology-risk-assessment"
       ]
     },
     {
@@ -4920,6 +5969,10 @@
         "Security requirements per SDLC phase",
         "Code review and testing gates",
         "Production deployment approval"
+      ],
+      "controlSlugs": [
+        "sdlc-framework",
+        "secure-development-practices"
       ]
     },
     {
@@ -4941,6 +5994,12 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "sdlc-framework",
+        "patch-management",
+        "end-of-life-management",
+        "cloud-risk-assessment"
       ]
     },
     {
@@ -4962,6 +6021,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "risk-treatment-and-acceptance",
+        "technology-risk-register"
       ]
     },
     {
@@ -4984,6 +6047,10 @@
         "Quantitative thresholds and KRIs",
         "Qualitative risk tolerance statements",
         "Breach escalation triggers"
+      ],
+      "controlSlugs": [
+        "technology-risk-appetite-framework",
+        "risk-monitoring-and-kri"
       ]
     },
     {
@@ -5006,6 +6073,11 @@
         "Target completion dates",
         "Resource requirements",
         "Progress tracking mechanism"
+      ],
+      "controlSlugs": [
+        "technology-risk-assessment",
+        "risk-treatment-and-acceptance",
+        "technology-risk-register"
       ]
     },
     {
@@ -5029,6 +6101,10 @@
         "Due diligence checklist",
         "SLA and KPI definitions",
         "Exit strategy requirements"
+      ],
+      "controlSlugs": [
+        "vendor-risk-assessment",
+        "third-party-security-assessment"
       ]
     },
     {
@@ -5050,6 +6126,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "technology-risk-register",
+        "technology-risk-assessment"
       ]
     },
     {
@@ -5072,6 +6152,10 @@
         "Target audience and completion targets",
         "Assessment methodology and pass criteria",
         "Content update schedule"
+      ],
+      "controlSlugs": [
+        "role-based-security-training",
+        "security-awareness-program"
       ]
     },
     {
@@ -5093,6 +6177,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "disaster-recovery",
+        "end-of-life-management"
       ]
     },
     {
@@ -5117,6 +6205,10 @@
         "Communication templates",
         "Post-incident review process",
         "Notification trigger criteria"
+      ],
+      "controlSlugs": [
+        "incident-response-plan",
+        "crisis-communication"
       ]
     },
     {
@@ -5139,6 +6231,12 @@
         "Channel security architecture",
         "Customer authentication requirements",
         "Session management controls"
+      ],
+      "controlSlugs": [
+        "digital-channel-security",
+        "multi-factor-authentication",
+        "api-security",
+        "transaction-verification"
       ]
     },
     {
@@ -5161,6 +6259,10 @@
         "Security requirements per SDLC phase",
         "Code review and testing gates",
         "Production deployment approval"
+      ],
+      "controlSlugs": [
+        "sdlc-framework",
+        "secure-development-practices"
       ]
     },
     {
@@ -5183,6 +6285,11 @@
         "Network segmentation zones",
         "Firewall rule review schedule",
         "Network architecture diagram"
+      ],
+      "controlSlugs": [
+        "network-architecture-and-segmentation",
+        "firewall-management",
+        "technology-risk-assessment"
       ]
     },
     {
@@ -5207,6 +6314,12 @@
         "Finding severity classification",
         "Use case catalogue and tuning schedule",
         "Shift handover procedures"
+      ],
+      "controlSlugs": [
+        "cybersecurity-governance",
+        "soc-operations",
+        "crisis-communication",
+        "vulnerability-assessment"
       ]
     },
     {
@@ -5229,6 +6342,9 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "session-management"
       ]
     },
     {
@@ -5250,6 +6366,12 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "privileged-access-management",
+        "end-of-life-management",
+        "cloud-data-residency",
+        "identity-and-access-management"
       ]
     },
     {
@@ -5272,6 +6394,11 @@
         "Cloud service model and deployment type",
         "Data residency requirements",
         "Shared responsibility matrix"
+      ],
+      "controlSlugs": [
+        "cloud-risk-assessment",
+        "vendor-risk-assessment",
+        "technology-risk-assessment"
       ]
     },
     {
@@ -5294,6 +6421,10 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "intrusion-detection-and-prevention",
+        "siem-implementation"
       ]
     },
     {
@@ -5316,6 +6447,10 @@
         "Use case catalogue and tuning schedule",
         "Shift handover procedures",
         "Escalation matrix and SLA"
+      ],
+      "controlSlugs": [
+        "soc-operations",
+        "network-monitoring"
       ]
     },
     {
@@ -5338,6 +6473,10 @@
         "Target completion dates",
         "Resource requirements",
         "Progress tracking mechanism"
+      ],
+      "controlSlugs": [
+        "technology-risk-function",
+        "senior-management-accountability"
       ]
     },
     {
@@ -5360,6 +6499,11 @@
         "Notification trigger criteria",
         "Notification timeline requirements",
         "BNM LINK submission process"
+      ],
+      "controlSlugs": [
+        "crisis-communication",
+        "cyber-crisis-management",
+        "it-service-continuity"
       ]
     },
     {
@@ -5382,6 +6526,10 @@
         "Approved algorithms and key lengths",
         "Key lifecycle management",
         "HSM usage requirements"
+      ],
+      "controlSlugs": [
+        "cryptographic-controls",
+        "key-and-certificate-management"
       ]
     },
     {
@@ -5404,6 +6552,10 @@
         "Cloud service model and deployment type",
         "Data residency requirements",
         "Shared responsibility matrix"
+      ],
+      "controlSlugs": [
+        "cloud-risk-assessment",
+        "ai-and-ml-governance"
       ]
     },
     {
@@ -5426,6 +6578,12 @@
         "Tools and systems used",
         "Escalation procedures",
         "Review and update history"
+      ],
+      "controlSlugs": [
+        "business-impact-analysis",
+        "it-service-continuity",
+        "service-level-management",
+        "crisis-communication"
       ]
     },
     {
@@ -5448,6 +6606,10 @@
         "RPO and RTO definitions per tier",
         "Backup schedule and retention periods",
         "Restoration testing results"
+      ],
+      "controlSlugs": [
+        "backup-management",
+        "disaster-recovery"
       ]
     },
     {
@@ -5470,6 +6632,12 @@
         "Target completion dates",
         "Resource requirements",
         "Progress tracking mechanism"
+      ],
+      "controlSlugs": [
+        "sdlc-framework",
+        "disaster-recovery",
+        "end-of-life-management",
+        "technology-risk-assessment"
       ]
     },
     {
@@ -5492,6 +6660,11 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "threat-intelligence-program",
+        "red-team-exercises",
+        "cyber-situational-awareness"
       ]
     },
     {
@@ -5514,6 +6687,10 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "ioc-management",
+        "intrusion-detection-and-prevention"
       ]
     },
     {
@@ -5536,6 +6713,10 @@
         "Target audience and completion targets",
         "Assessment methodology and pass criteria",
         "Content update schedule"
+      ],
+      "controlSlugs": [
+        "security-awareness-program",
+        "phishing-simulation"
       ]
     },
     {
@@ -5558,6 +6739,9 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "transaction-verification"
       ]
     },
     {
@@ -5579,6 +6763,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "sdlc-framework",
+        "end-of-life-management"
       ]
     },
     {
@@ -5602,6 +6790,10 @@
         "Due diligence checklist",
         "SLA and KPI definitions",
         "Exit strategy requirements"
+      ],
+      "controlSlugs": [
+        "third-party-security-assessment",
+        "vendor-risk-assessment"
       ]
     },
     {
@@ -5625,6 +6817,12 @@
         "Due diligence checklist",
         "SLA and KPI definitions",
         "Exit strategy requirements"
+      ],
+      "controlSlugs": [
+        "sla-monitoring",
+        "vendor-risk-assessment",
+        "patch-management",
+        "vendor-exit-strategy"
       ]
     },
     {
@@ -5647,6 +6845,9 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "transaction-verification"
       ]
     },
     {
@@ -5669,6 +6870,12 @@
         "Approved algorithms and key lengths",
         "Key lifecycle management",
         "HSM usage requirements"
+      ],
+      "controlSlugs": [
+        "wireless-security",
+        "cryptographic-controls",
+        "technology-risk-assessment",
+        "sdlc-framework"
       ]
     }
   ],
@@ -5694,6 +6901,10 @@
         "Recommendations and action items",
         "Management response",
         "Appendices and supporting data"
+      ],
+      "controlSlugs": [
+        "ai-and-ml-governance",
+        "cloud-security-controls"
       ]
     },
     {
@@ -5716,6 +6927,12 @@
         "Network segmentation zones",
         "Firewall rule review schedule",
         "Network architecture diagram"
+      ],
+      "controlSlugs": [
+        "network-architecture-and-segmentation",
+        "firewall-management",
+        "vendor-risk-assessment",
+        "technology-risk-assessment"
       ]
     },
     {
@@ -5738,6 +6955,10 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "rmit-self-assessment",
+        "technology-risk-management-framework"
       ]
     },
     {
@@ -5760,6 +6981,12 @@
         "Notification trigger criteria",
         "Notification timeline requirements",
         "BNM LINK submission process"
+      ],
+      "controlSlugs": [
+        "annual-technology-risk-reporting",
+        "incident-notification-framework",
+        "outsourcing-notification",
+        "technology-change-notification"
       ]
     },
     {
@@ -5782,6 +7009,9 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "api-security"
       ]
     },
     {
@@ -5804,6 +7034,9 @@
         "Audit universe and risk-based plan",
         "Audit methodology and standards",
         "Finding severity classification"
+      ],
+      "controlSlugs": [
+        "it-audit-program"
       ]
     },
     {
@@ -5826,6 +7059,10 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "customer-authentication",
+        "multi-factor-authentication"
       ]
     },
     {
@@ -5848,6 +7085,10 @@
         "RPO and RTO definitions per tier",
         "Backup schedule and retention periods",
         "Restoration testing results"
+      ],
+      "controlSlugs": [
+        "backup-management",
+        "disaster-recovery"
       ]
     },
     {
@@ -5870,6 +7111,12 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "disaster-recovery",
+        "business-impact-analysis",
+        "vendor-risk-assessment",
+        "technology-risk-assessment"
       ]
     },
     {
@@ -5891,6 +7138,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "board-technology-competency",
+        "board-technology-risk-oversight"
       ]
     },
     {
@@ -5913,6 +7164,11 @@
         "Tools and systems used",
         "Escalation procedures",
         "Review and update history"
+      ],
+      "controlSlugs": [
+        "business-impact-analysis",
+        "vendor-risk-assessment",
+        "it-service-continuity"
       ]
     },
     {
@@ -5936,6 +7192,12 @@
         "Recommendations and action items",
         "Management response",
         "Appendices and supporting data"
+      ],
+      "controlSlugs": [
+        "capacity-and-performance-management",
+        "technology-risk-assessment",
+        "disaster-recovery",
+        "network-monitoring"
       ]
     },
     {
@@ -5959,6 +7221,10 @@
         "Due diligence checklist",
         "SLA and KPI definitions",
         "Exit strategy requirements"
+      ],
+      "controlSlugs": [
+        "third-party-security-assessment",
+        "vendor-risk-assessment"
       ]
     },
     {
@@ -5983,6 +7249,11 @@
         "Shared responsibility matrix",
         "Notification trigger criteria",
         "Notification timeline requirements"
+      ],
+      "controlSlugs": [
+        "technology-change-notification",
+        "outsourcing-notification",
+        "annual-technology-risk-reporting"
       ]
     },
     {
@@ -6005,6 +7276,11 @@
         "Cloud service model and deployment type",
         "Data residency requirements",
         "Shared responsibility matrix"
+      ],
+      "controlSlugs": [
+        "cloud-risk-assessment",
+        "vendor-risk-assessment",
+        "technology-risk-assessment"
       ]
     },
     {
@@ -6027,6 +7303,12 @@
         "Cloud service model and deployment type",
         "Data residency requirements",
         "Shared responsibility matrix"
+      ],
+      "controlSlugs": [
+        "cloud-security-controls",
+        "cloud-risk-assessment",
+        "cloud-portability-and-exit",
+        "ai-and-ml-governance"
       ]
     },
     {
@@ -6049,6 +7331,12 @@
         "Target completion dates",
         "Resource requirements",
         "Progress tracking mechanism"
+      ],
+      "controlSlugs": [
+        "configuration-management",
+        "disaster-recovery",
+        "vendor-risk-assessment",
+        "sla-monitoring"
       ]
     },
     {
@@ -6071,6 +7359,10 @@
         "Approved algorithms and key lengths",
         "Key lifecycle management",
         "HSM usage requirements"
+      ],
+      "controlSlugs": [
+        "cryptographic-controls",
+        "key-and-certificate-management"
       ]
     },
     {
@@ -6093,6 +7385,12 @@
         "Channel security architecture",
         "Customer authentication requirements",
         "Session management controls"
+      ],
+      "controlSlugs": [
+        "digital-channel-security",
+        "transaction-verification",
+        "multi-factor-authentication",
+        "api-security"
       ]
     },
     {
@@ -6115,6 +7413,10 @@
         "Target completion dates",
         "Resource requirements",
         "Progress tracking mechanism"
+      ],
+      "controlSlugs": [
+        "disaster-recovery",
+        "sla-monitoring"
       ]
     },
     {
@@ -6139,6 +7441,11 @@
         "Restoration testing results",
         "Business impact analysis",
         "Recovery priority tiers"
+      ],
+      "controlSlugs": [
+        "disaster-recovery",
+        "business-impact-analysis",
+        "backup-management"
       ]
     },
     {
@@ -6162,6 +7469,11 @@
         "Recommendations and action items",
         "Management response",
         "Appendices and supporting data"
+      ],
+      "controlSlugs": [
+        "endpoint-protection",
+        "red-team-exercises",
+        "crisis-communication"
       ]
     },
     {
@@ -6185,6 +7497,12 @@
         "Recommendations and action items",
         "Management response",
         "Appendices and supporting data"
+      ],
+      "controlSlugs": [
+        "email-security",
+        "red-team-exercises",
+        "network-monitoring",
+        "soc-operations"
       ]
     },
     {
@@ -6207,6 +7525,12 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "change-management",
+        "technology-risk-assessment",
+        "sdlc-framework",
+        "firewall-management"
       ]
     },
     {
@@ -6228,6 +7552,11 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "emerging-technology-risk-assessment",
+        "cloud-risk-assessment",
+        "ai-and-ml-governance"
       ]
     },
     {
@@ -6250,6 +7579,10 @@
         "Patch criticality classification",
         "Testing and rollback procedures",
         "EOL technology register"
+      ],
+      "controlSlugs": [
+        "end-of-life-management",
+        "disaster-recovery"
       ]
     },
     {
@@ -6272,6 +7605,10 @@
         "Notification trigger criteria",
         "Notification timeline requirements",
         "BNM LINK submission process"
+      ],
+      "controlSlugs": [
+        "regulatory-examination-response",
+        "incident-notification-framework"
       ]
     },
     {
@@ -6296,6 +7633,10 @@
         "Network architecture diagram",
         "Audit universe and risk-based plan",
         "Audit methodology and standards"
+      ],
+      "controlSlugs": [
+        "firewall-management",
+        "network-architecture-and-segmentation"
       ]
     },
     {
@@ -6320,6 +7661,10 @@
         "Implementation roadmap",
         "Monitoring and review mechanisms",
         "Appendices and references"
+      ],
+      "controlSlugs": [
+        "technology-risk-management-framework",
+        "technology-risk-appetite-framework"
       ]
     },
     {
@@ -6342,6 +7687,10 @@
         "Transaction monitoring rules",
         "Alert triage procedures",
         "Customer notification process"
+      ],
+      "controlSlugs": [
+        "fraud-detection",
+        "transaction-verification"
       ]
     },
     {
@@ -6364,6 +7713,10 @@
         "Target completion dates",
         "Resource requirements",
         "Progress tracking mechanism"
+      ],
+      "controlSlugs": [
+        "gap-remediation-tracking",
+        "rmit-self-assessment"
       ]
     },
     {
@@ -6386,6 +7739,10 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "risk-monitoring-and-kri",
+        "board-technology-risk-oversight"
       ]
     },
     {
@@ -6409,6 +7766,10 @@
         "Recommendations and action items",
         "Management response",
         "Appendices and supporting data"
+      ],
+      "controlSlugs": [
+        "risk-monitoring-and-kri",
+        "technology-risk-assessment"
       ]
     },
     {
@@ -6431,6 +7792,10 @@
         "Notification trigger criteria",
         "Notification timeline requirements",
         "BNM LINK submission process"
+      ],
+      "controlSlugs": [
+        "technology-change-notification",
+        "annual-technology-risk-reporting"
       ]
     },
     {
@@ -6454,6 +7819,12 @@
         "Recommendations and action items",
         "Management response",
         "Appendices and supporting data"
+      ],
+      "controlSlugs": [
+        "multi-factor-authentication",
+        "vendor-risk-assessment",
+        "technology-risk-assessment",
+        "patch-management"
       ]
     },
     {
@@ -6476,6 +7847,12 @@
         "Channel security architecture",
         "Customer authentication requirements",
         "Session management controls"
+      ],
+      "controlSlugs": [
+        "mobile-application-security",
+        "digital-channel-security",
+        "session-management",
+        "multi-factor-authentication"
       ]
     },
     {
@@ -6499,6 +7876,12 @@
         "Recommendations and action items",
         "Management response",
         "Appendices and supporting data"
+      ],
+      "controlSlugs": [
+        "service-level-management",
+        "sla-monitoring",
+        "vendor-risk-assessment",
+        "technology-risk-assessment"
       ]
     },
     {
@@ -6521,6 +7904,12 @@
         "Channel security architecture",
         "Customer authentication requirements",
         "Session management controls"
+      ],
+      "controlSlugs": [
+        "customer-authentication",
+        "digital-channel-security",
+        "api-security",
+        "transaction-verification"
       ]
     },
     {
@@ -6544,6 +7933,11 @@
         "Due diligence checklist",
         "SLA and KPI definitions",
         "Exit strategy requirements"
+      ],
+      "controlSlugs": [
+        "outsourcing-governance",
+        "vendor-risk-assessment",
+        "vendor-exit-strategy"
       ]
     },
     {
@@ -6568,6 +7962,10 @@
         "SLA and KPI definitions",
         "Exit strategy requirements",
         "Notification trigger criteria"
+      ],
+      "controlSlugs": [
+        "outsourcing-notification",
+        "annual-technology-risk-reporting"
       ]
     },
     {
@@ -6590,6 +7988,12 @@
         "Exceptions and escalation process",
         "Compliance and enforcement",
         "Review and approval history"
+      ],
+      "controlSlugs": [
+        "password-management",
+        "crisis-communication",
+        "patch-management",
+        "outsourcing-governance"
       ]
     },
     {
@@ -6612,6 +8016,12 @@
         "Patch criticality classification",
         "Testing and rollback procedures",
         "EOL technology register"
+      ],
+      "controlSlugs": [
+        "patch-management",
+        "technology-risk-assessment",
+        "it-project-governance",
+        "change-management"
       ]
     },
     {
@@ -6634,6 +8044,10 @@
         "Scanning scope and frequency",
         "Severity classification and SLA",
         "Remediation tracking"
+      ],
+      "controlSlugs": [
+        "penetration-testing",
+        "incident-response-plan"
       ]
     },
     {
@@ -6657,6 +8071,10 @@
         "Recommendations and action items",
         "Management response",
         "Appendices and supporting data"
+      ],
+      "controlSlugs": [
+        "phishing-simulation",
+        "security-awareness-program"
       ]
     },
     {
@@ -6679,6 +8097,12 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "it-project-governance",
+        "technology-risk-assessment",
+        "sdlc-framework",
+        "firewall-management"
       ]
     },
     {
@@ -6702,6 +8126,10 @@
         "Escalation timelines",
         "Communication templates",
         "Post-incident review process"
+      ],
+      "controlSlugs": [
+        "incident-response-plan",
+        "crisis-communication"
       ]
     },
     {
@@ -6725,6 +8153,10 @@
         "Recommendations and action items",
         "Management response",
         "Appendices and supporting data"
+      ],
+      "controlSlugs": [
+        "power-and-redundancy",
+        "technology-risk-assessment"
       ]
     },
     {
@@ -6747,6 +8179,10 @@
         "Notification trigger criteria",
         "Notification timeline requirements",
         "BNM LINK submission process"
+      ],
+      "controlSlugs": [
+        "regulatory-examination-response",
+        "incident-response-plan"
       ]
     },
     {
@@ -6769,6 +8205,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "it-project-governance",
+        "technology-risk-assessment"
       ]
     },
     {
@@ -6792,6 +8232,11 @@
         "Recommendations and action items",
         "Management response",
         "Appendices and supporting data"
+      ],
+      "controlSlugs": [
+        "qr-code-and-ewallet-security",
+        "mobile-application-security",
+        "api-security"
       ]
     },
     {
@@ -6813,6 +8258,11 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "board-technology-risk-oversight",
+        "risk-monitoring-and-kri",
+        "technology-risk-committee"
       ]
     },
     {
@@ -6835,6 +8285,10 @@
         "Target completion dates",
         "Resource requirements",
         "Progress tracking mechanism"
+      ],
+      "controlSlugs": [
+        "gap-remediation-tracking",
+        "rmit-self-assessment"
       ]
     },
     {
@@ -6858,6 +8312,10 @@
         "Recommendations and action items",
         "Management response",
         "Appendices and supporting data"
+      ],
+      "controlSlugs": [
+        "red-team-exercises",
+        "crisis-communication"
       ]
     },
     {
@@ -6880,6 +8338,10 @@
         "Target completion dates",
         "Resource requirements",
         "Progress tracking mechanism"
+      ],
+      "controlSlugs": [
+        "red-team-exercises",
+        "intrusion-detection-and-prevention"
       ]
     },
     {
@@ -6902,6 +8364,12 @@
         "Scanning scope and frequency",
         "Severity classification and SLA",
         "Remediation tracking"
+      ],
+      "controlSlugs": [
+        "vulnerability-assessment",
+        "incident-response-plan",
+        "red-team-exercises",
+        "bug-bounty-and-disclosure"
       ]
     },
     {
@@ -6924,6 +8392,10 @@
         "Quantitative thresholds and KRIs",
         "Qualitative risk tolerance statements",
         "Breach escalation triggers"
+      ],
+      "controlSlugs": [
+        "technology-risk-appetite-framework",
+        "risk-monitoring-and-kri"
       ]
     },
     {
@@ -6946,6 +8418,12 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "it-project-governance",
+        "technology-risk-assessment",
+        "sdlc-framework",
+        "firewall-management"
       ]
     },
     {
@@ -6968,6 +8446,10 @@
         "Target completion dates",
         "Resource requirements",
         "Progress tracking mechanism"
+      ],
+      "controlSlugs": [
+        "risk-treatment-and-acceptance",
+        "technology-risk-register"
       ]
     },
     {
@@ -6990,6 +8472,10 @@
         "Target audience and completion targets",
         "Assessment methodology and pass criteria",
         "Content update schedule"
+      ],
+      "controlSlugs": [
+        "role-based-security-training",
+        "security-awareness-program"
       ]
     },
     {
@@ -7012,6 +8498,12 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "it-service-continuity",
+        "vendor-risk-assessment",
+        "technology-risk-assessment",
+        "sdlc-framework"
       ]
     },
     {
@@ -7036,6 +8528,12 @@
         "Remediation tracking",
         "Network segmentation zones",
         "Firewall rule review schedule"
+      ],
+      "controlSlugs": [
+        "network-architecture-and-segmentation",
+        "wireless-security",
+        "vendor-risk-assessment",
+        "technology-risk-assessment"
       ]
     },
     {
@@ -7059,6 +8557,12 @@
         "Recommendations and action items",
         "Management response",
         "Appendices and supporting data"
+      ],
+      "controlSlugs": [
+        "session-management",
+        "api-security",
+        "digital-channel-security",
+        "mobile-application-security"
       ]
     },
     {
@@ -7081,6 +8585,10 @@
         "Target audience and completion targets",
         "Assessment methodology and pass criteria",
         "Content update schedule"
+      ],
+      "controlSlugs": [
+        "cyber-situational-awareness",
+        "intrusion-detection-and-prevention"
       ]
     },
     {
@@ -7103,6 +8611,10 @@
         "Use case catalogue and tuning schedule",
         "Shift handover procedures",
         "Escalation matrix and SLA"
+      ],
+      "controlSlugs": [
+        "soc-operations",
+        "network-monitoring"
       ]
     },
     {
@@ -7127,6 +8639,11 @@
         "Implementation roadmap",
         "Monitoring and review mechanisms",
         "Appendices and references"
+      ],
+      "controlSlugs": [
+        "cybersecurity-strategy",
+        "cybersecurity-governance",
+        "crisis-communication"
       ]
     },
     {
@@ -7148,6 +8665,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "technology-risk-assessment",
+        "technology-risk-register"
       ]
     },
     {
@@ -7169,6 +8690,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "board-technology-risk-oversight",
+        "risk-monitoring-and-kri"
       ]
     },
     {
@@ -7190,6 +8715,9 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "annual-technology-risk-reporting"
       ]
     },
     {
@@ -7213,6 +8741,12 @@
         "Recommendations and action items",
         "Management response",
         "Appendices and supporting data"
+      ],
+      "controlSlugs": [
+        "sdlc-framework",
+        "vendor-risk-assessment",
+        "technology-risk-assessment",
+        "patch-management"
       ]
     },
     {
@@ -7236,6 +8770,10 @@
         "Due diligence checklist",
         "SLA and KPI definitions",
         "Exit strategy requirements"
+      ],
+      "controlSlugs": [
+        "vendor-risk-assessment",
+        "third-party-security-assessment"
       ]
     },
     {
@@ -7259,6 +8797,10 @@
         "Recommendations and action items",
         "Management response",
         "Appendices and supporting data"
+      ],
+      "controlSlugs": [
+        "threat-hunting",
+        "red-team-exercises"
       ]
     },
     {
@@ -7282,6 +8824,12 @@
         "Recommendations and action items",
         "Management response",
         "Appendices and supporting data"
+      ],
+      "controlSlugs": [
+        "threat-intelligence-program",
+        "red-team-exercises",
+        "intrusion-detection-and-prevention",
+        "network-monitoring"
       ]
     },
     {
@@ -7304,6 +8852,10 @@
         "Target audience and completion targets",
         "Assessment methodology and pass criteria",
         "Content update schedule"
+      ],
+      "controlSlugs": [
+        "security-awareness-program",
+        "phishing-simulation"
       ]
     },
     {
@@ -7328,6 +8880,10 @@
         "SLA and KPI definitions",
         "Exit strategy requirements",
         "Cloud service model and deployment type"
+      ],
+      "controlSlugs": [
+        "cloud-portability-and-exit",
+        "cloud-risk-assessment"
       ]
     },
     {
@@ -7351,6 +8907,12 @@
         "Due diligence checklist",
         "SLA and KPI definitions",
         "Exit strategy requirements"
+      ],
+      "controlSlugs": [
+        "vendor-risk-assessment",
+        "technology-risk-assessment",
+        "vendor-exit-strategy",
+        "cloud-risk-assessment"
       ]
     },
     {
@@ -7374,6 +8936,12 @@
         "Due diligence checklist",
         "SLA and KPI definitions",
         "Exit strategy requirements"
+      ],
+      "controlSlugs": [
+        "sla-monitoring",
+        "vendor-risk-assessment",
+        "technology-risk-assessment",
+        "service-level-management"
       ]
     },
     {
@@ -7396,6 +8964,10 @@
         "Scanning scope and frequency",
         "Severity classification and SLA",
         "Remediation tracking"
+      ],
+      "controlSlugs": [
+        "vulnerability-assessment",
+        "incident-response-plan"
       ]
     },
     {
@@ -7418,6 +8990,12 @@
         "Scanning scope and frequency",
         "Severity classification and SLA",
         "Remediation tracking"
+      ],
+      "controlSlugs": [
+        "wireless-security",
+        "vendor-risk-assessment",
+        "technology-risk-assessment",
+        "sla-monitoring"
       ]
     }
   ],
@@ -7441,6 +9019,12 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "identity-and-access-management",
+        "end-of-life-management",
+        "data-centre-physical-security",
+        "network-architecture-and-segmentation"
       ]
     },
     {
@@ -7462,6 +9046,11 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "data-centre-physical-security",
+        "end-of-life-management",
+        "access-review-and-recertification"
       ]
     },
     {
@@ -7483,6 +9072,11 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "intrusion-detection-and-prevention",
+        "siem-implementation",
+        "soc-operations"
       ]
     },
     {
@@ -7505,6 +9099,10 @@
         "RPO and RTO definitions per tier",
         "Backup schedule and retention periods",
         "Restoration testing results"
+      ],
+      "controlSlugs": [
+        "backup-management",
+        "disaster-recovery"
       ]
     },
     {
@@ -7526,6 +9124,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "key-and-certificate-management",
+        "end-of-life-management"
       ]
     },
     {
@@ -7547,6 +9149,11 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "change-management",
+        "end-of-life-management",
+        "cloud-risk-assessment"
       ]
     },
     {
@@ -7569,6 +9176,12 @@
         "Audit universe and risk-based plan",
         "Audit methodology and standards",
         "Finding severity classification"
+      ],
+      "controlSlugs": [
+        "environment-segregation",
+        "privileged-access-management",
+        "patch-management",
+        "end-of-life-management"
       ]
     },
     {
@@ -7591,6 +9204,11 @@
         "Exceptions and escalation process",
         "Compliance and enforcement",
         "Review and approval history"
+      ],
+      "controlSlugs": [
+        "secure-development-practices",
+        "crisis-communication",
+        "outsourcing-governance"
       ]
     },
     {
@@ -7612,6 +9230,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "change-management",
+        "end-of-life-management"
       ]
     },
     {
@@ -7634,6 +9256,10 @@
         "Target completion dates",
         "Resource requirements",
         "Progress tracking mechanism"
+      ],
+      "controlSlugs": [
+        "bug-bounty-and-disclosure",
+        "cybersecurity-strategy"
       ]
     },
     {
@@ -7657,6 +9283,12 @@
         "Escalation timelines",
         "Communication templates",
         "Post-incident review process"
+      ],
+      "controlSlugs": [
+        "data-loss-prevention",
+        "crisis-communication",
+        "incident-response-plan",
+        "cyber-crisis-management"
       ]
     },
     {
@@ -7678,6 +9310,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "change-management",
+        "end-of-life-management"
       ]
     },
     {
@@ -7699,6 +9335,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "environmental-controls",
+        "end-of-life-management"
       ]
     },
     {
@@ -7720,6 +9360,12 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "environmental-controls",
+        "patch-management",
+        "end-of-life-management",
+        "sdlc-framework"
       ]
     },
     {
@@ -7742,6 +9388,11 @@
         "Network segmentation zones",
         "Firewall rule review schedule",
         "Network architecture diagram"
+      ],
+      "controlSlugs": [
+        "firewall-management",
+        "network-architecture-and-segmentation",
+        "access-review-and-recertification"
       ]
     },
     {
@@ -7763,6 +9414,11 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "threat-intelligence-program",
+        "siem-implementation",
+        "cyber-situational-awareness"
       ]
     },
     {
@@ -7784,6 +9440,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "key-and-certificate-management",
+        "end-of-life-management"
       ]
     },
     {
@@ -7806,6 +9466,12 @@
         "Network segmentation zones",
         "Firewall rule review schedule",
         "Network architecture diagram"
+      ],
+      "controlSlugs": [
+        "network-monitoring",
+        "soc-operations",
+        "network-architecture-and-segmentation",
+        "firewall-management"
       ]
     },
     {
@@ -7830,6 +9496,10 @@
         "Communication templates",
         "Post-incident review process",
         "Notification trigger criteria"
+      ],
+      "controlSlugs": [
+        "incident-notification-framework",
+        "incident-response-plan"
       ]
     },
     {
@@ -7852,6 +9522,12 @@
         "Patch criticality classification",
         "Testing and rollback procedures",
         "EOL technology register"
+      ],
+      "controlSlugs": [
+        "patch-management",
+        "end-of-life-management",
+        "it-project-governance",
+        "service-level-management"
       ]
     },
     {
@@ -7873,6 +9549,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "power-and-redundancy",
+        "disaster-recovery"
       ]
     },
     {
@@ -7894,6 +9574,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "access-review-and-recertification",
+        "end-of-life-management"
       ]
     },
     {
@@ -7915,6 +9599,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "privileged-access-management",
+        "end-of-life-management"
       ]
     },
     {
@@ -7936,6 +9624,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "remote-access-security",
+        "end-of-life-management"
       ]
     },
     {
@@ -7958,6 +9650,12 @@
         "Evidence reviewed",
         "Recommendations",
         "Sign-off and approval"
+      ],
+      "controlSlugs": [
+        "secure-development-practices",
+        "technology-risk-assessment",
+        "sdlc-framework",
+        "firewall-management"
       ]
     },
     {
@@ -7979,6 +9677,10 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "intrusion-detection-and-prevention",
+        "siem-implementation"
       ]
     },
     {
@@ -8000,6 +9702,11 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "intrusion-detection-and-prevention",
+        "siem-implementation",
+        "end-of-life-management"
       ]
     },
     {
@@ -8022,6 +9729,11 @@
         "Owner and custodian",
         "Status and lifecycle stage",
         "Last review date"
+      ],
+      "controlSlugs": [
+        "sla-monitoring",
+        "service-level-management",
+        "end-of-life-management"
       ]
     },
     {
@@ -8044,6 +9756,12 @@
         "Exceptions and escalation process",
         "Compliance and enforcement",
         "Review and approval history"
+      ],
+      "controlSlugs": [
+        "access-review-and-recertification",
+        "crisis-communication",
+        "vendor-risk-assessment",
+        "outsourcing-governance"
       ]
     },
     {
@@ -8066,6 +9784,12 @@
         "Audit universe and risk-based plan",
         "Audit methodology and standards",
         "Finding severity classification"
+      ],
+      "controlSlugs": [
+        "source-code-protection",
+        "technology-risk-assessment",
+        "patch-management",
+        "end-of-life-management"
       ]
     },
     {
@@ -8088,6 +9812,10 @@
         "Physical access control zones",
         "Environmental controls (HVAC, fire suppression)",
         "Redundancy and failover design"
+      ],
+      "controlSlugs": [
+        "data-centre-physical-security",
+        "environmental-controls"
       ]
     },
     {
@@ -8110,6 +9838,12 @@
         "Scanning scope and frequency",
         "Severity classification and SLA",
         "Remediation tracking"
+      ],
+      "controlSlugs": [
+        "vulnerability-assessment",
+        "incident-response-plan",
+        "red-team-exercises",
+        "bug-bounty-and-disclosure"
       ]
     }
   ]
