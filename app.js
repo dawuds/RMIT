@@ -448,6 +448,112 @@ function renderControlDetail(slug) {
   if (!ctrl) return '<div class="error-state">Control not found.</div>';
   const domain = state.controls.domains[domainId];
 
+  // ---- Audit Package: linked artifacts ----
+  const controlSlug = ctrl.slug;
+  const clauses = ctrl.clauses || [];
+  const artifactIndex = {};
+  if (state.artifacts && state.artifacts.inventory) {
+    Object.values(state.artifacts.inventory).forEach(arr => {
+      if (Array.isArray(arr)) arr.forEach(a => { artifactIndex[a.slug] = a; });
+    });
+  }
+  const linkedArtifacts = Object.values(artifactIndex)
+    .filter(a => Array.isArray(a.controlSlugs) && a.controlSlugs.includes(controlSlug))
+    .sort((a, b) => (b.mandatory ? 1 : 0) - (a.mandatory ? 1 : 0));
+
+  // ---- Audit Package: linked evidence ----
+  const linkedArtifactSlugs = new Set(linkedArtifacts.map(a => a.slug));
+  const linkedEvidence = [];
+  clauses.forEach(c => {
+    const ev = state.evidence?.[c];
+    if (ev && ev.evidenceItems) {
+      ev.evidenceItems.forEach(item => {
+        if (linkedEvidence.find(e => e.id === item.id)) return;
+        const itemArtifacts = item.artifactSlugs || [];
+        if (!itemArtifacts.length || itemArtifacts.some(sl => linkedArtifactSlugs.has(sl))) {
+          linkedEvidence.push(item);
+        }
+      });
+    }
+  });
+
+  // ---- Audit Package HTML ----
+  const auditPackageHTML = (linkedArtifacts.length || linkedEvidence.length) ? `
+    <div class="audit-package">
+      <div class="audit-package-title">Audit Package</div>
+      <div class="audit-package-summary">${linkedArtifacts.length} artifact${linkedArtifacts.length !== 1 ? 's' : ''} &middot; ${linkedEvidence.length} evidence item${linkedEvidence.length !== 1 ? 's' : ''}</div>
+      ${linkedArtifacts.length ? `
+      <div class="accordion-item">
+        <button class="accordion-trigger" data-accordion>
+          <span class="accordion-trigger-left">
+            <span>Required Artifacts</span>
+            <span style="color:var(--text-muted);font-weight:400;font-size:0.8125rem">(${linkedArtifacts.length})</span>
+          </span>
+          <span class="chevron">&#9654;</span>
+        </button>
+        <div class="accordion-content">
+          ${linkedArtifacts.map(a => `
+            <div class="artifact-link-card">
+              <div class="artifact-link-header">
+                <span class="artifact-link-name">${escHtml(a.name)}</span>
+                ${a.mandatory ? '<span class="badge badge-mandatory">Mandatory</span>' : ''}
+              </div>
+              <div class="artifact-link-meta">
+                ${a.category ? `<span class="badge badge-category">${escHtml(a.category)}</span>` : ''}
+                ${a.owner ? `<span class="badge badge-owner">${escHtml(a.owner)}</span>` : ''}
+                ${a.reviewFrequency ? `<span class="badge badge-frequency">${escHtml(a.reviewFrequency)}</span>` : ''}
+              </div>
+              ${a.keyContents && a.keyContents.length ? `
+                <ul class="artifact-link-contents">
+                  ${a.keyContents.map(k => `<li>${escHtml(k)}</li>`).join('')}
+                </ul>` : ''}
+            </div>`).join('')}
+        </div>
+      </div>` : ''}
+      ${linkedEvidence.length ? `
+      <div class="accordion-item">
+        <button class="accordion-trigger" data-accordion>
+          <span class="accordion-trigger-left">
+            <span>Evidence Checklist</span>
+            <span style="color:var(--text-muted);font-weight:400;font-size:0.8125rem">(${linkedEvidence.length})</span>
+          </span>
+          <span class="chevron">&#9654;</span>
+        </button>
+        <div class="accordion-content">
+          ${linkedEvidence.map(item => `
+            <div class="evidence-checklist-item">
+              <div class="evidence-checklist-header">
+                <span class="evidence-checklist-name">${escHtml(item.name)}</span>
+                ${item.format ? `<span class="badge badge-category">${escHtml(item.format)}</span>` : ''}
+              </div>
+              <p class="evidence-checklist-desc">${escHtml(item.description || '')}</p>
+              ${item.retentionPeriod ? `<div class="evidence-checklist-retention">Retention: <strong>${escHtml(item.retentionPeriod)}</strong></div>` : ''}
+              ${item.suggestedSources && item.suggestedSources.length ? `<div class="evidence-checklist-sources">Sources: ${item.suggestedSources.map(s => escHtml(s)).join(', ')}</div>` : ''}
+              ${item.whatGoodLooksLike && item.whatGoodLooksLike.length ? `
+              <div class="accordion-item">
+                <button class="accordion-trigger" data-accordion>
+                  <span class="accordion-trigger-left"><span>What Good Looks Like</span></span>
+                  <span class="chevron">&#9654;</span>
+                </button>
+                <div class="accordion-content">
+                  <ul class="evidence-good">${item.whatGoodLooksLike.map(w => `<li>${escHtml(w)}</li>`).join('')}</ul>
+                </div>
+              </div>` : ''}
+              ${item.commonGaps && item.commonGaps.length ? `
+              <div class="accordion-item">
+                <button class="accordion-trigger" data-accordion>
+                  <span class="accordion-trigger-left"><span>Common Gaps</span></span>
+                  <span class="chevron">&#9654;</span>
+                </button>
+                <div class="accordion-content">
+                  <ul class="evidence-gap">${item.commonGaps.map(g => `<li>${escHtml(g)}</li>`).join('')}</ul>
+                </div>
+              </div>` : ''}
+            </div>`).join('')}
+        </div>
+      </div>` : ''}
+    </div>` : '';
+
   return `
     ${renderBreadcrumbs([{ label: 'Home', hash: '' }, { label: 'Controls Library', hash: 'controls' }, { label: ctrl.name }])}
     <div class="control-card" style="margin-bottom:1.5rem">
@@ -489,7 +595,8 @@ function renderControlDetail(slug) {
           <span class="clause-marker marker-${cl.marker}">${cl.marker === 'S' ? 'Shall' : 'Should'}</span>
         </a></li>`;
       }).join('')}
-    </ul>`;
+    </ul>
+    ${auditPackageHTML}`;
 }
 
 function updateNav() {
@@ -546,6 +653,18 @@ async function render() {
         } catch (err) {
           app.innerHTML = `<div class="main"><div class="error-state">Failed to load controls: ${escHtml(err.message)}</div></div>`;
           return;
+        }
+      }
+      if (route.view === 'control-detail') {
+        if (!state.artifacts) {
+          const [inventory, clauseMap] = await Promise.all([
+            fetchJSON('artifacts/inventory.json'),
+            fetchJSON('artifacts/clause-map.json'),
+          ]);
+          state.artifacts = { inventory, clauseMap: clauseMap.clauseToArtifacts };
+        }
+        if (!state.evidence) {
+          state.evidence = await fetchJSON('evidence/index.json');
         }
       }
       content = route.view === 'controls-browser' ? renderControlsBrowser() : renderControlDetail(route.slug);
