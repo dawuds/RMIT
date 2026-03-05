@@ -4,7 +4,7 @@
 
 Machine-readable extraction of the **Bank Negara Malaysia (BNM) Risk Management in Technology (RMiT) Policy Document**, November 2025 edition.
 
-121 clauses across 11 sections (S8–S18), with five integrated data layers: verbatim clause text, requirement breakdowns, evidence guidance, audit artifacts, and common controls.
+121 clauses across 11 sections (S8-S18), with five integrated data layers: verbatim clause text, requirement breakdowns, evidence guidance, audit artifacts, and common controls. Includes a browsable **Templates** view with 365 AI-generated document templates across 6 categories, category filtering, search, and GitHub links.
 
 > **Disclaimer**: This is an indicative/educational resource. It does not constitute legal advice. Always refer to the official BNM Policy Document and seek professional counsel for compliance decisions. See [LEARNINGS.md](LEARNINGS.md) for data quality audit history.
 

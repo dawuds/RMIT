@@ -10,6 +10,7 @@ const state = {
   controls: null,     // { domains, library, clauseMap }
   artifacts: null,    // { inventory, clauseMap }
   riskMgmt: null,     // { methodology, matrix, register, checklist, treatment }
+  templates: null,    // { categories, templates, totalCount, disclaimer }
   route: { view: 'overview' },
 };
 
@@ -37,6 +38,7 @@ function parseHash() {
   if (hash === 'controls') return { view: 'controls-browser' };
   if (hash.startsWith('control/')) return { view: 'control-detail', slug: hash.slice(8) };
   if (hash === 'risk-management') return { view: 'risk-management' };
+  if (hash === 'templates') return { view: 'templates' };
   if (hash.includes('.')) return { view: 'clause', id: hash };
   return { view: 'section', id: hash };
 }
@@ -489,6 +491,7 @@ function renderControlDetail(slug) {
     <div class="audit-package">
       <div class="audit-package-title">Audit Package</div>
       <div class="audit-package-summary">${linkedArtifacts.length} artifact${linkedArtifacts.length !== 1 ? 's' : ''} &middot; ${linkedEvidence.length} evidence item${linkedEvidence.length !== 1 ? 's' : ''}</div>
+      <div class="template-ai-note">Templates are AI-generated starting points — review and customize before use.</div>
       ${linkedArtifacts.length ? `
       <div class="accordion-item">
         <button class="accordion-trigger" data-accordion>
@@ -944,6 +947,92 @@ function renderTreatmentOptionsTab(treatment) {
     </div>`;
 }
 
+// ---- View: Templates ----
+function renderTemplates() {
+  if (!state.templates) return renderLoading();
+  const { categories, templates, totalCount, disclaimer } = state.templates;
+
+  const mandatoryCount = templates.filter(t => t.mandatory).length;
+
+  return `
+    ${renderBreadcrumbs([{ label: 'Home', hash: '' }, { label: 'Templates' }])}
+    <h2 style="font-size:1.25rem;margin-bottom:0.5rem">Document Templates</h2>
+    <p style="font-size:0.875rem;color:var(--text-secondary);margin-bottom:1rem">
+      ${totalCount} document templates across ${categories.length} categories for BNM RMiT compliance.
+    </p>
+    <div class="template-disclaimer">
+      <strong>AI-Generated Templates</strong>
+      These document templates were generated using AI and are provided as indicative starting points only. They must be reviewed, customized, and validated by qualified compliance, legal, and risk professionals before use. Templates do not constitute legal advice. Organizations must adapt all content to their specific context, policies, regulatory obligations, and risk appetite. No template should be used as-is without thorough review and approval through your organization's document governance process.
+    </div>
+    <div class="template-stats">
+      <div class="template-stat">
+        <div class="template-stat-value">${totalCount}</div>
+        <div class="template-stat-label">Total</div>
+      </div>
+      <div class="template-stat">
+        <div class="template-stat-value">${mandatoryCount}</div>
+        <div class="template-stat-label">Mandatory</div>
+      </div>
+      ${categories.map(c => `
+        <div class="template-stat">
+          <div class="template-stat-value">${c.count}</div>
+          <div class="template-stat-label">${escHtml(c.id)}</div>
+        </div>`).join('')}
+    </div>
+    <div class="template-search">
+      <input type="text" id="template-search-input" placeholder="Search templates by name, owner, or category..." autocomplete="off" aria-label="Search templates">
+    </div>
+    <div class="template-filters">
+      <button class="template-filter-btn active" data-tmpl-filter="all">All (${totalCount})</button>
+      ${categories.map(c => `<button class="template-filter-btn" data-tmpl-filter="${escHtml(c.id)}">${escHtml(c.id.charAt(0).toUpperCase() + c.id.slice(1))} (${c.count})</button>`).join('')}
+    </div>
+    <div class="template-results-count" id="template-results-count">Showing ${totalCount} templates</div>
+    <div style="overflow-x:auto">
+      <table class="template-table">
+        <thead>
+          <tr>
+            <th>Template</th>
+            <th>Category</th>
+            <th>Owner</th>
+            <th>Mandatory</th>
+            <th>Review</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="template-table-body">
+          ${templates.map(t => `
+            <tr class="tmpl-row" data-tmpl-category="${escHtml(t.category)}" data-tmpl-search="${escHtml((t.name + ' ' + t.category + ' ' + t.owner).toLowerCase())}">
+              <td class="tmpl-name">${escHtml(t.name)}</td>
+              <td><span class="template-category-badge cat-${escHtml(t.category)}">${escHtml(t.category)}</span></td>
+              <td class="tmpl-owner">${escHtml(t.owner)}</td>
+              <td class="${t.mandatory ? 'tmpl-mandatory-yes' : 'tmpl-mandatory-no'}">${t.mandatory ? 'Yes' : 'No'}</td>
+              <td class="tmpl-review">${escHtml(t.reviewFrequency)}</td>
+              <td><a href="${escHtml(t.githubUrl)}" target="_blank" rel="noopener noreferrer" class="tmpl-view-link">View on GitHub</a></td>
+            </tr>`).join('')}
+        </tbody>
+      </table>
+    </div>`;
+}
+
+function filterTemplates() {
+  const searchInput = document.getElementById('template-search-input');
+  const query = searchInput ? searchInput.value.trim().toLowerCase() : '';
+  const activeFilter = document.querySelector('.template-filter-btn.active');
+  const category = activeFilter ? activeFilter.dataset.tmplFilter : 'all';
+
+  let visible = 0;
+  document.querySelectorAll('.tmpl-row').forEach(row => {
+    const matchesCategory = category === 'all' || row.dataset.tmplCategory === category;
+    const matchesSearch = !query || row.dataset.tmplSearch.includes(query);
+    const show = matchesCategory && matchesSearch;
+    row.style.display = show ? '' : 'none';
+    if (show) visible++;
+  });
+
+  const countEl = document.getElementById('template-results-count');
+  if (countEl) countEl.textContent = `Showing ${visible} template${visible !== 1 ? 's' : ''}`;
+}
+
 function updateNav() {
   document.querySelectorAll('.nav-link').forEach(el => {
     const view = el.dataset.view;
@@ -951,7 +1040,8 @@ function updateNav() {
       (view === 'overview' && state.route.view === 'section') ||
       (view === 'overview' && state.route.view === 'clause') ||
       (view === 'controls-browser' && state.route.view === 'control-detail') ||
-      (view === 'risk-management' && state.route.view === 'risk-management')
+      (view === 'risk-management' && state.route.view === 'risk-management') ||
+      (view === 'templates' && state.route.view === 'templates')
     );
   });
 }
@@ -1044,6 +1134,18 @@ async function render() {
         }
       }
       content = renderRiskManagement();
+      break;
+    case 'templates':
+      if (!state.templates) {
+        app.innerHTML = `<div class="main">${renderLoading()}</div>`;
+        try {
+          state.templates = await fetchJSON('templates/index.json');
+        } catch (err) {
+          app.innerHTML = `<div class="main"><div class="error-state">Failed to load templates: ${escHtml(err.message)}</div></div>`;
+          return;
+        }
+      }
+      content = renderTemplates();
       break;
     default: content = renderOverview();
   }
@@ -1146,6 +1248,14 @@ function setupEvents() {
       return;
     }
 
+    // Template filter buttons
+    const tmplFilterBtn = e.target.closest('.template-filter-btn');
+    if (tmplFilterBtn) {
+      document.querySelectorAll('.template-filter-btn').forEach(b => b.classList.toggle('active', b === tmplFilterBtn));
+      filterTemplates();
+      return;
+    }
+
     // Risk filter buttons
     const filterBtn = e.target.closest('.risk-filter-btn');
     if (filterBtn) {
@@ -1178,6 +1288,10 @@ function setupEvents() {
 
   let searchTimeout;
   document.addEventListener('input', (e) => {
+    if (e.target.id === 'template-search-input') {
+      filterTemplates();
+      return;
+    }
     if (e.target.id === 'search-input') {
       clearTimeout(searchTimeout);
       searchTimeout = setTimeout(() => {

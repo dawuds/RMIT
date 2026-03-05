@@ -1,0 +1,3330 @@
+{
+  "sourceType": "constructed-indicative",
+  "disclaimer": "These document templates were generated using AI and are provided as indicative starting points only. They must be reviewed, customized, and validated by qualified compliance, legal, and risk professionals before use in any regulatory or organizational context.",
+  "totalCount": 365,
+  "categories": [
+    {
+      "id": "evidence",
+      "name": "Evidence Templates",
+      "count": 131,
+      "description": "Templates for documenting compliance evidence and audit artifacts"
+    },
+    {
+      "id": "governance",
+      "name": "Governance Templates",
+      "count": 31,
+      "description": "Templates for governance frameworks, charters, and oversight structures"
+    },
+    {
+      "id": "logs",
+      "name": "Log Templates",
+      "count": 32,
+      "description": "Templates for operational logs, audit trails, and monitoring records"
+    },
+    {
+      "id": "policies",
+      "name": "Policy Templates",
+      "count": 17,
+      "description": "Templates for organizational security and technology policies"
+    },
+    {
+      "id": "procedures",
+      "name": "Procedure Templates",
+      "count": 76,
+      "description": "Templates for operational procedures, standards, and methodologies"
+    },
+    {
+      "id": "reports",
+      "name": "Report Templates",
+      "count": 78,
+      "description": "Templates for assessment reports, dashboards, and compliance reporting"
+    }
+  ],
+  "templates": [
+    {
+      "filename": "access-control-system-configuration.md",
+      "name": "Access Control System Configuration",
+      "category": "evidence",
+      "owner": "IAM Manager",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/access-control-system-configuration.md"
+    },
+    {
+      "filename": "access-revocation-evidence.md",
+      "name": "Access Revocation Evidence",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/access-revocation-evidence.md"
+    },
+    {
+      "filename": "annual-policy-review-records.md",
+      "name": "Annual Policy Review Records",
+      "category": "evidence",
+      "owner": "IAM Manager",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/annual-policy-review-records.md"
+    },
+    {
+      "filename": "annual-review-records.md",
+      "name": "Annual Review Records",
+      "category": "evidence",
+      "owner": "CISO / Head of Cryptography",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/annual-review-records.md"
+    },
+    {
+      "filename": "annual-vendor-reassessment-records.md",
+      "name": "Annual Vendor Reassessment Records",
+      "category": "evidence",
+      "owner": "Head of Vendor Management",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/annual-vendor-reassessment-records.md"
+    },
+    {
+      "filename": "api-inventory.md",
+      "name": "API Inventory",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/api-inventory.md"
+    },
+    {
+      "filename": "attack-surface-monitoring.md",
+      "name": "Attack Surface Monitoring",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/attack-surface-monitoring.md"
+    },
+    {
+      "filename": "audit-access-rights.md",
+      "name": "Audit Access Rights",
+      "category": "evidence",
+      "owner": "Head of Internal Audit",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/audit-access-rights.md"
+    },
+    {
+      "filename": "audit-committee-approval.md",
+      "name": "Audit Committee Approval",
+      "category": "evidence",
+      "owner": "Head of Internal Audit",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/audit-committee-approval.md"
+    },
+    {
+      "filename": "audit-finding-notifications.md",
+      "name": "Audit Finding Notifications",
+      "category": "evidence",
+      "owner": "Head of Internal Audit",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/audit-finding-notifications.md"
+    },
+    {
+      "filename": "audit-reporting-line-documentation.md",
+      "name": "Audit Reporting Line Documentation",
+      "category": "evidence",
+      "owner": "Head of Internal Audit",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/audit-reporting-line-documentation.md"
+    },
+    {
+      "filename": "auditor-certification-records.md",
+      "name": "Auditor Certification Records",
+      "category": "evidence",
+      "owner": "Head of Internal Audit",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/auditor-certification-records.md"
+    },
+    {
+      "filename": "authentication-configuration.md",
+      "name": "Authentication Configuration",
+      "category": "evidence",
+      "owner": "IAM Manager",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/authentication-configuration.md"
+    },
+    {
+      "filename": "backup-configuration-evidence.md",
+      "name": "Backup Configuration Evidence",
+      "category": "evidence",
+      "owner": "CISO / Head of Cryptography",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/backup-configuration-evidence.md"
+    },
+    {
+      "filename": "bcp-alignment-mapping.md",
+      "name": "BCP Alignment Mapping",
+      "category": "evidence",
+      "owner": "Head of IT Operations",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/bcp-alignment-mapping.md"
+    },
+    {
+      "filename": "bia-review-records.md",
+      "name": "BIA Review Records",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/bia-review-records.md"
+    },
+    {
+      "filename": "board-acknowledgement-records.md",
+      "name": "Board Acknowledgement Records",
+      "category": "evidence",
+      "owner": "Board of Directors / Company Secretary",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/board-acknowledgement-records.md"
+    },
+    {
+      "filename": "board-approval-record.md",
+      "name": "Board Approval Record",
+      "category": "evidence",
+      "owner": "Board of Directors / Company Secretary",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/board-approval-record.md"
+    },
+    {
+      "filename": "board-meeting-minutes.md",
+      "name": "Board Meeting Minutes",
+      "category": "evidence",
+      "owner": "Board of Directors / Company Secretary",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/board-meeting-minutes.md"
+    },
+    {
+      "filename": "board-outsourcing-approvals.md",
+      "name": "Board Outsourcing Approvals",
+      "category": "evidence",
+      "owner": "Board of Directors / Company Secretary",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/board-outsourcing-approvals.md"
+    },
+    {
+      "filename": "board-strategy-approval.md",
+      "name": "Board Strategy Approval",
+      "category": "evidence",
+      "owner": "Board of Directors / Company Secretary",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/board-strategy-approval.md"
+    },
+    {
+      "filename": "board-training-records.md",
+      "name": "Board Training Records",
+      "category": "evidence",
+      "owner": "Board of Directors / Company Secretary",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/board-training-records.md"
+    },
+    {
+      "filename": "capacity-scaling-records.md",
+      "name": "Capacity Scaling Records",
+      "category": "evidence",
+      "owner": "Head of IT Operations",
+      "mandatory": false,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/capacity-scaling-records.md"
+    },
+    {
+      "filename": "cctv-configuration-evidence.md",
+      "name": "CCTV Configuration Evidence",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/cctv-configuration-evidence.md"
+    },
+    {
+      "filename": "certificate-inventory.md",
+      "name": "Certificate Inventory",
+      "category": "evidence",
+      "owner": "Head of Digital Banking",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/certificate-inventory.md"
+    },
+    {
+      "filename": "ciso-board-reporting-records.md",
+      "name": "CISO Board Reporting Records",
+      "category": "evidence",
+      "owner": "Board of Directors / Company Secretary",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/ciso-board-reporting-records.md"
+    },
+    {
+      "filename": "cloud-notification-records.md",
+      "name": "Cloud Notification Records",
+      "category": "evidence",
+      "owner": "Cloud Architecture Lead",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/cloud-notification-records.md"
+    },
+    {
+      "filename": "cloud-portability-architecture.md",
+      "name": "Cloud Portability Architecture",
+      "category": "evidence",
+      "owner": "Head of Vendor Management",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/cloud-portability-architecture.md"
+    },
+    {
+      "filename": "cloud-security-configuration.md",
+      "name": "Cloud Security Configuration",
+      "category": "evidence",
+      "owner": "Network Security Manager",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/cloud-security-configuration.md"
+    },
+    {
+      "filename": "committee-meeting-minutes.md",
+      "name": "Committee Meeting Minutes",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/committee-meeting-minutes.md"
+    },
+    {
+      "filename": "communication-plan-test-records.md",
+      "name": "Communication Plan Test Records",
+      "category": "evidence",
+      "owner": "QA Lead",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/communication-plan-test-records.md"
+    },
+    {
+      "filename": "compliance-evidence-package.md",
+      "name": "Compliance Evidence Package",
+      "category": "evidence",
+      "owner": "Chief Compliance Officer",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/compliance-evidence-package.md"
+    },
+    {
+      "filename": "configuration-management-database.md",
+      "name": "Configuration Management Database",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/configuration-management-database.md"
+    },
+    {
+      "filename": "cpd-records.md",
+      "name": "CPD Records",
+      "category": "evidence",
+      "owner": "Head of Application Development",
+      "mandatory": false,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/cpd-records.md"
+    },
+    {
+      "filename": "crisis-simulation-records.md",
+      "name": "Crisis Simulation Records",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/crisis-simulation-records.md"
+    },
+    {
+      "filename": "data-location-mapping.md",
+      "name": "Data Location Mapping",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/data-location-mapping.md"
+    },
+    {
+      "filename": "data-residency-agreements.md",
+      "name": "Data Residency Agreements",
+      "category": "evidence",
+      "owner": "Cloud Architecture Lead",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/data-residency-agreements.md"
+    },
+    {
+      "filename": "de-provisioning-compliance-records.md",
+      "name": "De-provisioning Compliance Records",
+      "category": "evidence",
+      "owner": "Chief Compliance Officer",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/de-provisioning-compliance-records.md"
+    },
+    {
+      "filename": "detection-tool-configuration.md",
+      "name": "Detection Tool Configuration",
+      "category": "evidence",
+      "owner": "SOC Manager",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/detection-tool-configuration.md"
+    },
+    {
+      "filename": "developer-training-records.md",
+      "name": "Developer Training Records",
+      "category": "evidence",
+      "owner": "Head of Application Development",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/developer-training-records.md"
+    },
+    {
+      "filename": "dlp-configuration-evidence.md",
+      "name": "DLP Configuration Evidence",
+      "category": "evidence",
+      "owner": "Security Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/dlp-configuration-evidence.md"
+    },
+    {
+      "filename": "dns-infrastructure-design.md",
+      "name": "DNS Infrastructure Design",
+      "category": "evidence",
+      "owner": "Head of IT Operations",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/dns-infrastructure-design.md"
+    },
+    {
+      "filename": "dns-security-configuration.md",
+      "name": "DNS Security Configuration",
+      "category": "evidence",
+      "owner": "Network Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/dns-security-configuration.md"
+    },
+    {
+      "filename": "edr-configuration-evidence.md",
+      "name": "EDR Configuration Evidence",
+      "category": "evidence",
+      "owner": "Security Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/edr-configuration-evidence.md"
+    },
+    {
+      "filename": "edr-deployment-documentation.md",
+      "name": "EDR Deployment Documentation",
+      "category": "evidence",
+      "owner": "Security Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/edr-deployment-documentation.md"
+    },
+    {
+      "filename": "email-authentication-records.md",
+      "name": "Email Authentication Records",
+      "category": "evidence",
+      "owner": "IAM Manager",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/email-authentication-records.md"
+    },
+    {
+      "filename": "email-security-configuration.md",
+      "name": "Email Security Configuration",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/email-security-configuration.md"
+    },
+    {
+      "filename": "emergency-response-training-records.md",
+      "name": "Emergency Response Training Records",
+      "category": "evidence",
+      "owner": "Head of HR / CISO",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/emergency-response-training-records.md"
+    },
+    {
+      "filename": "encryption-implementation-evidence.md",
+      "name": "Encryption Implementation Evidence",
+      "category": "evidence",
+      "owner": "CISO / Head of Cryptography",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/encryption-implementation-evidence.md"
+    },
+    {
+      "filename": "end-of-life-asset-register.md",
+      "name": "End-of-Life Asset Register",
+      "category": "evidence",
+      "owner": "IT Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/end-of-life-asset-register.md"
+    },
+    {
+      "filename": "environment-architecture-diagram.md",
+      "name": "Environment Architecture Diagram",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/environment-architecture-diagram.md"
+    },
+    {
+      "filename": "environmental-monitoring-configuration.md",
+      "name": "Environmental Monitoring Configuration",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/environmental-monitoring-configuration.md"
+    },
+    {
+      "filename": "eol-risk-acceptance-records.md",
+      "name": "EOL Risk Acceptance Records",
+      "category": "evidence",
+      "owner": "IT Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/eol-risk-acceptance-records.md"
+    },
+    {
+      "filename": "exit-plan-review-records.md",
+      "name": "Exit Plan Review Records",
+      "category": "evidence",
+      "owner": "QA Lead",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/exit-plan-review-records.md"
+    },
+    {
+      "filename": "failover-test-records.md",
+      "name": "Failover Test Records",
+      "category": "evidence",
+      "owner": "Head of IT Operations",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/failover-test-records.md"
+    },
+    {
+      "filename": "finding-escalation-records.md",
+      "name": "Finding Escalation Records",
+      "category": "evidence",
+      "owner": "Chief Executive Officer (CEO)",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/finding-escalation-records.md"
+    },
+    {
+      "filename": "fire-suppression-system-documentation.md",
+      "name": "Fire Suppression System Documentation",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/fire-suppression-system-documentation.md"
+    },
+    {
+      "filename": "follow-up-training-records.md",
+      "name": "Follow-Up Training Records",
+      "category": "evidence",
+      "owner": "Head of HR / CISO",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/follow-up-training-records.md"
+    },
+    {
+      "filename": "fraud-detection-architecture.md",
+      "name": "Fraud Detection Architecture",
+      "category": "evidence",
+      "owner": "Head of Fraud Management",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/fraud-detection-architecture.md"
+    },
+    {
+      "filename": "hsm-configuration-evidence.md",
+      "name": "HSM Configuration Evidence",
+      "category": "evidence",
+      "owner": "CISO / Head of Cryptography",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/hsm-configuration-evidence.md"
+    },
+    {
+      "filename": "hunt-to-detection-records.md",
+      "name": "Hunt-to-Detection Records",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": false,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/hunt-to-detection-records.md"
+    },
+    {
+      "filename": "identity-verification-evidence.md",
+      "name": "Identity Verification Evidence",
+      "category": "evidence",
+      "owner": "IAM Manager",
+      "mandatory": false,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/identity-verification-evidence.md"
+    },
+    {
+      "filename": "ids-ips-deployment-documentation.md",
+      "name": "IDS/IPS Deployment Documentation",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/ids-ips-deployment-documentation.md"
+    },
+    {
+      "filename": "intelligence-source-inventory.md",
+      "name": "Intelligence Source Inventory",
+      "category": "evidence",
+      "owner": "Threat Intelligence Lead",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/intelligence-source-inventory.md"
+    },
+    {
+      "filename": "interdependency-analysis.md",
+      "name": "Interdependency Analysis",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/interdependency-analysis.md"
+    },
+    {
+      "filename": "ioc-integration-evidence.md",
+      "name": "IoC Integration Evidence",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/ioc-integration-evidence.md"
+    },
+    {
+      "filename": "irp-testing-records.md",
+      "name": "IRP Testing Records",
+      "category": "evidence",
+      "owner": "QA Lead",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/irp-testing-records.md"
+    },
+    {
+      "filename": "lessons-learned-register.md",
+      "name": "Lessons Learned Register",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": false,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/lessons-learned-register.md"
+    },
+    {
+      "filename": "log-source-inventory.md",
+      "name": "Log Source Inventory",
+      "category": "evidence",
+      "owner": "SOC Manager",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/log-source-inventory.md"
+    },
+    {
+      "filename": "member-competency-profiles.md",
+      "name": "Member Competency Profiles",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/member-competency-profiles.md"
+    },
+    {
+      "filename": "mfa-configuration-evidence.md",
+      "name": "MFA Configuration Evidence",
+      "category": "evidence",
+      "owner": "IAM Manager",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/mfa-configuration-evidence.md"
+    },
+    {
+      "filename": "mobile-security-feature-evidence.md",
+      "name": "Mobile Security Feature Evidence",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/mobile-security-feature-evidence.md"
+    },
+    {
+      "filename": "network-architecture-diagrams.md",
+      "name": "Network Architecture Diagrams",
+      "category": "evidence",
+      "owner": "Network Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/network-architecture-diagrams.md"
+    },
+    {
+      "filename": "network-monitoring-architecture.md",
+      "name": "Network Monitoring Architecture",
+      "category": "evidence",
+      "owner": "Network Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/network-monitoring-architecture.md"
+    },
+    {
+      "filename": "network-segmentation-design.md",
+      "name": "Network Segmentation Design",
+      "category": "evidence",
+      "owner": "Network Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/network-segmentation-design.md"
+    },
+    {
+      "filename": "notification-templates.md",
+      "name": "Notification Templates",
+      "category": "evidence",
+      "owner": "Head of Regulatory Affairs",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/notification-templates.md"
+    },
+    {
+      "filename": "organisation-structure-chart.md",
+      "name": "Organisation Structure Chart",
+      "category": "evidence",
+      "owner": "HR Director",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/organisation-structure-chart.md"
+    },
+    {
+      "filename": "outsourcing-notification-records.md",
+      "name": "Outsourcing Notification Records",
+      "category": "evidence",
+      "owner": "Head of Vendor Management",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/outsourcing-notification-records.md"
+    },
+    {
+      "filename": "pam-system-configuration.md",
+      "name": "PAM System Configuration",
+      "category": "evidence",
+      "owner": "IAM Manager",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/pam-system-configuration.md"
+    },
+    {
+      "filename": "password-policy-configuration.md",
+      "name": "Password Policy Configuration",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/password-policy-configuration.md"
+    },
+    {
+      "filename": "patch-exception-records.md",
+      "name": "Patch Exception Records",
+      "category": "evidence",
+      "owner": "IT Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/patch-exception-records.md"
+    },
+    {
+      "filename": "policy-communication-records.md",
+      "name": "Policy Communication Records",
+      "category": "evidence",
+      "owner": "IAM Manager",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/policy-communication-records.md"
+    },
+    {
+      "filename": "power-redundancy-architecture.md",
+      "name": "Power Redundancy Architecture",
+      "category": "evidence",
+      "owner": "Head of IT Operations",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/power-redundancy-architecture.md"
+    },
+    {
+      "filename": "project-approval-records.md",
+      "name": "Project Approval Records",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/project-approval-records.md"
+    },
+    {
+      "filename": "project-notification-records.md",
+      "name": "Project Notification Records",
+      "category": "evidence",
+      "owner": "Head of Regulatory Affairs",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/project-notification-records.md"
+    },
+    {
+      "filename": "qr-security-implementation.md",
+      "name": "QR Security Implementation",
+      "category": "evidence",
+      "owner": "CISO / Head of Cryptography",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/qr-security-implementation.md"
+    },
+    {
+      "filename": "quality-gate-records.md",
+      "name": "Quality Gate Records",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/quality-gate-records.md"
+    },
+    {
+      "filename": "quantum-readiness-assessment.md",
+      "name": "Quantum Readiness Assessment",
+      "category": "evidence",
+      "owner": "CISO / Head of Cryptography",
+      "mandatory": false,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/quantum-readiness-assessment.md"
+    },
+    {
+      "filename": "quarterly-review-records.md",
+      "name": "Quarterly Review Records",
+      "category": "evidence",
+      "owner": "Head of Technology Risk",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/quarterly-review-records.md"
+    },
+    {
+      "filename": "release-plans.md",
+      "name": "Release Plans",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/release-plans.md"
+    },
+    {
+      "filename": "remediation-completion-evidence.md",
+      "name": "Remediation Completion Evidence",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/remediation-completion-evidence.md"
+    },
+    {
+      "filename": "remediation-exception-records.md",
+      "name": "Remediation Exception Records",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/remediation-exception-records.md"
+    },
+    {
+      "filename": "remediation-records.md",
+      "name": "Remediation Records",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/remediation-records.md"
+    },
+    {
+      "filename": "remediation-tracking-records.md",
+      "name": "Remediation Tracking Records",
+      "category": "evidence",
+      "owner": "Vulnerability Management Lead",
+      "mandatory": true,
+      "reviewFrequency": "Semi-annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/remediation-tracking-records.md"
+    },
+    {
+      "filename": "remote-access-configuration.md",
+      "name": "Remote Access Configuration",
+      "category": "evidence",
+      "owner": "Security Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/remote-access-configuration.md"
+    },
+    {
+      "filename": "repository-access-controls.md",
+      "name": "Repository Access Controls",
+      "category": "evidence",
+      "owner": "IAM Manager",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/repository-access-controls.md"
+    },
+    {
+      "filename": "requirements-traceability-matrix.md",
+      "name": "Requirements Traceability Matrix",
+      "category": "evidence",
+      "owner": "Head of Application Development",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/requirements-traceability-matrix.md"
+    },
+    {
+      "filename": "requirements-validation-records.md",
+      "name": "Requirements Validation Records",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/requirements-validation-records.md"
+    },
+    {
+      "filename": "risk-acceptance-records.md",
+      "name": "Risk Acceptance Records",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/risk-acceptance-records.md"
+    },
+    {
+      "filename": "risk-appetite-review-records.md",
+      "name": "Risk Appetite Review Records",
+      "category": "evidence",
+      "owner": "Board of Directors / Company Secretary",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/risk-appetite-review-records.md"
+    },
+    {
+      "filename": "risk-assessment-schedule.md",
+      "name": "Risk Assessment Schedule",
+      "category": "evidence",
+      "owner": "Head of Technology Risk",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/risk-assessment-schedule.md"
+    },
+    {
+      "filename": "risk-management-review-records.md",
+      "name": "Risk Management Review Records",
+      "category": "evidence",
+      "owner": "Head of Vendor Management",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/risk-management-review-records.md"
+    },
+    {
+      "filename": "risk-owner-sign-off-records.md",
+      "name": "Risk Owner Sign-off Records",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/risk-owner-sign-off-records.md"
+    },
+    {
+      "filename": "role-specific-training-materials.md",
+      "name": "Role-Specific Training Materials",
+      "category": "evidence",
+      "owner": "Head of HR / CISO",
+      "mandatory": false,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/role-specific-training-materials.md"
+    },
+    {
+      "filename": "rto-rpo-validation-records.md",
+      "name": "RTO/RPO Validation Records",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/rto-rpo-validation-records.md"
+    },
+    {
+      "filename": "sample-incident-notification.md",
+      "name": "Sample Incident Notification",
+      "category": "evidence",
+      "owner": "Head of Regulatory Affairs",
+      "mandatory": true,
+      "reviewFrequency": "Per-event, quarterly trend review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/sample-incident-notification.md"
+    },
+    {
+      "filename": "security-architecture-documentation.md",
+      "name": "Security Architecture Documentation",
+      "category": "evidence",
+      "owner": "Head of Digital Banking",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/security-architecture-documentation.md"
+    },
+    {
+      "filename": "security-checkpoint-evidence.md",
+      "name": "Security Checkpoint Evidence",
+      "category": "evidence",
+      "owner": "Head of Application Development",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/security-checkpoint-evidence.md"
+    },
+    {
+      "filename": "segmentation-configuration-evidence.md",
+      "name": "Segmentation Configuration Evidence",
+      "category": "evidence",
+      "owner": "Network Security Manager",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/segmentation-configuration-evidence.md"
+    },
+    {
+      "filename": "segregation-of-duties-evidence.md",
+      "name": "Segregation of Duties Evidence",
+      "category": "evidence",
+      "owner": "SOC Manager",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/segregation-of-duties-evidence.md"
+    },
+    {
+      "filename": "session-configuration-evidence.md",
+      "name": "Session Configuration Evidence",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/session-configuration-evidence.md"
+    },
+    {
+      "filename": "shared-account-exception-register.md",
+      "name": "Shared Account Exception Register",
+      "category": "evidence",
+      "owner": "IAM Manager",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/shared-account-exception-register.md"
+    },
+    {
+      "filename": "shared-responsibility-documentation.md",
+      "name": "Shared Responsibility Documentation",
+      "category": "evidence",
+      "owner": "Cloud Architecture Lead",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/shared-responsibility-documentation.md"
+    },
+    {
+      "filename": "siem-architecture-documentation.md",
+      "name": "SIEM Architecture Documentation",
+      "category": "evidence",
+      "owner": "SOC Manager",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/siem-architecture-documentation.md"
+    },
+    {
+      "filename": "soc-staffing-evidence.md",
+      "name": "SOC Staffing Evidence",
+      "category": "evidence",
+      "owner": "SOC Manager",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/soc-staffing-evidence.md"
+    },
+    {
+      "filename": "staffing-and-competency-records.md",
+      "name": "Staffing and Competency Records",
+      "category": "evidence",
+      "owner": "HR Director",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/staffing-and-competency-records.md"
+    },
+    {
+      "filename": "stakeholder-contact-lists.md",
+      "name": "Stakeholder Contact Lists",
+      "category": "evidence",
+      "owner": "Head of Regulatory Affairs",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/stakeholder-contact-lists.md"
+    },
+    {
+      "filename": "standards-alignment-mapping.md",
+      "name": "Standards Alignment Mapping",
+      "category": "evidence",
+      "owner": "CISO / Head of Cryptography",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/standards-alignment-mapping.md"
+    },
+    {
+      "filename": "strategy-alignment-documentation.md",
+      "name": "Strategy Alignment Documentation",
+      "category": "evidence",
+      "owner": "Cloud Architecture Lead",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/strategy-alignment-documentation.md"
+    },
+    {
+      "filename": "technology-dependency-mapping.md",
+      "name": "Technology Dependency Mapping",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/technology-dependency-mapping.md"
+    },
+    {
+      "filename": "test-failure-remediation-records.md",
+      "name": "Test Failure Remediation Records",
+      "category": "evidence",
+      "owner": "Head of IT Operations",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/test-failure-remediation-records.md"
+    },
+    {
+      "filename": "test-plans-and-results.md",
+      "name": "Test Plans and Results",
+      "category": "evidence",
+      "owner": "QA Lead",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/test-plans-and-results.md"
+    },
+    {
+      "filename": "threat-sharing-agreements.md",
+      "name": "Threat Sharing Agreements",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/threat-sharing-agreements.md"
+    },
+    {
+      "filename": "tip-configuration.md",
+      "name": "TIP Configuration",
+      "category": "evidence",
+      "owner": "Threat Intelligence Lead",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/tip-configuration.md"
+    },
+    {
+      "filename": "training-materials.md",
+      "name": "Training Materials",
+      "category": "evidence",
+      "owner": "Head of HR / CISO",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/training-materials.md"
+    },
+    {
+      "filename": "transaction-flow-documentation.md",
+      "name": "Transaction Flow Documentation",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/transaction-flow-documentation.md"
+    },
+    {
+      "filename": "uat-sign-off-records.md",
+      "name": "UAT Sign-off Records",
+      "category": "evidence",
+      "owner": "QA Lead",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/uat-sign-off-records.md"
+    },
+    {
+      "filename": "vendor-certification-register.md",
+      "name": "Vendor Certification Register",
+      "category": "evidence",
+      "owner": "Head of Vendor Management",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/vendor-certification-register.md"
+    },
+    {
+      "filename": "vendor-performance-reviews.md",
+      "name": "Vendor Performance Reviews",
+      "category": "evidence",
+      "owner": "Head of IT Operations",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/vendor-performance-reviews.md"
+    },
+    {
+      "filename": "verification-mechanism-configuration.md",
+      "name": "Verification Mechanism Configuration",
+      "category": "evidence",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/verification-mechanism-configuration.md"
+    },
+    {
+      "filename": "wireless-configuration-evidence.md",
+      "name": "Wireless Configuration Evidence",
+      "category": "evidence",
+      "owner": "CISO / Head of Cryptography",
+      "mandatory": true,
+      "reviewFrequency": "Per-event or quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/evidence/wireless-configuration-evidence.md"
+    },
+    {
+      "filename": "ai-ml-governance-framework.md",
+      "name": "AI/ML Governance Framework",
+      "category": "governance",
+      "owner": "Chief Risk Officer (CRO)",
+      "mandatory": false,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/ai-ml-governance-framework.md"
+    },
+    {
+      "filename": "annual-it-audit-plan.md",
+      "name": "Annual IT Audit Plan",
+      "category": "governance",
+      "owner": "Head of Internal Audit",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/annual-it-audit-plan.md"
+    },
+    {
+      "filename": "audit-independence-policy.md",
+      "name": "Audit Independence Policy",
+      "category": "governance",
+      "owner": "Head of Internal Audit",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/audit-independence-policy.md"
+    },
+    {
+      "filename": "auditor-training-plan.md",
+      "name": "Auditor Training Plan",
+      "category": "governance",
+      "owner": "Head of Application Development",
+      "mandatory": false,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/auditor-training-plan.md"
+    },
+    {
+      "filename": "board-competency-framework.md",
+      "name": "Board Competency Framework",
+      "category": "governance",
+      "owner": "Board of Directors / Company Secretary",
+      "mandatory": false,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/board-competency-framework.md"
+    },
+    {
+      "filename": "board-review-of-self-assessment.md",
+      "name": "Board Review of Self-Assessment",
+      "category": "governance",
+      "owner": "Board of Directors / Company Secretary",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/board-review-of-self-assessment.md"
+    },
+    {
+      "filename": "board-technology-risk-charter.md",
+      "name": "Board Technology Risk Charter",
+      "category": "governance",
+      "owner": "Board of Directors / Company Secretary",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/board-technology-risk-charter.md"
+    },
+    {
+      "filename": "change-advisory-board-terms-of-reference.md",
+      "name": "Change Advisory Board Terms of Reference",
+      "category": "governance",
+      "owner": "Board of Directors / Company Secretary",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/change-advisory-board-terms-of-reference.md"
+    },
+    {
+      "filename": "ciso-appointment-and-mandate.md",
+      "name": "CISO Appointment and Mandate",
+      "category": "governance",
+      "owner": "Chief Information Security Officer (CISO)",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/ciso-appointment-and-mandate.md"
+    },
+    {
+      "filename": "cloud-governance-framework.md",
+      "name": "Cloud Governance Framework",
+      "category": "governance",
+      "owner": "Cloud Architecture Lead",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/cloud-governance-framework.md"
+    },
+    {
+      "filename": "cloud-strategy.md",
+      "name": "Cloud Strategy",
+      "category": "governance",
+      "owner": "Board of Directors / Company Secretary",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/cloud-strategy.md"
+    },
+    {
+      "filename": "crisis-team-roster.md",
+      "name": "Crisis Team Roster",
+      "category": "governance",
+      "owner": "Chief Risk Officer (CRO)",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/crisis-team-roster.md"
+    },
+    {
+      "filename": "cybersecurity-governance-framework.md",
+      "name": "Cybersecurity Governance Framework",
+      "category": "governance",
+      "owner": "Chief Risk Officer (CRO)",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/cybersecurity-governance-framework.md"
+    },
+    {
+      "filename": "cybersecurity-raci-matrix.md",
+      "name": "Cybersecurity RACI Matrix",
+      "category": "governance",
+      "owner": "Chief Risk Officer (CRO)",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/cybersecurity-raci-matrix.md"
+    },
+    {
+      "filename": "cybersecurity-strategy.md",
+      "name": "Cybersecurity Strategy",
+      "category": "governance",
+      "owner": "Board of Directors / Company Secretary",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/cybersecurity-strategy.md"
+    },
+    {
+      "filename": "dr-roles-and-responsibilities-matrix.md",
+      "name": "DR Roles and Responsibilities Matrix",
+      "category": "governance",
+      "owner": "Chief Risk Officer (CRO)",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/dr-roles-and-responsibilities-matrix.md"
+    },
+    {
+      "filename": "it-project-governance-framework.md",
+      "name": "IT Project Governance Framework",
+      "category": "governance",
+      "owner": "Head of IT / PMO Director",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/it-project-governance-framework.md"
+    },
+    {
+      "filename": "outsourcing-governance-framework.md",
+      "name": "Outsourcing Governance Framework",
+      "category": "governance",
+      "owner": "Head of Vendor Management",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/outsourcing-governance-framework.md"
+    },
+    {
+      "filename": "planned-risk-initiatives.md",
+      "name": "Planned Risk Initiatives",
+      "category": "governance",
+      "owner": "Chief Risk Officer (CRO)",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/planned-risk-initiatives.md"
+    },
+    {
+      "filename": "risk-treatment-policy.md",
+      "name": "Risk Treatment Policy",
+      "category": "governance",
+      "owner": "Head of Technology Risk",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/risk-treatment-policy.md"
+    },
+    {
+      "filename": "role-based-training-program.md",
+      "name": "Role-Based Training Program",
+      "category": "governance",
+      "owner": "Head of HR / CISO",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/role-based-training-program.md"
+    },
+    {
+      "filename": "rto-rpo-definitions.md",
+      "name": "RTO/RPO Definitions",
+      "category": "governance",
+      "owner": "Chief Risk Officer (CRO)",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/rto-rpo-definitions.md"
+    },
+    {
+      "filename": "security-awareness-program.md",
+      "name": "Security Awareness Program",
+      "category": "governance",
+      "owner": "Head of HR / CISO",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/security-awareness-program.md"
+    },
+    {
+      "filename": "senior-management-accountability-matrix.md",
+      "name": "Senior Management Accountability Matrix",
+      "category": "governance",
+      "owner": "Chief Executive Officer (CEO)",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/senior-management-accountability-matrix.md"
+    },
+    {
+      "filename": "service-level-agreements.md",
+      "name": "Service Level Agreements",
+      "category": "governance",
+      "owner": "Head of Vendor Management",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/service-level-agreements.md"
+    },
+    {
+      "filename": "significant-finding-criteria.md",
+      "name": "Significant Finding Criteria",
+      "category": "governance",
+      "owner": "Head of Internal Audit",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/significant-finding-criteria.md"
+    },
+    {
+      "filename": "technology-risk-appetite-statement.md",
+      "name": "Technology Risk Appetite Statement",
+      "category": "governance",
+      "owner": "Board of Directors / Company Secretary",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/technology-risk-appetite-statement.md"
+    },
+    {
+      "filename": "technology-risk-committee-terms-of-reference.md",
+      "name": "Technology Risk Committee Terms of Reference",
+      "category": "governance",
+      "owner": "Board of Directors / Company Secretary",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/technology-risk-committee-terms-of-reference.md"
+    },
+    {
+      "filename": "technology-risk-function-charter.md",
+      "name": "Technology Risk Function Charter",
+      "category": "governance",
+      "owner": "Chief Risk Officer (CRO)",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/technology-risk-function-charter.md"
+    },
+    {
+      "filename": "technology-risk-management-framework.md",
+      "name": "Technology Risk Management Framework",
+      "category": "governance",
+      "owner": "Chief Risk Officer (CRO)",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/technology-risk-management-framework.md"
+    },
+    {
+      "filename": "technology-risk-register.md",
+      "name": "Technology Risk Register",
+      "category": "governance",
+      "owner": "Head of Technology Risk",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/governance/technology-risk-register.md"
+    },
+    {
+      "filename": "access-request-and-approval-logs.md",
+      "name": "Access Request and Approval Logs",
+      "category": "logs",
+      "owner": "IT Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/access-request-and-approval-logs.md"
+    },
+    {
+      "filename": "access-review-and-revocation-records.md",
+      "name": "Access Review and Revocation Records",
+      "category": "logs",
+      "owner": "IT Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/access-review-and-revocation-records.md"
+    },
+    {
+      "filename": "alert-investigation-records.md",
+      "name": "Alert Investigation Records",
+      "category": "logs",
+      "owner": "IT Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/alert-investigation-records.md"
+    },
+    {
+      "filename": "backup-execution-logs.md",
+      "name": "Backup Execution Logs",
+      "category": "logs",
+      "owner": "Head of IT Operations",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/backup-execution-logs.md"
+    },
+    {
+      "filename": "certificate-monitoring-logs.md",
+      "name": "Certificate Monitoring Logs",
+      "category": "logs",
+      "owner": "IT Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/certificate-monitoring-logs.md"
+    },
+    {
+      "filename": "change-log.md",
+      "name": "Change Log",
+      "category": "logs",
+      "owner": "Head of Technology Risk",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/change-log.md"
+    },
+    {
+      "filename": "code-migration-audit-trail.md",
+      "name": "Code Migration Audit Trail",
+      "category": "logs",
+      "owner": "Head of Internal Audit",
+      "mandatory": true,
+      "reviewFrequency": "Continuous, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/code-migration-audit-trail.md"
+    },
+    {
+      "filename": "code-review-logs.md",
+      "name": "Code Review Logs",
+      "category": "logs",
+      "owner": "Head of Application Development",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/code-review-logs.md"
+    },
+    {
+      "filename": "deployment-verification-records.md",
+      "name": "Deployment Verification Records",
+      "category": "logs",
+      "owner": "IT Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Continuous, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/deployment-verification-records.md"
+    },
+    {
+      "filename": "disclosure-program-records.md",
+      "name": "Disclosure Program Records",
+      "category": "logs",
+      "owner": "IT Operations Manager",
+      "mandatory": false,
+      "reviewFrequency": "Continuous, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/disclosure-program-records.md"
+    },
+    {
+      "filename": "dlp-incident-records.md",
+      "name": "DLP Incident Records",
+      "category": "logs",
+      "owner": "Data Protection Officer",
+      "mandatory": true,
+      "reviewFrequency": "Per-event, quarterly trend review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/dlp-incident-records.md"
+    },
+    {
+      "filename": "emergency-change-records.md",
+      "name": "Emergency Change Records",
+      "category": "logs",
+      "owner": "IT Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Continuous, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/emergency-change-records.md"
+    },
+    {
+      "filename": "environmental-monitoring-logs.md",
+      "name": "Environmental Monitoring Logs",
+      "category": "logs",
+      "owner": "IT Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/environmental-monitoring-logs.md"
+    },
+    {
+      "filename": "fire-system-test-records.md",
+      "name": "Fire System Test Records",
+      "category": "logs",
+      "owner": "QA Lead",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/fire-system-test-records.md"
+    },
+    {
+      "filename": "firewall-rule-review-records.md",
+      "name": "Firewall Rule Review Records",
+      "category": "logs",
+      "owner": "Network Security Manager",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/firewall-rule-review-records.md"
+    },
+    {
+      "filename": "information-sharing-records.md",
+      "name": "Information Sharing Records",
+      "category": "logs",
+      "owner": "IT Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Continuous, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/information-sharing-records.md"
+    },
+    {
+      "filename": "key-lifecycle-records.md",
+      "name": "Key Lifecycle Records",
+      "category": "logs",
+      "owner": "IT Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Continuous, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/key-lifecycle-records.md"
+    },
+    {
+      "filename": "network-monitoring-alerts.md",
+      "name": "Network Monitoring Alerts",
+      "category": "logs",
+      "owner": "Network Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/network-monitoring-alerts.md"
+    },
+    {
+      "filename": "notification-records.md",
+      "name": "Notification Records",
+      "category": "logs",
+      "owner": "Head of Regulatory Affairs",
+      "mandatory": true,
+      "reviewFrequency": "Per-event, quarterly trend review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/notification-records.md"
+    },
+    {
+      "filename": "patch-deployment-tracking-log.md",
+      "name": "Patch Deployment Tracking Log",
+      "category": "logs",
+      "owner": "IT Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/patch-deployment-tracking-log.md"
+    },
+    {
+      "filename": "power-failover-test-records.md",
+      "name": "Power Failover Test Records",
+      "category": "logs",
+      "owner": "QA Lead",
+      "mandatory": true,
+      "reviewFrequency": "Continuous, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/power-failover-test-records.md"
+    },
+    {
+      "filename": "privileged-access-review-records.md",
+      "name": "Privileged Access Review Records",
+      "category": "logs",
+      "owner": "IAM Manager",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/privileged-access-review-records.md"
+    },
+    {
+      "filename": "privileged-activity-logs.md",
+      "name": "Privileged Activity Logs",
+      "category": "logs",
+      "owner": "IAM Manager",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/privileged-activity-logs.md"
+    },
+    {
+      "filename": "remote-access-logs.md",
+      "name": "Remote Access Logs",
+      "category": "logs",
+      "owner": "IT Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/remote-access-logs.md"
+    },
+    {
+      "filename": "sast-scan-results.md",
+      "name": "SAST Scan Results",
+      "category": "logs",
+      "owner": "IT Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Continuous, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/sast-scan-results.md"
+    },
+    {
+      "filename": "siem-rule-tuning-records.md",
+      "name": "SIEM Rule Tuning Records",
+      "category": "logs",
+      "owner": "SOC Manager",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/siem-rule-tuning-records.md"
+    },
+    {
+      "filename": "signature-update-records.md",
+      "name": "Signature Update Records",
+      "category": "logs",
+      "owner": "IT Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Continuous, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/signature-update-records.md"
+    },
+    {
+      "filename": "sla-breach-records.md",
+      "name": "SLA Breach Records",
+      "category": "logs",
+      "owner": "Head of Vendor Management",
+      "mandatory": true,
+      "reviewFrequency": "Per-event, quarterly trend review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/sla-breach-records.md"
+    },
+    {
+      "filename": "standard-access-review-records.md",
+      "name": "Standard Access Review Records",
+      "category": "logs",
+      "owner": "IT Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/standard-access-review-records.md"
+    },
+    {
+      "filename": "version-control-logs.md",
+      "name": "Version Control Logs",
+      "category": "logs",
+      "owner": "Head of Internal Audit",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/version-control-logs.md"
+    },
+    {
+      "filename": "visitor-management-logs.md",
+      "name": "Visitor Management Logs",
+      "category": "logs",
+      "owner": "Head of Infrastructure",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/visitor-management-logs.md"
+    },
+    {
+      "filename": "vulnerability-remediation-tracking.md",
+      "name": "Vulnerability Remediation Tracking",
+      "category": "logs",
+      "owner": "Vulnerability Management Lead",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/logs/vulnerability-remediation-tracking.md"
+    },
+    {
+      "filename": "access-control-policy.md",
+      "name": "Access Control Policy",
+      "category": "policies",
+      "owner": "IAM Manager",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/policies/access-control-policy.md"
+    },
+    {
+      "filename": "backup-policy.md",
+      "name": "Backup Policy",
+      "category": "policies",
+      "owner": "Head of IT Operations",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/policies/backup-policy.md"
+    },
+    {
+      "filename": "change-management-policy.md",
+      "name": "Change Management Policy",
+      "category": "policies",
+      "owner": "Change Advisory Board (CAB) Chair",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/policies/change-management-policy.md"
+    },
+    {
+      "filename": "cloud-data-residency-policy.md",
+      "name": "Cloud Data Residency Policy",
+      "category": "policies",
+      "owner": "Cloud Architecture Lead",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/policies/cloud-data-residency-policy.md"
+    },
+    {
+      "filename": "cryptographic-policy.md",
+      "name": "Cryptographic Policy",
+      "category": "policies",
+      "owner": "CISO / Head of Cryptography",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/policies/cryptographic-policy.md"
+    },
+    {
+      "filename": "customer-authentication-policy.md",
+      "name": "Customer Authentication Policy",
+      "category": "policies",
+      "owner": "IAM Manager",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/policies/customer-authentication-policy.md"
+    },
+    {
+      "filename": "data-centre-physical-security-policy.md",
+      "name": "Data Centre Physical Security Policy",
+      "category": "policies",
+      "owner": "Head of Infrastructure",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/policies/data-centre-physical-security-policy.md"
+    },
+    {
+      "filename": "dlp-policy.md",
+      "name": "DLP Policy",
+      "category": "policies",
+      "owner": "Data Protection Officer",
+      "mandatory": true,
+      "reviewFrequency": "Per-event, quarterly trend review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/policies/dlp-policy.md"
+    },
+    {
+      "filename": "firewall-management-policy.md",
+      "name": "Firewall Management Policy",
+      "category": "policies",
+      "owner": "Network Security Manager",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/policies/firewall-management-policy.md"
+    },
+    {
+      "filename": "mfa-policy.md",
+      "name": "MFA Policy",
+      "category": "policies",
+      "owner": "IAM Manager",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/policies/mfa-policy.md"
+    },
+    {
+      "filename": "password-policy.md",
+      "name": "Password Policy",
+      "category": "policies",
+      "owner": "CISO / CTO",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/policies/password-policy.md"
+    },
+    {
+      "filename": "patch-management-policy.md",
+      "name": "Patch Management Policy",
+      "category": "policies",
+      "owner": "QA Lead",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/policies/patch-management-policy.md"
+    },
+    {
+      "filename": "privileged-access-policy.md",
+      "name": "Privileged Access Policy",
+      "category": "policies",
+      "owner": "IAM Manager",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/policies/privileged-access-policy.md"
+    },
+    {
+      "filename": "remote-access-security-policy.md",
+      "name": "Remote Access Security Policy",
+      "category": "policies",
+      "owner": "CISO / CTO",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/policies/remote-access-security-policy.md"
+    },
+    {
+      "filename": "third-party-certification-policy.md",
+      "name": "Third-Party Certification Policy",
+      "category": "policies",
+      "owner": "Head of Vendor Management",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/policies/third-party-certification-policy.md"
+    },
+    {
+      "filename": "vulnerability-disclosure-policy.md",
+      "name": "Vulnerability Disclosure Policy",
+      "category": "policies",
+      "owner": "Vulnerability Management Lead",
+      "mandatory": false,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/policies/vulnerability-disclosure-policy.md"
+    },
+    {
+      "filename": "wireless-security-policy.md",
+      "name": "Wireless Security Policy",
+      "category": "policies",
+      "owner": "Network Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/policies/wireless-security-policy.md"
+    },
+    {
+      "filename": "access-review-procedure.md",
+      "name": "Access Review Procedure",
+      "category": "procedures",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/access-review-procedure.md"
+    },
+    {
+      "filename": "api-security-standards.md",
+      "name": "API Security Standards",
+      "category": "procedures",
+      "owner": "IAM Manager",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/api-security-standards.md"
+    },
+    {
+      "filename": "audit-finding-reporting-procedure.md",
+      "name": "Audit Finding Reporting Procedure",
+      "category": "procedures",
+      "owner": "Head of Internal Audit",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/audit-finding-reporting-procedure.md"
+    },
+    {
+      "filename": "audit-follow-up-procedure.md",
+      "name": "Audit Follow-Up Procedure",
+      "category": "procedures",
+      "owner": "Head of Internal Audit",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/audit-follow-up-procedure.md"
+    },
+    {
+      "filename": "audit-scoping-methodology.md",
+      "name": "Audit Scoping Methodology",
+      "category": "procedures",
+      "owner": "Head of Internal Audit",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/audit-scoping-methodology.md"
+    },
+    {
+      "filename": "backup-testing-procedure.md",
+      "name": "Backup Testing Procedure",
+      "category": "procedures",
+      "owner": "Head of IT Operations",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/backup-testing-procedure.md"
+    },
+    {
+      "filename": "bnm-incident-notification-procedure.md",
+      "name": "BNM Incident Notification Procedure",
+      "category": "procedures",
+      "owner": "Head of Regulatory Affairs",
+      "mandatory": true,
+      "reviewFrequency": "Per-event, quarterly trend review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/bnm-incident-notification-procedure.md"
+    },
+    {
+      "filename": "bnm-incident-reporting-procedure.md",
+      "name": "BNM Incident Reporting Procedure",
+      "category": "procedures",
+      "owner": "Head of Regulatory Affairs",
+      "mandatory": true,
+      "reviewFrequency": "Per-event, quarterly trend review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/bnm-incident-reporting-procedure.md"
+    },
+    {
+      "filename": "break-glass-procedure.md",
+      "name": "Break-Glass Procedure",
+      "category": "procedures",
+      "owner": "IAM Manager",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/break-glass-procedure.md"
+    },
+    {
+      "filename": "bug-bounty-program-rules.md",
+      "name": "Bug Bounty Program Rules",
+      "category": "procedures",
+      "owner": "Relevant Department Head",
+      "mandatory": false,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/bug-bounty-program-rules.md"
+    },
+    {
+      "filename": "capacity-planning-procedure.md",
+      "name": "Capacity Planning Procedure",
+      "category": "procedures",
+      "owner": "Head of IT Operations",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/capacity-planning-procedure.md"
+    },
+    {
+      "filename": "certificate-management-procedure.md",
+      "name": "Certificate Management Procedure",
+      "category": "procedures",
+      "owner": "Head of Digital Banking",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/certificate-management-procedure.md"
+    },
+    {
+      "filename": "cloud-adoption-notification-procedure.md",
+      "name": "Cloud Adoption Notification Procedure",
+      "category": "procedures",
+      "owner": "Cloud Architecture Lead",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/cloud-adoption-notification-procedure.md"
+    },
+    {
+      "filename": "cloud-exit-strategy.md",
+      "name": "Cloud Exit Strategy",
+      "category": "procedures",
+      "owner": "Cloud Architecture Lead",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/cloud-exit-strategy.md"
+    },
+    {
+      "filename": "cloud-risk-assessment-methodology.md",
+      "name": "Cloud Risk Assessment Methodology",
+      "category": "procedures",
+      "owner": "Head of Technology Risk",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/cloud-risk-assessment-methodology.md"
+    },
+    {
+      "filename": "cloud-security-control-framework.md",
+      "name": "Cloud Security Control Framework",
+      "category": "procedures",
+      "owner": "Cloud Architecture Lead",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/cloud-security-control-framework.md"
+    },
+    {
+      "filename": "code-review-procedure.md",
+      "name": "Code Review Procedure",
+      "category": "procedures",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/code-review-procedure.md"
+    },
+    {
+      "filename": "configuration-management-procedure.md",
+      "name": "Configuration Management Procedure",
+      "category": "procedures",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/configuration-management-procedure.md"
+    },
+    {
+      "filename": "crisis-communication-plan.md",
+      "name": "Crisis Communication Plan",
+      "category": "procedures",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/crisis-communication-plan.md"
+    },
+    {
+      "filename": "cyber-crisis-management-plan.md",
+      "name": "Cyber Crisis Management Plan",
+      "category": "procedures",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/cyber-crisis-management-plan.md"
+    },
+    {
+      "filename": "data-centre-access-control-procedure.md",
+      "name": "Data Centre Access Control Procedure",
+      "category": "procedures",
+      "owner": "IAM Manager",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/data-centre-access-control-procedure.md"
+    },
+    {
+      "filename": "data-masking-procedure.md",
+      "name": "Data Masking Procedure",
+      "category": "procedures",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/data-masking-procedure.md"
+    },
+    {
+      "filename": "data-migration-plan.md",
+      "name": "Data Migration Plan",
+      "category": "procedures",
+      "owner": "Head of Vendor Management",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/data-migration-plan.md"
+    },
+    {
+      "filename": "digital-channel-security-standards.md",
+      "name": "Digital Channel Security Standards",
+      "category": "procedures",
+      "owner": "Head of Digital Banking",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/digital-channel-security-standards.md"
+    },
+    {
+      "filename": "digital-onboarding-security-standards.md",
+      "name": "Digital Onboarding Security Standards",
+      "category": "procedures",
+      "owner": "Board of Directors / Company Secretary",
+      "mandatory": false,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/digital-onboarding-security-standards.md"
+    },
+    {
+      "filename": "disaster-recovery-plans.md",
+      "name": "Disaster Recovery Plans",
+      "category": "procedures",
+      "owner": "Head of IT Operations",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/disaster-recovery-plans.md"
+    },
+    {
+      "filename": "dns-security-standards.md",
+      "name": "DNS Security Standards",
+      "category": "procedures",
+      "owner": "Network Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Per-event, quarterly trend review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/dns-security-standards.md"
+    },
+    {
+      "filename": "dr-communication-plan.md",
+      "name": "DR Communication Plan",
+      "category": "procedures",
+      "owner": "Head of IT Operations",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/dr-communication-plan.md"
+    },
+    {
+      "filename": "emergency-change-procedure.md",
+      "name": "Emergency Change Procedure",
+      "category": "procedures",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/emergency-change-procedure.md"
+    },
+    {
+      "filename": "emerging-technology-risk-assessment-framework.md",
+      "name": "Emerging Technology Risk Assessment Framework",
+      "category": "procedures",
+      "owner": "Head of Technology Risk",
+      "mandatory": false,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/emerging-technology-risk-assessment-framework.md"
+    },
+    {
+      "filename": "encryption-standards.md",
+      "name": "Encryption Standards",
+      "category": "procedures",
+      "owner": "CISO / Head of Cryptography",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/encryption-standards.md"
+    },
+    {
+      "filename": "environment-separation-policy.md",
+      "name": "Environment Separation Policy",
+      "category": "procedures",
+      "owner": "Head of Application Development",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/environment-separation-policy.md"
+    },
+    {
+      "filename": "environmental-control-procedures.md",
+      "name": "Environmental Control Procedures",
+      "category": "procedures",
+      "owner": "Head of Infrastructure",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/environmental-control-procedures.md"
+    },
+    {
+      "filename": "escalation-procedures.md",
+      "name": "Escalation Procedures",
+      "category": "procedures",
+      "owner": "Chief Risk Officer (CRO)",
+      "mandatory": false,
+      "reviewFrequency": "Per-event, quarterly trend review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/escalation-procedures.md"
+    },
+    {
+      "filename": "fraud-investigation-procedures.md",
+      "name": "Fraud Investigation Procedures",
+      "category": "procedures",
+      "owner": "Head of Fraud Management",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/fraud-investigation-procedures.md"
+    },
+    {
+      "filename": "incident-classification-framework.md",
+      "name": "Incident Classification Framework",
+      "category": "procedures",
+      "owner": "Head of Regulatory Affairs",
+      "mandatory": true,
+      "reviewFrequency": "Per-event, quarterly trend review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/incident-classification-framework.md"
+    },
+    {
+      "filename": "incident-response-plan.md",
+      "name": "Incident Response Plan",
+      "category": "procedures",
+      "owner": "Incident Response Lead",
+      "mandatory": true,
+      "reviewFrequency": "Per-event, quarterly trend review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/incident-response-plan.md"
+    },
+    {
+      "filename": "ioc-management-procedure.md",
+      "name": "IoC Management Procedure",
+      "category": "procedures",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/ioc-management-procedure.md"
+    },
+    {
+      "filename": "it-service-continuity-plan.md",
+      "name": "IT Service Continuity Plan",
+      "category": "procedures",
+      "owner": "Head of IT Operations",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/it-service-continuity-plan.md"
+    },
+    {
+      "filename": "key-management-framework.md",
+      "name": "Key Management Framework",
+      "category": "procedures",
+      "owner": "CISO / Head of Cryptography",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/key-management-framework.md"
+    },
+    {
+      "filename": "mobile-app-security-standards.md",
+      "name": "Mobile App Security Standards",
+      "category": "procedures",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/mobile-app-security-standards.md"
+    },
+    {
+      "filename": "model-risk-management-procedures.md",
+      "name": "Model Risk Management Procedures",
+      "category": "procedures",
+      "owner": "Relevant Department Head",
+      "mandatory": false,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/model-risk-management-procedures.md"
+    },
+    {
+      "filename": "network-architecture-standards.md",
+      "name": "Network Architecture Standards",
+      "category": "procedures",
+      "owner": "Network Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/network-architecture-standards.md"
+    },
+    {
+      "filename": "network-monitoring-procedures.md",
+      "name": "Network Monitoring Procedures",
+      "category": "procedures",
+      "owner": "Network Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/network-monitoring-procedures.md"
+    },
+    {
+      "filename": "outsourcing-notification-procedure.md",
+      "name": "Outsourcing Notification Procedure",
+      "category": "procedures",
+      "owner": "Head of Vendor Management",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/outsourcing-notification-procedure.md"
+    },
+    {
+      "filename": "patch-deployment-timeline-standards.md",
+      "name": "Patch Deployment Timeline Standards",
+      "category": "procedures",
+      "owner": "IT Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/patch-deployment-timeline-standards.md"
+    },
+    {
+      "filename": "patch-testing-procedure.md",
+      "name": "Patch Testing Procedure",
+      "category": "procedures",
+      "owner": "QA Lead",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/patch-testing-procedure.md"
+    },
+    {
+      "filename": "penetration-testing-policy.md",
+      "name": "Penetration Testing Policy",
+      "category": "procedures",
+      "owner": "Vulnerability Management Lead",
+      "mandatory": true,
+      "reviewFrequency": "Semi-annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/penetration-testing-policy.md"
+    },
+    {
+      "filename": "phishing-simulation-procedure.md",
+      "name": "Phishing Simulation Procedure",
+      "category": "procedures",
+      "owner": "Head of HR / CISO",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/phishing-simulation-procedure.md"
+    },
+    {
+      "filename": "project-risk-assessment-methodology.md",
+      "name": "Project Risk Assessment Methodology",
+      "category": "procedures",
+      "owner": "Head of Technology Risk",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/project-risk-assessment-methodology.md"
+    },
+    {
+      "filename": "qr-code-and-e-wallet-security-standards.md",
+      "name": "QR Code and E-Wallet Security Standards",
+      "category": "procedures",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/qr-code-and-e-wallet-security-standards.md"
+    },
+    {
+      "filename": "red-team-rules-of-engagement.md",
+      "name": "Red Team Rules of Engagement",
+      "category": "procedures",
+      "owner": "Relevant Department Head",
+      "mandatory": false,
+      "reviewFrequency": "Semi-annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/red-team-rules-of-engagement.md"
+    },
+    {
+      "filename": "regulatory-examination-response-procedure.md",
+      "name": "Regulatory Examination Response Procedure",
+      "category": "procedures",
+      "owner": "Head of Regulatory Affairs",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/regulatory-examination-response-procedure.md"
+    },
+    {
+      "filename": "release-management-procedure.md",
+      "name": "Release Management Procedure",
+      "category": "procedures",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/release-management-procedure.md"
+    },
+    {
+      "filename": "requirements-management-procedure.md",
+      "name": "Requirements Management Procedure",
+      "category": "procedures",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/requirements-management-procedure.md"
+    },
+    {
+      "filename": "risk-assessment-methodology.md",
+      "name": "Risk Assessment Methodology",
+      "category": "procedures",
+      "owner": "Head of Technology Risk",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/risk-assessment-methodology.md"
+    },
+    {
+      "filename": "risk-monitoring-procedures.md",
+      "name": "Risk Monitoring Procedures",
+      "category": "procedures",
+      "owner": "Head of Technology Risk",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/risk-monitoring-procedures.md"
+    },
+    {
+      "filename": "sdlc-framework-document.md",
+      "name": "SDLC Framework Document",
+      "category": "procedures",
+      "owner": "Head of Application Development",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/sdlc-framework-document.md"
+    },
+    {
+      "filename": "secure-coding-standards.md",
+      "name": "Secure Coding Standards",
+      "category": "procedures",
+      "owner": "Head of Application Development",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/secure-coding-standards.md"
+    },
+    {
+      "filename": "session-management-standards.md",
+      "name": "Session Management Standards",
+      "category": "procedures",
+      "owner": "Head of Digital Banking",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/session-management-standards.md"
+    },
+    {
+      "filename": "situational-awareness-program.md",
+      "name": "Situational Awareness Program",
+      "category": "procedures",
+      "owner": "QA Lead",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/situational-awareness-program.md"
+    },
+    {
+      "filename": "soc-operational-procedures.md",
+      "name": "SOC Operational Procedures",
+      "category": "procedures",
+      "owner": "SOC Manager",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/soc-operational-procedures.md"
+    },
+    {
+      "filename": "source-code-protection-policy.md",
+      "name": "Source Code Protection Policy",
+      "category": "procedures",
+      "owner": "Head of Application Development",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/source-code-protection-policy.md"
+    },
+    {
+      "filename": "technology-project-notification-procedure.md",
+      "name": "Technology Project Notification Procedure",
+      "category": "procedures",
+      "owner": "Head of Regulatory Affairs",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/technology-project-notification-procedure.md"
+    },
+    {
+      "filename": "testing-standards-document.md",
+      "name": "Testing Standards Document",
+      "category": "procedures",
+      "owner": "Head of IT Operations",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/testing-standards-document.md"
+    },
+    {
+      "filename": "third-party-assessment-policy.md",
+      "name": "Third-Party Assessment Policy",
+      "category": "procedures",
+      "owner": "Head of Vendor Management",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/third-party-assessment-policy.md"
+    },
+    {
+      "filename": "threat-hunting-program.md",
+      "name": "Threat Hunting Program",
+      "category": "procedures",
+      "owner": "Relevant Department Head",
+      "mandatory": false,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/threat-hunting-program.md"
+    },
+    {
+      "filename": "threat-intelligence-program.md",
+      "name": "Threat Intelligence Program",
+      "category": "procedures",
+      "owner": "Threat Intelligence Lead",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/threat-intelligence-program.md"
+    },
+    {
+      "filename": "tlp-handling-procedures.md",
+      "name": "TLP Handling Procedures",
+      "category": "procedures",
+      "owner": "Threat Intelligence Lead",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/tlp-handling-procedures.md"
+    },
+    {
+      "filename": "transaction-verification-procedure.md",
+      "name": "Transaction Verification Procedure",
+      "category": "procedures",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/transaction-verification-procedure.md"
+    },
+    {
+      "filename": "uat-procedure.md",
+      "name": "UAT Procedure",
+      "category": "procedures",
+      "owner": "QA Lead",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/uat-procedure.md"
+    },
+    {
+      "filename": "user-access-provisioning-procedure.md",
+      "name": "User Access Provisioning Procedure",
+      "category": "procedures",
+      "owner": "Relevant Department Head",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/user-access-provisioning-procedure.md"
+    },
+    {
+      "filename": "vendor-exit-strategy.md",
+      "name": "Vendor Exit Strategy",
+      "category": "procedures",
+      "owner": "Head of Vendor Management",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/vendor-exit-strategy.md"
+    },
+    {
+      "filename": "vendor-risk-assessment-framework.md",
+      "name": "Vendor Risk Assessment Framework",
+      "category": "procedures",
+      "owner": "Head of Technology Risk",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/vendor-risk-assessment-framework.md"
+    },
+    {
+      "filename": "vulnerability-assessment-procedure.md",
+      "name": "Vulnerability Assessment Procedure",
+      "category": "procedures",
+      "owner": "Vulnerability Management Lead",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/vulnerability-assessment-procedure.md"
+    },
+    {
+      "filename": "vulnerability-remediation-procedure.md",
+      "name": "Vulnerability Remediation Procedure",
+      "category": "procedures",
+      "owner": "Vulnerability Management Lead",
+      "mandatory": true,
+      "reviewFrequency": "Annual, or upon significant change",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/procedures/vulnerability-remediation-procedure.md"
+    },
+    {
+      "filename": "ai-model-validation-reports.md",
+      "name": "AI Model Validation Reports",
+      "category": "reports",
+      "owner": "Head of Technology Risk",
+      "mandatory": false,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/ai-model-validation-reports.md"
+    },
+    {
+      "filename": "annual-architecture-review-report.md",
+      "name": "Annual Architecture Review Report",
+      "category": "reports",
+      "owner": "Network Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/annual-architecture-review-report.md"
+    },
+    {
+      "filename": "annual-rmit-self-assessment-report.md",
+      "name": "Annual RMiT Self-Assessment Report",
+      "category": "reports",
+      "owner": "Chief Compliance Officer",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/annual-rmit-self-assessment-report.md"
+    },
+    {
+      "filename": "annual-technology-risk-report.md",
+      "name": "Annual Technology Risk Report",
+      "category": "reports",
+      "owner": "Head of Regulatory Affairs",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/annual-technology-risk-report.md"
+    },
+    {
+      "filename": "api-security-assessment-reports.md",
+      "name": "API Security Assessment Reports",
+      "category": "reports",
+      "owner": "Head of Technology Risk",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/api-security-assessment-reports.md"
+    },
+    {
+      "filename": "audit-finding-register.md",
+      "name": "Audit Finding Register",
+      "category": "reports",
+      "owner": "Head of Internal Audit",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/audit-finding-register.md"
+    },
+    {
+      "filename": "authentication-assessment-report.md",
+      "name": "Authentication Assessment Report",
+      "category": "reports",
+      "owner": "IAM Manager",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/authentication-assessment-report.md"
+    },
+    {
+      "filename": "backup-restoration-test-reports.md",
+      "name": "Backup Restoration Test Reports",
+      "category": "reports",
+      "owner": "Head of IT Operations",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/backup-restoration-test-reports.md"
+    },
+    {
+      "filename": "bia-to-rto-mapping.md",
+      "name": "BIA-to-RTO Mapping",
+      "category": "reports",
+      "owner": "Head of Technology Risk",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/bia-to-rto-mapping.md"
+    },
+    {
+      "filename": "board-competency-assessment-report.md",
+      "name": "Board Competency Assessment Report",
+      "category": "reports",
+      "owner": "Board of Directors / Company Secretary",
+      "mandatory": false,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/board-competency-assessment-report.md"
+    },
+    {
+      "filename": "business-impact-analysis-report.md",
+      "name": "Business Impact Analysis Report",
+      "category": "reports",
+      "owner": "Head of Technology Risk",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/business-impact-analysis-report.md"
+    },
+    {
+      "filename": "capacity-monitoring-reports.md",
+      "name": "Capacity Monitoring Reports",
+      "category": "reports",
+      "owner": "Head of IT Operations",
+      "mandatory": false,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/capacity-monitoring-reports.md"
+    },
+    {
+      "filename": "certification-lapse-assessment-reports.md",
+      "name": "Certification Lapse Assessment Reports",
+      "category": "reports",
+      "owner": "Head of Vendor Management",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/certification-lapse-assessment-reports.md"
+    },
+    {
+      "filename": "cloud-risk-assessment-for-bnm.md",
+      "name": "Cloud Risk Assessment for BNM",
+      "category": "reports",
+      "owner": "Head of Technology Risk",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/cloud-risk-assessment-for-bnm.md"
+    },
+    {
+      "filename": "cloud-risk-assessment-reports.md",
+      "name": "Cloud Risk Assessment Reports",
+      "category": "reports",
+      "owner": "Head of Technology Risk",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/cloud-risk-assessment-reports.md"
+    },
+    {
+      "filename": "cloud-security-assessment-report.md",
+      "name": "Cloud Security Assessment Report",
+      "category": "reports",
+      "owner": "Cloud Architecture Lead",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/cloud-security-assessment-report.md"
+    },
+    {
+      "filename": "configuration-compliance-report.md",
+      "name": "Configuration Compliance Report",
+      "category": "reports",
+      "owner": "Chief Compliance Officer",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/configuration-compliance-report.md"
+    },
+    {
+      "filename": "cryptographic-algorithm-inventory.md",
+      "name": "Cryptographic Algorithm Inventory",
+      "category": "reports",
+      "owner": "CISO / Head of Cryptography",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/cryptographic-algorithm-inventory.md"
+    },
+    {
+      "filename": "digital-channel-assessment-reports.md",
+      "name": "Digital Channel Assessment Reports",
+      "category": "reports",
+      "owner": "Head of Digital Banking",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/digital-channel-assessment-reports.md"
+    },
+    {
+      "filename": "dr-deficiency-remediation-plan.md",
+      "name": "DR Deficiency Remediation Plan",
+      "category": "reports",
+      "owner": "QA Lead",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/dr-deficiency-remediation-plan.md"
+    },
+    {
+      "filename": "dr-test-results-report.md",
+      "name": "DR Test Results Report",
+      "category": "reports",
+      "owner": "Head of IT Operations",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/dr-test-results-report.md"
+    },
+    {
+      "filename": "edr-coverage-and-compliance-report.md",
+      "name": "EDR Coverage and Compliance Report",
+      "category": "reports",
+      "owner": "Security Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/edr-coverage-and-compliance-report.md"
+    },
+    {
+      "filename": "email-security-metrics-report.md",
+      "name": "Email Security Metrics Report",
+      "category": "reports",
+      "owner": "CISO",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/email-security-metrics-report.md"
+    },
+    {
+      "filename": "emergency-change-usage-report.md",
+      "name": "Emergency Change Usage Report",
+      "category": "reports",
+      "owner": "Head of Technology Risk",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/emergency-change-usage-report.md"
+    },
+    {
+      "filename": "emerging-technology-risk-assessments.md",
+      "name": "Emerging Technology Risk Assessments",
+      "category": "reports",
+      "owner": "Head of Technology Risk",
+      "mandatory": false,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/emerging-technology-risk-assessments.md"
+    },
+    {
+      "filename": "eol-migration-plans.md",
+      "name": "EOL Migration Plans",
+      "category": "reports",
+      "owner": "IT Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/eol-migration-plans.md"
+    },
+    {
+      "filename": "examination-finding-action-plans.md",
+      "name": "Examination Finding Action Plans",
+      "category": "reports",
+      "owner": "Head of Regulatory Affairs",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/examination-finding-action-plans.md"
+    },
+    {
+      "filename": "firewall-audit-report.md",
+      "name": "Firewall Audit Report",
+      "category": "reports",
+      "owner": "Network Security Manager",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/firewall-audit-report.md"
+    },
+    {
+      "filename": "framework-review-report.md",
+      "name": "Framework Review Report",
+      "category": "reports",
+      "owner": "Head of Technology Risk",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/framework-review-report.md"
+    },
+    {
+      "filename": "fraud-detection-metrics-report.md",
+      "name": "Fraud Detection Metrics Report",
+      "category": "reports",
+      "owner": "Head of Fraud Management",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/fraud-detection-metrics-report.md"
+    },
+    {
+      "filename": "gap-remediation-plan.md",
+      "name": "Gap Remediation Plan",
+      "category": "reports",
+      "owner": "Chief Compliance Officer",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/gap-remediation-plan.md"
+    },
+    {
+      "filename": "kri-dashboard.md",
+      "name": "KRI Dashboard",
+      "category": "reports",
+      "owner": "Board of Directors / Company Secretary",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/kri-dashboard.md"
+    },
+    {
+      "filename": "kri-monitoring-dashboard.md",
+      "name": "KRI Monitoring Dashboard",
+      "category": "reports",
+      "owner": "Board of Directors / Company Secretary",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/kri-monitoring-dashboard.md"
+    },
+    {
+      "filename": "major-project-risk-assessments.md",
+      "name": "Major Project Risk Assessments",
+      "category": "reports",
+      "owner": "Head of Technology Risk",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/major-project-risk-assessments.md"
+    },
+    {
+      "filename": "mfa-compliance-report.md",
+      "name": "MFA Compliance Report",
+      "category": "reports",
+      "owner": "IAM Manager",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/mfa-compliance-report.md"
+    },
+    {
+      "filename": "mobile-app-security-test-reports.md",
+      "name": "Mobile App Security Test Reports",
+      "category": "reports",
+      "owner": "QA Lead",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/mobile-app-security-test-reports.md"
+    },
+    {
+      "filename": "monthly-sla-performance-reports.md",
+      "name": "Monthly SLA Performance Reports",
+      "category": "reports",
+      "owner": "Head of IT Operations",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/monthly-sla-performance-reports.md"
+    },
+    {
+      "filename": "onboarding-security-assessment.md",
+      "name": "Onboarding Security Assessment",
+      "category": "reports",
+      "owner": "Board of Directors / Company Secretary",
+      "mandatory": false,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/onboarding-security-assessment.md"
+    },
+    {
+      "filename": "outsourcing-monitoring-reports.md",
+      "name": "Outsourcing Monitoring Reports",
+      "category": "reports",
+      "owner": "Head of Vendor Management",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/outsourcing-monitoring-reports.md"
+    },
+    {
+      "filename": "outsourcing-risk-assessment.md",
+      "name": "Outsourcing Risk Assessment",
+      "category": "reports",
+      "owner": "Head of Technology Risk",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/outsourcing-risk-assessment.md"
+    },
+    {
+      "filename": "password-policy-compliance-report.md",
+      "name": "Password Policy Compliance Report",
+      "category": "reports",
+      "owner": "Chief Compliance Officer",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/password-policy-compliance-report.md"
+    },
+    {
+      "filename": "patch-compliance-report.md",
+      "name": "Patch Compliance Report",
+      "category": "reports",
+      "owner": "IT Operations Manager",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/patch-compliance-report.md"
+    },
+    {
+      "filename": "penetration-test-reports.md",
+      "name": "Penetration Test Reports",
+      "category": "reports",
+      "owner": "Vulnerability Management Lead",
+      "mandatory": true,
+      "reviewFrequency": "Semi-annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/penetration-test-reports.md"
+    },
+    {
+      "filename": "phishing-simulation-reports.md",
+      "name": "Phishing Simulation Reports",
+      "category": "reports",
+      "owner": "CISO",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/phishing-simulation-reports.md"
+    },
+    {
+      "filename": "post-implementation-review-report.md",
+      "name": "Post-Implementation Review Report",
+      "category": "reports",
+      "owner": "Head of Technology Risk",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/post-implementation-review-report.md"
+    },
+    {
+      "filename": "post-incident-review-reports.md",
+      "name": "Post-Incident Review Reports",
+      "category": "reports",
+      "owner": "Head of Technology Risk",
+      "mandatory": true,
+      "reviewFrequency": "Per-event, quarterly trend review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/post-incident-review-reports.md"
+    },
+    {
+      "filename": "power-capacity-report.md",
+      "name": "Power Capacity Report",
+      "category": "reports",
+      "owner": "Head of IT Operations",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/power-capacity-report.md"
+    },
+    {
+      "filename": "progress-reports-to-bnm.md",
+      "name": "Progress Reports to BNM",
+      "category": "reports",
+      "owner": "Head of Regulatory Affairs",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/progress-reports-to-bnm.md"
+    },
+    {
+      "filename": "project-risk-assessment-reports.md",
+      "name": "Project Risk Assessment Reports",
+      "category": "reports",
+      "owner": "Head of Technology Risk",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/project-risk-assessment-reports.md"
+    },
+    {
+      "filename": "qr-e-wallet-security-test-report.md",
+      "name": "QR/E-Wallet Security Test Report",
+      "category": "reports",
+      "owner": "QA Lead",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/qr-e-wallet-security-test-report.md"
+    },
+    {
+      "filename": "quarterly-board-risk-report.md",
+      "name": "Quarterly Board Risk Report",
+      "category": "reports",
+      "owner": "Board of Directors / Company Secretary",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/quarterly-board-risk-report.md"
+    },
+    {
+      "filename": "quarterly-remediation-progress-report.md",
+      "name": "Quarterly Remediation Progress Report",
+      "category": "reports",
+      "owner": "Board of Directors / Company Secretary",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/quarterly-remediation-progress-report.md"
+    },
+    {
+      "filename": "red-team-exercise-reports.md",
+      "name": "Red Team Exercise Reports",
+      "category": "reports",
+      "owner": "Head of Technology Risk",
+      "mandatory": false,
+      "reviewFrequency": "Semi-annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/red-team-exercise-reports.md"
+    },
+    {
+      "filename": "red-team-improvement-plan.md",
+      "name": "Red Team Improvement Plan",
+      "category": "reports",
+      "owner": "Head of Technology Risk",
+      "mandatory": false,
+      "reviewFrequency": "Semi-annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/red-team-improvement-plan.md"
+    },
+    {
+      "filename": "remediation-compliance-report.md",
+      "name": "Remediation Compliance Report",
+      "category": "reports",
+      "owner": "Vulnerability Management Lead",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/remediation-compliance-report.md"
+    },
+    {
+      "filename": "risk-appetite-monitoring-report.md",
+      "name": "Risk Appetite Monitoring Report",
+      "category": "reports",
+      "owner": "Chief Risk Officer (CRO)",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/risk-appetite-monitoring-report.md"
+    },
+    {
+      "filename": "risk-control-effectiveness-assessment.md",
+      "name": "Risk Control Effectiveness Assessment",
+      "category": "reports",
+      "owner": "Head of Technology Risk",
+      "mandatory": false,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/risk-control-effectiveness-assessment.md"
+    },
+    {
+      "filename": "risk-treatment-plan-register.md",
+      "name": "Risk Treatment Plan Register",
+      "category": "reports",
+      "owner": "Head of Technology Risk",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/risk-treatment-plan-register.md"
+    },
+    {
+      "filename": "role-based-training-completion-report.md",
+      "name": "Role-Based Training Completion Report",
+      "category": "reports",
+      "owner": "Head of HR / CISO",
+      "mandatory": false,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/role-based-training-completion-report.md"
+    },
+    {
+      "filename": "scenario-analysis-report.md",
+      "name": "Scenario Analysis Report",
+      "category": "reports",
+      "owner": "Head of Technology Risk",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/scenario-analysis-report.md"
+    },
+    {
+      "filename": "segmentation-validation-reports.md",
+      "name": "Segmentation Validation Reports",
+      "category": "reports",
+      "owner": "Vulnerability Management Lead",
+      "mandatory": true,
+      "reviewFrequency": "Semi-annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/segmentation-validation-reports.md"
+    },
+    {
+      "filename": "session-security-test-results.md",
+      "name": "Session Security Test Results",
+      "category": "reports",
+      "owner": "QA Lead",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/session-security-test-results.md"
+    },
+    {
+      "filename": "situational-awareness-reports.md",
+      "name": "Situational Awareness Reports",
+      "category": "reports",
+      "owner": "QA Lead",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/situational-awareness-reports.md"
+    },
+    {
+      "filename": "soc-performance-reports.md",
+      "name": "SOC Performance Reports",
+      "category": "reports",
+      "owner": "SOC Manager",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/soc-performance-reports.md"
+    },
+    {
+      "filename": "strategy-review-report.md",
+      "name": "Strategy Review Report",
+      "category": "reports",
+      "owner": "Head of Technology Risk",
+      "mandatory": true,
+      "reviewFrequency": "Annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/strategy-review-report.md"
+    },
+    {
+      "filename": "technology-risk-assessment-report.md",
+      "name": "Technology Risk Assessment Report",
+      "category": "reports",
+      "owner": "Head of Technology Risk",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/technology-risk-assessment-report.md"
+    },
+    {
+      "filename": "technology-risk-dashboard-for-board.md",
+      "name": "Technology Risk Dashboard for Board",
+      "category": "reports",
+      "owner": "Board of Directors / Company Secretary",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/technology-risk-dashboard-for-board.md"
+    },
+    {
+      "filename": "technology-risk-posture-assessment.md",
+      "name": "Technology Risk Posture Assessment",
+      "category": "reports",
+      "owner": "Head of Technology Risk",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/technology-risk-posture-assessment.md"
+    },
+    {
+      "filename": "test-summary-reports.md",
+      "name": "Test Summary Reports",
+      "category": "reports",
+      "owner": "QA Lead",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/test-summary-reports.md"
+    },
+    {
+      "filename": "third-party-assessment-reports.md",
+      "name": "Third-Party Assessment Reports",
+      "category": "reports",
+      "owner": "Head of Vendor Management",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/third-party-assessment-reports.md"
+    },
+    {
+      "filename": "threat-hunting-reports.md",
+      "name": "Threat Hunting Reports",
+      "category": "reports",
+      "owner": "Head of Technology Risk",
+      "mandatory": false,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/threat-hunting-reports.md"
+    },
+    {
+      "filename": "threat-intelligence-reports.md",
+      "name": "Threat Intelligence Reports",
+      "category": "reports",
+      "owner": "Threat Intelligence Lead",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/threat-intelligence-reports.md"
+    },
+    {
+      "filename": "training-completion-report.md",
+      "name": "Training Completion Report",
+      "category": "reports",
+      "owner": "Head of HR / CISO",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/training-completion-report.md"
+    },
+    {
+      "filename": "vendor-lock-in-risk-assessment.md",
+      "name": "Vendor Lock-In Risk Assessment",
+      "category": "reports",
+      "owner": "Head of Technology Risk",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/vendor-lock-in-risk-assessment.md"
+    },
+    {
+      "filename": "vendor-risk-assessment-reports.md",
+      "name": "Vendor Risk Assessment Reports",
+      "category": "reports",
+      "owner": "Head of Technology Risk",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/vendor-risk-assessment-reports.md"
+    },
+    {
+      "filename": "vendor-sla-monitoring-reports.md",
+      "name": "Vendor SLA Monitoring Reports",
+      "category": "reports",
+      "owner": "Head of IT Operations",
+      "mandatory": true,
+      "reviewFrequency": "Continuous monitoring, quarterly review",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/vendor-sla-monitoring-reports.md"
+    },
+    {
+      "filename": "vulnerability-assessment-reports.md",
+      "name": "Vulnerability Assessment Reports",
+      "category": "reports",
+      "owner": "Vulnerability Management Lead",
+      "mandatory": true,
+      "reviewFrequency": "Quarterly",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/vulnerability-assessment-reports.md"
+    },
+    {
+      "filename": "wireless-security-assessment-reports.md",
+      "name": "Wireless Security Assessment Reports",
+      "category": "reports",
+      "owner": "Vulnerability Management Lead",
+      "mandatory": true,
+      "reviewFrequency": "Semi-annual",
+      "githubUrl": "https://github.com/dawuds/RMIT/blob/main/templates/reports/wireless-security-assessment-reports.md"
+    }
+  ]
+}
