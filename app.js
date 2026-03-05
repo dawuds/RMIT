@@ -17,11 +17,16 @@ const cache = new Map();
 
 async function fetchJSON(path) {
   if (cache.has(path)) return cache.get(path);
-  const res = await fetch(path);
-  if (!res.ok) throw new Error(`Failed to load ${path}: ${res.status}`);
-  const data = await res.json();
-  cache.set(path, data);
-  return data;
+  try {
+    const res = await fetch(path);
+    if (!res.ok) throw new Error(`Failed to load ${path}: ${res.status}`);
+    const data = await res.json();
+    cache.set(path, data);
+    return data;
+  } catch (err) {
+    console.warn(`fetchJSON(${path}):`, err);
+    return null;
+  }
 }
 
 // ---- Router ----
@@ -69,8 +74,8 @@ function renderOverview() {
       <div class="stat"><div class="stat-value">${sections.length}</div><div class="stat-label">Sections</div></div>
       <div class="stat"><div class="stat-value">${totalSubsections}</div><div class="stat-label">Subsections</div></div>
       <div class="stat"><div class="stat-value">${totalClauses}</div><div class="stat-label">Clauses</div></div>
-      <div class="stat"><div class="stat-value">93</div><div class="stat-label">Controls</div></div>
-      <div class="stat"><div class="stat-value">365</div><div class="stat-label">Artifacts</div></div>
+      <div class="stat"><div class="stat-value">${state.controls ? Object.values(state.controls.library).reduce((s, arr) => s + arr.length, 0) : '—'}</div><div class="stat-label">Controls</div></div>
+      <div class="stat"><div class="stat-value">${state.artifacts ? Object.values(state.artifacts.inventory).reduce((s, arr) => s + arr.length, 0) : '—'}</div><div class="stat-label">Artifacts</div></div>
     </div>
     <div class="sec-grid">
       ${sections.map(sec => {
@@ -87,7 +92,7 @@ function renderOverview() {
       }).join('')}
     </div>
     <div style="margin-top:2rem">
-      <a href="#controls" style="font-size:0.875rem">Browse Common Controls Library (93 controls across 15 domains) \u2192</a>
+      <a href="#controls" style="font-size:0.875rem">Browse Common Controls Library (${state.controls ? Object.values(state.controls.library).reduce((s, arr) => s + arr.length, 0) : '—'} controls across ${state.controls ? Object.keys(state.controls.domains).length : '—'} domains) \u2192</a>
     </div>`;
 }
 
@@ -409,7 +414,7 @@ function renderControlsBrowser() {
     ${renderBreadcrumbs([{ label: 'Home', hash: '' }, { label: 'Controls Library' }])}
     <h2 style="font-size:1.25rem;margin-bottom:0.5rem">Common Controls Library</h2>
     <p style="font-size:0.875rem;color:var(--text-secondary);margin-bottom:1.5rem">
-      93 controls across 15 domains. Each control maps to one or more RMiT clauses.
+      ${Object.values(library).reduce((s, arr) => s + arr.length, 0)} controls across ${Object.keys(domains).length} domains. Each control maps to one or more RMiT clauses.
     </p>
     <div class="accordion">
       ${Object.entries(domains).map(([domainId, domain]) => {
@@ -868,13 +873,13 @@ function renderChecklistTab(checklist) {
   return `
     <h3 style="font-size:1rem;margin-bottom:0.5rem">${escHtml(checklist.title)} <span class="badge badge-ai" title="AI-generated indicative checklist">AI Generated</span></h3>
     <p style="font-size:0.8125rem;color:var(--text-secondary);margin-bottom:1rem">${escHtml(checklist.description)}</p>
-    <div class="checklist-progress" style="margin-bottom:1.5rem">
+    <div class="checklist-progress">
       <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.375rem">
         <span style="font-size:0.8125rem;font-weight:600;color:var(--text-secondary)">Progress</span>
         <span class="checklist-progress-text" style="font-size:0.8125rem;color:var(--text-muted)">0 / ${checklist.phases.reduce((s, p) => s + p.items.length, 0)} completed</span>
       </div>
       <div style="height:6px;background:var(--border);border-radius:3px;overflow:hidden">
-        <div class="checklist-progress-bar" style="height:100%;background:var(--accent);border-radius:3px;width:0%;transition:width 0.3s"></div>
+        <div class="checklist-progress-bar"></div>
       </div>
     </div>
     <div class="accordion">
@@ -890,7 +895,7 @@ function renderChecklistTab(checklist) {
           <div class="accordion-content">
             ${phase.items.map(item => `
               <label class="checklist-item" style="display:flex;align-items:flex-start;gap:0.75rem;padding:0.625rem 0;border-bottom:1px solid var(--border);cursor:pointer">
-                <input type="checkbox" class="checklist-checkbox" data-checklist-id="${escHtml(item.id)}" style="margin-top:0.25rem;width:16px;height:16px;flex-shrink:0;accent-color:var(--accent);cursor:pointer">
+                <input type="checkbox" class="checklist-checkbox" data-checklist-id="${escHtml(item.id)}">
                 <div style="flex:1">
                   <div style="display:flex;align-items:baseline;gap:0.5rem;flex-wrap:wrap">
                     <span class="mono" style="font-size:0.75rem;color:var(--accent);font-weight:600">${escHtml(item.id)}</span>
@@ -960,14 +965,25 @@ async function render() {
   if (!state.sections || !state.clauses) {
     app.innerHTML = renderLoading();
     try {
-      const [sections, clausesArr] = await Promise.all([
+      const [sections, clausesArr, controlDomains, controlLibrary, controlClauseMap, artifactInventory, artifactClauseMap] = await Promise.all([
         fetchJSON('clauses/sections.json'),
         fetchJSON('clauses/index.json'),
+        fetchJSON('controls/domains.json'),
+        fetchJSON('controls/library.json'),
+        fetchJSON('controls/clause-map.json'),
+        fetchJSON('artifacts/inventory.json'),
+        fetchJSON('artifacts/clause-map.json'),
       ]);
       state.sections = sections;
       // Convert array to keyed object
       state.clauses = {};
       for (const cl of clausesArr) state.clauses[cl.id] = cl;
+      if (controlDomains && controlLibrary && controlClauseMap) {
+        state.controls = { domains: controlDomains, library: controlLibrary, clauseMap: controlClauseMap.clauseToControls };
+      }
+      if (artifactInventory && artifactClauseMap) {
+        state.artifacts = { inventory: artifactInventory, clauseMap: artifactClauseMap.clauseToArtifacts };
+      }
     } catch (err) {
       app.innerHTML = `<div class="error-state">Failed to load data: ${escHtml(err.message)}</div>`;
       return;

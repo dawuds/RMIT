@@ -1,5 +1,7 @@
 # RMiT PD November 2025 — Structured Compliance Database
 
+**Live Site:** https://dawuds.github.io/RMIT/
+
 Machine-readable extraction of the **Bank Negara Malaysia (BNM) Risk Management in Technology (RMiT) Policy Document**, November 2025 edition.
 
 121 clauses across 11 sections (S8–S18), with five integrated data layers: verbatim clause text, requirement breakdowns, evidence guidance, audit artifacts, and common controls.
@@ -54,6 +56,15 @@ risk-management/                           # Layer 6: Risk Management (indicativ
   risk-register.json                       # 20 technology risks with scores, controls, treatments
   checklist.json                           # 20-item risk assessment checklist by phase
   treatment-options.json                   # 4 risk treatment strategies with examples
+
+templates/                                 # 365 document templates across 6 categories
+  policies/                                # Policy document templates
+  procedures/                              # Procedure document templates
+  governance/                              # Governance document templates
+  evidence/                                # Evidence document templates
+  reports/                                 # Report document templates
+  logs/                                    # Log document templates
+  INDEX.md                                 # Template index and usage guide
 ```
 
 ## Clause Schema
@@ -376,6 +387,7 @@ Each risk in `risk-register.json`:
 | Evidence | 121 | Auditor focus, evidence items, audit tips per clause (726 individual evidence items total) |
 | Artifacts | 365 | Across 6 categories (policies, procedures, governance, evidence, reports, logs) |
 | Controls | 93 | Across 15 domains with NIST CSF 2.0 + ISO 27001:2022 mappings |
+| Templates | 365 | Document templates across 6 categories (policies, procedures, governance, evidence, reports, logs) |
 | Risk Management | 20 | Technology risks with methodology, 5x5 matrix, checklist, and treatment options |
 
 ## AI-Generated Content — Important Disclaimer
@@ -409,6 +421,16 @@ The following fields are **AI-generated interpretations or illustrative examples
 > The web explorer labels all AI-generated fields with an **AI Generated** indicator and illustrative examples with an **Example** indicator.
 
 **Always consult the source PDF and qualified legal or regulatory counsel before acting on any interpretation in this database.**
+
+## Development
+
+To run locally:
+
+```bash
+python3 -m http.server 8888
+```
+
+Then open `http://localhost:8888` in your browser.
 
 ## Source
 

@@ -405,11 +405,11 @@ a:hover { text-decoration: underline; }
 .error-state { text-align: center; padding: 3rem; color: var(--red); }
 
 /* Responsive */
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
   .sec-grid { grid-template-columns: repeat(2, 1fr); }
   .maturity-grid { grid-template-columns: 1fr; }
 }
-@media (max-width: 639px) {
+@media (max-width: 640px) {
   .header-inner { flex-direction: column; align-items: stretch; }
   .header-search { max-width: none; }
   .sec-grid { grid-template-columns: 1fr; }
@@ -577,10 +577,28 @@ a:hover { text-decoration: underline; }
 /* Sortable column indicator */
 .sortable:hover { color: var(--accent); }
 
-@media (max-width: 1023px) {
+/* ===== CHECKLIST ===== */
+.checklist-progress { margin-bottom: 1.5rem; }
+.checklist-progress-bar {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 3px;
+  width: 0%;
+  transition: width 0.3s;
+}
+.checklist-checkbox {
+  margin-top: 0.25rem;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
   .treatment-grid { grid-template-columns: 1fr; }
 }
-@media (max-width: 639px) {
+@media (max-width: 640px) {
   .risk-matrix-cell { width: 56px; height: 44px; font-size: 0.875rem; }
   .risk-matrix-table { min-width: 360px; }
   .treatment-grid { grid-template-columns: 1fr; }

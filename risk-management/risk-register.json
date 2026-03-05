@@ -131,8 +131,8 @@
       "residualLikelihood": 2,
       "residualImpact": 4,
       "residualRisk": 8,
-      "treatment": "mitigate",
-      "treatmentPlan": "Implement data tokenization for PII, deploy CASB for cloud data visibility, and establish 24-hour breach notification process per PDPA/BNM requirements.",
+      "treatment": "transfer",
+      "treatmentPlan": "Transfer residual financial exposure via comprehensive cyber insurance policy covering data breach costs, regulatory fines, and customer notification expenses. Retain third-party managed detection and response (MDR) service agreement for 24/7 breach monitoring and incident response.",
       "owner": "Data Protection Officer",
       "reviewDate": "2026-Q2"
     },
@@ -153,8 +153,8 @@
       "residualLikelihood": 2,
       "residualImpact": 2,
       "residualRisk": 4,
-      "treatment": "mitigate",
-      "treatmentPlan": "Implement canary deployments for critical systems, enhance automated rollback capabilities, and introduce change freeze windows for peak banking periods.",
+      "treatment": "accept",
+      "treatmentPlan": "Residual risk within appetite after existing controls (CAB approval, CI/CD gates, PIR). Cost of further mitigation (canary deployments, extended freeze windows) exceeds potential impact given current low residual risk score.",
       "owner": "Head of IT Operations",
       "reviewDate": "2026-Q2"
     },
@@ -351,8 +351,8 @@
       "residualLikelihood": 2,
       "residualImpact": 3,
       "residualRisk": 6,
-      "treatment": "mitigate",
-      "treatmentPlan": "Establish AI ethics board, implement model validation by independent team, and develop adversarial testing programme for production ML models.",
+      "treatment": "avoid",
+      "treatmentPlan": "Avoid by prohibiting deployment of AI/ML models in regulated decision-making (credit scoring, customer-facing interactions) until governance framework is fully matured. Alternative rule-based approaches mandated for all regulated functions pending board-approved AI governance policy.",
       "owner": "Head of Data Science",
       "reviewDate": "2026-Q2"
     },

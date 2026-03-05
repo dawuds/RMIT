@@ -212,10 +212,10 @@ The merge regression was fixed via a field-level merge recovery:
 | S/G markers | 100% correct |
 | Translations | ~100% (recovered from remote branch + 9 audit-rebuilt) |
 | Titles | ~100% (recovered from remote branch + 9 audit-rebuilt) |
-| Evidence/artifacts | **~7%** (only 9/121 rebuilt — derivative layers still need work) |
+| Evidence/artifacts | **100%** (all 121 clauses regenerated with corrected base layer) |
 | NIST mappings | 100% (converted to CSF 2.0 format) |
 
-**Remaining work:** Evidence and artifact layers for 112 clauses still describe the fabricated verbatim text, not the corrected PDF text. These are lower priority since the base layer (verbatim + translations) is now correct.
+**Remaining work:** All base and derivative layers have been regenerated. Ongoing review may identify individual evidence or artifact items that need refinement, but full coverage has been achieved.
 
 ### Cross-Repo Data Sync Issue (2026-03-05)
 
