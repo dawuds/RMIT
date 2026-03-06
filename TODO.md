@@ -20,6 +20,8 @@
 - [x] Recover translations from field-level merge (112 translations restored)
 - [x] Regenerate evidence/artifacts from corrected verbatim base layer
 - [x] Deploy via GitHub Actions (GitHub Pages)
+- [x] Add `validate.js` for data integrity checks (JSON parsing, cross-reference resolution, risk math, duplicate detection)
+- [x] Add LICENSE file (CC-BY-4.0)
 
 ## Pending
 
@@ -31,8 +33,6 @@
 ### Medium Priority
 - [ ] Compliance chain visualization — graph view showing clause-to-control-to-artifact-to-evidence relationships
 - [ ] Cross-repo data sync — `compliance` and `compliance-cloud` repos embed stale RMIT clause data (100% of verbatim texts, titles, translations differ from corrected source)
-- [ ] Add `validate.js` for client-side data integrity checks (cross-reference resolution, count verification)
-- [ ] Add LICENSE file
 
 ### Low Priority
 - [ ] Refine individual evidence/artifact items based on ongoing review

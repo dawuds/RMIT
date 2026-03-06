@@ -11,8 +11,10 @@ Machine-readable extraction of the **Bank Negara Malaysia (BNM) Risk Management 
 ## Repository Structure
 
 ```
+LICENSE                                    # CC-BY-4.0 license
 LEARNINGS.md                               # Data quality audit findings and lessons
 TODO.md                                    # Completed and pending feature tracking
+validate.js                                # Data integrity checks (run: node validate.js)
 source/
   pd-rmit-nov25.pdf                        # Original BNM policy document (80 pages)
 
