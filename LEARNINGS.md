@@ -129,14 +129,12 @@ The Audit Package data layer is **complete** in this repo. UI rendering is imple
 
 - `artifacts/inventory.json`: 365 artifacts with `controlSlugs[]` added (median 2, max 4, mean 2.8 per artifact). All 365 artifacts have at least 1 control slug. Distribution: 15x1, 169x2, 73x3, 108x4.
 - `evidence/index.json`: 726 evidence items across 121 clauses with `artifactSlugs[]` added. All 726 items have at least 1 artifact slug.
+- `requirements/index.json`: All 121 requirements regenerated from corrected verbatim text with business/tech/governance breakdowns.
 - `controls/library.json`: 93 controls across 15 domains — structure ready
 - `controls/clause-map.json`: Bidirectional clause-control mapping exists and is intact
 - `app.js`: Audit Package UI implemented in `renderControlDetail()` with accordion-based artifact cards and evidence checklist
 
 **All cross-references are valid** — every `controlSlugs[]` entry references a valid control slug, every `artifactSlugs[]` entry references a valid artifact slug. No broken links detected.
-
-**Remaining work:**
-- Evidence and artifact *content* for 112 clauses still describes fabricated verbatim text (base layer is correct, derivative content not yet refreshed)
 
 ### Reference Implementation
 
@@ -198,13 +196,15 @@ For any future AI-generated compliance data in this repo:
 
 ## Outstanding Critical Issue — RESOLVED
 
-The merge regression was fixed via a field-level merge recovery:
+The merge regression was fixed via a field-level merge recovery, followed by a full derivative regeneration:
 
 1. Extracted titles, translations, and subsection names from the remote branch (commit 2305f90)
 2. Kept verbatim text and S/G markers from the audit branch (PDF-verified)
 3. Excluded 9 clauses (15.2, 15.3, 16.1-16.7) that were explicitly rebuilt during the audit
 4. Synced corrected data to by-section files, requirements, and evidence layers
 5. Result: 105 titles, 112 translations, 67 subsections recovered
+6. Regenerated all 121 requirements (business/tech/governance) from corrected verbatim text (commit 75df569)
+7. Regenerated all 121 evidence entries (726 items, up from 487) from corrected verbatim text (commit 75df569)
 
 | Field | Correctness |
 |-------|-------------|
@@ -212,10 +212,10 @@ The merge regression was fixed via a field-level merge recovery:
 | S/G markers | 100% correct |
 | Translations | ~100% (recovered from remote branch + 9 audit-rebuilt) |
 | Titles | ~100% (recovered from remote branch + 9 audit-rebuilt) |
-| Evidence/artifacts | **100%** (all 121 clauses regenerated with corrected base layer) |
+| Requirements | ~100% (regenerated from corrected verbatim — commit 75df569) |
+| Evidence/artifacts | **100%** (all 121 clauses regenerated with corrected base layer, 726 items) |
+| Artifacts (inventory) | 365 artifacts with cross-references intact |
 | NIST mappings | 100% (converted to CSF 2.0 format) |
-
-**Remaining work:** All base and derivative layers have been regenerated. Ongoing review may identify individual evidence or artifact items that need refinement, but full coverage has been achieved.
 
 ### Cross-Repo Data Sync Issue (2026-03-05)
 

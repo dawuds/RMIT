@@ -27,7 +27,7 @@
         },
         {
           "id": "8.1-B3",
-          "requirement": "Develop and maintain a Resource Adequacy Plan for technology risk management, demonstrating that budget, skilled personnel, and tooling are sufficient to operate within approved risk tolerances — including provisions for emerging risk scenarios such as cloud migration or AI adoption.",
+          "requirement": "Develop and maintain a Resource Adequacy Plan for technology risk management, demonstrating that budget, skilled personnel, and tooling are sufficient to operate within approved risk tolerances - including provisions for emerging risk scenarios such as cloud migration or AI adoption.",
           "rationale": "Clause 8.1(d) requires the board to 'ensure sufficiency and appropriate deployment of resources.' Business units sponsoring technology initiatives must justify that resource commitments are proportionate to the risk exposure introduced, preventing underfunded risk management functions.",
           "owner": "Chief Executive Officer (CEO) and Chief Financial Officer (CFO)",
           "frequency": "Annual (aligned with budget cycle); reviewed quarterly against actual deployment",
@@ -57,14 +57,14 @@
         {
           "id": "8.1-T1",
           "requirement": "Design, implement, and maintain a Technology Risk KRI Framework comprising quantified indicators mapped to each approved risk tolerance threshold (e.g., system availability percentage, mean time to detect/respond, patch compliance rate, failed authentication attempts, third-party SLA breach frequency), with automated data collection feeding a risk dashboard accessible to risk and senior management.",
-          "rationale": "Clause 8.1(c) requires the board to 'ensure key risk indicators are identified to monitor existing and emerging risks against financial institution's risk tolerance.' KRIs must be technically instrumented — not manually compiled — to provide timely and accurate signals of tolerance breaches or trending risks.",
+          "rationale": "Clause 8.1(c) requires the board to 'ensure key risk indicators are identified to monitor existing and emerging risks against financial institution's risk tolerance.' KRIs must be technically instrumented - not manually compiled - to provide timely and accurate signals of tolerance breaches or trending risks.",
           "owner": "Chief Information Security Officer (CISO) / Head of Technology Risk",
           "frequency": "Continuous monitoring; KRI library reviewed and recalibrated semi-annually",
           "priority": "Critical"
         },
         {
           "id": "8.1-T2",
-          "requirement": "Implement and maintain a centralised Technology Risk Register that captures all identified technology risks, assigned risk owners, current control effectiveness ratings, residual risk scores, and linkage to board-approved tolerance thresholds — integrated with the institution's GRC (Governance, Risk and Compliance) platform.",
+          "requirement": "Implement and maintain a centralised Technology Risk Register that captures all identified technology risks, assigned risk owners, current control effectiveness ratings, residual risk scores, and linkage to board-approved tolerance thresholds - integrated with the institution's GRC (Governance, Risk and Compliance) platform.",
           "rationale": "Clause 8.1(b) requires identification of risk owners and clear accountability. A technology risk register operationalises ownership by providing a single authoritative record that links each risk to a named owner, control status, and tolerance position, enabling audit trails for BNM examination.",
           "owner": "Head of Technology Risk / Chief Information Officer (CIO)",
           "frequency": "Continuous updates; formal completeness review quarterly",
@@ -80,7 +80,7 @@
         },
         {
           "id": "8.1-T4",
-          "requirement": "Produce structured, board-ready Technology Risk Reporting packages — including KRI trend analysis, tolerance breach summaries, residual risk acceptance register, and resource deployment status — in a format that enables meaningful board deliberation rather than passive information receipt.",
+          "requirement": "Produce structured, board-ready Technology Risk Reporting packages - including KRI trend analysis, tolerance breach summaries, residual risk acceptance register, and resource deployment status - in a format that enables meaningful board deliberation rather than passive information receipt.",
           "rationale": "Clause 8.1(e) requires board review conducted 'with sufficient deliberation.' Management must provide technology teams with data packages that translate technical metrics into business-risk language, enabling the board to make informed risk appetite decisions rather than ratifying pre-determined conclusions.",
           "owner": "Head of Technology Risk / CRO Office",
           "frequency": "Quarterly reporting to Board Risk Committee; annual comprehensive review package",
@@ -88,8 +88,8 @@
         },
         {
           "id": "8.1-T5",
-          "requirement": "Conduct an annual Technology Risk Resource Adequacy Assessment, quantifying staffing levels, tool coverage, and budget allocation against the risk management workload implied by the approved risk appetite — including gap analysis and a remediation roadmap for identified deficiencies.",
-          "rationale": "Clause 8.1(d) requires the board to 'ensure sufficiency and appropriate deployment of resources.' Technology leadership must provide an evidence-based assessment — not a subjective assertion — that resources are proportionate to risk management requirements, enabling informed board oversight of resource allocation decisions.",
+          "requirement": "Conduct an annual Technology Risk Resource Adequacy Assessment, quantifying staffing levels, tool coverage, and budget allocation against the risk management workload implied by the approved risk appetite - including gap analysis and a remediation roadmap for identified deficiencies.",
+          "rationale": "Clause 8.1(d) requires the board to 'ensure sufficiency and appropriate deployment of resources.' Technology leadership must provide an evidence-based assessment - not a subjective assertion - that resources are proportionate to risk management requirements, enabling informed board oversight of resource allocation decisions.",
           "owner": "Chief Information Officer (CIO) / Chief Technology Officer (CTO)",
           "frequency": "Annual; interim assessment upon significant scope or organisational change",
           "priority": "High"
@@ -97,11 +97,11 @@
       ]
     },
     "governance": {
-      "summary": "This clause establishes the board as the primary governance authority for technology risk appetite, requiring formal board-level structures — including a Board Risk Committee with technology risk competence — to own, approve, and periodically deliberate on risk appetite and tolerance decisions. Governance requirements span the full lifecycle: from framework approval and risk owner designation through to residual risk adjudication and appetite refresh, all with documented minutes and approvals to create a defensible audit trail for BNM supervisory review.",
+      "summary": "This clause establishes the board as the primary governance authority for technology risk appetite, requiring formal board-level structures - including a Board Risk Committee with technology risk competence - to own, approve, and periodically deliberate on risk appetite and tolerance decisions. Governance requirements span the full lifecycle: from framework approval and risk owner designation through to residual risk adjudication and appetite refresh, all with documented minutes and approvals to create a defensible audit trail for BNM supervisory review.",
       "requirements": [
         {
           "id": "8.1-G1",
-          "requirement": "Ensure the Board of Directors or its delegated Board Risk Committee has a formal mandate — documented in the committee's terms of reference — to approve the Technology Risk Appetite Statement, associated tolerance schedules, and any material amendments, with board-level sign-off evidenced through signed resolutions and meeting minutes.",
+          "requirement": "Ensure the Board of Directors or its delegated Board Risk Committee has a formal mandate - documented in the committee's terms of reference - to approve the Technology Risk Appetite Statement, associated tolerance schedules, and any material amendments, with board-level sign-off evidenced through signed resolutions and meeting minutes.",
           "rationale": "Clause 8.1 places responsibility on 'the board' to 'establish and approve the technology risk appetite.' Regulatory examination will look for formal documentary evidence that approval occurred at board level, not merely at management level. The terms of reference must make this mandate explicit and non-delegable below board level.",
           "owner": "Board Chairman / Company Secretary",
           "frequency": "Terms of reference reviewed annually; approval executed upon each appetite revision",
@@ -125,15 +125,15 @@
         },
         {
           "id": "8.1-G4",
-          "requirement": "Schedule and conduct structured Technology Risk Appetite Review sessions at the Board Risk Committee at least annually, with a formal agenda covering: KRI performance against tolerances, material incidents and lessons learned, changes in the external risk environment, management's proposed appetite adjustments, and resource adequacy confirmation — all documented in board minutes with evidence of substantive deliberation.",
-          "rationale": "Clause 8.1(e) requires review 'at regular intervals with sufficient deliberation.' BNM examiners will assess whether reviews involved genuine board engagement or were purely administrative. Minutes must record questions raised, debate conducted, and the basis for conclusions reached — not merely that a review occurred.",
+          "requirement": "Schedule and conduct structured Technology Risk Appetite Review sessions at the Board Risk Committee at least annually, with a formal agenda covering: KRI performance against tolerances, material incidents and lessons learned, changes in the external risk environment, management's proposed appetite adjustments, and resource adequacy confirmation - all documented in board minutes with evidence of substantive deliberation.",
+          "rationale": "Clause 8.1(e) requires review 'at regular intervals with sufficient deliberation.' BNM examiners will assess whether reviews involved genuine board engagement or were purely administrative. Minutes must record questions raised, debate conducted, and the basis for conclusions reached - not merely that a review occurred.",
           "owner": "Board Risk Committee Chairman",
           "frequency": "Minimum annually; extraordinary session triggered by material incident, regulatory change, or significant business transformation",
           "priority": "Critical"
         },
         {
           "id": "8.1-G5",
-          "requirement": "Integrate Technology Risk Appetite governance into the institution's broader Enterprise Risk Management (ERM) governance calendar, ensuring that the Technology Risk Appetite Statement is reviewed in coordination with — and formally reconciled against — updates to the overall Enterprise Risk Appetite Statement to prevent misalignment between technology and enterprise risk boundaries.",
+          "requirement": "Integrate Technology Risk Appetite governance into the institution's broader Enterprise Risk Management (ERM) governance calendar, ensuring that the Technology Risk Appetite Statement is reviewed in coordination with - and formally reconciled against - updates to the overall Enterprise Risk Appetite Statement to prevent misalignment between technology and enterprise risk boundaries.",
           "rationale": "Clause 8.1 explicitly requires the technology risk appetite to be 'aligned with the financial institution's risk appetite statement.' Governance structures must enforce this alignment through coordinated review cycles and a documented reconciliation process, preventing the technology risk framework from drifting out of alignment with enterprise-level risk decisions.",
           "owner": "Chief Risk Officer (CRO) / Board Risk Committee",
           "frequency": "Aligned with annual ERM governance calendar; reconciliation documented at each E-RAS review",
@@ -187,7 +187,7 @@
       ]
     },
     "technology": {
-      "summary": "To satisfy clause 8.2, technology teams must design, implement, and maintain two foundational frameworks — the Technology Risk Management Framework (TRMF) and the Cyber Resilience Framework (CRF) — capable of producing board-grade evidence of risk governance quality. Risk assessment tooling and processes must be mature enough to comprehensively evaluate critical IT systems and emerging technologies, with outputs structured to enable board scrutiny. All frameworks and technical policies must be kept current within a mandatory triennial review cycle, adapting to changes in the risk environment.",
+      "summary": "To satisfy clause 8.2, technology teams must design, implement, and maintain two foundational frameworks - the Technology Risk Management Framework (TRMF) and the Cyber Resilience Framework (CRF) - capable of producing board-grade evidence of risk governance quality. Risk assessment tooling and processes must be mature enough to comprehensively evaluate critical IT systems and emerging technologies, with outputs structured to enable board scrutiny. All frameworks and technical policies must be kept current within a mandatory triennial review cycle, adapting to changes in the risk environment.",
       "requirements": [
         {
           "id": "8.2-T1",
@@ -216,7 +216,7 @@
         {
           "id": "8.2-T4",
           "requirement": "Implement a formal emerging technology risk assessment process that evaluates novel technologies (e.g., AI/ML, cloud, distributed ledger) prior to adoption, assessing specific IT and cyber risks introduced and the adequacy of proposed mitigating controls.",
-          "rationale": "Clause 8.2(c) specifically extends the board's oversight obligation to risk assessments on the use of emerging technology. Without a dedicated assessment process distinct from standard IT change risk management, risks unique to emerging technologies — including novel attack surfaces and regulatory uncertainty — may be systematically underweighted.",
+          "rationale": "Clause 8.2(c) specifically extends the board's oversight obligation to risk assessments on the use of emerging technology. Without a dedicated assessment process distinct from standard IT change risk management, risks unique to emerging technologies - including novel attack surfaces and regulatory uncertainty - may be systematically underweighted.",
           "owner": "Chief Information Officer (CIO) / Chief Information Security Officer (CISO)",
           "frequency": "Per-event (each emerging technology adoption decision); periodic horizon scanning at least annually",
           "priority": "High"
@@ -232,7 +232,7 @@
       ]
     },
     "governance": {
-      "summary": "Clause 8.2 establishes the board as the apex of technology risk governance, requiring formal structures through which the board approves strategic plans, endorses frameworks, and holds senior management accountable for demonstrating risk assessment quality. Governance mechanisms must formalise the board's active oversight role — not passive receipt of information — and create auditable records of board decisions on IT and cybersecurity matters. Policy lifecycle governance must be embedded in standing board and committee calendars to prevent inadvertent non-compliance with mandatory review cycles.",
+      "summary": "Clause 8.2 establishes the board as the apex of technology risk governance, requiring formal structures through which the board approves strategic plans, endorses frameworks, and holds senior management accountable for demonstrating risk assessment quality. Governance mechanisms must formalise the board's active oversight role - not passive receipt of information - and create auditable records of board decisions on IT and cybersecurity matters. Policy lifecycle governance must be embedded in standing board and committee calendars to prevent inadvertent non-compliance with mandatory review cycles.",
       "requirements": [
         {
           "id": "8.2-G1",
@@ -245,7 +245,7 @@
         {
           "id": "8.2-G2",
           "requirement": "Institute a formal board or Board Risk Committee (BRC) endorsement process for the TRMF and CRF, including documented criteria for assessing framework soundness and robustness, an ongoing oversight mechanism to track implementation effectiveness, and an escalation path for material framework deficiencies.",
-          "rationale": "Clause 8.2(b) requires the board to endorse and oversee — not merely approve — the TRMF and CRF. Endorsement without oversight mechanisms reduces the board's engagement to a one-time administrative act, leaving implementation effectiveness unmonitored and creating regulatory exposure.",
+          "rationale": "Clause 8.2(b) requires the board to endorse and oversee - not merely approve - the TRMF and CRF. Endorsement without oversight mechanisms reduces the board's engagement to a one-time administrative act, leaving implementation effectiveness unmonitored and creating regulatory exposure.",
           "owner": "Board Risk Committee (BRC) Chairman / Company Secretary",
           "frequency": "Endorsement at framework inception and each major revision; oversight reporting quarterly",
           "priority": "Critical"
@@ -253,7 +253,7 @@
         {
           "id": "8.2-G3",
           "requirement": "Implement a formal senior management accountability structure that requires the CRO, CISO, and CIO to produce and present to the board or BRC structured evidence demonstrating the robustness and comprehensiveness of risk assessments covering critical IT systems and emerging technology, including control adequacy and resource sufficiency attestations.",
-          "rationale": "Clause 8.2(c) places an affirmative obligation on the board to require senior management to continuously demonstrate risk assessment quality — this demands a governance structure where senior management is formally accountable to produce such evidence on a defined cycle. Without this structure, the board cannot satisfy its duty to 'require' such demonstration.",
+          "rationale": "Clause 8.2(c) places an affirmative obligation on the board to require senior management to continuously demonstrate risk assessment quality - this demands a governance structure where senior management is formally accountable to produce such evidence on a defined cycle. Without this structure, the board cannot satisfy its duty to 'require' such demonstration.",
           "owner": "Board Risk Committee (BRC) / Chief Risk Officer (CRO)",
           "frequency": "Quarterly BRC presentations; ad hoc upon identification of critical system risk events",
           "priority": "Critical"
@@ -261,7 +261,7 @@
         {
           "id": "8.2-G4",
           "requirement": "Establish and maintain a board-level IT policy lifecycle governance process that schedules mandatory triennial reviews of all IT-related frameworks, policies, and guidelines into the board and committee annual agenda, with review depth criteria formally documented and calibrated to operational complexity and risk environment changes.",
-          "rationale": "Clause 8.2(d) places the obligation to ensure policy reviews directly on the board. Without embedding review milestones into formal board governance calendars with defined depth criteria, review cycles are at risk of lapsing — an outcome that directly contravenes the mandatory minimum interval specified by BNM.",
+          "rationale": "Clause 8.2(d) places the obligation to ensure policy reviews directly on the board. Without embedding review milestones into formal board governance calendars with defined depth criteria, review cycles are at risk of lapsing - an outcome that directly contravenes the mandatory minimum interval specified by BNM.",
           "owner": "Board Chairman / Chief Compliance Officer (CCO) / Company Secretary",
           "frequency": "Annual calendar scheduling; triennial mandatory review execution per policy",
           "priority": "High"
@@ -290,7 +290,7 @@
         {
           "id": "8.3-B1",
           "requirement": "Formally designate a board-level committee with an explicit and documented mandate to oversee all technology-related matters on behalf of the board, including technology strategy, technology risk, cybersecurity, and digital transformation.",
-          "rationale": "The verbatim text states the board 'must designate a board-level committee' — this is a prescriptive, non-optional obligation. Without formal designation and a written terms of reference, the institution cannot demonstrate compliance to BNM during supervisory examinations.",
+          "rationale": "The verbatim text states the board 'must designate a board-level committee' - this is a prescriptive, non-optional obligation. Without formal designation and a written terms of reference, the institution cannot demonstrate compliance to BNM during supervisory examinations.",
           "owner": "Board Chairman",
           "frequency": "One-time establishment; reviewed annually",
           "priority": "Critical"
@@ -298,7 +298,7 @@
         {
           "id": "8.3-B2",
           "requirement": "Define and document the committee's scope of oversight to encompass all material technology-related matters, including IT infrastructure, cybersecurity, technology outsourcing, digital channels, and emerging technology risks.",
-          "rationale": "The clause specifies the committee is responsible for 'oversight over technology-related matters' — a broad mandate that requires explicit boundary-setting to ensure no material technology domain falls outside the committee's purview and to prevent governance gaps.",
+          "rationale": "The clause specifies the committee is responsible for 'oversight over technology-related matters' - a broad mandate that requires explicit boundary-setting to ensure no material technology domain falls outside the committee's purview and to prevent governance gaps.",
           "owner": "CEO",
           "frequency": "Annual review of scope; updated upon material changes to business or technology landscape",
           "priority": "High"
@@ -306,7 +306,7 @@
         {
           "id": "8.3-B3",
           "requirement": "Recruit, appoint, or retain at least one board member with demonstrable technology experience and competencies to sit on the designated committee, with a succession plan to maintain this capability continuously.",
-          "rationale": "The verbatim text explicitly mandates that 'the composition of the designated committee must include at least one member with technology experience and competencies.' Failure to maintain this qualification at all times — including during board member transitions — constitutes a direct breach of the clause.",
+          "rationale": "The verbatim text explicitly mandates that 'the composition of the designated committee must include at least one member with technology experience and competencies.' Failure to maintain this qualification at all times - including during board member transitions - constitutes a direct breach of the clause.",
           "owner": "Board Nomination and Remuneration Committee Chairman",
           "frequency": "Continuous; validated at each board appointment and annually",
           "priority": "Critical"
@@ -314,7 +314,7 @@
         {
           "id": "8.3-B4",
           "requirement": "Establish a formal escalation and reporting pathway from the designated technology committee to the full board, ensuring material technology risks and strategic technology decisions are surfaced and minuted at the main board level.",
-          "rationale": "The clause positions the committee as 'supporting the board in providing oversight' — meaning the committee is not a substitute for board accountability. A formal reporting cadence ensures the board retains ultimate oversight and cannot claim ignorance of technology matters.",
+          "rationale": "The clause positions the committee as 'supporting the board in providing oversight' - meaning the committee is not a substitute for board accountability. A formal reporting cadence ensures the board retains ultimate oversight and cannot claim ignorance of technology matters.",
           "owner": "CEO",
           "frequency": "At minimum every board meeting cycle; immediately for critical incidents",
           "priority": "High"
@@ -322,7 +322,7 @@
         {
           "id": "8.3-B5",
           "requirement": "Conduct an annual assessment of the technology committee's effectiveness, including whether the member(s) with technology experience and competencies remain current and adequately skilled given the institution's evolving technology risk profile.",
-          "rationale": "The requirement for 'technology experience and competencies' is a living standard — a director who was competent when appointed may become inadequate as the institution adopts cloud, AI, or complex third-party platforms. Annual effectiveness reviews ensure ongoing compliance with the spirit of the clause.",
+          "rationale": "The requirement for 'technology experience and competencies' is a living standard - a director who was competent when appointed may become inadequate as the institution adopts cloud, AI, or complex third-party platforms. Annual effectiveness reviews ensure ongoing compliance with the spirit of the clause.",
           "owner": "Board Chairman",
           "frequency": "Annual",
           "priority": "High"
@@ -334,7 +334,7 @@
       "requirements": [
         {
           "id": "8.3-T1",
-          "requirement": "Design and implement a board-level technology reporting package — including a technology risk dashboard, key risk indicators (KRIs), key performance indicators (KPIs), and incident summaries — formatted for non-technical directors while providing sufficient depth for the technology-competent committee member.",
+          "requirement": "Design and implement a board-level technology reporting package - including a technology risk dashboard, key risk indicators (KRIs), key performance indicators (KPIs), and incident summaries - formatted for non-technical directors while providing sufficient depth for the technology-competent committee member.",
           "rationale": "For the committee to fulfil its mandate of 'oversight over technology-related matters,' it must receive structured, timely, and appropriately calibrated information from management. A reporting package bridges the information gap between operational technology teams and board-level governance.",
           "owner": "CTO",
           "frequency": "Produced quarterly; updated monthly for KRI monitoring; ad hoc for material incidents",
@@ -343,7 +343,7 @@
         {
           "id": "8.3-T2",
           "requirement": "Establish a secure, access-controlled board portal or document management system that provides the designated committee with timely pre-read materials, historical meeting records, and technology risk documentation, with appropriate audit trails.",
-          "rationale": "Effective oversight requires that committee members — particularly the technology-competent member — have timely and secure access to relevant materials. A governed portal ensures confidentiality of sensitive technology information while enabling the committee to perform its duties.",
+          "rationale": "Effective oversight requires that committee members - particularly the technology-competent member - have timely and secure access to relevant materials. A governed portal ensures confidentiality of sensitive technology information while enabling the committee to perform its duties.",
           "owner": "Head of IT / CTO",
           "frequency": "Continuous availability; materials uploaded at least 5 business days before each committee meeting",
           "priority": "Medium"
@@ -358,7 +358,7 @@
         },
         {
           "id": "8.3-T4",
-          "requirement": "Implement a technology incident and change escalation protocol that automatically notifies the designated committee of material technology events — including significant outages, cyber incidents, and major system changes — within defined timeframes.",
+          "requirement": "Implement a technology incident and change escalation protocol that automatically notifies the designated committee of material technology events - including significant outages, cyber incidents, and major system changes - within defined timeframes.",
           "rationale": "The committee's oversight responsibility extends beyond scheduled meetings. The verbatim text's mandate for 'oversight over technology-related matters' requires the committee to be informed of material events in near-real-time, not only retrospectively at the next scheduled meeting.",
           "owner": "CISO / Head of IT Operations",
           "frequency": "Protocol established continuously; triggered per material event",
@@ -367,7 +367,7 @@
       ]
     },
     "governance": {
-      "summary": "The institution must establish clear governance documentation — including a board resolution, formal terms of reference, and membership criteria — to give the committee its legal standing, authority, and operating parameters. Governance processes must ensure the committee meets with sufficient frequency to exercise meaningful oversight, maintains proper minutes and records for BNM examination, and has a mechanism to verify and periodically revalidate the technology credentials of its qualifying member. As an 'S' (Standard) marker clause, non-compliance is a regulatory breach rather than a recommended practice.",
+      "summary": "The institution must establish clear governance documentation - including a board resolution, formal terms of reference, and membership criteria - to give the committee its legal standing, authority, and operating parameters. Governance processes must ensure the committee meets with sufficient frequency to exercise meaningful oversight, maintains proper minutes and records for BNM examination, and has a mechanism to verify and periodically revalidate the technology credentials of its qualifying member. As an 'S' (Standard) marker clause, non-compliance is a regulatory breach rather than a recommended practice.",
       "requirements": [
         {
           "id": "8.3-G1",
@@ -396,7 +396,7 @@
         {
           "id": "8.3-G4",
           "requirement": "Establish a vacancy management protocol that requires the Nomination Committee to initiate the recruitment of a replacement technology-competent board member within 30 days of the qualifying member's departure, with interim coverage arrangements documented and approved by the board.",
-          "rationale": "The clause requires the composition of the committee to 'include at least one member with technology experience and competencies' — this is a continuous obligation. A vacancy protocol prevents inadvertent non-compliance during board member transitions and demonstrates proactive governance to BNM.",
+          "rationale": "The clause requires the composition of the committee to 'include at least one member with technology experience and competencies' - this is a continuous obligation. A vacancy protocol prevents inadvertent non-compliance during board member transitions and demonstrates proactive governance to BNM.",
           "owner": "Board Nomination and Remuneration Committee Chairman",
           "frequency": "Triggered per vacancy event; protocol reviewed annually",
           "priority": "High"
@@ -420,7 +420,7 @@
     "clauseType": "governance",
     "marker": "S",
     "business": {
-      "summary": "This clause places direct accountability on the board for understanding and engaging with technology and cyber risk at a strategic level. Failure to comply exposes the institution to regulatory censure, and more critically, to uninformed strategic decisions during or after a cyber incident — heightening reputational damage, liquidity stress, and stakeholder harm. Board-level cyber literacy is increasingly a baseline expectation from BNM and is foundational to effective enterprise risk governance.",
+      "summary": "This clause places direct accountability on the board for understanding and engaging with technology and cyber risk at a strategic level. Failure to comply exposes the institution to regulatory censure, and more critically, to uninformed strategic decisions during or after a cyber incident - heightening reputational damage, liquidity stress, and stakeholder harm. Board-level cyber literacy is increasingly a baseline expectation from BNM and is foundational to effective enterprise risk governance.",
       "requirements": [
         {
           "id": "8.4-B1",
@@ -433,7 +433,7 @@
         {
           "id": "8.4-B2",
           "requirement": "Ensure board meeting agendas formally allocate dedicated time for cyber risk discussion covering strategic, reputational, and liquidity risk dimensions, including scenario analysis of stakeholder impact from an extreme cyber incident.",
-          "rationale": "Clause 8.4(b) requires the board to 'allocate sufficient time to discuss cyber risks, including the strategic, reputational and liquidity risks and impact of operational disruption to stakeholders.' This must be structured into meeting governance — not addressed only when incidents arise — ensuring cyber risk is treated as a standing board-level concern.",
+          "rationale": "Clause 8.4(b) requires the board to 'allocate sufficient time to discuss cyber risks, including the strategic, reputational and liquidity risks and impact of operational disruption to stakeholders.' This must be structured into meeting governance - not addressed only when incidents arise - ensuring cyber risk is treated as a standing board-level concern.",
           "owner": "Board Chairman",
           "frequency": "Every board meeting; deep-dive at minimum annually",
           "priority": "Critical"
@@ -456,7 +456,7 @@
         },
         {
           "id": "8.4-B5",
-          "requirement": "Develop and maintain a board-approved cyber incident impact framework that maps extreme cyber scenarios to business impact dimensions — including customer disruption, liquidity stress, reputational exposure, and counterparty effects — to inform board-level preparedness discussions.",
+          "requirement": "Develop and maintain a board-approved cyber incident impact framework that maps extreme cyber scenarios to business impact dimensions - including customer disruption, liquidity stress, reputational exposure, and counterparty effects - to inform board-level preparedness discussions.",
           "rationale": "Clause 8.4(b) specifically calls out board discussion of 'impact of operational disruption to stakeholders which could arise from an extreme cyber incident.' Without a pre-defined impact framework, board discussions lack the structured context needed to evaluate residual risk and strategic response options.",
           "owner": "CRO / Chief Financial Officer (CFO)",
           "frequency": "Annual review; updated post-incident or upon material business change",
@@ -470,14 +470,14 @@
         {
           "id": "8.4-T1",
           "requirement": "Develop and maintain a board-level cybersecurity risk dashboard that aggregates key risk indicators (KRIs), threat intelligence feeds, incident trends, and control effectiveness metrics into a concise, non-technical format suitable for board consumption.",
-          "rationale": "Clause 8.4(a) requires the board to 'obtain regular updates on technology risk and cyber threats.' A standardised dashboard ensures updates are consistent, timely, and traceable — reducing reliance on ad hoc reporting and enabling trend analysis across board cycles.",
+          "rationale": "Clause 8.4(a) requires the board to 'obtain regular updates on technology risk and cyber threats.' A standardised dashboard ensures updates are consistent, timely, and traceable - reducing reliance on ad hoc reporting and enabling trend analysis across board cycles.",
           "owner": "Chief Information Security Officer (CISO)",
           "frequency": "Updated continuously; board pack version published quarterly",
           "priority": "Critical"
         },
         {
           "id": "8.4-T2",
-          "requirement": "Integrate curated threat intelligence sources — including BNM Financial Intelligence Unit advisories, CERT MY, and sector-specific ISACs — into the board reporting pipeline to ensure updates reflect the current Malaysian and regional cyber threat landscape.",
+          "requirement": "Integrate curated threat intelligence sources - including BNM Financial Intelligence Unit advisories, CERT MY, and sector-specific ISACs - into the board reporting pipeline to ensure updates reflect the current Malaysian and regional cyber threat landscape.",
           "rationale": "Clause 8.4(a) mandates updates on 'cyber threats,' which requires intelligence that is current, contextualised to the institution's sector and geography, and not limited to internal incident data alone. Threat intelligence integration ensures the board receives forward-looking risk signals.",
           "owner": "CISO / Head of Threat Intelligence",
           "frequency": "Continuous ingestion; board-ready summary produced quarterly",
@@ -486,7 +486,7 @@
         {
           "id": "8.4-T3",
           "requirement": "Develop quantified cyber risk scenario models for at least three extreme cyber incident archetypes (e.g., ransomware-driven operational shutdown, critical API/payment system compromise, data exfiltration affecting customer PII) that translate technical impact into financial, liquidity, and reputational metrics for board review.",
-          "rationale": "Clause 8.4(b) requires the board to discuss 'strategic, reputational and liquidity risks and impact of operational disruption to stakeholders which could arise from an extreme cyber incident.' Technology teams must provide quantified, scenario-grounded input — not qualitative heat maps alone — so the board can engage substantively with risk magnitude and response trade-offs.",
+          "rationale": "Clause 8.4(b) requires the board to discuss 'strategic, reputational and liquidity risks and impact of operational disruption to stakeholders which could arise from an extreme cyber incident.' Technology teams must provide quantified, scenario-grounded input - not qualitative heat maps alone - so the board can engage substantively with risk magnitude and response trade-offs.",
           "owner": "CISO / Head of IT Risk",
           "frequency": "Annual scenario refresh; updated post-significant incident or major infrastructure change",
           "priority": "High"
@@ -494,7 +494,7 @@
         {
           "id": "8.4-T4",
           "requirement": "Deploy and manage a board-accessible cybersecurity e-learning platform offering role-appropriate training modules (e.g., cyber threat landscape, social engineering, incident response oversight), with completion tracking and certification tied to director training records.",
-          "rationale": "Clause 8.4(c) requires board members to 'participate in relevant cybersecurity awareness and training programmes.' A managed platform ensures training is accessible, auditable, and aligned to current threats — and provides the documentary evidence needed to demonstrate compliance with this requirement to BNM.",
+          "rationale": "Clause 8.4(c) requires board members to 'participate in relevant cybersecurity awareness and training programmes.' A managed platform ensures training is accessible, auditable, and aligned to current threats - and provides the documentary evidence needed to demonstrate compliance with this requirement to BNM.",
           "owner": "Chief Technology Officer (CTO) / Head of IT / CISO",
           "frequency": "Platform maintained continuously; training content reviewed and updated annually",
           "priority": "High"
@@ -510,11 +510,11 @@
       ]
     },
     "governance": {
-      "summary": "Clause 8.4 imposes explicit governance obligations on the board itself — not merely on management — making it essential that the institution's governance framework formally encodes these requirements in board charters, committee terms of reference, and meeting procedures. Evidence of compliance must be documentable and auditable, as BNM supervisory reviews will scrutinise board minutes, training records, and agenda logs to assess whether the board is genuinely engaged with technology and cyber risk. The Company Secretary and Board Risk Committee play central roles in operationalising and enforcing these requirements.",
+      "summary": "Clause 8.4 imposes explicit governance obligations on the board itself - not merely on management - making it essential that the institution's governance framework formally encodes these requirements in board charters, committee terms of reference, and meeting procedures. Evidence of compliance must be documentable and auditable, as BNM supervisory reviews will scrutinise board minutes, training records, and agenda logs to assess whether the board is genuinely engaged with technology and cyber risk. The Company Secretary and Board Risk Committee play central roles in operationalising and enforcing these requirements.",
       "requirements": [
         {
           "id": "8.4-G1",
-          "requirement": "Amend the Board Charter and Board Risk Committee Terms of Reference to explicitly codify the obligations under clause 8.4 — including the standing agenda requirement for cyber risk discussion, the mandatory training obligation for all directors, and the requirement to seek external expert input — making non-compliance a board governance deficiency.",
+          "requirement": "Amend the Board Charter and Board Risk Committee Terms of Reference to explicitly codify the obligations under clause 8.4 - including the standing agenda requirement for cyber risk discussion, the mandatory training obligation for all directors, and the requirement to seek external expert input - making non-compliance a board governance deficiency.",
           "rationale": "Without formal embedding in governing documents, clause 8.4 obligations remain aspirational and unenforceable. Embedding them in the Board Charter and Committee TOR creates accountability structures that survive board member turnover and provides BNM with visible evidence of institutionalised compliance.",
           "owner": "Board Chairman / Company Secretary",
           "frequency": "One-time embed; reviewed annually during governance document review cycle",
@@ -523,7 +523,7 @@
         {
           "id": "8.4-G2",
           "requirement": "Implement a formal board meeting agenda management process that reserves a standing agenda item for technology and cyber risk at every board meeting, with minimum time allocations documented in board meeting procedures and enforced by the Company Secretary.",
-          "rationale": "Clause 8.4(b) requires the board to 'allocate sufficient time to discuss cyber risks.' Without procedural enforcement, cyber risk discussion risks being deferred or compressed under time pressure. A documented minimum allocation — reinforced by the Company Secretary — operationalises this obligation and creates an audit trail.",
+          "rationale": "Clause 8.4(b) requires the board to 'allocate sufficient time to discuss cyber risks.' Without procedural enforcement, cyber risk discussion risks being deferred or compressed under time pressure. A documented minimum allocation - reinforced by the Company Secretary - operationalises this obligation and creates an audit trail.",
           "owner": "Company Secretary / Board Chairman",
           "frequency": "Operationalised at every board meeting; process reviewed annually",
           "priority": "Critical"
@@ -531,7 +531,7 @@
         {
           "id": "8.4-G3",
           "requirement": "Establish and maintain a register of approved external cybersecurity experts and advisors, with a documented process for engaging and briefing the board. The register must include criteria for expert selection (e.g., relevant financial sector experience, independence from management), and engagement must be documented in board minutes.",
-          "rationale": "Clause 8.4(b) states that board discussion 'shall be supported by input from external experts where appropriate.' Without a governed engagement process, external expert input may be inconsistent, poorly qualified, or undocumented — limiting its value and creating compliance gaps. A register ensures the board can access credible, independent perspectives on demand.",
+          "rationale": "Clause 8.4(b) states that board discussion 'shall be supported by input from external experts where appropriate.' Without a governed engagement process, external expert input may be inconsistent, poorly qualified, or undocumented - limiting its value and creating compliance gaps. A register ensures the board can access credible, independent perspectives on demand.",
           "owner": "Board Risk Committee Chairman / CRO",
           "frequency": "Register reviewed annually; external experts engaged at minimum annually or event-triggered",
           "priority": "High"
@@ -539,14 +539,14 @@
         {
           "id": "8.4-G4",
           "requirement": "Maintain a board training register that records each director's participation in cybersecurity awareness and training programmes, including programme name, provider, date, and content scope. This register must be tabled at the Board Nomination and Remuneration Committee annually and retained for BNM examination.",
-          "rationale": "Clause 8.4(c) mandates board participation in 'relevant cybersecurity awareness and training programmes.' A formal register ensures the obligation is tracked individually — not just at an institutional level — and provides the evidentiary record BNM supervisors will expect during Technology Risk assessments and SREP reviews.",
+          "rationale": "Clause 8.4(c) mandates board participation in 'relevant cybersecurity awareness and training programmes.' A formal register ensures the obligation is tracked individually - not just at an institutional level - and provides the evidentiary record BNM supervisors will expect during Technology Risk assessments and SREP reviews.",
           "owner": "Company Secretary / Board Nomination and Remuneration Committee",
           "frequency": "Register updated upon each training completion; tabled annually at BNRC",
           "priority": "High"
         },
         {
           "id": "8.4-G5",
-          "requirement": "Require board minutes to capture substantive content of cyber risk discussions — including key risks identified, decisions or directions issued to management, and noting where external expert input was received — rather than recording only procedural outcomes. Minutes must be reviewed by the Company Secretary against the clause 8.4 agenda obligations before finalisation.",
+          "requirement": "Require board minutes to capture substantive content of cyber risk discussions - including key risks identified, decisions or directions issued to management, and noting where external expert input was received - rather than recording only procedural outcomes. Minutes must be reviewed by the Company Secretary against the clause 8.4 agenda obligations before finalisation.",
           "rationale": "Clause 8.4 is a Standard ('S') marker obligation, meaning BNM will assess board-level compliance through documentary evidence. Thin or procedural minutes that fail to reflect substantive cyber risk engagement will not satisfy supervisory scrutiny and may indicate to BNM that discussions are not genuinely occurring. Quality minute-taking is therefore a direct compliance control.",
           "owner": "Company Secretary / Board Chairman",
           "frequency": "Applied at every board meeting; quality reviewed at each cycle",
@@ -612,7 +612,7 @@
       "requirements": [
         {
           "id": "8.5-T1",
-          "requirement": "Implement a centralised Audit Management System (AMS) capable of maintaining the full technology audit lifecycle — planning, fieldwork, findings, corrective action assignment, status tracking, and closure evidence — with role-based access for auditors, control owners, and BAC reporting.",
+          "requirement": "Implement a centralised Audit Management System (AMS) capable of maintaining the full technology audit lifecycle - planning, fieldwork, findings, corrective action assignment, status tracking, and closure evidence - with role-based access for auditors, control owners, and BAC reporting.",
           "rationale": "The BAC's obligation to review audit scope, procedures, and corrective action closure ('prompt closure') cannot be discharged without a system of record that provides reliable, aggregated visibility. Manual or fragmented tracking creates risk of oversight failures that BNM will attribute to BAC accountability gaps.",
           "owner": "Head of IT / Chief Information Officer (CIO)",
           "frequency": "System maintained continuously; BAC reporting extracts generated per meeting cycle",
@@ -637,7 +637,7 @@
         {
           "id": "8.5-T4",
           "requirement": "Define and implement a structured Technology Audit Procedures Library covering standard audit methodologies for each technology domain in scope (network security, cloud infrastructure, application security, IT operations, third-party technology), reviewed and updated annually by the technology audit team.",
-          "rationale": "The BAC is required to 'ensure appropriate audit scope, procedures and frequency.' Technology teams must provide the procedural foundation — standardised, technically current audit procedures — that enables the BAC to make an informed judgment on procedural appropriateness. Outdated or absent procedures undermine the entire audit function.",
+          "rationale": "The BAC is required to 'ensure appropriate audit scope, procedures and frequency.' Technology teams must provide the procedural foundation - standardised, technically current audit procedures - that enables the BAC to make an informed judgment on procedural appropriateness. Outdated or absent procedures undermine the entire audit function.",
           "owner": "Head of Technology Audit (within Internal Audit function)",
           "frequency": "Annual review; ad-hoc updates triggered by new technology adoptions or material threat landscape changes",
           "priority": "High"
@@ -657,7 +657,7 @@
       "requirements": [
         {
           "id": "8.5-G1",
-          "requirement": "Embed explicit technology audit oversight responsibilities — including effectiveness review, competency assurance, scope approval, and corrective action oversight — into the BAC's formal Terms of Reference (ToR), with the ToR reviewed and approved by the full Board annually.",
+          "requirement": "Embed explicit technology audit oversight responsibilities - including effectiveness review, competency assurance, scope approval, and corrective action oversight - into the BAC's formal Terms of Reference (ToR), with the ToR reviewed and approved by the full Board annually.",
           "rationale": "The verbatim text assigns these responsibilities directly to the BAC ('shall be responsible'). Without codification in the BAC ToR, these obligations exist only in regulation and are not institutionally owned. Board-approved ToRs create the governance chain that BNM will inspect to confirm accountability is properly embedded.",
           "owner": "Board Chairman / Company Secretary",
           "frequency": "Annual ToR review; immediate update upon regulatory changes",
@@ -666,7 +666,7 @@
         {
           "id": "8.5-G2",
           "requirement": "The BAC must formally review and approve an annual Technology Audit Competency Assessment report, prepared by the Chief Internal Auditor, evidencing that each technology auditor meets the minimum competency standards, with a documented remediation plan for any identified competency gaps.",
-          "rationale": "The verbatim text requires the BAC to ensure 'adequate competence of the audit staff.' This obligation is prospective and ongoing — the BAC must actively assure competency, not assume it. A formal annual review with documented BAC deliberation creates the audit trail required to demonstrate this obligation has been discharged.",
+          "rationale": "The verbatim text requires the BAC to ensure 'adequate competence of the audit staff.' This obligation is prospective and ongoing - the BAC must actively assure competency, not assume it. A formal annual review with documented BAC deliberation creates the audit trail required to demonstrate this obligation has been discharged.",
           "owner": "BAC Chairperson; administered by Chief Internal Auditor (CIA)",
           "frequency": "Annual",
           "priority": "Critical"
@@ -682,7 +682,7 @@
         {
           "id": "8.5-G4",
           "requirement": "Maintain formal BAC meeting minutes that specifically record deliberations on technology audit scope, competency assessments, findings, and corrective action status, with individual BAC member sign-off, retained for a minimum of seven years as regulatory evidence.",
-          "rationale": "BNM examinations require evidence that the BAC has actively discharged its oversight obligations — not merely that structures exist. Formally minuted deliberations are the primary evidentiary artefact demonstrating that BAC members engaged substantively with technology audit matters as required by the verbatim text.",
+          "rationale": "BNM examinations require evidence that the BAC has actively discharged its oversight obligations - not merely that structures exist. Formally minuted deliberations are the primary evidentiary artefact demonstrating that BAC members engaged substantively with technology audit matters as required by the verbatim text.",
           "owner": "Company Secretary",
           "frequency": "Per BAC meeting; archival maintained continuously",
           "priority": "High"
@@ -756,7 +756,7 @@
         {
           "id": "8.6-T1",
           "requirement": "Implement a real-time service disruption monitoring system that continuously tracks and records: (i) start timestamp and cumulative duration of each service disruption per channel/system, (ii) count of unique customers impacted in real time, and (iii) aggregate number and cumulative monetary value of financial transactions affected, with automated alerting when predefined thresholds are breached.",
-          "rationale": "Clause 8.6(b)(i)–(iii) explicitly names disruption duration, customer count, and transaction number and value as the three mandatory customer impact dimensions the CMP must address. Without automated measurement of these three dimensions, senior management cannot make timely, data-driven escalation decisions and cannot produce post-incident evidence for BNM.",
+          "rationale": "Clause 8.6(b)(i)-(iii) explicitly names disruption duration, customer count, and transaction number and value as the three mandatory customer impact dimensions the CMP must address. Without automated measurement of these three dimensions, senior management cannot make timely, data-driven escalation decisions and cannot produce post-incident evidence for BNM.",
           "owner": "Chief Technology Officer (CTO) / Head of IT Operations",
           "frequency": "Continuous (real-time); system tested quarterly via disruption simulation exercises",
           "priority": "Critical"
@@ -862,7 +862,7 @@
         {
           "id": "8.7-B2",
           "requirement": "Business unit heads must formally contribute technology requirements, risk concerns, and operational feedback to the CFTC on a structured basis, ensuring the committee's oversight of the strategic technology plan reflects real business needs and not solely IT-driven priorities.",
-          "rationale": "Clause 8.7(a) requires the committee to oversee 'effective implementation of the strategic technology plan.' Effective implementation can only be assessed if business units are actively surfacing adoption barriers, capacity issues, and operational impact — not merely receiving directives from technology functions.",
+          "rationale": "Clause 8.7(a) requires the committee to oversee 'effective implementation of the strategic technology plan.' Effective implementation can only be assessed if business units are actively surfacing adoption barriers, capacity issues, and operational impact - not merely receiving directives from technology functions.",
           "owner": "Head of each Major Business Unit (Retail Banking, Treasury, Operations, etc.)",
           "frequency": "Quarterly (minimum); per-event for material technology changes",
           "priority": "High"
@@ -894,7 +894,7 @@
       ]
     },
     "technology": {
-      "summary": "Technology teams must build and maintain the informational infrastructure that enables the CFTC to exercise meaningful oversight — including consolidated dashboards, structured reporting packages, and a governed exception management workflow. The CTO and CISO must ensure that committee members receive accurate, timely, and comprehensible technology intelligence to support board-level escalation and policy deviation decisions. Technology governance artefacts such as the strategic technology plan, policy documents, and deviation logs must be version-controlled, accessible, and audit-ready.",
+      "summary": "Technology teams must build and maintain the informational infrastructure that enables the CFTC to exercise meaningful oversight - including consolidated dashboards, structured reporting packages, and a governed exception management workflow. The CTO and CISO must ensure that committee members receive accurate, timely, and comprehensible technology intelligence to support board-level escalation and policy deviation decisions. Technology governance artefacts such as the strategic technology plan, policy documents, and deviation logs must be version-controlled, accessible, and audit-ready.",
       "requirements": [
         {
           "id": "8.7-T1",
@@ -907,7 +907,7 @@
         {
           "id": "8.7-T2",
           "requirement": "Implement a Technology Policy Deviation Management System (or formally governed workflow within existing GRC tooling) to intake, assess, approve, and track all deviations from technology-related policies. The system must capture the requestor, affected policy, risk assessment rationale, CFTC approval decision, compensating controls, deviation duration, and materiality classification.",
-          "rationale": "Clause 8.7(c) mandates that deviations be approved only 'after having carefully considered a robust assessment of related risks.' A structured system ensures the assessment is documented, auditable, and consistently applied — replacing informal or email-based exception handling that cannot demonstrate 'careful consideration' to BNM examiners.",
+          "rationale": "Clause 8.7(c) mandates that deviations be approved only 'after having carefully considered a robust assessment of related risks.' A structured system ensures the assessment is documented, auditable, and consistently applied - replacing informal or email-based exception handling that cannot demonstrate 'careful consideration' to BNM examiners.",
           "owner": "Chief Information Security Officer (CISO) / Head of IT Governance",
           "frequency": "Continuous (system availability); quarterly deviation log review",
           "priority": "Critical"
@@ -923,7 +923,7 @@
         {
           "id": "8.7-T4",
           "requirement": "Establish a technology risk assessment methodology and templates specifically for evaluating policy deviation requests, incorporating impact dimensions such as cybersecurity risk, operational resilience, regulatory compliance, and customer data protection. Assessments must be completed by qualified risk and technology personnel before CFTC review.",
-          "rationale": "Clause 8.7(c) explicitly requires that deviation approvals follow 'a robust assessment of related risks.' A standardised methodology prevents superficial assessments and ensures that risk dimensions relevant to BNM's RMiT framework — particularly cyber and operational risks — are consistently evaluated.",
+          "rationale": "Clause 8.7(c) explicitly requires that deviation approvals follow 'a robust assessment of related risks.' A standardised methodology prevents superficial assessments and ensures that risk dimensions relevant to BNM's RMiT framework - particularly cyber and operational risks - are consistently evaluated.",
           "owner": "CISO / Chief Risk Officer (CRO)",
           "frequency": "Per-event (per deviation request); methodology reviewed annually",
           "priority": "High"
@@ -939,7 +939,7 @@
       ]
     },
     "governance": {
-      "summary": "The institution must establish a formal committee charter, defined operating cadence, documented escalation pathways to the board, and a robust secretariat function to ensure the CFTC operates with the discipline and accountability expected by BNM. Governance structures must ensure that committee decisions — particularly policy deviation approvals — are properly minuted, traceable, and subject to independent review. The board must receive structured, timely updates and must be notified of all material deviations in a manner that enables meaningful oversight rather than rubber-stamp ratification.",
+      "summary": "The institution must establish a formal committee charter, defined operating cadence, documented escalation pathways to the board, and a robust secretariat function to ensure the CFTC operates with the discipline and accountability expected by BNM. Governance structures must ensure that committee decisions - particularly policy deviation approvals - are properly minuted, traceable, and subject to independent review. The board must receive structured, timely updates and must be notified of all material deviations in a manner that enables meaningful oversight rather than rubber-stamp ratification.",
       "requirements": [
         {
           "id": "8.7-G1",
@@ -968,7 +968,7 @@
         {
           "id": "8.7-G4",
           "requirement": "Implement an independent annual effectiveness review of the CFTC, assessing whether the committee's composition continues to meet the cross-functional membership requirements, whether its oversight of the strategic technology plan is substantive, whether board reporting is timely and adequate, and whether the deviation approval process includes genuinely robust risk assessments.",
-          "rationale": "Clause 8.7 establishes substantive obligations — 'effective implementation,' 'timely updates,' and 'robust assessment' — that go beyond mere formal existence of the committee. An annual effectiveness review, conducted or overseen independently (e.g., by Internal Audit or an external reviewer), provides assurance that the committee is functioning as intended and not as a paper governance construct.",
+          "rationale": "Clause 8.7 establishes substantive obligations - 'effective implementation,' 'timely updates,' and 'robust assessment' - that go beyond mere formal existence of the committee. An annual effectiveness review, conducted or overseen independently (e.g., by Internal Audit or an external reviewer), provides assurance that the committee is functioning as intended and not as a paper governance construct.",
           "owner": "Head of Internal Audit / Chief Risk Officer (CRO)",
           "frequency": "Annual",
           "priority": "High"

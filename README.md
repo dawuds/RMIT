@@ -409,6 +409,8 @@ The following fields are **AI-generated interpretations or illustrative examples
 
 | Field | Location | Nature |
 |-------|----------|--------|
+| `title` | `clauses/` | AI-assigned short title — not from the BNM document |
+| `clauseType` | `clauses/` | AI-assigned classification (governance/technical/regulatory) — not a BNM designation |
 | `translation` | `clauses/` | AI-generated plain-language interpretation — **verify against verbatim text** |
 | `summary` | `requirements/` | AI-generated interpretive summary of requirements |
 | `rationale` | `requirements/` | AI-generated explanation of why a requirement matters |
@@ -419,7 +421,7 @@ The following fields are **AI-generated interpretations or illustrative examples
 | `auditTips` | `evidence/` | AI-generated guidance |
 | `description`, `keyActivities`, `maturity` | `controls/` | AI-generated guidance |
 
-> **Data quality note (2026-03-05):** An initial audit found 100% of verbatim fields and S/G markers were AI-fabricated. These have since been rebuilt from the source PDF. Translation fields were recovered via a field-level merge from a corrected branch. Evidence, requirements, and artifact layers still contain AI-generated content based on the original fabricated text — treat these as illustrative only. See [LEARNINGS.md](LEARNINGS.md) for the full audit history.
+> **Data quality note (2026-03-06):** An initial audit found 100% of verbatim fields and S/G markers were AI-fabricated. These have since been rebuilt from the source PDF. Translation fields were recovered via a field-level merge from a corrected branch. Requirements and evidence layers have been regenerated from the corrected verbatim text (726 evidence items, 121 requirement breakdowns). All derivative layers are AI-generated interpretations — treat as illustrative only. See [LEARNINGS.md](LEARNINGS.md) for the full audit history.
 >
 > The web explorer labels all AI-generated fields with an **AI Generated** indicator and illustrative examples with an **Example** indicator.
 

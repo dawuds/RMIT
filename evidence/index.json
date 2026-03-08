@@ -6,7 +6,7 @@
     "title": "Board Approval of Technology Risk Appetite",
     "clauseType": "governance",
     "marker": "S",
-    "auditorFocus": "BNM examiners will scrutinise whether the board has formally approved a technology risk appetite document that is explicitly linked to the institution's enterprise-wide risk appetite statement — a generic or standalone technology risk policy without this linkage is a primary red flag. Examiners will look for evidence of substantive board deliberation rather than rubber-stamp approvals, checking board and committee minutes for the quality of discussion on technology risk tolerances and KRI thresholds. A key concern is whether risk ownership is clearly assigned at a named-individual or role level, with documented acceptance criteria for residual risks, rather than being diffused across departments with no accountable owner. Examiners will also test whether KRIs are actively monitored and reported to the board on a regular cycle, and whether breaches of tolerance have triggered documented escalation and response. Finally, examiners assess whether the technology risk appetite has been reviewed with sufficient frequency and rigour relative to material changes in the institution's technology environment, threat landscape, or business strategy.",
+    "auditorFocus": "BNM examiners will scrutinise whether the board has formally approved a technology risk appetite document that is explicitly linked to the institution's enterprise-wide risk appetite statement - a generic or standalone technology risk policy without this linkage is a primary red flag. Examiners will look for evidence of substantive board deliberation rather than rubber-stamp approvals, checking board and committee minutes for the quality of discussion on technology risk tolerances and KRI thresholds. A key concern is whether risk ownership is clearly assigned at a named-individual or role level, with documented acceptance criteria for residual risks, rather than being diffused across departments with no accountable owner. Examiners will also test whether KRIs are actively monitored and reported to the board on a regular cycle, and whether breaches of tolerance have triggered documented escalation and response. Finally, examiners assess whether the technology risk appetite has been reviewed with sufficient frequency and rigour relative to material changes in the institution's technology environment, threat landscape, or business strategy.",
     "evidenceItems": [
       {
         "id": "8.1-E1",
@@ -27,10 +27,10 @@
           "The document has not been updated following material changes such as cloud migration, new digital product launches, or significant cyber incidents"
         ],
         "suggestedSources": [
-          "Board Secretariat — board resolution register and signed board papers",
-          "GRC platform (e.g., ServiceNow GRC, MetricStream, Riskonnect) — risk appetite module",
-          "Enterprise Risk Management department — enterprise RAS and technology risk appetite mapping documents",
-          "SharePoint / document management system — policy library with version control history"
+          "Board Secretariat - board resolution register and signed board papers",
+          "GRC platform (e.g., ServiceNow GRC, MetricStream, Riskonnect) - risk appetite module",
+          "Enterprise Risk Management department - enterprise RAS and technology risk appetite mapping documents",
+          "SharePoint / document management system - policy library with version control history"
         ],
         "format": "PDF/DOCX with board resolution attachment",
         "retentionPeriod": "7 years",
@@ -45,7 +45,7 @@
         "description": "A structured register or schedule that translates the board-approved risk appetite into specific, quantified risk tolerances for defined technology-related events. This demonstrates compliance with clause 8.1(a) by showing the board has considered impact on business operations and customers.",
         "whatGoodLooksLike": [
           "Tolerances are defined for discrete technology event categories (e.g., unplanned system downtime, RTO/RPO breaches, cybersecurity incidents, data loss events, third-party outages) with numeric thresholds for each",
-          "Each tolerance entry specifies the impact dimension assessed — operational, financial, reputational, and customer impact — showing the board considered all relevant perspectives per clause 8.1(a)",
+          "Each tolerance entry specifies the impact dimension assessed - operational, financial, reputational, and customer impact - showing the board considered all relevant perspectives per clause 8.1(a)",
           "Tolerance levels are stratified (e.g., green/amber/red thresholds or tiered numeric ranges) to support graduated escalation and response",
           "The register is directly traceable to the board-approved Technology Risk Appetite Statement through shared reference numbers or an explicit mapping table",
           "Board or Risk Committee minutes reference deliberation on specific tolerance values, evidencing active consideration rather than administrative adoption"
@@ -58,10 +58,10 @@
           "Tolerances have not been reviewed or updated following material changes to the institution's technology infrastructure or product portfolio"
         ],
         "suggestedSources": [
-          "GRC platform — risk register and tolerance management module",
-          "Technology Risk Management team — risk tolerance schedule annexed to the risk appetite framework",
-          "IT Operations — SLA and OLA registers that embed system-level tolerances",
-          "Business Continuity Management team — RTO/RPO registers cross-referenced to board-approved tolerances"
+          "GRC platform - risk register and tolerance management module",
+          "Technology Risk Management team - risk tolerance schedule annexed to the risk appetite framework",
+          "IT Operations - SLA and OLA registers that embed system-level tolerances",
+          "Business Continuity Management team - RTO/RPO registers cross-referenced to board-approved tolerances"
         ],
         "format": "Spreadsheet or GRC platform export (PDF)",
         "retentionPeriod": "7 years",
@@ -84,15 +84,15 @@
         "commonGaps": [
           "Risk ownership is assigned at departmental level (e.g., 'IT Department') rather than to a specific role holder, making accountability non-enforceable and failing the clear accountability requirement of clause 8.1(b)",
           "Residual risk acceptances are approved verbally or via email without a formal documented record in the GRC platform or risk register, leaving no audit trail",
-          "The approving authority matrix for residual risk acceptance has not been approved by the board — it exists only as an operational management document",
+          "The approving authority matrix for residual risk acceptance has not been approved by the board - it exists only as an operational management document",
           "Accepted residual risks have no review or expiry date, meaning risks accepted years ago remain on the register without reassessment",
           "Risk owner assignments have not been updated following organisational restructuring, resulting in named owners who have left the role or the institution"
         ],
         "suggestedSources": [
-          "GRC platform — risk register with ownership fields and residual risk acceptance workflow",
-          "HR system — to validate current incumbents against named risk owners",
-          "Risk Committee and Board Risk Committee — minutes and papers referencing residual risk acceptance decisions",
-          "Technology Risk Management team — risk ownership framework document and acceptance log"
+          "GRC platform - risk register with ownership fields and residual risk acceptance workflow",
+          "HR system - to validate current incumbents against named risk owners",
+          "Risk Committee and Board Risk Committee - minutes and papers referencing residual risk acceptance decisions",
+          "Technology Risk Management team - risk ownership framework document and acceptance log"
         ],
         "format": "GRC platform export (PDF/Spreadsheet) with supporting committee minutes",
         "retentionPeriod": "7 years",
@@ -110,20 +110,20 @@
           "KRIs cover both existing risks (e.g., patch compliance rate, system availability) and emerging risks (e.g., AI/ML model risk indicators, third-party concentration metrics), demonstrating forward-looking risk monitoring",
           "Board or Board Risk Committee receives a KRI dashboard or report at each meeting cycle, with minutes evidencing that KRI status was discussed and not merely noted",
           "Amber and red KRI breaches are accompanied by documented management responses and remediation timelines in the board report",
-          "KRI effectiveness is reviewed periodically — at least annually — with evidence that indicators are retired or added in response to changes in the technology risk environment"
+          "KRI effectiveness is reviewed periodically - at least annually - with evidence that indicators are retired or added in response to changes in the technology risk environment"
         ],
         "commonGaps": [
           "KRIs exist for IT operations (uptime, incidents) but do not cover cybersecurity, data risk, or third-party technology risk categories, leaving material risk areas unmonitored at board level",
           "KRI reports are prepared and reviewed only at management level; the board receives summarised dashboards without underlying KRI data, preventing meaningful board oversight",
-          "KRI thresholds are not linked to board-approved risk tolerances — thresholds are set operationally without reference to the tolerance register, breaking the governance chain",
+          "KRI thresholds are not linked to board-approved risk tolerances - thresholds are set operationally without reference to the tolerance register, breaking the governance chain",
           "Emerging risk indicators are absent from the KRI framework, meaning the board has no forward-looking visibility of new or evolving technology threats",
           "KRI breaches in the amber or red zone are reported to the board but without management commentary or remediation actions, leaving the board without the information needed to exercise oversight"
         ],
         "suggestedSources": [
-          "GRC platform — KRI module with threshold configuration and historical trend data",
-          "Board Secretariat — board and Risk Committee papers containing KRI dashboards",
-          "Technology Risk Management team — KRI framework document and data dictionary",
-          "IT Operations and Security Operations Centre (SOC) — source data feeds for KRI calculation"
+          "GRC platform - KRI module with threshold configuration and historical trend data",
+          "Board Secretariat - board and Risk Committee papers containing KRI dashboards",
+          "Technology Risk Management team - KRI framework document and data dictionary",
+          "IT Operations and Security Operations Centre (SOC) - source data feeds for KRI calculation"
         ],
         "format": "PDF dashboard reports and supporting spreadsheet/GRC data export",
         "retentionPeriod": "7 years",
@@ -148,13 +148,13 @@
           "The board approves an aggregate IT budget without visibility of the specific allocation to technology risk management and cybersecurity functions, preventing meaningful oversight of resource sufficiency",
           "Skills adequacy assessments are not conducted, meaning the board has no evidence base on which to assess whether deployed resources are 'appropriate' as required by clause 8.1(d)",
           "Resource adequacy is assessed only quantitatively (headcount, budget) without qualitative assessment of skills, tools, and organisational placement of the technology risk function",
-          "No linkage exists between the technology risk appetite and resource allocation decisions — high-appetite risk areas are not demonstrably receiving proportionate resources"
+          "No linkage exists between the technology risk appetite and resource allocation decisions - high-appetite risk areas are not demonstrably receiving proportionate resources"
         ],
         "suggestedSources": [
-          "Board Secretariat — board and Risk Committee papers on IT and technology risk budgets",
-          "Finance department — approved IT and cybersecurity budget allocations by cost centre",
-          "HR/People function — technology risk and IT security headcount and skills data",
-          "Chief Information Security Officer (CISO) / Chief Risk Officer (CRO) office — resource adequacy assessments and gap analyses"
+          "Board Secretariat - board and Risk Committee papers on IT and technology risk budgets",
+          "Finance department - approved IT and cybersecurity budget allocations by cost centre",
+          "HR/People function - technology risk and IT security headcount and skills data",
+          "Chief Information Security Officer (CISO) / Chief Risk Officer (CRO) office - resource adequacy assessments and gap analyses"
         ],
         "format": "PDF board papers with supporting spreadsheet budget schedules",
         "retentionPeriod": "7 years",
@@ -169,23 +169,23 @@
         "description": "Records demonstrating that the board has reviewed the technology risk appetite at regular intervals with sufficient deliberation, and that the review considered changes in the risk environment. This evidences compliance with clause 8.1(e) and demonstrates the dynamic, not static, nature of board oversight.",
         "whatGoodLooksLike": [
           "A defined review cycle for the technology risk appetite is documented (e.g., annual minimum, or triggered by material events) and has been consistently adhered to, with review dates on record",
-          "Board or Board Risk Committee minutes for each review cycle contain substantive deliberation — including challenge, discussion of environmental changes, and rationale for retaining or amending appetite statements — not merely a resolution to 'note and approve'",
+          "Board or Board Risk Committee minutes for each review cycle contain substantive deliberation - including challenge, discussion of environmental changes, and rationale for retaining or amending appetite statements - not merely a resolution to 'note and approve'",
           "Each review cycle includes a structured assessment of changes in the risk environment (e.g., new cyber threats, regulatory changes, technology transformation programmes, incident experience) presented as board papers",
           "Version control records show changes made to the technology risk appetite following each review, with a change log explaining what was amended and why, or a documented rationale for no change",
           "Out-of-cycle reviews are evidenced when triggered by material events (e.g., significant cyber incident, major technology failure, regulatory directive), showing the board's responsiveness to a changing risk environment"
         ],
         "commonGaps": [
-          "The technology risk appetite is reviewed only as part of an annual policy review cycle with no specific board deliberation — the review is administrative rather than substantive, failing the 'sufficient deliberation' requirement of clause 8.1(e)",
-          "Review records exist but show no evidence of environmental context being presented to the board — the board approved a rollover of the prior appetite without analysis of whether the risk environment had changed",
+          "The technology risk appetite is reviewed only as part of an annual policy review cycle with no specific board deliberation - the review is administrative rather than substantive, failing the 'sufficient deliberation' requirement of clause 8.1(e)",
+          "Review records exist but show no evidence of environmental context being presented to the board - the board approved a rollover of the prior appetite without analysis of whether the risk environment had changed",
           "There is no documented trigger mechanism for out-of-cycle reviews, meaning material changes in the technology environment (e.g., a major ransomware incident industry-wide) do not prompt appetite reassessment",
           "The change log between appetite versions is absent, making it impossible to determine what, if anything, changed between review cycles and why",
           "Review intervals are longer than 12 months for a material or systemically important institution, or the review has lapsed beyond the documented cycle without a recorded rationale for the delay"
         ],
         "suggestedSources": [
-          "Board Secretariat — board calendar, board paper archive, and resolution register for technology risk appetite review items",
-          "GRC platform — policy management module with version history and review workflow audit trail",
-          "Technology Risk Management team — review working papers, environmental scan reports, and change logs",
-          "Risk Committee Secretariat — Risk Committee minutes and action item tracker for appetite review follow-up items"
+          "Board Secretariat - board calendar, board paper archive, and resolution register for technology risk appetite review items",
+          "GRC platform - policy management module with version history and review workflow audit trail",
+          "Technology Risk Management team - review working papers, environmental scan reports, and change logs",
+          "Risk Committee Secretariat - Risk Committee minutes and action item tracker for appetite review follow-up items"
         ],
         "format": "PDF board/committee papers, minutes, and version-controlled policy documents",
         "retentionPeriod": "7 years",
@@ -196,13 +196,13 @@
       }
     ],
     "auditTips": [
-      "Trace the governance chain end-to-end before examination: start from the enterprise Risk Appetite Statement and verify that specific technology risk appetite statements can be mapped to it by reference — examiners will test this linkage and a break in the chain is an immediate finding.",
-      "Pull board and Risk Committee minutes for the last three review cycles and read them critically for evidence of substantive deliberation on technology risk appetite items; highlight passages where the board challenged management, requested clarification, or amended proposals — passive 'noted and approved' resolutions are a red flag examiners will flag.",
-      "Validate that every risk owner named in the technology risk register is a current incumbent in the named role — cross-check against HR records before submission, as stale ownership assignments signal that clause 8.1(b) accountability is not operationally maintained.",
-      "Reconcile KRI thresholds in the monitoring system or GRC platform against the approved tolerance values in the tolerance register — mismatches between operational monitoring thresholds and board-approved tolerances indicate the KRI framework under clause 8.1(c) is not actually calibrated to the board's intent.",
-      "For each accepted residual risk in the register, verify that the approving authority recorded matches the authority level stipulated in the residual risk acceptance framework — approvals made below the required authority level are a direct breach of clause 8.1(b) and should be remediated before examination.",
-      "Prepare a single traceability matrix that maps each sub-obligation in clause 8.1(a) through 8.1(e) to the specific evidence items, document references, and page numbers you will present — examiners work systematically through sub-clauses and a pre-prepared matrix demonstrates institutional rigour and accelerates the examination process.",
-      "Identify and document any material changes to the technology environment (cloud adoption, new digital products, significant incidents, threat intelligence developments) that occurred in the last review period, and confirm each is addressed in the most recent technology risk appetite review board paper — unexplained gaps between environmental changes and appetite revisions are a primary line of examiner inquiry under clause 8.1(e)."
+      "Trace the governance chain end-to-end before examination: start from the enterprise Risk Appetite Statement and verify that specific technology risk appetite statements can be mapped to it by reference - examiners will test this linkage and a break in the chain is an immediate finding.",
+      "Pull board and Risk Committee minutes for the last three review cycles and read them critically for evidence of substantive deliberation on technology risk appetite items; highlight passages where the board challenged management, requested clarification, or amended proposals - passive 'noted and approved' resolutions are a red flag examiners will flag.",
+      "Validate that every risk owner named in the technology risk register is a current incumbent in the named role - cross-check against HR records before submission, as stale ownership assignments signal that clause 8.1(b) accountability is not operationally maintained.",
+      "Reconcile KRI thresholds in the monitoring system or GRC platform against the approved tolerance values in the tolerance register - mismatches between operational monitoring thresholds and board-approved tolerances indicate the KRI framework under clause 8.1(c) is not actually calibrated to the board's intent.",
+      "For each accepted residual risk in the register, verify that the approving authority recorded matches the authority level stipulated in the residual risk acceptance framework - approvals made below the required authority level are a direct breach of clause 8.1(b) and should be remediated before examination.",
+      "Prepare a single traceability matrix that maps each sub-obligation in clause 8.1(a) through 8.1(e) to the specific evidence items, document references, and page numbers you will present - examiners work systematically through sub-clauses and a pre-prepared matrix demonstrates institutional rigour and accelerates the examination process.",
+      "Identify and document any material changes to the technology environment (cloud adoption, new digital products, significant incidents, threat intelligence developments) that occurred in the last review period, and confirm each is addressed in the most recent technology risk appetite review board paper - unexplained gaps between environmental changes and appetite revisions are a primary line of examiner inquiry under clause 8.1(e)."
     ]
   },
   "8.2": {
@@ -212,7 +212,7 @@
     "title": "Board Oversight Responsibilities",
     "clauseType": "governance",
     "marker": "S",
-    "auditorFocus": "BNM examiners evaluating clause 8.2 focus on whether board oversight is substantive rather than ceremonial — they will look for evidence that the board actively challenges and interrogates IT and cyber strategic plans rather than rubber-stamping management submissions. A key red flag is board minutes that record approvals without any documented discussion, questions raised, or conditions imposed on management. Examiners will trace the three-year coverage of IT strategic plans and verify that plan approval dates, review cycles, and board resolution records are consistent and unbroken. They will also scrutinise whether the TRMF and CRF are formally endorsed by board resolution and whether subsequent board papers demonstrate ongoing monitoring of framework implementation against defined milestones. On policies, examiners compare the last review date of each IT-related policy against the three-year threshold and look for evidence that review depth was calibrated to operational complexity — a superficial 'no changes required' sign-off on a materially changed environment is a finding in itself.",
+    "auditorFocus": "BNM examiners evaluating clause 8.2 focus on whether board oversight is substantive rather than ceremonial - they will look for evidence that the board actively challenges and interrogates IT and cyber strategic plans rather than rubber-stamping management submissions. A key red flag is board minutes that record approvals without any documented discussion, questions raised, or conditions imposed on management. Examiners will trace the three-year coverage of IT strategic plans and verify that plan approval dates, review cycles, and board resolution records are consistent and unbroken. They will also scrutinise whether the TRMF and CRF are formally endorsed by board resolution and whether subsequent board papers demonstrate ongoing monitoring of framework implementation against defined milestones. On policies, examiners compare the last review date of each IT-related policy against the three-year threshold and look for evidence that review depth was calibrated to operational complexity - a superficial 'no changes required' sign-off on a materially changed environment is a finding in itself.",
     "evidenceItems": [
       {
         "id": "8.2-E1",
@@ -222,22 +222,22 @@
           "The strategic plan explicitly covers a minimum three-year horizon with dated milestones, KPIs, and budget envelopes aligned to documented business objectives",
           "A board resolution or signed approval page bears the board's formal endorsement, with the approval date clearly recorded and traceable to the corresponding board meeting minutes",
           "Version history or a change log shows at least one prior approved iteration, with a summary of material changes between versions reviewed and accepted by the board",
-          "Board meeting minutes for the approval session include substantive recorded discussion — questions raised by directors, management responses, and any conditions or directives attached to approval",
+          "Board meeting minutes for the approval session include substantive recorded discussion - questions raised by directors, management responses, and any conditions or directives attached to approval",
           "The plan cross-references the institution's TRMF and CRF, demonstrating that technology strategy and risk appetite are aligned at board level"
         ],
         "commonGaps": [
-          "Strategic plans cover only 12–18 months despite the mandatory three-year minimum, often because they are conflated with annual IT budgets or operational roadmaps",
+          "Strategic plans cover only 12-18 months despite the mandatory three-year minimum, often because they are conflated with annual IT budgets or operational roadmaps",
           "Board approval is evidenced only by a generic resolution number with no accompanying paper trail showing the board actually reviewed plan content, leaving ambiguity about whether approval was substantive",
           "The plan is not updated after major organisational or risk environment changes (e.g., a core banking migration, pandemic-driven digitalisation), resulting in a document that is technically 'current' but factually obsolete",
           "Business objectives referenced in the strategic plan are vague or absent, making it impossible to assess whether IT direction genuinely supports institutional strategy",
           "No evidence of interim board-level progress reviews between formal approval cycles, suggesting oversight is periodic rather than continuous"
         ],
         "suggestedSources": [
-          "Board Secretariat — formal board papers, resolutions register, and signed approval documents",
-          "Chief Information Officer (CIO) or Chief Technology Officer (CTO) office — master copy of the IT strategic plan with version history",
-          "GRC platform (e.g., ServiceNow GRC, MetricStream, Riskonnect) — strategic plan artefacts linked to governance workflows",
-          "SharePoint or institutional document management system — IT strategy document library with access-controlled version control",
-          "Board committee (e.g., Board Risk Committee or Board IT Committee) — sub-committee minutes where strategy is first reviewed before full board endorsement"
+          "Board Secretariat - formal board papers, resolutions register, and signed approval documents",
+          "Chief Information Officer (CIO) or Chief Technology Officer (CTO) office - master copy of the IT strategic plan with version history",
+          "GRC platform (e.g., ServiceNow GRC, MetricStream, Riskonnect) - strategic plan artefacts linked to governance workflows",
+          "SharePoint or institutional document management system - IT strategy document library with access-controlled version control",
+          "Board committee (e.g., Board Risk Committee or Board IT Committee) - sub-committee minutes where strategy is first reviewed before full board endorsement"
         ],
         "format": "PDF/DOCX (strategic plan document) + PDF (board resolution and minutes extract)",
         "retentionPeriod": "7 years",
@@ -252,9 +252,9 @@
         "description": "Formal board resolutions, board paper submissions, and meeting minutes evidencing the board's endorsement of the Technology Risk Management Framework (TRMF) and Cyber Resilience Framework (CRF) as required under RMiT paragraphs 9.1 and 11.2. This evidence demonstrates compliance with clause 8.2(b) and provides the documentary chain linking framework existence to board-level accountability for their effective implementation.",
         "whatGoodLooksLike": [
           "Separate, clearly identifiable board resolutions formally endorsing the TRMF and CRF by name, with endorsement dates and the names of directors present recorded",
-          "Board papers submitted for each endorsement include a meaningful executive summary of framework scope, key risk appetite statements, and how the framework addresses RMiT obligations — not merely a cover page forwarding a large technical document",
+          "Board papers submitted for each endorsement include a meaningful executive summary of framework scope, key risk appetite statements, and how the framework addresses RMiT obligations - not merely a cover page forwarding a large technical document",
           "Post-endorsement board reporting (quarterly or semi-annual) demonstrates active oversight of framework implementation: progress against deployment milestones, exception reports, and corrective actions tracked to closure",
-          "Minutes record the board's specific inquiries about framework adequacy — for example, whether controls cover cloud or third-party risk — and management's responses, showing genuine challenge rather than passive acceptance",
+          "Minutes record the board's specific inquiries about framework adequacy - for example, whether controls cover cloud or third-party risk - and management's responses, showing genuine challenge rather than passive acceptance",
           "Any material amendments to the TRMF or CRF after initial endorsement are brought back to the board for re-endorsement, with a summary of what changed and why"
         ],
         "commonGaps": [
@@ -265,11 +265,11 @@
           "Framework endorsement records are stored in an ad hoc manner (email chains, informal memo) rather than as formal board secretariat records, creating evidentiary gaps during examination"
         ],
         "suggestedSources": [
-          "Board Secretariat — resolutions register, certified true copies of board minutes, and board paper archives",
-          "Chief Risk Officer (CRO) office — TRMF and CRF master documents with amendment history",
-          "Board Risk Committee Secretariat — sub-committee endorsement papers and minutes where frameworks are first deliberated",
-          "GRC platform — framework governance module linking documents to approval workflows and review schedules",
-          "Compliance or Regulatory Affairs unit — regulatory submission records where TRMF/CRF are referenced in BNM correspondences"
+          "Board Secretariat - resolutions register, certified true copies of board minutes, and board paper archives",
+          "Chief Risk Officer (CRO) office - TRMF and CRF master documents with amendment history",
+          "Board Risk Committee Secretariat - sub-committee endorsement papers and minutes where frameworks are first deliberated",
+          "GRC platform - framework governance module linking documents to approval workflows and review schedules",
+          "Compliance or Regulatory Affairs unit - regulatory submission records where TRMF/CRF are referenced in BNM correspondences"
         ],
         "format": "PDF (board resolution certified by Company Secretary) + PDF (board paper and minutes extract)",
         "retentionPeriod": "7 years",
@@ -281,27 +281,27 @@
       {
         "id": "8.2-E3",
         "name": "Senior Management Risk Assessment Reporting to the Board on Critical IT Systems",
-        "description": "A structured record of risk assessment reports presented by senior management to the board (or a designated board committee) covering critical IT systems and emerging technology adoption, including the controls and resources applied to mitigate identified risks. This evidence demonstrates the board's fulfilment of clause 8.2(c) — that it actively requires and evaluates management's demonstration of robust, comprehensive risk assessments rather than accepting conclusions at face value.",
+        "description": "A structured record of risk assessment reports presented by senior management to the board (or a designated board committee) covering critical IT systems and emerging technology adoption, including the controls and resources applied to mitigate identified risks. This evidence demonstrates the board's fulfilment of clause 8.2(c) - that it actively requires and evaluates management's demonstration of robust, comprehensive risk assessments rather than accepting conclusions at face value.",
         "whatGoodLooksLike": [
           "A defined reporting cadence (e.g., quarterly) is established and evidenced, with board-level dashboards or risk reports covering critical IT systems identified under the institution's criticality classification framework",
-          "Reports include quantified or rated risk exposures, control effectiveness scores, and residual risk positions — not only lists of risks without assessment depth",
+          "Reports include quantified or rated risk exposures, control effectiveness scores, and residual risk positions - not only lists of risks without assessment depth",
           "Emerging technology risk assessments (e.g., AI/ML models, cloud-native services, open banking APIs) are presented with a distinct section addressing novel risk vectors and the adequacy of existing control frameworks to address them",
           "Board or committee minutes record challenge questions directed at management regarding risk assessment methodology, completeness of critical system scope, and sufficiency of mitigating resources",
           "Tracking tables within reports show closed findings from prior periods and open items with accountable owners and target dates, demonstrating continuous rather than point-in-time oversight"
         ],
         "commonGaps": [
           "Risk reports presented to the board are high-level status summaries with no visibility into the underlying assessment methodology, preventing the board from evaluating whether assessments are truly robust",
-          "The definition of 'critical IT systems' is not formally documented or consistently applied, resulting in scope gaps — some critical systems are assessed while others of equal significance are omitted",
+          "The definition of 'critical IT systems' is not formally documented or consistently applied, resulting in scope gaps - some critical systems are assessed while others of equal significance are omitted",
           "Emerging technology risk assessments are absent or treated as an afterthought despite the institution actively deploying AI, cloud, or API-based services, creating a material blind spot at board level",
           "Resource adequacy assertions in reports are qualitative statements ('adequate resources are in place') with no supporting evidence such as headcount data, budget allocations, or third-party capability assessments",
           "The board does not formally record its acceptance or rejection of reported risk positions, meaning there is no evidence the board exercised judgment on the adequacy of management's risk controls"
         ],
         "suggestedSources": [
-          "CIO/CTO and CISO offices — risk assessment reports and board presentation decks on critical system risk",
-          "Board Risk Committee Secretariat — minutes and action logs from committee sessions where IT risk is reviewed",
-          "GRC platform — risk register extracts tagged to critical IT systems, with control effectiveness ratings and owner assignments",
-          "ITSM tool (e.g., ServiceNow, Jira Service Management) — change and incident records used to substantiate risk positions reported to the board",
-          "Internal Audit — IT audit reports and findings registers that corroborate or challenge management's risk assessment representations to the board"
+          "CIO/CTO and CISO offices - risk assessment reports and board presentation decks on critical system risk",
+          "Board Risk Committee Secretariat - minutes and action logs from committee sessions where IT risk is reviewed",
+          "GRC platform - risk register extracts tagged to critical IT systems, with control effectiveness ratings and owner assignments",
+          "ITSM tool (e.g., ServiceNow, Jira Service Management) - change and incident records used to substantiate risk positions reported to the board",
+          "Internal Audit - IT audit reports and findings registers that corroborate or challenge management's risk assessment representations to the board"
         ],
         "format": "PDF (board risk report) + PDF/XLS (risk register extract) + PDF (board/committee minutes)",
         "retentionPeriod": "7 years",
@@ -316,24 +316,24 @@
         "description": "A centralised register or log documenting all IT-related frameworks, policies, and guidelines subject to the three-year mandatory review cycle under clause 8.2(d), including each document's owner, last review date, next scheduled review date, review depth rationale, and board or designated authority sign-off. This evidence demonstrates that the institution has operationalised the review obligation systematically and that review depth is calibrated to operational complexity and risk environment changes.",
         "whatGoodLooksLike": [
           "The register enumerates every IT-related policy, framework, and guideline in scope, with unique document identifiers, version numbers, effective dates, and review due dates clearly populated for each entry",
-          "For each completed review cycle, the register records not only the approval date but also the review depth rationale — e.g., 'substantive review due to core banking migration' or 'limited review; no material operational or risk environment changes' — demonstrating proportionate assessment",
+          "For each completed review cycle, the register records not only the approval date but also the review depth rationale - e.g., 'substantive review due to core banking migration' or 'limited review; no material operational or risk environment changes' - demonstrating proportionate assessment",
           "Reviews completed within the three-year threshold are evidenced by linked approval records (board resolution, committee minutes, or delegated authority sign-off consistent with the institution's governance matrix)",
           "Policies approaching or past their review due date are flagged with escalation status and owner accountability, showing the institution actively manages the register rather than treating it as a static artefact",
           "The register is reconciled at least annually against the institution's master document library to identify newly created policies not yet captured in the review schedule"
         ],
         "commonGaps": [
-          "The register exists but is incomplete — certain IT-related guidelines (e.g., acceptable use policies, vendor management guidelines, BYOD policies) are not tracked, creating undocumented review gaps",
-          "Review dates are recorded but there is no evidence of the review itself having been conducted — the policy document version is unchanged, no reviewer comments exist, and no approval record is available",
+          "The register exists but is incomplete - certain IT-related guidelines (e.g., acceptable use policies, vendor management guidelines, BYOD policies) are not tracked, creating undocumented review gaps",
+          "Review dates are recorded but there is no evidence of the review itself having been conducted - the policy document version is unchanged, no reviewer comments exist, and no approval record is available",
           "Review depth is uniform across all documents regardless of the institution's operational complexity or recent risk environment changes, indicating a tick-box approach rather than the risk-calibrated review required",
           "Policies are reviewed by management-level committees without board visibility, and there is no mechanism for the board to confirm that review quality and completeness meet its expectations",
           "The register is maintained as an uncontrolled spreadsheet with no access log or version history, making it impossible to demonstrate that entries have not been retrospectively altered prior to examination"
         ],
         "suggestedSources": [
-          "Compliance or Regulatory Affairs unit — policy governance register and review schedule",
-          "GRC platform policy management module (e.g., OneTrust, ServiceNow Policy and Compliance) — automated review cycle tracking with workflow approvals",
-          "SharePoint or document management system — document library with metadata fields for review dates and version history",
-          "Board Secretariat — approval records for policy reviews that required board or board committee sign-off",
-          "Internal Audit — policy gap assessments conducted as part of annual IT audit planning, which may identify unreviewed documents"
+          "Compliance or Regulatory Affairs unit - policy governance register and review schedule",
+          "GRC platform policy management module (e.g., OneTrust, ServiceNow Policy and Compliance) - automated review cycle tracking with workflow approvals",
+          "SharePoint or document management system - document library with metadata fields for review dates and version history",
+          "Board Secretariat - approval records for policy reviews that required board or board committee sign-off",
+          "Internal Audit - policy gap assessments conducted as part of annual IT audit planning, which may identify unreviewed documents"
         ],
         "format": "Spreadsheet/GRC system export (policy register) + PDF (supporting approval records per policy)",
         "retentionPeriod": "7 years",
@@ -345,27 +345,27 @@
       {
         "id": "8.2-E5",
         "name": "Technology Application Submissions to BNM with Supporting Risk Assessments",
-        "description": "Records of technology-related applications submitted to BNM (e.g., new product approvals, cloud adoption notifications, digital banking licence applications) together with the underlying risk assessments and the board's review or endorsement of the risk management position presented in each submission. This evidence demonstrates compliance with clause 8.2(e) — that the institution's risk management framework actively supports and produces robust risk assessments for regulatory submissions rather than treating them as standalone compliance exercises.",
+        "description": "Records of technology-related applications submitted to BNM (e.g., new product approvals, cloud adoption notifications, digital banking licence applications) together with the underlying risk assessments and the board's review or endorsement of the risk management position presented in each submission. This evidence demonstrates compliance with clause 8.2(e) - that the institution's risk management framework actively supports and produces robust risk assessments for regulatory submissions rather than treating them as standalone compliance exercises.",
         "whatGoodLooksLike": [
           "Each BNM submission package includes a clearly identified risk assessment section that is traceable to the institution's TRMF and uses the same risk taxonomy, rating scales, and control language as internal risk management documents",
           "Board or board committee minutes record review and endorsement of the risk management position in the submission prior to filing, with directors given the opportunity to challenge assumptions or request additional analysis",
           "Post-submission correspondence with BNM (queries, additional information requests, conditions imposed) is documented alongside management's responses, creating a complete regulatory interaction record",
           "A submissions register tracks all technology-related applications to BNM, including submission date, application type, current status, and risk assessment reference number, enabling end-to-end traceability",
-          "The risk assessment accompanying each submission reflects a current view — prepared or refreshed within a defined period before submission — and is not a recycled assessment from a prior engagement"
+          "The risk assessment accompanying each submission reflects a current view - prepared or refreshed within a defined period before submission - and is not a recycled assessment from a prior engagement"
         ],
         "commonGaps": [
           "Risk assessments attached to BNM submissions are prepared in isolation by a project team using different risk rating criteria than those in the TRMF, creating inconsistency that examiners can readily identify by cross-referencing documents",
-          "Board endorsement of the regulatory submission risk position is absent — submissions are filed by management without explicit board awareness, meaning the board cannot demonstrate it ensured framework adequacy as required",
+          "Board endorsement of the regulatory submission risk position is absent - submissions are filed by management without explicit board awareness, meaning the board cannot demonstrate it ensured framework adequacy as required",
           "The submissions register is incomplete or does not exist, making it difficult to demonstrate a consistent and systematic approach to regulatory technology applications across the institution",
           "Risk assessments accompanying submissions focus exclusively on technology risk while omitting cyber resilience, third-party, and operational continuity dimensions that BNM examiners expect to see addressed holistically",
           "There is no feedback loop from BNM's responses or conditions back into the internal risk management framework, missing an opportunity to demonstrate adaptive governance"
         ],
         "suggestedSources": [
-          "Regulatory Affairs or Compliance unit — BNM correspondence files, submission packages, and regulatory interaction logs",
-          "Board Secretariat — board or board committee resolutions and minutes endorsing specific regulatory submissions",
-          "CIO/CISO offices — project-level risk assessment documentation linked to specific technology initiatives submitted to BNM",
-          "GRC platform — regulatory submission module or risk assessment repository with traceability to submission artefacts",
-          "Legal and Secretarial — formal submission letters, acknowledgement receipts from BNM, and condition fulfilment records"
+          "Regulatory Affairs or Compliance unit - BNM correspondence files, submission packages, and regulatory interaction logs",
+          "Board Secretariat - board or board committee resolutions and minutes endorsing specific regulatory submissions",
+          "CIO/CISO offices - project-level risk assessment documentation linked to specific technology initiatives submitted to BNM",
+          "GRC platform - regulatory submission module or risk assessment repository with traceability to submission artefacts",
+          "Legal and Secretarial - formal submission letters, acknowledgement receipts from BNM, and condition fulfilment records"
         ],
         "format": "PDF (BNM submission package including risk assessment) + PDF (board endorsement records) + Spreadsheet (submissions register)",
         "retentionPeriod": "7 years",
@@ -377,27 +377,27 @@
       {
         "id": "8.2-E6",
         "name": "Board IT Governance Committee Charter and Terms of Reference",
-        "description": "The formal charter or terms of reference (ToR) for the board-level committee responsible for IT and technology risk oversight (e.g., Board Risk Committee, Board IT Committee, or Board Audit and Risk Committee), together with evidence of its operation — attendance records, meeting frequency, and action item logs. This evidence demonstrates the structural governance mechanism through which the board discharges its collective oversight responsibilities under clause 8.2 and provides the institutional context for evaluating all other evidence items.",
+        "description": "The formal charter or terms of reference (ToR) for the board-level committee responsible for IT and technology risk oversight (e.g., Board Risk Committee, Board IT Committee, or Board Audit and Risk Committee), together with evidence of its operation - attendance records, meeting frequency, and action item logs. This evidence demonstrates the structural governance mechanism through which the board discharges its collective oversight responsibilities under clause 8.2 and provides the institutional context for evaluating all other evidence items.",
         "whatGoodLooksLike": [
-          "The charter explicitly assigns responsibility for IT strategic plan review, TRMF/CRF oversight, senior management challenge on risk assessments, and policy review cycle monitoring — directly mirroring the obligations in clause 8.2(a) through 8.2(e)",
+          "The charter explicitly assigns responsibility for IT strategic plan review, TRMF/CRF oversight, senior management challenge on risk assessments, and policy review cycle monitoring - directly mirroring the obligations in clause 8.2(a) through 8.2(e)",
           "Membership composition includes at least one director with documented IT or cybersecurity expertise or experience, and the charter requires this competency to be considered in director appointments or co-option",
-          "Meeting frequency is sufficient for meaningful oversight — at minimum quarterly — and attendance records confirm quorum is consistently achieved with full member participation",
+          "Meeting frequency is sufficient for meaningful oversight - at minimum quarterly - and attendance records confirm quorum is consistently achieved with full member participation",
           "The charter is reviewed and re-endorsed by the full board within the three-year cycle and any amendments are approved by board resolution, demonstrating that the governance structure itself is subject to the same review discipline it oversees",
           "Action item logs from committee meetings trace IT risk and governance issues from identification through to board-level closure, with escalation triggers defined for issues that require full board attention"
         ],
         "commonGaps": [
           "The committee ToR is generic and does not specifically enumerate IT strategic plan approval, TRMF/CRF oversight, or policy review monitoring as standing agenda items, relying instead on ad hoc escalation from management",
           "No director on the committee has demonstrable IT or cybersecurity competency, and the institution has not sought external expertise to supplement board capability in this domain",
-          "Committee meeting frequency is insufficient — meetings occur only annually or semi-annually — meaning the board's ongoing oversight of rapidly evolving technology and cyber risks cannot be demonstrated between meetings",
+          "Committee meeting frequency is insufficient - meetings occur only annually or semi-annually - meaning the board's ongoing oversight of rapidly evolving technology and cyber risks cannot be demonstrated between meetings",
           "The ToR has not itself been reviewed within the three-year cycle, creating an ironic governance gap in the very document that governs IT oversight",
           "Action item logs are maintained informally without target dates, accountable owners, or escalation records, making it impossible to demonstrate that the committee actually drives closure of identified governance issues"
         ],
         "suggestedSources": [
-          "Board Secretariat — certified current version of committee ToR, board resolution approving the ToR, and attendance registers",
-          "Company Secretary — director profile records evidencing IT/cybersecurity competency for relevant committee members",
-          "Board committee Secretariat — meeting packs, minutes, and action item registers for the relevant oversight committee",
-          "Compliance unit — governance framework documentation mapping board committee responsibilities to RMiT obligations",
-          "Human Resources or Talent Management — board skills matrix demonstrating technology governance competency in board composition"
+          "Board Secretariat - certified current version of committee ToR, board resolution approving the ToR, and attendance registers",
+          "Company Secretary - director profile records evidencing IT/cybersecurity competency for relevant committee members",
+          "Board committee Secretariat - meeting packs, minutes, and action item registers for the relevant oversight committee",
+          "Compliance unit - governance framework documentation mapping board committee responsibilities to RMiT obligations",
+          "Human Resources or Talent Management - board skills matrix demonstrating technology governance competency in board composition"
         ],
         "format": "PDF (committee charter/ToR with board approval resolution) + PDF (meeting minutes and attendance registers) + Spreadsheet (action item log)",
         "retentionPeriod": "7 years",
@@ -408,12 +408,12 @@
       }
     ],
     "auditTips": [
-      "Cross-reference the IT strategic plan approval date against the corresponding board resolution in the resolutions register — examiners will verify these independently, so any date discrepancy between the plan cover page, the board paper, and the minutes extract will be treated as a governance control weakness rather than an administrative error",
+      "Cross-reference the IT strategic plan approval date against the corresponding board resolution in the resolutions register - examiners will verify these independently, so any date discrepancy between the plan cover page, the board paper, and the minutes extract will be treated as a governance control weakness rather than an administrative error",
       "Before examination, map every IT-related policy and guideline in the institution's document library to the policy review register and confirm that each entry has a completed review record within the last three years; policies that fall outside the window should be reviewed and approved immediately, with the completion date and scope of review documented explicitly",
-      "Prepare a traceability matrix that links each clause 8.2 obligation to specific board minutes, resolutions, and report references — examiners will ask for this cross-reference on day one and having it pre-built demonstrates institutional preparedness and signals substantive rather than reactive compliance",
+      "Prepare a traceability matrix that links each clause 8.2 obligation to specific board minutes, resolutions, and report references - examiners will ask for this cross-reference on day one and having it pre-built demonstrates institutional preparedness and signals substantive rather than reactive compliance",
       "Review board and committee minutes from the past three years and confirm that IT risk and strategic technology items appear as standing agenda items with recorded discussion; where minutes are sparse on IT matters, work with the board secretariat to ensure future minutes capture director questions and management responses in sufficient detail to evidence genuine challenge",
       "For BNM technology application submissions, pull every submission filed in the past three years and confirm that each has an accompanying risk assessment using TRMF-consistent methodology and a board or committee endorsement record; any submission lacking either element should be retrospectively documented with a contemporaneous note explaining the governance pathway that was followed",
-      "Conduct a dry-run interview with the board chair or a non-executive director designated as IT oversight lead — ask them to describe, without reference to documents, how the board satisfies each obligation in clause 8.2; gaps in their narrative will reveal where institutional memory and formal documentation are misaligned and where coaching or documentation improvement is needed before examination",
+      "Conduct a dry-run interview with the board chair or a non-executive director designated as IT oversight lead - ask them to describe, without reference to documents, how the board satisfies each obligation in clause 8.2; gaps in their narrative will reveal where institutional memory and formal documentation are misaligned and where coaching or documentation improvement is needed before examination",
       "Verify that the TRMF and CRF endorsement records specifically name both frameworks and are not subsumed into a broader risk framework approval; BNM examiners treat the TRMF (RMiT paragraph 9.1) and CRF (paragraph 11.2) as distinct regulatory requirements and will look for distinct endorsement artefacts for each"
     ]
   },
@@ -424,7 +424,7 @@
     "title": "Board-Level Technology Committee",
     "clauseType": "governance",
     "marker": "S",
-    "auditorFocus": "BNM examiners will first verify that a formally designated board-level committee — not a management-level body — carries explicit accountability for technology oversight, checking board resolutions and the institution's governance charter for unambiguous language of designation. A common red flag is reliance on the full board or on management committees (e.g., EXCO or IT Steering Committee) as substitutes for a dedicated board-level structure. Examiners will then scrutinise committee terms of reference and member profiles to confirm that at least one director possesses substantive technology experience, distinguishing genuine competency from superficial credentials such as a single short course. Meeting frequency, attendance records, and quality of minutes will be assessed to determine whether technology oversight is substantive and ongoing rather than ceremonial. Examiners are also alert to gaps between what the ToR prescribes and what committee activity records demonstrate in practice.",
+    "auditorFocus": "BNM examiners will first verify that a formally designated board-level committee - not a management-level body - carries explicit accountability for technology oversight, checking board resolutions and the institution's governance charter for unambiguous language of designation. A common red flag is reliance on the full board or on management committees (e.g., EXCO or IT Steering Committee) as substitutes for a dedicated board-level structure. Examiners will then scrutinise committee terms of reference and member profiles to confirm that at least one director possesses substantive technology experience, distinguishing genuine competency from superficial credentials such as a single short course. Meeting frequency, attendance records, and quality of minutes will be assessed to determine whether technology oversight is substantive and ongoing rather than ceremonial. Examiners are also alert to gaps between what the ToR prescribes and what committee activity records demonstrate in practice.",
     "evidenceItems": [
       {
         "id": "8.3-E1",
@@ -432,7 +432,7 @@
         "description": "A formally passed board resolution that explicitly designates the specific committee (e.g., Board Risk Committee, Board Technology Committee) as responsible for technology oversight under RMiT. This is the foundational instrument establishing the obligation and demonstrates board-level intent and authority.",
         "whatGoodLooksLike": [
           "Resolution is passed by the full board and recorded in official board meeting minutes, not merely noted by management",
-          "The resolution explicitly names the designated committee and uses language that mirrors the RMiT obligation — 'oversight over technology-related matters'",
+          "The resolution explicitly names the designated committee and uses language that mirrors the RMiT obligation - 'oversight over technology-related matters'",
           "Resolution references the applicable regulatory framework (RMiT) or date of policy issuance, evidencing regulatory awareness",
           "The resolution is undated and clearly precedes or coincides with the institution's RMiT compliance effective date",
           "Any subsequent amendments to the designation (e.g., renaming or reconstituting the committee) are each supported by a fresh board resolution"
@@ -445,10 +445,10 @@
           "Resolution language is generic ('oversee all risk matters') and does not specifically address technology as a distinct oversight domain"
         ],
         "suggestedSources": [
-          "Company Secretariat — official board minute books and resolution registers",
-          "GRC platform (e.g., Diligent Boards, BoardEffect, MetricStream) — board resolution repository",
+          "Company Secretariat - official board minute books and resolution registers",
+          "GRC platform (e.g., Diligent Boards, BoardEffect, MetricStream) - board resolution repository",
           "SharePoint or document management system under Board Governance folder",
-          "Legal/Compliance department — regulatory compliance register"
+          "Legal/Compliance department - regulatory compliance register"
         ],
         "format": "PDF (certified extract of board minutes or standalone board resolution, signed by Company Secretary)",
         "retentionPeriod": "7 years",
@@ -472,13 +472,13 @@
           "Composition clause does not mention the requirement for at least one member with technology experience, meaning compliance with this element cannot be demonstrated from the governing document",
           "ToR has not been reviewed or updated within the past two years, predating significant changes in the institution's technology risk profile or regulatory guidance",
           "The ToR is approved at management level (e.g., signed by CEO) rather than ratified by the full board",
-          "Reporting obligations in the ToR are unclear or absent — no requirement for the committee to escalate technology matters to the board"
+          "Reporting obligations in the ToR are unclear or absent - no requirement for the committee to escalate technology matters to the board"
         ],
         "suggestedSources": [
-          "Company Secretariat — governance documents register",
-          "GRC platform — policy and charter management module",
-          "Board sub-committee SharePoint site — Governance & Policies library",
-          "Compliance department — regulatory document inventory"
+          "Company Secretariat - governance documents register",
+          "GRC platform - policy and charter management module",
+          "Board sub-committee SharePoint site - Governance & Policies library",
+          "Compliance department - regulatory document inventory"
         ],
         "format": "PDF/DOCX (board-approved, version-controlled document with effective date and approval signatures)",
         "retentionPeriod": "7 years",
@@ -505,10 +505,10 @@
           "The institution identifies multiple members as collectively satisfying the requirement but cannot point to a single individual who individually meets the threshold as specified in RMiT"
         ],
         "suggestedSources": [
-          "Company Secretariat — director profiles and declaration files",
-          "Human Resources / Board Nominations Committee — board skills matrix",
-          "Compliance department — fit and proper assessment records",
-          "GRC platform — governance and board competency module"
+          "Company Secretariat - director profiles and declaration files",
+          "Human Resources / Board Nominations Committee - board skills matrix",
+          "Compliance department - fit and proper assessment records",
+          "GRC platform - governance and board competency module"
         ],
         "format": "PDF (CV with supporting credential copies; board skills matrix as PDF or spreadsheet export)",
         "retentionPeriod": "7 years",
@@ -521,7 +521,7 @@
       {
         "id": "8.3-E4",
         "name": "Committee Meeting Minutes and Attendance Records",
-        "description": "Certified minutes from all committee meetings within the review period, together with attendance registers, demonstrating that the committee is actively discharging its technology oversight mandate. Examiners use these records to evaluate whether oversight is substantive — evidenced by informed deliberation, challenge, and direction — or merely procedural.",
+        "description": "Certified minutes from all committee meetings within the review period, together with attendance registers, demonstrating that the committee is actively discharging its technology oversight mandate. Examiners use these records to evaluate whether oversight is substantive - evidenced by informed deliberation, challenge, and direction - or merely procedural.",
         "whatGoodLooksLike": [
           "Minutes reflect substantive deliberation on technology-specific agenda items (e.g., cyber incident reviews, technology risk appetite, major project status, vendor risk) rather than perfunctory noting of management reports",
           "The technology-competent member is consistently present and their contributions or questions are recorded, evidencing active engagement",
@@ -537,10 +537,10 @@
           "Action items from prior meetings are not tracked or closed out in subsequent minutes, suggesting the oversight cycle is incomplete"
         ],
         "suggestedSources": [
-          "Company Secretariat — certified committee minute books",
-          "GRC platform or board portal (e.g., Diligent, BoardEffect) — meeting records and attendance logs",
-          "Committee chair's secretariat — draft and approved minutes archive",
-          "SharePoint — Board Committee Meetings folder"
+          "Company Secretariat - certified committee minute books",
+          "GRC platform or board portal (e.g., Diligent, BoardEffect) - meeting records and attendance logs",
+          "Committee chair's secretariat - draft and approved minutes archive",
+          "SharePoint - Board Committee Meetings folder"
         ],
         "format": "PDF (certified meeting minutes with attendance register, signed by Company Secretary and committee chair)",
         "retentionPeriod": "7 years",
@@ -553,7 +553,7 @@
         "name": "Technology Reporting Package to Committee",
         "description": "Management papers and reports submitted to the designated committee for technology oversight purposes, demonstrating the information flow that enables the committee to discharge its mandate. These papers evidence that the committee receives sufficient, timely, and relevant technology intelligence to exercise meaningful oversight.",
         "whatGoodLooksLike": [
-          "Reports are structured, recurring, and technology-specific — covering technology risk profile, key risk indicators, major incidents, project portfolio status, and vendor risk — rather than being ad hoc or embedded within general management updates",
+          "Reports are structured, recurring, and technology-specific - covering technology risk profile, key risk indicators, major incidents, project portfolio status, and vendor risk - rather than being ad hoc or embedded within general management updates",
           "Report content is calibrated for board-level consumption: executive summaries with clear risk ratings, trend analysis, and specific requests for committee decision or endorsement",
           "Reports are submitted ahead of each committee meeting with sufficient lead time for members to review, consistent with the ToR or committee calendar",
           "The reporting package includes a standing section on emerging technology threats and regulatory developments relevant to the institution's risk profile",
@@ -567,11 +567,11 @@
           "There is no consistent reporting template or schedule; frequency and content vary materially between meetings with no documented rationale"
         ],
         "suggestedSources": [
-          "CIO / CISO office — board/committee reporting templates and distribution records",
-          "Company Secretariat — board paper repository",
-          "GRC platform — committee reporting module",
-          "SharePoint — Board Committee Papers library",
-          "ITSM / risk management platform (e.g., ServiceNow, Archer) — report generation and distribution logs"
+          "CIO / CISO office - board/committee reporting templates and distribution records",
+          "Company Secretariat - board paper repository",
+          "GRC platform - committee reporting module",
+          "SharePoint - Board Committee Papers library",
+          "ITSM / risk management platform (e.g., ServiceNow, Archer) - report generation and distribution logs"
         ],
         "format": "PDF (board papers with version control, distribution metadata, and receipt confirmation from Company Secretary)",
         "retentionPeriod": "7 years",
@@ -581,7 +581,7 @@
       },
       {
         "id": "8.3-E6",
-        "name": "Annual Board Effectiveness Review — Technology Oversight Assessment",
+        "name": "Annual Board Effectiveness Review - Technology Oversight Assessment",
         "description": "Extracts from the institution's annual board and committee effectiveness review that specifically assess the performance of the designated committee in discharging its technology oversight mandate and the adequacy of technology competency on the committee. This evidence demonstrates a continuous improvement loop and sustained regulatory compliance over time.",
         "whatGoodLooksLike": [
           "The effectiveness review explicitly evaluates the designated committee's performance against its technology oversight mandate, with findings and recommended improvements documented",
@@ -598,11 +598,11 @@
           "The effectiveness review is conducted only when triggered by external examination rather than as a standing annual practice"
         ],
         "suggestedSources": [
-          "Board Nominations and Remuneration Committee — board effectiveness review reports",
-          "Internal Audit department — governance review workpapers",
+          "Board Nominations and Remuneration Committee - board effectiveness review reports",
+          "Internal Audit department - governance review workpapers",
           "External facilitator's report (where applicable)",
-          "Company Secretariat — board improvement action tracker",
-          "GRC platform — governance and assurance module"
+          "Company Secretariat - board improvement action tracker",
+          "GRC platform - governance and assurance module"
         ],
         "format": "PDF (formal effectiveness review report with board acceptance minute reference and action tracker)",
         "retentionPeriod": "7 years",
@@ -612,13 +612,13 @@
       }
     ],
     "auditTips": [
-      "Begin your evidence assembly by tracing the designation chain: confirm that a board resolution exists, that it designates a specific board-level (not management-level) committee, and that the ToR of that committee explicitly reflects technology oversight — any break in this chain is an immediate finding. Cross-reference the resolution date against the institution's RMiT effective date to confirm timely compliance.",
-      "Do not accept a combined Board Risk Committee or Board Audit Committee as automatically compliant — examine the ToR and meeting minutes to verify that technology oversight is a substantive, enumerated mandate rather than absorbed incidentally within broader risk or audit scope. BNM examiners will probe whether 'technology matters' receive dedicated agenda time and informed deliberation.",
-      "For the technology-competent member requirement, prepare a concise one-page narrative for each qualifying director that maps their career history to substantive technology leadership milestones, supported by their CV and relevant credentials. Avoid relying solely on the board skills matrix — examiners will ask follow-up questions and may request the underlying evidence.",
-      "Conduct a pre-examination dry run: select three recent committee meetings at random and verify that the agenda, pre-circulated papers, minutes, and action log are complete, consistent, and traceable. Gaps in this paper trail — missing pre-circulation records, unsigned minutes, or unresolved action items — are low-hanging findings that can be remediated before examination.",
+      "Begin your evidence assembly by tracing the designation chain: confirm that a board resolution exists, that it designates a specific board-level (not management-level) committee, and that the ToR of that committee explicitly reflects technology oversight - any break in this chain is an immediate finding. Cross-reference the resolution date against the institution's RMiT effective date to confirm timely compliance.",
+      "Do not accept a combined Board Risk Committee or Board Audit Committee as automatically compliant - examine the ToR and meeting minutes to verify that technology oversight is a substantive, enumerated mandate rather than absorbed incidentally within broader risk or audit scope. BNM examiners will probe whether 'technology matters' receive dedicated agenda time and informed deliberation.",
+      "For the technology-competent member requirement, prepare a concise one-page narrative for each qualifying director that maps their career history to substantive technology leadership milestones, supported by their CV and relevant credentials. Avoid relying solely on the board skills matrix - examiners will ask follow-up questions and may request the underlying evidence.",
+      "Conduct a pre-examination dry run: select three recent committee meetings at random and verify that the agenda, pre-circulated papers, minutes, and action log are complete, consistent, and traceable. Gaps in this paper trail - missing pre-circulation records, unsigned minutes, or unresolved action items - are low-hanging findings that can be remediated before examination.",
       "Cross-reference the technology reporting package against the issues and decisions recorded in meeting minutes: if minutes record deliberation on a cyber incident but no incident report appears in the pre-circulation pack, examiners will question whether the committee had adequate information to exercise oversight. Ensure the paper trail of information provision is complete.",
-      "Confirm that the institution's organisational chart and governance map clearly distinguishes the designated board-level committee from the management-level IT Steering Committee or equivalent, with explicit reporting lines between them. A common examiner query is whether the board-level committee receives independent reporting or merely ratifies management decisions — the governance documentation must make this distinction unambiguous.",
-      "Prepare a single consolidated governance summary document (one to two pages) that maps each RMiT 8.3 obligation — designation, board-level status, technology mandate, and competency requirement — to the specific evidence item and document reference. Present this as your opening exhibit during examination; it frames the evidence package, demonstrates regulatory awareness, and reduces the risk of examiners drawing adverse inferences from disorganised evidence."
+      "Confirm that the institution's organisational chart and governance map clearly distinguishes the designated board-level committee from the management-level IT Steering Committee or equivalent, with explicit reporting lines between them. A common examiner query is whether the board-level committee receives independent reporting or merely ratifies management decisions - the governance documentation must make this distinction unambiguous.",
+      "Prepare a single consolidated governance summary document (one to two pages) that maps each RMiT 8.3 obligation - designation, board-level status, technology mandate, and competency requirement - to the specific evidence item and document reference. Present this as your opening exhibit during examination; it frames the evidence package, demonstrates regulatory awareness, and reduces the risk of examiners drawing adverse inferences from disorganised evidence."
     ]
   },
   "8.4": {
@@ -628,14 +628,14 @@
     "title": "Board Discussion on Technology and Cyber Risk",
     "clauseType": "governance",
     "marker": "S",
-    "auditorFocus": "BNM examiners assess whether the board is genuinely engaged with technology and cyber risk — not merely receiving reports in a passive or ceremonial manner. Examiners scrutinise board meeting minutes to verify that cyber risk discussions are substantive, recurrent, and cover strategic, reputational, and liquidity dimensions, not just operational IT matters. A key red flag is thin or templated minutes that suggest agenda items were noted without meaningful deliberation, particularly where no board-level questions, challenges, or decisions are recorded. Examiners also verify that cybersecurity awareness training is structured, institution-specific, and completed by all board members — generic e-learning modules with no evidence of attendance attract scrutiny. Where external expert input is not used, examiners expect a documented rationale; where it is used, they will request evidence of the expert's credentials and the substance of their contribution to board discussion.",
+    "auditorFocus": "BNM examiners assess whether the board is genuinely engaged with technology and cyber risk - not merely receiving reports in a passive or ceremonial manner. Examiners scrutinise board meeting minutes to verify that cyber risk discussions are substantive, recurrent, and cover strategic, reputational, and liquidity dimensions, not just operational IT matters. A key red flag is thin or templated minutes that suggest agenda items were noted without meaningful deliberation, particularly where no board-level questions, challenges, or decisions are recorded. Examiners also verify that cybersecurity awareness training is structured, institution-specific, and completed by all board members - generic e-learning modules with no evidence of attendance attract scrutiny. Where external expert input is not used, examiners expect a documented rationale; where it is used, they will request evidence of the expert's credentials and the substance of their contribution to board discussion.",
     "evidenceItems": [
       {
         "id": "8.4-E1",
-        "name": "Board Meeting Minutes — Technology and Cyber Risk Agenda Items",
+        "name": "Board Meeting Minutes - Technology and Cyber Risk Agenda Items",
         "description": "Approved minutes from full board meetings documenting the discussion of technology risk and cyber threats, demonstrating that the board actively deliberates on these topics at regular intervals and not merely receives reports without engagement.",
         "whatGoodLooksLike": [
-          "Minutes record substantive board discussion including questions raised, concerns noted, and decisions or directives issued — not merely 'noted and received'",
+          "Minutes record substantive board discussion including questions raised, concerns noted, and decisions or directives issued - not merely 'noted and received'",
           "Cyber risk appears as a standing agenda item or is demonstrably covered at every board meeting cycle, with frequency consistent with the institution's risk profile",
           "Minutes explicitly reference strategic, reputational, and liquidity dimensions of cyber risk, not just operational or IT-operational matters",
           "Minutes capture the board's assessment of the potential impact of an extreme cyber incident on stakeholders, including customers, counterparties, and regulators",
@@ -645,7 +645,7 @@
           "Minutes record cyber risk items as 'presented and noted' with no evidence of board deliberation, challenge, or follow-up action assigned",
           "Cyber risk discussion is relegated to board committee level (e.g., Board Risk Committee) with no escalation or reporting back to the full board",
           "Minutes omit coverage of strategic, reputational, or liquidity risk dimensions, focusing only on technical incidents or IT operational KPIs",
-          "Frequency of discussion is irregular — cyber risk appears in some quarters but is absent from others, with no documented reason for omission",
+          "Frequency of discussion is irregular - cyber risk appears in some quarters but is absent from others, with no documented reason for omission",
           "Minutes are not formally approved or are maintained only in draft form, reducing their evidentiary weight"
         ],
         "suggestedSources": [
@@ -673,13 +673,13 @@
         ],
         "commonGaps": [
           "Reports are heavily technical (e.g., SIEM alert volumes, patch counts) without translating cyber risk into business or financial impact terms that the board can act on",
-          "Reporting frequency is inconsistent — some periods have no formal board-level cyber report, with information instead embedded in general management updates",
+          "Reporting frequency is inconsistent - some periods have no formal board-level cyber report, with information instead embedded in general management updates",
           "Reports lack forward-looking threat intelligence; they summarise past incidents only without situational awareness of emerging threats",
           "The same report template is reused across periods with minimal substantive updates, suggesting a compliance-of-form rather than genuine risk communication",
           "Reports are not formally tabled as board papers and cannot be cross-referenced to specific board meeting minutes"
         ],
         "suggestedSources": [
-          "Chief Information Security Officer (CISO) or CIO office — board reporting pack preparation",
+          "Chief Information Security Officer (CISO) or CIO office - board reporting pack preparation",
           "GRC platform reporting module (e.g., ServiceNow GRC, RSA Archer, LogicGate)",
           "Board paper repository on company secretariat platform or SharePoint board portal",
           "Enterprise Risk Management (ERM) function for integrated risk reporting that includes cyber"
@@ -697,23 +697,23 @@
         "description": "Records demonstrating that all board members have participated in relevant cybersecurity awareness and training programmes, including training content, attendance, completion, and assessment outcomes where applicable.",
         "whatGoodLooksLike": [
           "Attendance records or completion certificates exist for every individual board member, including independent and non-executive directors, with no members exempted or with unexplained gaps",
-          "Training content is institution-specific and contextually relevant — covering threats pertinent to the Malaysian financial sector (e.g., business email compromise, ransomware, third-party risk) rather than generic cybersecurity awareness",
+          "Training content is institution-specific and contextually relevant - covering threats pertinent to the Malaysian financial sector (e.g., business email compromise, ransomware, third-party risk) rather than generic cybersecurity awareness",
           "Training is refreshed at least annually and updated to reflect the current threat landscape, with version history maintained",
-          "Records include training date, duration, format (in-person, facilitated session, e-learning), and — where applicable — assessment scores or knowledge check outcomes",
+          "Records include training date, duration, format (in-person, facilitated session, e-learning), and - where applicable - assessment scores or knowledge check outcomes",
           "Training programme is approved by a relevant governance body (e.g., Board Nomination & Remuneration Committee, or the board itself) and linked to the institution's broader cybersecurity awareness framework"
         ],
         "commonGaps": [
           "Training records exist for executives but are absent or incomplete for non-executive or independent board directors",
           "Training consists solely of a generic online module (e.g., a 15-minute e-learning video) not tailored to the financial sector or the institution's specific risk profile",
-          "No records of training completion are maintained — only training invitations or calendars, with no confirmation of actual attendance",
-          "Training frequency is insufficient — the same single programme from a prior year is presented as current, with no refresh to reflect evolving threats",
+          "No records of training completion are maintained - only training invitations or calendars, with no confirmation of actual attendance",
+          "Training frequency is insufficient - the same single programme from a prior year is presented as current, with no refresh to reflect evolving threats",
           "Training content is not documented or retained, making it impossible to assess whether the curriculum meets the standard of 'relevant cybersecurity awareness'"
         ],
         "suggestedSources": [
-          "Human Resources Learning Management System (LMS) — board director training records",
-          "Company secretariat — board induction and continuing development records",
-          "CISO or cybersecurity function — facilitated board briefing session materials and attendance registers",
-          "External training provider — certificates of completion and programme syllabi"
+          "Human Resources Learning Management System (LMS) - board director training records",
+          "Company secretariat - board induction and continuing development records",
+          "CISO or cybersecurity function - facilitated board briefing session materials and attendance registers",
+          "External training provider - certificates of completion and programme syllabi"
         ],
         "format": "PDF completion certificates; LMS system export (CSV/PDF); signed attendance registers; training presentation decks with version date",
         "retentionPeriod": "7 years",
@@ -730,7 +730,7 @@
           "Engagement scope and key findings or recommendations presented to the board are documented, not merely the fact of the engagement",
           "Board minutes cross-reference the external expert's input, confirming it was received and discussed at board level",
           "Where external experts are not engaged, a documented board-level rationale exists explaining why internal capability is deemed sufficient",
-          "Engagements are periodic and risk-driven — triggered by significant threat developments, post-incident reviews, or material changes in the cyber risk landscape"
+          "Engagements are periodic and risk-driven - triggered by significant threat developments, post-incident reviews, or material changes in the cyber risk landscape"
         ],
         "commonGaps": [
           "No external expert input is obtained and no documented rationale explains the omission, particularly where the institution's internal cyber expertise is limited",
@@ -740,10 +740,10 @@
           "Expert input is generic industry content (e.g., a public threat report) rather than tailored analysis relevant to the institution's specific risk profile"
         ],
         "suggestedSources": [
-          "CISO or CIO office — vendor and consultant engagement records",
-          "Procurement system — contracts and statements of work for cybersecurity advisory engagements",
-          "Board paper repository — external expert presentation decks tabled at board meetings",
-          "Company secretariat — records of external presentations made at board or board committee meetings"
+          "CISO or CIO office - vendor and consultant engagement records",
+          "Procurement system - contracts and statements of work for cybersecurity advisory engagements",
+          "Board paper repository - external expert presentation decks tabled at board meetings",
+          "Company secretariat - records of external presentations made at board or board committee meetings"
         ],
         "format": "PDF expert reports and presentations; signed engagement letters or terms of reference; board paper cover sheets referencing the expert input",
         "retentionPeriod": "7 years",
@@ -765,16 +765,16 @@
         ],
         "commonGaps": [
           "Cyber risk is consistently the last agenda item with minimal time allocated, and minutes suggest it is routinely deferred or time-compressed due to earlier agenda overrun",
-          "No evidence of any dedicated cyber risk deep-dive session or scenario exercise at board level — all discussion is confined to brief updates within broader risk agenda items",
+          "No evidence of any dedicated cyber risk deep-dive session or scenario exercise at board level - all discussion is confined to brief updates within broader risk agenda items",
           "Agendas do not specify time allocations for individual items, making it impossible to demonstrate that 'sufficient time' was allocated as required by the clause",
           "Tabletop exercises or crisis simulations are conducted at management or operational level only, with no board participation or board-level scenario discussion",
           "Board work plan does not identify cyber risk as a planned thematic topic, suggesting discussion is ad hoc rather than systematically planned"
         ],
         "suggestedSources": [
-          "Company secretariat — board and board committee meeting agendas and annual board work plans",
-          "Board portal platform (e.g., Diligent, BoardEffect) — meeting scheduling and agenda management records",
-          "CISO or cybersecurity function — records of board-level tabletop exercises or cyber crisis simulations",
-          "GRC platform — board governance calendar and risk committee scheduling records"
+          "Company secretariat - board and board committee meeting agendas and annual board work plans",
+          "Board portal platform (e.g., Diligent, BoardEffect) - meeting scheduling and agenda management records",
+          "CISO or cybersecurity function - records of board-level tabletop exercises or cyber crisis simulations",
+          "GRC platform - board governance calendar and risk committee scheduling records"
         ],
         "format": "PDF meeting agendas; board work plan calendar (PDF/XLSX); tabletop exercise reports and attendance registers",
         "retentionPeriod": "7 years",
@@ -784,12 +784,12 @@
       },
       {
         "id": "8.4-E6",
-        "name": "Board Skills Matrix — Cybersecurity Competency Assessment",
+        "name": "Board Skills Matrix - Cybersecurity Competency Assessment",
         "description": "A board skills matrix or competency assessment demonstrating that the collective board possesses or has access to sufficient cybersecurity and technology risk literacy to engage meaningfully with cyber risk discussions, supporting the institution's approach to board-level cyber governance.",
         "whatGoodLooksLike": [
           "Skills matrix explicitly includes cybersecurity, technology risk, and digital literacy as assessed competency dimensions alongside traditional financial and governance competencies",
           "Matrix is reviewed and updated at least annually, with refreshes triggered by changes in board composition or material shifts in the technology risk landscape",
-          "Where the board has identified gaps in collective cyber competency, documented remediation actions are in place — such as targeted training, external expert engagement, or board composition plans",
+          "Where the board has identified gaps in collective cyber competency, documented remediation actions are in place - such as targeted training, external expert engagement, or board composition plans",
           "Individual director self-assessments or independent assessments underpin the matrix ratings, providing an evidential basis for competency claims",
           "The matrix and its implications for board effectiveness are discussed at Board Nomination & Remuneration Committee level and reflected in the annual board effectiveness review"
         ],
@@ -797,14 +797,14 @@
           "Skills matrix omits cybersecurity and technology risk as competency dimensions, addressing only traditional board skills such as finance, legal, and industry expertise",
           "Matrix is static and has not been updated following changes in board composition or evolution of the institution's technology risk profile",
           "Competency ratings are self-assessed without supporting evidence, and all directors are rated as competent in cybersecurity regardless of actual background",
-          "Identified gaps in board cyber competency are not linked to any remediation plan — training records or external expert engagement cannot be traced back to gap closure",
+          "Identified gaps in board cyber competency are not linked to any remediation plan - training records or external expert engagement cannot be traced back to gap closure",
           "The skills matrix is prepared for recruitment purposes only and is not actively used as a governance tool to inform board development or external expert engagement decisions"
         ],
         "suggestedSources": [
-          "Board Nomination & Remuneration Committee — board skills matrix and director competency records",
-          "Company secretariat — board composition and director profile documentation",
-          "Human Resources — board director development plans and training needs analysis",
-          "Annual Report — board composition and skills disclosure (as a cross-reference point)"
+          "Board Nomination & Remuneration Committee - board skills matrix and director competency records",
+          "Company secretariat - board composition and director profile documentation",
+          "Human Resources - board director development plans and training needs analysis",
+          "Annual Report - board composition and skills disclosure (as a cross-reference point)"
         ],
         "format": "PDF or XLSX skills matrix; PDF board effectiveness review report; director profile summaries",
         "retentionPeriod": "7 years",
@@ -815,11 +815,11 @@
     ],
     "auditTips": [
       "Cross-reference board meeting minutes against the board reporting pack index: every cyber risk report tabled should produce a corresponding substantive minute entry. Where reports are tabled but minutes record only 'noted', flag this as a compliance risk and work with the company secretariat to improve minute-taking standards before examination.",
-      "Compile a board cyber training tracker that maps each individual board member (by name and role) against training completed, date, duration, and content version. BNM examiners will ask for evidence by individual director — a consolidated register prevents gaps from being discovered during the examination itself.",
+      "Compile a board cyber training tracker that maps each individual board member (by name and role) against training completed, date, duration, and content version. BNM examiners will ask for evidence by individual director - a consolidated register prevents gaps from being discovered during the examination itself.",
       "If the institution has not engaged external cybersecurity experts at board level, prepare a formal documented rationale approved by the board or a relevant committee explaining why internal capability is sufficient. An undocumented absence of external expert input is harder to defend than a reasoned, documented decision.",
       "Review the past 12 months of board meeting agendas and calculate the average time formally allocated to cyber risk discussion. If the allocation is visibly insufficient relative to the institution's risk profile, work with the company secretariat to restructure the board work plan to include at least one annual cyber deep-dive session with a recorded extended time block.",
       "Ensure the board skills matrix is updated to explicitly include cybersecurity and technology risk as a competency dimension. Map identified gaps to specific remediation actions (training completed or external expert engaged) so that the matrix functions as a living governance tool rather than a static recruitment document.",
-      "For institutions that have not conducted a board-level cyber tabletop exercise, prioritise scheduling one before the anticipated examination window. Retain the exercise scenario, facilitation materials, participation register, and post-exercise report as evidence that the board has discussed the impact of an extreme cyber incident on stakeholders — this directly addresses Clause 8.4(b).",
+      "For institutions that have not conducted a board-level cyber tabletop exercise, prioritise scheduling one before the anticipated examination window. Retain the exercise scenario, facilitation materials, participation register, and post-exercise report as evidence that the board has discussed the impact of an extreme cyber incident on stakeholders - this directly addresses Clause 8.4(b).",
       "Prepare a clause-by-clause evidence map linking Clause 8.4(a), (b), and (c) to specific document references (paper numbers, minute references, training completion records) so that during examination you can respond to examiner questions with immediate, traceable citations rather than searching across multiple systems."
     ]
   },
@@ -830,15 +830,15 @@
     "title": "Board Audit Committee Technology Oversight",
     "clauseType": "governance",
     "marker": "S",
-    "auditorFocus": "BNM examiners focus on whether the Board Audit Committee exercises substantive, informed oversight of the internal technology audit function — not merely procedural sign-off. Examiners will scrutinise BAC meeting minutes to confirm that technology audit matters are discussed with depth and that BAC members demonstrate sufficient technological literacy to challenge audit findings. A primary red flag is a BAC that delegates technology audit oversight entirely to management without independent review. Examiners will also assess whether corrective action tracking is a standing agenda item with documented follow-through, and will cross-reference audit issue registers against subsequent BAC minutes to verify that gaps are not silently deferred or closed without evidence of remediation. The frequency and scope of technology audits relative to the institution's risk profile is a key evaluation point, with examiners looking for documented rationale when high-risk technology domains are audited infrequently.",
+    "auditorFocus": "BNM examiners focus on whether the Board Audit Committee exercises substantive, informed oversight of the internal technology audit function - not merely procedural sign-off. Examiners will scrutinise BAC meeting minutes to confirm that technology audit matters are discussed with depth and that BAC members demonstrate sufficient technological literacy to challenge audit findings. A primary red flag is a BAC that delegates technology audit oversight entirely to management without independent review. Examiners will also assess whether corrective action tracking is a standing agenda item with documented follow-through, and will cross-reference audit issue registers against subsequent BAC minutes to verify that gaps are not silently deferred or closed without evidence of remediation. The frequency and scope of technology audits relative to the institution's risk profile is a key evaluation point, with examiners looking for documented rationale when high-risk technology domains are audited infrequently.",
     "evidenceItems": [
       {
         "id": "8.5-E1",
-        "name": "BAC Meeting Minutes — Technology Audit Agenda Items",
+        "name": "BAC Meeting Minutes - Technology Audit Agenda Items",
         "description": "Approved minutes from BAC meetings demonstrating substantive discussion of technology audit activities, findings, and oversight decisions. These records establish that the BAC is actively engaged in technology audit governance rather than passively receiving reports.",
         "whatGoodLooksLike": [
           "Minutes contain dedicated technology audit agenda items at every meeting, with named BAC members recorded as asking specific questions or raising concerns about findings",
-          "Discussion captured in minutes reflects understanding of technical risk concepts such as access control gaps, patch management backlogs, or third-party system risks — not just high-level summaries",
+          "Discussion captured in minutes reflects understanding of technical risk concepts such as access control gaps, patch management backlogs, or third-party system risks - not just high-level summaries",
           "Minutes record BAC decisions on audit scope changes, resource allocations for the internal audit function, or escalation of critical findings to the full Board",
           "Corrective action status updates appear as a standing agenda item with explicit BAC acknowledgement of open versus closed items and expected closure dates",
           "Minutes are formally approved at the subsequent BAC meeting and signed by the BAC chairman, with a clear audit trail showing version history"
@@ -851,7 +851,7 @@
           "Significant time lags between the BAC meeting date and the approval of minutes (exceeding 60 days) undermine the reliability of the record"
         ],
         "suggestedSources": [
-          "Board Secretariat or Company Secretary office — official approved minutes repository",
+          "Board Secretariat or Company Secretary office - official approved minutes repository",
           "GRC platform (e.g., Diligent, BoardEffect, or SharePoint Board portal) where meeting packs and approved minutes are stored",
           "Internal Audit department for draft minutes prior to formal approval"
         ],
@@ -864,11 +864,11 @@
       },
       {
         "id": "8.5-E2",
-        "name": "Annual Technology Audit Plan — BAC-Approved",
+        "name": "Annual Technology Audit Plan - BAC-Approved",
         "description": "The formally approved annual internal technology audit plan, evidencing that the BAC has reviewed and endorsed the audit scope, methodology, procedures, and frequency. This document demonstrates BAC fulfilment of its obligation to ensure appropriate audit scope and scheduling relative to the institution's technology risk profile.",
         "whatGoodLooksLike": [
           "Audit plan explicitly maps audit engagements to technology risk domains (e.g., cybersecurity, cloud, third-party IT, core banking systems, BCP/DR) with clear rationale for prioritisation and frequency",
-          "BAC approval is documented by a resolution or formal sign-off in meeting minutes, with the plan version and date referenced, confirming the BAC reviewed — not merely received — the plan",
+          "BAC approval is documented by a resolution or formal sign-off in meeting minutes, with the plan version and date referenced, confirming the BAC reviewed - not merely received - the plan",
           "Plan includes a risk-based methodology narrative explaining how audit frequency is calibrated to inherent risk ratings of each technology domain",
           "Resource allocation section confirms that staffing levels and competency mix are sufficient to execute the planned engagements within the audit year",
           "Mid-year plan revision process is documented, with any scope changes requiring BAC notification or approval depending on materiality thresholds defined in the audit charter"
@@ -878,10 +878,10 @@
           "Scope is defined at a high level (e.g., 'IT general controls audit') without specifying systems, domains, or risk-based rationale, making it impossible to assess adequacy",
           "Frequency of technology audits is uniform across all domains regardless of risk ratings, suggesting a compliance-calendar approach rather than a genuine risk-based methodology",
           "Plan does not account for emerging technology risks introduced during the year (e.g., new cloud migrations, new third-party integrations) and is not refreshed mid-year",
-          "No evidence that the BAC challenged or requested modifications to the proposed plan — approval appears rubber-stamped without deliberation"
+          "No evidence that the BAC challenged or requested modifications to the proposed plan - approval appears rubber-stamped without deliberation"
         ],
         "suggestedSources": [
-          "Internal Audit department — annual audit planning documentation",
+          "Internal Audit department - annual audit planning documentation",
           "GRC platform (e.g., TeamMate, AuditBoard, or RSA Archer) for audit universe and plan management",
           "Board Secretariat for the BAC resolution or minute extract confirming plan approval"
         ],
@@ -897,7 +897,7 @@
         "description": "Documentation demonstrating that the BAC has assessed and is satisfied with the competency of internal audit staff to perform technology audits. This includes qualifications, certifications, training records, and any BAC-level review of the audit team's capability profile relative to the institution's technology complexity.",
         "whatGoodLooksLike": [
           "A competency matrix mapping each technology auditor's qualifications (e.g., CISA, CISSP, CEH, cloud certifications) against the technology domains in the audit universe, reviewed and acknowledged by the BAC",
-          "BAC minutes or a formal BAC paper record that the committee reviewed the technology audit team's capability profile and was satisfied — or that it directed management to address identified gaps",
+          "BAC minutes or a formal BAC paper record that the committee reviewed the technology audit team's capability profile and was satisfied - or that it directed management to address identified gaps",
           "Annual training and professional development records for technology audit staff, with a summary provided to the BAC confirming CPE hours and skills currency",
           "Where internal capability gaps exist, evidence of co-sourcing or specialist engagement arrangements reviewed and approved by the BAC, with defined scope and oversight controls",
           "Succession planning or talent pipeline documentation for key technology audit roles, evidencing BAC awareness of staffing risk to the audit function"
@@ -907,11 +907,11 @@
           "Certification records exist but are not aggregated into a capability summary for BAC consumption, leaving a gap in evidence of BAC-level oversight",
           "Technology audit team lacks certifications relevant to the institution's highest-risk technology domains (e.g., cloud auditing where the institution is heavily cloud-dependent), with no compensating co-sourcing arrangement",
           "Training records show generic IT training rather than technology-audit-specific upskilling, undermining the assertion of 'adequate competence' for audit work",
-          "BAC receives staff headcount data but not a qualitative competency assessment, meaning the BAC cannot demonstrate it evaluated adequacy of skills — only adequacy of numbers"
+          "BAC receives staff headcount data but not a qualitative competency assessment, meaning the BAC cannot demonstrate it evaluated adequacy of skills - only adequacy of numbers"
         ],
         "suggestedSources": [
-          "Human Resources — personnel files, training records, and certification databases",
-          "Internal Audit department — audit team competency matrix and CPE tracking logs",
+          "Human Resources - personnel files, training records, and certification databases",
+          "Internal Audit department - audit team competency matrix and CPE tracking logs",
           "Learning Management System (LMS) for training completion records",
           "Board Secretariat for BAC papers and resolutions referencing competency reviews"
         ],
@@ -927,22 +927,22 @@
         "name": "Technology Audit Issue Register and Corrective Action Tracking Log",
         "description": "A comprehensive register of technology audit findings and associated corrective action plans (CAPs), demonstrating that the BAC exercises effective oversight of remediation progress. This is the primary evidence that the BAC is ensuring 'prompt closure of corrective actions to address technology control gaps' as required by the clause.",
         "whatGoodLooksLike": [
-          "Register captures all open technology audit findings with severity ratings, root cause categorisation, CAP owner, committed closure date, and current status — updated prior to each BAC meeting",
+          "Register captures all open technology audit findings with severity ratings, root cause categorisation, CAP owner, committed closure date, and current status - updated prior to each BAC meeting",
           "BAC meeting materials include a structured exception report highlighting overdue CAPs, repeat findings, and findings that have been re-rated or deferred, requiring explicit BAC acknowledgement",
           "Evidence of BAC directing escalation or escalation timelines for high-severity findings that have breached their committed closure dates, captured in meeting minutes",
-          "Closure validation process is documented — showing that CAP closure requires evidence of remediation reviewed by Internal Audit before the finding is marked closed in the register",
+          "Closure validation process is documented - showing that CAP closure requires evidence of remediation reviewed by Internal Audit before the finding is marked closed in the register",
           "Trend analysis is presented to the BAC at defined intervals (e.g., quarterly) showing aging of open items, repeat-finding rates, and domain-level concentration of control gaps"
         ],
         "commonGaps": [
-          "Register exists but is maintained solely by management with BAC receiving only a summary count of open and closed items — no visibility of individual high-risk findings or overdue CAPs",
+          "Register exists but is maintained solely by management with BAC receiving only a summary count of open and closed items - no visibility of individual high-risk findings or overdue CAPs",
           "CAP closure is self-certified by the business unit that owns the control gap, without Internal Audit validation, making BAC oversight of 'effective closure' unsubstantiated",
           "Findings are routinely deferred beyond original committed dates without formal BAC acknowledgement or revised closure rationale, indicating ineffective oversight",
           "Repeat findings (same control gap identified in successive audits) are not flagged distinctively in the register or escalated to the BAC, masking systemic control weaknesses",
           "Register tracks findings at a generic 'IT audit' level without distinguishing technology control gaps from financial or operational findings, preventing meaningful BAC oversight of technology-specific remediation"
         ],
         "suggestedSources": [
-          "GRC platform (e.g., AuditBoard, MetricStream, RSA Archer, or ServiceNow GRC) — audit issue management module",
-          "Internal Audit department — issue tracker and CAP management files",
+          "GRC platform (e.g., AuditBoard, MetricStream, RSA Archer, or ServiceNow GRC) - audit issue management module",
+          "Internal Audit department - issue tracker and CAP management files",
           "ITSM platform (e.g., ServiceNow, Jira) for technology remediation task tracking linked to audit findings",
           "Board Secretariat for BAC meeting packs containing issue register extracts"
         ],
@@ -960,21 +960,21 @@
         "whatGoodLooksLike": [
           "Reports are addressed or copied to the BAC and include an executive summary calibrated for a board-level audience alongside technical findings, enabling informed BAC oversight without requiring deep technical immersion",
           "Each report clearly states the audit scope, period covered, methodology, overall rating or opinion, and individual finding severity ratings consistent with the institution's defined rating scale",
-          "BAC acknowledgement of receipt and review is captured in meeting minutes, with specific reports referenced by engagement name and date — not just a generic 'audit reports reviewed' notation",
+          "BAC acknowledgement of receipt and review is captured in meeting minutes, with specific reports referenced by engagement name and date - not just a generic 'audit reports reviewed' notation",
           "Reports include management responses and agreed CAPs with committed dates, enabling the BAC to track remediation accountability from the point of initial finding disclosure",
           "Distribution list and submission date are recorded on each report, providing an audit trail confirming timely escalation to the BAC rather than delayed or selective disclosure"
         ],
         "commonGaps": [
           "Reports are submitted to the Audit Committee but BAC members have delegated review to a sub-committee or management layer, with no evidence of direct BAC engagement with technology audit findings",
-          "Reports lack an overall audit opinion or rating, presenting findings as a list without context on severity or systemic risk — limiting the BAC's ability to prioritise oversight attention",
+          "Reports lack an overall audit opinion or rating, presenting findings as a list without context on severity or systemic risk - limiting the BAC's ability to prioritise oversight attention",
           "High-severity or critical findings are verbally briefed to the BAC Chairman without formal written submission, creating gaps in the documentary record of BAC oversight",
           "Management responses in reports are vague or commit only to 'ongoing monitoring' without specific remediation actions or measurable closure criteria",
           "Significant time lag between report finalisation and BAC submission (exceeding 60 days) is not explained or escalated, indicating a breakdown in the reporting chain"
         ],
         "suggestedSources": [
-          "Internal Audit department — finalized audit report repository",
-          "GRC platform or SharePoint — audit report document management library",
-          "Board Secretariat — BAC meeting pack archives confirming which reports were tabled at each meeting"
+          "Internal Audit department - finalized audit report repository",
+          "GRC platform or SharePoint - audit report document management library",
+          "Board Secretariat - BAC meeting pack archives confirming which reports were tabled at each meeting"
         ],
         "format": "PDF (finalized, signed audit reports with management responses)",
         "retentionPeriod": "7 years",
@@ -988,7 +988,7 @@
         "name": "BAC Technology Audit Oversight Charter or Terms of Reference",
         "description": "The BAC's formal Terms of Reference (ToR) or charter explicitly assigning responsibility for technology audit oversight, including the specific obligations enumerated in RMiT 8.5. This document establishes the governance framework within which all other evidence items operate.",
         "whatGoodLooksLike": [
-          "ToR explicitly assigns the BAC responsibility for overseeing the internal technology audit function, staff competency, audit scope and frequency, and corrective action closure — directly mirroring the language of RMiT 8.5",
+          "ToR explicitly assigns the BAC responsibility for overseeing the internal technology audit function, staff competency, audit scope and frequency, and corrective action closure - directly mirroring the language of RMiT 8.5",
           "ToR specifies the minimum frequency of BAC review for technology audit matters (e.g., quarterly reporting of CAP status, annual review of audit plan) with defined escalation triggers for urgent matters",
           "Document has been reviewed and approved by the full Board within the past 12 months, with the review date, approving resolution, and version number recorded",
           "ToR defines the BAC's authority to direct the Chief Audit Executive on technology audit resourcing, scope adjustments, or co-sourcing arrangements without management interference",
@@ -999,10 +999,10 @@
           "ToR has not been reviewed or updated in more than two years, failing to reflect the institution's current technology risk profile or regulatory developments such as RMiT itself",
           "Technology audit competency oversight is assigned to the BAC in the ToR but operationally delegated to the Chief Audit Executive without a reporting or escalation mechanism back to the BAC",
           "Corrective action oversight responsibilities are described in vague terms ('monitor remediation') without specifying reporting frequency, escalation thresholds, or BAC decision-making authority for overdue items",
-          "ToR is a standalone document not cross-referenced to the Board Charter, the Internal Audit Charter, or RMiT obligations — creating potential gaps or conflicts between governance instruments"
+          "ToR is a standalone document not cross-referenced to the Board Charter, the Internal Audit Charter, or RMiT obligations - creating potential gaps or conflicts between governance instruments"
         ],
         "suggestedSources": [
-          "Board Secretariat — current approved BAC Terms of Reference",
+          "Board Secretariat - current approved BAC Terms of Reference",
           "Board portal or SharePoint governance library for policy and charter documents",
           "Legal and Compliance department for the register of Board-level governance instruments and their review dates"
         ],
@@ -1014,13 +1014,13 @@
       }
     ],
     "auditTips": [
-      "Cross-reference BAC meeting minutes against the technology audit issue register to verify that every high and critical severity finding raised during the examination period has a corresponding BAC discussion entry — any finding that exists in the register but is absent from minutes is an immediate red flag that the BAC is not exercising effective oversight of corrective action closure.",
-      "Request the BAC Terms of Reference first and map each obligation in RMiT 8.5 verbatim (staff competency, audit scope, procedures, frequency, and corrective action closure) to a specific clause in the ToR — if any obligation lacks a clear ToR assignment, the governance framework itself is deficient and downstream evidence will not remedy this structural gap.",
+      "Cross-reference BAC meeting minutes against the technology audit issue register to verify that every high and critical severity finding raised during the examination period has a corresponding BAC discussion entry - any finding that exists in the register but is absent from minutes is an immediate red flag that the BAC is not exercising effective oversight of corrective action closure.",
+      "Request the BAC Terms of Reference first and map each obligation in RMiT 8.5 verbatim (staff competency, audit scope, procedures, frequency, and corrective action closure) to a specific clause in the ToR - if any obligation lacks a clear ToR assignment, the governance framework itself is deficient and downstream evidence will not remedy this structural gap.",
       "When reviewing competency evidence, match the technology audit team's certification and skills profile against the institution's highest-risk technology domains by cross-referencing the annual technology audit plan's risk universe. A team with only legacy IT audit certifications auditing a cloud-heavy or API-driven institution will not satisfy the 'adequate competence' standard regardless of headcount.",
-      "Examine the aging profile of open corrective actions in the issue register and identify any items that have been deferred more than once — then check whether each deferral was explicitly approved by the BAC with documented rationale, or whether deferrals were granted by management without BAC visibility. Repeated management-only deferrals indicate the BAC's oversight of 'prompt closure' is nominal rather than effective.",
+      "Examine the aging profile of open corrective actions in the issue register and identify any items that have been deferred more than once - then check whether each deferral was explicitly approved by the BAC with documented rationale, or whether deferrals were granted by management without BAC visibility. Repeated management-only deferrals indicate the BAC's oversight of 'prompt closure' is nominal rather than effective.",
       "Request the last three years of annual technology audit plans alongside the corresponding year-end completion reports to assess whether planned audits were actually executed. A pattern of low completion rates or frequent scope reductions without BAC-documented rationale suggests the BAC is approving plans it cannot or does not enforce, undermining its oversight effectiveness.",
-      "Assess whether the BAC receives technology audit reporting in a format that enables genuine oversight — look for executive summaries with clear risk ratings and trend data, not just raw technical findings. Then verify in minutes that BAC members asked substantive questions; if minutes show only 'noted' responses to every report, probe whether the BAC understands its oversight role versus its receipt-of-information role.",
-      "For co-sourced or outsourced components of the technology audit function, confirm that co-sourcing arrangements were reviewed and approved at BAC level (not just management level), and that the BAC receives findings from co-sourced engagements through the same reporting and issue-tracking pipeline as internal engagements — gaps here indicate the BAC's oversight perimeter does not cover the full technology audit function."
+      "Assess whether the BAC receives technology audit reporting in a format that enables genuine oversight - look for executive summaries with clear risk ratings and trend data, not just raw technical findings. Then verify in minutes that BAC members asked substantive questions; if minutes show only 'noted' responses to every report, probe whether the BAC understands its oversight role versus its receipt-of-information role.",
+      "For co-sourced or outsourced components of the technology audit function, confirm that co-sourcing arrangements were reviewed and approved at BAC level (not just management level), and that the BAC receives findings from co-sourced engagements through the same reporting and issue-tracking pipeline as internal engagements - gaps here indicate the BAC's oversight perimeter does not cover the full technology audit function."
     ]
   },
   "8.6": {
@@ -1030,7 +1030,7 @@
     "title": "Senior Management Accountability for Technology Risk",
     "clauseType": "governance",
     "marker": "S",
-    "auditorFocus": "BNM examiners assess whether senior management actively owns technology and cyber risk management rather than delegating it passively downward. Examiners specifically verify that board-approved TRMF and CRF frameworks are translated into operational policies and procedures that are quantitatively aligned with the stated risk appetite and tolerance thresholds — generic or aspirational policies that lack measurable controls are a primary red flag. On crisis management, examiners scrutinise whether escalation triggers are explicitly calibrated to customer impact metrics (disruption duration, customer volume, transaction value) and whether those thresholds have been exercised in drills. For board reporting, examiners look for evidence that KPI dashboards are substantive and timely, not retrospective or sanitised, and that the board is genuinely enabled to exercise oversight. Common red flags include undated or unsigned policies, KPI reports with consistent green ratings and no trend analysis, and crisis plans that lack quantified escalation thresholds.",
+    "auditorFocus": "BNM examiners assess whether senior management actively owns technology and cyber risk management rather than delegating it passively downward. Examiners specifically verify that board-approved TRMF and CRF frameworks are translated into operational policies and procedures that are quantitatively aligned with the stated risk appetite and tolerance thresholds - generic or aspirational policies that lack measurable controls are a primary red flag. On crisis management, examiners scrutinise whether escalation triggers are explicitly calibrated to customer impact metrics (disruption duration, customer volume, transaction value) and whether those thresholds have been exercised in drills. For board reporting, examiners look for evidence that KPI dashboards are substantive and timely, not retrospective or sanitised, and that the board is genuinely enabled to exercise oversight. Common red flags include undated or unsigned policies, KPI reports with consistent green ratings and no trend analysis, and crisis plans that lack quantified escalation thresholds.",
     "evidenceItems": [
       {
         "id": "8.6-E1",
@@ -1039,7 +1039,7 @@
         "whatGoodLooksLike": [
           "Each policy document contains an explicit cross-reference field mapping it to the TRMF/CRF section it implements, with version numbers aligned",
           "Policy statements include quantitative risk tolerance thresholds (e.g., maximum acceptable system downtime, patch SLA windows) consistent with board-approved appetite statements",
-          "The register shows a documented review cycle (at minimum annual) with evidence of senior management sign-off — dated signatures or digital approval records in the GRC platform",
+          "The register shows a documented review cycle (at minimum annual) with evidence of senior management sign-off - dated signatures or digital approval records in the GRC platform",
           "Policies are tiered by criticality with mandatory rollout evidence (staff acknowledgement logs, training completion records) demonstrating operational embedding",
           "Change history within the register shows policies were updated within 90 days of any board-level TRMF/CRF revision, maintaining continuous alignment"
         ],
@@ -1051,7 +1051,7 @@
           "Policy documents are stored in departmental silos with no consolidated register, making it impossible to demonstrate comprehensive coverage during examination"
         ],
         "suggestedSources": [
-          "Enterprise GRC platform (e.g., ServiceNow GRC, MetricStream, Archer) — policy module with version control and approval workflows",
+          "Enterprise GRC platform (e.g., ServiceNow GRC, MetricStream, Archer) - policy module with version control and approval workflows",
           "SharePoint or Confluence policy library with metadata tagging for framework cross-references",
           "Document Management System (DMS) maintained by the Chief Risk Officer or CISO office",
           "Board Secretariat records linking board-approved TRMF/CRF versions to downstream policy revision logs"
@@ -1067,7 +1067,7 @@
         "name": "Crisis Management Plan with Escalation Thresholds",
         "description": "The documented crisis management plan (or business continuity and IT disaster recovery escalation annex) that defines quantified escalation triggers for service disruptions based on customer impact dimensions: duration of disruption, number of customers affected, and monetary value of impacted financial transactions. Evidence must show that the plan is operationally active, not merely a document artefact.",
         "whatGoodLooksLike": [
-          "The plan contains an explicit escalation matrix with numerical thresholds for each of the three BNM-specified customer impact dimensions — duration (e.g., >2 hours), customer count (e.g., >5,000 customers), and transaction value (e.g., >RM 10 million) — mapped to escalation levels and required notifiers",
+          "The plan contains an explicit escalation matrix with numerical thresholds for each of the three BNM-specified customer impact dimensions - duration (e.g., >2 hours), customer count (e.g., >5,000 customers), and transaction value (e.g., >RM 10 million) - mapped to escalation levels and required notifiers",
           "Senior management escalation paths are named by role (not individual) with documented contact protocols and defined response time SLAs at each escalation tier",
           "The plan has a documented test or simulation date within the last 12 months, with an after-action review showing that escalation timelines and thresholds were validated against the three impact criteria",
           "The plan references integration with the customer communications protocol and regulatory notification obligations (e.g., BNM incident reporting timelines), demonstrating end-to-end crisis response",
@@ -1081,8 +1081,8 @@
           "After-action reviews from past incidents show that actual escalation deviated from the documented thresholds without a formal plan update to reconcile the discrepancy"
         ],
         "suggestedSources": [
-          "Business Continuity Management (BCM) team repository — crisis management plan and BCP/DR documentation",
-          "ITSM platform (e.g., ServiceNow ITSM, Jira Service Management) — major incident records with escalation audit trails",
+          "Business Continuity Management (BCM) team repository - crisis management plan and BCP/DR documentation",
+          "ITSM platform (e.g., ServiceNow ITSM, Jira Service Management) - major incident records with escalation audit trails",
           "BCP exercise and drill records maintained by the operational resilience or BCM function",
           "Operations Control Centre or NOC logs capturing historical escalation event timelines",
           "Incident Management System capturing customer impact metrics at time of escalation"
@@ -1096,7 +1096,7 @@
       {
         "id": "8.6-E3",
         "name": "Service Disruption Incident Records with Customer Impact Metrics",
-        "description": "Historical records of actual service disruptions that document the three customer impact dimensions — disruption duration, number of customers affected, and number and value of financial transactions impacted — used to validate that escalation decisions were triggered correctly in accordance with the crisis management plan thresholds.",
+        "description": "Historical records of actual service disruptions that document the three customer impact dimensions - disruption duration, number of customers affected, and number and value of financial transactions impacted - used to validate that escalation decisions were triggered correctly in accordance with the crisis management plan thresholds.",
         "whatGoodLooksLike": [
           "Each major incident record contains a timestamped log of the disruption duration, a quantified customer impact count sourced from channel or system telemetry, and a calculated transaction impact figure (count and value) produced at the time of the incident",
           "Records show that when thresholds were breached, escalation to the appropriate senior management tier occurred within the SLA defined in the crisis management plan, with timestamps evidencing timeliness",
@@ -1105,14 +1105,14 @@
           "Aggregated incident trend data is maintained at the portfolio level, allowing senior management to identify recurring disruption patterns that may warrant risk appetite review"
         ],
         "commonGaps": [
-          "Incident records document system-level metrics (e.g., server uptime) but not customer-facing impact — customer count and transaction value are absent or estimated rather than measured",
+          "Incident records document system-level metrics (e.g., server uptime) but not customer-facing impact - customer count and transaction value are absent or estimated rather than measured",
           "Disruption duration is recorded as resolution time rather than customer-impact duration, obscuring the actual period during which customers could not transact",
           "Escalation timestamps are missing or inconsistent, making it impossible to verify whether escalation met the timeliness obligation in the crisis management plan",
           "Post-incident reviews were not completed for all major incidents, or were completed significantly after the event, reducing their evidentiary value",
           "Incidents below the formal escalation threshold are not documented, creating a blind spot that prevents assessment of whether thresholds are calibrated appropriately"
         ],
         "suggestedSources": [
-          "ITSM platform major incident module (ServiceNow, Remedy, Jira) — incident records with escalation audit trails",
+          "ITSM platform major incident module (ServiceNow, Remedy, Jira) - incident records with escalation audit trails",
           "Banking system transaction monitoring dashboards capturing impacted transaction volumes and values during downtime windows",
           "Digital channel analytics platform (e.g., mobile banking, internet banking ops data) for customer impact counts",
           "Operations Control Centre or NOC daily/incident logs",
@@ -1130,9 +1130,9 @@
         "description": "The recurring reports submitted by senior management to the board (or Board Risk Committee) providing updates on key performance indicators for technology risk and cyber risk controls. These packs demonstrate that senior management fulfils its obligation under clause 8.6(c) to keep the board adequately informed to enable oversight and informed performance review.",
         "whatGoodLooksLike": [
           "Reports are produced at a regular, pre-defined cadence (e.g., monthly or quarterly) with no unexplained gaps, and submission dates are documented against the board meeting schedule",
-          "Each report contains both current-period KPI values and historical trend data, enabling the board to assess trajectory rather than point-in-time status — positive or negative trend commentary is provided by senior management",
+          "Each report contains both current-period KPI values and historical trend data, enabling the board to assess trajectory rather than point-in-time status - positive or negative trend commentary is provided by senior management",
           "KPIs are directly mapped to the risk controls specified in the TRMF/CRF, with explicit reference to board-approved risk appetite thresholds so the board can interpret performance in context",
-          "Reports include qualitative commentary from senior management on material control weaknesses, emerging risks, or threshold breaches — not just RAG status indicators — demonstrating substantive engagement",
+          "Reports include qualitative commentary from senior management on material control weaknesses, emerging risks, or threshold breaches - not just RAG status indicators - demonstrating substantive engagement",
           "Board acknowledgement or minutes excerpts confirm that the reports were tabled, reviewed, and that board questions or directives arising from the review are recorded and tracked to closure"
         ],
         "commonGaps": [
@@ -1143,9 +1143,9 @@
           "The frequency or timing of reports is ad hoc rather than scheduled, preventing the board from conducting regular and consistent performance review"
         ],
         "suggestedSources": [
-          "Board Secretariat — board pack archives and meeting minutes confirming report tabling and discussion",
-          "GRC platform reporting module — scheduled KPI dashboards with export and distribution logs",
-          "CISO or CRO office — quarterly/monthly technology risk report production records",
+          "Board Secretariat - board pack archives and meeting minutes confirming report tabling and discussion",
+          "GRC platform reporting module - scheduled KPI dashboards with export and distribution logs",
+          "CISO or CRO office - quarterly/monthly technology risk report production records",
           "Board Risk Committee or IT Risk Committee minutes and action logs",
           "Risk appetite monitoring dashboards (e.g., from Archer, MetricStream, or Power BI connected to GRC data)"
         ],
@@ -1163,7 +1163,7 @@
           "Board-approved or board-ratified terms of reference for the Management Risk Committee, IT Risk Committee, or equivalent body explicitly assign technology and cyber risk ownership to named senior management roles with defined accountability boundaries",
           "Individual senior management role mandates (e.g., CTO, CISO, COO job descriptions or authority matrices) include explicit accountability for technology risk management consistent with clause 8.6 obligations",
           "A documented escalation and delegation matrix shows how technology risk decisions flow from senior management downward to operational teams, with clear authority limits at each tier",
-          "Evidence of senior management active participation in technology risk forums — attendance registers, signed-off risk decisions, or action items attributable to senior management in committee minutes",
+          "Evidence of senior management active participation in technology risk forums - attendance registers, signed-off risk decisions, or action items attributable to senior management in committee minutes",
           "The delegation framework is reviewed and reaffirmed annually, with records showing that any changes to roles or accountabilities were approved by the board"
         ],
         "commonGaps": [
@@ -1174,11 +1174,11 @@
           "The accountability framework covers technology risk generally but does not explicitly address cyber risk as a distinct category, inconsistent with clause 8.6's dual reference to technology and cyber risks"
         ],
         "suggestedSources": [
-          "Board Secretariat — board-approved committee terms of reference and management committee charters",
-          "Human Resources — senior management role profiles, authority matrices, and delegated authority frameworks",
-          "IT Risk Committee or Management Risk Committee — meeting minutes, attendance records, and action logs",
-          "GRC platform — risk ownership registry linking risk categories to accountable senior management roles",
-          "Organisational governance documents — governance framework or operating model documentation maintained by the Chief Governance Officer or equivalent"
+          "Board Secretariat - board-approved committee terms of reference and management committee charters",
+          "Human Resources - senior management role profiles, authority matrices, and delegated authority frameworks",
+          "IT Risk Committee or Management Risk Committee - meeting minutes, attendance records, and action logs",
+          "GRC platform - risk ownership registry linking risk categories to accountable senior management roles",
+          "Organisational governance documents - governance framework or operating model documentation maintained by the Chief Governance Officer or equivalent"
         ],
         "format": "PDF/DOCX (terms of reference, role mandates, delegation matrix) + Committee minutes (PDF)",
         "retentionPeriod": "7 years",
@@ -1189,7 +1189,7 @@
       },
       {
         "id": "8.6-E6",
-        "name": "Risk Appetite Alignment Evidence — Policy vs. Board-Approved Thresholds",
+        "name": "Risk Appetite Alignment Evidence - Policy vs. Board-Approved Thresholds",
         "description": "Documented evidence demonstrating that the operational policies and procedures implemented by senior management are quantitatively consistent with the board-approved risk appetite and risk tolerance levels, fulfilling the specific requirement in clause 8.6(a) that implementation be 'consistent with the approved risk appetite and risk tolerance'. This is a critical linkage document that examiners use to test whether the framework cascade is substantive.",
         "whatGoodLooksLike": [
           "A traceability matrix or compliance mapping document explicitly cross-references each operational policy control parameter (e.g., RTO/RPO targets, patch SLA, vulnerability remediation windows) against the corresponding board-approved risk tolerance limit",
@@ -1206,11 +1206,11 @@
           "Different business units apply different operational thresholds for the same risk type without a documented rationale, indicating fragmented rather than enterprise-wide appetite alignment"
         ],
         "suggestedSources": [
-          "Risk Management Division — board-approved risk appetite statement (current and prior versions)",
-          "GRC platform — risk appetite monitoring module with policy parameter mappings",
-          "CISO and CRO office — TRMF/CRF implementation traceability matrix or compliance mapping document",
-          "Policy Management System — policy metadata including appetite threshold references",
-          "Internal Audit — prior audit findings on risk appetite alignment for remediation evidence"
+          "Risk Management Division - board-approved risk appetite statement (current and prior versions)",
+          "GRC platform - risk appetite monitoring module with policy parameter mappings",
+          "CISO and CRO office - TRMF/CRF implementation traceability matrix or compliance mapping document",
+          "Policy Management System - policy metadata including appetite threshold references",
+          "Internal Audit - prior audit findings on risk appetite alignment for remediation evidence"
         ],
         "format": "Spreadsheet (traceability/mapping matrix) + PDF (risk appetite statement) + PDF (exception records)",
         "retentionPeriod": "7 years",
@@ -1221,12 +1221,12 @@
       }
     ],
     "auditTips": [
-      "Before examination, produce a clause 8.6 evidence map — a single document that lists each sub-obligation (8.6(a), 8.6(b)(i-iii), 8.6(c)) and points to the specific evidence item, page reference, and custodian for each. BNM examiners work methodically through the clause; institutions that can respond to each obligation point immediately reduce examination friction and demonstrate maturity.",
-      "Verify that the crisis management plan's escalation thresholds are expressed as concrete numbers for all three clause 8.6(b) dimensions before examination — duration in hours, customer count as an integer, and transaction value in Ringgit. Pull the last three major incident records and manually check whether actual escalation timestamps match what the plan prescribes; unexplained deviations are among the most commonly cited findings.",
+      "Before examination, produce a clause 8.6 evidence map - a single document that lists each sub-obligation (8.6(a), 8.6(b)(i-iii), 8.6(c)) and points to the specific evidence item, page reference, and custodian for each. BNM examiners work methodically through the clause; institutions that can respond to each obligation point immediately reduce examination friction and demonstrate maturity.",
+      "Verify that the crisis management plan's escalation thresholds are expressed as concrete numbers for all three clause 8.6(b) dimensions before examination - duration in hours, customer count as an integer, and transaction value in Ringgit. Pull the last three major incident records and manually check whether actual escalation timestamps match what the plan prescribes; unexplained deviations are among the most commonly cited findings.",
       "Cross-validate the board KPI reports against board meeting minutes. Examiners will compare the two: if a report is dated for a board meeting but the minutes contain no reference to technology risk KPIs or any board commentary on the data, the report will be treated as tabled but unreviewed. Prepare a one-page summary showing each report submission date mapped to the corresponding board minute reference and any directives raised.",
-      "Trace at least three operational policy controls back to the board-approved risk appetite statement in a documented matrix and have this available on day one of examination. Focus particularly on controls relating to system availability (RTO/RPO), vulnerability and patch management timelines, and incident classification — these are the areas most likely to be probed when examiners test clause 8.6(a) alignment.",
+      "Trace at least three operational policy controls back to the board-approved risk appetite statement in a documented matrix and have this available on day one of examination. Focus particularly on controls relating to system availability (RTO/RPO), vulnerability and patch management timelines, and incident classification - these are the areas most likely to be probed when examiners test clause 8.6(a) alignment.",
       "Conduct a pre-examination gap check on senior management committee attendance records for the last 12 months. Thin or inconsistent attendance by the CTO, CISO, or CRO at the IT Risk Committee or equivalent forum is a red flag that examiners use to challenge whether senior management holds genuine day-to-day ownership of technology risk, as opposed to delegating it entirely to working-level staff.",
-      "Prepare a version-controlled policy lineage document showing the date of the most recent board TRMF/CRF approval, the date each downstream policy was subsequently updated, and the approving senior manager. If the gap between framework approval and policy update exceeds 90 days for any material policy, prepare a documented explanation and evidence of interim controls — examiners will interpret unexplained lags as evidence that the clause 8.6(a) implementation obligation was not met promptly.",
+      "Prepare a version-controlled policy lineage document showing the date of the most recent board TRMF/CRF approval, the date each downstream policy was subsequently updated, and the approving senior manager. If the gap between framework approval and policy update exceeds 90 days for any material policy, prepare a documented explanation and evidence of interim controls - examiners will interpret unexplained lags as evidence that the clause 8.6(a) implementation obligation was not met promptly.",
       "Run a parallel tabletop exercise focused specifically on the three customer impact escalation triggers in clause 8.6(b) within 60 days before any anticipated examination window, and retain the exercise scenario, participant list, escalation decisions made, and after-action review as examination-ready evidence. This provides contemporaneous proof that the crisis management plan is operationally embedded, not merely documented."
     ]
   },
@@ -1237,12 +1237,12 @@
     "title": "Cross-Functional Technology Committee",
     "clauseType": "governance",
     "marker": "S",
-    "auditorFocus": "BNM examiners will scrutinise whether the cross-functional committee is substantive in composition and function rather than a nominal governance construct. They will verify that membership genuinely includes senior management from cyber, technology, and major business units — not delegates or alternates as the norm — and that the committee exercises real oversight rather than rubber-stamping decisions already made at the working level. Examiners pay particular attention to whether board updates on key technology matters are timely, structured, and demonstrate escalation discipline, and will test this by tracing specific incidents or strategic changes back through the reporting chain. The policy deviation approval process is a frequent red flag area: examiners look for evidence that deviations are subjected to a documented, rigorous risk assessment before approval, and that material deviations are formally reported to the board with appropriate follow-through. Committee meeting cadence, quorum records, and the quality of minutes are used as proxies for whether governance is genuinely active.",
+    "auditorFocus": "BNM examiners will scrutinise whether the cross-functional committee is substantive in composition and function rather than a nominal governance construct. They will verify that membership genuinely includes senior management from cyber, technology, and major business units - not delegates or alternates as the norm - and that the committee exercises real oversight rather than rubber-stamping decisions already made at the working level. Examiners pay particular attention to whether board updates on key technology matters are timely, structured, and demonstrate escalation discipline, and will test this by tracing specific incidents or strategic changes back through the reporting chain. The policy deviation approval process is a frequent red flag area: examiners look for evidence that deviations are subjected to a documented, rigorous risk assessment before approval, and that material deviations are formally reported to the board with appropriate follow-through. Committee meeting cadence, quorum records, and the quality of minutes are used as proxies for whether governance is genuinely active.",
     "evidenceItems": [
       {
         "id": "8.7-E1",
         "name": "Committee Charter / Terms of Reference (ToR)",
-        "description": "The formal founding document that constitutes the cross-functional technology committee, defines its mandate, membership criteria, quorum requirements, meeting cadence, reporting lines, and scope of authority — directly demonstrating that senior management has formally established the committee as required by Clause 8.7.",
+        "description": "The formal founding document that constitutes the cross-functional technology committee, defines its mandate, membership criteria, quorum requirements, meeting cadence, reporting lines, and scope of authority - directly demonstrating that senior management has formally established the committee as required by Clause 8.7.",
         "whatGoodLooksLike": [
           "Charter explicitly names the committee's mandate in terms that map to the three sub-clauses (a), (b), and (c) of 8.7, with no material omissions",
           "Membership criteria unambiguously require representation at senior management level from cyber, technology, and each major business unit, with a named incumbent and a defined escalation path if the primary member is unavailable",
@@ -1278,7 +1278,7 @@
           "Membership register lists each member with their formal title (confirming senior management grade), functional area (cyber, technology, or specific business unit), date of appointment, and date of any substitution with rationale",
           "Attendance records for every meeting show quorum was achieved in accordance with the charter, with no pattern of recurring absences from any single function that would suggest a function is effectively unrepresented",
           "Where a permanent member was absent, the record documents whether a formally authorised alternate attended, and whether any decisions requiring that function's input were deferred",
-          "The register reflects actual organisational structure — business units represented match those identified as major in the institution's own operating model documentation",
+          "The register reflects actual organisational structure - business units represented match those identified as major in the institution's own operating model documentation",
           "Attendance data can be reconciled against the meeting minutes, confirming that members recorded as present signed or were named in the minutes"
         ],
         "commonGaps": [
@@ -1307,13 +1307,13 @@
         "description": "Formal minutes for every committee meeting capturing agenda items, substantive discussions, decisions made, and action items assigned, providing the primary evidence that the committee is exercising active oversight of technology plans and operations as required by sub-clause (a).",
         "whatGoodLooksLike": [
           "Minutes are structured, dated, and reference the specific agenda items, demonstrating a deliberate rather than ad hoc meeting agenda that includes standing items aligned to sub-clauses (a), (b), and (c)",
-          "Discussion sections reflect genuine deliberation — not mere noting of reports — with recorded questions, dissenting views, or requests for further information that show members are exercising independent judgment",
+          "Discussion sections reflect genuine deliberation - not mere noting of reports - with recorded questions, dissenting views, or requests for further information that show members are exercising independent judgment",
           "Each decision is recorded with sufficient context to understand what was approved, who proposed it, and on what basis, enabling retrospective audit of the committee's reasoning",
           "Action items are assigned to named individuals with due dates, and subsequent minutes include a standing agenda item tracking closure of prior actions",
           "Minutes are formally confirmed (signed or acknowledged) at the following meeting, establishing a clear chain of authenticated records"
         ],
         "commonGaps": [
-          "Minutes are template-thin — they record that presentations were 'noted' without capturing any substantive discussion or challenge, providing no evidence of genuine oversight",
+          "Minutes are template-thin - they record that presentations were 'noted' without capturing any substantive discussion or challenge, providing no evidence of genuine oversight",
           "Decisions on technology plans or policies are recorded without the supporting rationale, making it impossible to demonstrate that the committee applied judgment rather than rubber-stamping executive proposals",
           "Action items are recorded inconsistently or without ownership, and follow-up tracking is absent, so the committee's effectiveness in driving implementation cannot be demonstrated",
           "Minutes are finalised and signed weeks after the meeting, undermining their contemporaneous reliability as evidence",
@@ -1370,11 +1370,11 @@
           "Reports cover both strategic technology matters (plan progress, investment decisions) and operational risk matters (significant incidents, emerging threats, control weaknesses), demonstrating breadth of oversight",
           "The definition of 'key technology matters' is documented in the charter or a standing operating procedure, ensuring consistent and objective judgments about what warrants escalation",
           "Board minutes or resolution records confirm the reports were received, discussed, and that any board directions were recorded and fed back to the committee",
-          "A timeliness standard is met — for example, significant technology incidents are reported to the board within a defined period after occurrence, not only at the next scheduled board meeting"
+          "A timeliness standard is met - for example, significant technology incidents are reported to the board within a defined period after occurrence, not only at the next scheduled board meeting"
         ],
         "commonGaps": [
           "Technology updates to the board are provided by the CTO or CIO directly, with the committee's role in preparing or endorsing the report absent from the paper's provenance, leaving sub-clause (b) unattributed",
-          "Reports are heavily formatted summaries that lack sufficient detail for the board to exercise meaningful oversight — key metrics, incident summaries, or risk trends are absent",
+          "Reports are heavily formatted summaries that lack sufficient detail for the board to exercise meaningful oversight - key metrics, incident summaries, or risk trends are absent",
           "No documented threshold or definition exists for 'key technology matters', making the selection of topics for board reporting appear arbitrary under examination",
           "Board papers on technology are presented irregularly, with gaps of more than one board cycle, undermining the 'timely' requirement of sub-clause (b)",
           "Board minutes do not record any substantive discussion of technology reports, suggesting they are presented for noting only, raising questions about effective board oversight"
@@ -1394,17 +1394,17 @@
       {
         "id": "8.7-E6",
         "name": "Policy Deviation Approval Records and Risk Assessments",
-        "description": "The end-to-end records for each instance where the committee approved a deviation from a technology-related policy, including the deviation request, the risk assessment, the committee's decision, and (for material deviations) the board escalation record — directly evidencing compliance with sub-clause (c).",
+        "description": "The end-to-end records for each instance where the committee approved a deviation from a technology-related policy, including the deviation request, the risk assessment, the committee's decision, and (for material deviations) the board escalation record - directly evidencing compliance with sub-clause (c).",
         "whatGoodLooksLike": [
           "A deviation request form or workflow captures the specific policy requirement being deviated from, the business or operational justification, the proposed compensating controls, and the risk assessment conducted before submission to the committee",
-          "Risk assessments accompanying deviation requests are substantive — they identify specific risks arising from the deviation, quantify or qualify impact and likelihood, and document the adequacy of compensating controls — rather than being a checkbox exercise",
+          "Risk assessments accompanying deviation requests are substantive - they identify specific risks arising from the deviation, quantify or qualify impact and likelihood, and document the adequacy of compensating controls - rather than being a checkbox exercise",
           "Committee minutes record the deliberation on each deviation request, including any conditions attached to approval, time-limits on the deviation, and the requirement for a closure plan to return to policy compliance",
           "A materiality threshold for board escalation is defined, applied consistently, and documented; each deviation record includes an explicit materiality determination with rationale",
           "A deviation register is maintained and reviewed by the committee at a defined cadence, showing open and closed deviations, with ageing of unresolved deviations tracked and escalated"
         ],
         "commonGaps": [
           "Deviations are approved by the technology function or individual risk owners without routing through the committee, meaning sub-clause (c)'s committee approval requirement is structurally bypassed",
-          "Risk assessments accompanying deviation requests are superficial — they state that risk is 'acceptable' without articulating the specific risks, their magnitude, or the adequacy of compensating controls",
+          "Risk assessments accompanying deviation requests are superficial - they state that risk is 'acceptable' without articulating the specific risks, their magnitude, or the adequacy of compensating controls",
           "No materiality threshold is defined, so determinations of which deviations require board escalation are subjective and inconsistent, and there is no audit trail of materiality judgments",
           "Material deviations are summarised in aggregate in periodic board reports rather than reported individually with sufficient detail for the board to exercise oversight, diluting sub-clause (c)'s reporting obligation",
           "Open deviations are not tracked to closure; deviations approved as temporary persist indefinitely with no committee review, demonstrating that the approval process is not effectively managed"
@@ -1424,13 +1424,13 @@
       }
     ],
     "auditTips": [
-      "Before the examination, trace at least three recent policy deviations end-to-end from the original request through the risk assessment, committee approval, and (where applicable) board escalation — BNM examiners frequently request this walkthrough to test whether sub-clause (c) operates in practice, not just on paper.",
+      "Before the examination, trace at least three recent policy deviations end-to-end from the original request through the risk assessment, committee approval, and (where applicable) board escalation - BNM examiners frequently request this walkthrough to test whether sub-clause (c) operates in practice, not just on paper.",
       "Prepare a one-page committee composition map showing each member's name, formal title, functional area, and grade classification against the institution's senior management definition; examiners will cross-reference this against the HR system or organisation chart to verify that 'senior management' is not being interpreted loosely to include middle management.",
-      "Conduct a pre-examination reconciliation between the committee's meeting minutes and the board papers on technology matters, confirming that every key technology matter identified in committee minutes has a corresponding board update within an appropriate timeframe — unexplained gaps are a common finding under sub-clause (b).",
+      "Conduct a pre-examination reconciliation between the committee's meeting minutes and the board papers on technology matters, confirming that every key technology matter identified in committee minutes has a corresponding board update within an appropriate timeframe - unexplained gaps are a common finding under sub-clause (b).",
       "Review the strategic technology plan's version history and committee paper record together: if the plan was substantially revised after committee endorsement but before board approval (or vice versa), ensure the committee's involvement in the revision is documented; examiners look for evidence that the committee was not bypassed mid-process.",
-      "Prepare a summary deviation register that is examiner-ready — listing every deviation approved in the past 24 months, the approving committee meeting date, whether it was classified as material, whether it was escalated to the board, and its current status (open/closed) — and verify the register is consistent with the actual minutes and board papers to avoid contradictions during the examination.",
+      "Prepare a summary deviation register that is examiner-ready - listing every deviation approved in the past 24 months, the approving committee meeting date, whether it was classified as material, whether it was escalated to the board, and its current status (open/closed) - and verify the register is consistent with the actual minutes and board papers to avoid contradictions during the examination.",
       "Test the 'timely' requirement of sub-clause (b) empirically: identify the three most significant technology events (incidents, strategic decisions, or control failures) in the past 12 months and map the date of occurrence to the date the board received a report; if any gap exceeds your institution's defined timeliness standard or spans more than one board meeting cycle, address the gap and document the remediation before examination.",
-      "Ensure the committee charter's definition of 'material deviation' is aligned with the institution's broader materiality framework used for other regulatory reporting obligations — inconsistency between materiality thresholds across different governance documents is a credibility risk that examiners may exploit to question the robustness of the institution's governance framework."
+      "Ensure the committee charter's definition of 'material deviation' is aligned with the institution's broader materiality framework used for other regulatory reporting obligations - inconsistency between materiality thresholds across different governance documents is a credibility risk that examiners may exploit to question the robustness of the institution's governance framework."
     ]
   },
   "9.1": {
