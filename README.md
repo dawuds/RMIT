@@ -8,6 +8,24 @@ Machine-readable extraction of the **Bank Negara Malaysia (BNM) Risk Management 
 
 > **Disclaimer**: This is an indicative/educational resource. It does not constitute legal advice. Always refer to the official BNM Policy Document and seek professional counsel for compliance decisions. See [LEARNINGS.md](LEARNINGS.md) for data quality audit history.
 
+## Technical Architecture
+
+This repository follows the **GRC Portfolio v2.0 Standardized Schema**, optimized for machine-readability and dynamic SPA rendering.
+
+### The Compliance Chain
+Data is structured to maintain a strict bidirectional mapping:
+`BNM RMiT Clause` $\leftrightarrow$ `Global Control` $\leftrightarrow$ `Audit Evidence` $\leftrightarrow$ `Artifact Template`
+
+### Data Layers
+- **Controls (`/controls/library.json`):** 93 re-aligned controls following the unified `{ "domains": [], "controls": [] }` schema.
+- **Evidence (`/evidence/index.json`):** 726 items mapped strictly to Nov 2025 clauses (10.1 - 10.57 range).
+- **Templates (`/templates/`):** 365 Markdown artifacts with AI safety disclaimers.
+
+### Consistency & Style
+- **Naming:** Kebab-case slugs for all controls and artifacts.
+- **Scoring:** Standardized 5x5 Likelihood/Impact risk matrix.
+- **Audit Ready:** All controls include "Key Activities" verified against the BNM PDF.
+
 ## Repository Structure
 
 ```
