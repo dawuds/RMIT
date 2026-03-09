@@ -396,9 +396,7 @@
       "layer": "process",
       "description": "Governance framework for IT projects ensuring formal risk assessment, management oversight, milestone tracking, and post-implementation review for all technology initiatives.",
       "clauses": [
-        "10.1",
-        "10.2",
-        "10.3"
+        "10.1"
       ],
       "keyActivities": [
         "Mandate formal technology risk assessment for all IT projects above defined threshold",
@@ -433,10 +431,7 @@
       "layer": "process",
       "description": "Standardised SDLC methodology covering requirements management, design, coding, testing, UAT, and deployment with security integrated at every phase.",
       "clauses": [
-        "10.4",
-        "10.5",
-        "10.8",
-        "10.9"
+        "10.5"
       ],
       "keyActivities": [
         "Maintain a documented SDLC methodology with security requirements embedded at each phase",
@@ -472,8 +467,7 @@
       "layer": "technical",
       "description": "Secure coding standards, code review processes, and static/dynamic analysis tools ensuring application security is built in rather than bolted on.",
       "clauses": [
-        "10.6",
-        "10.7"
+        "10.6"
       ],
       "keyActivities": [
         "Enforce secure coding standards aligned with OWASP and CWE guidelines",
@@ -547,7 +541,7 @@
       "layer": "technical",
       "description": "Strict separation of development, testing, staging, and production environments with controls preventing unauthorised data flow and access between environments.",
       "clauses": [
-        "10.13"
+        "10.7"
       ],
       "keyActivities": [
         "Maintain physically or logically separated environments for development, testing, and production",
@@ -942,7 +936,7 @@
       "layer": "process",
       "description": "Establish and maintain a comprehensive IT service level management framework that defines, monitors, and reports on service performance metrics aligned with business expectations and BNM regulatory requirements.",
       "clauses": [
-        "10.29"
+        "10.48"
       ],
       "keyActivities": [
         "Define SLAs for all critical IT services including core banking, internet banking, mobile banking, RENTAS, FPX, and DuitNow connectivity with measurable KPIs",
@@ -979,7 +973,8 @@
       "layer": "process",
       "description": "Develop and maintain IT service continuity plans that ensure critical banking technology services can be sustained or rapidly restored during disruptive events, meeting BNM expectations for financial system resilience.",
       "clauses": [
-        "10.30"
+        "10.32",
+        "10.35"
       ],
       "keyActivities": [
         "Develop IT service continuity plans for all critical banking systems including core banking, payment gateways, ATM switching, SWIFT, and regulatory reporting platforms",
@@ -1015,9 +1010,7 @@
       "layer": "process",
       "description": "Establish and maintain disaster recovery capabilities for critical banking technology infrastructure ensuring that recovery time and recovery point objectives are met, with regular testing validated against BNM operational resilience expectations.",
       "clauses": [
-        "10.31",
-        "10.32",
-        "10.33"
+        "10.32"
       ],
       "keyActivities": [
         "Define RTO and RPO for all critical systems with Board-approved targets aligned to BNM requirements \u2014 typically RTO of 4 hours or less for Tier-1 payment and core banking systems",
@@ -1057,7 +1050,7 @@
       "layer": "process",
       "description": "Conduct and maintain business impact analyses for technology services to determine criticality, interdependencies, and acceptable downtime thresholds that inform continuity and disaster recovery planning for Malaysian banking operations.",
       "clauses": [
-        "10.34"
+        "10.29"
       ],
       "keyActivities": [
         "Perform BIA for all technology services mapping them to critical banking business functions including retail banking, treasury, payments (RENTAS, FPX, DuitNow), trade finance, and regulatory reporting",
@@ -1093,8 +1086,7 @@
       "layer": "process",
       "description": "Establish crisis communication plans and protocols for technology and cyber incidents ensuring timely, accurate, and coordinated communication with internal stakeholders, BNM, law enforcement, customers, and the public as required under Malaysian regulatory expectations.",
       "clauses": [
-        "10.35",
-        "11.5"
+        "10.35"
       ],
       "keyActivities": [
         "Develop and maintain a crisis communication plan that defines roles, responsibilities, communication channels, and escalation paths for technology and cybersecurity incidents",
@@ -1136,7 +1128,7 @@
       "description": "Design and maintain a secure network architecture with appropriate segmentation to isolate critical banking systems, payment networks, and sensitive data zones, reducing lateral movement risk and containing potential breaches.",
       "clauses": [
         "10.36",
-        "10.37"
+        "10.43"
       ],
       "keyActivities": [
         "Implement network segmentation to isolate critical zones including core banking, payment processing (RENTAS, FPX, DuitNow, SWIFT), internet-facing services, and internal corporate networks",
@@ -1211,8 +1203,7 @@
       "layer": "technical",
       "description": "Deploy and operate intrusion detection and prevention systems across critical network segments to detect, alert on, and block malicious network activity targeting Malaysian banking infrastructure and payment systems.",
       "clauses": [
-        "10.39",
-        "11.7"
+        "10.40"
       ],
       "keyActivities": [
         "Deploy IDS/IPS sensors at critical network points including internet gateways, payment network interfaces (RENTAS, FPX, SWIFT), core banking perimeters, and inter-zone boundaries",
@@ -1286,7 +1277,7 @@
       "layer": "technical",
       "description": "Implement secure remote access controls for banking staff and authorised third parties, ensuring that remote connectivity to critical systems is authenticated, encrypted, monitored, and compliant with BNM technology risk management expectations.",
       "clauses": [
-        "10.41"
+        "10.40"
       ],
       "keyActivities": [
         "Enforce multi-factor authentication for all remote access connections to the banking network, with additional authentication requirements for access to core banking and payment systems",
@@ -1323,7 +1314,7 @@
       "layer": "technical",
       "description": "Implement DNS security controls to protect banking infrastructure from DNS-based attacks including cache poisoning, DNS tunnelling, and domain hijacking that could redirect customers or compromise critical transaction flows.",
       "clauses": [
-        "10.42"
+        "10.40"
       ],
       "keyActivities": [
         "Deploy DNSSEC for all externally facing banking domains to prevent DNS spoofing and cache poisoning attacks against customer-facing services including internet banking and mobile banking portals",
@@ -1359,8 +1350,8 @@
       "layer": "technical",
       "description": "Establish comprehensive network monitoring capabilities to maintain visibility over all network traffic, detect anomalous behaviour, and support rapid incident detection and response across the banking technology environment.",
       "clauses": [
-        "10.43",
-        "11.6"
+        "10.39",
+        "10.42"
       ],
       "keyActivities": [
         "Deploy network monitoring tools covering all critical segments including core banking, payment processing, internet-facing DMZ, inter-bank connectivity, and branch WAN links",
@@ -1442,7 +1433,7 @@
       "description": "Conduct thorough risk assessments of all technology vendors and service providers before engagement and on an ongoing basis, ensuring that third-party risks to critical banking operations are identified, evaluated, and mitigated in line with BNM outsourcing and third-party risk requirements.",
       "clauses": [
         "10.46",
-        "14.1"
+        "10.47"
       ],
       "keyActivities": [
         "Perform pre-engagement due diligence assessments covering information security posture, financial stability, regulatory compliance, business continuity capabilities, and data handling practices of prospective technology vendors",
@@ -1481,7 +1472,7 @@
       "layer": "policy",
       "description": "Establish a governance framework for technology outsourcing arrangements that ensures the institution retains effective oversight, control, and accountability over outsourced functions in compliance with BNM outsourcing policy requirements.",
       "clauses": [
-        "10.47"
+        "10.46"
       ],
       "keyActivities": [
         "Maintain an outsourcing policy approved by the Board that defines the governance framework, roles and responsibilities, risk appetite, and approval authorities for technology outsourcing arrangements",
@@ -1553,7 +1544,7 @@
       "layer": "process",
       "description": "Develop and maintain exit strategies for critical technology vendor relationships to ensure that banking operations can be transitioned or brought in-house without unacceptable disruption, data loss, or service degradation.",
       "clauses": [
-        "10.49"
+        "10.46"
       ],
       "keyActivities": [
         "Develop documented exit plans for all critical and material vendor relationships covering transition timelines, data migration procedures, knowledge transfer requirements, and alternative provider identification",
@@ -1819,7 +1810,8 @@
       "layer": "policy",
       "description": "Establish a comprehensive access control policy governing logical and physical access to all technology assets, aligned with BNM RMiT least-privilege and need-to-know principles.",
       "clauses": [
-        "10.51"
+        "10.53",
+        "10.54"
       ],
       "keyActivities": [
         "Define and document an enterprise access control policy covering all technology environments",
@@ -1856,7 +1848,9 @@
       "layer": "technical",
       "description": "Implement centralised identity and access management controls to authenticate, authorise, and manage user identities across all banking systems and digital channels.",
       "clauses": [
-        "10.53"
+        "10.53",
+        "10.54",
+        "10.56"
       ],
       "keyActivities": [
         "Deploy a centralised IAM platform with directory integration for all enterprise and customer-facing systems",
@@ -1893,7 +1887,7 @@
       "layer": "technical",
       "description": "Enforce multi-factor authentication for all privileged access, remote access, and customer-facing digital banking channels as mandated by BNM RMiT.",
       "clauses": [
-        "10.54",
+        "10.55",
         "12.4"
       ],
       "keyActivities": [
@@ -1929,7 +1923,7 @@
       "layer": "technical",
       "description": "Establish and enforce password policies across all systems that meet BNM RMiT complexity, rotation, and storage requirements for financial institution environments.",
       "clauses": [
-        "10.55"
+        "10.54"
       ],
       "keyActivities": [
         "Define and enforce password complexity, length, and expiration policies across all enterprise systems",
@@ -2039,9 +2033,7 @@
       "layer": "process",
       "description": "Establish and maintain a cyber incident response plan covering detection, containment, eradication, recovery, and post-incident review, meeting BNM notification timelines.",
       "clauses": [
-        "11.1",
-        "11.4",
-        "16.1"
+        "11.13"
       ],
       "keyActivities": [
         "Develop and maintain a cyber incident response plan with clearly defined roles, escalation paths, and communication protocols",
@@ -2157,8 +2149,7 @@
       "layer": "process",
       "description": "Maintain a cyber crisis management framework that enables coordinated response to severe cyber events with clear escalation to senior management and BNM.",
       "clauses": [
-        "11.5",
-        "10.35"
+        "11.12"
       ],
       "keyActivities": [
         "Develop a cyber crisis management plan with defined crisis thresholds, command structures, and decision authorities",
@@ -2197,8 +2188,7 @@
       "layer": "technical",
       "description": "Operate a Security Operations Centre providing continuous monitoring, detection, and initial response capabilities for cybersecurity events across all banking technology assets.",
       "clauses": [
-        "11.6",
-        "10.43"
+        "11.9"
       ],
       "keyActivities": [
         "Establish 24x7 SOC operations with defined monitoring coverage, staffing levels, and skill requirements",
@@ -2387,8 +2377,7 @@
       "layer": "technical",
       "description": "Conduct regular vulnerability assessments across all technology assets to identify, prioritise, and remediate security weaknesses before exploitation.",
       "clauses": [
-        "11.11",
-        "11.14"
+        "11.11"
       ],
       "keyActivities": [
         "Perform monthly vulnerability scans across all network segments, servers, endpoints, and applications",
@@ -2426,7 +2415,7 @@
       "layer": "technical",
       "description": "Conduct periodic penetration testing of critical systems, applications, and network infrastructure to validate the effectiveness of security controls in a Malaysian banking context.",
       "clauses": [
-        "11.12"
+        "11.6"
       ],
       "keyActivities": [
         "Perform annual penetration testing of all internet-facing systems, critical applications, and internal network segments",
@@ -2575,7 +2564,7 @@
       "layer": "technical",
       "description": "Conduct proactive threat hunting activities to identify advanced threats and adversary presence that may evade automated detection controls in banking environments.",
       "clauses": [
-        "11.18"
+        "11.10"
       ],
       "keyActivities": [
         "Develop threat hunting hypotheses based on threat intelligence, MITRE ATT&CK techniques, and banking sector attack patterns",
@@ -2725,7 +2714,7 @@
       "layer": "technical",
       "description": "Secure mobile banking applications through hardening, integrity protection, and runtime defence mechanisms to protect against reverse engineering, tampering, and overlay attacks.",
       "clauses": [
-        "12.2"
+        "12.1"
       ],
       "keyActivities": [
         "Implement mobile application hardening including code obfuscation, anti-tampering, and jailbreak/root detection",
@@ -2763,7 +2752,7 @@
       "layer": "technical",
       "description": "Secure APIs used for digital banking services, open banking, and third-party integrations with authentication, authorisation, rate limiting, and input validation controls.",
       "clauses": [
-        "12.3"
+        "12.1"
       ],
       "keyActivities": [
         "Implement API gateway with OAuth 2.0/OpenID Connect authentication, rate limiting, and request validation",
@@ -2803,8 +2792,7 @@
       "layer": "technical",
       "description": "Implement strong customer authentication mechanisms for digital banking services that balance security with user experience while meeting BNM RMiT requirements.",
       "clauses": [
-        "12.4",
-        "12.8"
+        "12.4"
       ],
       "keyActivities": [
         "Deploy multi-factor authentication for customer login to internet and mobile banking using secure methods",
@@ -2839,7 +2827,7 @@
       "layer": "technical",
       "description": "Implement transaction signing and verification controls to ensure the integrity and authenticity of customer-initiated financial transactions through digital channels.",
       "clauses": [
-        "12.5"
+        "12.1"
       ],
       "keyActivities": [
         "Implement transaction signing for high-risk transactions using out-of-band verification channels",
@@ -2877,7 +2865,7 @@
       "layer": "technical",
       "description": "Implement secure session management controls for digital banking applications to prevent session hijacking, fixation, and unauthorised session reuse.",
       "clauses": [
-        "12.6"
+        "12.1"
       ],
       "keyActivities": [
         "Enforce session timeout policies appropriate to channel risk: shorter timeouts for internet banking, configurable for mobile",
@@ -2912,7 +2900,7 @@
       "layer": "technical",
       "description": "Deploy real-time fraud detection and prevention capabilities across digital banking channels to identify and block fraudulent transactions and account takeover attempts.",
       "clauses": [
-        "12.7"
+        "12.4"
       ],
       "keyActivities": [
         "Implement real-time transaction fraud monitoring with rules and machine-learning models for anomaly detection",
@@ -2950,7 +2938,7 @@
       "layer": "technical",
       "description": "Implement security controls for QR code-based payment systems and e-wallet services to prevent QR code manipulation, payment fraud, and unauthorised wallet access in line with BNM guidelines.",
       "clauses": [
-        "12.9"
+        "12.1"
       ],
       "keyActivities": [
         "Validate QR code integrity and authenticity to prevent QR code substitution and injection attacks at merchant points",
@@ -2989,7 +2977,7 @@
       "description": "Establish a risk-based IT audit programme that provides independent assurance on the effectiveness of technology risk management, cybersecurity controls, and IT governance.",
       "clauses": [
         "13.1",
-        "13.4"
+        "13.2"
       ],
       "keyActivities": [
         "Develop an annual risk-based IT audit plan covering critical technology domains, cybersecurity, and regulatory requirements",
@@ -3026,7 +3014,6 @@
       "layer": "process",
       "description": "Ensure the IT audit function maintains independence, objectivity, and adequate technical competency to effectively assess complex technology and cybersecurity environments.",
       "clauses": [
-        "13.2",
         "13.3"
       ],
       "keyActivities": [
@@ -3210,6 +3197,7 @@
       "layer": "process",
       "description": "Establish a regulatory incident notification framework ensuring timely and accurate reporting of technology and cybersecurity incidents to BNM within mandated timelines.",
       "clauses": [
+        "11.18",
         "16.1"
       ],
       "keyActivities": [

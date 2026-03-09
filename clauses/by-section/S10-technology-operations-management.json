@@ -9,10 +9,11 @@
     "verbatim": "A financial institution must establish appropriate governance requirements commensurate with the risk and complexity of technology projects undertaken. This shall include project oversight roles and responsibilities, authority and reporting structures, and risk assessments throughout the project life cycle.",
     "translation": "A financial institution must put in place governance arrangements that match the risk and complexity of its technology projects. These arrangements must cover project oversight roles and responsibilities, authority and reporting structures, and risk assessments conducted throughout the entire project life cycle.",
     "evidence": [
-      "IT project governance framework document",
-      "Project approval records with stage-gate sign-offs",
-      "Independent risk assessment reports for major projects",
-      "Board or senior management approval records"
+      "Technology Project Governance Policy and Framework",
+      "Project Oversight Roles and Responsibilities Register",
+      "IT Steering Committee and Project Governance Meeting Records",
+      "Technology Project Risk Assessment Records",
+      "Project Authority and Reporting Structure Documentation"
     ],
     "artifacts": [
       {
@@ -28,13 +29,6 @@
         "description": "Records of project approvals and stage-gate sign-offs",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
-      },
-      {
-        "category": "reports",
-        "name": "Project Risk Assessment Reports",
-        "description": "Independent risk assessment reports for major technology projects",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
       }
     ]
   },
@@ -48,10 +42,11 @@
     "verbatim": "The risk assessments shall identify and address the key risks arising from the implementation of technology projects. These include the risks that could threaten successful project implementation and the risks that a project failure will lead to a broader impact on the financial institution's operational capabilities. At a minimum, due regard shall be given to the following areas:\n(a) the adequacy and competency of resources including those of the vendor to effectively implement the project. This shall also take into consideration the number, size and duration of significant technology projects already undertaken concurrently by the financial institution;\n(b) the complexity of systems to be implemented such as the use of unproven or unfamiliar technology and the corresponding risks of integrating the new technology into existing systems, managing multiple vendor-proprietary technologies, large-scale data migration or cleansing efforts and extensive system customisation;\n(c) the adequacy and configuration of security controls throughout the project life cycle to mitigate cybersecurity breaches or exposure of confidential data;\n(d) the comprehensiveness of the user requirement specifications to mitigate risks from extensive changes in project scope or deficiencies in meeting business needs;\n(e) the robustness of system and user testing strategies to reduce risks of undiscovered system faults and functionality errors;\n(f) the appropriateness of system deployment and fallback strategies to mitigate risks from prolonged system stability issues; and\n(g) the adequacy of disaster recovery operational readiness following the implementation of new or enhanced systems.",
     "translation": "Risk assessments for technology projects must identify and address key risks that could threaten successful implementation and risks that project failure could have on the institution's broader operational capabilities. At a minimum, assessments must cover resource adequacy and vendor competency, system complexity and integration risks, security controls throughout the project life cycle, user requirement comprehensiveness, testing robustness, deployment and fallback strategies, and disaster recovery readiness after implementation.",
     "evidence": [
-      "Project risk assessment template and methodology",
-      "Completed project risk assessment reports",
-      "Interdependency analysis records",
-      "Risk mitigation plans for identified project risks"
+      "Technology Project Risk Assessment Register",
+      "Vendor and Resource Competency Assessment",
+      "System Complexity and Integration Risk Assessment",
+      "Project Security Control Review Records",
+      "User Requirements Specification and Change Control Records"
     ],
     "artifacts": [
       {
@@ -64,7 +59,7 @@
       {
         "category": "reports",
         "name": "Project Risk Assessment Reports",
-        "description": "Completed risk assessments for technology projects",
+        "description": "Independent risk assessment reports for major technology projects",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       },
@@ -87,32 +82,26 @@
     "verbatim": "The board and senior management must receive and review timely reports on the management of these risks on an ongoing basis throughout the implementation of significant projects.",
     "translation": "The board and senior management must receive and review timely reports on how risks in significant technology projects are being managed, and this reporting must continue on an ongoing basis throughout the entire implementation period.",
     "evidence": [
-      "Post-implementation review reports",
-      "Lessons learned documentation",
-      "Risk mitigation effectiveness assessments",
-      "Review completion tracking records"
+      "Significant Technology Project Classification Policy",
+      "Board and Senior Management Technology Project Risk Reports",
+      "Board and Senior Management Meeting Minutes \u2014 Technology Project Risk Agenda Items",
+      "Project Risk Reporting Calendar and Reporting Cadence Log",
+      "Technology Project Risk Register for Significant Projects"
     ],
     "artifacts": [
       {
-        "category": "reports",
-        "name": "Post-Implementation Review Report",
-        "description": "Review report assessing project outcomes and lessons learned",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Board Technology Risk Reports",
+        "description": "Mandatory document for Board Technology Risk Reports",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
-        "category": "evidence",
-        "name": "Lessons Learned Register",
-        "description": "Register of lessons learned from completed technology projects",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": false
-      },
-      {
-        "category": "reports",
-        "name": "Risk Control Effectiveness Assessment",
-        "description": "Assessment of whether implemented risk controls are operating effectively",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": false
+        "category": "other",
+        "name": "Project Status Reports",
+        "description": "Mandatory document for Project Status Reports",
+        "format": "PDF/DOCX",
+        "mandatory": true
       }
     ]
   },
@@ -126,10 +115,44 @@
     "verbatim": "A financial institution must establish a framework to guide the design, planning, implementation, and governance of an enterprise technology architecture. A technology architecture serves as a foundation on which financial institutions plan and structure system development and acquisition strategies to meet business goals. Thus, the financial institution must ensure the framework carry out these functions-\n(a) provides a comprehensive view of technology throughout the financial institution, baseline architecture components and key rationale for their use;\n(b) is an overall technical design and high-level plan that describes the financial institution's technology infrastructure, systems' inter-connectivity and dependencies (e.g. fallback facility), and security controls. The outlined information is critical to support identification of a single point of failure;\n(c) contains mapping to supported business functions, organisation units, applications, and data to enable business impact analysis;\n(d) defines principles and guideline to govern the design and maintenance of the network infrastructure, related technology controls, and IT security policies; and\n(e) outline longer-term priorities to guide its evolution.",
     "translation": "A financial institution must establish a framework to guide the design, planning, implementation, and governance of its enterprise technology architecture. The framework must provide a comprehensive view of the institution's technology, describe infrastructure and system interdependencies, map technology to business functions and data to support impact analysis, define network and security governance principles, and outline longer-term priorities for the architecture's evolution.",
     "evidence": [
-      "SDLC framework document",
-      "Security checkpoint definitions per phase",
-      "Quality gate criteria and sign-off records",
-      "Evidence of framework adherence in recent projects"
+      "Enterprise Technology Architecture Framework Policy Document",
+      "Baseline Architecture Inventory and Component Register",
+      "Technology Infrastructure and System Interdependency Maps",
+      "Business-Technology Mapping Matrix",
+      "Architecture Principles, Network Governance Standards, and IT Security Policy Suite"
+    ],
+    "artifacts": [
+      {
+        "category": "other",
+        "name": "Enterprise Technology Architecture Framework",
+        "description": "Mandatory document for Enterprise Technology Architecture Framework",
+        "format": "PDF/DOCX",
+        "mandatory": true
+      },
+      {
+        "category": "other",
+        "name": "Architecture Review Board Minutes",
+        "description": "Mandatory document for Architecture Review Board Minutes",
+        "format": "PDF/DOCX",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.5",
+    "section": "Technology Operations Management",
+    "subsection": "System Development and Acquisition",
+    "title": "System Development Life Cycle Methodology",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "A financial institution must adopt a methodology for an effective and secure implementation of IT systems. Key phases of System Development Life Cycle (SDLC) shall include requirement, design, development, testing, deployment, change management, maintenance and decommissioning, and integrate with-\n(a) enterprise architecture to ensure successful execution of business strategy;\n(b) risk management policies and practices to achieve business objectives; and\n(c) security principles and requirements to ensure confidentiality, integrity, and availability of customer and counterparty information.",
+    "translation": "A financial institution must adopt a methodology for effective and secure IT system implementation covering the key SDLC phases: requirements, design, development, testing, deployment, change management, maintenance, and decommissioning. The methodology must integrate with enterprise architecture, risk management policies, and security principles to protect the confidentiality, integrity, and availability of customer and counterparty information.",
+    "evidence": [
+      "SDLC Methodology Policy and Framework Document",
+      "SDLC Phase-Gate Artefacts and Project Sign-Off Records",
+      "Enterprise Architecture Integration Evidence",
+      "Security Integration Records Across SDLC Phases",
+      "Risk Management Integration in SDLC"
     ],
     "artifacts": [
       {
@@ -156,26 +179,27 @@
     ]
   },
   {
-    "id": "10.5",
+    "id": "10.6",
     "section": "Technology Operations Management",
     "subsection": "System Development and Acquisition",
-    "title": "System Development Life Cycle Methodology",
+    "title": "Rapid Development Security Requirements",
     "clauseType": "technical",
     "marker": "S",
-    "verbatim": "A financial institution must adopt a methodology for an effective and secure implementation of IT systems. Key phases of System Development Life Cycle (SDLC) shall include requirement, design, development, testing, deployment, change management, maintenance and decommissioning, and integrate with-\n(a) enterprise architecture to ensure successful execution of business strategy;\n(b) risk management policies and practices to achieve business objectives; and\n(c) security principles and requirements to ensure confidentiality, integrity, and availability of customer and counterparty information.",
-    "translation": "A financial institution must adopt a methodology for effective and secure IT system implementation covering the key SDLC phases: requirements, design, development, testing, deployment, change management, maintenance, and decommissioning. The methodology must integrate with enterprise architecture, risk management policies, and security principles to protect the confidentiality, integrity, and availability of customer and counterparty information.",
+    "verbatim": "A financial institution must meet enterprise security, governance and compliance requirements when using rapid system development methodology. Given the dynamic environment can increase likelihood of errors, a financial institution shall automate the IT security compliance review to prevent unauthorised access as well as the discovery and testing of security vulnerabilities to ensure secure release of new IT services.",
+    "translation": "When using rapid system development methodology, a financial institution must still meet enterprise security, governance, and compliance requirements. Because the dynamic environment increases the likelihood of errors, the institution must automate IT security compliance reviews and the discovery and testing of security vulnerabilities to ensure new IT services are released securely.",
     "evidence": [
-      "Security requirements specification documents",
-      "Requirements traceability matrix",
-      "Requirements validation records",
-      "Compliance requirements mapping"
+      "Rapid Development Security Policy and Framework",
+      "CI/CD Pipeline Security Automation Configuration Records",
+      "Automated Security Scan Results and Remediation Records",
+      "Secure Release Gate and Deployment Approval Records",
+      "Access Control and Privileged Access Records for Development Environments"
     ],
     "artifacts": [
       {
-        "category": "procedures",
-        "name": "Requirements Management Procedure",
-        "description": "Procedure for capturing, tracing, and validating security requirements",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Security Requirements Specification",
+        "description": "Mandatory document for Security Requirements Specification",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
@@ -195,45 +219,6 @@
     ]
   },
   {
-    "id": "10.6",
-    "section": "Technology Operations Management",
-    "subsection": "System Development and Acquisition",
-    "title": "Rapid Development Security Requirements",
-    "clauseType": "technical",
-    "marker": "S",
-    "verbatim": "A financial institution must meet enterprise security, governance and compliance requirements when using rapid system development methodology. Given the dynamic environment can increase likelihood of errors, a financial institution shall automate the IT security compliance review to prevent unauthorised access as well as the discovery and testing of security vulnerabilities to ensure secure release of new IT services.",
-    "translation": "When using rapid system development methodology, a financial institution must still meet enterprise security, governance, and compliance requirements. Because the dynamic environment increases the likelihood of errors, the institution must automate IT security compliance reviews and the discovery and testing of security vulnerabilities to ensure new IT services are released securely.",
-    "evidence": [
-      "Secure coding standards document",
-      "Developer training records on secure coding",
-      "Code review records referencing coding standards",
-      "Automated scanning tool configuration and results"
-    ],
-    "artifacts": [
-      {
-        "category": "procedures",
-        "name": "Secure Coding Standards",
-        "description": "Coding standards based on OWASP and industry best practices",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "evidence",
-        "name": "Developer Training Records",
-        "description": "Records of developer training on secure coding practices",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "logs",
-        "name": "Code Review Logs",
-        "description": "Logs of code reviews conducted against secure coding standards",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      }
-    ]
-  },
-  {
     "id": "10.7",
     "section": "Technology Operations Management",
     "subsection": "System Development and Acquisition",
@@ -243,30 +228,24 @@
     "verbatim": "A financial institution shall physically segregate the production environment from the development and testing environment to mitigate the risk of unauthorised changes to the production systems. Where a financial institution is relying on a cloud environment, the financial institution shall ensure that these environments are not running on the same virtual host.",
     "translation": "A financial institution must physically segregate the production environment from development and testing environments to prevent unauthorised changes to production systems. Where the institution uses a cloud environment, it must ensure that production, development, and testing environments do not run on the same virtual host.",
     "evidence": [
-      "Code review policy and procedures",
-      "SAST tool configuration and scan results",
-      "Remediation records for critical and high findings",
-      "Risk acceptance records for exceptions"
+      "Environment Segregation Architecture Document",
+      "Access Control Matrix \u2014 Environment-Level Separation",
+      "Cloud Virtual Host Isolation Evidence",
+      "Network Segmentation and Firewall Rule Evidence",
+      "Change Management Records Demonstrating Environment Gate Controls"
     ],
     "artifacts": [
       {
         "category": "procedures",
-        "name": "Code Review Procedure",
-        "description": "Mandatory procedure for peer code reviews and SAST scanning",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "logs",
-        "name": "SAST Scan Results",
-        "description": "Static analysis scan results for application releases",
+        "name": "Environment Separation Policy",
+        "description": "Policy defining separation requirements between development, test, and production environments",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       },
       {
         "category": "evidence",
-        "name": "Remediation Records",
-        "description": "Records of remediation of critical and high findings before release",
+        "name": "Environment Architecture Diagram",
+        "description": "Architecture diagram showing separation between environments",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       }
@@ -282,17 +261,18 @@
     "verbatim": "A financial institution must establish a sound methodology for a rigorous system testing prior to deployment. The testing shall ensure that the system meets user requirements and performs robustly. Where sensitive test data is used, the financial institution must ensure proper authorisation procedures and adequate measures to prevent their unauthorised disclosure are in place.",
     "translation": "A financial institution must establish a sound and rigorous testing methodology before any system is deployed, ensuring the system meets user requirements and performs robustly. Where sensitive test data is used, the institution must have proper authorisation procedures and adequate measures in place to prevent its unauthorised disclosure.",
     "evidence": [
-      "Testing standards document",
-      "Test plan templates and completed test plans",
-      "Test execution results and defect reports",
-      "Test result approval records"
+      "System Testing Policy and Methodology Framework",
+      "Test Plans and Test Case Documentation",
+      "Test Execution Results and Defect Management Records",
+      "User Acceptance Testing (UAT) Sign-off Records",
+      "Sensitive Test Data Authorisation and Handling Procedures"
     ],
     "artifacts": [
       {
-        "category": "procedures",
-        "name": "Testing Standards Document",
-        "description": "Comprehensive standards for functional, integration, performance, and security testing",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "System Testing Methodology",
+        "description": "Mandatory document for System Testing Methodology",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
@@ -321,10 +301,11 @@
     "verbatim": "The scope of system testing referred to in paragraph 10.8 may include unit testing, integration testing, user acceptance testing, application security testing, stress and load testing, regression, exception and negative testing, where applicable.",
     "translation": "The scope of system testing referred to in paragraph 10.8 may include unit testing, integration testing, user acceptance testing, application security testing, stress and load testing, regression testing, exception testing, and negative testing, as applicable to the system being tested.",
     "evidence": [
-      "UAT procedures and sign-off requirements",
-      "UAT environment specification and comparison to production",
-      "UAT sign-off records from business owners",
-      "Data masking procedures for UAT environments"
+      "System Testing Strategy and Scope Document",
+      "Unit and Integration Test Results",
+      "User Acceptance Testing (UAT) Sign-Off Records",
+      "Application Security Testing Reports (VAPT/SAST/DAST)",
+      "Stress, Load, and Performance Testing Results"
     ],
     "artifacts": [
       {
@@ -360,31 +341,32 @@
     "verbatim": "A financial institution must ensure any changes to the source code of critical systems are subject to adequate source code reviews to ensure code is secure and developed in line with recognised coding practices prior to introducing any system changes.",
     "translation": "A financial institution must ensure that any changes to the source code of critical systems are subject to adequate source code reviews before those changes are introduced. The review must confirm that the code is secure and has been developed in line with recognised coding practices.",
     "evidence": [
-      "Change management policy document",
-      "Change advisory board terms of reference",
-      "Sample change records with risk assessment and approvals",
-      "Change log or register"
+      "Source Code Review Policy and Procedure",
+      "Critical Systems Inventory",
+      "Source Code Review Records per Change",
+      "Secure Coding Standards and Review Checklist",
+      "Code Review Finding Remediation and Closure Records"
     ],
     "artifacts": [
       {
-        "category": "policies",
-        "name": "Change Management Policy",
-        "description": "Formal policy governing all changes to production systems",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "governance",
-        "name": "Change Advisory Board Terms of Reference",
-        "description": "Terms of reference for the change advisory board",
+        "category": "procedures",
+        "name": "Code Review Procedure",
+        "description": "Mandatory procedure for peer code reviews and SAST scanning",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       },
       {
         "category": "logs",
-        "name": "Change Log",
-        "description": "Complete log of all production changes with risk assessments and approvals",
+        "name": "SAST Scan Results",
+        "description": "Static analysis scan results for application releases",
         "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "other",
+        "name": "Peer Review Records",
+        "description": "Mandatory document for Peer Review Records",
+        "format": "PDF/DOCX",
         "mandatory": true
       }
     ]
@@ -399,30 +381,31 @@
     "verbatim": "A financial institution must establish appropriate procedures to independently review and approve system changes. The financial institution must also establish and test contingency plans in the event of an unsuccessful implementation of material changes to minimise any business disruption.",
     "translation": "A financial institution must establish procedures to independently review and approve system changes. The institution must also establish and test contingency plans to handle unsuccessful implementations of material changes so that business disruption is minimised.",
     "evidence": [
-      "Emergency change procedure document",
-      "Emergency change records with retrospective approvals",
-      "Management reports on emergency change frequency",
-      "Retrospective review records"
+      "Change Management Policy and Independent Review Procedures",
+      "Change Advisory Board (CAB) Terms of Reference and Membership Records",
+      "System Change Records with Independent Approval Evidence",
+      "Material Change Contingency and Rollback Plans",
+      "Rollback and Contingency Plan Test Records"
     ],
     "artifacts": [
       {
-        "category": "procedures",
-        "name": "Emergency Change Procedure",
-        "description": "Procedure for handling emergency changes including retrospective review requirements",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Change Management Procedure",
+        "description": "Mandatory document for Change Management Procedure",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
-        "category": "logs",
-        "name": "Emergency Change Records",
-        "description": "Records of all emergency changes with retrospective review and approval",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Change Request Records",
+        "description": "Mandatory document for Change Request Records",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
         "category": "reports",
-        "name": "Emergency Change Usage Report",
-        "description": "Report on frequency and nature of emergency changes for management review",
+        "name": "Post-Implementation Review Report",
+        "description": "Review report assessing project outcomes and lessons learned",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       }
@@ -438,30 +421,24 @@
     "verbatim": "In relation to critical systems that are developed or maintained by third party service provider, a financial institution must, through contractual obligations, require third party service provider to:\n(a) provide sufficient notice to the financial institution before any changes are undertaken that may impact the IT system;\n(b) demonstrate that it adopts secure by design principles in IT system development methodology to mitigate cyber risks from propagating across the supply chain; and\n(c) ensure the source code continues to be readily accessible for business continuity.",
     "translation": "Where critical systems are developed or maintained by a third party service provider, the financial institution must use contractual obligations to require the provider to give sufficient advance notice before making changes that could impact the IT system, demonstrate that it applies secure-by-design principles in its development methodology, and ensure that the source code remains readily accessible for business continuity purposes.",
     "evidence": [
-      "Release management procedure document",
-      "Sample release plans with rollback procedures",
-      "Deployment verification records",
-      "Release success criteria documentation"
+      "Third Party Contracts with Change Notification Obligations",
+      "TPSP Change Notification Log and Institution Response Records",
+      "TPSP Secure-by-Design Attestation and SDLC Evidence",
+      "Source Code Escrow or Access Arrangement Agreement",
+      "Critical System Register with TPSP Classification"
     ],
     "artifacts": [
       {
         "category": "procedures",
-        "name": "Release Management Procedure",
-        "description": "Procedure for controlled deployment of changes to production environments",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "evidence",
-        "name": "Release Plans",
-        "description": "Release plans including rollback procedures and success criteria",
+        "name": "Emergency Change Procedure",
+        "description": "Procedure for handling emergency changes including retrospective review requirements",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       },
       {
         "category": "logs",
-        "name": "Deployment Verification Records",
-        "description": "Records of post-deployment verification checks",
+        "name": "Emergency Change Records",
+        "description": "Records of all emergency changes with retrospective review and approval",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       }
@@ -477,31 +454,25 @@
     "verbatim": "When decommissioning critical systems, a financial institution must ensure minimal adverse impact on customers and business operations. This includes establishing and testing contingency plans in the event of unsuccessful system decommissioning.",
     "translation": "When decommissioning critical systems, a financial institution must ensure that the process has minimal adverse impact on customers and business operations. This includes establishing and testing contingency plans to manage situations where the decommissioning is unsuccessful.",
     "evidence": [
-      "Environment separation architecture documentation",
-      "Access control lists per environment",
-      "Code migration procedures and audit trail",
-      "Network segmentation evidence between environments"
+      "Critical System Decommissioning Policy and Procedure",
+      "Critical System Inventory and Decommissioning Scope Register",
+      "Decommissioning Project Plan and Impact Assessment",
+      "Contingency Plan for Unsuccessful Decommissioning",
+      "Contingency Plan Test Records and Results"
     ],
     "artifacts": [
       {
-        "category": "procedures",
-        "name": "Environment Separation Policy",
-        "description": "Policy defining separation requirements between development, test, and production environments",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "System Decommissioning Procedure",
+        "description": "Mandatory document for System Decommissioning Procedure",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
-        "category": "evidence",
-        "name": "Environment Architecture Diagram",
-        "description": "Architecture diagram showing separation between environments",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "logs",
-        "name": "Code Migration Audit Trail",
-        "description": "Audit trail of code migrations between environments",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "System Decommissioning Record",
+        "description": "Mandatory document for System Decommissioning Record",
+        "format": "PDF/DOCX",
         "mandatory": true
       }
     ]
@@ -516,31 +487,18 @@
     "verbatim": "A financial institution may deploy automated tools for software development, testing, software deployment, change management, code scanning and software version control to facilitate timely security assessment of critical systems in keeping with growing complexity in IT systems and emerging cyber threats.",
     "translation": "A financial institution may deploy automated tools for software development, testing, deployment, change management, code scanning, and software version control. These tools facilitate timely security assessment of critical systems in response to growing IT complexity and emerging cyber threats.",
     "evidence": [
-      "Source code management policy",
-      "Repository access control configurations",
-      "Version control system logs",
-      "Evidence that source code is not in production environments"
+      "Automated Tooling Inventory and Governance Register",
+      "CI/CD Pipeline Configuration and Execution Logs for Critical Systems",
+      "Code Scanning Results and Remediation Tracking Records",
+      "Software Version Control Policy and Repository Access Audit Logs",
+      "Automated Change Management Integration Evidence"
     ],
     "artifacts": [
       {
-        "category": "procedures",
-        "name": "Source Code Protection Policy",
-        "description": "Policy for protecting source code from unauthorised access, modification, and loss",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "evidence",
-        "name": "Repository Access Controls",
-        "description": "Configuration evidence showing access controls on source code repositories",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "logs",
-        "name": "Version Control Logs",
-        "description": "Logs from version control system showing change tracking and audit trail",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Automated Tools Inventory",
+        "description": "Mandatory document for Automated Tools Inventory",
+        "format": "PDF/DOCX",
         "mandatory": true
       }
     ]
@@ -555,31 +513,25 @@
     "verbatim": "Where a third party software is used, a financial institution should consider the potential risks and impacts a cyber supply chain incident may pose to its overall business operations and services. A financial institution may consider-\n(a) adopting Software-Bill-of-Materials (SBOM) to automate the identification and continuous monitoring of potential security vulnerabilities including security issues associated with third party software components; and\n(b) establishing open-source software security policy and procedures. This includes ensuring secure access to source code repositories in third party platforms, regular monitoring to prevent data leakages, adoption of secure coding practices, robust testing of open-source software and timely vulnerability assessment to mitigate security vulnerabilities and propagation of malwares across supply chain.",
     "translation": "Where third-party software is used, a financial institution should assess the potential risks and impacts a cyber supply chain incident could have on its business operations and services. The institution may consider adopting a Software Bill of Materials to automate identification and continuous monitoring of security vulnerabilities in third-party components, and establishing an open-source software security policy that includes secure access to repositories, monitoring for data leakages, secure coding practices, robust testing, and timely vulnerability assessment.",
     "evidence": [
-      "Configuration management policy and procedures",
-      "Configuration management database or inventory",
-      "Configuration baseline documents",
-      "Deviation detection and remediation records"
+      "Software Bill of Materials (SBOM) Policy and Procedure",
+      "SBOM Inventory and Vulnerability Monitoring Records",
+      "Open-Source Software (OSS) Security Policy and Procedures",
+      "Source Code Repository Access Control Evidence",
+      "Supply Chain Incident and Data Leakage Monitoring Records"
     ],
     "artifacts": [
       {
-        "category": "procedures",
-        "name": "Configuration Management Procedure",
-        "description": "Procedure for maintaining configuration baselines and managing changes",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "SBOM Policy",
+        "description": "Mandatory document for SBOM Policy",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
-        "category": "evidence",
-        "name": "Configuration Management Database",
-        "description": "Inventory of technology assets with their configurations and interdependencies",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "reports",
-        "name": "Configuration Compliance Report",
-        "description": "Report on configuration baseline compliance and deviation remediation",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Open Source Security Policy",
+        "description": "Mandatory document for Open Source Security Policy",
+        "format": "PDF/DOCX",
         "mandatory": true
       }
     ]
@@ -594,32 +546,26 @@
     "verbatim": "A financial institution must develop and implement robust policies to identify and reduce shadow IT risks.",
     "translation": "A financial institution must develop and implement robust policies to identify and reduce shadow IT risks.",
     "evidence": [
-      "Capacity planning policy or procedure",
-      "Capacity monitoring reports and dashboards",
-      "Capacity threshold definitions",
-      "Evidence of capacity scaling actions"
+      "Shadow IT Policy and Framework Document",
+      "Shadow IT Discovery and Scanning Records",
+      "Shadow IT Risk Register and Inventory",
+      "Shadow IT Remediation and Incident Records",
+      "Staff Awareness and Training Records"
     ],
     "artifacts": [
       {
-        "category": "procedures",
-        "name": "Capacity Planning Procedure",
-        "description": "Procedure for planning, monitoring, and managing technology capacity",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Shadow IT Policy",
+        "description": "Mandatory document for Shadow IT Policy",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
-        "category": "reports",
-        "name": "Capacity Monitoring Reports",
-        "description": "Regular reports on capacity utilisation against defined thresholds",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": false
-      },
-      {
-        "category": "evidence",
-        "name": "Capacity Scaling Records",
-        "description": "Records of capacity scaling actions taken in response to threshold alerts",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": false
+        "category": "other",
+        "name": "Shadow IT Register",
+        "description": "Mandatory document for Shadow IT Register",
+        "format": "PDF/DOCX",
+        "mandatory": true
       }
     ]
   },
@@ -633,10 +579,11 @@
     "verbatim": "A financial institution must ensure that all systems including digital services are not running with known security vulnerabilities, on outdated platform or end-of-life (EOL) technology systems. In this regard, a financial institution must-\n(a) maintain current security baseline for the security hardening of technology components and ensure the security baseline is accurate and up to date;\n(b) continuously monitor and implement latest patch releases in a timely manner;\n(c) identify, plan and implement remedial action for technology systems that are approaching EOL; and\n(d) obtain management approval for any exception permitting the continued use of unsupported or outdated technology. This exception must be substantiated by a thorough risk assessment with clear timeline for phasing out the outdated technology and are regularly reviewed at least on annual basis to ensure associated risks are effectively managed.",
     "translation": "A financial institution must ensure that all systems and digital services do not run with known security vulnerabilities, on outdated platforms, or on end-of-life technology. To achieve this, the institution must maintain a current security baseline, continuously monitor and apply the latest patches in a timely manner, plan and implement remedial action for systems approaching end-of-life, and obtain management approval for any exception allowing continued use of unsupported technology, backed by a thorough risk assessment with a clear phase-out timeline that is reviewed at least annually.",
     "evidence": [
-      "Patch management policy document",
-      "Patch classification criteria and timelines",
-      "Patch deployment records and compliance metrics",
-      "Patch testing procedures"
+      "Technology Security Baseline Standards",
+      "Patch Management Register and SLA Compliance Report",
+      "Vulnerability Scanning Results and Remediation Evidence",
+      "EOL Technology Register and Remediation Plan",
+      "EOL Exception Records with Risk Assessment and Management Approval"
     ],
     "artifacts": [
       {
@@ -647,17 +594,10 @@
         "mandatory": true
       },
       {
-        "category": "procedures",
-        "name": "Patch Testing Procedure",
-        "description": "Procedure for testing patches before deployment to production",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "reports",
-        "name": "Patch Compliance Report",
-        "description": "Report on patch deployment compliance against defined timelines",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Vulnerability Management Procedure",
+        "description": "Mandatory document for Vulnerability Management Procedure",
+        "format": "PDF/DOCX",
         "mandatory": true
       }
     ]
@@ -672,10 +612,11 @@
     "verbatim": "A financial institution must establish a patch and EOL management framework which addresses among others the following requirements:\n(a) identification and risk assessment of all technology assets for potential vulnerabilities arising from undeployed patches or EOL systems;\n(b) formulation of criteria, priority and turnaround time for patch deployment according to the severity of the vulnerabilities identified;\n(c) conduct of compatibility testing prior to the deployment of patches to minimise disruption to connected systems;\n(d) adherence to the workflow for end-to-end patch deployment processes including approval, testing, monitoring and tracking of activities; and\n(e) end-user awareness for orderly transition.",
     "translation": "A financial institution must establish a patch and end-of-life management framework that covers: identification and risk assessment of all technology assets for patch or EOL vulnerabilities; criteria, priority, and turnaround times for patch deployment based on vulnerability severity; compatibility testing before patches are deployed; adherence to an end-to-end workflow for patch deployment including approval, testing, monitoring, and tracking; and end-user awareness to support orderly transition.",
     "evidence": [
-      "Patch deployment timeline standards",
-      "Patch deployment tracking records",
-      "Compensating control documentation for delayed patches",
-      "Risk acceptance records for patch exceptions"
+      "Technology Asset Inventory with Patch and EOL Risk Register",
+      "Patch Management Policy and Prioritisation Framework",
+      "Patch Compatibility Testing Records",
+      "End-to-End Patch Deployment Workflow Records and Approval Logs",
+      "EOL System Register, Risk Acceptance, and Migration Roadmap"
     ],
     "artifacts": [
       {
@@ -711,10 +652,11 @@
     "verbatim": "A financial institution must continually monitor the effectiveness and security of the technology in use, incorporating developments in technology that may disrupt existing security controls. A financial institution shall-\n(a) ensure its board receives advice on the potential impact to business operation arising from evolving technology landscape;\n(b) formulate long-term strategy to address anticipated changes with allocation of competent resources to manage associated risks, including new cyber adversary tactics and techniques; and\n(c) establish roadmap for system migration to preserve security and reliability of the technology infrastructure in an orderly manner.",
     "translation": "A financial institution must continually monitor the effectiveness and security of its technology in use, taking into account developments that may disrupt existing security controls. The institution must ensure the board receives advice on the impact of evolving technology, formulate a long-term strategy with competent resources to manage associated risks including new cyber adversary tactics, and establish a roadmap for system migration to preserve security and reliability in an orderly manner.",
     "evidence": [
-      "End-of-life inventory and tracking register",
-      "Migration or replacement plans for EOL systems",
-      "Compensating control documentation for legacy systems",
-      "Risk acceptance records for continued EOL system use"
+      "Board Technology Effectiveness Advisory Reports",
+      "Long-Term Technology Risk and Cyber Strategy",
+      "System Migration Roadmap",
+      "Technology Effectiveness Monitoring Programme",
+      "Competent Resource Register and Skills Assurance Evidence"
     ],
     "artifacts": [
       {
@@ -750,31 +692,25 @@
     "verbatim": "A financial institution must establish a robust and resilient cryptography policy to promote the adoption of strong cryptographic controls for protection of important data and information. This policy, at a minimum, shall address requirements for-\n(a) the adoption of industry standards for encryption algorithms, message authentication, hash functions, digital signatures and random number generation;\n(b) the adoption of robust and secure processes in managing cryptographic key lifecycles which include generation, distribution, renewal, usage, storage, recovery, revocation and destruction;\n(c) the periodic review, at least annually, of all cryptographic standards and algorithms currently in use for critical systems, external linked or transactional customer-facing applications to prevent exploitation of weakened algorithms or protocols;\n(d) the expansion of IT asset inventory to include all cryptographic tools and algorithms in use with pertinent information on the rationale for each cryptographic method employed and its mapping to supported application systems; and\n(e) the development and testing of compromise-recovery plans in the event of a cryptographic key compromise. This must set out the escalation process, procedures for keys regeneration, interim measures, changes to business-as-usual protocols and containment strategies or options to minimise the impact of a compromise.",
     "translation": "A financial institution must establish a robust cryptography policy that promotes strong cryptographic controls for protecting important data and information. At a minimum, the policy must address adoption of industry-standard algorithms and protocols, secure management of cryptographic key lifecycles, at least annual review of cryptographic standards for critical and customer-facing systems, expansion of the IT asset inventory to include all cryptographic tools and algorithms, and the development and testing of compromise-recovery plans in the event of a cryptographic key compromise.",
     "evidence": [
-      "Cryptographic policy document",
-      "Approved algorithm and key length specifications",
-      "Annual policy review records",
-      "Alignment mapping to international standards"
+      "Cryptography Policy Document",
+      "Cryptographic Key Lifecycle Management Procedures",
+      "Annual Cryptographic Standards Review Records",
+      "Cryptographic Asset Inventory",
+      "Cryptographic Key Compromise Recovery Plan and Test Records"
     ],
     "artifacts": [
       {
-        "category": "policies",
-        "name": "Cryptographic Policy",
-        "description": "Policy defining approved algorithms, key lengths, and protocols",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Cryptography Policy",
+        "description": "Mandatory document for Cryptography Policy",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
-        "category": "evidence",
-        "name": "Standards Alignment Mapping",
-        "description": "Mapping of cryptographic policy to international standards (NIST, ISO)",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "evidence",
-        "name": "Annual Review Records",
-        "description": "Records of annual cryptographic policy review and updates",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Key Management Procedure",
+        "description": "Mandatory document for Key Management Procedure",
+        "format": "PDF/DOCX",
         "mandatory": true
       }
     ]
@@ -789,10 +725,11 @@
     "verbatim": "A financial institution must conduct due diligence and evaluate the cryptographic controls associated with the technology used in order to protect the confidentiality, integrity, authentication, authorisation and non-repudiation of information. Additionally, a financial institution must ensure the following:\n(a) except for non-critical systems or applications that do not contain customer information, the financial institution must retain ownership and control of the encryption keys (themselves or with an independent key custodian) to minimize the risk of unauthorised access to the data;\n(b) where the financial institution does not generate its own encryption keys, the financial institution shall undertake appropriate measures to ensure robust controls and processes are in place to manage encryption keys securely including adhere to relevant industry standard;\n(c) where this involves a reliance on third party assessments, the financial institution shall consider whether such reliance is consistent with the financial institution's risk appetite and tolerance; and\n(d) the financial institution must also give due regard to the system resources required to support the cryptographic controls and the risk of reduced network traffic visibility of data that has been encrypted.",
     "translation": "A financial institution must conduct due diligence to evaluate the cryptographic controls of the technology it uses to protect confidentiality, integrity, authentication, authorisation, and non-repudiation of information. Except for non-critical systems without customer information, the institution must retain ownership and control of its encryption keys; where it does not generate its own keys, it must ensure robust controls and industry-standard processes are in place; and it must give due regard to system resources required for cryptographic controls and the risk of reduced network traffic visibility from encryption.",
     "evidence": [
-      "Key management framework document",
-      "HSM deployment and configuration evidence",
-      "Key rotation schedule and records",
-      "Key destruction procedures and records"
+      "Cryptographic Controls Due Diligence Assessment",
+      "Encryption Key Ownership and Control Register",
+      "Third-Party Key Generation Controls Assessment",
+      "Third-Party Assessment Reliance Risk Evaluation",
+      "Cryptographic Performance and Capacity Impact Assessment"
     ],
     "artifacts": [
       {
@@ -828,10 +765,11 @@
     "verbatim": "A financial institution must ensure cryptographic controls are based on the effective implementation of suitable cryptographic protocols. The protocols shall include secret and public cryptographic key protocols, both of which shall reflect a high degree of protection to the applicable secret or private cryptographic keys. The selection of such protocols must be based on recognised international standards and tested accordingly. Commensurate with the level of risk, secret cryptographic key and private-cryptographic key storage and encryption / decryption computation must be undertaken in a protected environment, supported by a hardware security module (HSM), trusted execution environment (TEE) or similarly secured devices.",
     "translation": "A financial institution must ensure its cryptographic controls are based on the effective implementation of suitable cryptographic protocols, including both secret and public key protocols that reflect a high degree of protection for secret and private keys. Protocol selection must be based on recognised international standards and must be tested accordingly, and the storage and computation of secret and private keys must be undertaken in a protected environment supported by a hardware security module, trusted execution environment, or similarly secured device, commensurate with the level of risk.",
     "evidence": [
-      "Encryption standards document",
-      "Data encryption implementation evidence",
-      "Inventory of encryption algorithms in use",
-      "Deprecated algorithm remediation records"
+      "Cryptographic Protocol Standards and Selection Register",
+      "Cryptographic Protocol Testing and Validation Records",
+      "Key Management Policy and Procedures",
+      "HSM / TEE Inventory and Configuration Evidence",
+      "Cryptographic Risk Assessment and Commensurate Control Mapping"
     ],
     "artifacts": [
       {
@@ -867,10 +805,11 @@
     "verbatim": "A financial institution shall store public cryptographic keys in a certificate issued by a Certificate Authority, as appropriate to the level of risk. Such certificates associated with customers shall be issued by recognised Certificate Authorities. The financial institution must ensure that the implementation of authentication and signature protocols using such certificates are subject to strong protection to ensure that the use of private cryptographic keys corresponding to the user certificates are legally binding and irrefutable. The initial issuance and subsequent renewal of such certificates must be consistent with industry best practices and applicable legal / regulatory specifications.",
     "translation": "A financial institution must store public cryptographic keys in certificates issued by a Certificate Authority appropriate to the risk level, and certificates associated with customers must be issued by recognised Certificate Authorities. The institution must ensure that authentication and signature protocols using these certificates are strongly protected so that the use of corresponding private keys is legally binding and irrefutable, and the initial issuance and renewal of certificates must be consistent with industry best practices and applicable legal and regulatory requirements.",
     "evidence": [
-      "Certificate management procedure",
-      "Certificate inventory with expiry dates",
-      "Certificate transparency monitoring evidence",
-      "Certificate renewal and revocation records"
+      "PKI Governance Policy and Certificate Management Framework",
+      "Certificate Inventory and Lifecycle Management Register",
+      "Recognised CA Validation Records for Customer Certificates",
+      "Authentication and Digital Signature Protocol Implementation Documentation",
+      "Certificate Issuance and Renewal Standard Operating Procedures with Compliance Evidence"
     ],
     "artifacts": [
       {
@@ -906,32 +845,25 @@
     "verbatim": "A financial institution must specify the resilience and availability objectives of its data centres to effectively support its business recovery objectives.",
     "translation": "A financial institution must specify the resilience and availability objectives of its data centres to effectively support its business recovery objectives.",
     "evidence": [
-      "Data centre physical security policy",
-      "CCTV coverage maps and retention configuration",
-      "Access control system configuration",
-      "Visitor management logs",
-      "Physical security assessment reports"
+      "Data Centre Resilience and Availability Objectives Policy",
+      "Business Recovery Objectives Alignment Matrix",
+      "Data Centre Infrastructure Design and Tier Certification Documentation",
+      "Data Centre Availability Performance Reports and SLA Monitoring Records",
+      "Data Centre Resilience Testing and Simulation Records"
     ],
     "artifacts": [
       {
-        "category": "policies",
-        "name": "Data Centre Physical Security Policy",
-        "description": "Policy defining physical security requirements for data centre facilities",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Data Centre Resilience Strategy",
+        "description": "Mandatory document for Data Centre Resilience Strategy",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
-        "category": "evidence",
-        "name": "CCTV Configuration Evidence",
-        "description": "Evidence of CCTV coverage and 90-day retention configuration",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "logs",
-        "name": "Visitor Management Logs",
-        "description": "Logs of all visitor access to data centre facilities",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Business Recovery Objectives",
+        "description": "Mandatory document for Business Recovery Objectives",
+        "format": "PDF/DOCX",
         "mandatory": true
       }
     ]
@@ -946,10 +878,11 @@
     "verbatim": "A financial institution must ensure data centres have redundant capacity components and multiple distribution paths serving the computer equipment to eliminate any single point of failure for effective achievement of the identified business recovery objectives.",
     "translation": "A financial institution must ensure its data centres have redundant capacity components and multiple distribution paths serving the computer equipment, so as to eliminate any single point of failure and effectively achieve the institution's identified business recovery objectives.",
     "evidence": [
-      "Environmental monitoring system documentation",
-      "Temperature and humidity threshold settings",
-      "Alert configuration and escalation procedures",
-      "Environmental monitoring reports"
+      "Data Centre Infrastructure Architecture Diagram",
+      "Single Point of Failure (SPOF) Risk Assessment Register",
+      "Redundancy Component Testing and Failover Test Records",
+      "Business Recovery Objectives Traceability Matrix",
+      "Data Centre Capacity and Redundancy Monitoring Dashboard / Reports"
     ],
     "artifacts": [
       {
@@ -985,10 +918,11 @@
     "verbatim": "A financial institution shall host critical systems in a dedicated space intended for production data centre usage. The dedicated space must be physically secured from unauthorised access and is not located in a disaster-prone area. A financial institution must also ensure there is no single point of failure in the design and connectivity for critical components of the production data centres, including hardware components, electrical utility, thermal management and data centre infrastructure. A financial institution must also ensure adequate maintenance, and holistic and continuous monitoring of these critical components with timely alerts on faults and indicators of potential issues.",
     "translation": "A financial institution must host critical systems in a dedicated production data centre space that is physically secured from unauthorised access and is not located in a disaster-prone area. The institution must also ensure there is no single point of failure in the design and connectivity of critical data centre components including hardware, electrical utility, thermal management, and infrastructure, and must ensure adequate maintenance and continuous monitoring of these components with timely alerts on faults and potential issues.",
     "evidence": [
-      "Power redundancy design documentation",
-      "UPS capacity and configuration records",
-      "Generator capacity and fuel supply records",
-      "Power failover test records"
+      "Data Centre Site Risk and Location Assessment",
+      "Physical Access Control Policy and Access Logs",
+      "Redundancy Architecture Documentation \u2014 Power, Cooling, and Network",
+      "Preventive Maintenance Schedule and Completion Records",
+      "Continuous Monitoring and Alerting Configuration with Alert Response Records"
     ],
     "artifacts": [
       {
@@ -1024,10 +958,11 @@
     "verbatim": "A financial institution must establish adequate control procedures for its data centre operations, including the deployment of relevant automated tools for batch processing management to ensure timely and accurate batch processes. These control procedures shall also include procedures for implementing changes in the production system, error handling as well as management of other exceptional conditions.",
     "translation": "A financial institution must establish adequate control procedures for its data centre operations, including deployment of relevant automated tools for batch processing management to ensure timely and accurate batch processes. These procedures must also cover implementing changes in the production system, error handling, and management of other exceptional conditions.",
     "evidence": [
-      "Fire suppression system specifications",
-      "Annual fire suppression testing records",
-      "Staff emergency response training records",
-      "Fire detection system configuration"
+      "Data Centre Operations Control Procedures Policy",
+      "Batch Processing Automation Tool Configuration and Inventory",
+      "Batch Job Execution Logs and SLA Compliance Reports",
+      "Production Change Management Procedure and Change Records",
+      "Error Handling Procedures and Error Resolution Records"
     ],
     "artifacts": [
       {
@@ -1063,10 +998,11 @@
     "verbatim": "A financial institution must segregate incompatible activities in the data centre operations environment to prevent any unauthorised activity. In the case where vendors' or programmers' access to the production environment is necessary, these activities must be properly authorised and monitored.",
     "translation": "A financial institution must segregate incompatible activities in its data centre operations environment to prevent unauthorised activity. Where vendor or programmer access to the production environment is necessary, such access must be properly authorised and monitored.",
     "evidence": [
-      "Physical access control system configuration",
-      "Biometric system deployment records",
-      "Quarterly access review records",
-      "Access revocation records for terminations and role changes"
+      "Data Centre Activity Segregation Policy",
+      "Incompatible Activities and Segregation of Duties Matrix",
+      "Vendor and Programmer Production Access Authorisation Records",
+      "Production Environment Access Monitoring Logs and Review Records",
+      "Data Centre Physical Access Control Records"
     ],
     "artifacts": [
       {
@@ -1102,32 +1038,26 @@
     "verbatim": "A financial institution must ensure its system capacity needs are well-planned and managed with due regard to peak processing period, business growth plans and technology architecture changes.",
     "translation": "A financial institution must ensure its system capacity needs are well-planned and managed. Planning must take into account peak processing periods, business growth plans, and changes to technology architecture.",
     "evidence": [
-      "Service level agreement documents",
-      "SLA monitoring dashboards or reports",
-      "Monthly SLA performance reports to management",
-      "SLA breach records and remediation actions"
+      "Capacity Planning Policy and Framework",
+      "System Capacity Assessment Reports",
+      "Peak Period Capacity Planning Records",
+      "Business Growth Forecast Integration Records",
+      "Technology Architecture Change Capacity Impact Assessments"
     ],
     "artifacts": [
       {
-        "category": "governance",
-        "name": "Service Level Agreements",
-        "description": "Documented SLAs for all critical technology services",
+        "category": "procedures",
+        "name": "Capacity Planning Procedure",
+        "description": "Procedure for planning, monitoring, and managing technology capacity",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       },
       {
         "category": "reports",
-        "name": "Monthly SLA Performance Reports",
-        "description": "Monthly reports on service level performance presented to management",
+        "name": "Capacity Monitoring Reports",
+        "description": "Regular reports on capacity utilisation against defined thresholds",
         "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "logs",
-        "name": "SLA Breach Records",
-        "description": "Records of SLA breaches and corrective actions taken",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
+        "mandatory": false
       }
     ]
   },
@@ -1141,31 +1071,18 @@
     "verbatim": "A financial institution must establish real-time monitoring mechanisms to track capacity utilisation and performance of key processes and services. These monitoring mechanisms shall be capable of providing actionable alerts to administrators to enable timely detection and resolution of service interruptions. The monitoring scope, metrics and thresholds shall be updated periodically to ensure they remain effective.",
     "translation": "A financial institution must establish real-time monitoring mechanisms that track capacity utilisation and performance of key processes and services. These mechanisms must be capable of generating actionable alerts to enable administrators to detect and resolve service interruptions in a timely manner. The monitoring scope, metrics, and thresholds must be reviewed and updated periodically to remain effective.",
     "evidence": [
-      "IT service continuity plan documents",
-      "Alignment mapping with business continuity plans",
-      "Disruption scenario analysis",
-      "Continuity plan testing records"
+      "Real-Time Monitoring Architecture and Coverage Register",
+      "Monitoring Dashboard Screenshots and Live System Evidence",
+      "Alert Configuration and Threshold Documentation",
+      "Alert Response and Incident Correlation Records",
+      "Periodic Monitoring Review Records"
     ],
     "artifacts": [
       {
-        "category": "procedures",
-        "name": "IT Service Continuity Plan",
-        "description": "Plans ensuring continued availability of critical services during disruptions",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "evidence",
-        "name": "BCP Alignment Mapping",
-        "description": "Mapping showing alignment between IT continuity and business continuity plans",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "reports",
-        "name": "Scenario Analysis Report",
-        "description": "Analysis of disruption scenarios and their impact on critical services",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Service Availability Monitoring Procedure",
+        "description": "Mandatory document for Service Availability Monitoring Procedure",
+        "format": "PDF/DOCX",
         "mandatory": true
       }
     ]
@@ -1180,10 +1097,11 @@
     "verbatim": "A financial institution shall enhance the resilience of key digital services and delivery channels through the following measures:\n(a) implement effective mechanisms by 30 September 2027 to provide early signals or warning of service degradation or intermittent failures. This means the capability to:\n(i) detect failed transactions and measure service availability more accurately;\n(ii) monitor the number of affected customers and transaction volumes during service disruptions to measure the extent and severity customer impact; and\n(iii) immediately escalating to senior management when service disruptions affect 5% or more of expected daily customers or transaction volumes;\n(b) conduct regular reviews to identify and mitigate potentially vulnerable IT system interdependencies to prevent simultaneous interruptions to multiple digital services or delivery channels; and\n(c) establish stand-in processing arrangement by 30 September 2027 and deploy such arrangement during disruptions to ensure continuity of services during disruptions. A financial institution shall prioritise deployment of this capability for digital services and delivery channels which are least substitutable, and ensure its customers are well informed on the terms of use (such as the transaction limit), associated risks and allocation of responsibilities between parties and mitigation actions against fraud risks.",
     "translation": "A financial institution must enhance the resilience of key digital services and delivery channels through several measures. By 30 September 2027, it must implement mechanisms that detect failed transactions, measure service availability, monitor the number of affected customers and transaction volumes during disruptions, and immediately escalate to senior management when disruptions affect 5% or more of expected daily customers or transaction volumes. It must also conduct regular reviews to identify and mitigate vulnerable IT system interdependencies, and establish stand-in processing arrangements by 30 September 2027 to maintain continuity during disruptions, prioritising services that are least substitutable and ensuring customers are informed of terms of use, risks, responsibilities, and fraud mitigation measures.",
     "evidence": [
-      "Disaster recovery plan documents for critical systems",
-      "DR roles and responsibilities matrix",
-      "Communication and escalation procedures",
-      "DR plan distribution and accessibility evidence"
+      "Early Warning Monitoring System \u2014 Design and Capability Documentation",
+      "5% Threshold Escalation Policy and Incident Escalation Records",
+      "IT System Interdependency Review Records",
+      "Stand-In Processing Arrangement \u2014 Design, Policy, and Deployment Records",
+      "Substitutability Assessment for Digital Services Prioritisation"
     ],
     "artifacts": [
       {
@@ -1219,10 +1137,11 @@
     "verbatim": "For critical systems, where there is a reasonable expectation for immediate delivery of service to customers or dealings with counterparties, a financial institution must ensure that these systems are designed for high availability with a cumulative unplanned downtime affecting the interface with customers or counterparties of not more than 4 hours on a rolling 12 months basis and a maximum tolerable downtime of 120 minutes per incident.",
     "translation": "For critical systems where customers or counterparties have a reasonable expectation of immediate service delivery, a financial institution must design those systems for high availability. The cumulative unplanned downtime affecting the interface with customers or counterparties must not exceed 4 hours on a rolling 12-month basis, and the maximum tolerable downtime per incident must not exceed 120 minutes.",
     "evidence": [
-      "DR test schedule and completion records",
-      "Full failover test results",
-      "RTO and RPO validation records",
-      "Deficiency remediation plans and tracking"
+      "Critical System Register with HA Classification",
+      "High Availability Architecture Design Documentation",
+      "Rolling 12-Month Unplanned Downtime Tracking Report",
+      "Incident Records with Downtime Classification and Duration",
+      "High Availability Test and Failover Validation Records"
     ],
     "artifacts": [
       {
@@ -1258,10 +1177,11 @@
     "verbatim": "Eligible e-money issuers, non-bank registered merchant acquirers and intermediary remittance institutions that have not been designated as a National Critical Information Infrastructure (NCII) entity are encouraged to implement the measures provided in paragraph 10.31.",
     "translation": "Eligible e-money issuers, non-bank registered merchant acquirers, and intermediary remittance institutions that have not been designated as National Critical Information Infrastructure (NCII) entities are encouraged to implement the resilience measures set out in paragraph 10.31. This is guidance rather than a mandatory requirement for those entities.",
     "evidence": [
-      "RTO and RPO definitions for critical systems",
-      "Business owner approval records",
-      "DR test results validating RTO/RPO compliance",
-      "Business impact analysis supporting RTO/RPO decisions"
+      "NCII Designation Status Confirmation",
+      "Paragraph 10.31 Voluntary Adoption Assessment",
+      "Service Availability Policy and Target Documentation",
+      "Board and Senior Management Awareness Record",
+      "Compensating Controls Register (Where Paragraph 10.31 Measures Not Fully Adopted)"
     ],
     "artifacts": [
       {
@@ -1297,10 +1217,11 @@
     "verbatim": "A financial institution shall prioritise diversity in technology to enhance resilience by ensuring critical systems infrastructure are not excessively exposed to similar technology risks.",
     "translation": "A financial institution must prioritise diversity in technology to enhance resilience. Specifically, it must ensure that critical systems infrastructure is not excessively exposed to similar technology risks.",
     "evidence": [
-      "Business impact analysis report",
-      "Critical business process inventory",
-      "Technology service dependency mapping",
-      "Annual BIA review and update records"
+      "Technology Diversity Policy and Framework",
+      "Critical Systems Inventory with Technology Stack Taxonomy",
+      "Technology Concentration Risk Assessment",
+      "Technology Procurement and Architecture Review Standards",
+      "Resilience Testing Evidence Demonstrating Diversity Effectiveness"
     ],
     "artifacts": [
       {
@@ -1336,10 +1257,11 @@
     "verbatim": "During an interruption of digital services or delivery channels, including periods of performance degradation or intermittent failures, a financial institution shall respond promptly and effectively to minimise the impact on its customers. This includes but not limited to-\n(a) ensure timely escalation and decision-making to resume services promptly via alternative arrangements and stabilise performance within the timeframe specified in paragraph 10.32 under all plausible scenarios;\n(b) define clear accountabilities for managing performance degradation issues and formalise arrangements with third party service providers to ensure effective coordination and timely recovery to normal performance levels;\n(c) establish a communication plan for service interruptions to immediately inform affected customers, properly manage a high volume of customer feedback, and provide frequent updates on recovery efforts, as well as actionable information on available alternatives for customers with urgent needs;\n(d) provide customers with a convenient means of checking the availability of digital services, which may include publishing real-time availability and performance status of its digital services on the corporate website; and\n(e) disclose the track record of service availability on a quarterly basis within 15 calendar days of quarter-end, beginning from 15 October 2027.",
     "translation": "During any interruption, performance degradation, or intermittent failure of digital services or delivery channels, a financial institution must respond promptly and effectively to minimise customer impact. This includes ensuring timely escalation and decision-making to resume services within the timeframe in paragraph 10.32, defining clear accountabilities and formalising arrangements with third party service providers for recovery, establishing a communication plan to inform affected customers and provide frequent updates and actionable alternatives, giving customers a convenient means to check service availability, and disclosing the quarterly track record of service availability within 15 calendar days of quarter-end beginning from 15 October 2027.",
     "evidence": [
-      "Crisis communication plan document",
-      "Stakeholder notification procedures and contact lists",
-      "Crisis communication testing records",
-      "Media management guidelines"
+      "Incident Escalation and Response Procedure",
+      "Incident Response Drill and Test Records",
+      "Third-Party Service Provider Recovery Arrangements",
+      "Service Interruption Customer Communication Plan",
+      "Real-Time Digital Service Availability Status Page"
     ],
     "artifacts": [
       {
@@ -1375,31 +1297,25 @@
     "verbatim": "A financial institution must design and implement a reliable, scalable and secure enterprise network that is able to support its business activities, including future growth plans.",
     "translation": "A financial institution must design and implement an enterprise network that is reliable, scalable, and secure. The network must be capable of supporting the institution's current business activities as well as its future growth plans.",
     "evidence": [
-      "Network architecture documentation and diagrams",
-      "Network zone definitions and data flow diagrams",
-      "Annual architecture review records",
-      "Defence-in-depth design principles documentation"
+      "Enterprise Network Architecture Document",
+      "Network Capacity Planning and Scalability Assessment",
+      "Network Security Architecture and Controls Documentation",
+      "Network Reliability and Redundancy Design Evidence",
+      "Network Change Management Records"
     ],
     "artifacts": [
       {
-        "category": "evidence",
-        "name": "Network Architecture Diagrams",
-        "description": "Complete network architecture diagrams including zones, data flows, and interconnections",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Network Security Policy",
+        "description": "Mandatory document for Network Security Policy",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
-        "category": "procedures",
-        "name": "Network Architecture Standards",
-        "description": "Standards for secure network architecture based on defence-in-depth principles",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "reports",
-        "name": "Annual Architecture Review Report",
-        "description": "Annual review report on network architecture adequacy and security",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Network Diagram",
+        "description": "Mandatory document for Network Diagram",
+        "format": "PDF/DOCX",
         "mandatory": true
       }
     ]
@@ -1414,10 +1330,11 @@
     "verbatim": "A financial institution must ensure the network services for its critical systems are reliable and have no single point of failure in order to protect the critical systems against potential network faults and cyber threats.",
     "translation": "A financial institution must ensure that network services supporting its critical systems are reliable and contain no single point of failure. This is required to protect critical systems against potential network faults and cyber threats.",
     "evidence": [
-      "Network segmentation design documentation",
-      "VLAN and firewall rule configurations",
-      "Penetration test reports validating segmentation",
-      "Segmentation policy and standards"
+      "Critical System Network Architecture Diagrams",
+      "Critical System Inventory with Network Dependency Mapping",
+      "Network Redundancy and Failover Test Records",
+      "Network Availability and SLA Monitoring Reports",
+      "Network Incident Records for Critical System Outages"
     ],
     "artifacts": [
       {
@@ -1453,10 +1370,11 @@
     "verbatim": "The control measures to prevent from network faults as referred to in paragraph 10.37 are expected to include component redundancy, service diversity and alternate network paths.",
     "translation": "The control measures expected to prevent network faults, as referred to in paragraph 10.37, include component redundancy, service diversity, and alternate network paths.",
     "evidence": [
-      "Firewall management policy",
-      "Firewall rule review records (semi-annual)",
-      "Firewall rule base audit reports",
-      "Remediation records for overly permissive rules"
+      "Network Architecture Diagram \u2014 Redundancy and Alternate Paths",
+      "Component Redundancy Inventory and Configuration Baseline",
+      "Service Diversity Agreements \u2014 ISP and Telco Contracts",
+      "Network Failover and Path Switchover Test Records",
+      "Network Monitoring and Alerting Configuration Evidence"
     ],
     "artifacts": [
       {
@@ -1492,10 +1410,11 @@
     "verbatim": "A financial institution must establish real-time network bandwidth monitoring processes and corresponding network service resilience metrics to flag any over utilisation of bandwidth and system disruptions due to bandwidth congestion and network faults. This includes traffic analysis to detect trends and anomalies.",
     "translation": "A financial institution must establish real-time network bandwidth monitoring processes and corresponding resilience metrics to flag over-utilisation of bandwidth and disruptions caused by bandwidth congestion and network faults. Monitoring must include traffic analysis to detect trends and anomalies.",
     "evidence": [
-      "IDS/IPS deployment architecture",
-      "Signature and rule update records",
-      "Alert monitoring and investigation records",
-      "IDS/IPS policy and configuration standards"
+      "Real-Time Network Bandwidth Monitoring Policy and Procedures",
+      "Network Service Resilience Metrics Register",
+      "Real-Time Bandwidth Monitoring Dashboard and Alert Configuration",
+      "Bandwidth Over-Utilisation and Network Fault Alert History",
+      "Network Traffic Trend Analysis and Anomaly Detection Reports"
     ],
     "artifacts": [
       {
@@ -1531,10 +1450,11 @@
     "verbatim": "A financial institution must ensure network services supporting critical systems are designed and implemented to ensure the confidentiality, integrity and availability of data.",
     "translation": "A financial institution must ensure that network services supporting critical systems are designed and implemented to protect the confidentiality, integrity, and availability of data.",
     "evidence": [
-      "Wireless security policy",
-      "Wireless encryption and segmentation configuration",
-      "Rogue AP detection system deployment evidence",
-      "Wireless security assessment reports"
+      "Network Architecture and Segmentation Design Document",
+      "Firewall and Access Control Rule Documentation",
+      "Encryption in Transit Policy and Implementation Evidence",
+      "Network Redundancy and Availability Design Evidence",
+      "Network Security Assessment Reports (Penetration Test and Vulnerability Scan)"
     ],
     "artifacts": [
       {
@@ -1570,10 +1490,11 @@
     "verbatim": "A financial institution must establish and maintain a network design blueprint identifying all of its internal and external network interfaces and connectivity. The blueprint must highlight both physical and logical connectivity between network components and network segmentations.",
     "translation": "A financial institution must establish and maintain a network design blueprint that identifies all internal and external network interfaces and connectivity. The blueprint must highlight both the physical and logical connectivity between network components as well as network segmentations.",
     "evidence": [
-      "Remote access security policy",
-      "VPN and MFA configuration evidence",
-      "Endpoint compliance check configuration",
-      "Remote access monitoring and logging evidence"
+      "Master Network Design Blueprint",
+      "Physical Network Topology Diagrams",
+      "Logical Network Topology Diagrams",
+      "Network Segmentation Register and Boundary Control Evidence",
+      "External Interface and Third-Party Connectivity Register"
     ],
     "artifacts": [
       {
@@ -1609,10 +1530,11 @@
     "verbatim": "A financial institution must ensure sufficient and relevant network device logs are retained for investigations and forensic purposes for at least three years.",
     "translation": "A financial institution must retain sufficient and relevant network device logs to support investigations and forensic purposes. These logs must be kept for at least three years.",
     "evidence": [
-      "DNS security configuration documentation",
-      "DNSSEC implementation evidence",
-      "DNS query logging and monitoring evidence",
-      "DNS infrastructure redundancy design"
+      "Network Device Log Retention Policy",
+      "Network Device Log Source Inventory",
+      "SIEM / Log Management Platform Retention Configuration Evidence",
+      "Log Integrity and Tamper-Evidence Controls Documentation",
+      "Log Monitoring and Availability Health Reports"
     ],
     "artifacts": [
       {
@@ -1648,10 +1570,11 @@
     "verbatim": "A financial institution must implement appropriate safeguards to minimise the risk of a system compromise in one entity affecting other entities within the group. Safeguards implemented may include establishing logical network segmentation for the financial institution from other entities within the group.",
     "translation": "A financial institution must implement appropriate safeguards to minimise the risk that a system compromise in one entity within the group affects other entities. Safeguards may include establishing logical network segmentation between the financial institution and other entities within the group.",
     "evidence": [
-      "Network monitoring architecture and tools",
-      "24/7 monitoring procedures and staffing",
-      "Network traffic analysis reports",
-      "Anomaly detection configuration and alert records"
+      "Group Network Architecture Diagram",
+      "Firewall Rule Sets and Access Control Lists at Group Boundaries",
+      "Network Segmentation Policy and Group-Level Interconnection Standards",
+      "Network Segmentation Testing and Validation Records",
+      "Inter-Entity Connectivity Register and Approval Records"
     ],
     "artifacts": [
       {
@@ -1687,10 +1610,11 @@
     "verbatim": "A financial institution must establish a robust backup strategy and procedures to meet business recovery objectives. At a minimum, a financial institution shall-\n(a) establish backup and restoration procedures to effectively manage the backup data life cycle;\n(b) maintain an adequate number of backup copies of all critical data, the updated version of the operating system software, production programs, system utilities, all master and transaction files and event logs for recovery purposes;\n(c) backup media must be stored in an environmentally secure and access-controlled backup site;\n(d) secure the storage and transportation of sensitive data in removable media to meet minimum controls as specified in Appendix 1 or equivalent;\n(e) test backup and restoration procedures periodically to validate recovery capabilities. Remedial actions shall be taken promptly by the financial institution to fix the root cause of unsuccessful backups; and\n(f) undertake an independent risk assessment of its end-to-end backup storage and delivery management to ensure that existing controls are adequate in protecting sensitive data at all times.",
     "translation": "A financial institution must establish a robust backup strategy and procedures to meet business recovery objectives. At a minimum, this requires establishing backup and restoration procedures to manage the backup data life cycle, maintaining adequate backup copies of all critical data, software, and logs, storing backup media in an environmentally secure and access-controlled site, securing the storage and transportation of sensitive data in removable media, periodically testing backup and restoration procedures and promptly fixing the root causes of any failures, and conducting an independent risk assessment of the end-to-end backup storage and delivery management to ensure controls adequately protect sensitive data at all times.",
     "evidence": [
-      "Backup policy document",
-      "Backup schedule and scope definitions",
-      "Backup encryption and offsite storage evidence",
-      "Ransomware protection measures for backups"
+      "Backup Strategy Policy and Procedures",
+      "Critical Systems and Backup Coverage Register",
+      "Backup Site Security Controls Evidence",
+      "Removable Media Security Controls Evidence",
+      "Backup and Restoration Testing Records"
     ],
     "artifacts": [
       {
@@ -1701,17 +1625,17 @@
         "mandatory": true
       },
       {
-        "category": "evidence",
-        "name": "Backup Configuration Evidence",
-        "description": "Evidence of backup encryption, offsite storage, and ransomware protection",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Backup and Restoration Procedure",
+        "description": "Mandatory document for Backup and Restoration Procedure",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
-        "category": "logs",
-        "name": "Backup Execution Logs",
-        "description": "Logs of backup execution showing successful completion",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Backup Testing Records",
+        "description": "Mandatory document for Backup Testing Records",
+        "format": "PDF/DOCX",
         "mandatory": true
       }
     ]
@@ -1726,10 +1650,11 @@
     "verbatim": "A financial institution shall establish a tamper-proof backup arrangement and an isolated recovery environment to enable timely resumption of critical banking and payment services within its tolerable level in the event of destructive cyber-attacks such as widespread data loss caused by ransomware.",
     "translation": "A financial institution must establish a tamper-proof backup arrangement and an isolated recovery environment. These measures must enable timely resumption of critical banking and payment services within the institution's tolerable level in the event of destructive cyber-attacks such as widespread data loss caused by ransomware.",
     "evidence": [
-      "Backup restoration test schedule",
-      "Restoration test results for critical systems (quarterly)",
-      "Restoration test results for non-critical systems (annual)",
-      "Failure remediation records"
+      "Tamper-Proof Backup Policy and Architecture Documentation",
+      "Backup Immutability Technical Evidence and Audit Logs",
+      "Isolated Recovery Environment Design and Configuration Records",
+      "Ransomware Recovery Testing Records and Results",
+      "Tolerable Downtime and Recovery Objective Alignment Records"
     ],
     "artifacts": [
       {
@@ -1765,31 +1690,25 @@
     "verbatim": "The board and senior management of the financial institution must exercise effective oversight and address associated risks when engaging third party service providers for critical technology functions and systems. The financial institution remains accountable for managing all risks that arise from engagement of third party service providers, to ensure security and reliability of technology services in compliance with all relevant regulatory requirements prescribed in this policy document.",
     "translation": "The board and senior management must exercise effective oversight and address associated risks when the institution engages third party service providers for critical technology functions and systems. The financial institution remains fully accountable for managing all risks arising from such engagements, ensuring that security and reliability of technology services comply with all relevant regulatory requirements in this policy document.",
     "evidence": [
-      "Vendor risk assessment framework and methodology",
-      "Completed vendor risk assessments",
-      "Critical vendor annual reassessment records",
-      "Vendor risk rating and classification records"
+      "Board and Senior Management TPSP Oversight Framework",
+      "Critical TPSP Register and Classification Evidence",
+      "TPSP Risk Assessments for Critical Technology Functions",
+      "Critical TPSP Contractual Agreements with Regulatory Compliance Obligations",
+      "Ongoing TPSP Performance Monitoring and Board Reporting Records"
     ],
     "artifacts": [
       {
-        "category": "procedures",
-        "name": "Vendor Risk Assessment Framework",
-        "description": "Framework and methodology for assessing technology vendor risks",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Third Party Risk Management Framework",
+        "description": "Mandatory document for Third Party Risk Management Framework",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
-        "category": "reports",
-        "name": "Vendor Risk Assessment Reports",
-        "description": "Completed risk assessments for all technology vendors",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "evidence",
-        "name": "Annual Vendor Reassessment Records",
-        "description": "Records of annual risk reassessments for critical vendors",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Vendor Inventory",
+        "description": "Mandatory document for Vendor Inventory",
+        "format": "PDF/DOCX",
         "mandatory": true
       }
     ]
@@ -1804,10 +1723,11 @@
     "verbatim": "A financial institution must conduct a due diligence on a third party service provider prior to its on-boarding or engagement and throughout the service engagement to ensure achievement of business performance and recovery objectives remain unimpaired, considering the latest risk environment. At the minimum, a financial institution must consider the range of risks outlined in Appendix 8.",
     "translation": "A financial institution must conduct due diligence on a third party service provider before on-boarding or engaging it, and must continue that due diligence throughout the service engagement. The due diligence must ensure that business performance and recovery objectives remain unimpaired in light of the latest risk environment, and must at a minimum consider the range of risks outlined in Appendix 8.",
     "evidence": [
-      "Outsourcing governance framework document",
-      "Board approval records for material outsourcing",
-      "Outsourcing risk and security requirements",
-      "Outsourcing oversight and monitoring records"
+      "Third Party Due Diligence Policy and Framework",
+      "Pre-Engagement Due Diligence Assessment Records",
+      "Ongoing Due Diligence Review Schedule and Completed Review Records",
+      "Appendix 8 Risk Coverage Matrix",
+      "Third Party Risk Register with Current Risk Environment Assessment"
     ],
     "artifacts": [
       {
@@ -1843,30 +1763,24 @@
     "verbatim": "A financial institution must establish a Service Level Agreement (SLA) when engaging third party service provider. At a minimum, the SLA shall contain the following:\n(a) access rights for the regulator and any party appointed by the financial institution to examine any activity or entity of the financial institution. This shall include access to any record, file or data of the financial institution, including management information and the minutes of all consultative and decision-making processes;\n(b) requirements for the third party service provider to provide sufficient prior notice to financial institutions of any sub-contracting which is substantial;\n(c) a written undertaking by the third party service provider on its compliance with secrecy provisions under relevant legislations. The SLA shall further clearly provide for the third party service provider to be bound by integrity and confidentiality provisions stipulated under the contract even after the engagement has ended;\n(d) arrangements for disaster recovery and backup capability, where applicable;\n(e) service level objectives for uptime or availability;\n(f) arrangements to secure business continuity in the event of an exit or termination of the third party service provider, which includes ensuring data residing in third party service providers are recoverable in a timely manner;\n(g) responsibility of third party service providers to promptly disclose and notify the financial institution of any service disruptions or cyber incidents that affect the financial institution or its customer data that occur within such service providers' or sub-contractors' environment.\n(h) requirements for the third party service providers to comply with the relevant internationally recognised standards and ensure their key staff keep their skills up-to-date with the relevant certifications; and\n(i) requirements for third party service providers to participate in the financial institution's security awareness and education program, where appropriate.",
     "translation": "A financial institution must establish a Service Level Agreement (SLA) when engaging a third party service provider. At a minimum, the SLA must include: regulator access rights to records, files, and data; sufficient prior notice requirements for substantial sub-contracting; a written undertaking on compliance with secrecy provisions that survives contract termination; disaster recovery and backup arrangements where applicable; service level objectives for uptime or availability; business continuity arrangements on exit or termination including timely data recovery; the third party's obligation to promptly disclose service disruptions or cyber incidents affecting the institution or its customer data; requirements for the third party to comply with relevant internationally recognised standards and maintain up-to-date staff certifications; and requirements for the third party to participate in the institution's security awareness and education programme where appropriate.",
     "evidence": [
-      "Vendor SLA monitoring reports",
-      "SLA breach records and escalation evidence",
-      "Remediation plans for SLA non-compliance",
-      "Vendor performance review records"
+      "Third Party SLA Master Register and Executed Agreements",
+      "Regulator and Auditor Access Rights Provisions and Exercise Records",
+      "Sub-contracting Notification Framework and Confidentiality Undertaking Records",
+      "Disaster Recovery, Backup, Exit and Business Continuity Arrangements",
+      "Service Level Objectives Monitoring and Performance Reporting Records"
     ],
     "artifacts": [
       {
-        "category": "reports",
-        "name": "Vendor SLA Monitoring Reports",
-        "description": "Regular reports on vendor SLA compliance and performance",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "SLA Management Procedure",
+        "description": "Mandatory document for SLA Management Procedure",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
-        "category": "logs",
-        "name": "SLA Breach Records",
-        "description": "Records of SLA breaches with escalation and remediation actions",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "evidence",
-        "name": "Vendor Performance Reviews",
-        "description": "Formal vendor performance review records addressing SLA compliance",
+        "category": "governance",
+        "name": "Service Level Agreements",
+        "description": "Documented SLAs for all critical technology services",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       }
@@ -1882,10 +1796,11 @@
     "verbatim": "A financial institution must formulate a roadmap to achieve continuous monitoring of a third party service provider's cybersecurity posture to obtain real-time insights for effective incident management. The financial institution shall undertake the following:\n(a) measure the IT infrastructure footprint and the customer information accessible to third parties, and regularly manage this external stress state exposures to mitigate cyber-attack surfaces;\n(b) adopt leading security policies and controls to mitigate product-specific third party risks;\n(c) ensure incident response plans incorporate protocols with third party service providers to detect and contain adverse impact of security vulnerabilities resulting from software updates;\n(d) define a priority set of security controls that require more frequent assurance assertion from the third party service providers;\n(e) monitor technology and cyber incidents information disclosed by third party service providers at a higher frequency;\n(f) implement technology solutions to automate metric testing; and\n(g) establish processes to respond to breached thresholds, including investigating failed assertions and remedying control gaps.",
     "translation": "A financial institution must formulate a roadmap to achieve continuous monitoring of a third party service provider's cybersecurity posture to obtain real-time insights for effective incident management. This requires measuring and regularly managing the IT infrastructure footprint and customer information accessible to third parties, adopting leading security policies for third party risks, incorporating third party protocols into incident response plans, defining a priority set of controls requiring more frequent assurance assertions, monitoring third party disclosures of technology and cyber incidents at higher frequency, implementing technology solutions to automate metric testing, and establishing processes to respond to breached thresholds including investigating failed assertions and remedying control gaps.",
     "evidence": [
-      "Vendor exit strategy documents",
-      "Data migration and transition plans",
-      "Secure data destruction requirements",
-      "Annual exit plan review or test records"
+      "Third Party Continuous Monitoring Roadmap",
+      "Third Party IT Footprint and Customer Data Exposure Register",
+      "Third Party Security Control Framework and Product-Specific Risk Policy",
+      "Incident Response Plan \u2014 Third Party Protocols and Software Update Provisions",
+      "Continuous Monitoring Technology Platform Evidence and Automated Metric Testing Records"
     ],
     "artifacts": [
       {
@@ -1921,10 +1836,11 @@
     "verbatim": "A financial institution must fully understand the inherent risk of adopting cloud services. In this regard, a financial institution shall conduct a comprehensive risk assessment prior to cloud adoption which considers the inherent architecture of cloud services that leverages on the sharing of resources and services across multiple tenants over the Internet. The assessment must specifically address risks associated with the following:\n(a) sophistication of the deployment model;\n(b) migration of existing systems to cloud infrastructure;\n(c) location of cloud infrastructure including potential geo-political risks and legal risks that may impede compliance with any legal or regulatory requirements;\n(d) multi-tenancy or data co-mingling;\n(e) vendor lock-in and application portability or interoperability;\n(f) ability to customise security configurations of the cloud infrastructure to ensure a high level of data and technology system protection;\n(g) exposure to cyber-attacks via cloud service providers;\n(h) termination of a cloud service provider including the ability to secure the financial institution's data following the termination;\n(i) demarcation of responsibilities, limitations and liability of the cloud service provider; and\n(j) ability to meet regulatory requirements and international standards on cloud computing on a continuing basis.",
     "translation": "A financial institution must fully understand the inherent risks of adopting cloud services and must conduct a comprehensive risk assessment prior to cloud adoption. The assessment must address risks arising from the cloud's shared resource and multi-tenant architecture, and must specifically cover the sophistication of the deployment model, migration risks, the geographic location of cloud infrastructure including geo-political and legal risks, multi-tenancy and data co-mingling, vendor lock-in and portability, ability to customise security configurations, exposure to cyber-attacks via cloud providers, termination of the cloud provider including data recovery, demarcation of responsibilities and liability, and the ability to meet regulatory requirements and international standards on a continuing basis.",
     "evidence": [
-      "Cloud risk assessment methodology",
-      "Completed cloud risk assessments",
-      "Shared responsibility model documentation",
-      "Risk assessment review records for material changes"
+      "Pre-Adoption Cloud Risk Assessment Report",
+      "Cloud Architecture and Deployment Model Documentation",
+      "Cloud Migration Risk Assessment and Data Residency Analysis",
+      "Multi-Tenancy Controls Assessment and Cyber Risk Exposure Analysis",
+      "Vendor Lock-in Assessment and Cloud Exit Strategy"
     ],
     "artifacts": [
       {
@@ -1940,13 +1856,6 @@
         "description": "Completed risk assessments for all cloud service adoptions",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
-      },
-      {
-        "category": "evidence",
-        "name": "Shared Responsibility Documentation",
-        "description": "Documentation of shared responsibility model for each cloud provider",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
       }
     ]
   },
@@ -1960,10 +1869,11 @@
     "verbatim": "For critical systems hosted on a public cloud, a financial institution is expected to consider common key risks and control measures as specified in Appendix 10. A financial institution that relies on alternative risk management practices that depart from the measures outlined in Appendix 10 is expected to be prepared to explain and demonstrate to the Bank that these alternative practices are at least as effective as, or superior to, the measures in Appendix 10.",
     "translation": "For critical systems hosted on a public cloud, a financial institution is expected to consider the common key risks and control measures specified in Appendix 10. A financial institution that departs from those measures with alternative risk management practices must be prepared to explain and demonstrate to the Bank that those alternative practices are at least as effective as, or superior to, the measures in Appendix 10.",
     "evidence": [
-      "Access control policy document with version and effective date",
-      "Annual policy review record or sign-off",
-      "List of systems and information assets in scope",
-      "Evidence of communication to staff"
+      "Critical Systems Register \u2014 Public Cloud Footprint",
+      "Appendix 10 Risk and Control Mapping Matrix",
+      "Cloud Risk Register \u2014 Appendix 10 Aligned",
+      "Alternative Control Justification and Equivalence Assessment",
+      "Cloud Governance Framework and Board-Level Oversight Records"
     ],
     "artifacts": [
       {
@@ -1999,10 +1909,11 @@
     "verbatim": "A financial institution must implement appropriate safeguards on customer and counterparty information and proprietary data when using cloud services to protect against unauthorised disclosure and access. This shall include retaining ownership, control and management of all data pertaining to customer and counterparty information, proprietary data and services hosted on the cloud, including the relevant cryptographic keys management.",
     "translation": "A financial institution must implement appropriate safeguards to protect customer and counterparty information and proprietary data when using cloud services against unauthorised disclosure and access. This includes retaining ownership, control, and management of all such data and services hosted on the cloud, including the management of the relevant cryptographic keys.",
     "evidence": [
-      "Cloud data residency policy",
-      "Data classification and location mapping",
-      "Cloud provider data residency agreements",
-      "Data location monitoring evidence"
+      "Cloud Data Protection Policy and Framework",
+      "Cloud-Hosted Data Inventory and Classification Register",
+      "Cryptographic Key Management Framework and Key Inventory",
+      "Cloud Identity and Access Management (IAM) Controls Evidence",
+      "Data Residency and Sovereignty Controls Documentation"
     ],
     "artifacts": [
       {
@@ -2038,31 +1949,25 @@
     "verbatim": "A financial institution must implement an access control policy for the identification, authentication, and authorisation of all users to its IT assets and data. The level of granularity defined in the access control policy shall be commensurate with the level of risk of unauthorised access to its IT assets.",
     "translation": "A financial institution must implement an access control policy covering the identification, authentication, and authorisation of all users to its IT assets and data. The level of granularity in that policy must be commensurate with the level of risk posed by unauthorised access to those IT assets.",
     "evidence": [
-      "User access provisioning procedure",
-      "Access request and approval records",
-      "De-provisioning procedure and compliance records",
-      "Least privilege configuration evidence"
+      "Access Control Policy Document",
+      "IT Asset Risk Classification Register",
+      "User Provisioning and Access Request Records",
+      "Privileged Access Management Controls Evidence",
+      "Periodic Access Review and Recertification Records"
     ],
     "artifacts": [
       {
-        "category": "procedures",
-        "name": "User Access Provisioning Procedure",
-        "description": "Procedure for granting, modifying, and revoking user access based on least privilege",
+        "category": "policies",
+        "name": "Access Control Policy",
+        "description": "Formal access control policy defining rules and rights for all systems and assets",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       },
       {
-        "category": "logs",
-        "name": "Access Request and Approval Logs",
-        "description": "Logs of access requests with approvals from system or data owners",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "evidence",
-        "name": "De-provisioning Compliance Records",
-        "description": "Records showing access removal within 24 hours of termination",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Privileged Access Management Policy",
+        "description": "Mandatory document for Privileged Access Management Policy",
+        "format": "PDF/DOCX",
         "mandatory": true
       }
     ]
@@ -2074,14 +1979,14 @@
     "title": "Access Control Principles",
     "clauseType": "technical",
     "marker": "S",
-    "verbatim": "A financial institution shall adhere to the following principles:\n(a) adopt a “deny all” access control policy for users by default because all access to IT assets must be explicitly authorised;\n(b) employ “least privilege” access rights to ensure IT assets are accessed on a “need-to-have” basis where only the minimum sufficient permissions are granted to legitimate users to perform their roles;\n(c) employ time-bound access which restrict access to a specific period based on the nature of work;\n(d) employ segregation of incompatible functions where no single person is responsible for an entire operation that may provide the ability to independently modify, circumvent, and disable system security features. This may include a combination of functions such as:\n(i) system development and technology operations;\n(ii) security administration and system administration;\n(iii) network operation and network security; and\n(iv) IT operations environment;\n(e) establish criteria for activities that require dual authorization control; and\n(f) adopt robust user authorization and authentication based on criticality of IT assets as follows:\n(i) stronger authentication for critical activities and higher-risk environment such as remote access;\n(ii) ensure user credentials provisioned with robust identity verification method to prevent impersonation risks; and\n(iii) ensure online credential is uniquely linked to a single user to ensure clear accountability in access to confidential IT assets.",
+    "verbatim": "A financial institution shall adhere to the following principles:\n(a) adopt a \u201cdeny all\u201d access control policy for users by default because all access to IT assets must be explicitly authorised;\n(b) employ \u201cleast privilege\u201d access rights to ensure IT assets are accessed on a \u201cneed-to-have\u201d basis where only the minimum sufficient permissions are granted to legitimate users to perform their roles;\n(c) employ time-bound access which restrict access to a specific period based on the nature of work;\n(d) employ segregation of incompatible functions where no single person is responsible for an entire operation that may provide the ability to independently modify, circumvent, and disable system security features. This may include a combination of functions such as:\n(i) system development and technology operations;\n(ii) security administration and system administration;\n(iii) network operation and network security; and\n(iv) IT operations environment;\n(e) establish criteria for activities that require dual authorization control; and\n(f) adopt robust user authorization and authentication based on criticality of IT assets as follows:\n(i) stronger authentication for critical activities and higher-risk environment such as remote access;\n(ii) ensure user credentials provisioned with robust identity verification method to prevent impersonation risks; and\n(iii) ensure online credential is uniquely linked to a single user to ensure clear accountability in access to confidential IT assets.",
     "translation": "A financial institution must adhere to the following access control principles: adopt a default deny-all policy requiring all access to be explicitly authorised; employ least-privilege access rights so users receive only the minimum permissions needed for their roles; use time-bound access restricted to a specific period based on the nature of work; enforce segregation of incompatible functions so no single person can independently modify, circumvent, or disable system security features; establish criteria for activities requiring dual-authorisation control; and adopt robust user authorisation and authentication based on asset criticality, including stronger authentication for critical activities and remote access, robust identity verification to prevent impersonation, and unique online credentials linked to a single user.",
     "evidence": [
-      "PAM policy document (version + date)",
-      "Asset register confirming critical system scope",
-      "MFA configuration screenshots or audit logs",
-      "Break-glass procedure with MFA controls",
-      "Last access review report"
+      "Access Control Policy and Deny-All Configuration Records",
+      "Role-Based Access Matrix and Least-Privilege Review Records",
+      "Time-Bound Access Provisioning and Expiry Records",
+      "Segregation of Duties Matrix and Conflict Detection Records",
+      "Dual-Authorisation Criteria and Enforcement Records"
     ],
     "artifacts": [
       {
@@ -2124,10 +2029,11 @@
     "verbatim": "A financial institution must employ a multi-factor authentication (MFA) that can defend against social engineering attacks for authenticating user access to critical systems. The MFA must combine two or more of knowledge factors, inherent factors (e.g. biometric characteristics) or possession factors (e.g. security keys, tokens).",
     "translation": "A financial institution must employ multi-factor authentication (MFA) capable of defending against social engineering attacks for user access to critical systems. The MFA must combine two or more of the following factor types: knowledge factors, inherent factors (such as biometric characteristics), or possession factors (such as security keys or tokens).",
     "evidence": [
-      "Password policy document",
-      "Password policy technical configuration evidence",
-      "Account lockout configuration",
-      "Compliance monitoring reports"
+      "Critical Systems Inventory with MFA Coverage Mapping",
+      "MFA Solution Architecture and Anti-Social-Engineering Assessment",
+      "MFA Policy and Procedure Documentation",
+      "MFA Enrolment and Configuration Evidence",
+      "MFA Exception Register and Waiver Records"
     ],
     "artifacts": [
       {
@@ -2163,37 +2069,24 @@
     "verbatim": "A financial institution must establish a user access matrix to outline access rights, user roles or profiles, and the authorising and approving authorities. The access matrix must be periodically reviewed and updated.",
     "translation": "A financial institution must establish a user access matrix that outlines access rights, user roles or profiles, and the authorising and approving authorities. The access matrix must be periodically reviewed and updated.",
     "evidence": [
-      "PAM system configuration evidence",
-      "Log retention policy and configuration",
-      "Shared account exception register",
-      "Periodic access review records"
+      "User Access Matrix Document",
+      "Role Definition and Authorisation Register",
+      "Periodic Access Matrix Review Records",
+      "Access Matrix Update and Change Log",
+      "Authorising and Approving Authority Delegation Matrix"
     ],
     "artifacts": [
       {
-        "category": "evidence",
-        "name": "PAM System Configuration",
-        "description": "Configuration evidence for privileged access management system",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "User Access Matrix",
+        "description": "Mandatory document for User Access Matrix",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
-        "category": "policies",
-        "name": "Privileged Access Policy",
-        "description": "Policy governing privileged access management, logging, and shared account restrictions",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "logs",
-        "name": "Privileged Activity Logs",
-        "description": "Logs of all privileged activities retained for a minimum of three years",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "evidence",
-        "name": "Shared Account Exception Register",
-        "description": "Register of approved shared privileged accounts with compensating controls",
+        "category": "procedures",
+        "name": "Access Review Procedure",
+        "description": "Procedure for periodic access reviews and recertification",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       }
@@ -2209,38 +2102,25 @@
     "verbatim": "A financial institution must ensure-\n(a) access controls to enterprise-wide systems are effectively managed and monitored;\n(b) anomalies are flagged for prompt investigations to contain any cyber incidents; and\n(c) user activities in critical systems are logged for audit and investigations. Activity logs must be maintained for at least three years and regularly reviewed in a timely manner.",
     "translation": "A financial institution must ensure that access controls to enterprise-wide systems are effectively managed and monitored, that anomalies are flagged promptly for investigation to contain cyber incidents, and that user activities in critical systems are logged for audit and investigation purposes. Activity logs must be maintained for at least three years and must be regularly reviewed in a timely manner.",
     "evidence": [
-      "Access review schedule and procedure",
-      "Quarterly privileged access review records",
-      "Semi-annual standard access review records",
-      "Access revocation records from reviews"
+      "Access Control Monitoring Policy and Procedures",
+      "Enterprise Access Monitoring Coverage Matrix",
+      "Anomaly Detection and Alert Investigation Records",
+      "Critical System Activity Logs with Integrity Controls",
+      "Log Retention Schedule and Verification Evidence"
     ],
     "artifacts": [
       {
-        "category": "procedures",
-        "name": "Access Review Procedure",
-        "description": "Procedure for periodic access reviews and recertification",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Logging and Monitoring Standards",
+        "description": "Mandatory document for Logging and Monitoring Standards",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
-        "category": "logs",
-        "name": "Privileged Access Review Records",
-        "description": "Quarterly review records for all privileged access",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "logs",
-        "name": "Standard Access Review Records",
-        "description": "Semi-annual review records for standard user access",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "evidence",
-        "name": "Access Revocation Evidence",
-        "description": "Evidence of access revocation resulting from review findings",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Log Review Records",
+        "description": "Mandatory document for Log Review Records",
+        "format": "PDF/DOCX",
         "mandatory": true
       }
     ]

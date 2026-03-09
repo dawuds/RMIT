@@ -9,10 +9,11 @@
     "verbatim": "The board must establish and approve the technology risk appetite which is aligned with the financial institution's risk appetite statement. In doing so, the board must-\n(a) approve the corresponding risk tolerances for technology-related events considering potential impact on business operations as well as its customers;\n(b) identify risk owner to ensure clear accountability and establish criteria and approving authority for the acceptance of residual risks by the institution;\n(c) ensure key risk indicators are identified to monitor existing and emerging risks against financial institution's risk tolerance;\n(d) ensure sufficiency and appropriate deployment of resources; and\n(e) conduct review of the technology risk appetite at regular intervals with sufficient deliberation to ensure such risk appetite remains relevant with changing risk environment.",
     "translation": "The board must establish and approve a technology risk appetite that aligns with the institution's overall risk appetite statement. It must approve risk tolerances for technology-related events, assign clear risk owners, identify key risk indicators, ensure adequate resources are deployed, and periodically review the technology risk appetite to keep it relevant as the risk environment changes.",
     "evidence": [
-      "Board meeting minutes discussing technology risk",
-      "Enterprise risk management framework incorporating technology risk",
-      "Board-approved technology risk budget and resource allocation",
-      "Board terms of reference covering technology risk oversight"
+      "Board-Approved Technology Risk Appetite Statement",
+      "Technology Risk Tolerance Register with Quantified Thresholds",
+      "Technology Risk Ownership and Residual Risk Acceptance Register",
+      "Key Risk Indicator (KRI) Framework and Monitoring Reports",
+      "Technology Risk Resource Adequacy Assessment"
     ],
     "artifacts": [
       {
@@ -48,10 +49,11 @@
     "verbatim": "In discharging its oversight responsibility, the board must-\n(a) approve and review the adequacy of the financial institution's IT and cybersecurity strategic plans to meet business objectives covering a period of no less than three years;\n(b) endorse and oversee the effective implementation of a sound and robust technology risk management framework (TRMF) and cyber resilience framework (CRF), as required to be developed under paragraphs 9.1 and 11.2, for the continuity of operations and delivery of financial services;\n(c) require senior management to continuously demonstrate that risk assessments undertaken in relation to critical IT systems and use of emerging technology are robust and comprehensive, supported with adequate control measures and resources to mitigate IT and cyber risks arising from the execution of IT strategic plans;\n(d) ensure IT-related framework, policies and guidelines are reviewed at least once every three years (unless otherwise stated in this policy document) and apply a depth of review that is commensurate with the complexity of the financial institution's operations and changes in the risk environment; and\n(e) ensure risk management framework provide support to robust risk assessments in relation to technology related applications submitted to the Bank.",
     "translation": "The board must approve and regularly review IT and cybersecurity strategic plans covering at least three years, and endorse the institution's Technology Risk Management Framework and Cyber Resilience Framework. It must require senior management to demonstrate that risk assessments on critical IT systems are robust and supported by adequate controls, ensure all IT-related policies are reviewed at least once every three years, and confirm that risk management frameworks support sound assessments of technology-related applications submitted to the regulator.",
     "evidence": [
-      "Board committee charter or terms of reference",
-      "Committee member profiles demonstrating relevant expertise",
-      "Quarterly meeting schedules and attendance records",
-      "Committee meeting minutes and action items"
+      "Board-Approved IT and Cybersecurity Strategic Plan",
+      "Board Endorsement Records for TRMF and CRF",
+      "Senior Management Risk Assessment Reporting to the Board on Critical IT Systems",
+      "IT Policy and Framework Review Register",
+      "Technology Application Submissions to BNM with Supporting Risk Assessments"
     ],
     "artifacts": [
       {
@@ -87,10 +89,11 @@
     "verbatim": "The board must designate a board-level committee which shall be responsible for supporting the board in providing oversight over technology-related matters. The composition of the designated committee must include at least one member with technology experience and competencies.",
     "translation": "The board must designate a board-level committee to assist it in overseeing technology-related matters. That committee must include at least one member who has technology experience and competencies.",
     "evidence": [
-      "Board training records on technology and cybersecurity topics",
-      "External advisor engagement records",
-      "Board competency assessment results",
-      "Annual training plan for board members"
+      "Board Resolution Designating Technology Committee",
+      "Committee Terms of Reference (ToR)",
+      "Technology-Competent Member Profile and Credentials",
+      "Committee Meeting Minutes and Attendance Records",
+      "Technology Reporting Package to Committee"
     ],
     "artifacts": [
       {
@@ -126,10 +129,11 @@
     "verbatim": "To promote effective discussion at the board level amidst a rapidly evolving technology and cyber risk landscape, the board must-\n(a) obtain regular updates on technology risk and cyber threats;\n(b) allocate sufficient time to discuss cyber risks, including the strategic, reputational and liquidity risks and impact of operational disruption to stakeholders which could arise from an extreme cyber incident. This shall be supported by input from external experts where appropriate; and\n(c) participate in relevant cybersecurity awareness and training programmes.",
     "translation": "The board must receive regular updates on technology risk and cyber threats, and must allocate sufficient time to discuss cyber risks including their strategic, reputational, and liquidity dimensions and the impact that an extreme cyber incident could have on stakeholders. The board should draw on external expert input where appropriate and must participate in relevant cybersecurity awareness and training programmes.",
     "evidence": [
-      "Board-approved technology risk appetite statement",
-      "Risk appetite metrics and thresholds",
-      "Annual review and approval records",
-      "Evidence of risk appetite communication to management"
+      "Board Meeting Minutes \u2014 Technology and Cyber Risk Agenda Items",
+      "Technology and Cyber Risk Board Reporting Pack",
+      "Board Cybersecurity Awareness and Training Records",
+      "External Expert Engagement Records for Board Cyber Briefings",
+      "Cyber Risk Discussion Time Allocation and Board Calendar Evidence"
     ],
     "artifacts": [
       {
@@ -165,11 +169,11 @@
     "verbatim": "The board audit committee (BAC) shall be responsible for ensuring the effectiveness of the internal technology audit function. This shall include ensuring the adequate competence of the audit staff to perform technology audits. The BAC shall review and ensure appropriate audit scope, procedures and frequency of technology audits. The BAC shall also ensure effective oversight over the prompt closure of corrective actions to address technology control gaps.",
     "translation": "The board audit committee is responsible for ensuring the internal technology audit function is effective, including confirming that audit staff have adequate competence to conduct technology audits. It must review and ensure appropriate audit scope, procedures, and frequency, and must provide effective oversight to ensure corrective actions addressing technology control gaps are closed promptly.",
     "evidence": [
-      "Quarterly technology risk reports to the board",
-      "Key risk indicator dashboards",
-      "Incident summary reports presented to board",
-      "Risk mitigation status reports",
-      "Board acknowledgement or sign-off records"
+      "BAC Meeting Minutes \u2014 Technology Audit Agenda Items",
+      "Annual Technology Audit Plan \u2014 BAC-Approved",
+      "Technology Audit Staff Competency Assessment Records",
+      "Technology Audit Issue Register and Corrective Action Tracking Log",
+      "Technology Audit Reports Submitted to BAC"
     ],
     "artifacts": [
       {
@@ -205,10 +209,11 @@
     "verbatim": "The senior management shall bear primary responsibility for the day-to-day management of technology risks including cyber risks. In fulfilling its responsibilities, senior management must-\n(a) implement board approved TRMF and CRF into specific policies and procedures that are consistent with the approved risk appetite and risk tolerance;\n(b) ensure that the crisis management plan for service disruptions provides for timely escalation of recovery action, taking into consideration the impact on customers, such as:\n(i) duration of disruption;\n(ii) number of customers affected by a disruption; and\n(iii) number and value of financial transaction impacted; and\n(c) provide regular updates to the board on the status of key performance indicators with pertinent information on the risk controls to facilitate informed performance review.",
     "translation": "Senior management holds primary responsibility for day-to-day management of technology and cyber risks and must translate board-approved frameworks into specific policies and procedures consistent with the approved risk appetite. It must ensure the crisis management plan for service disruptions provides for timely escalation that takes account of customer impact factors such as disruption duration, number of customers affected, and value of transactions impacted. It must also provide the board with regular updates on key performance indicators and risk controls.",
     "evidence": [
-      "Senior management accountability matrix for technology risk",
-      "CISO appointment letter and job description",
-      "CISO reporting line documentation",
-      "Board or committee meeting records showing CISO reporting"
+      "TRMF and CRF Implementation Policy Register",
+      "Crisis Management Plan with Escalation Thresholds",
+      "Service Disruption Incident Records with Customer Impact Metrics",
+      "Board Technology Risk KPI Reporting Pack",
+      "Senior Management Technology Risk Mandate and Delegation Framework"
     ],
     "artifacts": [
       {
@@ -244,10 +249,11 @@
     "verbatim": "The senior management must establish a cross-functional committee to provide guidance on the financial institution's technology plans and operations. The members of the committee must include senior management from both cyber and technology functions, as well as major business units. The committee's responsibilities shall include the following:\n(a) oversee the formulation and effective implementation of the strategic technology plan and associated technology policies and procedures;\n(b) provide timely updates to the board on key technology matters; and\n(c) approve any deviation from technology-related policies after having carefully considered a robust assessment of related risks. Material deviations shall be reported to the board.",
     "translation": "Senior management must establish a cross-functional committee that includes senior leaders from cyber, technology, and major business units to guide the institution's technology plans and operations. The committee must oversee formulation and implementation of the strategic technology plan and associated policies, provide timely updates to the board on key technology matters, and approve deviations from technology policies only after a robust risk assessment, reporting material deviations to the board.",
     "evidence": [
-      "Technology risk management function charter",
-      "Organisation chart showing independence from IT operations",
-      "Staffing plan and competency matrix",
-      "Function mandate and authority documentation"
+      "Committee Charter / Terms of Reference (ToR)",
+      "Committee Membership Register and Attendance Records",
+      "Committee Meeting Minutes and Decisions Log",
+      "Strategic Technology Plan with Committee Oversight Evidence",
+      "Board Technology Update Reports"
     ],
     "artifacts": [
       {

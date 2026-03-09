@@ -118,7 +118,7 @@ The following are explicitly excluded from this policy unless otherwise stated:
 | Regulation / Standard | Issuing Body | Relevant Clauses | Obligation |
 |---|---|---|---|
 | Risk Management in Technology (RMiT) | Bank Negara Malaysia | **Clause 10.55** | Implement strong authentication controls including password complexity, history, age, and lockout |
-| Risk Management in Technology (RMiT) | Bank Negara Malaysia | Clause 10.50 – 10.60 | Access control and identity management requirements |
+| Risk Management in Technology (RMiT) | Bank Negara Malaysia | Clause 10.53–10.57 | Access control and identity management requirements |
 | Risk Management in Technology (RMiT) | Bank Negara Malaysia | Clause 10.1 – 10.10 | Technology risk governance and accountability |
 | Personal Data Protection Act 2010 (PDPA) | Government of Malaysia | Section 9, 10 | Security principle: protect personal data against unauthorized access |
 | Guidelines on Cyber Resilience (NACSA) | NACSA | [Relevant Sections] | Cyber hygiene and credential security |
@@ -859,7 +859,7 @@ Identified non-compliance with BNM RMiT Clause 10.55 or other applicable regulat
 
 | Reference | Title | Issuing Body | Relevant Clauses |
 |---|---|---|---|
-| BNM RMiT | Risk Management in Technology | Bank Negara Malaysia | **Clause 10.55** (Authentication Controls); Clauses 10.50–10.60 (Access Control); Clauses 10.1–10.10 (Technology Risk Governance) |
+| BNM RMiT | Risk Management in Technology | Bank Negara Malaysia | **Clause 10.55** (Authentication Controls); Clauses 10.53–10.57 (Access Control); Clauses 10.1–10.10 (Technology Risk Governance) |
 | PDPA 2010 | Personal Data Protection Act 2010 | Government of Malaysia | Sections 9, 10 (Security Principle) |
 | NACSA Guidelines | Guidelines on Cyber Resilience | National Cyber Security Agency (NACSA) | [Relevant sections as applicable] |
 | FSA 2013 | Financial Services Act 2013 | Government of Malaysia | Section 58 (Risk Management); Section 143 (Directions by BNM) |

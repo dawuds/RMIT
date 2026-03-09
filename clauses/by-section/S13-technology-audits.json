@@ -9,10 +9,11 @@
     "verbatim": "A financial institution must ensure that the scope, frequency, and intensity of technology audits are commensurate with the complexity, sophistication and criticality of technology systems and applications.",
     "translation": "A financial institution must ensure that the scope, frequency, and intensity of its technology audits are proportionate to the complexity, sophistication, and criticality of the technology systems and applications being audited.",
     "evidence": [
-      "IT audit plan document (annual)",
-      "Audit committee approval records",
-      "Risk-based audit scoping methodology",
-      "Audit plan coverage analysis"
+      "Technology Audit Universe and Criticality Register",
+      "Risk-Based Technology Audit Plan",
+      "Technology Audit Scope Statements and Engagement Planning Documents",
+      "Technology Audit Reports and Findings Register",
+      "Internal Audit Methodology \u2014 Technology Audit Standards"
     ],
     "artifacts": [
       {
@@ -48,10 +49,11 @@
     "verbatim": "A financial institution must establish annual review on its technology audit plan that provides appropriate frequency and coverage of critical technology services, third party service providers, material external system interfaces, delayed or prematurely terminated critical technology projects and post-implementation review of new or material enhancements of technology services.",
     "translation": "A financial institution must conduct an annual review of its technology audit plan to ensure it provides appropriate frequency and coverage of critical technology services, third-party service providers, material external system interfaces, delayed or prematurely terminated critical technology projects, and post-implementation reviews of new or materially enhanced technology services.",
     "evidence": [
-      "Audit independence policy",
-      "Audit function reporting line documentation",
-      "Audit access rights documentation",
-      "Audit committee charter covering IT audit"
+      "Annual Technology Audit Plan Document",
+      "Technology Audit Universe and Risk-Based Coverage Matrix",
+      "Third-Party Technology Service Provider Audit Coverage Records",
+      "Material External System Interface Audit Coverage Evidence",
+      "Delayed and Prematurely Terminated Critical Technology Projects Register and Audit Records"
     ],
     "artifacts": [
       {
@@ -84,13 +86,14 @@
     "title": "Technology Audit Competency",
     "clauseType": "governance",
     "marker": "S",
-    "verbatim": "A financial institution must ensure the internal audit function must have dedicated technology audit resources with specialised competencies and professionally certified. The technology audit resources shall be adequately conversant with the developing sophisticate of the financial institution’s technology systems, delivery channels and have sound knowledge in the areas audited.",
+    "verbatim": "A financial institution must ensure the internal audit function must have dedicated technology audit resources with specialised competencies and professionally certified. The technology audit resources shall be adequately conversant with the developing sophisticate of the financial institution\u2019s technology systems, delivery channels and have sound knowledge in the areas audited.",
     "translation": "A financial institution must ensure its internal audit function has dedicated technology audit resources that hold specialised competencies and relevant professional certifications. These resources must be adequately conversant with the evolving sophistication of the institution's technology systems and delivery channels, and must have sound knowledge of the areas they audit.",
     "evidence": [
-      "IT auditor certification and qualification records",
-      "Continuous professional development records",
-      "Auditor competency assessment results",
-      "Training plan for IT audit personnel"
+      "Technology Audit Resource Register",
+      "Professional Certification Records",
+      "Technology Audit Competency Framework and Training Plan",
+      "Technology Audit Work Papers Demonstrating Technical Depth",
+      "Technology Audit Charter and Function Mandate"
     ],
     "artifacts": [
       {
@@ -126,10 +129,11 @@
     "verbatim": "The technology audit resources may be enlisted to provide advice on compliance and adequacy of control processes during the planning and development phases of new major products, systems, adoption of third party service providers or technology operations. In such cases, the technology auditors participating in this capacity are expected to carefully consider whether such an advisory or consulting role can materially impair their independence or objectivity in performing post-implementation reviews of the products, systems and operations concerned.",
     "translation": "Technology audit resources may be engaged to provide advice on compliance and the adequacy of control processes during the planning and development phases of new major products, systems, third-party service provider adoptions, or technology operations. Where auditors take on such an advisory or consulting role, they must carefully consider whether that role could materially impair their independence or objectivity when subsequently conducting post-implementation reviews of the same products, systems, or operations.",
     "evidence": [
-      "Audit finding tracking process documentation",
-      "Audit finding register with action plans and target dates",
-      "Overdue finding escalation records",
-      "Audit finding closure evidence"
+      "Technology Audit Charter \u2014 Advisory Role Provisions",
+      "Advisory Engagement Register \u2014 Technology Audit",
+      "Independence Impairment Assessment Records",
+      "Post-Implementation Review Reports \u2014 Independence Disclosures",
+      "Audit Committee Reporting on Advisory Engagements"
     ],
     "artifacts": [
       {

@@ -358,7 +358,7 @@ The TRMF is structured across five interconnected domains, aligned with BNM RMiT
 | **Technology Risk Assessment** | Risk identification, assessment, treatment, and monitoring methodology | Section 10 |
 | **IT Infrastructure Resilience** | Standards for availability, capacity, change management, and operational continuity | Section 11 |
 | **Cybersecurity** | Controls for protecting technology assets from unauthorised access, disruption, and compromise | Section 12 |
-| **Third-Party Risk Management** | Due diligence, contractual protections, and ongoing monitoring of technology service providers | Section 10.57–10.63 |
+| **Third-Party Risk Management** | Due diligence, contractual protections, and ongoing monitoring of technology service providers | Section 10.46–10.49 |
 
 ### 4.2 Technology Risk Management Lifecycle
 
@@ -471,7 +471,7 @@ All treatment decisions must be documented in the Technology Risk Register ([Doc
 | Business Continuity and Disaster Recovery | Continuity of critical technology services | ISO 22301; BNM RMiT 11.48–11.57 | [Policy reference] |
 | Cryptography and Key Management | Protection of data in transit and at rest | ISO/IEC 27001 A.10; FIPS 140-2 | [Policy reference] |
 | Network Security | Protection of network infrastructure and perimeter | ISO/IEC 27001 A.13; BNM RMiT 12.25–12.35 | [Policy reference] |
-| Third-Party Risk Management | Risk management of technology service providers | ISO/IEC 27036; BNM RMiT 10.57–10.63 | [Policy reference] |
+| Third-Party Risk Management | Risk management of technology service providers | ISO/IEC 27036; BNM RMiT 10.46–10.49 | [Policy reference] |
 | Data Protection | Protection of customer and confidential data | PDPA 2010; BNM RMiT 12.36–12.45 | [Policy reference] |
 | Security Monitoring and Operations | Continuous monitoring of the security environment | NIST CSF DE; BNM RMiT 12.46–12.55 | [Policy reference] |
 | Cloud Risk Management | Risk management for cloud-based technology | BNM RMiT 10.45–10.56; CSA CCM | [Policy reference] |

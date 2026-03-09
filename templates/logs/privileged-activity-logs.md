@@ -32,7 +32,7 @@ This artifact applies to:
 This log framework is mandated under:
 
 - **BNM RMiT Policy Document — Clause 10.56**: Financial institutions must ensure logs of all privileged activities are captured and retained for a **minimum of three (3) years**
-- Related obligations under **BNM RMiT Clauses 10.51–10.60** (Access Control and Identity Management)
+- Related obligations under **BNM RMiT Clauses 10.53–10.57** (Access Control and Identity Management)
 - **Personal Data Protection Act 2010 (PDPA)** — data handling obligations for logs containing personal data
 - [Organization Name] Internal Information Security Policy, Version [X.X]
 
@@ -262,7 +262,7 @@ The **Technical Custodian** is responsible for:
 |---|---|---|
 | BNM RMiT | Clause 10.56 | Mandatory retention of privileged activity logs for a minimum of three years |
 | BNM RMiT | Clauses 10.51–10.55 | Access control and privileged account management requirements |
-| BNM RMiT | Clause 10.57–10.60 | Log review, alerting, and monitoring requirements |
+| BNM RMiT | Clause 10.53–10.57 | Log review, alerting, and monitoring requirements |
 | PDPA 2010 | Section 5 (General Principles) | Data handling obligations for logs containing personal data |
 | PDPA 2010 | Section 40 | Security obligations for stored personal data |
 | [Organization Name] | Information Security Policy v[X.X] | Internal policy governing log management and privileged access |

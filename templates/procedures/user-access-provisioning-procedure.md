@@ -105,7 +105,7 @@ The following are explicitly excluded from this procedure:
 | Reference | Description | Applicable Clause(s) |
 |---|---|---|
 | BNM RMiT Policy Document | Bank Negara Malaysia Risk Management in Technology | **Clause 10.53** (User Access Management) |
-| BNM RMiT Policy Document | Bank Negara Malaysia Risk Management in Technology | Clause 10.50–10.58 (Access Control) |
+| BNM RMiT Policy Document | Bank Negara Malaysia Risk Management in Technology | Clause 10.53–10.57 (Access Control) |
 | Personal Data Protection Act 2010 (PDPA) | Malaysian data protection legislation | Principle 4 (Security), Principle 7 (Access) |
 | BNM Guidelines on Management of Customer Information and Permitted Disclosures | Customer data handling requirements | [Relevant Sections] |
 | [Other applicable BNM Guideline] | [Description] | [Clause] |
@@ -685,7 +685,7 @@ The IS team is responsible for coordinating the review and ensuring that any rev
 
 | Reference | Issuing Authority | Applicable Section(s) | URL / Source |
 |---|---|---|---|
-| Risk Management in Technology (RMiT) Policy Document | Bank Negara Malaysia (BNM) | **Clause 10.53** — User Access Management; Clauses 10.50–10.58 (Access Control) | [BNM Official Portal] |
+| Risk Management in Technology (RMiT) Policy Document | Bank Negara Malaysia (BNM) | **Clause 10.53** — User Access Management; Clauses 10.53–10.57 (Access Control) | [BNM Official Portal] |
 | Personal Data Protection Act 2010 | Parliament of Malaysia | Section 9 — Security Principle; Section 10 — Retention Principle | [Attorney General's Chambers] |
 | Guidelines on Management of Customer Information and Permitted Disclosures | Bank Negara Malaysia (BNM) | [Relevant Paragraphs] | [BNM Official Portal] |
 | Financial Services Act 2013 | Parliament of Malaysia | [Relevant Sections re: data security and operational risk] | [Attorney General's Chambers] |

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "16.1",
+    "section": "Notification for Technology-Related Applications",
+    "subsection": "Introduction or enhancement to digital services",
+    "title": "Notification Prior to Digital Services Changes",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "verbatim": "A financial institution must notify the Bank in accordance with the requirements in paragraphs 16.2 to 16.7 prior to introducing new digital services or enhancement to existing digital services.",
+    "translation": "Before introducing any new digital service or enhancing an existing one, you must notify BNM in advance following the requirements set out in paragraphs 16.2 through 16.7.",
+    "evidence": [
+      "Digital Services Change Register",
+      "Internal Notifiability Assessment Records",
+      "BNM Notification Submission Packages",
+      "BNM Acknowledgment and Response Records",
+      "Internal Digital Services Notification Policy"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "BNM Incident Notification Procedure",
+        "description": "Procedure for notifying BNM of material incidents within four hours",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Notification Templates",
+        "description": "Templates for initial notification and 14-day follow-up report to BNM",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "logs",
+        "name": "Notification Records",
+        "description": "Records of all BNM incident notifications and follow-up reports",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "16.2",
+    "section": "Notification for Technology-Related Applications",
+    "subsection": "Introduction or enhancement to digital services",
+    "title": "First-Time Digital Services Notification",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "verbatim": "A financial institution offering digital services for the first time must undertake measures specified under paragraph 16.4 and submit the following information in the notification to the Bank:\n(a) assessment on the risks identified and strategies to manage such risks. This includes specific accountabilities, policies and controls to address risks;\n(b) security arrangements and controls;\n(c) significant terms and conditions;\n(d) client charter;\n(e) privacy policy statement; and\n(f) any outsourcing or website link arrangements, or strategic alliances or partnerships with third parties that have been finalised.",
+    "translation": "When offering digital services for the first time, you must complete the measures in paragraph 16.4 and submit a notification to BNM that includes: a risk assessment with accountabilities, policies, and controls; security arrangements; significant terms and conditions; a client charter; a privacy policy statement; and details of any outsourcing, website links, alliances, or third-party partnerships.",
+    "evidence": [
+      "Digital Services Risk Assessment Report",
+      "Security Arrangements and Controls Documentation",
+      "Significant Terms and Conditions",
+      "Client Charter for Digital Service",
+      "Privacy Policy Statement"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Technology Project Notification Procedure",
+        "description": "Procedure for notifying BNM of major technology projects",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Project Notification Records",
+        "description": "Records of technology project notifications submitted to BNM",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Major Project Risk Assessments",
+        "description": "Risk assessments for major projects submitted as part of BNM notification",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "16.3",
+    "section": "Notification for Technology-Related Applications",
+    "subsection": "Introduction or enhancement to digital services",
+    "title": "Simplified Notification for Enhancements",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "verbatim": "For any enhancements to existing digital services which meet the criteria in Appendix 6, a financial institution shall be subject to a simplified notification requirement and submit the following information in the notification to the Bank:\n(a) description of the enhancements to the existing technologies; and\n(b) risk assessment of the proposed enhancements, including the impact and measures to mitigate identified risks.",
+    "translation": "For enhancements to existing digital services that meet the criteria in Appendix 6, a simplified notification process applies. You only need to submit a description of the enhancements and a risk assessment covering impact and mitigation measures.",
+    "evidence": [
+      "Appendix 6 Eligibility Assessment Record",
+      "Enhancement Description Document",
+      "Risk Assessment for Enhancement",
+      "BNM Notification Submission Record",
+      "Change Management Record Linkage"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Outsourcing Notification Procedure",
+        "description": "Procedure for notifying BNM of material technology outsourcing arrangements",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Outsourcing Notification Records",
+        "description": "Records of outsourcing notifications submitted to BNM",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Outsourcing Risk Assessment",
+        "description": "Risk assessment for material outsourcing arrangements submitted to BNM",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "16.4",
+    "section": "Notification for Technology-Related Applications",
+    "subsection": "Introduction or enhancement to digital services",
+    "title": "Assurance and Confirmation for Material Enhancements",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "verbatim": "For any enhancements to existing digital services which are not subject to the simplified notification requirement under paragraph 16.3, a financial institution is required to undertake the following measures prior to notifying the Bank:\n(a) engage an independent external party to provide assurance that the financial institution has addressed the technology risks and security controls associated with the digital services or any material enhancement to the digital services. The format of the assurance shall be as set out in Part A of Appendix 7; and\n(b) provide a confirmation by the CISO, senior management officer or the chairman of the board or designated board-level committee specified in paragraph 8.3 of the financial institution's readiness to provide digital services or implement any material enhancement to the digital services. The format of the confirmation shall be as set out in Part B of Appendix 7.",
+    "translation": "For digital service enhancements that do not qualify for simplified notification under 16.3, you must: (a) engage an independent external party to provide assurance that technology risks and security controls have been addressed, using the format in Part A of Appendix 7; and (b) obtain a confirmation from the CISO, senior management officer, or board/committee chairman of the institution's readiness, using the format in Part B of Appendix 7.",
+    "evidence": [
+      "Independent External Assurance Report (Appendix 7 Part A)",
+      "External Assurance Party Independence Assessment",
+      "CISO / Senior Management / Board Confirmation Letter (Appendix 7 Part B)",
+      "Material Enhancement Classification Determination",
+      "Assurance Findings Remediation Evidence"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Cloud Adoption Notification Procedure",
+        "description": "Procedure for notifying BNM prior to cloud service adoption",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Cloud Notification Records",
+        "description": "Records of cloud adoption notifications submitted to BNM",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Cloud Risk Assessment for BNM",
+        "description": "Cloud risk assessments submitted as part of BNM notification",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "16.5",
+    "section": "Notification for Technology-Related Applications",
+    "subsection": "Introduction or enhancement to digital services",
+    "title": "Independent External Party Assurance Quality",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "verbatim": "A financial institution must ensure that the independent external party providing the assurance is competent and has a good track record. The assurance shall address the matters covered in, and comply with, Part C and D of Appendix 7.",
+    "translation": "The independent external party providing assurance must be competent and have a good track record. The assurance report must address and comply with the matters set out in Part C and Part D of Appendix 7.",
+    "evidence": [
+      "External Assurance Provider Competency Assessment Record",
+      "External Assurance Provider Track Record Evidence",
+      "Independence Declaration and Conflict of Interest Assessment",
+      "Assurance Report Appendix 7 Part C and D Coverage Matrix",
+      "Assurance Engagement Scope and Terms of Reference"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Audit Finding Reporting Procedure",
+        "description": "Procedure for reporting significant technology audit findings to BNM",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Audit Finding Notifications",
+        "description": "Records of significant audit findings reported to BNM within 30 days",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "governance",
+        "name": "Significant Finding Criteria",
+        "description": "Criteria for determining which audit findings require BNM notification",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "16.6",
+    "section": "Notification for Technology-Related Applications",
+    "subsection": "Introduction or enhancement to digital services",
+    "title": "Provision of Documents for Bank Review",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "verbatim": "A financial institution shall provide relevant documents for the Bank's review when required by the Bank.",
+    "translation": "When BNM requests documents related to your digital services notification, you must provide them for the Bank's review.",
+    "evidence": [
+      "BNM Notification Submission Package",
+      "Document Provision Register and Retrieval Log",
+      "Internal Document Custodianship and Retrieval Policy",
+      "BNM Correspondence Records",
+      "Document Readiness Self-Assessment"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Regulatory Examination Response Procedure",
+        "description": "Procedure for responding to BNM examination findings within required timeframes",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Examination Finding Action Plans",
+        "description": "Action plans for all regulatory examination findings with timelines",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Progress Reports to BNM",
+        "description": "Progress reports on examination finding remediation submitted to BNM",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "16.7",
+    "section": "Notification for Technology-Related Applications",
+    "subsection": "Introduction or enhancement to digital services",
+    "title": "Immediate Offering Upon Notification",
+    "clauseType": "regulatory",
+    "marker": "G",
+    "verbatim": "A financial institution may offer digital services or implement any enhancement to the digital services immediately upon submission of the notification under paragraph 16.1 and compliance with the requirements in paragraphs 16.2 to 16.6.",
+    "translation": "You may launch or enhance digital services immediately once you have submitted the notification under paragraph 16.1 and complied with the requirements in paragraphs 16.2 through 16.6. No waiting period or approval from BNM is required.",
+    "evidence": [
+      "BNM Notification Submission Receipt",
+      "Pre-Launch Compliance Gate Checklist (Paragraphs 16.2\u201316.6)",
+      "Production Deployment and Go-Live Authorisation Record",
+      "Digital Initiative Regulatory Notification Governance Policy",
+      "Digital Initiatives Notification Register"
+    ],
+    "artifacts": [
+      {
+        "category": "reports",
+        "name": "Annual Technology Risk Report",
+        "description": "Comprehensive annual technology risk report submitted to BNM",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Technology Risk Posture Assessment",
+        "description": "Assessment of current technology risk posture included in annual report",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "governance",
+        "name": "Planned Risk Initiatives",
+        "description": "Documented plans for technology risk management initiatives in the coming year",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  }
+]

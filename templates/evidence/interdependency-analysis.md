@@ -49,8 +49,8 @@ This document is classified as **Confidential** and is intended for internal rev
 |---|---|
 | Technology risk management framework | BNM RMiT, Paragraph 10.2 |
 | Technology risk appetite and tolerance | BNM RMiT, Paragraph 10.1 |
-| Third-party and outsourcing risk | BNM RMiT, Paragraph 10.61–10.74 |
-| Business continuity considerations | BNM RMiT, Paragraph 10.95–10.110 |
+| Third-party and outsourcing risk | BNM RMiT, Paragraph 10.46–10.49 |
+| Business continuity considerations | BNM RMiT, Paragraph 10.24–10.35 |
 
 ---
 
@@ -289,8 +289,8 @@ The following regulatory clauses, policy documents, and standards directly gover
 |---|---|---|---|
 | REF-001 | BNM Risk Management in Technology (RMiT) Policy Document | Paragraph 10.2 | Financial institutions must identify and assess technology risk arising from interdependencies with internal and external systems |
 | REF-002 | BNM RMiT Policy Document | Paragraph 10.1 | Establishment of a technology risk appetite and tolerance framework |
-| REF-003 | BNM RMiT Policy Document | Paragraph 10.61–10.74 | Management of risks associated with third-party service providers and outsourcing arrangements |
-| REF-004 | BNM RMiT Policy Document | Paragraph 10.95–10.110 | Technology-related business continuity and disaster recovery requirements |
+| REF-003 | BNM RMiT Policy Document | Paragraph 10.46–10.49 | Management of risks associated with third-party service providers and outsourcing arrangements |
+| REF-004 | BNM RMiT Policy Document | Paragraph 10.24–10.35 | Technology-related business continuity and disaster recovery requirements |
 | REF-005 | Personal Data Protection Act 2010 (PDPA) | Section 6 (Security Principle) | Obligation to protect personal data involved in system integrations and data flows |
 | REF-006 | [Organization Name] Technology Risk Management Policy | [Section] | Internal policy governing technology risk identification and treatment |
 | REF-007 | [Organization Name] Business Continuity Policy | [Section] | Internal policy governing continuity arrangements for critical system dependencies |

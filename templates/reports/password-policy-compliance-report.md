@@ -116,7 +116,7 @@ RMiT Clause 10.55 requires that [Organization Name], as a licensed financial ins
 | Reference | Description | Relevance |
 |---|---|---|
 | BNM RMiT (2020) | Risk Management in Technology Policy Document | Primary regulatory obligation |
-| BNM RMiT Clause 10.51–10.60 | Access Control and Authentication | Authentication controls framework |
+| BNM RMiT Clause 10.53–10.57 | Access Control and Authentication | Authentication controls framework |
 | Personal Data Protection Act 2010 (PDPA) | Malaysian data protection legislation | Password controls as safeguard for personal data |
 | NACSA Cybersecurity Framework | National Cyber Security Agency guidelines | Baseline cybersecurity control standards |
 | ISO/IEC 27001:2022 — Annex A.9 | Access Control | International benchmark for access management |
@@ -748,7 +748,7 @@ In the event that a material breach of password policy results in, or is likely 
 |---|---|---|---|
 | BNM RMiT | Risk Management in Technology Policy Document | Bank Negara Malaysia | [Applicable version/date] |
 | BNM RMiT — Clause 10.55 | Authentication Controls | Bank Negara Malaysia | [Applicable version/date] |
-| BNM RMiT — Clause 10.51–10.60 | Access Control and Authentication (full section) | Bank Negara Malaysia | [Applicable version/date] |
+| BNM RMiT — Clause 10.53–10.57 | Access Control and Authentication (full section) | Bank Negara Malaysia | [Applicable version/date] |
 | PDPA 2010 | Personal Data Protection Act 2010 | Government of Malaysia | 2010 (as amended) |
 | NACSA Cybersecurity Framework | National Cybersecurity Framework | NACSA | [Applicable version/date] |
 

@@ -278,7 +278,7 @@ This review record covers all privileged accounts across the following in-scope 
 | Reference | Document / Clause | Description |
 |---|---|---|
 | **BNM RMiT** | Clause 10.57 | Requires financial institutions to periodically review privileged access rights to ensure they remain appropriate and authorised |
-| **BNM RMiT** | Clause 10.55 – 10.60 | Access control requirements including segregation of duties, minimum necessary access, and access lifecycle management |
+| **BNM RMiT** | Clause 10.53–10.57 | Access control requirements including segregation of duties, minimum necessary access, and access lifecycle management |
 | **BNM RMiT** | Clause 10.49 | Technology risk governance and accountability for IT systems and access controls |
 | **PDPA 2010** | Section 5 – Security Principle | Requires practical steps to protect personal data from unauthorised access, including access control management |
 | **[Organization Name] IAM Policy** | [Policy Reference No.] | Internal Identity and Access Management Policy |

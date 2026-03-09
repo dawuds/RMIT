@@ -9,10 +9,11 @@
     "verbatim": "A financial institution must ensure that there is an enterprise-wide focus on effective cyber risk management to reflect the collective responsibility of business and technology lines for managing cyber risks.",
     "translation": "A financial institution must manage cyber risk as an enterprise-wide responsibility, ensuring that both business and technology lines share collective accountability for effective cyber risk management across the organisation.",
     "evidence": [
-      "Incident Response Plan document (version + date)",
-      "IRP testing records (tabletop or simulation)",
-      "Post-incident review reports",
-      "Annual review sign-off"
+      "Enterprise Cyber Risk Management Framework",
+      "Cyber Risk Governance Committee Terms of Reference and Meeting Records",
+      "Business Line Cyber Risk Register with Ownership Attribution",
+      "Enterprise Cyber Risk Reporting to Board and Senior Management",
+      "Cyber Risk Training and Awareness Records for Business Lines"
     ],
     "artifacts": [
       {
@@ -48,10 +49,11 @@
     "verbatim": "A financial institution must develop a CRF which clearly articulates its governance for managing cyber risks, its cyber resilience objectives and its risk tolerance, with due regard to the evolving cyber threat environment. Objectives of the CRF shall include ensuring operational resilience against extreme but plausible cyber-attacks. The framework must be able to support the effective identification, protection, detection, response, and recovery (IPDRR) of systems and data hosted on-premises or by third party service providers from internal and external cyber-attacks.",
     "translation": "A financial institution must develop a Cyber Resilience Framework (CRF) that clearly states its governance approach, cyber resilience objectives, and risk tolerance in light of the evolving threat environment, including the goal of operational resilience against extreme but plausible cyber-attacks. The CRF must support the full identify, protect, detect, respond, and recover (IPDRR) lifecycle for systems and data held on-premises or by third-party service providers.",
     "evidence": [
-      "Cybersecurity strategy document",
-      "Board approval records",
-      "Strategy alignment with business strategy",
-      "Annual strategy review records"
+      "Board-Approved Cyber Resilience Framework (CRF) Policy Document",
+      "CRF Governance Accountability and Oversight Records",
+      "IPDRR Control Mapping and Implementation Evidence",
+      "Cyber Risk Tolerance Statement and Risk Assessment Records",
+      "Threat Intelligence and Threat Environment Assessment Records"
     ],
     "artifacts": [
       {
@@ -87,10 +89,11 @@
     "verbatim": "The CRF must consist of, at a minimum, the following elements:\n(a) development of an institutional understanding of the overall cyber risk context in relation to the financial institution's business and operations, its exposure to cyber risks and current cybersecurity posture;\n(b) identification, classification and prioritisation of critical systems, information, assets and interconnectivity (with internal and external parties) to obtain a complete and accurate view of the financial institution's information assets, critical systems, interdependencies and cyber risk profile;\n(c) identification of cybersecurity threats, vulnerabilities and countermeasures to secure digital services delivery against cyber-attacks and contain reputational damage that can undermine confidence in the financial institution;\n(d) enhancing layers of cyber defence with reference to the latest international standards and sound practices such as zero-trust principles, defense-in-depth through micro-segmentation and security by design, to protect its data, infrastructure and assets against evolving cyber threats;\n(e) timely detection of cybersecurity incidents through continuous surveillance and monitoring;\n(f) detailed incident handling policies and procedures and a crisis response management playbook to support the swift recovery from cyber incidents and contain any damage resulting from a cybersecurity breach;\n(g) policies and procedures for timely and secure information sharing and collaboration with other financial institutions and participants in financial market infrastructure to strengthen cyber resilience and fraud prevention;\n(h) implement a centralised automated tracking system to manage its technology asset inventory; and\n(i) establish a cyber risk management function to analyse actual and potential cyber threats, providing risk assessments and timely escalation of high-risk cyber threats to senior management and the board. This function shall be performed by an in-house dedicated team or by leveraging on the parent or group.",
     "translation": "The CRF must contain at least nine elements: an institutional understanding of cyber risk context and posture; identification and prioritisation of critical systems, assets, and interdependencies; identification of threats, vulnerabilities, and countermeasures; layered cyber defences referencing current international standards such as zero-trust and defence-in-depth; continuous monitoring for timely incident detection; detailed incident handling procedures and a crisis response playbook; policies for secure information sharing with other financial institutions; a centralised automated technology asset inventory; and a dedicated cyber risk management function that analyses threats and escalates high-risk matters to senior management and the board.",
     "evidence": [
-      "Cybersecurity governance framework document",
-      "Three lines of defence model documentation",
-      "Roles and responsibilities matrix",
-      "Segregation of duties evidence"
+      "CRF Master Document & Cyber Risk Context Assessment",
+      "Critical Systems, Information Asset Classification & Interdependency Register",
+      "Threat & Vulnerability Assessment Records with Countermeasure Mapping",
+      "Cyber Defence Architecture & Layered Controls Documentation",
+      "Security Operations & Continuous Monitoring Evidence"
     ],
     "artifacts": [
       {
@@ -126,10 +129,11 @@
     "verbatim": "A financial institution that is designated as a National Critical Information Infrastructure (NCII) entity pursuant to the Cyber Security Act 2024 must ensure compliance to the requirements and guidelines applicable to NCII, including any additional directives and standards issued by the National Cyber Security Agency (NACSA).",
     "translation": "A financial institution designated as a National Critical Information Infrastructure (NCII) entity under the Cyber Security Act 2024 must comply with all requirements, guidelines, directives, and standards applicable to NCII entities, including those issued by NACSA.",
     "evidence": [
-      "Incident classification framework",
-      "SIEM or detection tool evidence",
-      "BNM reporting procedure",
-      "Sample incident report / notification record"
+      "NCII Designation Certificate and Sector Classification Record",
+      "NACSA Directives and Standards Compliance Register",
+      "NCII Compliance Assessment and Gap Closure Evidence Pack",
+      "NACSA and Sector Lead Correspondence Log",
+      "NCII Incident Reporting Records and Timeline Evidence"
     ],
     "artifacts": [
       {
@@ -172,10 +176,11 @@
     "verbatim": "A financial institution must adopt robust control measures as outlined in Appendix 5 to enhance its resilience to cyber-attacks.",
     "translation": "A financial institution must adopt the robust cybersecurity control measures set out in Appendix 5 to strengthen its resilience against cyber-attacks.",
     "evidence": [
-      "Cyber crisis management plan",
-      "Crisis governance and escalation procedures",
-      "Annual crisis simulation records",
-      "Crisis team roles and contact information"
+      "Appendix 5 Controls Implementation Register",
+      "Vulnerability and Patch Management Records",
+      "Identity and Access Management (IAM) Controls Evidence",
+      "Security Monitoring and Incident Detection Records",
+      "Independent Security Assessment Reports (Penetration Testing and Red Team)"
     ],
     "artifacts": [
       {
@@ -211,10 +216,11 @@
     "verbatim": "A financial institution must conduct a realistic \"Red Team\" simulation attack on its infrastructure at least once every three years to proactively identify and manage potential vulnerabilities.",
     "translation": "A financial institution must conduct a realistic Red Team simulation attack on its infrastructure at least once every three years to proactively identify and manage potential vulnerabilities.",
     "evidence": [
-      "SOC operational procedures",
-      "24/7 staffing schedule and analyst qualifications",
-      "Alert triage and escalation procedures",
-      "SOC performance metrics and reports"
+      "Red Team Engagement Charter and Scope Agreement",
+      "Red Team Final Assessment Report",
+      "Vulnerability Remediation Plan and Closure Evidence",
+      "Three-Year Exercise Frequency Compliance Record",
+      "Red Team Provider Qualifications and Independence Evidence"
     ],
     "artifacts": [
       {
@@ -250,10 +256,11 @@
     "verbatim": "A financial institution may implement crowdsourced security testing programs as a complement to existing security assessments, in order to thoroughly test the security of their IT environment. The financial institution must engage reputable and credible service providers to facilitate the program.",
     "translation": "A financial institution may use crowdsourced security testing programs to supplement existing security assessments and more thoroughly test its IT environment. Where it does so, it must engage reputable and credible service providers to facilitate the program.",
     "evidence": [
-      "SIEM architecture and deployment documentation",
-      "Log source inventory and coverage analysis",
-      "SIEM rule tuning records",
-      "SIEM alert and correlation reports"
+      "Crowdsourced Security Testing Programme Policy and Charter",
+      "Service Provider Due Diligence and Selection Records",
+      "Service Provider Contract and Legal Agreements",
+      "Programme Scope, Rules of Engagement, and Test Plans",
+      "Vulnerability Findings Reports and Remediation Tracking Records"
     ],
     "artifacts": [
       {
@@ -289,10 +296,11 @@
     "verbatim": "A financial institution must establish clear responsibilities for cybersecurity operations which shall include implementing appropriate mitigating measures in the financial institution's conduct of business that correspond to the following phases of the cyber-attack lifecycle:\n(a) reconnaissance;\n(b) weaponisation;\n(c) delivery;\n(d) exploitation;\n(e) installation;\n(f) command and control; and\n(g) exfiltration.",
     "translation": "A financial institution must establish clear responsibilities for cybersecurity operations that include implementing appropriate mitigating measures across all seven phases of the cyber-attack lifecycle: reconnaissance, weaponisation, delivery, exploitation, installation, command and control, and exfiltration.",
     "evidence": [
-      "EDR deployment documentation and coverage",
-      "EDR configuration and policy settings",
-      "Signature update schedule and compliance records",
-      "EDR alert and response records"
+      "Cybersecurity Operations Responsibility Matrix (RACI)",
+      "Cyber Kill Chain Controls and Mitigations Framework",
+      "SOC Detection and Response Playbooks (Kill-Chain Aligned)",
+      "Security Technology Coverage Evidence (Per Kill-Chain Phase)",
+      "Threat Intelligence and Threat Hunting Records"
     ],
     "artifacts": [
       {
@@ -328,10 +336,11 @@
     "verbatim": "A financial institution must ensure continuous and proactive monitoring and timely detection of anomalous activities in its technology infrastructure to prevent potential compromise of its security controls or weakening of its security posture. This shall include-\n(a) establishing a Security Operations Center (SOC) supported by competent resources and equipped with the necessary tools and technologies for proactive monitoring of its technology security posture;\n(b) ensuring the scope of monitoring must cover all critical systems including the supporting infrastructure; and\n(c) conducting regular review of its security posture via the conduct of a vulnerability assessment and penetration testing in line with Appendix 5.",
     "translation": "A financial institution must continuously and proactively monitor its technology infrastructure and detect anomalous activities in a timely manner to prevent compromise of its security controls. This requires establishing a Security Operations Centre (SOC) with competent staff and appropriate tools, ensuring all critical systems and supporting infrastructure are within scope of monitoring, and conducting regular vulnerability assessments and penetration testing in line with Appendix 5.",
     "evidence": [
-      "Email security architecture documentation",
-      "SPF, DKIM, and DMARC configuration records",
-      "Email filtering and scanning configuration",
-      "Phishing detection and response records"
+      "SOC Charter and Operating Model",
+      "SOC Tool and Technology Inventory",
+      "Monitoring Scope Register and Coverage Map",
+      "Security Alert and Incident Detection Records",
+      "Vulnerability Assessment Reports and Remediation Records"
     ],
     "artifacts": [
       {
@@ -364,13 +373,14 @@
     "title": "Cyber Threat Intelligence",
     "clauseType": "technical",
     "marker": "S",
-    "verbatim": "A financial institution must establish a process to collect, analyse and evaluate cyber threat information in relation to its environment (“cyber threat intelligence”) to promptly detect cyber threats, including data breach incidents and spread of misleading information in relation to the financial institution over the Internet.",
+    "verbatim": "A financial institution must establish a process to collect, analyse and evaluate cyber threat information in relation to its environment (\u201ccyber threat intelligence\u201d) to promptly detect cyber threats, including data breach incidents and spread of misleading information in relation to the financial institution over the Internet.",
     "translation": "A financial institution must establish a process to collect, analyse, and evaluate cyber threat intelligence relevant to its environment so it can promptly detect cyber threats, including data breach incidents and the spread of misleading information about the institution online.",
     "evidence": [
-      "DLP policy and configuration documentation",
-      "Data classification framework alignment evidence",
-      "DLP rule configuration across channels",
-      "DLP incident and alert records"
+      "CTI Programme Policy and Procedure",
+      "Threat Intelligence Feed Subscription and Source Inventory",
+      "CTI Analysis and Evaluation Records",
+      "Data Breach and Dark Web Monitoring Logs",
+      "Online Impersonation and Misleading Information Monitoring Records"
     ],
     "artifacts": [
       {
@@ -406,10 +416,11 @@
     "verbatim": "A financial institution must establish appropriate response to investigate and respond to flagged anomalous activities based on their level of complexity.",
     "translation": "A financial institution must establish appropriate response procedures to investigate and respond to flagged anomalous activities, calibrated to the level of complexity of each activity.",
     "evidence": [
-      "Vulnerability assessment schedule and policy",
-      "Monthly scan results for internet-facing systems",
-      "Quarterly scan results for internal systems",
-      "Vulnerability remediation tracking records"
+      "Anomalous Activity Response Policy and Procedure",
+      "Anomaly Complexity Classification Framework",
+      "Anomalous Activity Investigation and Response Records",
+      "Anomalous Activity Response Playbooks",
+      "SOC Analyst Training and Competency Records"
     ],
     "artifacts": [
       {
@@ -445,10 +456,11 @@
     "verbatim": "A financial institution must establish comprehensive cyber crisis management policies and procedures that incorporate cyber-attack scenarios and responses in the organisation's overall crisis management plan, escalation processes, business continuity and disaster recovery planning. This includes developing a clear communication plan for engaging shareholders, regulatory authorities, customers and employees in the event of a cyber incident.",
     "translation": "A financial institution must establish comprehensive cyber crisis management policies and procedures that incorporate cyber-attack scenarios into its overall crisis management plan, escalation processes, business continuity planning, and disaster recovery planning. This includes a clear communication plan for engaging shareholders, regulators, customers, and employees in the event of a cyber incident.",
     "evidence": [
-      "Penetration testing policy and schedule",
-      "Penetration test reports from qualified testers",
-      "Tester independence and qualification evidence",
-      "Remediation plans and tracking records"
+      "Cyber Crisis Management Policy and Procedures",
+      "Cyber Attack Scenario Library and Crisis Response Playbooks",
+      "Cyber Incident Escalation Framework and Authority Matrix",
+      "BCP and DRP Cyber Integration Evidence",
+      "Stakeholder Cyber Incident Communication Plan"
     ],
     "artifacts": [
       {
@@ -484,10 +496,11 @@
     "verbatim": "A financial institution must establish and implement a comprehensive Cyber Incident Response Plan (CIRP). The CIRP must address the following:\n(a) Preparedness\nEstablish a clear governance process, reporting structure and roles and responsibilities of the Cyber Emergency Response Team (CERT) as well as invocation and escalation procedures in the event of an incident;\n(b) Detection and analysis\nEnsure effective and expedient processes for identifying points of compromise, assessing the extent of damage and preserving sufficient evidence for forensics purposes;\n(c) Containment and eradication\nIdentify and implement remedial actions to prevent or minimise damage to the financial institution, contain and remove the known threats and resume business activities;\n(d) Recovery\nImplement multiple strategies including contingency plans as part of incident recovery to swiftly resume business operations and significantly enhance redundancy and resilience; and\n(e) Post-incident activity\nConduct post-incident review incorporating lessons learned and develop long-term risk mitigations.",
     "translation": "A financial institution must establish and implement a comprehensive Cyber Incident Response Plan (CIRP) covering five phases: Preparedness, including governance, roles, and escalation procedures for the Cyber Emergency Response Team (CERT); Detection and Analysis, covering identification of compromise points, damage assessment, and evidence preservation; Containment and Eradication, covering remedial actions to limit damage and remove threats; Recovery, including contingency plans to swiftly resume operations; and Post-Incident Activity, including lessons-learned reviews and long-term risk mitigations.",
     "evidence": [
-      "Red team exercise plan and rules of engagement",
-      "Red team exercise reports",
-      "Lessons learned and improvement plans",
-      "Red team provider qualifications"
+      "Cyber Incident Response Plan (CIRP) Master Document",
+      "CERT Governance Charter and Escalation Matrix",
+      "Incident Detection, Triage, and Forensic Preservation Procedures",
+      "Containment and Eradication Runbooks with Incident Execution Records",
+      "Incident Recovery Plans and Business Resumption Evidence"
     ],
     "artifacts": [
       {
@@ -523,10 +536,11 @@
     "verbatim": "A financial institution must ensure that relevant CERT members are conversant with the incident response plan and handling procedures and remain contactable at all times.",
     "translation": "A financial institution must ensure that relevant CERT members are thoroughly familiar with the incident response plan and handling procedures and remain contactable at all times.",
     "evidence": [
-      "Vulnerability remediation policy and SLTs",
-      "Remediation tracking dashboard or reports",
-      "SLT compliance metrics",
-      "Risk acceptance records for exceptions"
+      "CERT Member Training and Competency Records",
+      "IRP Acknowledgement and Read-Receipt Records",
+      "CERT On-Call Roster and Escalation Directory",
+      "CERT Reachability and Contactability Test Records",
+      "Incident Response Tabletop Exercise and Drill Records"
     ],
     "artifacts": [
       {
@@ -562,10 +576,11 @@
     "verbatim": "A financial institution shall establish a secure and reliable out-of-band communication infrastructure for both internal and external stakeholders to ensure continued coordination and communication if the primary communication infrastructure is compromised or rendered unavailable during a crisis.",
     "translation": "A financial institution must establish a secure and reliable out-of-band communication infrastructure for both internal and external stakeholders so that coordination and communication can continue if the primary communication infrastructure is compromised or unavailable during a crisis.",
     "evidence": [
-      "Vulnerability disclosure policy or bug bounty program documentation",
-      "Program scope and rules of engagement",
-      "Reported vulnerability records and remediation",
-      "Researcher acknowledgement records"
+      "Out-of-Band Communication Policy and Framework",
+      "Out-of-Band Infrastructure Architecture and Asset Register",
+      "Crisis Contact Directory (Internal and External Stakeholders)",
+      "Out-of-Band Communication Testing Records",
+      "Cyber Incident Response Plan \u2014 Out-of-Band Communication Activation Procedures"
     ],
     "artifacts": [
       {
@@ -601,10 +616,11 @@
     "verbatim": "A financial institution must conduct an annual cyber drill exercise to test the effectiveness of its CIRP including the out-of-band communication methods, based on various current and emerging threat scenarios (e.g. social engineering), with the involvement of key stakeholders including members of the board, senior management and relevant third party service providers. The result of the annual cyber drill exercise must be reported to the board in a timely manner. The out-of-band communication methods must also be tested regularly as part of the institutions cyber drill exercises. The test scenarios must include scenarios designed to test-\n(a) the effectiveness of escalation, internal and external communication and decision-making processes that correspond to different impact levels of a cyber incident; and\n(b) the readiness and effectiveness of CERT and relevant third party service providers in supporting the recovery process.",
     "translation": "A financial institution must conduct an annual cyber drill exercise to test the effectiveness of its CIRP, including out-of-band communication methods, using current and emerging threat scenarios and involving key stakeholders including board members, senior management, and relevant third-party service providers. Results must be reported to the board in a timely manner, and test scenarios must cover the effectiveness of escalation, communication, and decision-making processes at different impact levels, as well as the readiness of CERT and third-party providers in supporting recovery.",
     "evidence": [
-      "Threat intelligence program documentation",
-      "Intelligence source inventory",
-      "Threat intelligence reports and analysis",
-      "Evidence of intelligence-driven security actions"
+      "Annual Cyber Drill Exercise Programme and Scenario Design",
+      "Cyber Drill Exercise Execution Records and Attendance Evidence",
+      "After-Action Report and Gap Remediation Tracker",
+      "Board Reporting Record for Cyber Drill Results",
+      "Out-of-Band Communication Method Test Records"
     ],
     "artifacts": [
       {
@@ -640,10 +656,11 @@
     "verbatim": "A financial institution shall review its loss provision arrangements to ensure its adequacy to cover cyber incidents based on its scenario analysis of extreme adverse events. Where cyber insurance is adopted to mitigate impact of cyber incidents, the financial institution shall-\n(a) ensure that the scope of the insurance policy adequately covers the information security events and types of liability that the financial institution is exposed to;\n(b) understand the terms and conditions of the insurance policy in relation to warranties, attestations or any responsibilities of the financial institution, have them reflected in the crisis response policies and procedures as appropriate and ensure that any changes to IT services and control measures do not result in unintended exclusions of cover; and\n(c) ensure that any obligations imposed by the insurance policy (such as in relation to appointment of experts and accepting their recommendations during a cyber incident) do not impair its ability to act in the best interest of the financial institution and its customers. The financial institution shall anticipate and adequately manage any conflict of interest that may arise from the objective of the insurer to minimise the cost of its liability under the insurance policy.",
     "translation": "A financial institution must review its loss provision arrangements to ensure they are adequate to cover cyber incidents based on scenario analysis of extreme adverse events. Where cyber insurance is used, the institution must ensure the policy scope adequately covers relevant information security events and liabilities, that policy terms and conditions are reflected in crisis response procedures and do not create unintended gaps in cover, and that any obligations imposed by the insurer do not impair the institution's ability to act in the best interests of the institution and its customers, with conflicts of interest actively managed.",
     "evidence": [
-      "Threat sharing agreements and memberships",
-      "TLP or equivalent handling procedures",
-      "Records of information shared and received",
-      "ISAC participation evidence"
+      "Cyber Loss Provision Review and Scenario Analysis Report",
+      "Cyber Insurance Policy Coverage Mapping and Gap Assessment",
+      "Insurance Policy Terms Integration into Crisis Response Procedures",
+      "IT Change Management Insurance Impact Assessment Records",
+      "Conflict of Interest Management Framework for Insurer Obligations"
     ],
     "artifacts": [
       {
@@ -676,13 +693,14 @@
     "title": "Cyber Incident Notification to BNM",
     "clauseType": "technical",
     "marker": "S",
-    "verbatim": "A financial institution is required to notify the Bank of cyber incidents in adherence to the Bank's policy documents on Operational Risk Reporting – Part C, Business Continuity Management – Part C, Merchant Acquiring Services – paragraphs 19.25 to 19.26 and any other relevant policy documents specified by the Bank.",
+    "verbatim": "A financial institution is required to notify the Bank of cyber incidents in adherence to the Bank's policy documents on Operational Risk Reporting \u2013 Part C, Business Continuity Management \u2013 Part C, Merchant Acquiring Services \u2013 paragraphs 19.25 to 19.26 and any other relevant policy documents specified by the Bank.",
     "translation": "A financial institution must notify Bank Negara Malaysia of cyber incidents in accordance with the Bank's policy documents on Operational Risk Reporting (Part C), Business Continuity Management (Part C), Merchant Acquiring Services (paragraphs 19.25 to 19.26), and any other relevant policy documents specified by the Bank.",
     "evidence": [
-      "Threat hunting program documentation",
-      "Threat hunting methodology and playbooks",
-      "Threat hunting reports and findings",
-      "Hunting-to-detection pipeline records"
+      "Cyber Incident Notification Policy and SOP",
+      "BNM Cyber Incident Notification Register",
+      "Actual BNM Notification Submissions and Correspondence",
+      "Cyber Incident Classification and Threshold Assessment Framework",
+      "Notification Timeline Compliance Evidence"
     ],
     "artifacts": [
       {
@@ -718,10 +736,11 @@
     "verbatim": "Subject to the applicable data protection laws, a financial institution must share cyber threat intelligence information with the industry on a timely basis via the relevant sharing platforms developed by the Bank, the industry, or law enforcement agencies. In addition, the financial institution must allocate resources to participate in any industry-wide initiatives aimed at improving collective threat intelligence capabilities.",
     "translation": "Subject to applicable data protection laws, a financial institution must share cyber threat intelligence with the industry in a timely manner through relevant sharing platforms developed by the Bank, the industry, or law enforcement agencies, and must allocate resources to participate in industry-wide initiatives aimed at improving collective threat intelligence capabilities.",
     "evidence": [
-      "IoC management procedure",
-      "Threat intelligence platform configuration",
-      "IoC feed integration evidence",
-      "IoC lifecycle management records"
+      "CTI Sharing Policy and Procedures",
+      "CTI Platform Membership and Registration Records",
+      "Outbound CTI Sharing Activity Log",
+      "Industry Initiative Participation Records",
+      "Data Protection Compliance Assessment for CTI Sharing"
     ],
     "artifacts": [
       {
@@ -757,10 +776,11 @@
     "verbatim": "A financial institution shall collaborate and cooperate closely with relevant stakeholders and authorities in combating cyber threats.",
     "translation": "A financial institution must collaborate and cooperate closely with relevant stakeholders and authorities in combating cyber threats.",
     "evidence": [
-      "Cyber situational awareness program documentation",
-      "Attack surface monitoring evidence",
-      "External threat landscape reports",
-      "Situational awareness reports to management"
+      "Stakeholder Collaboration Register and MOU/Agreement Repository",
+      "Threat Intelligence Sharing and Receipt Logs",
+      "BNM and Regulatory Authority Cyber Incident Notification Records",
+      "Industry Forum and Working Group Participation Records",
+      "Internal Stakeholder Escalation and Communication Policy"
     ],
     "artifacts": [
       {

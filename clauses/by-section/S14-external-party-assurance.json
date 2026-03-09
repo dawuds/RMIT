@@ -6,13 +6,14 @@
     "title": "Data Centre Resilience Assessment",
     "clauseType": "regulatory",
     "marker": "S",
-    "verbatim": "A financial institution shall appoint a technically competent external service provider to carry out a production data centre resilience and risk assessment (DCRA). The assessment must consider all major risks and determine the current level of resilience of the production data centre. A financial institution must ensure the assessment is conducted at least once every three years or when there is a material change in the data centre infrastructure, whichever is earlier. The assessment shall, at a minimum, include a consideration of whether the requirements in paragraphs 10.24 to 10.28 have been adhered to. For data centres managed by third party service providers, a financial institution shall only rely on independent third party assurance reports provided such reliance is consistent with the financial institution’s risk appetite and tolerance, and the independent assurance has considered similar risks and meets the requirements in this paragraph for conducting the DCRA. The designated board-level committee specified in paragraph 8.3 must deliberate the outcome of the assessment.",
+    "verbatim": "A financial institution shall appoint a technically competent external service provider to carry out a production data centre resilience and risk assessment (DCRA). The assessment must consider all major risks and determine the current level of resilience of the production data centre. A financial institution must ensure the assessment is conducted at least once every three years or when there is a material change in the data centre infrastructure, whichever is earlier. The assessment shall, at a minimum, include a consideration of whether the requirements in paragraphs 10.24 to 10.28 have been adhered to. For data centres managed by third party service providers, a financial institution shall only rely on independent third party assurance reports provided such reliance is consistent with the financial institution\u2019s risk appetite and tolerance, and the independent assurance has considered similar risks and meets the requirements in this paragraph for conducting the DCRA. The designated board-level committee specified in paragraph 8.3 must deliberate the outcome of the assessment.",
     "translation": "A financial institution must appoint a technically competent external service provider to conduct a production data centre resilience and risk assessment at least once every three years or whenever there is a material change in data centre infrastructure, whichever is earlier. The assessment must consider all major risks, evaluate whether the relevant data centre requirements have been met, and for third-party-managed data centres the institution may rely on independent third-party assurance reports if consistent with its risk appetite. The designated board-level committee must deliberate the outcome of each assessment.",
     "evidence": [
-      "Third-party assessment policy and schedule",
-      "Independent security assessment reports for critical vendors",
-      "Risk management review records of assessments",
-      "Contractual security requirement compliance evidence"
+      "DCRA Engagement and Provider Qualification Records",
+      "Production Data Centre Resilience and Risk Assessment Report",
+      "DCRA Assessment Frequency and Trigger Log",
+      "Board-Level Committee Deliberation Record on DCRA Outcome",
+      "Third-Party Data Centre Independent Assurance Reliance Assessment"
     ],
     "artifacts": [
       {
@@ -45,13 +46,14 @@
     "title": "Network Resilience Assessment",
     "clauseType": "regulatory",
     "marker": "S",
-    "verbatim": "A financial institution shall appoint a technically competent external service provider to carry out regular network resilience and risk assessments (NRA) and set proportionate controls aligned with its risk appetite. The assessment must be conducted at least once in three years or whenever there is a material change in the network design, whichever is earlier. The assessment must consider all major risks and determine the current level of resilience. This shall include an assessment of the financial institution’s adherence to the requirements in paragraphs 10.36 to 10.43. The designated board-level committee specified in paragraph 8.3 must deliberate the outcome of the assessment.",
+    "verbatim": "A financial institution shall appoint a technically competent external service provider to carry out regular network resilience and risk assessments (NRA) and set proportionate controls aligned with its risk appetite. The assessment must be conducted at least once in three years or whenever there is a material change in the network design, whichever is earlier. The assessment must consider all major risks and determine the current level of resilience. This shall include an assessment of the financial institution\u2019s adherence to the requirements in paragraphs 10.36 to 10.43. The designated board-level committee specified in paragraph 8.3 must deliberate the outcome of the assessment.",
     "translation": "A financial institution must appoint a technically competent external service provider to conduct regular network resilience and risk assessments at least once every three years or whenever there is a material change in network design, whichever is earlier. The assessment must consider all major risks, determine the current resilience level, and evaluate adherence to the relevant network requirements. The designated board-level committee must deliberate the outcome of each assessment.",
     "evidence": [
-      "Third-party certification requirements in contracts",
-      "Vendor certification tracking register",
-      "Certification lapse monitoring evidence",
-      "Risk reassessment records for certification lapses"
+      "External Assessor Appointment and Competency Record",
+      "Network Resilience and Risk Assessment Report",
+      "NRA Schedule and Material Change Trigger Log",
+      "RMiT Paragraphs 10.36\u201310.43 Compliance Assessment Matrix",
+      "Board-Level Committee Deliberation Minutes and Action Tracking"
     ],
     "artifacts": [
       {

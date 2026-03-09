@@ -129,7 +129,7 @@
     "verbatim": "To promote effective discussion at the board level amidst a rapidly evolving technology and cyber risk landscape, the board must-\n(a) obtain regular updates on technology risk and cyber threats;\n(b) allocate sufficient time to discuss cyber risks, including the strategic, reputational and liquidity risks and impact of operational disruption to stakeholders which could arise from an extreme cyber incident. This shall be supported by input from external experts where appropriate; and\n(c) participate in relevant cybersecurity awareness and training programmes.",
     "translation": "The board must receive regular updates on technology risk and cyber threats, and must allocate sufficient time to discuss cyber risks including their strategic, reputational, and liquidity dimensions and the impact that an extreme cyber incident could have on stakeholders. The board should draw on external expert input where appropriate and must participate in relevant cybersecurity awareness and training programmes.",
     "evidence": [
-      "Board Meeting Minutes — Technology and Cyber Risk Agenda Items",
+      "Board Meeting Minutes \u2014 Technology and Cyber Risk Agenda Items",
       "Technology and Cyber Risk Board Reporting Pack",
       "Board Cybersecurity Awareness and Training Records",
       "External Expert Engagement Records for Board Cyber Briefings",
@@ -169,8 +169,8 @@
     "verbatim": "The board audit committee (BAC) shall be responsible for ensuring the effectiveness of the internal technology audit function. This shall include ensuring the adequate competence of the audit staff to perform technology audits. The BAC shall review and ensure appropriate audit scope, procedures and frequency of technology audits. The BAC shall also ensure effective oversight over the prompt closure of corrective actions to address technology control gaps.",
     "translation": "The board audit committee is responsible for ensuring the internal technology audit function is effective, including confirming that audit staff have adequate competence to conduct technology audits. It must review and ensure appropriate audit scope, procedures, and frequency, and must provide effective oversight to ensure corrective actions addressing technology control gaps are closed promptly.",
     "evidence": [
-      "BAC Meeting Minutes — Technology Audit Agenda Items",
-      "Annual Technology Audit Plan — BAC-Approved",
+      "BAC Meeting Minutes \u2014 Technology Audit Agenda Items",
+      "Annual Technology Audit Plan \u2014 BAC-Approved",
       "Technology Audit Staff Competency Assessment Records",
       "Technology Audit Issue Register and Corrective Action Tracking Log",
       "Technology Audit Reports Submitted to BAC"
@@ -286,14 +286,14 @@
     "title": "TRMF Integration with Enterprise Risk Management",
     "clauseType": "governance",
     "marker": "S",
-    "verbatim": "A financial institution must ensure that the TRMF is an integral part of the financial institution’s enterprise risk management framework (ERM).",
+    "verbatim": "A financial institution must ensure that the TRMF is an integral part of the financial institution\u2019s enterprise risk management framework (ERM).",
     "translation": "A financial institution must ensure that its Technology Risk Management Framework is embedded as an integral part of the institution's broader enterprise risk management framework, not operated as a standalone process.",
     "evidence": [
       "TRMF Policy Document with ERM Integration Provisions",
       "Integrated Enterprise Risk Register Showing Technology Risk Aggregation",
       "Board and Senior Management Risk Committee Minutes Evidencing Technology Risk Reporting",
       "Enterprise Risk Appetite Statement with Technology Risk Thresholds",
-      "TRMF–ERM Integration Mapping or Governance Architecture Document"
+      "TRMF\u2013ERM Integration Mapping or Governance Architecture Document"
     ],
     "artifacts": [
       {
@@ -366,7 +366,7 @@
     "title": "Independent Technology Risk Management Function",
     "clauseType": "governance",
     "marker": "S",
-    "verbatim": "A financial institution must establish an independent enterprise-wide technology risk management function which is responsible for-\n(a) implementing the TRMF and CRF;\n(b) advising on critical technology projects and ensuring critical issues that may have an impact on the financial institution’s risk tolerance are adequately deliberated or escalated in a timely manner; and\n(c) providing independent views to the board and senior management on third party assessments, where necessary.",
+    "verbatim": "A financial institution must establish an independent enterprise-wide technology risk management function which is responsible for-\n(a) implementing the TRMF and CRF;\n(b) advising on critical technology projects and ensuring critical issues that may have an impact on the financial institution\u2019s risk tolerance are adequately deliberated or escalated in a timely manner; and\n(c) providing independent views to the board and senior management on third party assessments, where necessary.",
     "translation": "A financial institution must establish an independent, enterprise-wide technology risk management function. That function is responsible for implementing the Technology Risk Management Framework and Cyber Resilience Framework, advising on critical technology projects and escalating issues that could affect the institution's risk tolerance, and providing independent views to the board and senior management on third-party assessments where necessary.",
     "evidence": [
       "Technology Risk Management Function Charter / Terms of Reference",
@@ -406,7 +406,7 @@
     "title": "Designation of Chief Information Security Officer",
     "clauseType": "governance",
     "marker": "S",
-    "verbatim": "A financial institution must designate a Chief Information Security Officer (CISO) by whatever name called, to be responsible for the technology risk management function of the financial institution. The financial institution must ensure that the CISO has sufficient authority, independence and resources. The CISO shall-\n(a) be independent from day-to-day technology operations;\n(b) apprise board and senior management of current and emerging technology risks which could potentially affect the financial institution’s risk profile;\n(c) have the requisite technical skills in emerging and core technologies used by the institution, expertise and experience in audit, governance and risk management, strategic planning and execution of IT and cybersecurity programs, and third party risk management; and\n(d) be appropriately certified.",
+    "verbatim": "A financial institution must designate a Chief Information Security Officer (CISO) by whatever name called, to be responsible for the technology risk management function of the financial institution. The financial institution must ensure that the CISO has sufficient authority, independence and resources. The CISO shall-\n(a) be independent from day-to-day technology operations;\n(b) apprise board and senior management of current and emerging technology risks which could potentially affect the financial institution\u2019s risk profile;\n(c) have the requisite technical skills in emerging and core technologies used by the institution, expertise and experience in audit, governance and risk management, strategic planning and execution of IT and cybersecurity programs, and third party risk management; and\n(d) be appropriately certified.",
     "translation": "A financial institution must designate a Chief Information Security Officer who has sufficient authority, independence, and resources, and who is independent from day-to-day technology operations. The CISO must keep the board and senior management informed of current and emerging technology risks, possess requisite technical skills and expertise in governance, risk management, strategic planning, and third-party risk management, and hold appropriate professional certifications.",
     "evidence": [
       "CISO Formal Appointment and Terms of Reference",
@@ -446,13 +446,13 @@
     "title": "CISO Responsibilities for Information Protection",
     "clauseType": "governance",
     "marker": "S",
-    "verbatim": "The CISO shall be responsible for ensuring that the financial institution’s information assets and technologies are adequately protected, which includes-\n(a) formulating appropriate policies for the effective implementation of TRMF and CRF;\n(b) enforcing compliance with these policies, frameworks and other technology-related regulatory requirements; and\n(c) advising senior management on technology risk and security matters, including developments in the financial institution’s technology security risk profile in relation to its business and operations.",
+    "verbatim": "The CISO shall be responsible for ensuring that the financial institution\u2019s information assets and technologies are adequately protected, which includes-\n(a) formulating appropriate policies for the effective implementation of TRMF and CRF;\n(b) enforcing compliance with these policies, frameworks and other technology-related regulatory requirements; and\n(c) advising senior management on technology risk and security matters, including developments in the financial institution\u2019s technology security risk profile in relation to its business and operations.",
     "translation": "The CISO is responsible for ensuring the institution's information assets and technologies are adequately protected. This includes formulating policies for effective implementation of the Technology Risk Management Framework and Cyber Resilience Framework, enforcing compliance with those policies and relevant regulatory requirements, and advising senior management on technology risk and security matters including developments in the institution's technology security risk profile.",
     "evidence": [
       "CISO Policy Ownership Register and Approved Policy Suite",
       "TRMF and CRF Implementation Evidence Pack",
       "Compliance Enforcement Records and Exception Management Log",
-      "CISO Management Reporting Pack — Technology Risk and Security Advisories",
+      "CISO Management Reporting Pack \u2014 Technology Risk and Security Advisories",
       "CISO Role Charter and Formal Appointment Documentation"
     ],
     "artifacts": [
@@ -507,13 +507,6 @@
         "category": "evidence",
         "name": "Project Approval Records",
         "description": "Records of project approvals and stage-gate sign-offs",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "reports",
-        "name": "Project Risk Assessment Reports",
-        "description": "Independent risk assessment reports for major technology projects",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       }
@@ -571,31 +564,24 @@
     "evidence": [
       "Significant Technology Project Classification Policy",
       "Board and Senior Management Technology Project Risk Reports",
-      "Board and Senior Management Meeting Minutes — Technology Project Risk Agenda Items",
+      "Board and Senior Management Meeting Minutes \u2014 Technology Project Risk Agenda Items",
       "Project Risk Reporting Calendar and Reporting Cadence Log",
       "Technology Project Risk Register for Significant Projects"
     ],
     "artifacts": [
       {
-        "category": "reports",
-        "name": "Post-Implementation Review Report",
-        "description": "Review report assessing project outcomes and lessons learned",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Board Technology Risk Reports",
+        "description": "Mandatory document for Board Technology Risk Reports",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
-        "category": "evidence",
-        "name": "Lessons Learned Register",
-        "description": "Register of lessons learned from completed technology projects",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": false
-      },
-      {
-        "category": "reports",
-        "name": "Risk Control Effectiveness Assessment",
-        "description": "Assessment of whether implemented risk controls are operating effectively",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": false
+        "category": "other",
+        "name": "Project Status Reports",
+        "description": "Mandatory document for Project Status Reports",
+        "format": "PDF/DOCX",
+        "mandatory": true
       }
     ]
   },
@@ -614,6 +600,39 @@
       "Technology Infrastructure and System Interdependency Maps",
       "Business-Technology Mapping Matrix",
       "Architecture Principles, Network Governance Standards, and IT Security Policy Suite"
+    ],
+    "artifacts": [
+      {
+        "category": "other",
+        "name": "Enterprise Technology Architecture Framework",
+        "description": "Mandatory document for Enterprise Technology Architecture Framework",
+        "format": "PDF/DOCX",
+        "mandatory": true
+      },
+      {
+        "category": "other",
+        "name": "Architecture Review Board Minutes",
+        "description": "Mandatory document for Architecture Review Board Minutes",
+        "format": "PDF/DOCX",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "10.5",
+    "section": "Technology Operations Management",
+    "subsection": "System Development and Acquisition",
+    "title": "System Development Life Cycle Methodology",
+    "clauseType": "technical",
+    "marker": "S",
+    "verbatim": "A financial institution must adopt a methodology for an effective and secure implementation of IT systems. Key phases of System Development Life Cycle (SDLC) shall include requirement, design, development, testing, deployment, change management, maintenance and decommissioning, and integrate with-\n(a) enterprise architecture to ensure successful execution of business strategy;\n(b) risk management policies and practices to achieve business objectives; and\n(c) security principles and requirements to ensure confidentiality, integrity, and availability of customer and counterparty information.",
+    "translation": "A financial institution must adopt a methodology for effective and secure IT system implementation covering the key SDLC phases: requirements, design, development, testing, deployment, change management, maintenance, and decommissioning. The methodology must integrate with enterprise architecture, risk management policies, and security principles to protect the confidentiality, integrity, and availability of customer and counterparty information.",
+    "evidence": [
+      "SDLC Methodology Policy and Framework Document",
+      "SDLC Phase-Gate Artefacts and Project Sign-Off Records",
+      "Enterprise Architecture Integration Evidence",
+      "Security Integration Records Across SDLC Phases",
+      "Risk Management Integration in SDLC"
     ],
     "artifacts": [
       {
@@ -640,27 +659,27 @@
     ]
   },
   {
-    "id": "10.5",
+    "id": "10.6",
     "section": "Technology Operations Management",
     "subsection": "System Development and Acquisition",
-    "title": "System Development Life Cycle Methodology",
+    "title": "Rapid Development Security Requirements",
     "clauseType": "technical",
     "marker": "S",
-    "verbatim": "A financial institution must adopt a methodology for an effective and secure implementation of IT systems. Key phases of System Development Life Cycle (SDLC) shall include requirement, design, development, testing, deployment, change management, maintenance and decommissioning, and integrate with-\n(a) enterprise architecture to ensure successful execution of business strategy;\n(b) risk management policies and practices to achieve business objectives; and\n(c) security principles and requirements to ensure confidentiality, integrity, and availability of customer and counterparty information.",
-    "translation": "A financial institution must adopt a methodology for effective and secure IT system implementation covering the key SDLC phases: requirements, design, development, testing, deployment, change management, maintenance, and decommissioning. The methodology must integrate with enterprise architecture, risk management policies, and security principles to protect the confidentiality, integrity, and availability of customer and counterparty information.",
+    "verbatim": "A financial institution must meet enterprise security, governance and compliance requirements when using rapid system development methodology. Given the dynamic environment can increase likelihood of errors, a financial institution shall automate the IT security compliance review to prevent unauthorised access as well as the discovery and testing of security vulnerabilities to ensure secure release of new IT services.",
+    "translation": "When using rapid system development methodology, a financial institution must still meet enterprise security, governance, and compliance requirements. Because the dynamic environment increases the likelihood of errors, the institution must automate IT security compliance reviews and the discovery and testing of security vulnerabilities to ensure new IT services are released securely.",
     "evidence": [
-      "SDLC Methodology Policy and Framework Document",
-      "SDLC Phase-Gate Artefacts and Project Sign-Off Records",
-      "Enterprise Architecture Integration Evidence",
-      "Security Integration Records Across SDLC Phases",
-      "Risk Management Integration in SDLC"
+      "Rapid Development Security Policy and Framework",
+      "CI/CD Pipeline Security Automation Configuration Records",
+      "Automated Security Scan Results and Remediation Records",
+      "Secure Release Gate and Deployment Approval Records",
+      "Access Control and Privileged Access Records for Development Environments"
     ],
     "artifacts": [
       {
-        "category": "procedures",
-        "name": "Requirements Management Procedure",
-        "description": "Procedure for capturing, tracing, and validating security requirements",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Security Requirements Specification",
+        "description": "Mandatory document for Security Requirements Specification",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
@@ -680,46 +699,6 @@
     ]
   },
   {
-    "id": "10.6",
-    "section": "Technology Operations Management",
-    "subsection": "System Development and Acquisition",
-    "title": "Rapid Development Security Requirements",
-    "clauseType": "technical",
-    "marker": "S",
-    "verbatim": "A financial institution must meet enterprise security, governance and compliance requirements when using rapid system development methodology. Given the dynamic environment can increase likelihood of errors, a financial institution shall automate the IT security compliance review to prevent unauthorised access as well as the discovery and testing of security vulnerabilities to ensure secure release of new IT services.",
-    "translation": "When using rapid system development methodology, a financial institution must still meet enterprise security, governance, and compliance requirements. Because the dynamic environment increases the likelihood of errors, the institution must automate IT security compliance reviews and the discovery and testing of security vulnerabilities to ensure new IT services are released securely.",
-    "evidence": [
-      "Rapid Development Security Policy and Framework",
-      "CI/CD Pipeline Security Automation Configuration Records",
-      "Automated Security Scan Results and Remediation Records",
-      "Secure Release Gate and Deployment Approval Records",
-      "Access Control and Privileged Access Records for Development Environments"
-    ],
-    "artifacts": [
-      {
-        "category": "procedures",
-        "name": "Secure Coding Standards",
-        "description": "Coding standards based on OWASP and industry best practices",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "evidence",
-        "name": "Developer Training Records",
-        "description": "Records of developer training on secure coding practices",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "logs",
-        "name": "Code Review Logs",
-        "description": "Logs of code reviews conducted against secure coding standards",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      }
-    ]
-  },
-  {
     "id": "10.7",
     "section": "Technology Operations Management",
     "subsection": "System Development and Acquisition",
@@ -730,7 +709,7 @@
     "translation": "A financial institution must physically segregate the production environment from development and testing environments to prevent unauthorised changes to production systems. Where the institution uses a cloud environment, it must ensure that production, development, and testing environments do not run on the same virtual host.",
     "evidence": [
       "Environment Segregation Architecture Document",
-      "Access Control Matrix — Environment-Level Separation",
+      "Access Control Matrix \u2014 Environment-Level Separation",
       "Cloud Virtual Host Isolation Evidence",
       "Network Segmentation and Firewall Rule Evidence",
       "Change Management Records Demonstrating Environment Gate Controls"
@@ -738,22 +717,15 @@
     "artifacts": [
       {
         "category": "procedures",
-        "name": "Code Review Procedure",
-        "description": "Mandatory procedure for peer code reviews and SAST scanning",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "logs",
-        "name": "SAST Scan Results",
-        "description": "Static analysis scan results for application releases",
+        "name": "Environment Separation Policy",
+        "description": "Policy defining separation requirements between development, test, and production environments",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       },
       {
         "category": "evidence",
-        "name": "Remediation Records",
-        "description": "Records of remediation of critical and high findings before release",
+        "name": "Environment Architecture Diagram",
+        "description": "Architecture diagram showing separation between environments",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       }
@@ -777,10 +749,10 @@
     ],
     "artifacts": [
       {
-        "category": "procedures",
-        "name": "Testing Standards Document",
-        "description": "Comprehensive standards for functional, integration, performance, and security testing",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "System Testing Methodology",
+        "description": "Mandatory document for System Testing Methodology",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
@@ -857,24 +829,24 @@
     ],
     "artifacts": [
       {
-        "category": "policies",
-        "name": "Change Management Policy",
-        "description": "Formal policy governing all changes to production systems",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "governance",
-        "name": "Change Advisory Board Terms of Reference",
-        "description": "Terms of reference for the change advisory board",
+        "category": "procedures",
+        "name": "Code Review Procedure",
+        "description": "Mandatory procedure for peer code reviews and SAST scanning",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       },
       {
         "category": "logs",
-        "name": "Change Log",
-        "description": "Complete log of all production changes with risk assessments and approvals",
+        "name": "SAST Scan Results",
+        "description": "Static analysis scan results for application releases",
         "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "other",
+        "name": "Peer Review Records",
+        "description": "Mandatory document for Peer Review Records",
+        "format": "PDF/DOCX",
         "mandatory": true
       }
     ]
@@ -897,23 +869,23 @@
     ],
     "artifacts": [
       {
-        "category": "procedures",
-        "name": "Emergency Change Procedure",
-        "description": "Procedure for handling emergency changes including retrospective review requirements",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Change Management Procedure",
+        "description": "Mandatory document for Change Management Procedure",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
-        "category": "logs",
-        "name": "Emergency Change Records",
-        "description": "Records of all emergency changes with retrospective review and approval",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Change Request Records",
+        "description": "Mandatory document for Change Request Records",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
         "category": "reports",
-        "name": "Emergency Change Usage Report",
-        "description": "Report on frequency and nature of emergency changes for management review",
+        "name": "Post-Implementation Review Report",
+        "description": "Review report assessing project outcomes and lessons learned",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       }
@@ -938,22 +910,15 @@
     "artifacts": [
       {
         "category": "procedures",
-        "name": "Release Management Procedure",
-        "description": "Procedure for controlled deployment of changes to production environments",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "evidence",
-        "name": "Release Plans",
-        "description": "Release plans including rollback procedures and success criteria",
+        "name": "Emergency Change Procedure",
+        "description": "Procedure for handling emergency changes including retrospective review requirements",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       },
       {
         "category": "logs",
-        "name": "Deployment Verification Records",
-        "description": "Records of post-deployment verification checks",
+        "name": "Emergency Change Records",
+        "description": "Records of all emergency changes with retrospective review and approval",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       }
@@ -977,24 +942,17 @@
     ],
     "artifacts": [
       {
-        "category": "procedures",
-        "name": "Environment Separation Policy",
-        "description": "Policy defining separation requirements between development, test, and production environments",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "System Decommissioning Procedure",
+        "description": "Mandatory document for System Decommissioning Procedure",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
-        "category": "evidence",
-        "name": "Environment Architecture Diagram",
-        "description": "Architecture diagram showing separation between environments",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "logs",
-        "name": "Code Migration Audit Trail",
-        "description": "Audit trail of code migrations between environments",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "System Decommissioning Record",
+        "description": "Mandatory document for System Decommissioning Record",
+        "format": "PDF/DOCX",
         "mandatory": true
       }
     ]
@@ -1017,24 +975,10 @@
     ],
     "artifacts": [
       {
-        "category": "procedures",
-        "name": "Source Code Protection Policy",
-        "description": "Policy for protecting source code from unauthorised access, modification, and loss",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "evidence",
-        "name": "Repository Access Controls",
-        "description": "Configuration evidence showing access controls on source code repositories",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "logs",
-        "name": "Version Control Logs",
-        "description": "Logs from version control system showing change tracking and audit trail",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Automated Tools Inventory",
+        "description": "Mandatory document for Automated Tools Inventory",
+        "format": "PDF/DOCX",
         "mandatory": true
       }
     ]
@@ -1057,24 +1001,17 @@
     ],
     "artifacts": [
       {
-        "category": "procedures",
-        "name": "Configuration Management Procedure",
-        "description": "Procedure for maintaining configuration baselines and managing changes",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "SBOM Policy",
+        "description": "Mandatory document for SBOM Policy",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
-        "category": "evidence",
-        "name": "Configuration Management Database",
-        "description": "Inventory of technology assets with their configurations and interdependencies",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "reports",
-        "name": "Configuration Compliance Report",
-        "description": "Report on configuration baseline compliance and deviation remediation",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Open Source Security Policy",
+        "description": "Mandatory document for Open Source Security Policy",
+        "format": "PDF/DOCX",
         "mandatory": true
       }
     ]
@@ -1097,25 +1034,18 @@
     ],
     "artifacts": [
       {
-        "category": "procedures",
-        "name": "Capacity Planning Procedure",
-        "description": "Procedure for planning, monitoring, and managing technology capacity",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Shadow IT Policy",
+        "description": "Mandatory document for Shadow IT Policy",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
-        "category": "reports",
-        "name": "Capacity Monitoring Reports",
-        "description": "Regular reports on capacity utilisation against defined thresholds",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": false
-      },
-      {
-        "category": "evidence",
-        "name": "Capacity Scaling Records",
-        "description": "Records of capacity scaling actions taken in response to threshold alerts",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": false
+        "category": "other",
+        "name": "Shadow IT Register",
+        "description": "Mandatory document for Shadow IT Register",
+        "format": "PDF/DOCX",
+        "mandatory": true
       }
     ]
   },
@@ -1144,17 +1074,10 @@
         "mandatory": true
       },
       {
-        "category": "procedures",
-        "name": "Patch Testing Procedure",
-        "description": "Procedure for testing patches before deployment to production",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "reports",
-        "name": "Patch Compliance Report",
-        "description": "Report on patch deployment compliance against defined timelines",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Vulnerability Management Procedure",
+        "description": "Mandatory document for Vulnerability Management Procedure",
+        "format": "PDF/DOCX",
         "mandatory": true
       }
     ]
@@ -1257,24 +1180,17 @@
     ],
     "artifacts": [
       {
-        "category": "policies",
-        "name": "Cryptographic Policy",
-        "description": "Policy defining approved algorithms, key lengths, and protocols",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Cryptography Policy",
+        "description": "Mandatory document for Cryptography Policy",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
-        "category": "evidence",
-        "name": "Standards Alignment Mapping",
-        "description": "Mapping of cryptographic policy to international standards (NIST, ISO)",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "evidence",
-        "name": "Annual Review Records",
-        "description": "Records of annual cryptographic policy review and updates",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Key Management Procedure",
+        "description": "Mandatory document for Key Management Procedure",
+        "format": "PDF/DOCX",
         "mandatory": true
       }
     ]
@@ -1417,24 +1333,17 @@
     ],
     "artifacts": [
       {
-        "category": "policies",
-        "name": "Data Centre Physical Security Policy",
-        "description": "Policy defining physical security requirements for data centre facilities",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Data Centre Resilience Strategy",
+        "description": "Mandatory document for Data Centre Resilience Strategy",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
-        "category": "evidence",
-        "name": "CCTV Configuration Evidence",
-        "description": "Evidence of CCTV coverage and 90-day retention configuration",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "logs",
-        "name": "Visitor Management Logs",
-        "description": "Logs of all visitor access to data centre facilities",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Business Recovery Objectives",
+        "description": "Mandatory document for Business Recovery Objectives",
+        "format": "PDF/DOCX",
         "mandatory": true
       }
     ]
@@ -1491,7 +1400,7 @@
     "evidence": [
       "Data Centre Site Risk and Location Assessment",
       "Physical Access Control Policy and Access Logs",
-      "Redundancy Architecture Documentation — Power, Cooling, and Network",
+      "Redundancy Architecture Documentation \u2014 Power, Cooling, and Network",
       "Preventive Maintenance Schedule and Completion Records",
       "Continuous Monitoring and Alerting Configuration with Alert Response Records"
     ],
@@ -1617,25 +1526,18 @@
     ],
     "artifacts": [
       {
-        "category": "governance",
-        "name": "Service Level Agreements",
-        "description": "Documented SLAs for all critical technology services",
+        "category": "procedures",
+        "name": "Capacity Planning Procedure",
+        "description": "Procedure for planning, monitoring, and managing technology capacity",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       },
       {
         "category": "reports",
-        "name": "Monthly SLA Performance Reports",
-        "description": "Monthly reports on service level performance presented to management",
+        "name": "Capacity Monitoring Reports",
+        "description": "Regular reports on capacity utilisation against defined thresholds",
         "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "logs",
-        "name": "SLA Breach Records",
-        "description": "Records of SLA breaches and corrective actions taken",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
+        "mandatory": false
       }
     ]
   },
@@ -1657,24 +1559,10 @@
     ],
     "artifacts": [
       {
-        "category": "procedures",
-        "name": "IT Service Continuity Plan",
-        "description": "Plans ensuring continued availability of critical services during disruptions",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "evidence",
-        "name": "BCP Alignment Mapping",
-        "description": "Mapping showing alignment between IT continuity and business continuity plans",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "reports",
-        "name": "Scenario Analysis Report",
-        "description": "Analysis of disruption scenarios and their impact on critical services",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Service Availability Monitoring Procedure",
+        "description": "Mandatory document for Service Availability Monitoring Procedure",
+        "format": "PDF/DOCX",
         "mandatory": true
       }
     ]
@@ -1689,10 +1577,10 @@
     "verbatim": "A financial institution shall enhance the resilience of key digital services and delivery channels through the following measures:\n(a) implement effective mechanisms by 30 September 2027 to provide early signals or warning of service degradation or intermittent failures. This means the capability to:\n(i) detect failed transactions and measure service availability more accurately;\n(ii) monitor the number of affected customers and transaction volumes during service disruptions to measure the extent and severity customer impact; and\n(iii) immediately escalating to senior management when service disruptions affect 5% or more of expected daily customers or transaction volumes;\n(b) conduct regular reviews to identify and mitigate potentially vulnerable IT system interdependencies to prevent simultaneous interruptions to multiple digital services or delivery channels; and\n(c) establish stand-in processing arrangement by 30 September 2027 and deploy such arrangement during disruptions to ensure continuity of services during disruptions. A financial institution shall prioritise deployment of this capability for digital services and delivery channels which are least substitutable, and ensure its customers are well informed on the terms of use (such as the transaction limit), associated risks and allocation of responsibilities between parties and mitigation actions against fraud risks.",
     "translation": "A financial institution must enhance the resilience of key digital services and delivery channels through several measures. By 30 September 2027, it must implement mechanisms that detect failed transactions, measure service availability, monitor the number of affected customers and transaction volumes during disruptions, and immediately escalate to senior management when disruptions affect 5% or more of expected daily customers or transaction volumes. It must also conduct regular reviews to identify and mitigate vulnerable IT system interdependencies, and establish stand-in processing arrangements by 30 September 2027 to maintain continuity during disruptions, prioritising services that are least substitutable and ensuring customers are informed of terms of use, risks, responsibilities, and fraud mitigation measures.",
     "evidence": [
-      "Early Warning Monitoring System — Design and Capability Documentation",
+      "Early Warning Monitoring System \u2014 Design and Capability Documentation",
       "5% Threshold Escalation Policy and Incident Escalation Records",
       "IT System Interdependency Review Records",
-      "Stand-In Processing Arrangement — Design, Policy, and Deployment Records",
+      "Stand-In Processing Arrangement \u2014 Design, Policy, and Deployment Records",
       "Substitutability Assessment for Digital Services Prioritisation"
     ],
     "artifacts": [
@@ -1897,24 +1785,17 @@
     ],
     "artifacts": [
       {
-        "category": "evidence",
-        "name": "Network Architecture Diagrams",
-        "description": "Complete network architecture diagrams including zones, data flows, and interconnections",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Network Security Policy",
+        "description": "Mandatory document for Network Security Policy",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
-        "category": "procedures",
-        "name": "Network Architecture Standards",
-        "description": "Standards for secure network architecture based on defence-in-depth principles",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "reports",
-        "name": "Annual Architecture Review Report",
-        "description": "Annual review report on network architecture adequacy and security",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Network Diagram",
+        "description": "Mandatory document for Network Diagram",
+        "format": "PDF/DOCX",
         "mandatory": true
       }
     ]
@@ -1969,9 +1850,9 @@
     "verbatim": "The control measures to prevent from network faults as referred to in paragraph 10.37 are expected to include component redundancy, service diversity and alternate network paths.",
     "translation": "The control measures expected to prevent network faults, as referred to in paragraph 10.37, include component redundancy, service diversity, and alternate network paths.",
     "evidence": [
-      "Network Architecture Diagram — Redundancy and Alternate Paths",
+      "Network Architecture Diagram \u2014 Redundancy and Alternate Paths",
       "Component Redundancy Inventory and Configuration Baseline",
-      "Service Diversity Agreements — ISP and Telco Contracts",
+      "Service Diversity Agreements \u2014 ISP and Telco Contracts",
       "Network Failover and Path Switchover Test Records",
       "Network Monitoring and Alerting Configuration Evidence"
     ],
@@ -2224,17 +2105,17 @@
         "mandatory": true
       },
       {
-        "category": "evidence",
-        "name": "Backup Configuration Evidence",
-        "description": "Evidence of backup encryption, offsite storage, and ransomware protection",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Backup and Restoration Procedure",
+        "description": "Mandatory document for Backup and Restoration Procedure",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
-        "category": "logs",
-        "name": "Backup Execution Logs",
-        "description": "Logs of backup execution showing successful completion",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Backup Testing Records",
+        "description": "Mandatory document for Backup Testing Records",
+        "format": "PDF/DOCX",
         "mandatory": true
       }
     ]
@@ -2297,24 +2178,17 @@
     ],
     "artifacts": [
       {
-        "category": "procedures",
-        "name": "Vendor Risk Assessment Framework",
-        "description": "Framework and methodology for assessing technology vendor risks",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Third Party Risk Management Framework",
+        "description": "Mandatory document for Third Party Risk Management Framework",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
-        "category": "reports",
-        "name": "Vendor Risk Assessment Reports",
-        "description": "Completed risk assessments for all technology vendors",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "evidence",
-        "name": "Annual Vendor Reassessment Records",
-        "description": "Records of annual risk reassessments for critical vendors",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Vendor Inventory",
+        "description": "Mandatory document for Vendor Inventory",
+        "format": "PDF/DOCX",
         "mandatory": true
       }
     ]
@@ -2377,23 +2251,16 @@
     ],
     "artifacts": [
       {
-        "category": "reports",
-        "name": "Vendor SLA Monitoring Reports",
-        "description": "Regular reports on vendor SLA compliance and performance",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "SLA Management Procedure",
+        "description": "Mandatory document for SLA Management Procedure",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
-        "category": "logs",
-        "name": "SLA Breach Records",
-        "description": "Records of SLA breaches and corrective actions taken",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "evidence",
-        "name": "Vendor Performance Reviews",
-        "description": "Formal vendor performance review records addressing SLA compliance",
+        "category": "governance",
+        "name": "Service Level Agreements",
+        "description": "Documented SLAs for all critical technology services",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       }
@@ -2412,7 +2279,7 @@
       "Third Party Continuous Monitoring Roadmap",
       "Third Party IT Footprint and Customer Data Exposure Register",
       "Third Party Security Control Framework and Product-Specific Risk Policy",
-      "Incident Response Plan — Third Party Protocols and Software Update Provisions",
+      "Incident Response Plan \u2014 Third Party Protocols and Software Update Provisions",
       "Continuous Monitoring Technology Platform Evidence and Automated Metric Testing Records"
     ],
     "artifacts": [
@@ -2469,13 +2336,6 @@
         "description": "Completed risk assessments for all cloud service adoptions",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
-      },
-      {
-        "category": "evidence",
-        "name": "Shared Responsibility Documentation",
-        "description": "Documentation of shared responsibility model for each cloud provider",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
       }
     ]
   },
@@ -2489,9 +2349,9 @@
     "verbatim": "For critical systems hosted on a public cloud, a financial institution is expected to consider common key risks and control measures as specified in Appendix 10. A financial institution that relies on alternative risk management practices that depart from the measures outlined in Appendix 10 is expected to be prepared to explain and demonstrate to the Bank that these alternative practices are at least as effective as, or superior to, the measures in Appendix 10.",
     "translation": "For critical systems hosted on a public cloud, a financial institution is expected to consider the common key risks and control measures specified in Appendix 10. A financial institution that departs from those measures with alternative risk management practices must be prepared to explain and demonstrate to the Bank that those alternative practices are at least as effective as, or superior to, the measures in Appendix 10.",
     "evidence": [
-      "Critical Systems Register — Public Cloud Footprint",
+      "Critical Systems Register \u2014 Public Cloud Footprint",
       "Appendix 10 Risk and Control Mapping Matrix",
-      "Cloud Risk Register — Appendix 10 Aligned",
+      "Cloud Risk Register \u2014 Appendix 10 Aligned",
       "Alternative Control Justification and Equivalence Assessment",
       "Cloud Governance Framework and Board-Level Oversight Records"
     ],
@@ -2577,24 +2437,17 @@
     ],
     "artifacts": [
       {
-        "category": "procedures",
-        "name": "User Access Provisioning Procedure",
-        "description": "Procedure for granting, modifying, and revoking user access based on least privilege",
+        "category": "policies",
+        "name": "Access Control Policy",
+        "description": "Formal access control policy defining rules and rights for all systems and assets",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       },
       {
-        "category": "logs",
-        "name": "Access Request and Approval Logs",
-        "description": "Logs of access requests with approvals from system or data owners",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "evidence",
-        "name": "De-provisioning Compliance Records",
-        "description": "Records showing access removal within 24 hours of termination",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Privileged Access Management Policy",
+        "description": "Mandatory document for Privileged Access Management Policy",
+        "format": "PDF/DOCX",
         "mandatory": true
       }
     ]
@@ -2606,7 +2459,7 @@
     "title": "Access Control Principles",
     "clauseType": "technical",
     "marker": "S",
-    "verbatim": "A financial institution shall adhere to the following principles:\n(a) adopt a “deny all” access control policy for users by default because all access to IT assets must be explicitly authorised;\n(b) employ “least privilege” access rights to ensure IT assets are accessed on a “need-to-have” basis where only the minimum sufficient permissions are granted to legitimate users to perform their roles;\n(c) employ time-bound access which restrict access to a specific period based on the nature of work;\n(d) employ segregation of incompatible functions where no single person is responsible for an entire operation that may provide the ability to independently modify, circumvent, and disable system security features. This may include a combination of functions such as:\n(i) system development and technology operations;\n(ii) security administration and system administration;\n(iii) network operation and network security; and\n(iv) IT operations environment;\n(e) establish criteria for activities that require dual authorization control; and\n(f) adopt robust user authorization and authentication based on criticality of IT assets as follows:\n(i) stronger authentication for critical activities and higher-risk environment such as remote access;\n(ii) ensure user credentials provisioned with robust identity verification method to prevent impersonation risks; and\n(iii) ensure online credential is uniquely linked to a single user to ensure clear accountability in access to confidential IT assets.",
+    "verbatim": "A financial institution shall adhere to the following principles:\n(a) adopt a \u201cdeny all\u201d access control policy for users by default because all access to IT assets must be explicitly authorised;\n(b) employ \u201cleast privilege\u201d access rights to ensure IT assets are accessed on a \u201cneed-to-have\u201d basis where only the minimum sufficient permissions are granted to legitimate users to perform their roles;\n(c) employ time-bound access which restrict access to a specific period based on the nature of work;\n(d) employ segregation of incompatible functions where no single person is responsible for an entire operation that may provide the ability to independently modify, circumvent, and disable system security features. This may include a combination of functions such as:\n(i) system development and technology operations;\n(ii) security administration and system administration;\n(iii) network operation and network security; and\n(iv) IT operations environment;\n(e) establish criteria for activities that require dual authorization control; and\n(f) adopt robust user authorization and authentication based on criticality of IT assets as follows:\n(i) stronger authentication for critical activities and higher-risk environment such as remote access;\n(ii) ensure user credentials provisioned with robust identity verification method to prevent impersonation risks; and\n(iii) ensure online credential is uniquely linked to a single user to ensure clear accountability in access to confidential IT assets.",
     "translation": "A financial institution must adhere to the following access control principles: adopt a default deny-all policy requiring all access to be explicitly authorised; employ least-privilege access rights so users receive only the minimum permissions needed for their roles; use time-bound access restricted to a specific period based on the nature of work; enforce segregation of incompatible functions so no single person can independently modify, circumvent, or disable system security features; establish criteria for activities requiring dual-authorisation control; and adopt robust user authorisation and authentication based on asset criticality, including stronger authentication for critical activities and remote access, robust identity verification to prevent impersonation, and unique online credentials linked to a single user.",
     "evidence": [
       "Access Control Policy and Deny-All Configuration Records",
@@ -2704,30 +2557,16 @@
     ],
     "artifacts": [
       {
-        "category": "evidence",
-        "name": "PAM System Configuration",
-        "description": "Configuration evidence for privileged access management system",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "User Access Matrix",
+        "description": "Mandatory document for User Access Matrix",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
-        "category": "policies",
-        "name": "Privileged Access Policy",
-        "description": "Policy governing privileged access management, logging, and shared account restrictions",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "logs",
-        "name": "Privileged Activity Logs",
-        "description": "Logs of all privileged activities retained for a minimum of three years",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "evidence",
-        "name": "Shared Account Exception Register",
-        "description": "Register of approved shared privileged accounts with compensating controls",
+        "category": "procedures",
+        "name": "Access Review Procedure",
+        "description": "Procedure for periodic access reviews and recertification",
         "format": "PDF/DOCX, version-controlled",
         "mandatory": true
       }
@@ -2751,31 +2590,17 @@
     ],
     "artifacts": [
       {
-        "category": "procedures",
-        "name": "Access Review Procedure",
-        "description": "Procedure for periodic access reviews and recertification",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Logging and Monitoring Standards",
+        "description": "Mandatory document for Logging and Monitoring Standards",
+        "format": "PDF/DOCX",
         "mandatory": true
       },
       {
-        "category": "logs",
-        "name": "Privileged Access Review Records",
-        "description": "Quarterly review records for all privileged access",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "logs",
-        "name": "Standard Access Review Records",
-        "description": "Semi-annual review records for standard user access",
-        "format": "PDF/DOCX, version-controlled",
-        "mandatory": true
-      },
-      {
-        "category": "evidence",
-        "name": "Access Revocation Evidence",
-        "description": "Evidence of access revocation resulting from review findings",
-        "format": "PDF/DOCX, version-controlled",
+        "category": "other",
+        "name": "Log Review Records",
+        "description": "Mandatory document for Log Review Records",
+        "format": "PDF/DOCX",
         "mandatory": true
       }
     ]
@@ -3154,7 +2979,7 @@
     "title": "Cyber Threat Intelligence",
     "clauseType": "technical",
     "marker": "S",
-    "verbatim": "A financial institution must establish a process to collect, analyse and evaluate cyber threat information in relation to its environment (“cyber threat intelligence”) to promptly detect cyber threats, including data breach incidents and spread of misleading information in relation to the financial institution over the Internet.",
+    "verbatim": "A financial institution must establish a process to collect, analyse and evaluate cyber threat information in relation to its environment (\u201ccyber threat intelligence\u201d) to promptly detect cyber threats, including data breach incidents and spread of misleading information in relation to the financial institution over the Internet.",
     "translation": "A financial institution must establish a process to collect, analyse, and evaluate cyber threat intelligence relevant to its environment so it can promptly detect cyber threats, including data breach incidents and the spread of misleading information about the institution online.",
     "evidence": [
       "CTI Programme Policy and Procedure",
@@ -3361,7 +3186,7 @@
       "Out-of-Band Infrastructure Architecture and Asset Register",
       "Crisis Contact Directory (Internal and External Stakeholders)",
       "Out-of-Band Communication Testing Records",
-      "Cyber Incident Response Plan — Out-of-Band Communication Activation Procedures"
+      "Cyber Incident Response Plan \u2014 Out-of-Band Communication Activation Procedures"
     ],
     "artifacts": [
       {
@@ -3474,7 +3299,7 @@
     "title": "Cyber Incident Notification to BNM",
     "clauseType": "technical",
     "marker": "S",
-    "verbatim": "A financial institution is required to notify the Bank of cyber incidents in adherence to the Bank's policy documents on Operational Risk Reporting – Part C, Business Continuity Management – Part C, Merchant Acquiring Services – paragraphs 19.25 to 19.26 and any other relevant policy documents specified by the Bank.",
+    "verbatim": "A financial institution is required to notify the Bank of cyber incidents in adherence to the Bank's policy documents on Operational Risk Reporting \u2013 Part C, Business Continuity Management \u2013 Part C, Merchant Acquiring Services \u2013 paragraphs 19.25 to 19.26 and any other relevant policy documents specified by the Bank.",
     "translation": "A financial institution must notify Bank Negara Malaysia of cyber incidents in accordance with the Bank's policy documents on Operational Risk Reporting (Part C), Business Continuity Management (Part C), Merchant Acquiring Services (paragraphs 19.25 to 19.26), and any other relevant policy documents specified by the Bank.",
     "evidence": [
       "Cyber Incident Notification Policy and SOP",
@@ -3594,7 +3419,7 @@
     "title": "Digital Services Security Controls",
     "clauseType": "technical",
     "marker": "S",
-    "verbatim": "Securing digital services is an integral part of financial institution’s risk management. A financial institution must expand its CRF to implement robust technology security controls in providing digital services which assure the following:\n(a) adopt and regularly assess the minimum-security controls for respective delivery channels to ensure confidentiality and integrity of customer and counterparty information and transactions. Refer to Appendices 2, 3, 4 and 11;\n(b) proper authentication of users or devices and authorization of transactions to mitigate impersonation and fraud risk. Refer the minimum-security controls in Appendix 3; and\n(c) strong physical control and logical control measures.",
+    "verbatim": "Securing digital services is an integral part of financial institution\u2019s risk management. A financial institution must expand its CRF to implement robust technology security controls in providing digital services which assure the following:\n(a) adopt and regularly assess the minimum-security controls for respective delivery channels to ensure confidentiality and integrity of customer and counterparty information and transactions. Refer to Appendices 2, 3, 4 and 11;\n(b) proper authentication of users or devices and authorization of transactions to mitigate impersonation and fraud risk. Refer the minimum-security controls in Appendix 3; and\n(c) strong physical control and logical control measures.",
     "translation": "A financial institution must extend its Cyber Risk Framework (CRF) to implement robust security controls across all digital services. This requires regularly assessing minimum security controls for each delivery channel to protect the confidentiality and integrity of customer and counterparty information and transactions, properly authenticating users or devices and authorising transactions to mitigate impersonation and fraud risk, and maintaining strong physical and logical access controls.",
     "evidence": [
       "CRF Extension Document for Digital Services",
@@ -3674,7 +3499,7 @@
     "title": "CRF Enhancement for Digital Fraud",
     "clauseType": "technical",
     "marker": "S",
-    "verbatim": "The complex and fast evolving digital fraud requires financial institutions to be vigilant against new fraud techniques and proactive in strengthening their cyber defence for customer protection. In line with paragraphs 11.2 and 11.3, a financial institution must enhance its CRF as follows:\n(a) expand the scope of identification of cybersecurity threats and countermeasures to include customers’ mobile devices and access points;\n(b) adopt layered (defense-in-depth) security controls to protect the digital service application deployed to customers’ mobile devices and the relevant banking data contained in it;\n(c) perform continuous surveillance and monitoring to detect any exploitation of the digital service application deployed to customers’ mobile devices and ensure the swift upgrade of security controls to mitigate new vulnerabilities;\n(d) establish clearly defined and effective incident handling procedures to assist customers to contain the potential damage resulting from a cybersecurity breach involving digital services;\n(e) formalise operational arrangement to enable swift coordinated response and rapid upgrade of countermeasures to defend against advanced fraud tactics if a financial institution relies on multiple business functions;\n(f) conduct regular review by senior management to ensure the effectiveness of digital fraud management and define threshold for escalation of countermeasures considering the actual impact to victims of digital fraud and emerging fraud environment; and\n(g) apprise the board on the outcome of management reviews to preserve public confidence in the security of digital services and mitigate reputation risk to the industry.",
+    "verbatim": "The complex and fast evolving digital fraud requires financial institutions to be vigilant against new fraud techniques and proactive in strengthening their cyber defence for customer protection. In line with paragraphs 11.2 and 11.3, a financial institution must enhance its CRF as follows:\n(a) expand the scope of identification of cybersecurity threats and countermeasures to include customers\u2019 mobile devices and access points;\n(b) adopt layered (defense-in-depth) security controls to protect the digital service application deployed to customers\u2019 mobile devices and the relevant banking data contained in it;\n(c) perform continuous surveillance and monitoring to detect any exploitation of the digital service application deployed to customers\u2019 mobile devices and ensure the swift upgrade of security controls to mitigate new vulnerabilities;\n(d) establish clearly defined and effective incident handling procedures to assist customers to contain the potential damage resulting from a cybersecurity breach involving digital services;\n(e) formalise operational arrangement to enable swift coordinated response and rapid upgrade of countermeasures to defend against advanced fraud tactics if a financial institution relies on multiple business functions;\n(f) conduct regular review by senior management to ensure the effectiveness of digital fraud management and define threshold for escalation of countermeasures considering the actual impact to victims of digital fraud and emerging fraud environment; and\n(g) apprise the board on the outcome of management reviews to preserve public confidence in the security of digital services and mitigate reputation risk to the industry.",
     "translation": "A financial institution must enhance its CRF to address digital fraud by expanding threat identification to include customers' mobile devices and access points, and by applying layered (defense-in-depth) controls to protect digital service applications and the banking data they contain. The institution must conduct continuous surveillance to detect exploitation of mobile applications, maintain clearly defined incident handling procedures to assist affected customers, and formalise cross-functional response arrangements for rapid countermeasure deployment. Senior management must regularly review the effectiveness of digital fraud management and escalate findings to the board to preserve public confidence and mitigate reputational risk.",
     "evidence": [
       "Enhanced CRF Document with Mobile Threat Scope",
@@ -3874,7 +3699,7 @@
     "title": "Customer Account Suspension and Kill Switch",
     "clauseType": "technical",
     "marker": "S",
-    "verbatim": "A financial institution must provide convenient means for customers to report, suspend and re-activate their account swiftly in the event of a suspected fraud, where applicable. This shall require the financial institution to:\n(a) offer a secure self-service “kill switch” solution;\n(b) ensure that its contact centre is adequately resourced and operating effectively to provide prompt and adequate assistance to customers in distress; and\n(c) restore customer access to digital services within a reasonable timeframe upon validation.",
+    "verbatim": "A financial institution must provide convenient means for customers to report, suspend and re-activate their account swiftly in the event of a suspected fraud, where applicable. This shall require the financial institution to:\n(a) offer a secure self-service \u201ckill switch\u201d solution;\n(b) ensure that its contact centre is adequately resourced and operating effectively to provide prompt and adequate assistance to customers in distress; and\n(c) restore customer access to digital services within a reasonable timeframe upon validation.",
     "translation": "A financial institution must provide customers with convenient means to report a suspected fraud and to swiftly suspend and re-activate their accounts where applicable. This requires the institution to offer a secure self-service kill switch solution, ensure its contact centre is adequately resourced and operating effectively to assist customers in distress, and restore customer access to digital services within a reasonable timeframe following validation.",
     "evidence": [
       "Kill Switch Feature Design and Functional Specification",
@@ -3961,7 +3786,7 @@
       "Risk-Based Technology Audit Plan",
       "Technology Audit Scope Statements and Engagement Planning Documents",
       "Technology Audit Reports and Findings Register",
-      "Internal Audit Methodology — Technology Audit Standards"
+      "Internal Audit Methodology \u2014 Technology Audit Standards"
     ],
     "artifacts": [
       {
@@ -4034,7 +3859,7 @@
     "title": "Technology Audit Competency",
     "clauseType": "governance",
     "marker": "S",
-    "verbatim": "A financial institution must ensure the internal audit function must have dedicated technology audit resources with specialised competencies and professionally certified. The technology audit resources shall be adequately conversant with the developing sophisticate of the financial institution’s technology systems, delivery channels and have sound knowledge in the areas audited.",
+    "verbatim": "A financial institution must ensure the internal audit function must have dedicated technology audit resources with specialised competencies and professionally certified. The technology audit resources shall be adequately conversant with the developing sophisticate of the financial institution\u2019s technology systems, delivery channels and have sound knowledge in the areas audited.",
     "translation": "A financial institution must ensure its internal audit function has dedicated technology audit resources that hold specialised competencies and relevant professional certifications. These resources must be adequately conversant with the evolving sophistication of the institution's technology systems and delivery channels, and must have sound knowledge of the areas they audit.",
     "evidence": [
       "Technology Audit Resource Register",
@@ -4077,10 +3902,10 @@
     "verbatim": "The technology audit resources may be enlisted to provide advice on compliance and adequacy of control processes during the planning and development phases of new major products, systems, adoption of third party service providers or technology operations. In such cases, the technology auditors participating in this capacity are expected to carefully consider whether such an advisory or consulting role can materially impair their independence or objectivity in performing post-implementation reviews of the products, systems and operations concerned.",
     "translation": "Technology audit resources may be engaged to provide advice on compliance and the adequacy of control processes during the planning and development phases of new major products, systems, third-party service provider adoptions, or technology operations. Where auditors take on such an advisory or consulting role, they must carefully consider whether that role could materially impair their independence or objectivity when subsequently conducting post-implementation reviews of the same products, systems, or operations.",
     "evidence": [
-      "Technology Audit Charter — Advisory Role Provisions",
-      "Advisory Engagement Register — Technology Audit",
+      "Technology Audit Charter \u2014 Advisory Role Provisions",
+      "Advisory Engagement Register \u2014 Technology Audit",
       "Independence Impairment Assessment Records",
-      "Post-Implementation Review Reports — Independence Disclosures",
+      "Post-Implementation Review Reports \u2014 Independence Disclosures",
       "Audit Committee Reporting on Advisory Engagements"
     ],
     "artifacts": [
@@ -4114,7 +3939,7 @@
     "title": "Data Centre Resilience Assessment",
     "clauseType": "regulatory",
     "marker": "S",
-    "verbatim": "A financial institution shall appoint a technically competent external service provider to carry out a production data centre resilience and risk assessment (DCRA). The assessment must consider all major risks and determine the current level of resilience of the production data centre. A financial institution must ensure the assessment is conducted at least once every three years or when there is a material change in the data centre infrastructure, whichever is earlier. The assessment shall, at a minimum, include a consideration of whether the requirements in paragraphs 10.24 to 10.28 have been adhered to. For data centres managed by third party service providers, a financial institution shall only rely on independent third party assurance reports provided such reliance is consistent with the financial institution’s risk appetite and tolerance, and the independent assurance has considered similar risks and meets the requirements in this paragraph for conducting the DCRA. The designated board-level committee specified in paragraph 8.3 must deliberate the outcome of the assessment.",
+    "verbatim": "A financial institution shall appoint a technically competent external service provider to carry out a production data centre resilience and risk assessment (DCRA). The assessment must consider all major risks and determine the current level of resilience of the production data centre. A financial institution must ensure the assessment is conducted at least once every three years or when there is a material change in the data centre infrastructure, whichever is earlier. The assessment shall, at a minimum, include a consideration of whether the requirements in paragraphs 10.24 to 10.28 have been adhered to. For data centres managed by third party service providers, a financial institution shall only rely on independent third party assurance reports provided such reliance is consistent with the financial institution\u2019s risk appetite and tolerance, and the independent assurance has considered similar risks and meets the requirements in this paragraph for conducting the DCRA. The designated board-level committee specified in paragraph 8.3 must deliberate the outcome of the assessment.",
     "translation": "A financial institution must appoint a technically competent external service provider to conduct a production data centre resilience and risk assessment at least once every three years or whenever there is a material change in data centre infrastructure, whichever is earlier. The assessment must consider all major risks, evaluate whether the relevant data centre requirements have been met, and for third-party-managed data centres the institution may rely on independent third-party assurance reports if consistent with its risk appetite. The designated board-level committee must deliberate the outcome of each assessment.",
     "evidence": [
       "DCRA Engagement and Provider Qualification Records",
@@ -4154,13 +3979,13 @@
     "title": "Network Resilience Assessment",
     "clauseType": "regulatory",
     "marker": "S",
-    "verbatim": "A financial institution shall appoint a technically competent external service provider to carry out regular network resilience and risk assessments (NRA) and set proportionate controls aligned with its risk appetite. The assessment must be conducted at least once in three years or whenever there is a material change in the network design, whichever is earlier. The assessment must consider all major risks and determine the current level of resilience. This shall include an assessment of the financial institution’s adherence to the requirements in paragraphs 10.36 to 10.43. The designated board-level committee specified in paragraph 8.3 must deliberate the outcome of the assessment.",
+    "verbatim": "A financial institution shall appoint a technically competent external service provider to carry out regular network resilience and risk assessments (NRA) and set proportionate controls aligned with its risk appetite. The assessment must be conducted at least once in three years or whenever there is a material change in the network design, whichever is earlier. The assessment must consider all major risks and determine the current level of resilience. This shall include an assessment of the financial institution\u2019s adherence to the requirements in paragraphs 10.36 to 10.43. The designated board-level committee specified in paragraph 8.3 must deliberate the outcome of the assessment.",
     "translation": "A financial institution must appoint a technically competent external service provider to conduct regular network resilience and risk assessments at least once every three years or whenever there is a material change in network design, whichever is earlier. The assessment must consider all major risks, determine the current resilience level, and evaluate adherence to the relevant network requirements. The designated board-level committee must deliberate the outcome of each assessment.",
     "evidence": [
       "External Assessor Appointment and Competency Record",
       "Network Resilience and Risk Assessment Report",
       "NRA Schedule and Material Change Trigger Log",
-      "RMiT Paragraphs 10.36–10.43 Compliance Assessment Matrix",
+      "RMiT Paragraphs 10.36\u201310.43 Compliance Assessment Matrix",
       "Board-Level Committee Deliberation Minutes and Action Tracking"
     ],
     "artifacts": [
@@ -4558,7 +4383,7 @@
     "translation": "You may launch or enhance digital services immediately once you have submitted the notification under paragraph 16.1 and complied with the requirements in paragraphs 16.2 through 16.6. No waiting period or approval from BNM is required.",
     "evidence": [
       "BNM Notification Submission Receipt",
-      "Pre-Launch Compliance Gate Checklist (Paragraphs 16.2–16.6)",
+      "Pre-Launch Compliance Gate Checklist (Paragraphs 16.2\u201316.6)",
       "Production Deployment and Go-Live Authorisation Record",
       "Digital Initiative Regulatory Notification Governance Policy",
       "Digital Initiatives Notification Register"
@@ -4640,7 +4465,7 @@
       "First-Time Consultation Record and BNM Response (Paragraph 17.1 Precedent)",
       "Enhanced Technology Risk Management Framework (Cloud and Emerging Technology)",
       "Independent Assurance Report on Cloud or Emerging Technology Risk Management Framework",
-      "Incident Response Plan — Cloud and Emerging Technology Sufficiency Assurance",
+      "Incident Response Plan \u2014 Cloud and Emerging Technology Sufficiency Assurance",
       "Subsequent Notification Package to BNM (Complete Submission with Updated 17.1 Information)"
     ],
     "artifacts": [
@@ -4758,7 +4583,7 @@
     "translation": "A financial institution must include the roadmap for adoption of cloud services and emerging technology, covering both critical and non-critical systems, in its annual outsourcing plan submitted to the Bank in accordance with the Outsourcing policy document or IT Profile reporting requirements. The risk assessments for cloud services and emerging technology must be documented and made available for the Bank's review upon request.",
     "evidence": [
       "Annual Outsourcing Plan with Cloud and Emerging Technology Roadmap",
-      "IT Profile Reporting Extract — Cloud and Emerging Technology Section",
+      "IT Profile Reporting Extract \u2014 Cloud and Emerging Technology Section",
       "Cloud Services Risk Assessment (Paragraph 10.50 Compliance)",
       "Emerging Technology Risk Assessment (Appendix 9 Compliance)",
       "System Criticality Classification Register for Cloud and Emerging Technology Initiatives"
@@ -4798,9 +4623,9 @@
     "translation": "A financial institution must perform a gap analysis comparing its existing technology risk management practices against the requirements in this policy document and must develop an action plan with clear timelines and milestones to close identified gaps. Both the gap analysis and action plan must be submitted to the regulator no later than 90 days after the policy document's issuance date. Institutions that previously submitted under an earlier version of the policy must continue to identify any new gaps against enhanced or revised requirements and make their updated annual compliance assessment available to the regulator upon request.",
     "evidence": [
       "Initial RMiT Gap Analysis Report",
-      "BNM Submission Proof — Gap Analysis and Action Plan",
+      "BNM Submission Proof \u2014 Gap Analysis and Action Plan",
       "Technology Risk Remediation Action Plan",
-      "Delta Gap Analysis — Enhanced or Revised Requirements",
+      "Delta Gap Analysis \u2014 Enhanced or Revised Requirements",
       "Annual RMiT Compliance Assessment"
     ],
     "artifacts": [

@@ -163,8 +163,8 @@ The following are explicitly excluded from the scope of this Framework:
 |---|---|---|
 | Risk Management in Technology (RMiT) | 11.1 – 11.3, 10.1 – 10.5 | Cybersecurity governance, risk management, and incident reporting |
 | RMiT | 11.3 | Board-level cybersecurity governance framework mandatory |
-| RMiT | 10.52 – 10.59 | Cyber risk assessments and penetration testing |
-| RMiT | 10.60 – 10.68 | Security Operations Centre (SOC) and threat monitoring |
+| RMiT | 10.53–10.57 | Cyber risk assessments and penetration testing |
+| RMiT | 11.8–11.11 | Security Operations Centre (SOC) and threat monitoring |
 | RMiT | 11.4 – 11.7 | Cybersecurity incident notification to BNM |
 | Guidelines on Management of Cyber Risk | All | Supplementary guidance on cyber risk controls |
 | Financial Services Act 2013 (FSA) | Section 57, 136 | Technology risk prudential requirements |
@@ -761,10 +761,10 @@ The Cybersecurity Risk Register is the primary tool for recording and tracking i
 | 4 | Endpoint Security | [Role] | 10.26 – 10.30 | CIS Controls 4–6 |
 | 5 | Application Security | [Role] | 10.31 – 10.40 | ISO 27001 A.8.26 |
 | 6 | Data Security | [Role] | 10.41 – 10.50 | ISO 27001 A.5.33 |
-| 7 | Vulnerability Management | [Role] | 10.52 – 10.59 | CIS Controls 7 |
-| 8 | Security Monitoring and SOC | [Role] | 10.60 – 10.68 | ISO 27001 A.8.15 |
+| 7 | Vulnerability Management | [Role] | 10.53–10.57 | CIS Controls 7 |
+| 8 | Security Monitoring and SOC | [Role] | 11.8–11.11 | ISO 27001 A.8.15 |
 | 9 | Incident Management | [Role] | 11.4 – 11.7 | ISO 27001 A.5.24 |
-| 10 | Third-Party Security | [Role] | 10.69 – 10.80 | ISO 27001 A.5.19 |
+| 10 | Third-Party Security | [Role] | 10.46–10.49 | ISO 27001 A.5.19 |
 | 11 | Physical and Environmental Security | [Role] | [Ref] | ISO 27001 A.7 |
 | 12 | Cryptography and Key Management | [Role] | [Ref] | ISO 27001 A.8.24 |
 | 13 | Cloud Security | [Role] | [Ref] | ISO 27001 A.5.23 |
@@ -1173,7 +1173,7 @@ The first line of defence conducts an annual **Cybersecurity Control Self-Assess
 
 | Reference | Title | Issuing Authority | Relevant Clauses |
 |---|---|---|---|
-| BNM RMiT | Risk Management in Technology | Bank Negara Malaysia | 10.1 – 10.80, 11.1 – 11.7 (especially 11.3) |
+| BNM RMiT | Risk Management in Technology | Bank Negara Malaysia | 10.1–10.57, 11.1 – 11.7 (especially 11.3) |
 | BNM RMiT | Guidelines on Management of Cyber Risk | Bank Negara Malaysia | All |
 | FSA 2013 | Financial Services Act 2013 | Parliament of Malaysia | Sections 57, 136 |
 | IFSA 2013 | Islamic Financial Services Act 2013 | Parliament of Malaysia | Sections 57, 136 |

@@ -1,0 +1,202 @@
+[
+  {
+    "id": "17.1",
+    "section": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "subsection": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "title": "First-Time Cloud and Emerging Technology Consultation",
+    "clauseType": "governance",
+    "marker": "S",
+    "verbatim": "A financial institution is required to consult the Bank prior to the first-time adoption of a public cloud or emerging technology for critical systems. During the consultation, the financial institution must demonstrate that specific risks associated with the use of these technologies have been adequately considered and addressed to the satisfaction of the Bank, in order to proceed with the adoption of the public cloud for critical systems for the first time. The financial institution shall undertake the following prior to consulting the Bank on its adoption of public cloud for critical systems:\n(a) conduct a comprehensive risk assessment of the proposed cloud adoption or emerging technology, including the possible impact and measures to address and mitigate the identified risks. For public cloud, the assessment must follow the risk outlined in paragraph 10.50 and Appendix 10. For emerging technology, it must follow the guideline in Appendix 9. The financial institution shall also adopt the format of the Risk Assessment Report as per Part A of Appendix 7;\n(b) provide a confirmation by the CISO, senior management officer or the chairman of the board or designated board-level committee specified in paragraph 8.3 of the financial institution's readiness to adopt public cloud or emerging technology for critical system. The format of the confirmation shall be as set out in Part B of Appendix 7; and\n(c) perform a third party pre-implementation review on public cloud or emerging technology. This review shall encompass the areas set out in Appendix 10 (for public cloud) or Appendix 9 (for emerging technology) and Part C of Appendix 7 for higher-risk services, such as those involving the processing or storage of customer information, or cross-border data transmission.",
+    "translation": "A financial institution must consult the Bank before adopting a public cloud or emerging technology for critical systems for the first time, and must demonstrate to the Bank's satisfaction that the specific risks have been adequately considered and addressed before proceeding. Prior to that consultation, the institution must complete a comprehensive risk assessment using the prescribed formats in Appendix 7 (Part A), obtain a written confirmation of readiness from the CISO, a senior management officer, or the board-level committee chair using Part B of Appendix 7, and commission a third-party pre-implementation review covering the areas set out in Appendix 10 or Appendix 9 and Part C of Appendix 7 for higher-risk services.",
+    "evidence": [
+      "Cloud/Emerging Technology Risk Assessment Report (Appendix 7 Part A)",
+      "Readiness Confirmation by CISO / Senior Management / Board Committee (Appendix 7 Part B)",
+      "Third-Party Pre-Implementation Review Report (Appendix 7 Part C)",
+      "Critical System Classification Records",
+      "BNM Consultation Submission Package and Correspondence Records"
+    ],
+    "artifacts": [
+      {
+        "category": "governance",
+        "name": "Cloud Strategy",
+        "description": "Board-approved cloud strategy defining approach to cloud adoption",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "governance",
+        "name": "Cloud Governance Framework",
+        "description": "Framework defining governance structures for cloud-related decisions",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Strategy Alignment Documentation",
+        "description": "Documentation showing alignment between cloud and overall technology strategy",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "17.2",
+    "section": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "subsection": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "title": "Subsequent Cloud and Emerging Technology Notification",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "verbatim": "A financial institution shall notify the Bank on any subsequent adoption of a public cloud or emerging technology for critical system, by submitting the notification together with the necessary updates to all the information required under paragraph 17.1, subject to the financial institution having complied with the following requirements and included documentation and information to demonstrate such compliance in the notification submitted to the Bank that the financial institution:\n(a) has consulted the Bank prior to adopting a public cloud or emerging technology for critical systems for the first time in accordance with paragraph 17.1, with no concerns raised by the Bank during the first-time consultation;\n(b) has enhanced the technology risk management framework to manage cloud or emerging technology risks;\n(c) has established independent assurance on the cloud risk management framework or emerging technology risk management framework; and\n(d) has provided assurance to the Bank that the incident response plans are sufficient to cater for adverse or unexpected events.",
+    "translation": "For any subsequent adoption of a public cloud or emerging technology for a critical system, a financial institution must notify the Bank by submitting the notification together with updated information required under paragraph 17.1, provided it has met all specified pre-conditions. These pre-conditions are: the Bank raised no concerns during the first-time consultation under paragraph 17.1; the institution has enhanced its technology risk management framework to address cloud or emerging technology risks; independent assurance has been established on that framework; and the institution has provided the Bank with assurance that its incident response plans are sufficient for adverse or unexpected events.",
+    "evidence": [
+      "First-Time Consultation Record and BNM Response (Paragraph 17.1 Precedent)",
+      "Enhanced Technology Risk Management Framework (Cloud and Emerging Technology)",
+      "Independent Assurance Report on Cloud or Emerging Technology Risk Management Framework",
+      "Incident Response Plan \u2014 Cloud and Emerging Technology Sufficiency Assurance",
+      "Subsequent Notification Package to BNM (Complete Submission with Updated 17.1 Information)"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Cloud Security Control Framework",
+        "description": "Framework defining security controls for cloud environments",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Cloud Security Configuration",
+        "description": "Configuration evidence for cloud IAM, data protection, and network security",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Cloud Security Assessment Report",
+        "description": "Regular assessment reports validating cloud security control effectiveness",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "17.3",
+    "section": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "subsection": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "title": "Enhancement Notification Exemption",
+    "clauseType": "regulatory",
+    "marker": "G",
+    "verbatim": "For the avoidance of doubt, notification to the Bank under paragraph 17.2 is not required for any enhancement to existing cloud adoption and emerging technology adoption that does not materially alter the prior assessments and representations made by a financial institution to the Bank.",
+    "translation": "Notification to the Bank under paragraph 17.2 is not required for enhancements to an existing cloud or emerging technology adoption where those enhancements do not materially alter the prior assessments and representations made by the institution to the Bank.",
+    "evidence": [
+      "Materiality Determination Framework for Cloud and Emerging Technology Changes",
+      "BNM Notification and Consultation Submission Register",
+      "Enhancement Materiality Assessment Records",
+      "Cloud and Emerging Technology Adoption Inventory",
+      "Governance Body Oversight Records for Exemption Decisions"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Cloud Exit Strategy",
+        "description": "Exit strategies for all cloud services with data extraction and transition plans",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "evidence",
+        "name": "Cloud Portability Architecture",
+        "description": "Architecture documentation demonstrating cloud portability and reduced vendor lock-in",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      },
+      {
+        "category": "reports",
+        "name": "Vendor Lock-In Risk Assessment",
+        "description": "Risk assessment of vendor lock-in for each cloud service",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": true
+      }
+    ]
+  },
+  {
+    "id": "17.4",
+    "section": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "subsection": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "title": "Bank Discretionary Direction",
+    "clauseType": "governance",
+    "marker": "S",
+    "verbatim": "The Bank may at its discretion direct a financial institution to consult the Bank under paragraph 17.1, notify the Bank under paragraph 17.2 or observe any of the guidance in Appendix 10 or Appendix 9 and to explain any deviations from the guidance in Appendix 10 or Appendix 9, including for a non-critical system or when the pre-requisites in the paragraphs 17.1 or 17.2 have not been met. A financial institution must comply with such a directive promptly and to the satisfaction of the Bank.",
+    "translation": "The Bank may at its discretion direct a financial institution to consult under paragraph 17.1, notify under paragraph 17.2, or observe and explain any deviations from the guidance in Appendix 10 or Appendix 9, including for non-critical systems or where the pre-requisites in paragraphs 17.1 or 17.2 have not been met. A financial institution must comply with any such directive promptly and to the satisfaction of the Bank.",
+    "evidence": [
+      "BNM Discretionary Directive Register",
+      "Consultation and Notification Response Packages (Directive-Triggered)",
+      "Appendix 9 and Appendix 10 Deviation Explanation Records",
+      "Prompt Compliance Timeliness Evidence",
+      "Non-Critical System Governance and Readiness Documentation"
+    ],
+    "artifacts": [
+      {
+        "category": "governance",
+        "name": "AI/ML Governance Framework",
+        "description": "Framework governing AI and ML use including model risk, bias, and explainability",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      },
+      {
+        "category": "procedures",
+        "name": "Model Risk Management Procedures",
+        "description": "Procedures for managing risks associated with AI and ML models",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      },
+      {
+        "category": "reports",
+        "name": "AI Model Validation Reports",
+        "description": "Validation reports for AI models used in customer-facing decisions",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      }
+    ]
+  },
+  {
+    "id": "17.5",
+    "section": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "subsection": "Consultation and Notification related to Cloud Services and Emerging Technology",
+    "title": "Cloud and Emerging Technology Roadmap",
+    "clauseType": "regulatory",
+    "marker": "S",
+    "verbatim": "A financial institution must ensure the roadmap for adoption of cloud services or emerging technology (for critical systems and non-critical systems) is included in the annual outsourcing plan submitted to the Bank in adherence with the requirements in the policy document on Outsourcing or IT Profile reporting. The risk assessment as outlined in paragraph 10.50 for cloud services or Appendix 9 for emerging technology must also be documented and made available for the Bank's review as and when requested by the Bank.",
+    "translation": "A financial institution must include the roadmap for adoption of cloud services and emerging technology, covering both critical and non-critical systems, in its annual outsourcing plan submitted to the Bank in accordance with the Outsourcing policy document or IT Profile reporting requirements. The risk assessments for cloud services and emerging technology must be documented and made available for the Bank's review upon request.",
+    "evidence": [
+      "Annual Outsourcing Plan with Cloud and Emerging Technology Roadmap",
+      "IT Profile Reporting Extract \u2014 Cloud and Emerging Technology Section",
+      "Cloud Services Risk Assessment (Paragraph 10.50 Compliance)",
+      "Emerging Technology Risk Assessment (Appendix 9 Compliance)",
+      "System Criticality Classification Register for Cloud and Emerging Technology Initiatives"
+    ],
+    "artifacts": [
+      {
+        "category": "procedures",
+        "name": "Emerging Technology Risk Assessment Framework",
+        "description": "Framework for assessing risks of emerging technology adoption",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      },
+      {
+        "category": "reports",
+        "name": "Emerging Technology Risk Assessments",
+        "description": "Risk assessment reports for emerging technologies under consideration or adopted",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      },
+      {
+        "category": "evidence",
+        "name": "Quantum Readiness Assessment",
+        "description": "Assessment of preparedness for quantum computing impacts on cryptography",
+        "format": "PDF/DOCX, version-controlled",
+        "mandatory": false
+      }
+    ]
+  }
+]

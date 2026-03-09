@@ -26,6 +26,7 @@
 ## Pending
 
 ### High Priority
+- [ ] **Factual Accuracy Check** — Conduct a thorough mapping and verification of the JSON data (e.g. clauses, requirement numbers, descriptions) against the official BNM RMiT Nov 2025 PDF to eliminate hallucinations.
 - [ ] Export functionality — PDF and CSV export for clauses, controls, evidence, and audit packages
 - [ ] Compliance gap tracker with localStorage — track implementation status per clause/control
 - [ ] ARIA accessibility audit — ensure all interactive elements are keyboard-navigable and screen-reader friendly
