@@ -1,5 +1,87 @@
 {
-  "governance-and-oversight": [
+  "_meta": {
+    "version": "2.0.0",
+    "lastUpdated": "2026-03-09",
+    "alignment": "BNM RMiT Nov 28, 2025"
+  },
+  "domains": [
+    {
+      "slug": "governance-and-oversight",
+      "name": "Governance And Oversight",
+      "description": "Board and senior management oversight of technology risk."
+    },
+    {
+      "slug": "risk-management",
+      "name": "Risk Management",
+      "description": "Frameworks and processes for identifying and assessing technology risk."
+    },
+    {
+      "slug": "project-and-development",
+      "name": "Project And Development",
+      "description": "Security in the SDLC and project governance."
+    },
+    {
+      "slug": "it-operations",
+      "name": "It Operations",
+      "description": "Standard IT operational controls and patch management."
+    },
+    {
+      "slug": "cryptography",
+      "name": "Cryptography",
+      "description": "Encryption and key management standards."
+    },
+    {
+      "slug": "physical-security",
+      "name": "Physical Security",
+      "description": "Data centre and premise security."
+    },
+    {
+      "slug": "service-continuity",
+      "name": "Service Continuity",
+      "description": "BCP and DR requirements."
+    },
+    {
+      "slug": "network-security",
+      "name": "Network Security",
+      "description": "Network architecture and perimeter defense."
+    },
+    {
+      "slug": "backup-and-recovery",
+      "name": "Backup And Recovery",
+      "description": "Data backup and restoration testing."
+    },
+    {
+      "slug": "third-party-management",
+      "name": "Third Party Management",
+      "description": "Outsourcing and vendor risk management."
+    },
+    {
+      "slug": "cloud-and-emerging-technology",
+      "name": "Cloud And Emerging Technology",
+      "description": "Specific controls for cloud and new tech adoptions."
+    },
+    {
+      "slug": "access-control",
+      "name": "Access Control",
+      "description": "IAM and privileged access management."
+    },
+    {
+      "slug": "cybersecurity",
+      "name": "Cybersecurity",
+      "description": "Cyber resilience, SOC, and incident response."
+    },
+    {
+      "slug": "digital-services",
+      "name": "Digital Services",
+      "description": "Security for online and mobile banking channels."
+    },
+    {
+      "slug": "assurance-and-compliance",
+      "name": "Assurance And Compliance",
+      "description": "Audit, reporting, and self-assessment."
+    }
+  ],
+  "controls": [
     {
       "slug": "board-technology-risk-oversight",
       "name": "Board Technology Risk Oversight",
@@ -205,9 +287,7 @@
       "iso27001": [
         "A.5.2"
       ]
-    }
-  ],
-  "risk-management": [
+    },
     {
       "slug": "technology-risk-management-framework",
       "name": "Technology Risk Management Framework",
@@ -385,9 +465,7 @@
       "iso27001": [
         "A.5.12"
       ]
-    }
-  ],
-  "project-and-development": [
+    },
     {
       "slug": "it-project-governance",
       "name": "IT Project Governance",
@@ -637,9 +715,7 @@
       "iso27001": [
         "A.8.9"
       ]
-    }
-  ],
-  "it-operations": [
+    },
     {
       "slug": "capacity-and-performance-management",
       "name": "Capacity & Performance Management",
@@ -744,9 +820,7 @@
       "iso27001": [
         "A.8.8"
       ]
-    }
-  ],
-  "cryptography": [
+    },
     {
       "slug": "cryptographic-controls",
       "name": "Cryptographic Controls",
@@ -817,9 +891,7 @@
       "iso27001": [
         "A.8.24"
       ]
-    }
-  ],
-  "physical-security": [
+    },
     {
       "slug": "data-centre-physical-security",
       "name": "Data Centre Physical Security",
@@ -925,9 +997,7 @@
       "iso27001": [
         "A.7.11"
       ]
-    }
-  ],
-  "service-continuity": [
+    },
     {
       "slug": "service-level-management",
       "name": "Service Level Management",
@@ -1116,9 +1186,7 @@
         "A.5.25",
         "A.5.26"
       ]
-    }
-  ],
-  "network-security": [
+    },
     {
       "slug": "network-architecture-and-segmentation",
       "name": "Network Architecture and Segmentation",
@@ -1380,9 +1448,7 @@
         "A.8.16",
         "A.8.20"
       ]
-    }
-  ],
-  "backup-and-recovery": [
+    },
     {
       "slug": "backup-management",
       "name": "Backup Management",
@@ -1421,9 +1487,7 @@
         "A.8.13",
         "A.8.14"
       ]
-    }
-  ],
-  "third-party-management": [
+    },
     {
       "slug": "vendor-risk-assessment",
       "name": "Vendor Risk Assessment",
@@ -1570,9 +1634,7 @@
         "A.5.19",
         "A.5.20"
       ]
-    }
-  ],
-  "cloud-and-emerging-technology": [
+    },
     {
       "slug": "cloud-risk-assessment",
       "name": "Cloud Risk Assessment",
@@ -1799,9 +1861,7 @@
         "A.5.7",
         "A.5.8"
       ]
-    }
-  ],
-  "access-control": [
+    },
     {
       "slug": "access-control-framework",
       "name": "Access Control Framework",
@@ -2022,9 +2082,7 @@
         "A.5.18",
         "A.8.2"
       ]
-    }
-  ],
-  "cybersecurity": [
+    },
     {
       "slug": "incident-response-plan",
       "name": "Incident Response Plan",
@@ -2666,9 +2724,7 @@
         "A.5.7",
         "A.8.16"
       ]
-    }
-  ],
-  "digital-services": [
+    },
     {
       "slug": "digital-channel-security",
       "name": "Digital Channel Security",
@@ -2965,9 +3021,7 @@
         "A.8.24",
         "A.8.26"
       ]
-    }
-  ],
-  "assurance-and-compliance": [
+    },
     {
       "slug": "it-audit-program",
       "name": "IT Audit Program",
