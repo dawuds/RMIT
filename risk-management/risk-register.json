@@ -1,6 +1,6 @@
 {
   "sourceType": "constructed-indicative",
-  "verificationNote": "AI-generated indicative risk register for Malaysian financial institutions under BNM RMiT. Risk scores are illustrative — organizations must calibrate to their own environment, threat landscape, and control maturity.",
+  "verificationNote": "AI-generated indicative risk register for Malaysian financial institutions under BNM RMiT. Risk scores are illustrative \u2014 organizations must calibrate to their own environment, threat landscape, and control maturity.",
   "title": "Technology Risk Register",
   "description": "Register of 20 technology risks specific to Malaysian financial institutions under BNM RMiT",
   "risks": [
