@@ -48,7 +48,7 @@ function parseHash() {
   if (hash.startsWith('search/')) return { view: 'search', query: decodeURIComponent(hash.slice(7)) };
   if (hash === 'framework') return { view: 'framework' };
   if (hash.startsWith('framework/')) return { view: 'framework-detail', id: hash.slice(10) };
-  if (hash === 'controls') return { view: 'controls-browser' };
+  if (hash === 'controls') return { view: 'controls' };
   if (hash.startsWith('control/')) return { view: 'control-detail', slug: hash.slice(8) };
   if (hash === 'risk-management') return { view: 'risk-management' };
   if (hash === 'risk' ) return { view: 'risk-management' };
@@ -1294,7 +1294,7 @@ function updateNav() {
       (view === 'framework' && state.route.view === 'framework-detail') ||
       (view === 'framework' && state.route.view === 'section') ||
       (view === 'framework' && state.route.view === 'clause') ||
-      (view === 'controls-browser' && state.route.view === 'control-detail') ||
+      (view === 'controls' && state.route.view === 'control-detail') ||
       (view === 'risk-management' && state.route.view === 'risk-management') ||
       (view === 'reference' && state.route.view === 'reference')
     );
@@ -1343,7 +1343,7 @@ async function render() {
     case 'section': content = renderSection(route.id); break;
     case 'clause': content = renderClause(route.id); break;
     case 'search': content = renderSearch(route.query); break;
-    case 'controls-browser':
+    case 'controls':
     case 'control-detail':
       if (!state.controls) {
         app.innerHTML = `<div class="main">${renderLoading()}</div>`;
@@ -1376,7 +1376,7 @@ async function render() {
           state.requirements = await fetchJSON('requirements/index.json');
         }
       }
-      content = route.view === 'controls-browser' ? renderControlsBrowser() : renderControlDetail(route.slug);
+      content = route.view === 'controls' ? renderControlsBrowser() : renderControlDetail(route.slug);
       break;
     case 'risk-management':
       if (!state.riskMgmt) {
@@ -1603,7 +1603,7 @@ function exportToCSV() {
   let data = [];
   let filename = `export-${view}-${new Date().toISOString().slice(0,10)}.csv`;
 
-  if (view === 'controls' || view === 'controls-browser') {
+  if (view === 'controls') {
     const lib = state.controls ? state.controls.library : {};
     for (const [domainId, controls] of Object.entries(lib)) {
       for (const c of controls) {
