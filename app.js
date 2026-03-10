@@ -16,16 +16,27 @@ const state = {
 
 const cache = new Map();
 
+function renderError(path, error) {
+  return '<div class="error-state">' +
+    '<h2>Failed to load data</h2>' +
+    '<p class="error-message">Could not fetch ' + escHtml(path) + '</p>' +
+    (error ? '<p class="error-detail">' + escHtml(String(error)) + '</p>' : '') +
+    '<button onclick="location.reload()">Retry</button>' +
+    '</div>';
+}
+
 async function fetchJSON(path) {
   if (cache.has(path)) return cache.get(path);
   try {
     const res = await fetch(path);
-    if (!res.ok) throw new Error(`Failed to load ${path}: ${res.status}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
     cache.set(path, data);
     return data;
-  } catch (err) {
-    console.warn(`fetchJSON(${path}):`, err);
+  } catch (e) {
+    console.error(`Failed to load ${path}:`, e);
+    const app = document.getElementById('app');
+    if (app) app.innerHTML = renderError(path, e);
     return null;
   }
 }
@@ -35,10 +46,16 @@ function parseHash() {
   const hash = location.hash.slice(1);
   if (!hash) return { view: 'overview' };
   if (hash.startsWith('search/')) return { view: 'search', query: decodeURIComponent(hash.slice(7)) };
+  if (hash === 'framework') return { view: 'framework' };
+  if (hash.startsWith('framework/')) return { view: 'framework-detail', id: hash.slice(10) };
   if (hash === 'controls') return { view: 'controls-browser' };
   if (hash.startsWith('control/')) return { view: 'control-detail', slug: hash.slice(8) };
   if (hash === 'risk-management') return { view: 'risk-management' };
-  if (hash === 'templates') return { view: 'templates' };
+  if (hash === 'risk' ) return { view: 'risk-management' };
+  if (hash.startsWith('risk/')) return { view: 'risk-management', sub: hash.slice(5) };
+  if (hash === 'reference') return { view: 'reference' };
+  if (hash.startsWith('reference/')) return { view: 'reference', sub: hash.slice(10) };
+  if (hash === 'templates') return { view: 'reference' };
   if (hash.includes('.')) return { view: 'clause', id: hash };
   return { view: 'section', id: hash };
 }
@@ -62,11 +79,42 @@ function renderLoading() {
   return '<div class="loading"><div class="spinner"></div><span>Loading data…</span></div>';
 }
 
+// Transform raw library.json into { domains, library, clauseMap } where
+// library is domain-keyed: { "governance-and-oversight": [ctrl1, ctrl2], ... }
+function buildControlsState(rawDomains, rawLibrary, rawClauseMap) {
+  // rawDomains = domains.json (already domain-keyed dict)
+  // rawLibrary = library.json with { _meta, domains: [...], controls: [...] }
+  // rawClauseMap = clause-map.json
+
+  // Build domain-keyed library from flat controls array
+  const library = {};
+  const controls = rawLibrary.controls || rawLibrary;
+  if (Array.isArray(controls)) {
+    for (const ctrl of controls) {
+      const domainId = ctrl.domain || ctrl.domainId || 'uncategorised';
+      if (!library[domainId]) library[domainId] = [];
+      library[domainId].push(ctrl);
+    }
+  } else if (typeof controls === 'object') {
+    // Already domain-keyed — use as-is
+    Object.assign(library, controls);
+  }
+
+  return {
+    domains: rawDomains,
+    library,
+    clauseMap: rawClauseMap ? (rawClauseMap.clauseToControls || rawClauseMap) : {},
+  };
+}
+
 // ---- View: Overview ----
 function renderOverview() {
   const sections = state.sections;
   const totalClauses = Object.keys(state.clauses).length;
   const totalSubsections = sections.reduce((s, sec) => s + sec.subsections.length, 0);
+  const controlCount = state.controls ? Object.values(state.controls.library).reduce((s, arr) => s + arr.length, 0) : '—';
+  const artifactCount = state.artifacts ? Object.values(state.artifacts.inventory).reduce((s, arr) => s + arr.length, 0) : '—';
+  const domainCount = state.controls ? Object.keys(state.controls.domains).length : '—';
 
   return `
     <div class="disclaimer">
@@ -76,25 +124,56 @@ function renderOverview() {
       <div class="stat"><div class="stat-value">${sections.length}</div><div class="stat-label">Sections</div></div>
       <div class="stat"><div class="stat-value">${totalSubsections}</div><div class="stat-label">Subsections</div></div>
       <div class="stat"><div class="stat-value">${totalClauses}</div><div class="stat-label">Clauses</div></div>
-      <div class="stat"><div class="stat-value">${state.controls ? Object.values(state.controls.library).reduce((s, arr) => s + arr.length, 0) : '—'}</div><div class="stat-label">Controls</div></div>
-      <div class="stat"><div class="stat-value">${state.artifacts ? Object.values(state.artifacts.inventory).reduce((s, arr) => s + arr.length, 0) : '—'}</div><div class="stat-label">Artifacts</div></div>
+      <div class="stat"><div class="stat-value">${controlCount}</div><div class="stat-label">Controls</div></div>
+      <div class="stat"><div class="stat-value">${artifactCount}</div><div class="stat-label">Artifacts</div></div>
     </div>
-    <div class="sec-grid">
-      ${sections.map(sec => {
+    <div class="control-grid">
+      ${sections.slice(0, 6).map(sec => {
         const clauseCount = sec.subsections.reduce((s, ss) => s + ss.clauses.length, 0);
         return `
-          <div class="sec-card sec-${sec.id}" data-nav="${sec.id}">
-            <div class="sec-card-id">\u00A7${sec.id}</div>
-            <div class="sec-card-name">${escHtml(sec.name)}</div>
-            <div class="sec-card-counts">
-              <div><span>${sec.subsections.length}</span> subsection${sec.subsections.length !== 1 ? 's' : ''}</div>
-              <div><span>${clauseCount}</span> clause${clauseCount !== 1 ? 's' : ''}</div>
+          <div class="control-card sec-${sec.id}" onclick="navigate('framework/${sec.id}')">
+            <div class="control-card-header">
+              <span class="control-id">\u00A7${sec.id}</span>
+            </div>
+            <h3 class="control-card-title">${escHtml(sec.name)}</h3>
+            <div class="control-card-meta">
+              <span class="badge badge-artifacts">${sec.subsections.length} subsections</span>
+              <span class="badge badge-evidence">${clauseCount} clauses</span>
             </div>
           </div>`;
       }).join('')}
     </div>
-    <div style="margin-top:2rem">
-      <a href="#controls" style="font-size:0.875rem">Browse Common Controls Library (${state.controls ? Object.values(state.controls.library).reduce((s, arr) => s + arr.length, 0) : '—'} controls across ${state.controls ? Object.keys(state.controls.domains).length : '—'} domains) \u2192</a>
+    <div style="margin-top:1.5rem;display:flex;gap:1.5rem;flex-wrap:wrap">
+      <a href="#framework" style="font-size:0.875rem">Browse all ${sections.length} RMiT sections \u2192</a>
+      <a href="#controls" style="font-size:0.875rem">Browse Controls Library (${controlCount} controls across ${domainCount} domains) \u2192</a>
+    </div>`;
+}
+
+// ---- View: Framework (section browsing) ----
+function renderFramework() {
+  const sections = state.sections;
+
+  return `
+    ${renderBreadcrumbs([{ label: 'Home', hash: '' }, { label: 'Framework' }])}
+    <h2 style="font-size:1.25rem;margin-bottom:0.5rem">RMiT Framework</h2>
+    <p style="font-size:0.875rem;color:var(--text-secondary);margin-bottom:1.5rem">
+      Browse all ${sections.length} sections of BNM's Risk Management in Technology policy document.
+    </p>
+    <div class="control-grid">
+      ${sections.map(sec => {
+        const clauseCount = sec.subsections.reduce((s, ss) => s + ss.clauses.length, 0);
+        return `
+          <div class="control-card sec-${sec.id}" onclick="navigate('framework/${sec.id}')">
+            <div class="control-card-header">
+              <span class="control-id">\u00A7${sec.id}</span>
+            </div>
+            <h3 class="control-card-title">${escHtml(sec.name)}</h3>
+            <div class="control-card-meta">
+              <span class="badge badge-artifacts">${sec.subsections.length} subsections</span>
+              <span class="badge badge-evidence">${clauseCount} clauses</span>
+            </div>
+          </div>`;
+      }).join('')}
     </div>`;
 }
 
@@ -104,10 +183,10 @@ function renderSection(secId) {
   if (!sec) return '<div class="error-state">Section not found.</div>';
 
   return `
-    ${renderBreadcrumbs([{ label: 'Home', hash: '' }, { label: `\u00A7${sec.id} ${sec.name}` }])}
+    ${renderBreadcrumbs([{ label: 'Home', hash: '' }, { label: 'Framework', hash: 'framework' }, { label: `\u00A7${sec.id} ${sec.name}` }])}
     <div class="sec-header">
       <div class="sec-header-title">
-        <span class="sec-badge sec-badge-${sec.id}">\u00A7${sec.id}</span>
+        <span class="badge sec-badge-${sec.id}" style="font-family:var(--mono);font-weight:700;font-size:1.25rem;padding:0.25rem 0.75rem;color:white">\u00A7${sec.id}</span>
         <h2>${escHtml(sec.name)}</h2>
       </div>
     </div>
@@ -153,7 +232,8 @@ function renderClause(clauseId) {
   return `
     ${renderBreadcrumbs([
       { label: 'Home', hash: '' },
-      { label: `\u00A7${sec.id} ${sec.name}`, hash: sec.id },
+      { label: 'Framework', hash: 'framework' },
+      { label: `\u00A7${sec.id} ${sec.name}`, hash: 'framework/' + sec.id },
       { label: `Clause ${clauseId}` }
     ])}
     <div class="clause-detail-header">
@@ -263,13 +343,18 @@ function renderEvidenceTab(clauseId) {
         <h4>${escHtml(item.name)}</h4>
         <div class="ev-id">${escHtml(item.id)}</div>
         ${item.description ? `<div class="ev-desc">${escHtml(item.description)}</div>` : ''}
-        ${item.whatGoodLooksLike && item.whatGoodLooksLike.length > 0 ? `
-          <div class="ev-section"><div class="ev-section-title">What Good Looks Like <span class="badge badge-example" title="AI-generated illustrative examples — not exhaustive or prescriptive">Example</span></div>
-            <ul class="ev-list good">${item.whatGoodLooksLike.map(w => `<li>${escHtml(w)}</li>`).join('')}</ul>
-          </div>` : ''}
-        ${item.commonGaps && item.commonGaps.length > 0 ? `
-          <div class="ev-section"><div class="ev-section-title">Common Gaps <span class="badge badge-example" title="AI-generated illustrative examples — not exhaustive">Example</span></div>
-            <ul class="ev-list gap">${item.commonGaps.map(g => `<li>${escHtml(g)}</li>`).join('')}</ul>
+        ${(item.whatGoodLooksLike && item.whatGoodLooksLike.length > 0) || (item.commonGaps && item.commonGaps.length > 0) ? `
+          <div class="evidence-detail-grid">
+            ${item.whatGoodLooksLike && item.whatGoodLooksLike.length > 0 ? `
+            <div class="evidence-block evidence-good">
+              <div class="evidence-block-label">What Good Looks Like</div>
+              <ul>${item.whatGoodLooksLike.map(w => `<li>${escHtml(w)}</li>`).join('')}</ul>
+            </div>` : ''}
+            ${item.commonGaps && item.commonGaps.length > 0 ? `
+            <div class="evidence-block evidence-gap">
+              <div class="evidence-block-label">Common Gaps</div>
+              <ul>${item.commonGaps.map(g => `<li>${escHtml(g)}</li>`).join('')}</ul>
+            </div>` : ''}
           </div>` : ''}
         <div class="ev-meta">
           ${item.suggestedSources ? `<div>Sources: <span>${escHtml(item.suggestedSources.join(', '))}</span></div>` : ''}
@@ -486,128 +571,193 @@ function renderControlDetail(slug) {
     }
   });
 
-  // ---- Audit Package HTML ----
+  // (Audit package HTML built below after requirements)
+
+  // ---- Build requirements from clause data ----
+  const reqLegal = [];
+  const reqTechnical = [];
+  const reqGovernance = [];
+  if (state.requirements) {
+    clauses.forEach(cid => {
+      const req = state.requirements[cid];
+      if (!req) return;
+      if (req.business && req.business.requirements) req.business.requirements.forEach(r => reqLegal.push(r.requirement));
+      if (req.technology && req.technology.requirements) req.technology.requirements.forEach(r => reqTechnical.push(r.requirement));
+      if (req.governance && req.governance.requirements) req.governance.requirements.forEach(r => reqGovernance.push(r.requirement));
+    });
+  }
+  const hasRequirements = reqLegal.length || reqTechnical.length || reqGovernance.length;
+
+  // ---- Build audit package HTML (Evidence FIRST, then Artifacts) ----
   const auditPackageHTML = (linkedArtifacts.length || linkedEvidence.length) ? `
-    <div class="audit-package">
-      <div class="audit-package-title">Audit Package</div>
-      <div class="audit-package-summary">${linkedArtifacts.length} artifact${linkedArtifacts.length !== 1 ? 's' : ''} &middot; ${linkedEvidence.length} evidence item${linkedEvidence.length !== 1 ? 's' : ''}</div>
-      <div class="template-ai-note">Templates are AI-generated starting points — review and customize before use.</div>
-      ${linkedArtifacts.length ? `
-      <div class="accordion-item">
-        <button class="accordion-trigger" data-accordion>
-          <span class="accordion-trigger-left">
-            <span>Required Artifacts</span>
-            <span style="color:var(--text-muted);font-weight:400;font-size:0.8125rem">(${linkedArtifacts.length})</span>
-          </span>
-          <span class="chevron">&#9654;</span>
-        </button>
-        <div class="accordion-content">
-          ${linkedArtifacts.map(a => `
-            <div class="artifact-link-card">
-              <div class="artifact-link-header">
-                <span class="artifact-link-name">${escHtml(a.name)}</span>
-                ${a.mandatory ? '<span class="badge badge-mandatory">Mandatory</span>' : ''}
-              </div>
-              <div class="artifact-link-meta">
-                ${a.category ? `<span class="badge badge-category">${escHtml(a.category)}</span>` : ''}
-                ${a.owner ? `<span class="badge badge-owner">${escHtml(a.owner)}</span>` : ''}
-                ${a.reviewFrequency ? `<span class="badge badge-frequency">${escHtml(a.reviewFrequency)}</span>` : ''}
-              </div>
-              ${a.keyContents && a.keyContents.length ? `
-                <ul class="artifact-link-contents">
-                  ${a.keyContents.map(k => `<li>${escHtml(k)}</li>`).join('')}
-                </ul>` : ''}
-            </div>`).join('')}
-        </div>
-      </div>` : ''}
+    <section class="audit-package">
+      <h2 class="audit-package-title">
+        Audit Package
+        <span class="audit-package-counts">
+          <span class="badge badge-evidence">${linkedEvidence.length} evidence item${linkedEvidence.length !== 1 ? 's' : ''}</span>
+          <span class="badge badge-artifacts">${linkedArtifacts.length} artifact${linkedArtifacts.length !== 1 ? 's' : ''}</span>
+        </span>
+      </h2>
       ${linkedEvidence.length ? `
-      <div class="accordion-item">
-        <button class="accordion-trigger" data-accordion>
-          <span class="accordion-trigger-left">
-            <span>Evidence Checklist</span>
-            <span style="color:var(--text-muted);font-weight:400;font-size:0.8125rem">(${linkedEvidence.length})</span>
-          </span>
-          <span class="chevron">&#9654;</span>
-        </button>
-        <div class="accordion-content">
-          ${linkedEvidence.map(item => `
-            <div class="evidence-checklist-item">
-              <div class="evidence-checklist-header">
-                <span class="evidence-checklist-name">${escHtml(item.name)}</span>
-                ${item.format ? `<span class="badge badge-category">${escHtml(item.format)}</span>` : ''}
-              </div>
-              <p class="evidence-checklist-desc">${escHtml(item.description || '')}</p>
-              ${item.retentionPeriod ? `<div class="evidence-checklist-retention">Retention: <strong>${escHtml(item.retentionPeriod)}</strong></div>` : ''}
-              ${item.suggestedSources && item.suggestedSources.length ? `<div class="evidence-checklist-sources">Sources: ${item.suggestedSources.map(s => escHtml(s)).join(', ')}</div>` : ''}
-              ${item.whatGoodLooksLike && item.whatGoodLooksLike.length ? `
-              <div class="accordion-item">
-                <button class="accordion-trigger" data-accordion>
-                  <span class="accordion-trigger-left"><span>What Good Looks Like</span></span>
-                  <span class="chevron">&#9654;</span>
-                </button>
-                <div class="accordion-content">
-                  <ul class="evidence-good">${item.whatGoodLooksLike.map(w => `<li>${escHtml(w)}</li>`).join('')}</ul>
+      <div class="accordion">
+        <div class="accordion-item">
+          <button class="accordion-trigger" data-accordion>
+            <span>Evidence Checklist (${linkedEvidence.length})</span>
+            <span class="accordion-icon">&#9660;</span>
+          </button>
+          <div class="accordion-content">
+            ${linkedEvidence.map(item => `
+              <div class="evidence-item">
+                <div class="evidence-item-header">
+                  <span class="evidence-id">${escHtml(item.id)}</span>
+                  <span class="evidence-item-name">${escHtml(item.name)}</span>
                 </div>
-              </div>` : ''}
-              ${item.commonGaps && item.commonGaps.length ? `
-              <div class="accordion-item">
-                <button class="accordion-trigger" data-accordion>
-                  <span class="accordion-trigger-left"><span>Common Gaps</span></span>
-                  <span class="chevron">&#9654;</span>
-                </button>
-                <div class="accordion-content">
-                  <ul class="evidence-gap">${item.commonGaps.map(g => `<li>${escHtml(g)}</li>`).join('')}</ul>
+                ${item.description ? `<p class="evidence-item-desc">${escHtml(item.description)}</p>` : ''}
+                ${(item.whatGoodLooksLike && item.whatGoodLooksLike.length) || (item.commonGaps && item.commonGaps.length) ? `
+                <div class="evidence-detail-grid">
+                  ${item.whatGoodLooksLike && item.whatGoodLooksLike.length ? `
+                  <div class="evidence-block evidence-good">
+                    <div class="evidence-block-label">What Good Looks Like</div>
+                    <ul>${item.whatGoodLooksLike.map(w => `<li>${escHtml(w)}</li>`).join('')}</ul>
+                  </div>` : ''}
+                  ${item.commonGaps && item.commonGaps.length ? `
+                  <div class="evidence-block evidence-gap">
+                    <div class="evidence-block-label">Common Gaps</div>
+                    <ul>${item.commonGaps.map(g => `<li>${escHtml(g)}</li>`).join('')}</ul>
+                  </div>` : ''}
+                </div>` : ''}
+                <div class="evidence-item-meta">
+                  ${item.format ? `<span class="meta-item"><strong>Format:</strong> ${escHtml(item.format)}</span>` : ''}
+                  ${item.retentionPeriod ? `<span class="meta-item"><strong>Retention:</strong> ${escHtml(item.retentionPeriod)}</span>` : ''}
+                  ${item.suggestedSources && item.suggestedSources.length ? `<span class="meta-item"><strong>Source:</strong> ${item.suggestedSources.map(s => escHtml(s)).join(', ')}</span>` : ''}
                 </div>
-              </div>` : ''}
-            </div>`).join('')}
+              </div>`).join('')}
+          </div>
         </div>
       </div>` : ''}
-    </div>` : '';
+      ${linkedArtifacts.length ? `
+      <div class="accordion">
+        <div class="accordion-item">
+          <button class="accordion-trigger" data-accordion>
+            <span>Required Artifacts (${linkedArtifacts.length})</span>
+            <span class="accordion-icon">&#9660;</span>
+          </button>
+          <div class="accordion-content">
+            ${linkedArtifacts.map(a => `
+              <div class="artifact-card">
+                <div class="artifact-card-header">
+                  <span class="artifact-card-name">${escHtml(a.name)}</span>
+                  <div class="artifact-card-badges">
+                    ${a.mandatory ? '<span class="badge badge-mandatory">Mandatory</span>' : '<span class="badge badge-optional">Optional</span>'}
+                    ${a.category ? `<span class="badge badge-category">${escHtml(a.category)}</span>` : ''}
+                  </div>
+                </div>
+                ${a.description ? `<p class="artifact-card-desc">${escHtml(a.description)}</p>` : ''}
+                <div class="artifact-card-meta">
+                  ${a.owner ? `<span class="meta-item"><strong>Owner:</strong> ${escHtml(a.owner)}</span>` : ''}
+                  ${a.reviewFrequency ? `<span class="meta-item"><strong>Review:</strong> ${escHtml(a.reviewFrequency)}</span>` : ''}
+                </div>
+                ${a.keyContents && a.keyContents.length ? `
+                  <div class="artifact-card-contents">
+                    <strong>Key Contents:</strong>
+                    <ul>${a.keyContents.map(k => `<li>${escHtml(k)}</li>`).join('')}</ul>
+                  </div>` : ''}
+              </div>`).join('')}
+          </div>
+        </div>
+      </div>` : ''}
+    </section>` : '';
 
   return `
-    ${renderBreadcrumbs([{ label: 'Home', hash: '' }, { label: 'Controls Library', hash: 'controls' }, { label: ctrl.name }])}
+    <article class="control-detail">
+    ${renderBreadcrumbs([{ label: 'Home', hash: '' }, { label: 'Controls', hash: 'controls' }, { label: ctrl.name }])}
     ${renderComplianceToggle(slug)}
-    <div class="control-card" style="margin-bottom:1.5rem">
-      <h2 style="font-size:1.25rem;margin-bottom:0.5rem">${escHtml(ctrl.name)}</h2>
-      <div class="control-meta">
+
+    <!-- Header -->
+    <header class="control-detail-header">
+      <div class="control-detail-id-row">
         <span class="badge badge-domain">${escHtml(domain?.name || domainId)}</span>
-        <span class="badge badge-type">${escHtml(ctrl.type)}</span>
-        <span class="badge badge-layer">${escHtml(ctrl.layer)}</span>
+        <span class="badge badge-type-${ctrl.type === 'Preventive' ? 'preventive' : ctrl.type === 'Detective' ? 'detective' : 'corrective'}">${escHtml(ctrl.type)}</span>
+        ${ctrl.layer ? `<span class="badge badge-category">${escHtml(ctrl.layer)}</span>` : ''}
       </div>
-      <p class="control-desc">${escHtml(ctrl.description)}</p>
-      ${ctrl.keyActivities && ctrl.keyActivities.length > 0 ? `
-        <div class="key-activities"><h5>Key Activities</h5>
-          <ul>${ctrl.keyActivities.map(a => `<li>${escHtml(a)}</li>`).join('')}</ul>
+      <h1 class="control-detail-title">${escHtml(ctrl.name)}</h1>
+      <p class="control-detail-desc">${escHtml(ctrl.description)}</p>
+    </header>
+
+    <!-- Section 1: Requirements -->
+    ${hasRequirements ? `
+    <section class="detail-section">
+      <h2 class="detail-section-title">Requirements</h2>
+      <div class="requirements-grid">
+        ${reqLegal.length ? `
+        <div class="requirement-block requirement-legal">
+          <div class="requirement-block-label">Legal / Regulatory</div>
+          <ul>${reqLegal.map(r => `<li>${escHtml(r)}</li>`).join('')}</ul>
         </div>` : ''}
-      ${ctrl.maturity ? `
-        <div class="maturity-grid">
-          <div class="maturity-card maturity-basic"><h5>Basic</h5><p>${escHtml(ctrl.maturity.basic)}</p></div>
-          <div class="maturity-card maturity-mature"><h5>Mature</h5><p>${escHtml(ctrl.maturity.mature)}</p></div>
-          <div class="maturity-card maturity-advanced"><h5>Advanced</h5><p>${escHtml(ctrl.maturity.advanced)}</p></div>
+        ${reqTechnical.length ? `
+        <div class="requirement-block requirement-technical">
+          <div class="requirement-block-label">Technical</div>
+          <ul>${reqTechnical.map(r => `<li>${escHtml(r)}</li>`).join('')}</ul>
         </div>` : ''}
-      ${(ctrl.nist || ctrl.iso27001) ? `
-        <div class="fw-mappings" style="margin-top:1rem">
-          ${ctrl.nist && ctrl.nist.length > 0 ? `<div>NIST CSF: <span>${ctrl.nist.map(n => escHtml(n)).join(', ')}</span></div>` : ''}
-          ${ctrl.iso27001 && ctrl.iso27001.length > 0 ? `<div>ISO 27001: <span>${ctrl.iso27001.map(n => escHtml(n)).join(', ')}</span></div>` : ''}
+        ${reqGovernance.length ? `
+        <div class="requirement-block requirement-governance">
+          <div class="requirement-block-label">Governance</div>
+          <ul>${reqGovernance.map(r => `<li>${escHtml(r)}</li>`).join('')}</ul>
         </div>` : ''}
-      ${ctrl.toolExamples && ctrl.toolExamples.length > 0 ? `
-        <div style="margin-top:0.75rem;font-size:0.8125rem;color:var(--text-muted)">
-          Tools: <span style="font-weight:600;color:var(--text-secondary)">${ctrl.toolExamples.map(t => escHtml(t)).join(', ')}</span>
-        </div>` : ''}
-    </div>
-    <h3 style="font-size:1rem;margin-bottom:0.75rem">Mapped Clauses</h3>
-    <ul class="clause-list" style="background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:0.5rem 1rem">
-      ${ctrl.clauses.map(cid => {
-        const cl = state.clauses[cid];
-        if (!cl) return `<li><a class="clause-link" href="#${cid}"><span class="clause-id">${cid}</span></a></li>`;
-        return `<li><a class="clause-link" href="#${cid}">
-          <span class="clause-id">${cid}</span>
-          <span class="clause-title">${escHtml(cl.title)}</span>
-          <span class="clause-marker marker-${cl.marker}">${cl.marker === 'S' ? 'Shall' : 'Should'}</span>
-        </a></li>`;
-      }).join('')}
-    </ul>
-    ${auditPackageHTML}`;
+      </div>
+    </section>` : ''}
+
+    <!-- Section 2: Key Activities -->
+    ${ctrl.keyActivities && ctrl.keyActivities.length > 0 ? `
+    <section class="detail-section">
+      <h2 class="detail-section-title">Key Activities</h2>
+      <ul class="activity-list">${ctrl.keyActivities.map(a => `<li>${escHtml(a)}</li>`).join('')}</ul>
+    </section>` : ''}
+
+    <!-- Section 3: Maturity Levels -->
+    ${ctrl.maturity ? `
+    <section class="detail-section">
+      <h2 class="detail-section-title">Maturity Levels</h2>
+      <div class="maturity-grid">
+        <div class="maturity-card maturity-basic"><div class="maturity-label">Basic</div><p>${escHtml(ctrl.maturity.basic)}</p></div>
+        <div class="maturity-card maturity-mature"><div class="maturity-label">Mature</div><p>${escHtml(ctrl.maturity.mature)}</p></div>
+        <div class="maturity-card maturity-advanced"><div class="maturity-label">Advanced</div><p>${escHtml(ctrl.maturity.advanced)}</p></div>
+      </div>
+    </section>` : ''}
+
+    <!-- Section 4: Audit Package -->
+    ${auditPackageHTML}
+
+    <!-- Section 5: Framework Mappings -->
+    ${(ctrl.nist || ctrl.iso27001) ? `
+    <section class="detail-section">
+      <h2 class="detail-section-title">Framework Mappings</h2>
+      <div class="fw-mappings">
+        ${ctrl.nist && ctrl.nist.length > 0 ? `<div class="fw-mapping-row"><span class="fw-label">NIST CSF 2.0</span><span class="fw-codes">${ctrl.nist.map(n => escHtml(n)).join(', ')}</span></div>` : ''}
+        ${ctrl.iso27001 && ctrl.iso27001.length > 0 ? `<div class="fw-mapping-row"><span class="fw-label">ISO 27001</span><span class="fw-codes">${ctrl.iso27001.map(n => escHtml(n)).join(', ')}</span></div>` : ''}
+      </div>
+    </section>` : ''}
+
+    <!-- Section 6: Source Provisions -->
+    ${ctrl.clauses && ctrl.clauses.length > 0 ? `
+    <section class="detail-section">
+      <h2 class="detail-section-title">Source Provisions</h2>
+      <div class="provision-links">
+        ${ctrl.clauses.map(cid => {
+          const cl = state.clauses[cid];
+          return `<a href="#${cid}" class="provision-link">
+            <span class="provision-id">${escHtml(cid)}</span>
+            <span class="provision-title">${cl ? escHtml(cl.title) : ''}</span>
+          </a>`;
+        }).join('')}
+      </div>
+    </section>` : ''}
+
+    ${ctrl.toolExamples && ctrl.toolExamples.length > 0 ? `
+      <div style="margin-top:0.75rem;font-size:0.8125rem;color:var(--text-muted)">
+        Tools: <span style="font-weight:600;color:var(--text-secondary)">${ctrl.toolExamples.map(t => escHtml(t)).join(', ')}</span>
+      </div>` : ''}
+    </article>`;
 }
 
 // ---- View: Risk Management ----
@@ -1015,6 +1165,108 @@ function renderTemplates() {
     </div>`;
 }
 
+// ---- View: Reference (wraps Templates + cross-references) ----
+function renderReference() {
+  return `
+    ${renderBreadcrumbs([{ label: 'Home', hash: '' }, { label: 'Reference' }])}
+    <h2 style="font-size:1.25rem;margin-bottom:0.5rem">Reference</h2>
+    <p style="font-size:0.875rem;color:var(--text-secondary);margin-bottom:1rem">
+      Document templates, cross-framework mappings, and supplementary references for BNM RMiT compliance.
+    </p>
+    <div class="sub-tabs">
+      <button class="sub-tab active" data-sub="templates">Templates${state.templates ? ' (' + state.templates.totalCount + ')' : ''}</button>
+      <button class="sub-tab" data-sub="cross-references">Cross-References</button>
+    </div>
+    <div class="sub-panel active" data-subpanel="templates">${renderTemplatesPanel()}</div>
+    <div class="sub-panel" data-subpanel="cross-references">${renderCrossReferencesPanel()}</div>`;
+}
+
+function renderTemplatesPanel() {
+  if (!state.templates) return '<p class="empty-state">No templates data available.</p>';
+  const { categories, templates, totalCount } = state.templates;
+  const mandatoryCount = templates.filter(t => t.mandatory).length;
+
+  return `
+    <div class="template-disclaimer">
+      <strong>AI-Generated Templates</strong>
+      These document templates were generated using AI and are provided as indicative starting points only. They must be reviewed, customized, and validated by qualified compliance, legal, and risk professionals before use.
+    </div>
+    <div class="template-stats">
+      <div class="template-stat">
+        <div class="template-stat-value">${totalCount}</div>
+        <div class="template-stat-label">Total</div>
+      </div>
+      <div class="template-stat">
+        <div class="template-stat-value">${mandatoryCount}</div>
+        <div class="template-stat-label">Mandatory</div>
+      </div>
+      ${categories.map(c => `
+        <div class="template-stat">
+          <div class="template-stat-value">${c.count}</div>
+          <div class="template-stat-label">${escHtml(c.id)}</div>
+        </div>`).join('')}
+    </div>
+    <div class="template-search">
+      <input type="text" id="template-search-input" placeholder="Search templates by name, owner, or category..." autocomplete="off" aria-label="Search templates">
+    </div>
+    <div class="template-filters">
+      <button class="template-filter-btn active" data-tmpl-filter="all">All (${totalCount})</button>
+      ${categories.map(c => `<button class="template-filter-btn" data-tmpl-filter="${escHtml(c.id)}">${escHtml(c.id.charAt(0).toUpperCase() + c.id.slice(1))} (${c.count})</button>`).join('')}
+    </div>
+    <div class="template-results-count" id="template-results-count">Showing ${totalCount} templates</div>
+    <div style="overflow-x:auto">
+      <table class="template-table">
+        <thead>
+          <tr>
+            <th>Template</th>
+            <th>Category</th>
+            <th>Owner</th>
+            <th>Mandatory</th>
+            <th>Review</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="template-table-body">
+          ${templates.map(t => `
+            <tr class="tmpl-row" data-tmpl-category="${escHtml(t.category)}" data-tmpl-search="${escHtml((t.name + ' ' + t.category + ' ' + t.owner).toLowerCase())}">
+              <td class="tmpl-name">${escHtml(t.name)}</td>
+              <td><span class="template-category-badge cat-${escHtml(t.category)}">${escHtml(t.category)}</span></td>
+              <td class="tmpl-owner">${escHtml(t.owner)}</td>
+              <td class="${t.mandatory ? 'tmpl-mandatory-yes' : 'tmpl-mandatory-no'}">${t.mandatory ? 'Yes' : 'No'}</td>
+              <td class="tmpl-review">${escHtml(t.reviewFrequency)}</td>
+              <td><a href="${escHtml(t.githubUrl)}" target="_blank" rel="noopener noreferrer" class="tmpl-view-link">View on GitHub</a></td>
+            </tr>`).join('')}
+        </tbody>
+      </table>
+    </div>`;
+}
+
+function renderCrossReferencesPanel() {
+  if (!state.controls) return '<p class="empty-state">No cross-reference data available.</p>';
+  const mappings = [];
+  for (const [domainId, controls] of Object.entries(state.controls.library)) {
+    for (const ctrl of controls) {
+      if (ctrl.nist && ctrl.nist.length) {
+        ctrl.nist.forEach(n => mappings.push({ source: ctrl.name, target: n, framework: 'NIST CSF 2.0' }));
+      }
+      if (ctrl.iso27001 && ctrl.iso27001.length) {
+        ctrl.iso27001.forEach(n => mappings.push({ source: ctrl.name, target: n, framework: 'ISO 27001' }));
+      }
+    }
+  }
+
+  if (!mappings.length) return '<p class="empty-state">No cross-framework mappings available.</p>';
+
+  return `
+    <p style="font-size:0.875rem;color:var(--text-secondary);margin-bottom:1rem">${mappings.length} cross-framework mappings found.</p>
+    ${mappings.slice(0, 50).map(m => `
+      <div class="xref-card">
+        <span class="xref-source">${escHtml(m.source)}</span>
+        <span class="xref-target">${escHtml(m.framework)}: ${escHtml(m.target)}</span>
+      </div>`).join('')}
+    ${mappings.length > 50 ? `<p style="font-size:0.8125rem;color:var(--text-muted);margin-top:0.75rem">${mappings.length - 50} more mappings available.</p>` : ''}`;
+}
+
 function filterTemplates() {
   const searchInput = document.getElementById('template-search-input');
   const query = searchInput ? searchInput.value.trim().toLowerCase() : '';
@@ -1038,11 +1290,13 @@ function updateNav() {
   document.querySelectorAll('.nav-link').forEach(el => {
     const view = el.dataset.view;
     el.classList.toggle('active', view === state.route.view ||
-      (view === 'overview' && state.route.view === 'section') ||
-      (view === 'overview' && state.route.view === 'clause') ||
+      (view === 'framework' && state.route.view === 'framework') ||
+      (view === 'framework' && state.route.view === 'framework-detail') ||
+      (view === 'framework' && state.route.view === 'section') ||
+      (view === 'framework' && state.route.view === 'clause') ||
       (view === 'controls-browser' && state.route.view === 'control-detail') ||
       (view === 'risk-management' && state.route.view === 'risk-management') ||
-      (view === 'templates' && state.route.view === 'templates')
+      (view === 'reference' && state.route.view === 'reference')
     );
   });
 }
@@ -1070,7 +1324,7 @@ async function render() {
       state.clauses = {};
       for (const cl of clausesArr) state.clauses[cl.id] = cl;
       if (controlDomains && controlLibrary && controlClauseMap) {
-        state.controls = { domains: controlDomains, library: controlLibrary, clauseMap: controlClauseMap.clauseToControls };
+        state.controls = buildControlsState(controlDomains, controlLibrary, controlClauseMap);
       }
       if (artifactInventory && artifactClauseMap) {
         state.artifacts = { inventory: artifactInventory, clauseMap: artifactClauseMap.clauseToArtifacts };
@@ -1084,6 +1338,8 @@ async function render() {
   let content = '';
   switch (route.view) {
     case 'overview': content = renderOverview(); break;
+    case 'framework': content = renderFramework(); break;
+    case 'framework-detail': content = renderSection(route.id); break;
     case 'section': content = renderSection(route.id); break;
     case 'clause': content = renderClause(route.id); break;
     case 'search': content = renderSearch(route.query); break;
@@ -1097,7 +1353,7 @@ async function render() {
             fetchJSON('controls/library.json'),
             fetchJSON('controls/clause-map.json'),
           ]);
-          state.controls = { domains, library, clauseMap: clauseMap.clauseToControls };
+          state.controls = buildControlsState(domains, library, clauseMap);
         } catch (err) {
           app.innerHTML = `<div class="main"><div class="error-state">Failed to load controls: ${escHtml(err.message)}</div></div>`;
           return;
@@ -1109,10 +1365,15 @@ async function render() {
             fetchJSON('artifacts/inventory.json'),
             fetchJSON('artifacts/clause-map.json'),
           ]);
-          state.artifacts = { inventory, clauseMap: clauseMap.clauseToArtifacts };
+          if (inventory && clauseMap) {
+            state.artifacts = { inventory, clauseMap: clauseMap.clauseToArtifacts };
+          }
         }
         if (!state.evidence) {
           state.evidence = await fetchJSON('evidence/index.json');
+        }
+        if (!state.requirements) {
+          state.requirements = await fetchJSON('requirements/index.json');
         }
       }
       content = route.view === 'controls-browser' ? renderControlsBrowser() : renderControlDetail(route.slug);
@@ -1136,17 +1397,16 @@ async function render() {
       }
       content = renderRiskManagement();
       break;
-    case 'templates':
+    case 'reference':
       if (!state.templates) {
         app.innerHTML = `<div class="main">${renderLoading()}</div>`;
-        try {
-          state.templates = await fetchJSON('templates/index.json');
-        } catch (err) {
-          app.innerHTML = `<div class="main"><div class="error-state">Failed to load templates: ${escHtml(err.message)}</div></div>`;
+        state.templates = await fetchJSON('templates/index.json');
+        if (!state.templates) {
+          showError('templates/index.json');
           return;
         }
       }
-      content = renderTemplates();
+      content = renderReference();
       break;
     default: content = renderOverview();
   }
@@ -1182,7 +1442,7 @@ async function activateTab(tabName, clauseId) {
             fetchJSON('controls/library.json'),
             fetchJSON('controls/clause-map.json'),
           ]);
-          state.controls = { domains, library, clauseMap: clauseMap.clauseToControls };
+          state.controls = buildControlsState(domains, library, clauseMap);
         }
         panel.innerHTML = renderControlsTab(clauseId);
         break;
@@ -1246,6 +1506,15 @@ function setupEvents() {
     if (e.target.closest('[data-close-risk]')) {
       const panel = document.getElementById('risk-detail-panel');
       if (panel) { panel.style.display = 'none'; panel.dataset.currentRisk = ''; }
+      return;
+    }
+
+    // Sub-tab clicks
+    const subTab = e.target.closest('.sub-tab');
+    if (subTab) {
+      const subName = subTab.dataset.sub;
+      subTab.closest('.sub-tabs').querySelectorAll('.sub-tab').forEach(b => b.classList.toggle('active', b === subTab));
+      document.querySelectorAll('.sub-panel').forEach(p => p.classList.toggle('active', p.dataset.subpanel === subName));
       return;
     }
 
@@ -1332,14 +1601,18 @@ function exportToCSV() {
   let data = [];
   let filename = `export-${view}-${new Date().toISOString().slice(0,10)}.csv`;
 
-  if (view === 'controls') {
-    const list = state.controls.library || state.controls;
-    data = list.map(c => ({
-      ID: c.id || '',
-      Name: c.name,
-      Domain: c.domain,
-      Description: c.description.replace(/\n/g, ' ')
-    }));
+  if (view === 'controls' || view === 'controls-browser') {
+    const lib = state.controls ? state.controls.library : {};
+    for (const [domainId, controls] of Object.entries(lib)) {
+      for (const c of controls) {
+        data.push({
+          ID: c.id || c.slug || '',
+          Name: c.name,
+          Domain: domainId,
+          Description: (c.description || '').replace(/\n/g, ' ')
+        });
+      }
+    }
   } else if (view === 'risk-management') {
     const list = state.riskManagement?.register || [];
     data = list.map(r => ({
@@ -1385,7 +1658,7 @@ function setComplianceStatus(slug, status) {
   const data = JSON.parse(localStorage.getItem('rmit_compliance_status') || '{}');
   data[slug] = status;
   localStorage.setItem('rmit_compliance_status', JSON.stringify(data));
-  router(); // Use the existing router() or render() function to refresh
+  render();
 }
 
 function renderComplianceToggle(slug) {
