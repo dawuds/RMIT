@@ -32,7 +32,7 @@
 - [ ] ARIA accessibility audit — ensure all interactive elements are keyboard-navigable and screen-reader friendly
 
 ### Medium Priority
-- [ ] Compliance chain visualization — graph view showing clause-to-control-to-artifact-to-evidence relationships
+- [x] Compliance chain visualization — graph view showing clause-to-control-to-artifact-to-evidence relationships
 - [ ] Cross-repo data sync — `compliance` and `compliance-cloud` repos embed stale RMIT clause data (100% of verbatim texts, titles, translations differ from corrected source)
 
 ### Low Priority
