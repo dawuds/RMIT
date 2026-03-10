@@ -1176,9 +1176,11 @@ function renderReference() {
     <div class="sub-tabs">
       <button class="sub-tab active" data-sub="templates">Templates${state.templates ? ' (' + state.templates.totalCount + ')' : ''}</button>
       <button class="sub-tab" data-sub="cross-references">Cross-References</button>
+      <button class="sub-tab" data-sub="compliance-chain">Compliance Chain</button>
     </div>
     <div class="sub-panel active" data-subpanel="templates">${renderTemplatesPanel()}</div>
-    <div class="sub-panel" data-subpanel="cross-references">${renderCrossReferencesPanel()}</div>`;
+    <div class="sub-panel" data-subpanel="cross-references">${renderCrossReferencesPanel()}</div>
+    <div class="sub-panel" data-subpanel="compliance-chain">${renderComplianceChain()}</div>`;
 }
 
 function renderTemplatesPanel() {
@@ -1265,6 +1267,190 @@ function renderCrossReferencesPanel() {
         <span class="xref-target">${escHtml(m.framework)}: ${escHtml(m.target)}</span>
       </div>`).join('')}
     ${mappings.length > 50 ? `<p style="font-size:0.8125rem;color:var(--text-muted);margin-top:0.75rem">${mappings.length - 50} more mappings available.</p>` : ''}`;
+}
+
+function renderComplianceChain() {
+  if (!state.controls) return '<p class="empty-state">Controls data not loaded. Browse a clause first to load controls.</p>';
+  const allControls = [];
+  for (const [domainId, controls] of Object.entries(state.controls.library)) {
+    for (const ctrl of controls) {
+      allControls.push(ctrl);
+    }
+  }
+  if (!allControls.length) return '<p class="empty-state">No controls available for compliance chain visualization.</p>';
+
+  const options = allControls.map(c =>
+    `<option value="${escHtml(c.slug)}">${escHtml(c.name)}</option>`
+  ).join('');
+
+  return `
+    <div class="compliance-chain">
+      <p style="font-size:0.875rem;color:var(--text-secondary);margin-bottom:0.75rem">
+        Select a control to see how it maps across compliance frameworks: RMiT, NIST CSF 2.0, and ISO 27001.
+      </p>
+      <div class="compliance-chain-select">
+        <select id="chain-control-select" onchange="updateComplianceChain()">
+          <option value="">-- Select a control --</option>
+          ${options}
+        </select>
+      </div>
+      <div id="chain-visualization"></div>
+      <div class="chain-legend">
+        <div class="chain-legend-item"><div class="chain-legend-swatch" style="background:#1E40AF"></div>BNM RMiT</div>
+        <div class="chain-legend-item"><div class="chain-legend-swatch" style="background:#0E7490"></div>NIST CSF 2.0</div>
+        <div class="chain-legend-item"><div class="chain-legend-swatch" style="background:#7C3AED"></div>ISO 27001</div>
+      </div>
+    </div>`;
+}
+
+function updateComplianceChain() {
+  const select = document.getElementById('chain-control-select');
+  const viz = document.getElementById('chain-visualization');
+  if (!select || !viz) return;
+  const slug = select.value;
+  if (!slug) { viz.innerHTML = '<p class="chain-empty">Select a control above to view its compliance chain.</p>'; return; }
+
+  let ctrl = null;
+  for (const controls of Object.values(state.controls.library)) {
+    ctrl = controls.find(c => c.slug === slug);
+    if (ctrl) break;
+  }
+  if (!ctrl) { viz.innerHTML = '<p class="chain-empty">Control not found.</p>'; return; }
+
+  const nodes = [];
+
+  // Source node: RMiT control
+  nodes.push({
+    fw: 'rmit', fwLabel: 'BNM RMiT', id: ctrl.name,
+    title: ctrl.description ? ctrl.description.slice(0, 120) + (ctrl.description.length > 120 ? '...' : '') : '',
+    detail: 'Clauses: ' + (ctrl.clauses || []).join(', ') + (ctrl.type ? ' | Type: ' + ctrl.type : '') + (ctrl.layer ? ' | Layer: ' + ctrl.layer : ''),
+  });
+
+  // NIST CSF mappings
+  if (ctrl.nist && ctrl.nist.length) {
+    for (const nistId of ctrl.nist) {
+      nodes.push({
+        fw: 'nist', fwLabel: 'NIST CSF 2.0', id: nistId,
+        title: getNistTitle(nistId),
+        detail: 'NIST Cybersecurity Framework 2.0 subcategory',
+      });
+    }
+  }
+
+  // ISO 27001 mappings
+  if (ctrl.iso27001 && ctrl.iso27001.length) {
+    for (const isoId of ctrl.iso27001) {
+      nodes.push({
+        fw: 'iso', fwLabel: 'ISO 27001', id: isoId,
+        title: getIsoTitle(isoId),
+        detail: 'ISO/IEC 27001:2022 Annex A control',
+      });
+    }
+  }
+
+  if (nodes.length <= 1) {
+    viz.innerHTML = '<p class="chain-empty">This control has no cross-framework mappings.</p>';
+    return;
+  }
+
+  viz.innerHTML = '<div class="chain-flow">' + nodes.map((n, i) =>
+    '<div class="chain-step">' +
+      (i > 0 ? '<div class="chain-arrow"></div>' : '') +
+      '<div class="chain-node fw-' + n.fw + '" onclick="this.classList.toggle(\'expanded\')">' +
+        '<div class="chain-node-framework">' + escHtml(n.fwLabel) + '</div>' +
+        '<div class="chain-node-id">' + escHtml(n.id) + '</div>' +
+        '<div class="chain-node-title">' + escHtml(n.title) + '</div>' +
+        '<div class="chain-node-detail">' + escHtml(n.detail) + '</div>' +
+      '</div>' +
+    '</div>'
+  ).join('') + '</div>';
+}
+
+function getNistTitle(id) {
+  const nistTitles = {
+    'GV.OV-01': 'Cybersecurity risk management strategy objectives are established',
+    'GV.OV-02': 'Cybersecurity risk management activities and outcomes are reviewed',
+    'GV.OC-01': 'Organizational context for risk management is understood',
+    'GV.OC-02': 'Internal and external stakeholders are understood',
+    'GV.OC-03': 'Legal, regulatory, and contractual requirements are understood',
+    'GV.OC-04': 'Critical objectives, capabilities, and services are understood',
+    'GV.RM-01': 'Risk management objectives are established and expressed',
+    'GV.RM-02': 'Risk appetite and tolerance statements are established',
+    'GV.RR-01': 'Organizational leadership is responsible and accountable',
+    'GV.SC-01': 'Supply chain risk management program is established',
+    'ID.AM-01': 'Hardware asset inventories are maintained',
+    'ID.AM-02': 'Software and services inventories are maintained',
+    'ID.AM-03': 'Representations of authorized network communication are maintained',
+    'ID.RA-01': 'Vulnerabilities in assets are identified',
+    'ID.RA-02': 'Cyber threat intelligence is received',
+    'ID.RA-03': 'Internal and external threats are identified',
+    'ID.RA-05': 'Risks are used to determine likelihood and impact',
+    'PR.AA-01': 'Identities and credentials are managed',
+    'PR.AA-02': 'Identities are proofed and bound to credentials',
+    'PR.AA-03': 'Users, services, and hardware are authenticated',
+    'PR.AA-05': 'Access permissions and authorizations are defined',
+    'PR.DS-01': 'Data-at-rest is protected',
+    'PR.DS-02': 'Data-in-transit is protected',
+    'PR.PS-01': 'Configuration baselines are established',
+    'PR.PS-02': 'Software is maintained and replaced',
+    'PR.IR-01': 'Incident response plans are established',
+    'PR.IR-02': 'Incident response is performed',
+    'DE.CM-01': 'Networks are monitored for anomalies',
+    'DE.CM-02': 'Physical environment is monitored',
+    'DE.AE-02': 'Adverse events are analyzed',
+    'RS.MA-01': 'Incident response plan is executed',
+    'RS.CO-02': 'Stakeholders are notified of incidents',
+    'RS.CO-03': 'Information is shared with designated parties',
+    'RC.RP-01': 'Recovery plan is executed',
+  };
+  return nistTitles[id] || '';
+}
+
+function getIsoTitle(id) {
+  const isoTitles = {
+    'A.5.1': 'Policies for information security',
+    'A.5.2': 'Information security roles and responsibilities',
+    'A.5.3': 'Segregation of duties',
+    'A.5.4': 'Management responsibilities',
+    'A.5.9': 'Inventory of information and other associated assets',
+    'A.5.10': 'Acceptable use of information and assets',
+    'A.5.12': 'Classification of information',
+    'A.5.15': 'Access control',
+    'A.5.17': 'Authentication information',
+    'A.5.19': 'Information security in supplier relationships',
+    'A.5.22': 'Monitoring, review and change management of supplier services',
+    'A.5.23': 'Information security for use of cloud services',
+    'A.5.24': 'Incident management planning and preparation',
+    'A.5.25': 'Assessment and decision on information security events',
+    'A.5.26': 'Response to information security incidents',
+    'A.5.29': 'Information security during disruption',
+    'A.5.30': 'ICT readiness for business continuity',
+    'A.5.36': 'Compliance with policies, rules and standards',
+    'A.6.6': 'Confidentiality or non-disclosure agreements',
+    'A.7.1': 'Physical security perimeters',
+    'A.7.4': 'Physical security monitoring',
+    'A.8.1': 'User endpoint devices',
+    'A.8.3': 'Information access restriction',
+    'A.8.7': 'Protection against malware',
+    'A.8.8': 'Management of technical vulnerabilities',
+    'A.8.9': 'Configuration management',
+    'A.8.12': 'Data leakage prevention',
+    'A.8.13': 'Information backup',
+    'A.8.14': 'Redundancy of information processing facilities',
+    'A.8.15': 'Logging',
+    'A.8.16': 'Monitoring activities',
+    'A.8.20': 'Networks security',
+    'A.8.21': 'Security of network services',
+    'A.8.24': 'Use of cryptography',
+    'A.8.25': 'Secure development life cycle',
+    'A.8.26': 'Application security requirements',
+    '5.1': 'Leadership and commitment',
+    '6.1.2': 'Information security risk assessment',
+    '6.1.3': 'Information security risk treatment',
+    '9.2': 'Internal audit',
+    '9.3': 'Management review',
+  };
+  return isoTitles[id] || '';
 }
 
 function filterTemplates() {
