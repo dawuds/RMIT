@@ -1588,7 +1588,7 @@ async function render() {
         app.innerHTML = `<div class="main">${renderLoading()}</div>`;
         state.templates = await fetchJSON('templates/index.json');
         if (!state.templates) {
-          showError('templates/index.json');
+          renderError('templates/index.json');
           return;
         }
       }
@@ -1802,7 +1802,7 @@ function exportToCSV() {
       }
     }
   } else if (view === 'risk-management') {
-    const list = state.riskManagement?.register || [];
+    const list = state.riskMgmt?.register || [];
     data = list.map(r => ({
       ID: r.id,
       Risk: r.risk,
