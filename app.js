@@ -14,6 +14,25 @@ const state = {
   route: { view: 'overview' },
 };
 
+// ---- Compliance Tracker ----
+const complianceTracker = typeof ComplianceTracker !== 'undefined' ? new ComplianceTracker('rmit') : null;
+let complianceTrackerInitialised = false;
+
+function initComplianceTracker() {
+  if (!complianceTracker || complianceTrackerInitialised || !state.controls) return;
+  const list = [];
+  const { domains, library } = state.controls;
+  for (const [domainId, controls] of Object.entries(library)) {
+    const domainName = domains[domainId]?.name || domainId;
+    for (const ctrl of controls) {
+      list.push({ slug: ctrl.slug, name: ctrl.name, domain: domainId, domainName: domainName });
+    }
+  }
+  complianceTracker.init(list);
+  complianceTracker.setupGlobalEvents();
+  complianceTrackerInitialised = true;
+}
+
 const cache = new Map();
 
 function renderError(path, error) {
@@ -53,6 +72,7 @@ function parseHash() {
   if (hash === 'risk-management') return { view: 'risk-management' };
   if (hash === 'risk' ) return { view: 'risk-management' };
   if (hash.startsWith('risk/')) return { view: 'risk-management', sub: hash.slice(5) };
+  if (hash === 'compliance') return { view: 'compliance' };
   if (hash === 'reference') return { view: 'reference' };
   if (hash.startsWith('reference/')) return { view: 'reference', sub: hash.slice(10) };
   if (hash === 'templates') return { view: 'reference' };
@@ -521,6 +541,7 @@ function renderControlsBrowser() {
                 ${controls.map(ctrl => `
                   <li><a class="clause-link" href="#control/${ctrl.slug}">
                     <span class="clause-title">${escHtml(ctrl.name)}</span>
+                    ${complianceTracker && complianceTrackerInitialised ? complianceTracker.renderBadge(ctrl.slug) : ''}
                     <span class="badge badge-type">${escHtml(ctrl.type)}</span>
                     <span style="font-size:0.75rem;color:var(--text-muted)">${ctrl.clauses.length} clause${ctrl.clauses.length !== 1 ? 's' : ''}</span>
                   </a></li>`).join('')}
@@ -1515,6 +1536,7 @@ async function render() {
       if (artifactInventory && artifactClauseMap) {
         state.artifacts = { inventory: artifactInventory, clauseMap: artifactClauseMap.clauseToArtifacts };
       }
+      initComplianceTracker();
     } catch (err) {
       app.innerHTML = `<div class="error-state">Failed to load data: ${escHtml(err.message)}</div>`;
       return;
@@ -1540,11 +1562,13 @@ async function render() {
             fetchJSON('controls/clause-map.json'),
           ]);
           state.controls = buildControlsState(domains, library, clauseMap);
+          initComplianceTracker();
         } catch (err) {
           app.innerHTML = `<div class="main"><div class="error-state">Failed to load controls: ${escHtml(err.message)}</div></div>`;
           return;
         }
       }
+      initComplianceTracker();
       if (route.view === 'control-detail') {
         if (!state.artifacts) {
           const [inventory, clauseMap] = await Promise.all([
@@ -1594,10 +1618,36 @@ async function render() {
       }
       content = renderReference();
       break;
+    case 'compliance':
+      if (!state.controls) {
+        app.innerHTML = `<div class="main">${renderLoading()}</div>`;
+        try {
+          const [domains, library, clauseMap] = await Promise.all([
+            fetchJSON('controls/domains.json'),
+            fetchJSON('controls/library.json'),
+            fetchJSON('controls/clause-map.json'),
+          ]);
+          state.controls = buildControlsState(domains, library, clauseMap);
+          initComplianceTracker();
+        } catch (err) {
+          app.innerHTML = `<div class="main"><div class="error-state">Failed to load controls: ${escHtml(err.message)}</div></div>`;
+          return;
+        }
+      }
+      initComplianceTracker();
+      // Dashboard will be rendered after innerHTML is set
+      content = renderBreadcrumbs([{ label: 'Home', hash: '' }, { label: 'Compliance Dashboard' }]) + '<div id="ct-dashboard-mount"></div>';
+      break;
     default: content = renderOverview();
   }
 
   app.innerHTML = `<div class="main">${content}</div>`;
+
+  // Render compliance dashboard into mount point
+  if (route.view === 'compliance' && complianceTracker && complianceTrackerInitialised) {
+    const mount = document.getElementById('ct-dashboard-mount');
+    if (mount) complianceTracker.renderDashboard(mount);
+  }
 
   const searchInput = document.getElementById('search-input');
   if (searchInput && route.view === 'search') searchInput.value = route.query || '';
@@ -1837,43 +1887,42 @@ function exportToCSV() {
 
 // === Compliance Gap Tracker Logic ===
 
+// Legacy compliance functions — delegate to ComplianceTracker module
 function getComplianceStatus(slug) {
-  const data = JSON.parse(localStorage.getItem('rmit_compliance_status') || '{}');
-  return data[slug] || 'pending';
+  if (complianceTracker && complianceTrackerInitialised) {
+    return complianceTracker.getState(slug);
+  }
+  return 'not-started';
 }
 
 function setComplianceStatus(slug, status) {
-  const data = JSON.parse(localStorage.getItem('rmit_compliance_status') || '{}');
-  data[slug] = status;
-  localStorage.setItem('rmit_compliance_status', JSON.stringify(data));
+  if (complianceTracker && complianceTrackerInitialised) {
+    complianceTracker.setState(slug, status);
+  }
   render();
 }
 
 function renderComplianceToggle(slug) {
-  const status = getComplianceStatus(slug);
-  const options = [
-    { id: 'pending', label: 'Pending', color: '#64748b' },
-    { id: 'compliant', label: 'Compliant', color: '#22c55e' },
-    { id: 'gap', label: 'Gap (Non-Compliant)', color: '#ef4444' },
-    { id: 'na', label: 'Not Applicable', color: '#94a3b8' }
-  ];
-
-  const current = options.find(o => o.id === status);
+  if (!complianceTracker || !complianceTrackerInitialised) return '';
+  const status = complianceTracker.getState(slug);
+  const meta = ComplianceTracker.STATUS_META;
+  const options = ComplianceTracker.STATUS_ORDER;
 
   return `
-    <div class="compliance-tracker-box" style="background:var(--bg-card); border:1px solid var(--border); border-radius:12px; padding:1.25rem; margin-bottom:1.5rem; display:flex; align-items:center; gap:1.5rem; flex-wrap:wrap">
+    <div class="compliance-tracker-box" style="background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); padding:1.25rem; margin-bottom:1.5rem; display:flex; align-items:center; gap:1.5rem; flex-wrap:wrap">
       <div>
-        <div style="font-size:0.75rem; font-weight:700; text-transform:uppercase; color:var(--text-dim); margin-bottom:0.35rem">Compliance Status</div>
-        <div style="font-size:1.1rem; font-weight:700; color:${current.color}">
-          ${current.label}
+        <div style="font-size:0.75rem; font-weight:700; text-transform:uppercase; color:var(--text-muted); margin-bottom:0.35rem">Compliance Status</div>
+        <div style="font-size:1.1rem; font-weight:700; color:${meta[status].color}">
+          ${meta[status].icon} ${meta[status].label}
         </div>
       </div>
       <div style="margin-left:auto; display:flex; gap:0.5rem; flex-wrap:wrap">
-        ${options.map(o => `
-          <button 
-            onclick="setComplianceStatus('${slug}', '${o.id}')"
-            style="cursor:pointer; border:1px solid ${status === o.id ? o.color : 'var(--border)'}; background:${status === o.id ? o.color + '15' : 'var(--bg-card)'}; color:${status === o.id ? o.color : 'var(--text-secondary)'}; padding:0.4rem 0.75rem; border-radius:6px; font-size:0.75rem; font-weight:600; transition:all 0.2s"
-          >${o.label}</button>
+        ${options.map(s => `
+          <button
+            onclick="setComplianceStatus('${slug}', '${s}')"
+            class="ct-btn${status === s ? ' ct-btn-active' : ''}"
+            style="border-color:${status === s ? meta[s].color : 'var(--border)'}; background:${status === s ? meta[s].bgColor : 'var(--surface)'}; color:${status === s ? meta[s].color : 'var(--text-secondary)'}"
+          >${meta[s].icon} ${meta[s].label}</button>
         `).join('')}
       </div>
     </div>
