@@ -4,6 +4,12 @@
     "lastUpdated": "2026-03-09",
     "alignment": "BNM RMiT Nov 28, 2025"
   },
+  "_source": {
+    "sourceDocument": "Risk Management in Technology (BNM/RH/PD 028-100)",
+    "sourceVersion": "Nov 2025 revision",
+    "sourceDate": "2025-11-28",
+    "sourceURL": "https://www.bnm.gov.my"
+  },
   "domains": [
     {
       "slug": "governance-and-oversight",
@@ -1083,7 +1089,7 @@
         "10.32"
       ],
       "keyActivities": [
-        "Define RTO and RPO for all critical systems with Board-approved targets aligned to BNM requirements \u2014 typically RTO of 4 hours or less for Tier-1 payment and core banking systems",
+        "Define RTO and RPO for all critical systems with Board-approved targets aligned to BNM requirements — typically RTO of 4 hours or less for Tier-1 payment and core banking systems",
         "Maintain a disaster recovery site with adequate infrastructure capacity, network connectivity, and data replication to support full recovery of critical banking operations",
         "Conduct full-scale DR drills at least annually with actual failover to the DR site, validating end-to-end recovery of core banking, RENTAS, FPX, DuitNow, and internet/mobile banking services",
         "Document and track DR test results, gaps identified, and remediation actions with reporting to the Board Risk Committee and retention for BNM examination",
